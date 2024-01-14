@@ -92,16 +92,24 @@
 @flash time=700
 @wait time=1500
 @mset l=6 h=true
-Then, the swirling colors become one.
-Ten thousand colors become one and the same.
-Yes-- they become black.
-I can't see whatever lurks there anymore.
-I cannot see through the overwhelming black.
+;//Then, the swirling colors become one.
+;//Ten thousand colors become one and the same.
+;//Yes-- they become black.
+;//I can't see whatever lurks there anymore.
+;//I cannot see through the overwhelming black.
+接着，那些旋转着的色彩开始归一
+数万种颜色逐渐合为一体
+是的，是黑色
+我看不见有没有人藏着
+我看不透这压倒性的黑色
 @waitclk
 @mset l=5 h=true
-Oh, what a wonderful world.
-A colorful world.
-A world full of surprises.
+;//Oh, what a wonderful world.
+;//A colorful world.
+;//A world full of surprises.
+啊，多么美妙的世界啊
+多么多彩的世界啊
+多么令人惊喜的世界啊
 @waitclk
 @mset l=3 h=true
 Yes, the world really is colorful.
@@ -116,65 +124,92 @@ Yes, the world really is colorful.
 ;//mwonでモノローグモードを抜けます。
 @v s=40001
 @【？？？】
-"... Alright, that's enough."
+;//"... Alright, that's enough."
+"...好的，这就够了"
 @page
-Suddenly, I hear a voice calling out in the darkness.
+;//Suddenly, I hear a voice calling out in the darkness.
+突然，我听见黑暗中传来声音
 @page
-I find another color inside the black.
+;//I find another color inside the black.
+我在这黑暗中又发现了一种颜色
 @page
-Such a nostalgic color.
-Perhaps this color was stolen from me.
-Destiny. A soul. In other words, life.
+;//Such a nostalgic color.
+;//Perhaps this color was stolen from me.
+;//Destiny. A soul. In other words, life.
+这种颜色让我犯起了乡愁
+或许这颜色本身是属于我的
+稠密的，灵魂。换句话说，生命。
 @page
 @v s=40002
 @【？？？】
-"... Takamichi Itaru. Takamichi Itaru. Takamichi Itaru."
+;//"... Takamichi Itaru. Takamichi Itaru. Takamichi Itaru."
+"高道至。高道至。高道至。"
 @page
-The name repeated in the black――
-I only need a little time to realize that it's mine.
+;//The name repeated in the black――
+;//I only need a little time to realize that it's mine.
+一个名字在黑暗中被重复呼喊着――
+我不一会便明白了，这是我的名字
 @page
 @【至】
-"... Ah, yeah... I can hear you."
+;//"... Ah, yeah... I can hear you."
+"...啊，是...我能听得见"
 @page
 @v s=40003
 @【？？？】
-"Then get up. The door has been closed, by none other than the hands of the father."
+;//"Then get up. The door has been closed, by none other than the hands of the father."
+"那就快起来。这扇门已经被关闭了，被'父亲'亲手关闭"
 @page
-I don't understand what that means.
+;//I don't understand what that means.
+我没听懂这是什么意思
 @page
-A door?　Closed? Father?
-Did my father do something?
-Wait, if the voice says that he closed the door, then――
+;//A door?　Closed? Father?
+;//Did my father do something?
+;//Wait, if the voice says that he closed the door, then――
+门？关上？父亲?
+我的父亲做了什么事情嘛？
+等等，既然这个声音说门被关上了，那么――
 @page
 @【至】
-"Mom... Mom... it's been so long... tell me... why you were alone there...... 
-swinging..."
+;//"Mom... Mom... it's been so long... tell me... why you were alone there...... 
+;//swinging..."
+"妈妈...妈妈... 在很久以前... 跟我说... 为什么你孤零零地在这......摇来摇去的"
 @page
 @v s=40004
 @【？？？】
-"Are you still half asleep? Hurry up and open your eyes."
+;//"Are you still half asleep? Hurry up and open your eyes."
+"你还是半睡半醒的嘛？快点睁开眼睛起来。"
 @page
 @【至】
-"... Huh?　Wait... I'm still alive?!"
+;//"... Huh?　Wait... I'm still alive?!"
+"... 啊？ 等等... 我还活着?!"
 @page
 @v s=40005
 @【？？？】
-"Just open your eyes and you'll understand."
+;//"Just open your eyes and you'll understand."
+"先睁开你的眼睛，然后你就会明白了"
 @page
-The speaker falls silent.
+;//The speaker falls silent.
+声音的来源安静了下来
 @page
-I can't tell if it's a man or a woman, an adult or a child.
-Rather than calling it a gender neutral voice, I would say that I can't tell enough from the voice alone to tell who's speaking.
+;//I can't tell if it's a man or a woman, an adult or a child.
+;//Rather than calling it a gender neutral voice, I would say that I can't tell enough from the voice alone to tell who's speaking.
+我区分不出来那是一个男人还是女人，大人还是小孩
+应该说是我无法单单从这一种声音去判断男女了，而不是说声音是中性的
 @page
 @【至】
-"... Tch, alright."
+;//"... Tch, alright."
+"... 嗷，好的。"
 @page
-Muttering, I try to sit up.
+;//Muttering, I try to sit up.
+我自言自语地尝试先坐起来
 @page
-My whole body is stiff, and my eyelids are hard to move.
-I feel heavy, and I ache all over. I want to go back to sleep.
+;//My whole body is stiff, and my eyelids are hard to move.
+;//I feel heavy, and I ache all over. I want to go back to sleep.
+我感觉身体僵住了，眼皮也睁不开
+我感觉身体很沉重，全身都好疼。我又想睡过去了
 @page
-However――
+;//However――
+但是――
 @page
 @bgm fade=out
 ;【背景】イメージ。不可思議な空間
@@ -185,37 +220,49 @@ However――
 @bgm s=bgm08
 ;@fi s=fi**** pos=****
 @mwon
-How can I describe a place like this?
+;//How can I describe a place like this?
+我该怎么描述这个地方呢？
 @page
-Colors mix and splash around me like the waves of the ocean,
-the foam turning into spinning spirals.
+;//Colors mix and splash around me like the waves of the ocean,
+;//the foam turning into spinning spirals.
+颜色像海洋一样，混在了一起，在我身边飞溅
+那些泡沫逐渐变成了旋转的螺旋
 @page
 @【至】
-"This doesn't look like any kind of special effects that I've ever seen...
-I wonder which amusement park I'm at?"
+;//"This doesn't look like any kind of special effects that I've ever seen...
+;//I wonder which amusement park I'm at?"
+这看起来不像是我见过的任何一种特效...
+我猜我在一个游乐园?
 @page
 @fi s=f311 pos=c
 @v s=40006
 @【？？？】
-"You have been defeated by your world.
-You are in the mountain of garbage, a chaos that refuses to be defeated."
+;//"You have been defeated by your world.
+;//You are in the mountain of garbage, a chaos that refuses to be defeated."
+"你被这个世界打败了
+你现在在一座垃圾山上，这座山则是由不愿被击败的混沌组成的。"
 @page
 @【至】
-"Is that supposed to be a compliment?"
+;//"Is that supposed to be a compliment?"
+"这算是一种赞美嘛？"
 @page
 @fi s=f559 pos=c
 @v s=40007
 @【？？？】
-"I'm only speaking facts. You died, and you've been resurrected."
+;//"I'm only speaking facts. You died, and you've been resurrected."
+"我只是陈述事实而已。你已经死了，然后你已经被复活了。"
 @page
 @【至】
-"Hah, alright. Thanks a ton. So is this a hospital or something?"
+;//"Hah, alright. Thanks a ton. So is this a hospital or something?"
+"啊，太感谢了。所以说这是一个医院吗？"
 @page
 @fi s=f411 pos=c
 @v s=40008
 @【？？？】
-"We are in the so-called afterlife.
-You might call it the flowerbeds of the river Styx."
+;//"We are in the so-called afterlife.
+;//You might call it the flowerbeds of the river Styx."
+"我们称这个地方为阴间
+你也可以把这里叫做冥河的花坛"
 @page
 @【至】
 "Wha?　You don't sound like you're joking."
