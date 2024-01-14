@@ -265,39 +265,49 @@ Yes, the world really is colorful.
 你也可以把这里叫做冥河的花坛"
 @page
 @【至】
-"Wha?　You don't sound like you're joking."
+;//"Wha?　You don't sound like you're joking."
+"什么?你听起来不像是在说笑。"
 @page
 @fi s=f311 pos=c
 @v s=40009
 @【？？？】
-"Of course I'm not. Why would there be a hospital in the afterlife,
+;//"Of course I'm not. Why would there be a hospital in the afterlife,
 or near the Styx?"
+"我当然没说笑。阴间或者冥河旁边怎么可能会有医院呢？"
 @page
 @【至】
-"If you died while you were in the hospital, then there would be one."
+;//"If you died while you were in the hospital, then there would be one."
+"既然已经死了，那就没有必要在医院了。"
 @page
 @fi s=f414 pos=c
 @v s=40010
 @【？？？】
-"That's right. Have you started to understand?
-If you have, then you should start by praying to the Father."
+;//"That's right. Have you started to understand?
+;//If you have, then you should start by praying to the Father."
+"这没问题。所以你已经开始理解了吧？
+如果你已经理解了，那么你就应该开始祈祷了"
 @page
 @【至】
-"Yeah, I'll pass. Is this a cult or something?"
+;//"Yeah, I'll pass. Is this a cult or something?"
+"是的，我明白了。这是一种什么新的宗教吗？"
 @page
 @fi s=f311 pos=c
 @v s=40011
 @【？？？】
-"No. It is source of the tradition of religion.
-Believe. Don't people say that if you believe, you will be saved?"
+;//"No. It is source of the tradition of religion.
+;//Believe. Don't people say that if you believe, you will be saved?"
+"不，这只是传统的信仰而已
+相信它。不是说信则灵，不信则不灵吗？"
 @page
 @【至】
-"Wha?　God, I doubt that..."
+;//"Wha?　God, I doubt that..."
+"什么？主啊，我想..."
 @page
 @fi s=f212 pos=c
 @v s=40012
 @【？？？】
-"Don't speak His name in vain. You will be cursed."
+;//"Don't speak His name in vain. You will be cursed."\
+"不要在虚空中说祂的名字，你会被诅咒的。"
 @page
 @【至】
 "Why would I be cursed? This is God we're talking about, right?"
