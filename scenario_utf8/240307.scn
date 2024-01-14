@@ -1,0 +1,17 @@
+﻿;240307
+*240307|_クイズ！　次はおまえだ！
+;【ＳＥ】ハズレブザー
+;【備考】無いかも
+@se s=se139
+@fi s=f55a pos=lc
+@v s=40537
+@【ファヌル】
+"I see. So in other words, you don't want her to be rescued. What a great fiancee."
+@page
+@fi s=f311 pos=lc
+@v s=40538
+@【ファヌル】
+"However, even if you intend to help, it's doubtful that you can really do it."
+@page
+;→240309
+@jump storage="240309.scn"

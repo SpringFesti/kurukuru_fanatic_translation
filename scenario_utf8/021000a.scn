@@ -1,0 +1,316 @@
+﻿;021000a
+*021000a|祀利の秘密
+;【ワイプ】場面転換
+;【背景】主人公自室・夕方
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01e trans=tile
+@bgm s=bgm02
+@mwon
+@【至】
+"Guess that's the end of it, huh?"
+@page
+Today was full of events too.
+I have a feeling that's how it's going to be for the next few days."
+@page
+@【至】
+"...Am I going to last through it?"
+@page
+;【備考】電話越しの声に加工
+@bgm s=bgm08
+@v s=40386
+@【ファヌル】
+"--That's up to you."
+@page
+;【ＳＥ】携帯電話着信音　ループ
+@se s=se027 loop=true
+My phone rings in my pocket.
+I pull it out in a panic--
+@page
+@se fade=stop
+@v s=40387
+@【ファヌル】
+"Sigh... don't strain yourself."
+@page
+@fi s=f112 pos=c trans=inblink time=1000
+I can't explain it.
+The only thing I can tell you is that Fanuel
+slipped out of my phone into the real world.
+@page
+@【至】
+"Yeek."
+@page
+@fi s=f559 pos=c
+@v s=40388
+@【ファヌル】
+"Jeez, what's with that reaction?"
+@page
+@【至】
+"It's nothing... it's just kinda creepy."
+@page
+That reminded me of how a slug moves.
+Icky, slimy and downright gross.
+@page
+@fi s=f312 pos=c
+@v s=40389
+@【ファヌル】
+"Whatever, who cares about how I move?
+Isn't there something you should be saying?"
+@page
+@【至】
+"Huh? Hmm... what do you mean?"
+@page
+@v s=40390
+@【ファヌル】
+"What?"
+@page
+@【至】
+"No, I mean, did anything special happen?"
+@page
+@fi s=f656 pos=c
+Fanuel heaves a large sigh. Completely deliberate, of course.
+@page
+@fi s=f112 pos=c
+@v s=40391
+"That's not it. You're with an angel, aren't you?
+No number of thankful words is enough.
+@page
+I guess that's true.
+She is kinda cute, in a way.
+@page
+@fi s=f113 pos=c
+@v s=40392
+@【ファヌル】
+"Don't say unnecessary things."
+@page
+@【至】
+"I didn't say anything, I thought it.
+If you don't like it, stop reading my mind."
+@page
+@fi s=f411 pos=c
+@v s=40393
+@【ファヌル】
+"That's a hard thing to say.
+Like a dick thrusting into a pussy."
+@page
+Ugh, that's a horrible expression.
+There is NO way she's an angel.
+@page
+@fi s=f55b pos=c
+@v s=40394
+@【ファヌル】
+"But I am nonetheless. My morality is far beyond that of a human's.
+@page
+Yeah, yeah, whatever.
+So what?
+@page
+@fi s=f312 pos=c
+@v s=40395
+@【ファヌル】
+"So get to the thanking words already.
+I'll forgive your giant mistake if you do."
+@page
+Hm, she is kinda cute like this.
+So here's my response-- thank you.
+@page
+@fi s=f111 pos=c
+@【ファヌル】
+"......"
+@page
+@fi s=f312 pos=c
+@v s=40396
+@【ファヌル】
+"Come on, say it."
+@page
+@【至】
+"I did."
+@page
+@fi s=f55a pos=c
+@v s=40397
+@【ファヌル】
+"Well, I didn't hear it."
+@page
+@【至】
+"Of course you did. I just thought it."
+@page
+Oh, wait, she actually wants me to say it out loud?
+@page
+@fi s=f559 pos=c
+@v s=40398
+@【ファヌル】
+"And?"
+@page
+I thought it would be okay, since she can read minds.
+@page
+@fi s=f112 pos=c
+She shakes her head.
+That's cute too.
+@page
+@fi s=f311 pos=c
+@v s=40399
+@【ファヌル】
+"Stop with the pointless things. Come on, say it."
+@page
+@【至】
+"Alright......... thank you."
+@page
+@fi s=f112 pos=c
+She shakes her head again.
+@page
+@v s=40400
+@【ファヌル】
+"What was that? That's not what you were thinking."
+@page
+@【至】
+"Alright, thank you."
+@page
+@fi s=f113 pos=c
+@v s=40401
+@【ファヌル】
+"THOUGHTS."
+@page
+Oh, I think I get what she's saying...
+She won't accept it if my heart isn't in it.
+@page
+...alright. So, I'll--
+@page
+@【至】
+"Thank you."
+Thank you.
+@page
+Is that good?
+It's both in quotation marks and out of them.
+@page
+@fi s=f65a pos=c
+@v s=40402
+@【ファヌル】
+"Well, I guess you pass. That's probably your human limit.
+@page
+@【至】
+"So... what was that all about?
+Am I going to die after all?"
+@page
+@fi s=f559 pos=c
+@v s=40403
+@【ファヌル】
+"Naturally. Humans can't escape death."
+@page
+@【至】
+"Not what I meant!"
+@page 
+@【至】
+"...I'm asking you if I only have 4 days left."
+@page
+That's counting today.
+After today, I only have three.
+@page
+I report some things to Fanuel in my head.
+@page
+① I don't know who killed me.
+② I don't know how they killed me.
+③ I don't know how to find either of those out.
+@page
+@fi s=f55a pos=c
+@v s=40404
+@【ファヌル】
+"You're completely in the dark."
+@page
+@【至】
+"So can you tell me? Was there anything out of the ordinary today?"
+@page
+@fi s=f111 pos=c
+@v s=40405
+@【ファヌル】
+"I wonder."
+@page
+@【至】
+"What the hell's that supposed to mean!?
+This is my life we're talking about!"
+@page
+@fi s=f559 pos=c
+@v s=40406
+@【ファヌル】
+"So what?"
+@page
+@fi s=f55a pos=c
+@v s=40407
+@【ファヌル】
+"Men are mortal. Death and life are both equal.
+What are you afraid of? Why are you angry?"
+@page
+I can't refute her.
+But if I can argue in just one way--
+@page
+@【至】
+"...I'm human, so I'm afraid.
+I'm mortal... so I don't want to die!"
+@page
+I vaguely remember that pain.
+I vaguely remember that sinking sensation.
+@page
+That was my death, my mind sinking into darkness, disappearing.
+@page
+@【至】
+"...I know I'll die someday.
+But... but not for a while.
+I don't want to die in three days!"
+@page
+That was the truth.
+@page
+@fi s=f559 pos=c
+I'm answered only with a disgusted sigh.
+Fanuel turns her back on me, and looks towards the door.
+@wait time=500
+@fi id=f
+@page
+@【至】
+"...So I guess she doesn't understand after all."
+@page
+She doesn't understand my cries.
+A human being's feelings.
+@page
+@fi s=f111 pos=c
+@v s=40408
+@【ファヌル】
+"Angels do not have hearts.
+But they carry out their duties anyway."
+@page
+？
+@page
+@fi s=f559 pos=c
+@v s=40409
+@【ファヌル】
+"It's not strange.
+However, I don't think your fate has been changed."
+@page
+@【至】
+"... ah..."
+@page
+@fi s=f311 pos=c
+@v s=40410
+@【ファヌル】
+"Well, struggle as best you can.
+Try your best to change your death."
+@page
+@【至】
+"...Thanks."
+@page
+From the bottom of my heart, thank you.
+@page
+;@fi s=f112 pos=c
+She only waves her hand at me.
+With that, she leaves my room.
+@fi id=f
+@page
+@【至】
+"How do I die...
+Even that, I don't know..."
+@page
+But I'll try my best to find out.
+@page
+@mwoff
+@bgm fade=out
+;→021001
+@jump storage="021001.scn"

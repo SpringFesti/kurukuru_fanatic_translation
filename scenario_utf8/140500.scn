@@ -1,0 +1,125 @@
+﻿;140500
+*140500|捕らわれた至
+;【備考】主人公視点
+;【ワイプ】視点変更
+;【背景】かごめ自室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07d trans=波
+@bgm s=bgm15
+@mwon
+Where am I?
+@page
+I don't know this ceiling, and I don't know this room.
+So, I don't know where I am.
+@page
+At first I thought the room smelled sweet,
+but perhaps that was a mistaken first
+impression.
+@page
+So where am I?
+@page
+No matter how much I try, I can't remember.
+I can't recognize anything.
+@page
+;【ＳＥ】ガチャガチャ　手錠の鎖が鳴る音
+... Huh?
+@page
+I try to get up and see if I can recognize something outside of the room.
+@page
+But I can't get up.
+No matter how much I try, a clinking sound
+rings in my ears whenever I try to sit up.
+@page
+...... Clinking?
+@page
+@【至】
+"W-What the hell!?"
+@page
+I cannot get up.
+My hands and feet are tightly bound with rope,
+and I've been handcuffed to the bed.
+@page
+Moreover, I'm completely naked.
+I didn't think the day would come
+when I'd be humiliated like this.
+@page
+@【至】
+"What the hell is...
+Where the hell am I...?"
+@page
+;フェスタ
+;【立ち絵】立ち絵無し
+;【備考】ゲームでは話者表記無し
+@v s=21665
+@【祀利】
+"This is all your fault, you know."
+@page
+@fi s=m647 pos=c
+;【立ち絵】祀利立ち絵表示
+@【至】
+"Matsuri!"
+@page
+@fi s=m647 move=lc
+@fi s=k114 pos=rc
+@v s=30968
+@【かごめ】
+"I'm here too. After all, this is my room."
+@page
+@【至】
+"Otogiri-san too..."
+@page
+... Oh, of course.
+@page
+Matsuri had knocked me out, and then
+Otogiri-san had restrained me in her room.
+@page
+Even I can understand what kind of circumstances
+led to this situation.
+@page
+In other words, I've been kidnapped by these two.
+I can't believe it, but these two actually cooperated.
+@page
+With their appearance, any hope I had to escaping my
+restraints was just snuffed out.
+@page
+@【至】
+"What... What are you going to do to me?"
+@page
+End of the line. If there's a time for that expression, it's now.
+@page
+There's no way to stop these two if they're cooperating.
+With or without these restraints.
+@page
+@v s=21666
+@【祀利】
+"Don't be afraid.
+We're going to have some fun together."
+@page
+@【至】
+"Fun?"
+@page
+@fi s=k445 pos=rc
+@v s=30969
+@【かごめ】
+"Yes... lots of fun."
+@page
+Sharing a smile, the two of them start to take off
+their clothes, almost like a signal was given.
+@page
+@setOnce
+@fi s=m637 pos=lc
+@fi s=k435 pos=rc
+@endOnce
+;【立ち絵】祀利、かごめ立ち絵　裸
+@v s=21667
+@【祀利】
+"And... something very pleasurable..."
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+;→140501
+@jump storage="140501.scn"

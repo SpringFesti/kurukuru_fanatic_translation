@@ -1,0 +1,121 @@
+﻿;260101
+*260101|_４人で１人
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【背景】住宅街路上/夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08n trans=ランダム
+@bgm s=bgm10
+@mwon
+@【警官】
+"Contact from the sniper spot! Success! Success!
+Move to break in immediately!"
+@page
+@fi s=w411 pos=c
+@v s=10688
+@【わずか】
+"I thought they were getting rushed, but that's how it turned out."
+@page
+SWAT-looking guys crowd around Itaru's house like maggots.
+@page
+@fi s=w415 pos=c
+This is the end. I chuckle to myself.
+@page
+I've explained many times to the police that Itaru-kun is a victim here, and that bitch is the one at fault.
+Itaru-kun will not be charged with any crimes.
+@page
+@fi s=w112 pos=c
+As for the sniper, it's only natural that he hit the target. If not, I would have killed him.
+@page
+@fi s=w113 pos=c
+The only thing I'm worried about now is if Itaru will be hurt when the police charge in.
+@page
+@fi s=w411 pos=c
+The special forces are exchanging some signals.
+It seems they're about to charge in.
+@page
+@fi s=w214 pos=c
+@v s=10689
+@【わずか】
+"Yes... Finally, Itaru-kun and I can return to our peaceful everyday life."
+@page
+When I imagine the honeymoon-like life that we'll be returning to, it feels like my heart is soaring in the clouds.
+@page
+@fi s=w111 pos=c
+Well, there is that gloomy pig-like woman.
+@page
+@fi s=w413 pos=c
+@v s=10690
+@【わずか】
+"Come on, what're you waiting for?
+Go rush in, you--"
+@page
+@mwoff
+;【演出】爆発演出
+@se s=se098
+@flash time=1000
+@qk time=1000
+@wait time=1000
+@mwon
+@fi s=w119 pos=c
+@v s=10691
+@【わずか】
+"W-What!?"
+@page
+@【警官】
+"Evacuate! Evacuate! The criminal blew himself up!"
+@page
+@fi s=w113 pos=c
+@v s=10692
+@【わずか】
+"T-That's...! Itaru-kun! Itaru-kun!"
+@page
+@【警官】
+"Ah, you, watch out! Don't get close!"
+@page
+@fi s=w11a pos=c
+@act id=w t=hit
+@v s=10693
+@【わずか】
+"Let me go! Itaru-kun is...!
+Itaru-kun isssssssss!"
+@page
+@bgm fade=out
+;【背景】住宅街路上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=clock
+@bgm s=bgm05
+@fi s=w111 pos=c
+@mwon
+At last, after dawn broke, the police inspection began.
+@page
+@fi s=w113 pos=c
+When I look at it under the light of the sun, I understand well the power of the explosion.
+@page
+Although the framework of Itaru-kun's house is intact, the inside is a mess.
+@page
+The corpse has still not been found.
+The police said that it's possible the body broke apart, and that it would be impossible to identify.
+@page
+@fi s=w113 pos=c
+@v s=10694
+@【わずか】
+"... It's okay, Itaru-kun. I'll find you without fail."
+@page
+@fi s=w546 pos=c
+@v s=10695
+@【わずか】
+"No matter what form you take, I'll surely understand it."
+@page
+Tears run down my cheek...
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+;【備考】ここでスタッフロールでもいいかも
+;→260102
+@jump storage="260102.scn"

@@ -1,0 +1,185 @@
+﻿;330300
+*330300|答えと姉と
+;【ワイプ】場面転換および視点変更
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ランダム
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+Here's an abrupt topic.
+I think the teacher might be a lolicon.
+@page
+In other words, I'm talking about this.
+@page
+I think that Matsuri might think something bad,
+so I enter the classroom a few seconds ahead of Otogiri-san, even though we came together.
+Naturally I'm tardy, since I came in at the last minute.
+@page
+However, I'm okay when it comes to attendance.
+-- Because Matsuri handled it.
+@page
+@fi s=m212 pos=c
+@v s=21453
+@【祀利】
+"Itaruuu! Matsuri did real good, huh?♪"
+@page
+So ya did do yer best, did ya? (Written entirely in katakana)
+@page
+@fi id=m
+While I'm worried about this school in a certain way, I attend class.
+@page
+Matsuri listened to the teacher seriously, to my surprise.
+Classic literature is usually boring for students, but it seems fresh to her.
+@page
+In any case, it seems like she isn't going to be sleeping like yesterday, so that's good.
+@page
+-- But as I stated above, classic literature isn't interesting for us students.
+To kill some time, I look at Otogiri-san for a bit.
+@page
+Oh, she's awake. And she's looking at me.
+@page
+While I'm interested and I look at her several times,
+Otogiri-san seems to play with her phone for a bit.
+@page
+-- At that moment, I get the hint and take out my phone.
+It looks like my expectations were right on the mark.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30269
+;@【かごめ】
+"Thank you for earlier. It seems that your attendance record is still fine, so that's good."
+@waitclk
+@mwon
+Oh, it seems like her tone has changed.
+But that doesn't seem bad to me at all.
+Rather, it feels like the distance between us has gotten closer, and it feels nice.
+@page
+Uhhh...
+"No, I'm sorry that we're late.
+I'm just lucky that he didn't take attendance seriously." I say.
+@page
+--Starting like that,
+I get absorbed in a texting session before I know it.
+@page
+For these past several days, it's been really calming for me.
+@page
+A casual conversation with the words "Die" and "Kill" in it can only be so peaceful.
+@page
+@【至】
+(... Although THAT happened when we first met,
+it seems like she's a really thoughtful girl.)
+@page
+It feels like my disturbed feelings are starting to soften, somehow.
+Rather, they're softening too much.
+@page
+And because of that, I don't hear the voices around me.
+@page
+@【先生】
+"And so for that reason-- Takamichi."
+@bgm fade=out
+@page
+@bgm s=bgm09
+@【至】
+"-- Huh?"
+@page
+@【先生】
+"What's with the 'huh'? Answer, please."
+@page
+Oh shit, I got called on!? Where's the question!?
+@page
+-- Then, at that time, I get a text from Otogiri-san.
+@page
+I look down at the several pages of text, and see the answer there.
+@page
+@【至】
+(Thanks a ton! You really saved me!)
+@page
+I mutter that inside my mind,
+and speak the answer according to the text.
+@page
+@【先生】
+"... Takamichi... were you listening at all?
+I just said to be careful, since it's easy to mistranslate there."
+@page
+@qk
+@lfont
+W-What!?
+@page
+I consider that I was tricked, and I look at Otogiri-san.
+@page
+@fi s=k348d pos=c
+@v s=30270
+@【かごめ】
+"... No way."
+@page
+@fi id=k
+It seems that she was mistaken.
+@page
+@【先生】
+"Man... listen seriously in class.
+Are you coming to school just to get a date or something?"
+@page
+@se s=se131
+@fi s=m51c pos=c
+@v s=21454
+@【祀利】
+"Hey bub, stop right there! That ain't got nothin' to do with this!
+You want some lead in your shitty face, huh?!"
+@page
+Ah shit, she switched personalities!
+@page
+Certainly, this must be Parade.
+No, that doesn't matter because she's got a gun right now!
+@page
+@sqk
+@【至】
+"CCCCCalm down Matsuri!
+Even if it's a model gun, you shouldn't point it at people!
+Even though it's a model gun!"
+@page
+I raise my voice! Come on, my enthusiasm!
+@page
+@fi s=m315 pos=c
+@v s=21455
+@【祀利】
+"... Tch, I gotcha."
+@page
+@fi id=m
+It seems that she understands what I wanted to say,
+because Parade withdraws coolly.
+The teacher returns to class while muttering something or other.
+@page
+;@bgm s=bgm03
+@【至】
+(Thank god...
+Although the reasons were wrong, at least nobody got hurt...)
+@page
+A text comes while my face is sitting wearily on the desk.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30271
+;@【かごめ】
+"I apologize. I'm really, really sorry.
+It was my fault you got in trouble. I'm sorry."
+@waitclk
+@mwon
+For the time being, I send back "That's not it".
+@page
+@bi s=blank trans=crossfade all=true
+Then, my face falls flat on the desk.
+Honestly, I'm tired.
+Why does my everyday life have to be so harsh?
+@page
+@【至】
+(... Can I really only feel at ease with Otogiri-san?
+Sigh... Gimme a break...)
+@page
+@mwoff
+;→330400
+@bgm fade=stop
+@jump storage="330400.scn"

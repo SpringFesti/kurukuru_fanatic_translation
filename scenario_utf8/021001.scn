@@ -1,0 +1,234 @@
+﻿;021001
+*021001|_祀利の秘密
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【背景】自宅廊下・灯りなし
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02b trans=ランダム
+@bgm s=bgm05
+@fi s=w121 pos=c
+@mwon
+@v s=10456
+@【わずか】
+"...Who is that person?"
+@page
+Of course, I'm talking about that horrible eyesore-- Matsuri.
+@page
+Is she really his fiancee?
+@page
+I suppose that doesn't matter.
+If he chooses her, and is happy, then it's fine.
+@page
+@fi s=w122 pos=c
+@v s=10457
+@【わずか】
+"...Otherwise, I'll kill her."
+@page
+Yes, I must kill her.
+He is happy now, but he is still in danger.
+@page
+So, I will kill her.
+Surely, absolutely, and promptly--
+@page
+@fi s=w421 pos=c
+So I must know all about her.
+Who she is, what she can do, her weak and strong points,
+and everything she's hiding--
+@page
+@v s=10458
+@【わずか】
+"She... probably isn't alone. There may be others.
+Perhaps not... but either way."
+@page
+How many people are "in there"?
+One? Two? Maybe even more?
+@page
+Should I find out?
+Should I reach into the bottom of her mind and drag them out?
+How could I?
+@page
+@setOnce
+@fi s=w421 move=lc
+@fi s=f114 pos=rc
+@endOnce
+@v s=40443
+@【ファヌル】
+"How about hypnosis?"
+@page
+@fi s=w122 pos=lc
+Fanuel appears from the darkness, standing there.
+@page
+@fi s=w121 pos=lc
+A mysterious child. I feel no ill will from her.
+Has she ever bore ill will towards me?
+She hasn't ever made me feel anxious.
+@page
+@fi s=w223 pos=lc
+...Why?
+Didn't she just say something strange?
+To begin with, how long has she been here--
+@page
+@fi s=f311 pos=rc
+@v s=40444
+@【ファヌル】
+"What's up? Is something wrong?"
+@page
+@fi s=w121 pos=lc
+Those are my words.
+Why did she suggest hypnotism? --I hadn't said anything.
+Why aren't I cautious towards her?
+@page
+So the words that came out of my mouth were--
+@page
+@fi s=w124 pos=lc
+@v s=10459
+@【わずか】
+"No, it's nothing. I was just daydreaming.
+@page
+Yes. Just daydreaming. So it should be fine.
+@page
+@fi s=w123 pos=lc
+@v s=10460
+@【わずか】
+"... nn... huh?"
+@page
+@fi s=f115 pos=rc
+@v s=40445
+@【ファヌル】
+"Do you feel sick?"
+@page
+I think I just forgot something very important.
+... What was I thinking about?
+@page
+She's watching me, mysteriously.
+Yes, if she's here, then--
+@page
+@fi s=w121 pos=lc
+@v s=10461
+@【わずか】
+"Sorry... it's nothing.
+Actually... what was that about hypnotism?"
+@page
+@fi s=f111 pos=rc
+@v s=40446
+@【ファヌル】
+"I saw it on TV.
+That's what they do when they suspect someone of having multiple personalities."
+@page
+On TV, they appeal to the deep unconscious and bring out the other personalities.
+@page
+@fi s=w421 pos=lc
+@v s=10462
+@【わずか】
+"Is it reliable?"
+@page
+@fi s=f314 pos=rc
+@v s=40447
+@【ファヌル】
+"Maybe. It is TV, after all.
+But wouldn't it be fun?"
+@page
+Anyway, even if it's reliable or not, it could be worth a try.
+@page
+But I hardly think Matsuri will just let me try it on her.
+So then, I could--
+@page
+@fi s=w124 pos=lc
+@v s=10463
+@【わずか】
+"Hey, Fanuel-chan?"
+@page
+@fi s=f111 pos=rc
+@v s=40448
+@【ファヌル】
+"Yeees?"
+@page
+Maybe my eyes are tricking me in the darkness,
+but I think I see Fanuel-chan laugh a little as she
+says that.
+@page
+My doubts fade away, right then.
+Even the idea of doubt fades away.
+@page
+@fi s=w123 pos=lc
+@v s=10464
+@【わずか】
+"Uuum... wanna try hypnotism?"
+@page
+@v s=40449
+@【ファヌル】
+"On who?"
+@page
+@fi s=w121 pos=lc
+@v s=10465
+@【わずか】
+"On Matsuri. She tried so hard to come to Japan,
+so let's show her something Japanese, right?"
+@page
+@fi s=f314 pos=rc
+@v s=40450
+@【ファヌル】
+"Sure! I'll try out some hypnotism on Matsuri.♪"
+@page
+@fi s=w223 pos=lc
+@v s=10466
+@【わずか】
+"Thank you, Fanuel-chan.
+We'll try it out after dinner... okay?"
+@page
+@fi s=f111 pos=rc
+@v s=40451
+@【ファヌル】
+"Got it. Make sure dinner's ready soon, I'm starving!"
+@page
+@fi s=w224 pos=lc
+@v s=10467
+"Yeah, I'll start it right away."
+@page
+;【立ち絵】ファヌル消去
+@fi id=f
+@fi s=w121 pos=c
+I begin to walk towards the kitchen.
+@page
+My method has been found. If it works, greta.
+If it doesn't... then I'll try something else.
+@page
+@fi s=w125 pos=c
+@v s=10468
+@【わずか】
+"... Yes. I'll erase her altogether."
+@page
+;【備考】遠くから響くように
+@v s=40452 v=50
+"Get along well, kids."
+@page
+@fi s=w122 pos=c
+I hear a voice behind me, and I jump a little.
+@page
+What did you hear--
+I grip the kitchen knife in my pocket, and turn around,
+but she isn't there anymore.
+@page
+@fi s=w121 pos=c
+@v s=10469
+@【わずか】
+"... she really is... mysterious."
+@page
+I mouth my thoughts.
+@page
+@fi s=w123 pos=c
+Who is that mysterious person?
+I was talking to Fanuel-chan earlier.
+She isn't mysterious. She's cute.
+@page
+@fi s=w121 pos=c
+I think I just forgot something again.
+But I don't know what I forgot, so whatever.
+@page
+@fi id=w
+@bgm fade=out
+@mwoff
+;→021002
+@jump storage="021002.scn"

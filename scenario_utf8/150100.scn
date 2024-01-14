@@ -1,0 +1,190 @@
+﻿;150100
+*150100|運命の日
+;【ワイプ】時間経過
+;【ＳＥ】携帯電話着信音　ループ
+;【背景】主人公自室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=clock
+@bgm s=bgm02
+@mwon
+@se s=se027 loop=true
+I think I had a dream.
+@page
+--Wait, isn't this the second time this has happened?
+I think I've said that before.
+@page
+Wait, my phone, my phone...
+Who could be calling this early...
+@page
+;【ＳＥ】携帯電話着信音　ループを停止
+@se s=se013
+@【至】
+"... Whaaallo?"
+@page
+@v s=21685
+@【祀利】
+"Bom dia!"
+@page
+@bgm s=bgm15
+I wake up in an instant.
+The voice I did not want to hear.
+Ever again, if possible.
+@page
+@【至】
+"... What do you want?
+This couldn't be a wake-up call, could it?"
+@page
+@v s=21686
+@【祀利】
+"Well, that too.
+You're a late riser, so I'm waking you up."
+@page
+@【至】
+"Don't do this... ever again."
+@page
+On the other side, Matsuri sighs, not amazed,
+but not disgusted either.
+@page
+I can't help being hostile when I think about yesterday.
+That horrible thing was done to me.
+I can't have a cool head right now.
+@page
+@【至】
+"So... what?
+What do you want from me?"
+@page
+@v s=21687
+@【祀利】
+"Come home immediately after school today. 
+I'll be waiting at your house."
+@page
+@【至】
+"...Huh?"
+@page
+@v s=21688
+@【祀利】
+"Did you hear me? I'll be waiting at your house."
+@page
+@【至】
+"... Are you serious?"
+@page
+If she comes back, she'll meet Wazuka-san...
+It's obvious what would happen.
+@page
+@【至】
+"You asshole, you sent Wazuka-san those pictures, didn't you?
+... Don't you understand what will happen?"
+@page
+@v s=21689
+@【祀利】
+"You think Wazuka will kill me?
+Meaaanie. I'm not that weak."
+@page
+@【至】
+"That's not the problem. Anyway, it's no use."
+@page
+@v s=21690
+@【祀利】
+"I decide whether it's of use or not.
+What Matsuri says, goes."
+@page
+@【至】
+"... Guh!"
+@page
+Because she took those photos yesterday,
+I can't even object.
+@page
+@【至】
+"Goddamn it, don't fuck with me...!"
+@page
+@v s=21691
+@【祀利】
+"You're the one fucking with me.
+Even though Matsuri and Kagome did so many things,
+you wouldn't do anything back!"
+@page
+@【至】
+"No goddamned way! This is on you!
+I never asked for those things, damn it!"
+@page
+@v s=21692
+@【祀利】
+"Even so, we did them.
+Consider that for a while."
+@page
+@se s=se013
+;【ＳＥ】電話が切れる音
+@【至】
+"H, Hey, wait!"
+@se s=se026
+@page
+@se fade=stop
+@【至】
+"... Shit.
+Seriously... what the hell is going on!?"
+@page
+@bgm fade=out
+@fi s=w121 pos=c
+@bgm s=bgm05
+@v s=11202
+@【わずか】
+"Was that Matsuri just now?"
+@page
+@【至】
+"Ah... sorry. I woke you up."
+@page
+@fi s=w122 pos=c
+@v s=11203
+@【わずか】
+"Was it Matsuri?"
+@page
+@【至】
+"No. It's no big deal, don't worry."
+@page
+@fi s=w421 pos=c
+@v s=11204
+@【わずか】
+"Kagome?"
+@page
+@【至】
+"No. Is breakfast ready yet?
+I didn't have dinner last night, so I'm really hungry."
+@page
+@fi s=w123 pos=c
+@v s=11205
+@【わずか】
+"Oh... I'm sorry. I'll go make it now.
+@page
+Sorry, Wazuka-san. I lied, just now.
+@page
+@【至】
+(But please... please understand.
+I don't want to trouble you any further.)
+@page
+This is my problem, and mine alone.
+That's how it should be.
+@page
+@【至】
+(... But, what should I do?
+How can I settle this?)
+@page
+I don't know.
+I have no idea what I should do now.
+@page
+But damn it, I'll do something.
+I have to do something, because that's all I can do.
+@page
+@【至】
+"Alllrighty, time to wash up.
+Wazuka-san, make something awesome, please."
+@page
+I don't know if I have a good expression on my face, right now.
+@page
+Before I notice Wazuka-san's answer,
+I leave the room.
+@page
+;→150101
+@jump storage="150101.scn"

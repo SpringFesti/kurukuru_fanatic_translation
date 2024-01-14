@@ -1,0 +1,314 @@
+﻿;230200
+*230200|宣戦布告
+;【ワイプ】場面転換
+;【背景】青空
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=tile
+@bgm s=bgm03
+@mwon
+@【至】
+"Wow... the weather's awesome today, too."
+@page
+I look up from the school grounds at the clear autumn sky.
+It has a refreshing quality to it that clears the worries from my heart.
+@page
+@bi s=bg11d
+@fi s=m111 pos=c
+@v s=20718
+@【祀利】
+"Itaru, we need to get inside the classroom. Aren't you late?"
+@page
+Well, we certainly don't have much time until school starts.
+@page
+But Matsuri's still hurrying me, probably because
+Wazuka-san will have to leave us when we get into the classroom.
+@page
+@【至】
+"I know, don't pull so much."
+@page
+Pushed by Matsuri, I climb the stairs.
+@page
+@fi id=m time=100
+@se s=se061
+;@fi s=m114 pos=c
+@qk time=500
+@lfont
+@v s=20719
+@【祀利】
+"Kyah!?"
+@page
+For a moment, I didn't understand what was happening.
+A flowerpot shattered on the floor.
+Then, Matsuri collapsed.
+@page
+@【至】
+"Matsuri, are you alright!?"
+@page
+@fi s=m74b pos=c
+@v s=20720
+@【祀利】
+"I'm okay... I managed to dodge it..."
+@page
+@fi s=m749 pos=c
+@v s=20721
+@【祀利】
+"A little further and that would have been it for me.
+I guess I was a little lucky."
+@page
+The flowerpot looks like it was very small, just like
+the ones I see around school.
+@page
+Even if they're small, they're still heavy. It would be bad to be hit with one.
+@page
+@【至】
+"... Damn, if you had gotten hit by this...!"
+@page
+I look up and scowl.
+@page
+@【至】
+"Hey! Who did that!?
+Get out here! You think that was funny!?"
+@page
+From the top of the stairs, several people are looking down at me.
+@page
+They shake their head, as if to say, "Not me".
+They only notice the commotion and look.
+@page
+If it was an accident, they should just come forward and apologize.
+However, even as I wait here, nobody's coming forward.
+@page
+@【至】
+"... so was it on purpose?"
+@page
+A cold shiver runs down my spine.
+I look at Matsuri, uneasy.
+@page
+@fi s=m74a pos=c
+No way, she can't be--
+No, that's still Matsuri. She's brushing the dust from the floor off her clothes.
+@page
+Thank god...
+I sigh in relief.
+@page
+@【至】
+(... I don't know who did it, but they should run.
+Their life is in danger!)
+@page
+Matsuri is-- rather, one of her personalities,
+Parade, isn't going to let this go.
+@page
+If she starts something, it'll be a catastrophe.
+There's no way that it wouldn't.
+@page
+@【至】
+"Ma-Matsuri, calm down.
+It was probably an accident... so don't get mad, okay?"
+@page
+@fi s=m113 pos=c
+@v s=20722
+@【祀利】
+"... Huh? What do you mean?"
+@page
+Matsuri stares at me with a blank expression, just like usual.
+@page
+Usually her personality would have changed by now...
+What's going on?
+@page
+Forcibly wiping my doubting expression from my face,
+I smile at Matsuri, assuring her that nothing is wrong.
+@page
+@fi s=m111 pos=c
+@v s=20723
+@【祀利】
+"It was just an accident.
+One of the flowerpots near the windowsill fell or something."
+@page
+@【至】
+"Really?"
+@page
+Someone should have told us, if that was the case.
+@page
+But when I look around again, there's nobody else around.
+@page
+@fi s=m649 pos=c
+@v s=20724
+@【祀利】
+"Itaru, it's okay. Matsuri is fine. I'm not hurt, and I'm not dead... okay?"
+@page
+@【至】
+"I guess so, but..."
+@page
+Was that really it, though?
+My questions haven't been answered, but it's hard to look for the culprit.
+@page
+@v s=10617
+@【わずか】
+"Itaru-kun... class will start soon."
+@page
+I turn to the voice at my side, and see
+Wazuka-san with a phone in her hand.
+@page
+The time displayed on the screen spelt out my doom.
+@page
+@【至】
+"Crap! Matsuri, come on!"
+@page
+@fi s=m112 pos=c
+@v s=20725
+@【祀利】
+"Okay!"
+@page
+Matsuri smiles, ear to ear, gentle like a child.
+@page
+I might have just been lied to.
+She's the kind of person that would do that.
+A very gentle child.
+@page
+At that point, that's what I thought.
+Because she was too gentle, it turned out that way.
+@page
+@fi s=m213 pos=c
+@v s=20726
+"Itaru, run! We're gonna be late if you don't!"
+@page
+Matsuri's shoes pitter-patter across the floor as she runs towards the classroom.
+@page
+@se s=se078
+@fi id=m
+@【至】
+"H-Hey! Wait! Wait uuuuppppp!"
+@page
+I chase her in a hurry.
+@page
+@wait time=500
+@fi s=w112 pos=c
+@v s=10618
+@【わずか】
+"Hmph... don't get ahead of yourself."
+@page
+;【ワイプ】場面転換
+;【背景】教室
+;【ＳＥ】チャイム
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@se s=se011
+@bgm s=bgm03
+@mwon
+Following just behind Matsuri, I manage to make it into
+the classroom just before the bell rings.
+@page
+@fi s=m212 pos=c
+@v s=20727
+@【祀利】
+"Bom dia! Good morning everyone!♪"
+@page
+@se fade=stop
+Even though they just met yesterday, my classmates...
+the men especially, seem delighted to see her.
+@page
+She must be a good person at heart. She couldn't
+be friends with everyone otherwise.
+@page
+@fi s=m111 pos=c
+@v s=20728
+@【祀利】
+"Oh... the girl from yesterday. Bom dia!"
+@page
+Humming, Matsuri shakes hands with Otogiri-san.
+@page
+@setOnce
+@fi s=m111 move=lc
+@fi s=k113 pos=rc
+@endOnce
+@v s=30173
+@【かごめ】
+"...Ah."
+@page
+@fi s=m749 pos=lc
+@v s=20729
+@【祀利】
+"Uhh, err... what was your name again?"
+@page
+Even though Matsuri's smiling at her, Otogiri-san looks like she wants to run away.
+Even now she's edging backward.
+@page
+She really is intensely shy, isn't she?
+I should do her a favor.
+@page
+@【至】
+"This is Otogiri Kagome. And this is Matsuri Carnevale, my... childhood friend."
+@page
+@fi s=m114 pos=lc
+@v s=20730
+@【祀利】
+"Mmnn, that's wrong! Matsuri is Itaru's fiancee!"
+@page
+@fi s=k212 pos=rc
+@v s=30174
+@【かごめ】
+"I-I-Is that so? Ho-How... how amazing."
+@page
+What kind of a reply is that?
+With an appropriately fake smile, I chime in with a nod.
+@page
+@fi s=m212 pos=lc
+@v s=20731
+@【祀利】
+"Bom dia! That means good morning in Matsuri's country."
+@page
+@fi s=k112 pos=rc
+@v s=30175
+@【かごめ】
+"A-Aha, okay... well, good morning to you too."
+@page
+Otogiri-san smiles. Err, wait, I think she's trying to laugh, too.
+@page
+But all there is on her face is a distorted expression far from a smile.
+@wait time=3000
+-- Is she really trying to smile?
+@page
+@【男子生徒】
+"Hey, Takamichi!"
+@page
+@bi s=current all=true trans=crossfade
+I turn around and see one of my friends in this class.
+@page
+@【男子生徒】
+"So, about yesterday's homework..."
+@page
+@【至】
+"Huh? What about it?"
+@page
+Talk about a sudden surprise.
+I was sleeping yesterday, if the rumors are correct.
+@page
+@【至】
+"Hey, who do you think you're talking to?
+I never do it."
+@page
+@【男子生徒】
+"I don't either. But anyway, about her..."
+@page
+@【至】
+"Matsuri, stop that. You're going to trouble Otogiri-san."
+@page
+@setOnce
+@fi s=m111 pos=lc
+@fi s=k113 pos=rc
+@endOnce
+@v s=20732
+@【祀利】
+"Gotcha. Have a nice daaay!♪"
+@page
+;@v s=30176
+;@【かごめ】
+;「あの、あの、うちもそろそろ……」
+;@page
+;→230201
+@jump storage="230201.scn"

@@ -1,0 +1,38 @@
+﻿;130202
+*130202|_新たな悩み
+But, I can't surrender to my insight.
+@page
+Even if I repeat my words about my first kiss--
+I might not even get an answer.
+@page
+Remembering that kiss is way too embarrassing for me.
+Honestly, it's best to trick her right now.
+@page
+@【至】
+"Don't worry about it, it was nothing."
+@page
+@fi s=w113 pos=c
+@v s=10869
+@【わずか】
+"Thinking about a little while ago?"
+@page
+Damn it! How did she know!?
+@page
+@【至】
+"No, of course not, it really is nothing."
+@page
+;@fi s=w213 pos=c
+I feel like a huge bomb is loosing steam in my head as I say that.
+@page
+Wazuka-san's expression becomes cloudy as she tries to consider my words.
+My heart breaks as I watch her.
+@page
+@fi s=w111 pos=c
+@v s=10870
+@【わずか】
+"Itaru-kun."
+@page
+Wazuka-san takes my hand, and--
+@page
+;→130203
+@jump storage="130203.scn"

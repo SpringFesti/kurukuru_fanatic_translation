@@ -1,0 +1,263 @@
+﻿;010100
+@mwoff
+*010100|October 27th, 7:37 AM
+@wait time=3000
+@se s=se001 loop=true
+@wait time=1000
+@mwon
+;【演出】以下の音声、フェードインで
+@v s=10001
+@【？？？】
+"... Itaru-kun... Itaru-kun..."
+@page
+;@se s=stop
+I hear a voice.
+@page
+A familiar voice. A voice I've always heard.
+However, I can't remember who owns that voice.
+@page
+@v s=10002
+@【？？？】
+"... Are you okay?　Itaru-kun... Itaru-kun..."
+@page
+I wonder why the voice sounds so anxious? Who am I to this person?
+@page
+@【至】
+"... It's not my family... But... it kind of feels like it..."
+@page
+@v s=10003
+@【？？？】
+"Itaru-kun!?　What's wrong!?　Are you okay!?"
+@page
+A name was called. → So, that must be my name.
+This person knows my name. → Who is this person?
+@page
+@【至】
+"... I feel like I can remember... but I can't... Seriously, who is this...?"
+@page
+@v s=10004
+@【？？？】
+"Oh no... open your eyes! Itaru-kun, open your eyes!"
+@page
+@mwoff
+@se fade=stop
+@bgm s=bgm09
+@bi s=bg01m time=300
+;【背景】主人公自室/朝
+@se s=se118
+@cut s=cut2100
+;【カットイン】cut2010
+;【ＳＥ】打撃音
+@qk time=700
+@flash time=700
+@wait time=500
+;@cut
+@mwon
+@lfont
+@【至】
+"Nguh!?"
+@page
+@cut
+An intense impact explodes in my stomach, and my eyes snap open.
+@page
+That one blow completely paralyzes my lungs and throat.
+The wind is knocked out of me, so I can't call out in protest.
+@page
+@fi s=w11a pos=c
+;【立ち絵】わずか泣き顔
+@v s=10005
+@【？？？】
+"Oh no... oh no! Itaru-kun is dead! ITARU-KUN IS DEEEADDDDD!!!"
+@page
+@setOnce
+@mwoff
+@fi id=w
+@endOnce
+@se s=se118
+@qk time=500
+@flash time=500
+@wait time=800
+@mwon
+Bang! Boom!　Heavy blows to my face and abdomen rain down on me,
+and each time I feel like sound effects should be coming out of me.
+@se s=se119
+@qk time=700
+@flash time=700
+@wait time=800
+@page
+;@fi s=w212a pos=c
+@【至】
+"Agh!　Nguh!　Ahh!!"
+@page
+Wait!　What the hell?! Come on, stop!
+@page
+I would say that, but the only things coming out of my mouth right now are hopeless sighs.
+@page
+In the meantime, the woman in front of me hits and slaps me.
+Then―― she raises her heel over me.
+@page
+@bi s=bg850 time=100
+@se s=se117
+@qk time=1000
+@flash time=1000
+;@fi s=w112ad pos=c
+@lfont
+@v s=10006
+@【？？？】
+"ITARU-KUN IS DEAAAAAAAD!!"
+@page
+I'm not dead! But if I eat a blow like that, I really will be!
+@page
+@【至】
+"I just came back to life! I can't die again!"
+@page
+With the power of desperation, I roll off the bed.
+@page
+@setOnce
+@mwoff
+;@fi id=w
+@bi s=bg01m time=100
+@endOnce
+@se s=se119
+@cut s=cut2100
+@qk time=1000
+@flash time=1000
+;【ＳＥ】打撃音/大
+;【カットイン】cut2020
+@wait time=800
+@mwon
+At that instant, the bed is squashed flat.
+It looks like it'll break in two, right where I was sleeping.
+@page
+@cut
+@【至】
+"J- just made it... W, what the hell are you doing, Wazuka-san?!"
+@page
+Those words come out of my mouth instinctively, and I pause for a second.
+@page
+Who's that? It must be the person in front of me.
+But, why would I know this person's name?
+@page
+;@fi s=w213a pos=c
+@fi s=w646 pos=c
+@v s=10007
+@【わずか】
+"Ooh... aah... uwahhhhhh!!!"
+@page
+;@fi s=w115a pos=c
+@fi s=w11a pos=c
+@v s=10008
+@【わずか】
+"Itaru-kun died!　He died! DieddieddieddiedieddieddieddiedDIEDDIEDDIEDDIEDDIEEEEDD!!"
+@page
+@【至】
+"No, I'm fine! Why are you saying that?! 
+Why are you doing this first thing in the morning?!"
+@page
+;@fi s=w11b pos=c
+@v s=10009
+@【わずか】
+"But you died!　You died! You can't die!　You?!　You can't! Wrong! 
+It'd be wrong!　You can't be dead!"
+@page
+@【至】
+"Wazuka-san, just take a deep breath. Inhale slowly... okay, exhale."
+@page
+@fi s=w111a pos=c
+@v s=10010
+@【わずか】
+"You do it too. Breath in, and out. Yes, we'll do it together."
+@page
+@【至】
+"Ha... phoo... ha... phoo."
+@page
+@fi s=w213 pos=c
+@v s=10011
+@【わずか】
+"Haphoohaphoohaphoohaphooー"
+@wait time=500
+@act id=w t=bow
+@wait time=500
+@act id=w t=bow
+@wait time=500
+@act id=w t=bow
+@wait time=500
+@act id=w t=bow
+@wait time=500
+@act id=w t=bow
+@page
+@【至】
+"You're going too fast."
+@page
+@fi s=w111a pos=c
+@v s=10012
+@【わずか】
+"It's okay. I'm just going at my own pace."
+@page
+@fi s=w112 pos=c
+@v s=10013
+@【わずか】
+"No, Itaru-kun! Breathe deeper! Quickly!　If you don't, you'll die! 
+You'll die!"
+@page
+@【至】
+"O, okay, got it!"
+@page
+@【至】
+(...Huh? Wasn't I telling her to do that?)
+@page
+@qk time=500
+@fi s=w11b pos=c
+@lfont
+@v s=10014
+@【わずか】
+"DO IT!"
+@page
+@【至】
+"Haphoohaphoohaphoohaphooー"
+@page
+@fi s=w112 pos=c
+@v s=10015
+@【わずか】
+"Not good enough, Itaru-kun, you'll die! Breath faster!　You'll die like that!"
+@page
+@fi s=w112d pos=c
+I just noticed it, but I'm currently inside of Wazuka-san's cleavage.
+I can't fight her now, because she's too fast, strong and violent.
+@page
+It's warm and soft in here. Tender, too...
+@wait time=700
+Aaaand now I have an erection.
+@page
+@fi s=w113d pos=c
+@v s=10016
+@【わずか】
+"What is it?　Is something wrong?　Is it something you can't say?
+Tell me!　I want you to tell me!"
+@page
+@【至】
+"Huh?　N, no, I just, I can't-"
+@page
+@qk time=700
+@lfont
+I have an erection!
+@page
+What would happen if I said that?
+She'd probably punch me a lot, and then she'd call the police on me.
+@page
+So, what should I do?　Can I do something to trick her?
+Can I think back and figure out why all of this is happening?
+@page
+@fi s=w112d pos=c
+@v s=10017
+@【わずか】
+"Itaru-kun, please, tell me! Even if you can't tell me, tell me anyway!
+If you don't, then... I... I...!"
+@pages
+@selinit
+@selbtn cap="Try to get away" s="010101.scn"
+@selbtn cap="It's okay, tell her" s="010102.scn"
+@s
+;選択肢
+;身を離そうとする　→010101
+;わかった、言うよ　→010102

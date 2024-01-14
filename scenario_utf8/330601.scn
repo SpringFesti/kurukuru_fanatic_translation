@@ -1,0 +1,66 @@
+﻿;330601
+*330601|_ほんの少しの帰り道
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+I want to become friendlier with her.
+There's no reason to decline.
+@page
+I immediately send her an OK text.
+Then, I get an answer right away.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30341
+;@【かごめ】
+"Thank you. I'll be waiting in that place from a little while ago."
+@waitclk
+@mwon
+@【至】
+"Ugh... by 'a little while ago', she means there, doesn't she..."
+@page
+She must mean the place where at break time, she...
+With her hand...
+Ah-- No, no, I can't remember that right now!
+@page
+Mental concentration.
+Destruction of the heart.
+A cool-headed calm.
+@page
+... Alright, I'm good.
+I stand upright at the end of homeroom with a slouch, like a bending mirror.
+@page
+-- Then, when notice that I have one problem. Two, to be precise.
+@page
+@【至】
+"... Wazuka-san and Matsuri. What should I do about them?"
+@page
+I don't think I can honestly confide with them.
+No, only terrible things would come from that.
+@page
+But I promised, and I want to go home with Otogiri-san.
+I've got to find a method to trick them somehow.
+@page
+To be frank, I don't think I'm going to find a good idea.
+@page
+Another text arrives from Otogiri-san.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30342
+;@【かごめ】
+"You seem to be troubled, what's wrong?
+Is it about those people you always go home with?"
+@waitclk
+@mwon
+I look at the text, and look in a hurry towards Otogiri-san.
+She looks at me too.
+@page
+It must have been plain on my face that I was concerned,
+so I smile self-consciously and turn away.
+@page
+Then
+"Yeah. I can't find a good way of saying it."
+is what I send to her.
+@page
+;→330603
+@jump storage="330603.scn"

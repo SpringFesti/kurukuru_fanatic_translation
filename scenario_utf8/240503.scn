@@ -1,0 +1,61 @@
+﻿;240503
+*240503|_非常事態
+;【ワイプ】時間経過
+;【背景】公園・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09n trans=tile
+@bgm s=bgm10
+@mwon
+Ahh... I hate myself.
+@page
+I somehow managed to cum in a situation like that.
+Is there something wrong with me?
+@page
+... No no no, I can't think about that.
+I've got to get a grip.
+@page
+@【至】
+"A-Anyway, you should be satisfied with that.
+Let's get going."
+@page
+I get up and put my clothes on.
+@page
+@fi s=m111 pos=c
+@v s=21230
+@【祀利】
+"Ehh, Itaru, where are you goinggg?"
+@page
+Then, the atmosphere changes suddenly.
+@page
+Who is it this time?
+Judging from her tone, it looks like it's Festa.
+@page
+@【至】
+"Where... Well, I have to go home, don't I?"
+@page
+@fi s=m648 pos=c
+@v s=21231
+@【祀利】
+"Well, I guess. There aren't many other places to go."
+@page
+No... there's something off.
+Somehow, it's hard to tell who this is."
+@page
+@【至】
+"Alright, let's go."
+@page
+@fi s=m112 pos=c
+@v s=21232
+@【祀利】
+"Okaaay!♪"
+@page
+What's going to happen now?
+I don't know at all.
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→240504
+@jump storage="240504.scn"

@@ -1,0 +1,168 @@
+﻿;350400
+*350400|不可思議な姉と弟
+;【ワイプ】場面転換
+;【背景】教室・夕
+@bi s=bg810
+@bgm s=bgm10
+;@fi s=fi**** pos=****
+@mwon
+As if proved completely right,
+my premonition was correct, again.
+@page
+During class, and even during breaks.
+Whenever I do anything, I get another text.
+@page
+"Little brothers don't do that."
+@page
+"It doesn't feel like a little brother would do that at that time."
+@page
+"Listen to what onee-chan is telling you."
+@page
+Anyway, my speech and behavior gets all kinds of texts thrown at me.
+@page
+The number must be more than 100.
+Although it's a bad thing to do, I stop looking at them around number 50.
+@page
+@【至】
+(... Otogiri-san, do you seriously think I'm going to become your little brother?
+Do you intend to make me into your ideal little brother?)
+@page
+Speaking clearly, I want her to forgive only that.
+@page
+I try to tell her that several times.
+I try to say it directly.
+I try to type her texts about it.
+@page
+But a certain phrase appears, and I can't do it.
+@page
+That of course, is the weakness of love.
+Can there be any plainer words?
+@wait time=700
+No, there can't be.
+@page
+@【至】
+"Somehow..."
+@page
+@bi s=bg820
+Murmuring like that, class ends and the sun begins to set.
+@page
+And when homeroom ends,
+I head towards the usual hallway.
+@page
+;【ワイプ】場面転換
+;【背景】廊下・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=tile
+;@bgm s=bgm16
+@fi s=k111 pos=c
+@mwon
+@v s=30659
+@【かごめ】
+"Hey, Itaru-kun. Who's your older sister?"
+@page
+As if she was waiting for me, she starts our conversation with that line.
+@page
+@【至】
+"Who... it's you, isn't it?"
+@page
+@fi s=k214 pos=c
+@v s=30660
+@【かごめ】
+"Yeah. I'm your older sister, right?"
+@page
+I nod honestly.
+And at the same time, I realize what she's talking about.
+@page
+@fi s=k213 pos=c
+@v s=30661
+@【かごめ】
+"If that's the case, stay away from that other girl more.
+Rather, why are you together with her all the time?"
+@page
+@【至】
+"Well, it's because we live together."
+@page
+@fi s=k347 pos=c
+@qk
+@v s=30662
+@【かごめ】
+"You can't! Leave!
+If you're with that witch, then you'll be brainwashed!"
+@page
+@【至】
+"Well, I can't just leave. I live there."
+@page
+@fi s=k445a pos=c
+@v s=30663
+@【かごめ】
+"Okay, then why don't you live with me?
+Come on, that's more natural for siblings."
+@page
+@【至】
+"No matter how you put it, it just isn't possible."
+@page
+@fi s=k34a pos=c
+@v s=30664
+@【かごめ】
+"Why!? I'm your older sister, aren't I!?
+I'm not going to give rewards to a little brother that acts like this!"
+@page
+@【至】
+"Uh... even if you say that, I can't..."
+@page
+@fi s=k347 pos=c
+@qk
+@v s=30665
+@【かごめ】
+"When onee-chan speaks, you say yes!
+Or do you love that girl more than me?
+Onee-chan is more important, right?"
+@page
+@【至】
+"And again, even if you say that..."
+@page
+I certainly like Otogiri-san.
+However, I like Wazuka-san too.
+@page
+If something terrible happens,
+I can't just leave her alone in that house.
+@page
+@【至】
+"You know, my dad is on a work-related trip right now, so he isn't home.
+How about I ask them about it after they come back?
+@page
+That's the first excuse that popped into my head,
+but it seems rather effective.
+@page
+@fi s=k34a pos=c
+@v s=30666
+@【かごめ】
+"Then I guess it's fine for now, but put some distance between you and that woman.
+Understood?"
+@page
+I nod helplessly.
+@page
+@fi id=k
+Then with a smile, Otogiri-san leaves and I'm left to return home by myself.
+@page
+@【至】
+"Phew..."
+@page
+A sigh spills from my lips.
+It almost feels too intense.
+@page
+@【至】
+"... She was that kind of girl, wasn't she..."
+@page
+I feel like I say that every day.
+However, it's actually my impressions that are changing every day.
+@page
+But my feelings towards Otogiri-san aren't changing.
+Why? When I ask that question... I feel troubled.
+@page
+@mwoff
+;→350401
+@bgm fade=stop
+@jump storage="350401.scn"

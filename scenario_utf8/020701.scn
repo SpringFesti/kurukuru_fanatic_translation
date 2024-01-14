@@ -1,0 +1,234 @@
+﻿;020701
+*020701|１０月２８日午後１２時４２分
+;【ワイプ】時間経過
+;【背景】屋上昼
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@bgm s=bgm03
+@setOnce
+@fi s=w114 pos=lc
+@fi s=m112 pos=rc
+@endOnce
+@mwon
+@lfont
+;【備考】ユニゾン
+@v s=10359
+;@【わずか】
+"Here you go.♪
+;@v s=20291
+;@【祀利】
+;「はいこれ」
+@page
+Saying that, one of them presents a lunch box to me,
+and the other hands me a big plastic something-or-other.
+@page
+@【至】
+"Alright, I get it... but what is this?"
+@page
+There's a whole bunch of English labels on it,
+and I suck at English. I have no idea what it is.
+@page
+@fi s=w111 pos=lc
+@fi s=m111 pos=rc
+@v s=20292
+@【祀利】
+"I got you a ration, the standard meal of the military forces."
+@page
+Is this the millimeter meal that's been in fashion recently?
+It's the first time I've had it... maybe it's actually good?
+@page
+@fi s=m64b pos=rc
+@v s=20293
+@【祀利】
+"Geez, what's with the face? It's edible, you know."
+@page
+I guess I must have had a strange expression.
+Well, I'm awful at lying to myself. No help for it.
+@page
+@【至】
+"I get what you're saying, but do you know what it actually tastes like?"
+@page
+Portable ration + Foreign-made = Unpalatable to the Japanese = Awful.
+That's the natural logic process of something like this.
+@page
+;@fi s=m64b move=rc
+@fi s=w111 pos=lc
+@v s=10360
+@【わずか】
+"Don't eat that, Itaru-kun. I'll throw it away."
+@page
+@fi s=w111 pos=lc
+@fi s=m114 pos=rc
+@v s=20294
+@【祀利】
+"No! This is Itaru's!
+This is something I'm giving to him!"
+@page
+@fi s=w112 pos=lc
+@fi s=m114 pos=rc
+@v s=10361
+@【わずか】
+"I won't let you kill Itaru-kun, even if you force-feed him that...!"
+@page
+@fi s=w112 pos=lc
+@fi s=m115 pos=rc
+@v s=20295
+@【祀利】
+"...Huh? You wanna run that past me again?
+How about you back the hell off?"
+@page
+@fi s=w112 pos=lc
+@fi s=m115 pos=rc
+@v s=20296
+@【祀利】
+"Anywho, you want him to eat that slab of shit?
+What garbage can did you peel that off of, huh?"
+@page
+;【ＳＥ】包丁を構える
+;【立ち絵】わずか包丁
+;@se s=se068
+@fi s=w312 pos=lc
+@v s=10362
+@【わずか】
+"Die."
+@page
+@【至】
+"Just wait a second--!
+I'll eat them, I'll eat both of them!
+It won't be horrible, and your's isn't a slab of shit!"
+@page
+For the time being, I accept both of the meals with a smile.
+After all, we can't spoil this fine weather with a rain of blood.
+@page
+@fi s=w114 pos=lc
+@v s=10363
+@【わずか】
+"Oh, don't overwork yourself. Just give it to me, I'll throw it away."
+@page
+@fi s=m112 pos=rc
+@v s=20297
+@【祀利】
+"Itaru, give me that garbage. I'll just go chuck it off the roof.♪"
+@page
+The two smile at me as they extend their hands,
+but their expressions say they aren't smiling at all.
+@page
+@【至】
+"Just listen, I'll eat them both. I'm a growing guy,
+and I am hungry, so--"
+@page
+;@bi s=current all=true trans=crossfade
+While lying out of my teeth, I start to open the parcels.
+@page
+I open the lunch box and the usual is inside.
+Hamburg steak, an omelette, and overall way too much protein.
+@page
+The contents of the ration are,
+as far as I can tell, even more plastic packages,
+a spoon, and a little candy.
+@page
+@【至】
+"Is this a chocolate bar or something?"
+@page
+@fi s=m111 pos=rc
+@v s=20298
+@【祀利】
+"Yup, straight from America.
+It's a Mr.Something, I think."
+@page
+@fi s=m112 pos=rc
+@v s=20299
+@【祀利】
+"It's really convenient! You can heat up the steak in there
+with water."
+@page
+@【至】
+"Uh-huh."
+@page
+Inside the little packages is a meat that I'd have to say is steak,
+and crackers with jam, and even a drink.
+@page
+@【至】
+"This certainly is luxurious. Rather than a military ration,
+it seems like this would be a meal at a restaurant or something."
+@page
+@fi s=m212 pos=rc
+@v s=20300
+@【祀利】
+"Yeah, right? Okay, eat up!"
+@page
+@fi s=w648 pos=lc
+@v s=10364
+@【わずか】
+"No. Absolutely not. If you eat that, you'll die.
+Itaru-kun, you should only eat food that I make you... okay?"
+@page
+I may indeed die if I eat this.
+I certainly can't tell Matsuri, but I'm getting a moldy odor
+coming from the stuff inside the ration.
+@page
+@【至】
+(... Has this actually gone bad? I'm kind of concerned about the holes
+here... and there...)
+@page
+It looks a lot like the entrance to my house last night.
+@wait time=3500
+... You know, with the bullet holes?
+@page
+I'm kind of considering refusing, or throwing it away.
+I'm certainly damned if I eat it.
+@page
+@【至】
+(... and I haven't even gotten to Wazuka-san's yet.
+It's EXACTLY the same as yesterday's, that's for sure.)
+@page
+The red gravy oozing out from the hamburg steak tells me
+it's undercooked for sure.
+@page
+@fi s=w114 pos=lc
+@v s=10365
+@【わずか】
+"I was really worried about burning the steak, so I tried really hard.
+I'm confident about today's."
+@page
+Will this break my intestines?
+Or perhaps give me food poisoning?♪　
+I wonder which!
+@page
+I'm stuck between a rock and a hard place.
+Either way, I'm going to the restroom during class, I bet.
+@page
+@fi s=m111 pos=rc
+@v s=20301
+@【祀利】
+"Itaru, which one? Come on, come on--"
+@page
+@fi s=w111 pos=lc
+@v s=10366
+@【わずか】
+"There isn't much time left. Itaru-kun... so?"
+@page
+@setOnce
+@fi s=w114 pos=lc
+@fi s=m112 pos=rc
+@endOnce
+@lfont
+;【備考】ユニゾン
+@v s=10367
+;@【わずか】
+"Eat up!♪"
+;@v s=20302
+;@【祀利】
+;「食べて」
+;@page
+;選択肢案
+;わずかさんから　→020702
+;祀利から　→020703
+@pages
+@selinit
+@selbtn cap="Wazuka-san's" s="020702.scn"
+@selbtn cap="Matsuri's" s="020703.scn"
+@s

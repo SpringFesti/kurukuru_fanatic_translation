@@ -1,0 +1,99 @@
+﻿;021002e
+*021002e|_祀利の秘密
+Is this reality? It feels like reality has been violated.
+@page
+... No, from the beginning, everything has been strange.
+There's an angel, someone with multiple-personality disorder...
+Hell, if Wazuka-san were an alien, that'd be perfect.
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=f114d pos=c
+@endOnce
+@v s=40472
+@【ファヌル】
+"Nmhmhmhm, isn't this fun, big bro?♪"
+@page
+I look into her eyes and see the same mocking
+laughter I see every day from her.
+@page
+So,
+@page
+@【至】
+"Yeah, it is."
+@page
+I say, while thinking, "Shut up, idiot.".
+@fi s=f112d pos=c
+@page
+Even if I'm cursed for that, it was worth it.
+@page
+@【至】
+"...Well, guess we just have to get used to it."
+@page
+@setOnce
+@fi id=f
+@fi s=w121 pos=c
+@endOnce
+@v s=10488
+@【わずか】
+"Or I could just kill her."
+@page
+@setOnce
+@fi s=w422 move=lc
+@fi s=m111 pos=rc
+@endOnce
+@v s=20567
+@【祀利】
+"Who?"
+@page
+I look at Matsuri, and see the true "Matsuri" there.
+@page
+@v s=20569
+@【祀利】
+"Hey, are we already done playing at hypnosis?"
+@page
+@【至】
+"Don't you remember it?"
+@page
+@fi s=m113 pos=rc
+I'm relieved to see that Matsuri looks confused,
+but I'm still concerned for her-- a complex state of mind.
+@page
+@fi s=w122 pos=lc
+@v s=10489
+@【わずか】
+"So, it really did work."
+@page
+She says that, confirming what she believes.
+@page
+Matsuri has multiple personality disorder.
+She is four different people at once.
+@page
+I can barely believe it, but this explains a lot...
+@page
+@【至】
+"...But, it seems like this is a big deal."
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@fi s=f114 pos=c
+@endOnce
+Fanuel laughs and smiles at me.
+@page
+@fi s=f214 pos=c
+@v s=40471
+@【ファヌル】
+"Do you like it?"
+@page
+Is this foreshadowing for something?
+I sigh in resignation and a bitter smile floats onto my face.
+@page
+;分岐
+;フラグ220200起立　→220300
+;わずか好感度特定値以上　→120400
+;フラグ320100起立　→320200
+@jump storage="120400.scn" cond="f._120100"
+@jump storage="220300.scn" cond="f._220200"
+@jump storage="320200.scn" cond="f._320100"
+@jump storage="320200.scn"

@@ -1,0 +1,163 @@
+﻿;160100
+*160100|２人きり
+;【ワイプ】時間経過
+;【演出】暗転
+;【備考】ゲームでは話者表記無し
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se001 loop=true
+@mwon
+@v s=11258
+@【わずか】
+"Itaru-kun... Itaru-kun..."
+@page
+;【背景】主人公自室
+@bi s=bg01m
+@fi s=w124 pos=c
+@se fade=out
+@bgm s=bgm02
+@v s=11259
+@【わずか】
+"Good morning, Itaru-kun. I made breakfast."
+@page
+Today, just like the usual,
+Wazuka-san wakes me up to start the day.
+@page
+... But, I feel like this is a little too early.
+@page
+An hour... no, ten minutes would be fine.
+Heck, even taking the day off would be nice.
+@page
+I feel really tired today. More than usual,
+I feel like I can't stand up if I didn't
+use my full strength.
+@page
+I'm sleepy, but I have a headache from sleeping too much.
+@page
+Just give me five minutes. That's all...
+@page
+@fi s=w123 pos=c
+@v s=11260
+@【わずか】
+"... Itaru-kun? Are you still sleepy? Do you want some more time?"
+@page
+@【至】
+"Fuah... yeah, just a bit.
+Nah, wait, I'm fine. I'll go wash my face."
+@page
+@fi s=w124 pos=c
+@v s=11261
+@【わずか】
+"Okay. I'll wait for you downstairs."
+@page
+;【ワイプ】場所移動
+;【背景】自宅廊下
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02d trans=ひし形(左から右へ)
+@mwon
+@【至】
+"Sleeepyyy..."
+@page
+Washing my face with cold water didn't help at all.
+Maybe I should have slept again after all.
+@page
+Can I do that after saying what I said, though?
+She's probably making breakfast now, so I have
+to get through this...
+@page
+But why am I so sleepy?
+What the heck did I do yesterday...?
+@page
+;【イベントＣＧ】evh1082　モノクロ化
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evh1082m trans=円形(外から中へ)
+@wait time=1000
+;【背景】自宅廊下
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02d trans=円形(中から外へ)
+@bgm s=bgm15
+@mwon
+@【至】
+"......"
+@page
+... I remembered.
+@page
+@【至】
+"......"
+@page
+Those two... are they still here?
+@page
+I unconsciously walk towards the bathroom.
+@page
+Although my brain orders me not to look,
+I disregard it, and open the door anyway.
+@page
+;【ＳＥ】ドアを開ける音
+;【ワイプ】場所移動
+;【背景】浴室
+@mwoff
+@se s=se040
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=ひし形(左から右へ)
+@mwon
+@【至】
+"......"
+@page
+Nobody is inside.
+@page
+;【備考】場所移動って書いてるけど場面的に時間経過の方が正しいので時間経過のワイプ処理をしてます。
+;【ワイプ】場所移動
+;【背景】住宅街路地
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=clock
+@bgm s=bgm05
+@mwon
+What happened to Matsuri and Otogiri-san?
+@page
+I couldn't ask Wazuka-san during breakfast,
+so I had to go to school with an ill feeling.
+@page
+But I should be courageous here and ask her.
+No details. Just a brief description.
+@page
+@【至】
+"Hey, Wazuka-san?"
+@page
+@fi s=w111 pos=c
+@v s=11262
+@【わずか】
+"What?"
+@page
+@【至】
+"What happened since then?"
+@page
+@v s=11263
+@【わずか】
+"What do you mean?"
+@page
+@【至】
+"Yesterday, I fell asleep...
+What happened to Matsuri and Otogiri-san?"
+@page
+@fi s=w114 pos=c
+@v s=11264
+@【わずか】
+"I told you yesterday."
+@page
+She said yesterday?
+What did she say?
+@page
+I try to ask her... but I can't ask that beautiful smile.
+@page
+;→160101
+@jump storage="160101.scn"

@@ -1,0 +1,253 @@
+﻿;440400a
+*440400a|クイズ！　次はおまえだ！？
+;【カットイン】舞台背景
+;【カットイン】書き文字「タイトル」
+;【備考】ユニゾン
+@setOnce
+@bgm fade=stop
+@mwoff
+@se s=se100
+@cut s=cut2290 slide=t time=500
+@fi s=w111 pos=lc
+@fi s=m111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@lfont
+@v s=10804
+;@【わずか】
+"Quiz, You're Next!"
+;@v s=21566
+;@【祀利】
+;「クイズ！　次はおまえだ！」
+@page
+@se fade=out
+@fi s=m74b pos=rc
+@v s=21567
+@【祀利】
+"I know that stuffed rabbit asked us to do this...
+but why are we the hosts now?"
+@page
+@v s=10805
+@【わずか】
+"I don't know."
+@page
+@v s=10806
+@【わずか】
+"For some reason, my head feels heavy.
+I feel like I had a nightmare..."
+@page
+@fi s=m64b pos=rc
+@v s=21568
+@【祀利】
+"I feel heavy too... actually, we might have had nightmares."
+@page
+@fi s=w415 pos=lc
+@v s=10807
+@【わずか】
+"Then... fufu, I'm happy.
+I have Itaru-kun inside of me..."
+@page
+@fi s=m114 pos=rc
+@v s=21569
+@【祀利】
+"Nuh-uh! He's only inside of me!"
+@page
+@fi s=m747a pos=rc
+@v s=21570
+@【祀利】
+"Itaru, you were really, really tasty...
+Haah... I want you eat you again..."
+@page
+;【立ち絵】わずか/包丁を構える
+@fi s=w312 pos=lc
+@v s=10808
+@【わずか】
+"You cannot. I will not let you."
+@page
+;【立ち絵】祀利/拳銃を構える
+;【ＳＥ】ガチャ
+@se s=se131
+@fi s=m315 pos=rc
+@v s=21571
+@【祀利】
+"So it's this again, hm?"
+@page
+@v s=21572
+@【祀利】
+"I'm getting super tired of doing this over and over again."
+@page
+@v s=10809
+@【わずか】
+"That's alright. You won't do it for much longer."
+@page
+@v s=21573
+@【祀利】
+"Agreed. Let's go--!"
+@page
+@setOnce
+@cut
+@fi id=w
+@fi id=m
+@endOnce
+@mwoff
+@bi s=bg850 time=100
+@se s=se110 buf=0
+@se s=se071 buf=1
+@qk time=700
+@flash time=700
+@wait time=100
+@bi s=bg860 time=100
+se s=se110 buf=0
+@se s=se071 buf=1
+@qk time=700
+@flash time=700
+@wait time=100
+@bi s=bg8150 time=100
+se s=se110 buf=0
+@se s=se071 buf=1
+;【イベントＣＧ】効果線
+;【ＳＥ】銃声　ループ
+;【ＳＥ】刺す　ループ
+@qk time=1000
+@flash time=1000
+@wait time=1500
+@bi s=white all=true
+;@se fade=stop buf=0
+;@se fade=stop buf=1
+;【背景】主人公自室・朝
+;【カットイン】舞台背景
+@setOnce
+@bi s=bg01m
+@cut s=cut2290
+@fi s=u111 pos=c
+@endOnce
+@mwon
+@v s=16001
+@【ウサミ】
+"... Sigh, so this is how it turned out."
+@page
+@v s=16001
+@【ウサミ】
+"Even though this is our final episode...
+I don't want it to end like this..."
+@page
+@qk
+@v s=16003
+@【ウサミ】
+"I know! I can do 'that'!
+A yandere testimonial!"
+@page
+@bgm s=bgm13
+@mnon
+@mset l=5 h=true
+This is the story of 'that time'--
+@waitclk
+@mset l=6 h=true
+I hadn't noticed that there was a hole in the condom, so after we had sex,
+I was about to blow my top when she told me,
+but she started whispering to herself just like a yandere...
+@waitclk
+@mset l=5 h=true
+"Now you can only look at me, right?"
+She said she wouldn't let me have an affair.
+@waitclk
+@mset l=5 h=true
+It was really scary...
+@waitclk
+@mwon
+@v s=16003
+@【ウサミ】
+"And here's another!"
+@page
+@mnon
+@mset l=5 h=true
+This is a story of a time when the word 'yandere' didn't exist--
+@waitclk
+@mset l=5 h=true
+I was still going out with a lot of women.
+When they found out I was two-timing them,
+I heard the words "I'll kill you, and then myself" a lot.
+@waitclk
+@mset l=5 h=true
+Unfortunately, my younger sister heard those words too.
+I don't know whether she recognized "I'll kill you" or "I'll
+kill myself", but she settled on them being 'bad people'.
+@waitclk
+@mset l=5 h=true
+So whenever she met them, she called them 'bad people'.
+@waitclk
+@mset l=5 h=true
+Now that I think about it, my yandere experience was happening at the same time,
+infecting my life and turning it in a bad direction, I guess you could say.
+@waitclk
+@bgm s=bgm10
+@mwon
+@v s=16002
+@【ウサミ】
+"Wowww, that sounds scary and tough.
+But yandere really is great, huh?
+How depressing...♪"
+@page
+@sfont
+@v s=16001
+@【ウサミ】
+"... So, is it that time?"
+@page
+@v s=16001
+@【ウサミ】
+"Thank you for giving us your time!
+As of today, Quiz, You're Next is ending!
+@page
+@act id=u t=swing
+@v s=16002
+@【ウサミ】
+"Until the day we meet again, stay happy everyone!"
+@page
+@setOnce
+@fi s=w313 pos=l
+@fi s=m515 pos=r
+@fi s=u111 pos=c
+@endOnce
+;【備考】ユニゾンで
+;【立ち絵】包丁
+@v s=10810
+;@【わずか】
+"Shut it."
+;【立ち絵】拳銃
+;@v s=21574
+;@【祀利】
+;「うっさい」
+@page
+@mwoff
+@setOnce
+@cut
+@act id=u t=stopswing
+@fi id=w
+@fi id=m
+@fi id=u
+@bi s=bg8140
+@endOnce
+@se s=se110 buf=0
+@se s=se071 buf=1
+@qk time=500
+@flash time=500
+@mwon
+@lfont
+@v s=16004
+@【ウサミ】
+"AAAUUUUGHHHH!?"
+@se s=se071 buf=1
+@wait time=700
+@se s=se071 buf=1
+@qk time=500
+@flash time=500
+@page
+@bgm fade=out
+@jump storage="450100.scn"
+;→450100

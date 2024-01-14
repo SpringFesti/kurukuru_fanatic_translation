@@ -1,0 +1,342 @@
+﻿;020403
+*020403|_１０月２８日午前８時２１分
+I'll call her over when she gets here.
+Actually, I'll do it when homeroom ends.
+If I don't, she'll probably disappear again.
+@page
+While I'm thinking, Otogiri-san rushes into the classroom.
+@page
+Almost like a gust of wind-- no, more like a fog bank.
+I barely even noticed her come in.
+Maybe I'm the only one who noticed her at all.
+@page
+And as expected, only five seconds after Otogiri-san comes in, the teacher comes and starts homeroom.
+@page
+@bi s=bg810
+I'll leave out what the rest of the class was like.
+It was completely ordinary.
+@page
+But that's perfectly fine with me.
+Normal is a good change of pace from yesterday.
+Yeah, boredom is great! Every-day life is the best!
+@page
+@【至】
+"... It'd be nice if this went on for a while."
+@page
+-- But there's no way that it will.
+Looking ahead, there's sure to be another stupid event soon.
+@page
+;【ワイプ】時間経過
+;【背景】教室昼
+;ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+While I'm thinking, homeroom ends, and it's time to put my plans into action.
+@page
+I've only got a few minutes. If I don't talk to her now, I might not get to talk to Otogiri-san until tomorrow.
+@page
+@【至】
+"She's... yeah, over there. She's sleeping like always."
+@page
+She's at her desk like yesterday... It's almost like she's a part of the classroom.
+@page
+I approach her, and say her name gently.
+@page
+@sfont
+"... Otogiri-saaan."
+@page
+......
+@page
+@【至】
+"Huh? Did she hear me?"
+@page
+I say her name more clearly. However, she still doesn't respond.
+@page
+@【至】
+"Otogiri-saaan."
+@page
+......
+@page
+Nope, she hasn't even looked up yet. If that's how it's going to be, it's time to use my ultimate weapon.
+@page
+@sfont
+@【至】
+"... Are you wearing underwear today?"
+@page
+@bgm fade=stop
+@se s=se044
+@qk time=1000
+@fi s=k34aa pos=c
+@act id=k t=hit
+@lfont
+@v s=30057
+@【かごめ】
+"YEEESSSSSS!?"
+@qk time=500
+@page
+@bgm fade=stop
+@bgm s=bgm09
+A very acute reaction. She leaps from her desk screaming to stand next to me, then she begins to blush.
+@page
+@fi s=k112a pos=c
+@v s=30058
+@【かごめ】
+"Ah... ahhh... wah... ahhhhhhh!"
+@page
+;【立ち絵】かごめ　揺らす
+@fi s=k446a pos=c
+@act id=k t=neckswing
+@v s=30059
+@【かごめ】
+"S, sorry!　S-S-S-S-Sorry!"
+@page
+@【至】
+"Wha!? Calm down! Just calm down, okay?"
+@page
+I grasp her trembling shoulder, and she starts shaking even harder.
+@page
+She shakes and shivers with a vigor that's completely different from the duldrums of the morning classroom.
+@page
+It seems like she's stolen the voices of everyone in the classroom, shocking everyone.
+@page
+@v s=30060
+@【かごめ】
+"Sor-sor- I'm really sorryyyyyyyyy!"
+@page
+@【至】
+"You haven't done anything! You don't have to apologize! Please, stop! Everyone's looking at us!"
+@page
+@act id=k t=stopswing
+@fi s=k448a pos=c
+Finally, she stops shaking. I look around, and everyone averts their eyes. The buzz of normal conversation comes back.
+@bgm fade=out
+@page
+@bgm s=bgm07
+@fi s=k112a pos=c
+@v s=30061
+@【かごめ】
+"Uh... um... ah..."
+@page
+@【至】
+"Sorry, did I surprise you?"
+@page
+@fi s=k113a pos=c
+@v s=30062
+@【かごめ】
+"N-n-no! Ah, um... are you going to hit me today?"
+@page
+@【至】
+"Oh no, that was Wazuka-san doing that yesterday, not me.
+Are your wounds okay?"
+@page
+I look at Otogiri-san's head, and I can't see anything wrong. No scars or traces of blood.
+@page
+@fi s=k211a pos=c
+@v s=30063
+@【かごめ】
+"I- I'm fine.
+D-don't mind me. I'm a tough person."
+@page
+@【至】
+"Are you sure? Tell me if anything comes up, I'll take the hospital bill."
+@page
+@fi s=k113a pos=c
+@v s=30064
+@【かごめ】
+"Um, err... older sister?"
+@page
+For a moment, I didn't know what she was asking. I don't have an older sister. Then I realized what she was asking, and responded.
+@page
+@【至】
+"You mean Wazuka-san?"
+@page
+She nodded.
+@page
+That must have been it. She was just missing some words there.
+@page
+@【至】
+"She... well... kind of, but not really?"
+@page
+@fi s=k211a pos=c
+@v s=30065
+@【かごめ】
+"So she's your childhood friend who lived next to you who's like an older sister but is also your first crush?"
+@page
+@【至】
+"Geez, that's a mouthful. You got the first part right though."
+@page
+@fi s=k445a pos=c
+@act id=k t=neckswing
+@v s=30066
+@【かごめ】
+"Whoooooaaaaahhhhh!?
+Ain't that moe!?
+Wai-- what eroge is this from!?"
+@page
+@【至】
+"Huh? Ah... um... what are you talking about?"
+@page
+@fi s=k448a pos=c
+@v s=30067
+@【かごめ】
+"Wow! There it is!
+The accidental instinct of the minority!"
+@page
+This might be the key point of her character... A strange sort of "switch", I think.
+@page
+;@fi id=k
+Looking around me, I see that everyone's trying to listen to our conversation.
+@page
+The air feels oppressive.
+I don't want to be here much longer.
+@page
+It's almost classtime, so I'll end our conversation quickly.
+@page
+@【至】
+"Anyway, if anything happens or Wazuka-san does something to you, tell me, okay?"
+@page
+@fi s=k112a pos=c
+@act id=k t=neckswing
+@v s=30068
+@【かごめ】
+"Is- is she here!?"
+@page
+@【至】
+"--not right now, but she...
+she's a little weird, that girl."
+@page
+@【至】
+"Our parents aren't around right now, so she thinks she has to protect me. She's also a little overprotective."
+@page
+@qk
+@lfont
+@fi s=k347a pos=c
+@v s=30069
+@【かごめ】
+"NOT AT ALL!"
+@page
+@【至】
+"Huh...?"
+@page
+;@fi s=k112 pos=c
+@v s=30070
+@【かごめ】
+"Of course not! She's a great older sister!
+She's one step away from the ideal older sister!"
+@page
+@【至】
+"I... I see..."
+@page
+@fi s=k214a pos=c
+@v s=30071
+@【かごめ】
+"Yup! I'm confident!
+Or rather, you should be proud!"
+@page
+Other than giving her nonanswers like "Oh, I see", what can I say? She probably forgot I'm even here. She doesn't give other people enough consideration.
+@page
+@fi s=k113 pos=c
+@v s=30072
+@【かごめ】
+"Hey, Takamichi-kun... do you... like your older sister?"
+@page
+@【至】
+"You mean Wazuka-san?"
+@page
+@fi s=k345 pos=c
+@v s=30073
+@【かごめ】
+"No... I mean older sisters in general.
+Do you like them? Or... do you love them?"
+@page
+It's a weird question, but I suppose I have to answer. But why would she even ask that?
+@page
+@fi s=k213a pos=c
+@v s=30074
+@【かごめ】
+"In this world, there are only older sisters and younger brothers. Women that are born to become older sisters, and men that are born to become younger brothers. Understand?"
+@page
+Do I understand?"
+@page
+@fi s=k445a pos=c
+@v s=30075
+@【かごめ】
+"Older sisters and younger brothers have to be connected by blood.
+That bond ties their hearts together. Get it? You should get it, right?"
+@page
+No, I don't understand at all.
+@page
+@fi s=k214a pos=c
+@v s=30076
+@【かごめ】
+"I know it well. I'm the same as you.
+That's how it is... probably.
+You get it, don't you? You understand... right?"
+@page
+I don't get any of this. Otogiri-san, do you even know what you're saying?
+@page
+@fi s=k113a pos=c
+@v s=30077
+@【かごめ】
+"So... do you, Takamichi-kun?
+You should... right?"
+@page
+Throwing uncomprehensible words at me, she just stares at me, expecting an answer.
+@page
+I don't even know what she's asking me, so I can't comprehend her, let alone give her an answer.
+@page
+What should I do?
+She's continuing to stare at me expectantly.
+@page
+@fi s=k445a pos=c
+@v s=30078
+@【かごめ】
+"Takamichi-kun... I understand.
+You can say whatever you want, you know."
+@page
+;【ＳＥ】チャイム
+@se s=se011
+Then the bell, the bell of salvation, rings for me.
+@page
+@【至】
+"A-anyway, tell me if anything happens! See ya!"
+@page
+@fi s=k112a pos=c
+@v s=30079
+@【かごめ】
+"Ah... y-yeah... u-um... Takamichi-kun?"
+@page
+@【至】
+"What?"
+@page
+@fi s=k213a pos=c
+@v s=30080
+@【かごめ】
+"I... I'd like to talk more, i-if it's okay with you. Later, I mean..."
+@page
+What should I say? Various thoughts fly through my head. I'll say it again-- I don't understand her one bit. She doesn't give other people enough consideration.
+@page
+So-- alas.
+@page
+"Come talk to me yourself."
+@page
+Come on, do I want more events like this?
+Why did I just pave the way for her myself?
+@page
+@fi s=k114a pos=c
+@v s=30081
+@【かごめ】
+"Oh, thank you Takamichi-kun! Hehehe, now it's a promise♪"
+@page
+Apparently more events have materialized in the future for me...
+@page
+@fi id=k
+@mwoff
+;→020500
+@bgm fade=stop
+@jump storage="020500.scn"

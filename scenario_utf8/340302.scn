@@ -1,0 +1,60 @@
+﻿;340302
+*340302|_かごめとの約束
+@【至】
+"... If this is something I'm meant to eat,
+then you should pay more attention next time."
+@page
+@v s=30393
+@【かごめ】
+"Ah, ohh... I'm sorry."
+@page
+@【至】
+"Well, I hadn't eaten it yet, so there's no problem."
+@page
+@【至】
+"But if I had eaten it without knowing,
+well, we'd have a lot of problems on our hands."
+@page
+@v s=30394
+@【かごめ】
+"Aww... ohh..."
+@page
+@【至】
+"But thanks for making this for me.
+Could you make it again? I'm really looking forward to it."
+@page
+@v s=30395
+@【かごめ】
+"Sure, and I'm really really sorry."
+I can't do something like that anymore..."
+@page
+;【背景】屋上・昼
+@bi s=bg13d
+@fi s=k112 pos=c
+@v s=30396
+@【かごめ】
+"Um, to apologize for the lunch, would you like to eat out?"
+I'll treat you."
+@page
+@【至】
+"You don't need to worry about it."
+@page
+@fi s=k111 pos=c
+@v s=30397
+@【かごめ】
+"No, I really did something bad.
+I want to make up for my mistake as an onee-chan."
+@page
+@【至】
+"... If you treat me gently."
+@page
+On the other hand, I should be the one paying for her.
+If it'll satisfy Otogiri-san, then it should be fine for now.
+@page
+@fi s=k114 pos=c
+@v s=30398
+@【かごめ】
+"Yeah, leave it to me!"
+@page
+;→340303
+@jump storage="340303.scn"

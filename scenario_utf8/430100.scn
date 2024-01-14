@@ -1,0 +1,151 @@
+﻿;430100
+*430100|１０月２９日午前７時１２分
+;;330100
+;*330100|１０月２９日午前７時１２分
+;【備考】流用ここから……
+;【ワイプ】時間経過および場面転換
+;【背景】主人公自室・朝
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=tile
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Nn... kuah..."
+@page
+;【備考】包丁持ちの立ち絵ってあるんでしょうか？
+;【演出】わずか立ち絵表示
+@fi s=w321 pos=c
+@v s=10696
+@【わずか】
+"Ah."
+@page
+;【演出】クエイク
+;【演出】文字倍角
+@bgm fade=stop
+@bgm s=bgm09
+@qk time=1000
+@lfont
+@【至】
+"Uwaaaaaahaaaaa!?"
+@page
+Instinctively, I scream at the scene in front of me.
+I almost fall off the bed.
+@page
+W-What?
+What the hell!?
+Why does she have a knife!?
+@page
+As soon as I wake up, blam, knife.
+Wow, this is more effective than an alarm clock.
+Immediately, a grand meeting is held in my brain.
+@page
+Agenda:
+Why does Wazuka-san have a knife?
+@page
+Conclusion:
+Because it's Wazuka-san.
+@page
+That is the answer.
+But no! That's not a discussion at all!
+@page
+@fi s=w121 pos=c
+@v s=10697
+@【わずか】
+"Itaru-kun? What's wrong?"
+@page
+@【至】
+"N-Nothing! Rather, why do you have a knife?"
+@page
+Because the grand meeting in my brain was useless, I ask her straight-on.
+@page
+@fi s=w124 pos=c
+@v s=10698
+@【わずか】
+"I was getting breakfast ready.
+It'll be ready soon. Wake up."
+@page
+;@bgm fade=stop
+;@bgm s=bgm02
+The results of my brain meeting were unexpectedly correct.
+@page
+She had a knife because she was preparing breakfast.
+So, she came to wake me up.
+@page
+Because she had taken nothing to preclude the relationship between these two statements,
+it was honestly typical of Wazuka-san.
+@page
+@【至】
+"G-Got it. I'll get ready right away."
+@page
+I really wanted to ask her to put the knife away,
+but because she'd either nod or put it away inside of herself, I was scared.
+So for now, I got nothing.
+@page
+@fi s=w121 pos=c
+@v s=10699
+@【わずか】
+"It'll get cold, so come quick."
+@page
+@fi id=w
+Just like that, Wazuka-san returned to the kitchen.
+@page
+@【至】
+"I'm scareddd... I thought she was gonna stab me."
+@page
+She's the type that would absolutely stab you if you cheated on her.
+@page
+If you said yes when she asked, then she's say it was only natural. Stab.
+If you said no, she'd call you a liar. Stab.
+@page
+She's scary, so I never want her to be my girlfriend.
+She might even go through my phone for my texts with friends.
+@page
+When I think those things-- I notice.
+No, I remember.
+@page
+@【至】
+"... That... it happened before."
+@page
+In my head, a scene--
+When I kept going, just like this,
+I would get a text from Otogiri-san.
+@page
+Maybe there were other possibilities.
+But I can't remember them all right now.
+Those memories are on the other side of the fog inside my head.
+@page
+@【至】
+"... I've really revived many times, haven't I?"
+@page
+I was stabbed, died, and revived--
+After I returned to that mysterious space once again for some reason,
+I would revive again.
+@page
+How many times have I repeated that cycle?
+How many times should I have?
+@page
+;【備考】壁ごしかつ遠くからの声に加工
+@v s=10759 v=50
+@【わずか】
+"-- Itaru-kun! Food!"
+@page
+@【至】
+"Got it! I'll be right down!"
+@page
+There's no point in worrying.
+No matter what I do, time will march on.
+@page
+Including today, I only have three days.
+In the meantime, I have to find a way to avoid my fated death.
+@page
+@【至】
+"... Anyway, let's go."
+@page
+I get ready to go and leave my room.
+@page
+@bgm fade=out
+@jump storage="430100a.scn"
+;→430100a

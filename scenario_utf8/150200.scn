@@ -1,0 +1,189 @@
+﻿;150200
+*150200|打つ手ナシ！？
+;【ワイプ】時間経過
+;【背景】青空
+;【ワイプ】視点変更
+;【背景】教室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=clock
+@wait time=500
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ランダム
+@bgm s=bgm07
+@fi s=k114 pos=c
+@mwon
+@v s=30999
+@【かごめ】
+"Good morning, Takamichi-kun."
+@page
+@【至】
+"... Hi."
+@page
+When I come into the classroom, I meet Otogiri-san.
+@page
+This morning, I thought it was bad to even hear Matsuri's voice.
+I now know that seeing her face is about ten times worse.
+@page
+;【イベントＣＧ】evh3021　モノクロ化
+@fi id=k
+@mwoff
+@bi s=evh3021m
+@wait time=300
+@mwon
+At the meer sight of her face, what she did to me yesterday floats into my mind's eye.
+@page
+The fear, the pain, the misery--
+I clearly remember it all.
+@page
+;【背景】教室
+@bi s=bg12d
+@fi s=k114 pos=c
+Unlike yesterday, I am free now.
+I could beat the shit out of her. Easy as pie.
+@page
+However if I did, those photos would get out.
+I can do nothing but endure, for now.
+@page
+......
+@page
+Endure... huh?
+I wonder how long my patience will last."
+@page
+@fi s=k111 pos=c
+@v s=31000
+@【かごめ】
+"You aren't very energetic, are you?
+What's wrong?"
+@page
+@【至】
+"......"
+@page
+@fi s=k112 pos=c
+@v s=31001
+@【かごめ】
+"Oh, are you still butthurt?"
+@page
+@【至】
+"Shut the hell up!"
+@page
+@fi s=k214 pos=c
+@v s=31002
+@【かごめ】
+"It always hurts at first.
+I'm sure it'll be nice today."
+@page
+@【至】
+"I'm absolutely sure that it won't."
+@page
+@【至】
+"--no, wait, what did you just say?"
+@page
+@fi s=k111 pos=c
+@v s=31003
+@【かごめ】
+"You'll get used to it?"
+@page
+@【至】
+"No, uh, when?"
+@page
+@fi s=k214 pos=c
+@v s=31004
+@【かごめ】
+"Today. Matsuri told you that we're going
+to your house today, didn't she?"
+@page
+@【至】
+"... Yeah."
+@page
+I did hear that, and I suppose that if Matsuri was there,
+Otogiri-san would be as well.
+@page
+But I don't want to say that...
+@page
+@【至】
+"Today... too?"
+@page
+@v s=31005
+@【かごめ】
+"Hm?"
+@page
+@v s=31006
+@【かごめ】
+"Ah..."
+@page
+@fi s=k349 pos=c
+@v s=31007
+@【かごめ】
+"Fufufufufu"
+@page
+@【至】
+"----!!"
+@page
+Yep... just as I thought...
+She wants to put "that" inside today, too...
+@page
+@v s=31008
+@【かごめ】
+"You scared? You must be.
+You only know the pain, right now."
+@page
+@fi s=k445 pos=c
+@v s=31009
+@【かごめ】
+"But once you know how good 'that' can feel, your world will change.
+Yeah... you'll get erect just thinking about it.
+@page
+God, no.
+Don't say that word so easily.
+@page
+@fi s=k114 pos=c
+@v s=31010
+@【かごめ】
+"Yeah. After school, wanna bring her, too?"
+@page
+@【至】
+"... Her?"
+@page
+@fi s=k214 pos=c
+@v s=31011
+@【かごめ】
+"Wazuka, that's who I mean.
+Doesn't that sound nice?"
+@page
+@【至】
+"Don't fuck with me.
+Don't involve Wazuka-san in this."
+@page
+@fi s=k214 pos=c
+@v s=31012
+@【かごめ】
+"I wonder. It would depend on your attitude, wouldn't it?"
+@page
+@【至】
+"Ugh..."
+@page
+@v s=31013
+@【かごめ】
+"... Well, whatever.
+Look forward to after school, won't you?"
+@page
+She says that, and heads back to her seat.
+@page
+She could get her involved in a heartbeat.
+@page
+However, I have to avoid that.
+I don't want her to be involved with this.
+@page
+But what should I do, for now...
+The only thing I can do is follow those
+two obediantly...
+@page
+Fuck!
+There's got to be something else!
+@page
+;→150300
+@jump storage="150300.scn"

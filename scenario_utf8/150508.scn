@@ -1,0 +1,22 @@
+﻿;150508
+*150508|_クイズ！　次はおまえだ！
+@fi s=f659 pos=lc
+@v s=41095
+@【ファヌル】
+"At any rate, this is the epilogue."
+Just as expected, I hope you're happy."
+@page
+@act id=u t=swing
+@v s=16001
+@【ウサミ】
+"Aaaahh... I wonder if I can read such a 
+rough development..."
+@page
+@act id=u t=stopswing
+@bi s=current all=true trans=crossfade
+@cut
+@mwoff
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+;→160100
+@jump storage="160100.scn"

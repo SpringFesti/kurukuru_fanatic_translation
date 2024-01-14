@@ -1,0 +1,807 @@
+﻿;440201
+*440201|芽生える想い
+;【備考】主人公視点
+;【ワイプ】視点変更
+;【背景】公園/昼
+;【ＳＥ】心音]
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=ランダム
+;@fi s=fi**** pos=****
+@mwon
+@se s=se081
+@qk time=800
+@flash time=800
+@lfont
+@【至】
+"Huh!?"
+@page
+@bgm s=bgm08
+@fi s=f11c pos=c
+@v s=40685
+@【ファヌル】
+"What's up, Itaru?"
+@page
+@【至】
+"N, nothing... Just a strange chill."
+@page
+What's with this sticky gaze?
+I don't know who's watching me,
+but it seems they're staring at me quite intently.
+@page
+@fi s=f41d pos=c
+@act id=f t=swing
+@v s=40686
+@【ファヌル】
+"Let's play tag, Itaru!
+Come here onii-san, come here!t"
+@page
+Fanuel claps merrily.
+But that's a bad idea.
+She'll call the demons to us.
+@page
+@【至】
+"Fanuel, run. If you can't anymore, tell me and I'll carry you on my back."
+@page
+@act id=f t=stopswing
+@fi s=f31d pos=c
+@v s=40687
+@【ファヌル】
+"Nope, I can't! Carry meee!t"
+@page
+Already, huh? A sigh leaks out of my mouth.
+But it might be better this way, now that I think about it.
+@page
+Because I held her a little while ago, I know her weight isn't a problem.
+I can carry her while I run.
+@page
+@【至】
+"Alright, quick, get on."
+@page
+@fi s=f41d pos=c
+@v s=40688
+@【ファヌル】
+"Yaaay! I love you, Itaru!t"
+@page
+I instinctively stop when I hear those words.
+@bgm fade=out
+@page
+@bgm s=bgm13
+@fi s=f11f pos=c
+@v s=40689
+@【ファヌル】
+"What's wrong Itaru?"
+@page
+@【至】
+"N, nothing... I was thinking about what you just said."
+@page
+@fi s=f11c pos=c
+@v s=40689
+@【ファヌル】
+"So what's up?"
+@page
+@【至】
+"B, before that... Could you say it one more time?"
+@page
+I'm being mean. This is cowardly and selfish.
+But if it's not said now, my wish can't come true.
+@page
+Just one word is fine. That much can save me.
+With that, I can laugh and say that I'm alright.
+@page
+So--
+@page
+@fi s=f41d pos=c
+@v s=40690
+@【ファヌル】
+"I love you, Itaru!t"
+@page
+I'm saved.
+I feel like I'll be able to protect Fanuel no matter what.
+@page
+@fi s=f31c pos=c
+@v s=40691
+@【ファヌル】
+"Is that good? Want another?"
+@page
+@【至】
+"I'm fine... just that is fine."
+@page
+@fi id=f
+Carrying Fanuel on my back, I begin to run.
+@page
+It's better to be loved than to be hated.
+If it's someone you've been with for a long time, that's only natural.
+@page
+@【至】
+"... And so, I've been saved.
+If I hadn't... it would be weird."
+@page
+I don't know the exact reason.
+Rather, it's something that can't be explained with reason and logic.
+@page
+Yeah, it's probably--
+If it were the usual Fanuel, she'd say it like this:
+@page
+;【備考】本編話者なし
+@v s=40692
+Because human beings are an imperfect existence.
+@page
+-- Something like that.
+@page
+@bi s=bg810
+@bgm s=bgm10
+;【背景】青空
+If you were to ask what happened after that,
+there's not a lot I could tell you.
+@page
+As for why, it's because I was chased for a long time.
+@page
+Although you could call this a game of demon tag, with three demons
+and one running man (+ 1 more), nobody is playing around.
+@page
+Furthermore, because my opponents have beast-like senses,
+they can ascertain my position with a fair degree of precision.
+@page
+They've ambushed me several times.
+Sometimes it felt like they'd get my arm, or one of my legs.
+They even started to strip me, for sex before death.
+@page
+I was able to evade it all somehow, because I wasn't
+facing a team of three. I was facing three separate teams.
+@page
+@bi s=bg08d
+@fi s=m51c pos=c
+;yÃøÓç¢¦z̳բ@¢ª ¤²£ΏЬѧ
+@v s=21557
+@【祀利】
+"Why are you here!?"
+@page
+When Matsuri found me--
+I was bound by Otogiri-san,
+and she was about to start eating my finger.
+@page
+But then,
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=tile
+;@bgm s=bgm***
+@fi s=k647 pos=c
+@act id=k t=neckswing
+@mwon
+@v s=30908
+@【かごめ】
+"Gyaaah! No head starts!"
+@page
+As Otogiri-san said that--
+Wazuka-san clings to my leg,
+as if to dig her teeth into my calf.
+@page
+And now you're caught up.
+@page
+@act id=k t=stopswing
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=tile
+;@bgm s=bgm***
+@fi s=w312 pos=c
+@mwon
+@v s=10785
+@【わずか】
+"Let go...!"
+@page
+Saying that, Wazuka-san prepares her knife--
+Meanwhile, my lower half is stark naked and Matsuri's about to start riding me like a pony.
+@page
+So, a 1 v 1 quarrel is about to begin,
+and the person left over is about to conclude the arbitrations.
+@page
+Of course, at that time Fanuel and I escaped
+the predicament, speeding away to somewhere else.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg820 trans=円形(中から外へ)
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+;yԷ̩zכ˳
+And while we did things like that, the light grew dim--
+@page
+But that doesn't mean those three won't stop chasing us.
+Rather, they will search even more intensely, using the sixth
+sense that the god gave them to find our location.
+@page
+Their motive is probably,
+@page
+@setOnce
+@bi s=bg08e
+@fi s=w114a pos=l
+@fi s=m212a pos=c
+@fi s=k545a pos=r
+@endOnce
+;yԵͬzÆêÝÓ
+@lfont
+@v s=10786
+;@【わずか】
+"Wait for me!t"
+;@v s=21558
+;@【祀利】
+;uђ¥¥tv
+;@v s=30909
+;@【かごめ】
+;uђ¥¥tv
+@page
+Judging by the massive amounts of drool overflowing from
+their mouths, their motive is probably their
+@page
+It's still greater than their urge to kill and their sexual desire.
+And of course, I don't want to be eaten.
+I'd really like it if they would stop.
+@page
+Anyway, we escaped.
+In the dim twilight, we run together.
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@bi s=bg820
+@se s=se049 loop=true v=40
+@rainpfx
+@endOnce
+;yԷ̩zכ˳AɊ@cc ©¢כ˳{ÇôÆÎçɊ
+Soon, it began to rain.
+The autumn night air is cold.
+Even if it's a light drizzle, getting wet is really bad.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09e trans=ひし形(左から右へ)
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+;yԷ̩z̶ɀEכջEɊ
+@【至】
+"... Now we've gotten to the park...
+How long are we going to have to hide?"
+@page
+Nobody is in the park under this rainy sky.
+@page
+Perhaps it's because we've been chased constantly for the past few hours,
+but I can see the signs of when the three of them have been somewhere.
+@page
+@【至】
+"... Although, that might be because the three of them
+are far, far too strong..."
+@page
+In any case, I get under cover and search for the signs.
+@page
+...........
+@page
+@【至】
+"... Alright, it doesn't look like anyone is here.
+I just need to look around a little more..."
+@page
+@fi s=f11c pos=c
+@v s=40693
+@【ファヌル】
+"Hey hey, Itaru!"
+@page
+@【至】
+"Be quiet for just a little longer.
+This is really important."
+@page
+@v s=40694
+@【ファヌル】
+"But Itaru--"
+@page
+@【至】
+"What, do you need to use the bathroom?
+Or are you hungry?"
+@page
+@fi s=f31c pos=c
+@v s=40695
+@【ファヌル】
+"Hmm... no, but those three ladies are."
+@page
+I'm about to ask what she means, when
+I turn around and the words leave me.
+@page
+@bgm s=bgm16
+@setOnce
+@fi id=f
+@fi s=w111 pos=l
+@fi s=m212 pos=c
+@fi s=k211 pos=r
+@endOnce
+@v s=21559
+@【祀利】
+"Yep!t Time to eat, Itaru!"
+@page
+@fi s=w413 pos=l
+@v s=10787
+@【わずか】
+"I haven't had anything since breakfast... and it's your fault."
+@page
+@fi s=k349 pos=r
+@v s=30910
+@【かごめ】
+"Exaaactly! If you're my little brother, then I should be the one to eat you!"
+@page
+It's like the fairy tale uThe restaurant with many requestsv.
+The story of the men who were almost eaten by the cat monsters.
+@page
+And in the end, as the cats approach their meal,
+the men's faces crunch up, as they cry and scream.
+@page
+@【至】
+"... Yeah, I understand how they felt now."
+@page
+@fi s=m111 pos=c
+@v s=21560
+@【祀利】
+"What do you mean? How you want to be cooked?"
+@page
+@fi s=w111 pos=l
+@v s=10788
+@【わずか】
+"Or perhaps how you want to be killed?
+Don't worry. I'll do it in one cut."
+@page
+I'm not going to bow and thank you.
+This is the scene where we start running again.
+@page
+@fi s=k214 pos=r
+@v s=30911
+@【かごめ】
+"Takamichi-kuuun, no runiiiing!t"
+@page
+@【至】
+"Even if I know I'll be eaten?"
+@page
+@fi s=k111 pos=r
+@v s=30912
+@【かごめ】
+"Don't you understand you can't escape?"
+@page
+The three of them advance towards me.
+There is no malice. Only hunger.
+@page
+In other words, I am no longer a person to them. Only food.
+@page
+@v s=10789
+@【わずか】
+"Now... Itaru-kun."
+@page
+It doesn't sound like my name anymore.
+It sounds like a food or ingredient.
+That's probably how it sounds to Wazuka-san as well.
+@page
+The rain became stronger.
+@page
+@fi s=k449 pos=r
+@v s=30913
+@【かごめ】
+"It's okay, you won't die!
+You'll live on inside me! Forever and ever!"
+@page
+I can feel goosebumps on my skin, and not just because of the rain.
+The evening wind doesn't blow.
+But I feel a chill from somewhere.
+@page
+From the three of them.
+@page
+@fi s=m112 pos=c
+@v s=21561
+@【祀利】
+"So... let's start, shall we?
+I want to eat him all up, even his bones.
+... Will you let Matsuri eat his brains?"
+@page
+@fi s=w112 pos=l
+@v s=10790
+@【わずか】
+"No. That will be divided up between the three of us."
+@page
+@fi s=k345a pos=r
+@v s=30914
+@【かごめ】
+"Of couuurse! His dick, too."
+@page
+I held some complicated feelings.
+When I consider how much they like me, I'm kind of happy.
+@page
+But because they want to capture me and eat me, I get sad again.
+@page
+@【至】
+"Well, anyway... anyway.
+I'm not so naive that I'll just shut up and let you eat me."
+@page
+I have to run.
+No-- I can't do anything but run.
+@page
+@fi s=m64b pos=c
+@v s=21562
+@【祀利】
+"Itaru, getting shot in the back is scary.
+If I shoot you in the wrong place, you might
+die in a lot of pain, you know?"
+@page
+@fi s=w111 pos=l
+@v s=10791
+@【わずか】
+"It's the same with my knife. I'll kill you before the pain starts... okay?"
+@page
+But that's impossible. No, it's pointless.
+Even if I'm killed, and even if I'm eaten,
+if I can do something, I have to do it.
+@page
+Then, if there's a chance-- if there's a chance!
+@page
+But in reality, my situation is harsh.
+This won't go down like it would in a movie.
+@page
+The three of them have their eyes centered on me.
+Any action I take will have a reaction.
+@page
+Starting brain simulation--
+@page
+I attack the three of them.
+@wait time=1000
+......
+@wait time=1000
+.........
+@page
+No, I can only see myself being killed.
+So what if I run?
+@page
+I don't even have to think about it.
+I'll be shot in the back, stabbed, and then it's over.
+@page
+@fi s=k214 pos=r
+@v s=30915
+@【かごめ】
+"Are you finally giving up?
+Will you finally give yourself to your older sister!?
+Not only as a younger brother but as an object of desire!?"
+@page
+;yק¿ʇz⊗د̝ϥ°͜¦©
+@se s=se131 buf=1
+@fi s=m311 pos=c
+@v s=21563
+@【祀利】
+"Now we'll be together forever and ever."
+@page
+@fi s=w311 pos=l
+;yק¿ʇz­¸©/կҚ͜¦©
+@v s=10792
+@【わずか】
+"I won't let anyone get in the way. We are two hearts beating as one.
+@page
+The three of them step towards me.
+My only path to retreat is behind me.
+But I cannot escape. That is only the gate to hell.
+@page
+@【至】
+"... Then where's the gate to heaven?"
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@fi id=k
+@fi s=f31d
+@endOnce
+@v s=40696
+@【ファヌル】
+"Weeeell, it's probably close by."
+@page
+I look towards the voice at my side, and see Fanuel smiling.
+@page
+Then --
+@page
+@mwoff
+;@setOnce
+@se fade=stop
+@bgm fade=stop
+@fi id=f
+@stoppfx
+@bi s=blank time=100
+;@endOnce
+;ȃӝ@ccИ¨і¦ÞÃþÓÏ©¨ͅѬ
+;y²¤z׎׋
+@flash time=1000
+@se s=se051
+@qk time=1000
+@wait time=200
+@flash time=1000
+@wait time=300
+@flash time=1000
+@bi s=white all=true time=1200
+@wait time=11000
+@setOnce
+;@bgm s=bgm16
+@bi s=bg09e
+@se s=se049 loop=true v=40
+@rainpfx
+@fi s=w111 pos=l
+@fi s=m113a pos=c
+@fi s=k34a pos=r
+@endOnce
+@mwon
+@v s=21564
+@【祀利】
+"What!? Lightning!? It's so loud!"
+@page
+@v s=10793
+@【わずか】
+"That's unusual for this time of year... perhaps it's a hurricane?"
+@page
+@bgm s=bgm17
+@fi s=k347a pos=r
+@v s=30916
+@【かごめ】
+"Who cares!? Takamichi-kun is escaping!"
+@page
+@setOnce
+@se fade=stop
+@stoppfx
+@endOnce     
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08n trans=tile
+@se s=se049 loop=true v=40
+@rainpfx
+;@fi s=fi**** pos=****
+@mwon
+;yÏÃözϪϊȚӮ
+;yԷ̩z؈ϣ/֩EɊ
+While we ran, night came over us.
+Fanuel and I run inside of it.
+We keep running without looking back.
+@page
+@fi s=f11d pos=c
+@v s=40697
+@【ファヌル】
+"Yaaaaaaaaay! Tag, tag!t"
+@page
+@【至】
+"Whatever, just keep running! Unless you want to get eaten!"
+@page
+@fi s=f41c pos=c
+@v s=40698
+@【ファヌル】
+"Yeaaah! Itaru, I'm tired, carry me!"
+@page
+@fi id=f
+Cursing, I pick Fanuel up and carry her while I run on this road as fast as I can.
+@page
+I can feel something persistent approaching me with a terrible force.
+@page
+Then-- that one becomes three.
+Before thinking about the danger, I start running even harder.
+@page
+@fi s=f11dd pos=c
+@v s=40699
+@【ファヌル】
+"Wow, how fast! Itaru, faster, faster!t"
+@page
+Of course.
+If I can't go faster, I'll die-- then get eaten.
+@page
+But now that I think about it, since I'm getting recycled,
+I guess it's better to get eaten than just being killed.
+Before I start rotting in the open air, my body will be
+spotlessly cleaned up.
+@page
+@【至】
+"-- Wait, what am I, stupid!?
+Whatever, just go! Keep running in silence!"
+@page
+@setOnce
+@fi id=f
+@bi s=bg830
+@endOnce
+;y²¤zɊɹ
+I was just lucky.
+To use a convenient word, it was a miracle.
+There's no other way I can put it.
+@page
+@【至】
+"... I guess it couldn't just sit by without helping me."
+@page
+If it did, that would explain this.
+And if it didn't, then I can't think of any other reason.
+@page
+That reminds me of what Fanuel said.
+@page
+@v s=40700
+"It doesn't matter.
+Whether it's omnipotence or the almighty power of a god, it's just the ultimate in double standards."
+@page
+Yeah, that's certainly so.
+Nobody could think of a way to run from here.
+@page
+@setOnce
+@bi s=bg08n time=500
+@fi s=f11cd pos=c
+@endOnce
+@v s=40701
+@【ファヌル】
+"Hmm, what's up Itaru?"
+@page
+Fanuel says that on my back while I run.
+@page
+Laughing away and smiling on my back, this girl really is an optimist.
+@page
+In that way, she's helping me.
+With just her voice, her warmth, and her softness.
+@page
+@【至】
+"I remembered something you said a long time ago. By the way, aren't you cold?"
+@page
+@fi s=f11ed pos=c
+@v s=40702
+@【ファヌル】
+"Mmn, yeah, I'm really cold!
+Itaru, go home! I wanna take a bath!"
+@page
+@【至】
+"Sorry, can't do that yet.
+But it certainly is cold."
+@page
+The rain and the autumn night sap our warmth.
+Now that I think about it, I haven't eaten anything since this morning.
+I'd like to take a rest and get myself back together soon.
+@page
+But where could I do that?
+Where could I prepare a place to rest?
+I guess if that lightning before was a miracle, maybe we should go to Jerusalem?
+@page
+@fi s=f11cd pos=c
+@v s=40703
+@【ファヌル】
+"Itaru, home! Let's go home!"
+@page
+Fanuel's asking for the impossible.
+She should be nearing her limit soon as well.
+@page
+Then should I become a decoy for her?
+If I can get away on my own, Fanuel shouldn't matter to them.
+@page
+Starting brain simulation.
+@page
+@wait time=1000
+......
+@wait time=1000
+.........
+@page
+@bgm fade=stop
+-- Then, I feel a hand embracing me over my shoulder. It was Fanuel.
+@page
+@bgm s=bgm12
+@fi s=f11fd pos=c
+@v s=40704
+@【ファヌル】
+"Itaru, don't think of weird stuff."
+@page
+@【至】
+"I-I'm not!"
+@page
+;@fi s=f115d pos=c
+@v s=40705
+@【ファヌル】
+"You are, cuz your face is all scary.
+And... it feels kinda bad."
+@page
+@fi s=f11ed pos=c
+@v s=40706
+@【ファヌル】
+"I'll be with you, so let's go! We'll be okay!"
+@page
+Those words were born from Fanuel's self-defense instinct.
+But still, that's alright.
+Even if that's the truth, it doesn't change the meaning of her words.
+@page
+@fi s=f11dd pos=c
+@v s=40707
+@【ファヌル】
+"Nyehehehe, noooot!"
+@page
+I grasp the arm she uses to embrace me.
+I never thought I'd be hugged by her like this.
+@page
+@fi s=f11cd pos=c
+@v s=40708
+@【ファヌル】
+"How is it? Are ya happy? You are, huh?"
+@page
+@【至】
+"What, you can't read my mind anymore?"
+@page
+I notice that I'm smiling while I say that.
+Raindrops get in my eyes.
+And as they drip down, something else goes with them.
+@page
+@fi s=f11fd pos=c
+@v s=40709
+@【ファヌル】
+"Huh? The heart is the cornerstone, you know."
+@page
+@【至】
+"That's a weird thing to think of.
+... Though, I guess that's just like you."
+@page
+I put my hands over her's.
+I don't let go.
+@page
+And I won't let go.
+I intertwine my fingers with hers, and squeeze,
+as if I were playing with a baby's fingers.
+@page
+@fi s=f11dad pos=c
+@v s=40710
+@【ファヌル】
+"Itaruuu, nyehehe, I love youuut!"
+@page
+@【至】
+"Mn."
+@page
+That's all I could say back.
+@page
+Doing more than that while running is difficult.
+I'm smiling, and I'm embarassed,
+and I'm even crying now. I can't do it.
+@page
+@【至】
+"Somehow... I'll make sure that you get away!"
+@page
+@fi s=f11ed pos=c
+@v s=40711
+@【ファヌル】
+"Nooo! We have to do it together!
+You and I have to be together!"
+@page
+@fi s=f11cd pos=c
+@v s=40712
+@【ファヌル】
+"Go home. Let's go home."
+@page
+But I can't right now.
+If I went home, I would certainly be found.
+@page
+So where should I run? Where should I hide?
+Where should I rest my cool body and shaking legs?
+@page
+Then, I remembered.
+There's just one place I haven't gone yet.
+@page
+And "there", they probably won't see the forest for the trees.
+It's near the house, so at least one of them will ignore it completely.
+I would never think that they would enter it.
+@page
+@【至】
+"That's... the house, isn't it."
+@page
+@fi s=f11fd pos=c
+@v s=40713
+@【ファヌル】
+"Hmmmm? Whattaya mean?"
+@page
+I grasp Fanuel's hand.
+@page
+@【至】
+"We're going home. Fanuel, let's go!"
+@page
+@fi id=f
+@stoppfx
+@se fade=out
+@bgm fade=out
+@mwoff
+@jump storage="440201a.scn"
+;h440201a

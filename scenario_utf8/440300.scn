@@ -1,0 +1,182 @@
+﻿;440300
+*440300|迫り来る死
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg06b trans=波
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+;【背景】わずか自宅居間
+@【至】
+"... Ohh... I fell asleep?"
+@page
+I had a dream, so it's only natural.
+But when I wake up, I forget it at once.
+@page
+Even with the vague thoughts of a person awakening,
+I can feel the lingering gaze and the signs.
+@page
+@fi s=f31c pos=c
+@v s=40839
+@【ファヌル】
+"Itaru, looks like the ladies came."
+@page
+@【至】
+"... Looks like it. Where is she?"
+@page
+I prick my ears up and pay attention to my surroundings.
+@page
+Judging by how this person thinks, they
+wouldn't try hiding like someone else.
+@page
+There's no sign that there's someone in the house,
+and I don't hear footsteps.
+The three of them should still be outside.
+@page
+@【至】
+"... Are we surrounded?"
+@page
+It is the worst situation.
+Up until now, I struggled through these one by one.
+But now there's three people.
+@page
+Will I rely once again on the miracle of lightning?
+... No, I can't.
+It's sheer folly to expect the impossible.
+@page
+@v s=40840
+@【ファヌル】
+"Itaru, what now?"
+@page
+@【至】
+"We'll play tag, okay? Looks like we're the runners."
+@page
+But how? How can I escape?
+And what do I do after?
+@page
+Looking at my phone, it's 11 PM.
+I slept for 2 hours, apparently.
+@page
+@【至】
+"... Well, it's only natural we were found.
+@page
+Let's prepare for the worst.
+It's my fault that I fell asleep.
+@page
+@fi s=f41f pos=c
+@v s=40841
+@【ファヌル】
+"Itaru, I hear some clattering sounds!"
+@page
+It was in the entrance hall.
+Those three are trying to enter--
+Trying to break open the lock.
+@page
+What do I do? Where do I run?
+Remember, there must be somewhere I can run to!
+@page
+@【至】
+"I've gotten away for 16 hours from this morning.
+Just one hour left... that's all."
+@page
+I look around the living room.
+There's some collapsed furnature, an entrance, a window, and then...
+@page
+@【至】
+"A door leading to the depths of the house, huh...
+It doesn't look like it leads to any stairs."
+@page
+If I'm not mistaken, this is probably a 2 story building.
+That's the only way to retreat I can think of.
+@page
+@【至】
+"Come on, Fanuel!"
+@page
+I hold onto her,
+and begin to run into the door that leads to the depths.
+@page
+@fi s=f11e pos=c
+@act id=f t=hit
+@v s=40842
+@【ファヌル】
+"Wawawawawa! What!? Where are we goin'?!"
+@page
+@【至】
+"Don't talk! Be quiet!"
+@page
+@fi id=f
+@se s=se109 v=50
+;【ＳＥ】銃声　ボリューム小さく
+I hear a gunshot from the entrance.
+Did Matsuri destroy the lock?
+@page
+I have no time left.
+@page
+The three of them arrive at the living room from the front door.
+They notice we were there, three... no, two minutes ago.
+@page
+We've arrived at the second floor by then,
+and we can run along the roofs of some houses.
+@page
+@【至】
+"If I can get away with this... then I will!"
+@page
+Now, just a little more. A little more, and I--
+@page
+I at last reach the knob of the door I was looking for.
+@wait time=2500
+-- And it turns before we get there.
+@page
+@【至】
+"... Huh?"
+@page
+@se s=se041
+Then, I see the door open from the other side.
+Then,
+@page
+@setOnce
+@fi s=w314a pos=l
+@fi s=m512a pos=c
+@fi s=k649a pos=r
+@endOnce
+@lfont
+;【備考】ユニゾン
+@v s=10803
+;@【わずか】
+"Time to dig in.♪"
+;@v s=21565
+;@【祀利】
+;「いただきまぁす♪」
+;@v s=30917
+;@【かごめ】
+;「いただきまぁす♪」
+@page
+It seems that the two that came from the entrance are
+now being joined by one from this second floor entrance.
+@page
+@mwoff
+@setOnce
+@bgm fade=stop
+@fi id=w
+@fi id=m
+@fi id=k
+@bi s=bg8140 time=200
+@endOnce
+@se s=se110 buf=0
+@se s=se071 buf=1
+@wait time=700
+@se s=se071 buf=1
+@wait time=700
+@se s=se071 buf=1
+@mwon
+;【ＳＥ】刺すと銃声の合成　あるいはガブリ
+;【イベントＣＧ】血ノリ
+@qk time=2000
+@flash time=2000
+@lfont
+@【至】
+"Uwaaaaah!!"
+@page
+@jump storage="440400.scn"
+;→440400

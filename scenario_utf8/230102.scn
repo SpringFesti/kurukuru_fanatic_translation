@@ -1,0 +1,27 @@
+﻿;230102
+*230102|_婚約の証
+It doesn't need a blood seal.
+Besides, it would hurt a lot.
+@page
+@【至】
+"Come on, a seal of blood is too much.
+Isn't a signature enough?"
+@page
+;【ＳＥ】銃声
+@se s=se109
+@qk
+@flash
+A bullet shoots through my hair.
+@page
+@fi s=m415 pos=c
+@v s=20691
+@【祀利】
+"... Did you say something?"
+@page
+@【至】
+"Nothing at all! Now slicing my thumb, with pleasure!"
+@page
+At the speed of light, I pick up the knife, slice my thumb with it, and press the blood seal against the paper.
+@page
+;→230103
+@jump storage="230103.scn"

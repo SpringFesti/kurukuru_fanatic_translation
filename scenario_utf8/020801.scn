@@ -1,0 +1,286 @@
+﻿;020801
+*020801|_気だるい午後に
+;【ワイプ】時間経過
+;【背景】教室・昼
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se011
+@bi s=bg12d trans=clock
+@mwon
+@【至】
+"Yawn... finally, it's over..."
+@page
+It sucks that I couldn't stop myself from falling asleep.
+But, that's the worst it'll get for today.
+Next class is Japanese history, and that's the easiest class of all.
+@page
+@【至】
+"Then I can probably take a little catnap.
+Matsuri, tell me if the teacher comes by."
+@page
+@fi s=m64b pos=c
+@v s=20449
+@【祀利】
+"No! Play with me! Let's go get a drink."
+@page
+@bi s=blank trans=crossfade all=true
+;【演出】暗転
+With a "Uh-huh", my head slams back onto the desk.
+@page
+I should be fine if I get ten minutes. Heck, with the worst behind me,
+I'll feel even better.
+@page
+@v s=20450
+@【祀利】
+"Come one, get up! Get uppp-!!!"
+@page
+My mind's already too far gone to even consider giving
+her an answer of any kind.
+@page
+Well, that's natural. I'm already half-asleep.
+@page
+@bgm fade=out
+;フェスタ
+@v s=20451
+@【祀利】
+"... So what the hell do you think you're doing?"
+@se s=se131
+;【ＳＥ】拳銃を構える
+@page
+@bgm s=bgm15
+My mind freezes when I hear her voice, and the cocking of a gun.
+@page
+So this is where I die?!
+I think that with an unpleasant conviction, after hearing the murderous tone of Matsuri's voice.
+@page
+I have to get up! If I don't get up and apologize fast--!
+@page
+@mwoff
+@bi s=bg12d trans=clock
+@se s=se109
+;【背景】教室・昼
+;【ＳＥ】銃声
+@qk time=800
+@flash time=800
+@wait time=2000
+@setOnce
+@fi s=k212 pos=rc
+@fi s=m415 pos=lc
+@endOnce
+@mwon
+@v s=30096
+@【かごめ】
+"O-Oh.... ee-eeeeeeeeiikk!"
+@page
+When I open my eyes, I see Matsuri with a smoking gun, and
+my classmates and Otogiri-san standing there terrified.
+@page
+@v s=20452
+@【祀利】
+"Hey, what the hell do you think you're doing!?"
+@page
+The class goes silent when they hear Matsuri's contemptful voice.
+@page
+Everyone stops, completely frozen.
+But that's only natural, she has a gun in hand.
+@page
+@v s=20453
+@【祀利】
+"You fuckin' listening?
+Can any of you assholes hear me!?"
+@page
+@fi s=k448b pos=rc
+@act id=k t=neckswing
+@v s=30097
+@【かごめ】
+"I-um-I-ah-um-err-ah-n-nothing."
+@page
+@v s=20454
+@【祀利】
+"Alright, glasses girl. Start talking!"
+@page
+@【至】
+"Stop it! She's in my class!"
+@page
+I cut between the two of them.
+@page
+@v s=20455
+@【祀利】
+"Stand right there. You got something in your hand?"
+@page
+@fi s=k112b pos=rc
+@act id=k t=neckswing
+@v s=30098
+@【かごめ】
+"N-N-No!　Thi-This is just-just a wor-worksheet."
+@page
+Matsuri picks up a paper that had fallen to the ground.
+Just as Otogiri-san had said, it was a schedule for some upcoming
+events in the school.
+@page
+@v s=30099
+@【かごめ】
+"I-I-I nee-needed to give this to Taka-Takamichi-kun."
+@page
+Otogiri-san trembles as she tells her that, her fright apparent to everyone.
+@page
+@v s=20456
+@【祀利】
+"You're scared? Are you afraid of me?
+Haha, how about I give you something to really be afraid of?"
+@page
+@qk time=800
+@lfont
+@v s=20457
+@【祀利】
+"HYAHAHAHAHA!"
+@page
+@【至】
+"Matsuri, you're going too far! Apologize to Otogiri-san!"
+@page
+@v s=20458
+@【祀利】
+"Nah."
+@page
+@v s=20459
+@【祀利】
+"You know this bitch?
+You know she was fuckin' fingering herself looking at ya?"
+@page
+@【至】
+"Huh?"
+@page
+Without meaning to, I look down at Otogiri-san's crotch.
+@page
+Her hand moves.
+For a moment, it looks like her hand was touching the center of her crotch,
+right before she moved her hand.
+@page
+@fi s=k548a pos=rc
+@act id=k t=neckswing
+@v s=30100
+@【かごめ】
+"N-N-No! That's not it!
+It's-It's-um-It was itchy! It itches!"
+@page
+@v s=20460
+@【祀利】
+"Feels rubbery?"
+@page
+@fi s=k114a pos=rc
+@v s=30101
+@【かごめ】
+"Y-Y-Yes! That's all it could be, right?"
+@page
+A laughing smile floats onto Matsuri's face.
+A sadistic smile.
+Almost like the smile of a predator that's cornered it's prey.
+@page
+@v s=20461
+@【祀利】
+"Then... take it off."
+@page
+@fi s=k112 pos=rc
+@v s=30102
+@【かごめ】
+"Eh?"
+@page
+@v s=20462
+@【祀利】
+"Take off your panties.
+Lemme see if there's a stain in them."
+@page
+@fi s=k448b pos=rc
+@v s=30103
+@【かごめ】
+"T-T-That's...!!!"
+@page
+Otogiri-san's hand moves again.
+Her hand creeps into the pocket of her skirt, almost
+as if to protect her underwear.
+@page
+@v s=30104
+@【かごめ】
+"No... noooo!
+This's... not here... not here... not here..."
+@page
+@fi s=k347a pos=rc
+@act id=k t=neckswing
+@qk time=1000
+@lfont
+@v s=30105
+@【かごめ】
+"NOT HEREEE!!!"
+@page
+She moves once more-- blocking Matsuri's handgun.
+Then, she suddenly has two muzzles glaring at her.
+One pointed at her forehead, one at her heart.
+@page
+@v s=20463
+@【祀利】
+"Don't move... not even a single hair... or I'll kill you."
+@page
+@fi s=k346a pos=rc
+@act id=k t=neckswing
+@v s=30106
+@【かごめ】
+"I-ugh-I-um-I-I wasn't-I-
+Nn, err-I-uh-ah-n-no!
+I-I was-wasn't-d-doing anything!!!"
+@page
+;@fi s=k347a pos=rc
+Her hand moves slightly.
+@page
+@se s=se109
+@qk time=800
+@flash time=800
+I hear a gunshot.
+Matsuri shot, just as she said she would.
+@page
+But Otogiri-san doesn't fall.
+There is only a red stream of blood coming from her cheek.
+@page
+@v s=20464
+@【祀利】
+"This is Japan, so I'll give you ONE more chance.
+But the next move you make--"
+@page
+Is Otogiri-san really listening to her?
+@page
+No, she probably isn't.
+I see in her eyes the light of insanity that danced through those eyes
+yesterday on the roof.
+@page
+@fi s=k345a pos=rc
+@act id=k t=neckswing
+@v s=30107
+@【かごめ】
+"Nnn, eeh, heh... it's okay...　
+I-I-I... I can... I can do it... b-b-because...
+T-The ideal! The ideal! T...the!"
+@page
+@fi s=k347a pos=rc
+@qk time=1000
+@flash time=1000
+@lfont
+@v s=30108
+@【かごめ】
+"You-nger-bro-ther!"
+@page
+@fi s=k647a pos=rc
+Otogiri-san takes something out of her pocket.
+The retractable knife I saw before.
+@page
+@v s=20465
+@【祀利】
+"Don't fuck with me! Is that really all!?"
+@page
+@【至】
+"Stop it you two! Please, stop!"
+@page
+@bgm fade=stop time=100
+@bi s=current all=true trans=crossfade time=100
+@jump storage="020802.scn"
+;→020802

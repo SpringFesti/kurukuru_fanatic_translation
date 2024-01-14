@@ -1,0 +1,144 @@
+﻿;230602
+*230602|_倍返し
+;【備考】かごめ視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】廊下・夕方
+@bi s=blank time=100
+@mnon time=300 size=40
+@mset l=4 h=true time=300
+Five minutes before the explosion...
+@waitclk
+@mnoff
+@wait time=200
+@bi s=bg10e trans=ランダム
+@bgm s=bgm16
+@fi s=k349 pos=c
+@mwon
+@v s=30212
+@【かごめ】
+"Hihi...hihaha... it feels great! That moment when
+she stepped on the thumbtacks... her face...
+hyahahaha!"
+@page
+I'll forgive her for today.
+@page
+@fi s=k347 pos=c
+But this isn't the end.
+The sin of putting her hands on my younger brother...
+Can only be absolved with her death!
+@page
+@fi s=k349 pos=c
+In good spirits, I start to return home.
+I open up my locker and take out my shoes.
+@page
+@fi s=k111 pos=c
+At that moment, I notice a strange feeling.
+Someone had been put under my shoes.
+@page
+A love letter? No, that can't be it.
+Almost like a small machine...
+@page
+@fi s=k112 pos=c
+I have no evidence. But my instincts are telling me.
+I'm facing a death trap right now.
+@page
+@fi s=k348 pos=c
+@qk
+@v s=30213
+@【かごめ】
+"Wha...!?"
+@page
+I lay down immediately.
+@page
+@bgm fade=stop
+@mwoff
+;【ＳＥ】爆発音
+@fi id=k
+@se s=se098
+@qk time=1000
+@flash time=1000
+@bi s=white all=true trans=crossfade
+@wait time=3000
+@mwon
+Sound, light and force.
+I can only remember that much.
+@page
+@bi s=blank trans=crossfade all=true
+Afterwards, everything was wrapped in darkness.
+@page
+;【演出】暗転
+;【背景】廊下　夕方
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=clock
+@smokepfx once=true
+@bgm s=bgm07
+@fi s=k448 pos=c
+@mwon
+@v s=30214
+@【かごめ】
+"... I... I'm alive?"
+@page
+Did I lose consciousness?
+@page
+Confirming my injuries, I seem to have some scratches and slight burns.
+@page
+The locker isn't broken either. Just burned.
+@page
+It seemed to be a bomb designed to blast a certain direction.
+I know because I read about it in a manga once.
+Information on the internet is great.
+@page
+However, this isn't just explosives.
+This was planned beforehand.
+@page
+@v s=30215
+@【かごめ】
+"A-a bomb... that girl!"
+@wait time=2800
+@fi s=k347 pos=c
+@page
+It was Matsuri.
+It couldn't be anyone but her!
+Her urge to kill was clear.
+@page
+Because I had laid down at once, I survived.
+Otherwise, that direct blast would have blown off my face.
+@page
+@fi s=k349 pos=c
+@v s=30216
+@【かごめ】
+"Kuhi... fuhihi... hyahahahaha!
+So it was you that did it, you fake foreigner!"
+@page
+@fi s=k34a pos=c
+@act id=k t=neckswing
+@v s=30217
+@【かごめ】
+"And you tried to do it to me here...
+Very goooooodddddddd! I'll beat tha' shit outta yaaaaa!"
+@page
+@act id=k t=stopswing
+@fi s=k113 pos=c
+@v s=30218
+@【かごめ】
+"... But that might be a bit difficult by myself.
+My firepower isn't much, if I must say..."
+@page
+I can't win in a head-on collision.
+Some strategy is necessary.
+@page
+I think a little, and the face of a person floats into my mind.
+@page
+@fi s=k349 pos=c
+@v s=30219
+@【かごめ】
+"Fuhihi... yes, yes I see! There was that person...!"
+@page
+@stoppfx
+@fi id=k
+@mwoff
+@bgm fade=out
+;→230700
+@jump storage="230700.scn"

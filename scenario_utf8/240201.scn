@@ -1,0 +1,133 @@
+﻿;240201
+*240201|_私の番！
+;【備考】主人公視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】教室・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+;@fi s=m74ad pos=c
+@mwon
+Matsuri is worrying me today.
+Can we really go to class with her like that?
+@page
+But when class begins, she sits on my knee expectantly.
+It really surprises me.
+@page
+Wait, is this Festa or Matsuri right now?
+Those two have comparatively adult thoughts.
+@page
+Oh, maybe this is Mardi-gras, obediently following my orders.
+@page
+Well, we'll be safe as long as it's not Parade.
+@page
+If it was her, she'd randomly start shooting during
+the lesson.
+@page
+... But like usual, I'm sleepy during ethics class.
+@page
+This teacher talks really quietly, and the contents
+of the class aren't interesting either.
+@page
+Looks like it's going to be hard from the start today.
+@bgm fade=out
+@page
+@mwoff
+@bi s=evn2021
+@wait time=300
+@bgm s=bgm06
+@mwon
+@v s=21013
+@【祀利】
+"... Hey Itaru, what's this guy jabbering about?
+Some kinda voodoo spell?"
+@page
+@【至】
+"Not right now. This is ethics class."
+@page
+@【至】
+"Basically, the thoughts of a great many old men
+about how people should live their lives."
+@page
+@v s=21014
+@【祀利】
+"Fuu-n, I don't really get it.
+Humans kill, eat and sleep, right?"
+@page
+@【至】
+"Oh, are you Parade now? When did you come out?"
+@page
+@v s=21015
+@【祀利】
+"Fufun, it's been me since the class started."
+@page
+@v s=21016
+@【祀利】
+"But damn, this class is boring. Should I kill him later?"
+@page
+@【至】
+"Please don't. If this is so boring, then why'd you come out in the first place?"
+@page
+@v s=21017
+@【祀利】
+"Why... no real reason. I came out because I wanted to, that's all."
+@page
+I can't believe it's been Parade this entire time. 
+She hasn't been violent at all.
+@page
+@【至】
+"Th-then please behave yourself.
+I'll know if you're doing anything bad."
+@page
+@v s=21018
+@【祀利】
+"Hehhehheh, what're you worrying about?
+If you say something like that, it'll just make me want to do bad things."
+@page
+@v s=21019
+@【祀利】
+"Like throwing a grenade at the teacher's podium..."
+@page
+@【至】
+"No, don't!"
+@page
+@【教師】
+"...Huh? Takamichi-kun, what was that?"
+@page
+Ah, shit.
+@page
+@【至】
+"Oh... sorry, nothing."
+@page
+@【教師】
+"Though you're free to doze off or do other work,
+please don't raise your voice."
+@page
+@【至】
+"I-I understand... sorry..."
+@page
+Wait, was he just endorsing napping or goofing off?
+知らなかった。
+@page
+@v s=21020
+@【祀利】
+"Ahaha, it was just a joke. 
+@page
+くそう……こいつは……
+@page
+@v s=21021
+@【祀利】
+"Don't worry, I'll be quiet.
+　I'm comfortable on your knee, anyway..."
+@page
+@【至】
+"Huh... Parade...?"
+@page
+Somehow, Parade's attitude seems different than earlier.
+@page
+@mwoff
+;→240202
+@jump storage="240202.scn"

@@ -1,0 +1,13 @@
+﻿;230503
+*230503|_クイズ！　次はおまえだ！
+;【ＳＥ】ハズレブザー
+@se s=se139
+@fi s=f212 pos=lc
+@v s=40509
+@【ファヌル】
+"What's that thing on your neck?
+The correct answer is both. Don't think about it so much."
+@page
+@se fade=stop
+;→230504
+@jump storage="230504.scn"

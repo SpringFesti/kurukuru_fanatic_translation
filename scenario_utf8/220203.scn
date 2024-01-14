@@ -1,0 +1,257 @@
+﻿;220203
+*220203|_偶然と計画と
+;【ワイプ】時間経過
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm06
+;@fi s=fi**** pos=****
+@mwon
+... Well, I've done it now.
+I've had sex with Matsuri.
+@page
+I don't regret it...
+However, just then, my true feelings were revealed.
+@page
+@fi s=m111 pos=c
+@v s=20436
+@【祀利】
+"Mn? Itaru, what's wrong?"
+@page
+Matsuri's already redressed herself and cleaned herself up.
+@page
+@【至】
+"Huh? Ah, oh, it's nothing..."
+@page
+@fi s=m112 pos=c
+@v s=20437
+@【祀利】
+"Fufufu, you're a weirdo Itaru."
+@page
+Matsuri takes my arm and smiles, care-free.
+@page
+Looking at her now, it seems that she's okay.
+@page
+Certainly, I let my true feelings out, but...
+It's not a lie to say that I'm attracted to Matsuri.
+@page
+Alright. I need to be serious about Matsuri now.
+@page
+@【至】
+"How's your injury doing?
+If you're alright, we can go back to the classroom."
+@page
+@fi s=m114 pos=c
+@v s=20438
+@【祀利】
+"Ehhh?　No, Matsuri likes here better.
+It's just the two of us here."
+@page
+@【至】
+"B-But I still have some classes left."
+@page
+@fi s=m116b pos=c
+@act id=m t=neckswing
+@v s=20439
+@【祀利】
+"--Owowowowowow!
+My hand! My leg! Ahhhh, my head!
+Itaruuu, I feel like I'm gonna dieee!"
+@page
+Somehow I'm not buying it.
+@page
+Eh, I don't really feel like going to classes anymore, so whatever.
+@page
+I take Matsuri's invitation, and decide to skip all my classes today.
+@page
+;【ワイプ】時間経過
+;【ＳＥ】学校のチャイム[
+@act id=m t=stopswing
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12e trans=clock
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+@se s=se011
+So now it's after school.
+@page
+Matsuri was happy from beginning to end.
+@page
+I fell asleep on the desk, got up and talked, then
+repeated those two actions up until now.
+@page
+Well, I am tired, so it's only natural that I would
+want to rest.
+@page
+After all, having sex might have overworked me.
+@page
+;【ＳＥ】携帯呼び出し音
+@se s=se027
+@【至】
+"Oh, my phone... it's from Wazuka-san."
+@page
+@【至】
+"Hello?"
+@page
+;【備考】電話ごしの声に加工
+@v s=10402
+@【わずか】
+"-- Hell, Itaru-kun, where are you?
+You aren't in the classroom, so I'm worried..."
+@page
+@【至】
+"Huh? Uhhmmm... you must not know.
+I'm in an unused classroom."
+@page
+I explain to Wazuka-san what happened after we split up at noon.
+@page
+Of course, the part where I made love to Matsuri is secret.
+@page
+@v s=10403
+@【わずか】
+"I see... so you're alone with her, now?"
+@page
+I feel her fuming through the phone.
+I can't tell her that I had sex.
+@page
+@v s=10404
+@【わずか】
+"Anyway, let's go home together.
+I'll be waiting at the school gate with your things."
+@page
+@【至】
+"Yeah, got it. I'll be there soon."
+@page
+I promise her that, and hang up.
+@page
+@【至】
+"... But... well, this is gonna suck."
+@page
+It's clear that Wazuka-san is mad.
+@page
+However, she won't vent on me. She'll vent on Matsuri.
+@page
+Probably--
+@page
+@setOnce
+@bi s=bg8140 time=100
+@fi s=w312 pos=c time=100
+@endOnce
+@se s=se071
+@qk
+@flash
+@v s=10271
+@【わずか】
+"Kill."
+@page
+@fi id=w
+@bi s=bg12e time=100
+@【至】
+"... yeah, that'll totally happen."
+@page
+So now, I'm at a loss.
+If I make her wait, she'll just get even more pissed off.
+@page
+For now, let's just go to the entrance.
+@page
+@【至】
+"Matsuri, Matsuri, wake up, we're going home."
+@page
+@fi s=m64b pos=c
+@v s=20440
+@【祀利】
+"Mnn... fuwahh... got it... let's go home."
+@page
+@【至】
+"Come on, stand up straight.
+Wazuka-san is waiting for us."
+@page
+@fi s=m114 pos=c
+@v s=20441
+@【祀利】
+"Ehh, her?"
+@page
+@fi s=m64b pos=c
+@v s=20442
+@【祀利】
+"... Mnn, nahh... Matsuri is still sleepy...
+So I'm going back to sleep..."
+@wait time=2000
+@fi id=m
+@page
+@【至】
+"Wah, no, don't fall asleep! Wake up!"
+@page
+@v s=20443
+@【祀利】
+"Good niiiight... mnn...."
+@page
+@【至】
+"Matsuri! I said wake up! Wake uppp!"
+@page
+Even if I yell at her or shake her, she won't wake up.
+@page
+It feels like she won't wake up, no matter what.
+@page
+What should I do...? Wazuka-san is waiting.
+Still, I can't just leave Matsuri here.
+@page
+I think a little, then decide to carry Matsuri on my back.
+@page
+@【至】
+"Upsy-daisy... Matsuri, you're pretty light."
+@page
+Did she really take me in with this small body...?
+I feel a little guilty now that took advantage 
+of her love and came inside of her.
+@page
+Carrying Matsuri, I start to walk.
+@page
+@v s=20444
+@【祀利】
+"Heehee..."
+@page
+While I'm thinking, I could swear I just heard Matsuri laughing on my back.
+@bgm fade=out
+@page
+;【ワイプ】場面転換
+;【背景】路上
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08e trans=tile
+@bgm s=bgm05
+@fi s=w548 pos=c
+@mwon
+@v s=10405
+@【わずか】
+"... You should have just left her."
+@page
+On our way home, Wazuka-san finally breaks the silence.
+@page
+After all, she doesn't like that I'm carrying Matsuri.
+@page
+But there's nothing I can do about that.
+@page
+@fi s=w111 pos=c
+@v s=10406
+@【わずか】
+"I didn't give her permission to come back.
+Just leave her there and come with me."
+@page
+@【至】
+"You know I can't do that. She's injured."
+@page
+When I say that, Wazuka-san falls silent.
+@page
+She probably wasn't convinced, though.
+@page
+Staring hatefully at Matsuri on my back, we make our way home...
+@page
+@bi s=current all=true trans=crossfade
+;→021000
+@bgm fade=stop
+@jump storage="021000.scn"

@@ -1,0 +1,211 @@
+﻿;230707
+*230707|_祀利のお願い
+@fi s=m64a pos=c
+@【至】
+"Hey, wait, Mardi-gras?"
+@page
+@fi s=m113 pos=c
+@v s=20977
+@【祀利】
+"...Huh? When did Matsuri come out of the bath?"
+@page
+@fi s=m212 pos=c
+@v s=20978
+@【祀利】
+"Oh well! My body feels really nice!"
+@page
+This Matsuri... is it her original personality?
+I wonder if the other one got so tired that they had to switch..."
+@page
+@fi s=m113 pos=c
+@v s=20979
+@【祀利】
+"Huh? But... my butt feels weird for some reason."
+It stings a little."
+@page
+@fi s=m111 pos=c
+@v s=20980
+@【祀利】
+"I wonder why? Itaru, do you know anything?"
+@page
+@【至】
+"N, nope! It must be your imagination!"
+@page
+@v s=20981
+@【祀利】
+"Hmm... yeah, that must be it. Okay."
+@page
+I feel really guilty for some reason.
+@page
+I mean, we did agree to do it, but when
+it's like this, it's like I raped her when
+she was in a coma... in the butt.
+@page
+@v s=40526 v=50
+@【ファヌル】
+"Onii-chan, we're home! We're back now!"
+@page
+I hear a loud voice from the entrance. It's Fanuel.
+@page
+I look at my watch and find that exactly two hours
+have passed.
+@page
+@setOnce
+@fi id=m
+@fi s=w111 pos=c
+@endOnce
+@v s=10638
+@【わずか】
+"We're home, Itaru-kun. I'll go make dinner now."
+@page
+@【至】
+"Oh, thanks. Sorry that you have to do it
+just as you're getting home."
+@page
+@fi s=w547 pos=c
+@v s=10639
+@【わずか】
+"It's okay. It's for Itaru-kun."
+@page
+I feel more guilt. I mean, I just fucked
+Matsuri right before Wazuka-san got here.
+@page
+@setOnce
+@fi s=w547 move=lc
+@fi s=f111 pos=rc
+@endOnce
+@v s=40527
+@【ファヌル】
+"Hey Matsuri-chan, what did ya do with onii-chan
+while we were gone?"
+@page
+@fi s=w112 pos=lc
+I hear Fanuel ask Matsuri a terrifying question.
+@page
+Wazuka-san's movements stop, as if she just got a cramp.
+@page
+@setOnce
+@fi s=w112 move=l
+@fi s=f111 move=r
+@fi s=m112 pos=c
+@endOnce
+@v s=20982
+@【祀利】
+"Ehehe, Fanuel-chan, you wanna know?"
+@page
+@fi s=f314 pos=r
+@v s=40528
+@【ファヌル】
+"Yeah, I do. Matsuri-chan, you didn't do
+any naughty things with onii-chan, did you?"
+@page
+She asks with a satanic smile.
+@page
+This girl is a demon!
+... No wait, she's an angel.
+@page
+@fi s=m111 pos=c
+@v s=20983
+@【祀利】
+"Hmm... well, I don't remember well,
+so dirty things would be..."
+@page
+Deny it! If you don't remember, deny it!
+@page
+@fi s=m112 pos=c
+@v s=20984
+@【祀利】
+"But actually, a little while ago, I took a bath with Itaru.
+It was super fun!♪"
+@page
+@fi s=f21d pos=r
+@v s=40529
+@【ファヌル】
+"Aha, I gotcha!"
+@page
+Wazuka-san says nothing.
+She's stone-still.
+Her expression hasn't changed either.
+@page
+But I can see it. An aura of anger and bloodlust rising
+from her body!
+@page
+Matsuri is probably sensing it too.
+I quietly turn her jacket's bottom up, and
+see the glint of a pistol underneath.
+@page
+Seriously, gimme a break.
+@page
+@bgm fade=out
+;【背景】夜空
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg830 trans=clock
+@bgm s=bgm04
+@mwon
+And as night falls, I find myself lying in bed
+with Matsuri and Wazuka-san.
+@page
+It's been three days, so I'm used to it now.
+... But only Wazuka-san.
+@page
+;【イベントＣＧ】三人で寝る
+;寝息流用
+@bi s=evn1010
+@v s=10220
+@【わずか】
+"... nn... Itaru-kun..."
+@page
+@v s=10221
+@【わずか】
+"... Love... I love you..."
+@page
+@v s=20086
+@【祀利】
+"Itaru... nooo... it hurts..."
+@page
+The same sleepy whispers come from them.
+But now it is different.
+@page
+The relationship between Matsuri and I has changed in these two days.
+We've become aware of our feelings.
+@page
+@【至】
+"... And we did it."
+@page
+Of course we had sex, and even did anal sex today too...
+I become erect, thinking of the thing we did in the bathroom.
+@page
+I want to keep feeling Matsuri's warmth next to me as we sleep.
+And I want to hold Wazuka-san next to me.
+@page
+@【至】
+"... wait, what am I thinking?"
+@page
+;【演出】暗転
+@bi s=blank trans=crossfade all=true
+I should go to bed--
+I look away from Matsuri, and shut my eyes.
+@page
+But I can't sleep. I'm too excited now.
+@page
+If I was by myself, I could just masturbate.
+But right now, my arms are being held by these two.
+@page
+... Matsuri's smell seems more tasteful when compared to Wazuka-san's.
+I can even feel her nipples like this.
+@page
+;【背景】夜空
+@bi s=bg830
+@qk time=800
+@lfont
+No, wait!
+@page
+That night, as I fell asleep, I heard the sounds of the motorcycles
+on their paper routes...
+@page
+@mwoff
+@bgm fade=out
+;→240100
+@jump storage="240100.scn"

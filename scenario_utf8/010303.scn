@@ -1,0 +1,195 @@
+﻿;010303
+@bgm fade=stop
+@mwoff
+*010303|_October 27th, 8:24AM
+@se s=se011
+@fi s=k348 pos=c
+@wait time=1500
+@mwon
+@【至】
+"... Oh, there's the bell."
+@page
+That's the bell that marks the beginning of classes.
+In other words, the bell that tells me the worst possible thing just happened.
+@page
+@setOnce
+@bgm s=bgm09
+@fi id=k
+@lineFXon
+@endOnce
+There's only one thing I can do――
+I run off to my classroom while that cruel sound echoes around me.
+@page
+As I turn a corner, I remember that girl.
+@page
+I didn't get her class or her name.
+How do I apologize to her later without those?
+@page
+As it turns out, the answer was right beside me.
+@page
+@v s=30010
+@【？？？】
+"Haah! Haah! Haah! Haaah!"
+@page
+She's right besides me, running in the same direction as me.
+@page
+She must've noticed me looking at her, as she bows slightly. 
+I return the gesture.
+@page
+@【至】
+"Are you late too?"
+@page
+I feel like it's the right time to ask that, even after what just happened.
+@page
+She thinks a bit, and――
+@page
+@mwoff
+@stoppfx
+@cut s=cut2090
+@se s=se066
+@qk time=700
+@flash time=700
+;【ＳＥ】転ぶ～ドタン！
+@wait time=1800
+@mwon
+She trips.
+@page
+@cut
+;@stoppfx
+@fi s=k212a pos=c
+@v s=30011
+@【？？？】
+"Auuuuughhhh... Why? Why is this happening to me?"
+@page
+She might not have been looking where she was going, or perhaps she's a natural klutz, but I had neither the courage nor the hatred to say that.
+@page
+@【至】
+"Are you okay? Are you hurt anywhere?"
+@page
+@v s=30012
+@【？？？】
+"No... but my nose hurts."
+@page
+@【至】
+"It looks a little red. Do you need a band-aid?"
+@page
+@fi s=k347a pos=c
+@act id=k t=neckswing
+@v s=30013
+@【？？？】
+"No, I don't! Actually! I have to go!"
+@page
+;【演出】以下音声、フェードアウト
+@v s=30014
+@【？？？】
+"I'm laaaaaaaaaate!!!"
+@wait time=2000
+@setOnce
+@act id=k t=stopswing
+@fi id=k
+@endOnce
+@page
+@【至】
+"Aaaaaaaand there she goes..."
+@page
+How is she so peppy all of a sudden?
+It makes no sense with what she was saying.
+@page
+@【至】
+"No, wait! This is a huge mess! I really need to hurry up!"
+@page
+I struggle vainly, even through I'm late.
+If I don't get to the classroom fast, then――!
+@page
+If God really exists, I need a miracle. Save me from being late!
+@page
+But how could things work out so well? This is reality. 
+There's no guarantee it'll happen. Fate only has one thing in store for me.
+@page
+;【ワイプ】場面転換
+;【背景】教室/昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ひし形(左から右へ)
+;@bi s=bg810 trans=ひし形(左から右へ)
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Huh, I'm on time."
+@page
+I run into the classroom, and I find out――
+It had only been 3 minutes since homeroom started.
+@page
+Usually the teacher's already here by now. Not today, though.
+@page
+As this morning's homeroom starts, just one minute after I take my seat――
+The teacher finally arrives.
+@page
+He says the staff meeting was prolonged.
+Homeroom starts as normal, and I wonder if I really did just see a miracle.
+@page
+@【至】
+(... But today's been weird, hasn't it? I had that weird dream, 
+THAT happened with Wazuka-san, and I met that weird girl.)
+@page
+I sigh a little, muttering to myself.
+I don't want to fall asleep on my desk first thing in the morning, 
+so I turn my attention to the teacher's platform.
+@page
+@【至】
+"... Huh? Are we in the same class?"
+@page
+I look forward and to my right, and see that girl from a little while ago 
+sitting there.
+@page
+Her head's down, she's facing forward, and she has a weird posture.
+Yeah, she's probably asleep.
+@page
+@【至】
+(Wow... How did she fall asleep already?)
+@page
+She stays like that right up until class starts.
+She stays stock still, with the exact same posture.
+@page
+She's in a really deep sleep―― no, did she die or something?
+She really isn't moving an inch.
+@page
+@【至】
+(... With what happened a little while ago, should I say something?
+Nah, if I did that, she'd probably stop me from speaking.) 
+@page
+;【ワイプ】時間経過
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+;@bi s=bg810 trans=clock
+@se s=se011
+;@fi s=fi**** pos=****
+@mwon
+Then break time came. She's still sitting in the exact same way.
+@page
+@se fade=out
+@【至】
+"Huh? She's gone..."
+@page
+I move my eyes off her for 10 seconds, just to put away my textbook.
+In that small space of time, she completely disappeared.
+@page
+@【至】
+"Is she... a ninja or something?"
+@page
+Nah, no way. That's stupid.
+@page
+But, today's been a really weird day. It's not out of the realm of possibility.
+@page
+@【至】
+"... I'm just being dumb."
+@page
+It's pointless to wonder about it. I should just focus on class.
+@page
+@mwoff
+@jump storage="010400.scn"
+;【ワイプ】場面転換
+;→010400

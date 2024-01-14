@@ -1,0 +1,73 @@
+﻿;360100
+*360100|運命の日
+;【ワイプ】場面転換
+;【背景】青空
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=tile
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+Then, morning comes.
+The morning of the sixth day, where everything should have ended already.
+@page
+There was no mealtime talking today as well.
+More than that, we didn't talk on the way to school either.
+@page
+Yesterday's awkwardness, my worries about Matsuri,
+my worries about Otogiri-san, and my worries about my own life.
+@page
+I'm covered with depressing stuff.
+Still, I should go to school.
+@page
+Perhaps I should say, I must go to school.
+I have to remove the cause of my death.
+There's no point to spending my time locked up in my house.
+@page
+So for that reason, I feel heavy as I drag my feet to school.
+@page
+;【ワイプ】場面転換
+;【背景】学園廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+;@bgm s=bgm15
+@fi s=w111 pos=c
+@mwon
+At school, we don't talk to each other in the place we normally part ways.
+@page
+With my chance to talk missed, 
+I start to head to the classroom when I hear Wazuka-san's voice.
+@bgm fade=out
+@page
+@bgm s=bgm05
+@fi s=w112 pos=c
+@v s=10755
+@【わずか】
+"Itaru-kun. I'm on your side. No matter what happens, even if you hate me forever, I'll be on your side."
+@page
+@【至】
+"No, there's no way I could hate you, Wazuka-san."
+@page
+@fi s=w114 pos=c
+@v s=10756
+@【わずか】
+"Just a what-if. Even if you hate me, if I can do something for you... I'll do anything."
+@page
+A meaningful speech.
+@page
+@fi id=w
+However, I can't ask what the meaning of the speech is.
+Wazuka-san finishes her speech and leaves at once.
+@page
+@【至】
+"... What on earth could she have meant?"
+@page
+The person who could answer that question is, of course, no longer here.
+@page
+@mwoff
+;→360200
+@bgm fade=stop
+@jump storage="360200.scn"

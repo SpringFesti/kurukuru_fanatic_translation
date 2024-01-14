@@ -1,0 +1,113 @@
+﻿;330102
+*330102|_１０月２９日午前７時１２分
+@【至】
+"It would be too hard..."
+@page
+I was almost late yesterday.
+Even if today is better than yesterday,
+I would surely be late if I met with her.
+@page
+So that's why I reply with,
+"Sorry, I would be late".
+@page
+@【至】
+"There's still lunch... no, that would be even more impossible."
+@page
+I'd be fine in terms of time, but it would be impossible in a certain sense.
+And yeah, speaking of my free time... wait, huh?
+@page
+@【至】
+"I go to school with Wazuka-san,
+go to class, eat lunch with Wazuka-san,
+and after school ends I go home with Wazuka-san..."
+@page
+That was my life cycle until three days ago.
+If I think carefully, I realize I almost had no free time.
+Only after dinner, in the bath, and in bed.
+@page
+Am I just imagining something?
+I feel like even that free time disappeared after we added Matsuri here.
+In fact, I'm even sleeping with the two of them.
+@page
+@【至】
+"... It's probably just my imagination.
+No, please let it just be my imagination."
+@page
+@se s=se027
+;【ＳＥ】携帯電話着信音
+A text came at just the right time.
+I switch out of my mind that was about to fall into depression,
+look at the text, and see...
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30256
+;@【かごめ】
+"I can be late too, so please?
+I'll wait 10 or 15 minutes for you."
+@waitclk
+@mwon
+@【至】
+"I thought you were going to apologize, but you're being surprisingly stubborn about this."
+@page
+I usually stutter when I talk face-to-face,
+but on the contrary I feel like steam's going
+to come blasting out of me at any moment.
+I just can't grasp Otogiri-san's character yet.
+@page
+For now, I'll answer:
+"Is after impossible? How would lunch break or after school be?"
+@page
+Then the reply comes:
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30257
+;@【かごめ】
+"If it is possible, I would ask to meet in the morning."
+@waitclk
+@mwon
+And that's what I got.
+@page
+@【至】
+"What could be so important? If we're talking about Otogiri-san and I, then..."
+@page
+Nothing.
+But if she's this persistent, I have no choice.
+@page
+"If you're alright with being late.
+Do you seriously have to wait 10 minutes though?"
+I reply like so.
+@page
+;【ＳＥ】携帯電話着信音
+@se s=se027
+The reply is the same as before--
+No, it comes even faster than before.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30258
+;@【かごめ】
+"I apologize if I am being unreasonable. I will be waiting."
+@waitclk
+@mwon
+@【至】
+"Now then... looks like I'll be going alone today."
+@page
+I'm getting the sense that this problem is more serious than being late.
+I begin to think of the right time to escape, when--
+@page
+;【備考】声のみ、立ち絵なし。
+@v s=10701
+@【わずか】
+"Itaru-kuuun, breakfast is readyyy!"
+@page
+@【至】
+"-- Oh crap... I gotta gooo!"
+@page
+I begin changing my clothes in a hurry when I hear Wazuka-san's voice.
+@page
+@mwoff
+;→330200
+@bgm fade=stop
+@jump storage="330200.scn"

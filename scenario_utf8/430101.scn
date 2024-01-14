@@ -1,0 +1,364 @@
+﻿;430101
+*430101|１０月２９日午前８時２６分
+;;230200
+;*230200|宣戦布告
+;【備考】以下、230200流用。ここから……
+;【背景】青空
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=tile
+@bgm s=bgm03
+@mwon
+@【至】
+"Wow... the weather's awesome today, too."
+@page
+I look up from the school grounds at the clear autumn sky.
+It has a refreshing quality to it that clears the worries from my heart.
+@page
+@bi s=bg11d
+@fi s=m111 pos=c
+@v s=20718
+@【祀利】
+"Itaru, we need to get inside the classroom. Aren't you late?"
+@page
+There's plenty of time before class starts,
+but Matsuri is still hurrying me.
+@page
+It's probably because Wazuka-san will have to leave when we get inside the classroom.
+@page
+@【至】
+"I know, don't pull so much."
+@page
+Pushed by Matsuri, I climb the stairs.
+@page
+@fi id=m time=100
+@se s=se061
+;@fi s=m114 pos=c
+@qk time=500
+@lfont
+@v s=20719
+@【祀利】
+"Kyah!?"
+@page
+For a moment, I didn't understand what was happening.
+A flowerpot shattered on the floor.
+Then, Matsuri collapsed.
+@page
+@【至】
+"Matsuri, are you alright!?"
+@page
+@fi s=m74b pos=c
+@v s=20720
+@【祀利】
+"I'm okay... I managed to dodge it..."
+@page
+@fi s=m749 pos=c
+@v s=20721
+@【祀利】
+"A little further and that would have been it for me.
+I guess I was a little lucky."
+@page
+The flowerpot looks like it was very small, just like
+the ones I see around school.
+@page
+Even if they're small, they're still heavy. It would be bad to be hit with one.
+@page
+@【至】
+"... Damn, if you had gotten hit by this...!"
+;【備考】流用ここまで
+@page
+At that time, I remember.
+I remember this scene.
+Vaguely, I remember this scene and what happens after it.
+@page
+@【至】
+"... I see. This certainly is..."
+@page
+I look around for "that girl."
+The girl who dropped the flowerpot on Matsuri, Otogiri-san.
+@page
+@【至】
+"... So she really isn't here."
+@page
+@fi s=m113 pos=c
+@v s=21520
+@【祀利】
+"Do you know who dropped it?"
+@page
+Matsuri stares at me with a puzzled expression.
+@page
+Yes, I was deceived by this "before".
+She knew that.
+By this time, Otogiri-san had already noticed.
+@page
+@【至】
+"Hey, do you know? Can someone in there tell me?"
+@page
+@fi s=m64b pos=c
+@v s=21521
+@【祀利】
+"Eh? Eh? I don't understand..."
+@page
+@【至】
+"Then, uhh... how about Parade? Wouldn't she know?"
+@page
+Before she can ask what I mean, Matsuri's eyes cloud over.
+@wait time=300
+@fi s=m74a pos=c
+@page
+Someone, the area behind her retinas change.
+Then of course, the person who appears afterwards is--
+@page
+@fi s=m115 pos=c
+@v s=21522
+@【祀利】
+"Yeah, of course. I figured it out back
+when we went through the school gate."
+@page
+Parade says that when we went through
+the school gate, she had spotted Otogiri-san,
+who had been staring at us the whole time.
+@page
+The destination was, of course, the classroom.
+I also understand how to advance the route.
+@page
+When should I attack, then?
+But I suppose I can guess that as well.
+@page
+If there is a target, then there is a person who is targeting.
+If she's being targeted,
+then thinking about who could be doing the targeting should be good.
+@page
+@v s=21523
+@【祀利】
+"Just now, it was easy to tell.
+Even though everyone's moving around so noisily,
+only one person stopped to look down on us."
+@page
+In other words, until we entered the front door--
+Until the last moment she could see us,
+Otogiri-san knew where we were.
+@page
+If that's so, then we can guess her behavior.
+We can guess how she attacked.
+@page
+@【至】
+"You're really something."
+@page
+@fi s=m64b pos=c
+@v s=21524
+@【祀利】
+"Then love Matsuri more.
+That's the best reward you can give her."
+@page
+@【至】
+"Got it, I'll get you some juice later.
+So please, let me ask one more question."
+@page
+@fi s=m113 pos=c
+@v s=21525
+@【祀利】
+"What?"
+@page
+@【至】
+"Please don't use your guns.
+I didn't want you to use them yesterday,
+but it'll be troublesome in various ways later."
+@page
+@fi s=m115 pos=c
+@v s=21526
+@【祀利】
+"I'm sure."
+@page
+Parade smiles grimly.
+Like a vicious, ferocious carnivore.
+@page
+After all, I was still deceived.
+She really is that kind of person.
+The kind that eliminates all living beings through death.
+@page
+@setOnce
+@fi s=m115 move=rc
+@fi s=w111 pos=lc
+@endOnce
+@v s=10617
+@【わずか】
+"Itaru-kun, we need to get going."
+@page
+When I look at my watch, I see that we're about to be late.
+Just as she says, we need to go.
+@page
+@fi s=m214 pos=rc
+@v s=20726
+@【祀利】
+"Itaru, run! If you don't, we'll be late!"
+@page
+@setOnce
+@fi id=m
+@fi s=w111 move=c
+@endOnce
+Matsuri's running face was that
+of the normal "Matsuri".
+@page
+@【至】
+"Case closed, then?"
+@page
+If that's the case, then I'm quite thankful.
+@page
+@fi s=w112 pos=c
+@v s=10760
+@【わずか】
+"Itaru-kun, don't trust her.
+She's that sort of person... you know?"
+@page
+@fi id=w
+I nod in understanding, and Wazuka-san and I begin to run.
+@page
+Hey, Wazuka-san.
+You do know that you're also "that sort of person", right?
+Perhaps you've also killed me several times.
+@page
+When I think this, my cell phone vibrates a little,
+as if Fanuel is laughing at me scornfully.
+@page
+;【背景】教室
+;【ＳＥ】チャイム
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@se s=se011
+@bgm s=bgm03
+@mwon
+After I got to the classroom,
+the bell immediately rung.
+@page
+@fi s=m212 pos=c
+@v s=20727
+@【祀利】
+"Bom dia! Good morning everyone♪!"
+@page
+@se fade=stop
+They just met her yesterday, but my classmates...
+and the boys in particular seemed to have opened up to her.
+@page
+Although there are various problems with her personality,
+Matsuri is still basically a good person.
+Otherwise, she wouldn't have been able to make friends with everyone.
+@page
+@fi s=m111 pos=c
+@v s=20728
+@【祀利】
+"Oh... that girl from yesterday. Bom dia!"
+@page
+Matsuri waves her hands at Otogiri-san.
+@page
+;@bgm s=bgm07
+@setOnce
+@fi s=m111 move=lc
+@fi s=k113 pos=rc
+@endOnce
+@v s=30173
+@【かごめ】
+"... Ah!"
+@page
+@fi s=m749 pos=lc
+@v s=20729
+@【祀利】
+"Err, uh... what was your name again?"
+@page
+You really are a sadist, aren't you?
+I almost let a wry smile loose.
+@page
+@【至】
+"This is Kagome Otogiri."
+And this is Matsuri Carnevale.
+She's my self-proclaimed fiancee."
+@page
+@fi s=m214a pos=lc
+@v s=21527
+@【祀利】
+"Bleeh, that's not it! Not just self-proclaimed!
+I'm your fiancee, plain and simple!
+We french kissed, you know!"
+@page
+The normally noisy class falls silent again.
+But I ignore them now.
+I have to be careful around the pair in front of me.
+@page
+@fi s=k212 pos=rc
+@v s=30174
+@【かごめ】
+"I-I-Is that right?
+That's, um... that's amazing."
+@page
+@【至】
+"Not at all. It's about time that I..."
+@page
+@【男子生徒】
+"Hey, Takamichi!"
+@page
+@bi s=current all=true trans=crossfade
+I look behind me and see one of my friends
+in the class standing there.
+@page
+@【至】
+"Is it about yesterday's homework? Sorry, I didn't do it.
+Rather, until I said it, I didn't know about it."
+@page
+@【男子生徒】
+"Wha? Then how did you know about it?"
+@page
+@【至】
+"Huh? Ah, err... that's, um...
+A miracle. The work of a god."
+@page
+@【男子生徒】
+"What? What's that supposed to mean?"
+@page
+@【至】
+"Anyway, go find someone else.
+Since things have gone like this, I should look for someone too."
+@page
+Of course, this is to advance the conversation forward.
+@page
+Then, just before we seperate, I wink at Matsuri.
+The meaning is, of course... No guns!
+@page
+She leans her head to the side in confusion.
+The meaning is, of course... What?
+@page
+@【至】
+"Matsuri, don't forget our promise.
+You shouldn't make trouble for Otogiri-san, okay?"
+@page
+@fi s=m115 pos=c
+@sfont
+@v s=21528
+@【祀利】
+"I got it. Today will just be a warning."
+@page
+I look back at Matsuri and wave a little.
+Otogiri-san can't see her expression. That's good.
+@page
+Right now, she's Parade.
+Her smile is one that resembles a beast hunting prey.
+@page
+Honestly, I'm uneasy, but I can't do anything.
+More than anything, those two shouldn't fight here.
+@page
+;【演出】暗転
+@bi s=blank trans=crossfade all=true
+But "before", I didn't notice.
+I didn't know Matsuri and Otogiri-san's motives.
+@page
+Yes, my fate is changing.
+I'm realizing just how much my deaths have made me learn--
+@page
+@mwoff
+@bgm fade=out
+@jump storage="430102.scn"
+;→430102

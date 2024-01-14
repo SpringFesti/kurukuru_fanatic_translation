@@ -1,0 +1,67 @@
+﻿;150504
+*150504|_償い
+;【ワイプ】時間経過
+;【ワイプ】自宅居間
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+@bgm s=bgm11
+@mwon
+I pull myself together, seeing their tears,
+and run away from the bathroom.
+@page
+Are they still crying now?
+My heart hurts when I consider it...
+@page
+@fi s=w114 pos=c
+@v s=11255
+@【わずか】
+"Good work."
+@page
+@【至】
+"T-Thanks..."
+@page
+She gives me a glass of water, and I quench my throat.
+I want to de-escalate my confused feelings.
+@page
+@fi s=w547 pos=c
+@v s=11256
+@【わずか】
+"Just leave it to me now.
+I'll end it all."
+@page
+@【至】
+"Yeah..."
+@page
+I can't hit those two anymore...
+@page
+@【至】
+"... That's enough for me."
+@page
+I can do nothing but leave it to her now.
+I'm satisfied, so maybe she'll let me stop.
+@page
+I feel as if I became another person. I'm afraid.
+I want to forget it completely.
+@page
+@【至】
+"Wazuka-san, I'm sorry.. I-I'm sleepy."
+@page
+Fatigue overcomes me. I overworked myself.
+I can't fight that weariness at all, and I feel
+myself going even now.
+@page
+@fi s=w114 pos=c
+@v s=11257
+@【わずか】
+"... Good night."
+@page
+I crumble into a deep sleep.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+;→150505
+@jump storage="150505.scn"

@@ -1,0 +1,545 @@
+﻿;020200
+*020200|天国の食卓
+;【イベントＣＧ】食事する一同
+;【備考】以下、010600から流用
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@lfont
+;【備考】ユニゾン
+@v s=10203
+;@【わずか】
+"Alright, let's dig in."
+;@v s=20071
+;@【祀利】
+;「いただきます」
+;@v s=40106
+;@【ファヌル】
+;「いただきます」
+@page
+@mwoff
+@bi s=evn0010
+@wait time=300
+@mwon
+;@page
+Everyone must eat to live. It's a part of being human.
+@page
+Even though Wazuka-san and Matsuri were just fighting, now
+they're eating together at the table quite happily.
+@page
+God, how much money would I pay to have them be like this normally.
+But at least they aren't fighting.
+@page
+@v s=20182
+@【祀利】
+"Mmmm, this is really good♪
+It's been 10 years since I've had miso soup."
+@page
+@【至】
+"Where were you up until now?"
+@page
+@v s=20183
+@【祀利】
+"Brazil. More specifically, inner Rio."
+@page
+@v s=40338
+@【ファヌル】
+"Was it fun?"
+@page
+@v s=20184
+@【祀利】
+"Not at all. People were dying every day.
+Lots of things got smacked onto the roadside every day.
+@page
+@【至】
+"What things?"
+@page
+@v s=20185
+@【祀利】
+"Corpses."
+@page
+She says it so nonchalantly that I almost spit my miso soup
+out of my mouth.
+@page
+@v s=20186
+@【祀利】
+"Where I lived, half the town would die every day."
+@page
+@【至】
+"No way. The whole town would disappear."
+@page
+@v s=20187
+@【祀利】
+"Nope, because lots of people came to refill the town every day too.
+Of course, all of them were bad people because there weren't any
+cops."
+@page
+;【備考】ユニゾン
+@v s=10262
+;@【わずか】
+"Wow."
+;@v s=40339
+;@【ファヌル】
+;「ふーん」
+@page
+Wazuka-san doesn't care.
+Fanuel doesn't care.
+I'm dazed, and I feel half-frozen.
+@page
+Am I the weird one here?
+Am I a coward?
+@page
+No, of course not. I'm the only normal one here.
+@page
+@v s=20188
+@【祀利】
+"It really is peaceful here.
+There aren't any gunshots or screams, 
+and there aren't any corpses on the roadside."
+@page
+No, that's how it's supposed to be.
+@page
+@v s=20189
+@【祀利】
+"And guess what! I asked where a road was at the station, and
+someone actually told me!"
+@page
+@v s=20190
+@【祀利】
+"If you had done that back in Rio, they'd have just put a gun to your head and raped you!"
+@page
+@v s=40340
+@【ファヌル】
+"So what would you do then?"
+@page
+@v s=20191
+@【祀利】
+"Shoot them."
+@page
+@【至】
+"Eh?"
+@page
+@v s=20191a
+@【祀利】
+"Of course I'd shoot them. If I didn't, they'd rape and kill me."
+@page
+How do you even respond to something like that?
+@page
+I look to someone else to continue the conversation,
+but Wazuka-san and the others just keep eating.
+@page
+Talking about dumb things like the weather, they just keep on sucking
+down their miso soup.
+@page
+@v s=10263
+@【わずか】
+"What's wrong, you don't like the soup?"
+@page
+@【至】
+"No, I like it... but I didn't like the conversation."
+@page
+@v s=10264
+@【わずか】
+"You don't like talking about stuff like that?"
+@page
+@【至】
+"Uh... yeah, um, no."
+@page
+I give up.
+It must be a problem with me. Yeah, that has to be it.
+@page
+@v s=20192
+@【祀利】
+"Itaru, you've got to eat it, even if you don't like it.
+You have to fill your belly, so you can live."
+@page
+Matsuri sips up her miso soup.
+When I stuff myself with white rice, she smiles.
+@page
+@v s=20193
+@【祀利】
+"Where I used to live, I had to chase after bad guys.
+I couldn't eat for days. Sometimes I couldn't even drink the water."
+@page
+@【至】
+"Then..."
+@page
+@v s=20194
+@【祀利】
+"I would drink my own blood, or my urine.
+It would taste bad, but it would keep me alive.
+@page
+Miso soup, white rice and hamburg steak.
+Matsuri eats those in that order, sets her chopsticks down,
+and drinks tea like it's the best tea ever.
+@page
+@v s=20195
+@【祀利】
+"It's heaven here.
+You can eat and sleep in peace."
+@page
+;【背景】自宅居間・明かりあり
+@bi s=bg04d
+@fi s=w121 pos=lc
+@v s=10265
+@【わずか】
+"Hey."
+@page
+Along with those words, Wazuka-san rises.
+@page
+@fi s=m64b pos=rc
+@v s=20196
+@【祀利】
+"What? Was I being too loud?"
+@page
+@fi s=w221 pos=lc
+@v s=10266
+@【わずか】
+"No. Want me to get you some more?"
+@page
+@fi s=m111 pos=rc
+@v s=20197
+@【祀利】
+"What do you mean?"
+@page
+Then, Wazuka-san blushed a little. Only a little, but it definitely
+happened.
+@page
+@fi s=w421 pos=lc
+@v s=10267
+@【わずか】
+"I'll get you another bowl."
+@page
+@fi s=m113 pos=rc
+@v s=20198
+@【祀利】
+"Is that okay?"
+@page
+@fi s=w121 pos=lc
+@v s=10268
+@【わずか】
+"It would be a waste to throw it away."
+@page
+She's probably trying to hide her embarrassment.
+I'm so happy that these two are getting along.
+@page
+@【至】
+"I'd like more too, a big plateful. How about you, Matsuri?"
+@page
+@fi s=m649 pos=rc
+@v s=20199
+@【祀利】
+"Ummm... a little bit, please."
+@page
+;@fi s=w124 pos=lc
+@v s=10269
+@【わずか】
+"Got it."
+@page
+@bi s=current all=true trans=crossfade
+Wazuka-san takes our bowls and disappears into the kitchen. A few
+minutes later--
+@page
+@fi s=w121 pos=c
+@v s=10270
+@【わずか】
+"Here you are."
+@page
+She gives us back our bowls, and mine's filled with rice just like I
+asked.
+@page
+@fi s=w121 move=lc
+@fi s=m111 pos=rc
+@v s=20200
+@【祀利】
+"T-thank you."
+@page
+Matsuri says that timidly with a bowl in her hand.
+@page
+I'm going to tell her.
+@page
+@【至】
+"You can eat as much as you like here."
+@page
+Matsuri's jaw drops. Then, her face immediately turns into a huge
+smile.
+@page
+@fi s=m212 pos=rc
+@v s=20201
+@【祀利】
+"Yeah! Thank you... thank you, Itaru!"
+@page
+I glance at Wazuka-san and Matsuri.
+@page
+@bi s=current all=true trans=crossfade
+I wonder if this is a plus or a minus.
+I hope they'll be friends from here on out.
+If this was a manga, that would happen, right?
+@page
+I put my chopstick to my rice, and start to carry it to my mouth with those happy thoughts in mind.
+@page
+Oh, no, wait. Nope. Not gonna happen.
+@page
+@lfont
+@v s=20202
+@【祀利】
+"Look out!"
+@se s=se109
+@qk time=800
+@flash time=800
+@page
+;@se s=se109
+She yells, and a gunshot echoes. I jump in surprise.
+The bowl in my hand shatters.
+@page
+@【至】
+"Wha, what the hell are you doing?!"
+@page
+@fi s=m314 pos=c
+@v s=20203
+@【祀利】
+"No, you should be thanking me. You should be saying Obrigado."
+@page
+@fi s=m313 pos=c
+@v s=20204
+@【祀利】
+"I just helped you, right? What if she poisoned that?"
+@page
+@【至】
+"Wha?"
+@page
+@fi s=m314 pos=c
+@v s=20205
+@【祀利】
+"What'd you mean, wha?
+You have to test your food for poison.
+Isn't that common sense?"
+@page
+@fi id=m
+No, it isn't! --is what I'd like to say, but I remember her
+words from a little while ago. Common sense for me right
+now is a blurred thing.
+@page
+Gun and knife fights, women trying to kill each other,
+and even a man who's been revived by an angel.
+@page
+But even so, I--
+@page
+;【ＳＥ】剣を構える
+@fi s=w322 pos=c
+;@se s=se068
+@v s=10271
+@【わずか】
+"I'll kill you."
+@page
+Wazuka-san puts a knife between her teeth and tries to grapple with
+Matsuri.
+@page
+@【至】
+"I get it, I get it! Just stop fighting, or I'm going to get really mad! Just let her talk for a second instead of fighting, Wazuka-san!"
+@page
+@fi id=w
+@fi s=m111 pos=c
+@v s=20206
+@【祀利】
+"Let's see what kind of poison you used...
+Just a little rice... nom, nom..."
+@page
+@fi s=m74ab pos=c
+@qk
+@flash
+@lfont
+@v s=20207
+@【祀利】
+"Ugh!?"
+@page
+;【立ち絵】祀利消去
+;【ＳＥ】倒れる
+@fi id=m
+@se s=se066
+@qk
+A muffled scream leaks from Matsuri's mouth. 
+Then-- she falls.
+She falls to the ground and starts convulsing.
+@page
+@【至】
+"Matsuri, what's wrong!?"
+@page
+I run to her and draw her close.
+@page
+;【立ち絵】祀利/大
+@fi s=m116bd pos=c
+@act id=m t=neckswing
+@v s=20208
+@【祀利】
+"Itaru... poison... in the food... she--!!"
+@page
+She directs her shaking finger to Wazuka-san.
+@page
+@act id=0 t=stopswing
+@fi id=m
+@fi s=w222 pos=c
+@v s=10272
+@【わずか】
+"No, I'd never do that, not even to you!"
+@page
+Of course I don't doubt Wazuka-san.
+She wouldn't get anything from poisoning me,
+and she isn't the kind of person who would... who would...
+@page
+@【至】
+"...Could she?"
+@page
+@fi s=w123 pos=c
+@v s=10273
+@【わずか】
+"Itaru-kun, you can't... you can't...!"
+@page
+@【至】
+"No, that's not what I meant! You couldn't have done this, could you!?
+Well, I'd rather say you couldn't do it in general, but..."
+@page
+@v s=20209
+@【祀利】
+"So, she could have after all?"
+@page
+@fi id=w
+@fi s=m647d pos=c
+When I look back at Matsuri, she's grinning.
+She isn't convulsing any more.
+She isn't weak any more either.
+@page
+@【至】
+"You... are you okay?!"
+@page
+@fi s=m112d pos=c
+@v s=20210
+@【祀利】
+"Yeah. I was just faking."
+@page
+@【至】
+"...What?"
+@page
+@fi s=m111d pos=c
+@v s=20211
+@【祀利】
+"That was a convincing performance, wasn't it?
+Based off the real thing, I'll have you know."
+@page
+Speaking things she really shouldn't be saying so calmly, she snuggles
+up to my chest.
+@page
+@fi s=m112d pos=c
+@v s=20212
+@【祀利】
+"If something like this happened to you, it would be really bad. Why
+don't I be your food tester from now on?"
+@page
+@fi s=m111d pos=c
+@v s=20213
+@【祀利】
+"I'm immune to most poison.
+Potassium cyanide just makes me feel warm."
+@page
+@【至】
+"Nonono, what are you even talking about?!
+I mean... is that even something I need to be worried about?"
+@page
+Matsuri just lied?
+She wants to be a food tester?
+Cyanide just makes her feel warm?
+@page
+@v s=10274
+@【わずか】
+"So, she's alive."
+@page
+@fi id=m
+@fi s=w322 pos=c
+Wazuka-san mouths that, and grasps her knife once more.
+@page
+@fi s=w322 move=lc
+@fi s=m111 pos=rc
+@v s=20214
+@【祀利】
+"So you really were trying to kill Itaru.
+Must be awkward to have failed."
+@page
+@fi s=w321 pos=lc
+@v s=10275
+@【わずか】
+"Shut up. I was trying to kill you."
+@page
+@fi s=m112 pos=rc
+@v s=20215
+@【祀利】
+"Oh ho. I see."
+@page
+;【ＳＥ】銃を構える
+;【立ち絵】銃を構える
+@setOnce
+@se s=se131
+@fi s=m315 pos=rc
+@endOnce
+@v s=20216
+@【祀利】
+"I'd like to see you try."
+@page
+@bi s=current all=true trans=crossfade
+@fi s=f115 pos=c
+@v s=40342
+@【ファヌル】
+"Well, it's starting up again. What're you going to do, big bro?"
+@page
+@fi s=f112 pos=c
+@sfont
+@v s=40343
+@【ファヌル】
+"This is boring, so just do something quick."
+@page
+@【至】
+"If I could, I would've done it a long time ago."
+@page
+@fi id=f
+Let them be
+Stop them with my body!
+...I can see choices in my head now.
+@page
+But I've got to do both.
+I need to live and go to school and eat.
+@page
+@【至】
+"Wazuka-saaaan, can I have more miso soup?
+We'll be late if you don't hurry."
+@page
+@fi s=w123 pos=lc
+@v s=10276
+@【わずか】
+"I'm, I'm so sorry!
+Just wait, I'll get you some more!"
+@page
+@fi s=m112 pos=rc
+@v s=20217
+@【祀利】
+"Oh, get me a little more too."
+@page
+@fi id=w
+Ignoring her, Wazuka-san disappears into the kitchen.
+@page
+@fi s=m64b move=c
+@v s=20218
+@【祀利】
+"Meeaaanie. She's just the biggest meaaanie."
+@page
+@【至】
+"Get used to it. That's how we work."
+@page
+Common sense is overrated.
+@page
+;分岐
+;わずか好感度特定値以上　→120100
+;それ以外　→020300
+@jump storage="120100.scn" cond="f.wazuka >= 2"
+@jump storage="020300.scn"

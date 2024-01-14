@@ -1,0 +1,74 @@
+﻿;120202
+*120202|_気まずい二人
+...No, I need to wait. I'll think a bit more.
+@page
+Maybe she's already put the issue to rest?
+@page
+Maybe she's just decided not to talk about it because it's
+embarassing, so bringing it up would be pointless.
+@page
+... Even so, I should still apologize.
+@page
+;【演出】わずか立ち絵　消去
+@fi id=w
+Hmm... what to do...
+@page
+@【至】
+"........."
+@page
+@【至】
+"Hmm?!"
+@page
+Suddenly, Wazuka-san vanishes from beside me.
+@page
+Did she teleport? Was she spirited away?
+I look around, and try to find her...
+@page
+@fi s=w111 pos=c
+Of course it wasn't supernatural.
+She had just stopped walking.
+@page
+@【至】
+"Wazuka-san? What's wrong?"
+@page
+@【わずか】
+"........."
+@page
+@fi s=w113 pos=c
+@v s=10320
+@【わずか】
+"... I'm sorry."
+@page
+She bows a little as she says that.
+@page
+@【至】
+"...Wha?"
+@page
+I'm a little confused at her sudden apology.
+@page
+Wazuka-san breaks out of her usual quietness
+and says those small words.
+@page
+But even if she did manage to break the silence by suddenly
+apologizing, I don't know what she's talking about.
+@page
+@【至】
+"Umm... sorry about what?"
+@page
+Sorry about yesterday's food?
+Did she realize the hamburg steak was half-done?
+@page
+@fi s=w548 pos=c
+@v s=10321
+@【わずか】
+"In the bathroom, a while ago..."
+@page
+I understood what she meant instantly.
+However...
+@page
+@【至】
+"W-Wait a second. I was the one in the wrong, wasn't I?
+Why are you apologizing?"
+@page
+;→120203
+@jump storage="120203.scn"

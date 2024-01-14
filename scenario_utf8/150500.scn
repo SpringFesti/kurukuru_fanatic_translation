@@ -1,0 +1,121 @@
+﻿;150500
+*150500|償い
+;【ワイプ】時間経過
+;【背景】主人公自室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=600
+@bi s=bg01b trans=波
+@bgm s=bgm04
+@mwon
+@【至】
+"Oh... ohh..."
+@page
+@【至】
+"......"
+@page
+... Huh? This is...
+@page
+Immediately, I recognize where I am.
+@page
+@【至】
+"My... room...?"
+@page
+What does this mean?
+Why was I sleeping here?
+@page
+...Wait, I'm alive?
+What? Wasn't I poisoned?
+@page
+... No, it wasn't purely poison.
+I just misunderstood her.
+@page
+Wazuka-san said the muscle relaxant would
+only kill in large doses.
+@page
+@【至】
+"..."
+@page
+Wait, where did she go, anyway?
+@page
+Maybe she carried me here after I lost consciousness.
+@page
+Although she normally sleeps by my side...
+Unfortunately, I'm the only one here.
+@page
+@【至】
+"... Did she go to the bathroom?"
+@page
+Or maybe chores?
+She must've gotten tired of waiting.
+@page
+I move my body, and try looking for Wazuka-san.
+@page
+;【ワイプ】場所移動
+;【背景】自宅居間・消灯
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04b trans=ひし形(左から右へ)
+@mwon
+@【至】
+"... Huh?"
+@page
+When I arrive in the living room,
+there's no signs of life. Not even
+the lights are on.
+@page
+The table is the same, though.
+Even the fallen silverware is untouched.
+@page
+;【備考】ここで祀利とかごめの叫び声がほしいです。収録した叫び声系のボイスの音量を下げまくってうっすらと聞こえる程度にして流してください。
+@【至】
+"Where did they go?"
+@page
+@【至】
+"... Hm?"
+@page
+I think I hear voices.
+@page
+Outside... no, somewhere in the house.
+@page
+@【至】
+"I wonder what's going on..."
+@page
+Let's go to the voices anyway.
+@page
+;【ワイプ】場所移動
+;【背景】自宅廊下
+;【備考】ここでは加工なしのボイスを。流用するので台詞は無しで。
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02b trans=ひし形(左から右へ)
+@mwon
+@qk time=1000
+@lfont
+@v s=30035
+@【？？？】
+"AAAAGYAAAAHHH!?"
+@page
+@bgm s=bgm15
+@【至】
+"That... that's probably Otogiri-san.
+What... what's going on!?
+@page
+I hear voices in the bathroom.
+@page
+Even if there were two people taking a bath,
+nobody should be shouting like that.
+@page
+@【至】
+"Emergency, emergency..."
+@page
+Justifying my peeping, I look into the bathroom.
+@page
+@mwoff
+@bgm fade=out
+;→150501
+@jump storage="150501.scn"

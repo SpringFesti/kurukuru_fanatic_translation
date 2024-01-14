@@ -1,0 +1,576 @@
+﻿;021002c
+*021002c|_祀利の秘密
+@setOnce
+@fi s=m111 pos=lc
+@fi s=f314 pos=rc
+@endOnce
+@v s=40458
+@【ファヌル】
+"Don't worry, it's really, really fun!♪
+C'mon, lemme try some hypnotism!"
+@page
+@fi s=m64b pos=lc
+@v s=20530
+@【祀利】
+"Nao, obrigada.
+Hypnosis is a hoax."
+@page
+@fi s=f111 pos=rc
+@v s=40459
+@【ファヌル】
+"Then let's try it and find out if it is.
+Aren't you a little interested?"
+@page
+Oh, she must have read her mind, just now--
+I got that impression from Fanuel's words,
+and it seems that I was right.
+@page
+@fi s=m649 pos=lc
+@v s=20531
+@【祀利】
+"Hm... well, a little's fine."
+@page
+@fi s=m64b pos=lc
+@v s=20532
+@【祀利】
+"But what are you going to do?
+Use a machine? Isn't that scary?"
+@page
+@fi s=f314 pos=rc
+@v s=40460
+@【ファヌル】
+"Not at aaall. I just use this."
+@page
+She points her finger at Matsuri.
+@page
+@fi s=f414 pos=rc
+@v s=40461
+@【ファヌル】
+"May I have your attention, please?♪ Stare at my finger.
+Don't look away, okay?"
+@page
+@fi s=m113 pos=lc
+@v s=20533
+@【祀利】
+"Huh? Y-You want to do it now?"
+@page
+Fanuel turns her finger round and round.
+@page
+@cut s=cut2310 trans=rotin
+@cutrot time=1000
+;【カットイン】くるくる　回転
+;【ＳＥ】何かあるかなぁ？
+@fi s=f111 pos=rc
+@v s=40462
+@【ファヌル】
+"You are getting sleeepy.
+In the hallowed name of God, get sleeepy."
+@page
+@setOnce
+@stopcutrot
+@cut trans=out
+@fi id=m
+@fi s=w421 pos=lc
+@endOnce
+@v s=10473
+@【わずか】
+"What does God have to do with this?"
+@page
+@fi s=f559 pos=rc
+@v s=40463
+@【ファヌル】
+"Hmm... It's just a thing I say."
+@page
+That is a complete lie.
+You just said that God gets mad when you say his name in vain.
+@waitclk
+@fi s=f113 pos=rc
+Fanuel glares at me.
+@page
+@setOnce
+@fi id=w
+@fi s=m64b pos=lc
+@fi s=f111 pos=rc
+@endOnce
+@v s=20534
+@【祀利】
+"Um... so? Is it working?"
+@page
+Matsuri look normal. Not sleepy at all.
+@page
+@【至】
+"Did it work? Or were you just faking?"
+@page
+I guess non-pros just can't do it.
+Besides, she's an angel. They probably don't even understand hypnotism.
+@page
+@fi s=f113 pos=rc
+--Aaand that's another glare.
+@page
+@cut s=cut2310 trans=rotin
+@cutrot time=1000
+@fi s=f414 pos=rc
+@v s=40464
+@【ファヌル】
+"Whateverwhatever. Look... you're getting sleeepy...
+Your eyelids are heavy... sleeepy..."
+@page
+@fi s=m649 pos=lc
+@v s=20535
+@【祀利】
+"But... I'm... perfectly... fine..."
+@page
+;@stopcutrot
+@cut trans=out
+@fi s=m74a pos=lc
+@act id=m t=swing
+Contrary to her words, she begins to shake.
+It was faint at first, but now that she isn't talking,
+she's almost like a pendulum.
+@page
+@fi s=f314 pos=rc
+@v s=40465
+@【ファヌル】
+"Loooook... you are sleeeeeepyyy...
+veeerrrryyy... sleeeeeppyyyy."
+@page
+;@act id=m t=stopswing
+@【祀利】
+"......"
+@page
+Matsuri stops talking.
+She can't take her eyes off of Fanuel's finger.
+@page
+Her eyes are hazy, and they don't focus on anything.
+Her eyes are just like someone who's about to fall asleep.
+@page
+@【至】
+"Amazing... you really did do it."
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=w124 pos=c
+@endOnce
+@v s=10474
+@【わずか】
+"Yeah... it's more effective than I thought."
+@page
+Then, she stops moving.
+Her head droops, then slowly raises back up.
+@page
+;【備考】どこからか流用
+@setOnce
+@fi id=w
+@fi s=m64a pos=c
+@endOnce
+@v s=20008
+@【祀利】
+"... mn..."
+@page
+@bgm fade=out
+The same moan as yesterday.
+Then, she changes.
+@page
+@bgm s=bgm15
+@fi s=m74b pos=c
+@v s=20536
+@【祀利】
+"... what the? My head's... heavy."
+@page
+Her tone and expression don't change... but she seems strange.
+I frown in confusion.
+But Fanuel is different.
+@page
+@setOnce
+@fi id=m
+@fi s=w121 pos=lc
+@fi s=f111 pos=rc
+@endOnce
+@v s=10475
+@【わずか】
+"... You were right."
+@page
+@v s=40466
+@【ファヌル】
+"Yeah. So, what's your name?"
+@page
+@setOnce
+@fi id=w
+@fi id=f
+@fi s=m115 pos=c
+@endOnce
+@v s=20537
+@【祀利】
+"Me? ... Name's Parade.
+The fuck did you two do to Matsuri?"
+@page
+@se s=se131
+@fi s=m515 pos=c
+Then Matsuri-- no, Parade points her guns at us.
+@page
+@【至】
+"Wait, that's dangerous!
+You might shoot us!"
+@page
+@v s=20538
+@【祀利】
+"Ha, me? You really think I'll shoot ya?
+You're right. Guns are my body and bullets are my words."
+@page
+When she moves her hand to her mouth, I notice something.
+@page
+@【至】
+"Your injury, it's gone! Where's the mark from yesterday's bullet!?"
+@page
+I could still see the inside of her hand yesterday. It looked like it hurt.
+@page
+But now I can't see the wound. I'm struggling to believe my eyes,
+but the open wound is now barely a scratch mark.
+@page
+@v s=20539
+@【祀利】
+"I'm the fighting one, aren't I?
+A scratch like that only needs a day."
+@page
+@setOnce
+@fi s=m515 move=lc
+@fi s=f111 pos=rc
+@endOnce
+@v s=40467
+@【ファヌル】
+"So can you die?"
+@page
+Nodding at Fanuel, Matsuri-- no, Parade glares at Wazuka-san.
+@page
+@v s=20540
+@【祀利】
+"This pig bitch... she put you up to this?"
+@page
+@setOnce
+@fi id=f
+@fi s=m515 move=rc
+@fi s=w121 pos=lc
+@endOnce
+She turns her gun.
+@page
+@fi s=w122 pos=lc
+@v s=10476
+@【わずか】
+"What if?"
+@page
+@v s=20541
+@【祀利】
+"... Die. I'll blow your brains all over the wall."
+@page
+She tries to pull the trigger, but it seems that she doesn't have the strength.
+That must be a side effect of the hypnosis.
+@page
+@fi s=w121 pos=lc
+@v s=10477
+@【わずか】
+"Fanuel-chan, can we continue?"
+@page
+@setOnce
+@fi id=w
+@fi s=f111 pos=lc
+@fi s=m515 pos=rc
+@endOnce
+@act id=f t=bow
+;@act id=m t=swing
+She nods, and begins to swing her finger once more.
+Round and round she turns it, and Parade tries to fight
+it by shaking her head, but...
+@page
+@fi s=m64a pos=rc
+@act id=m t=swing
+@v s=20008
+@【？？？】
+"... mn..."
+@page
+@act id=m t=stopswing
+@fi s=m64b pos=rc
+@v s=20542
+@【祀利】
+"Mmn... Parade, don't push this on me..."
+@page
+Her voice changes again. The third character this time.
+She seems to be the opposite of the last one,
+as she languidly scratches her hair.
+@page
+@setOnce
+@fi id=f
+@fi s=m64b pos=rc
+@fi s=w121 pos=lc
+@endOnce
+@v s=10478
+@【わずか】
+"Name?"
+@page
+@fi s=m647 pos=rc
+@v s=20543
+@【祀利】
+"Do I need to say it?"
+@page
+Matsuri-- no, some other personality listlessly glances at me.
+@page
+@fi s=m649 pos=rc
+@v s=20544
+@【祀利】
+"If Itaru asks... maybe I'll tell you."
+@page
+@fi s=w122 pos=lc
+@v s=10479
+@【わずか】
+"Overly friendly. Don't get carried away."
+@page
+@setOnce
+;@bi s=current all=true trans=crossfade
+@fi s=m647 pos=rc
+@endOnce
+Not minding Wazuka-san's threat,
+she stares at me in a lustful way.
+@page
+@v s=20545
+@【祀利】
+"Itaru... would you like to know... my name?"
+@page
+@【至】
+"Yeah, sure. You aren't Parade, are you?"
+@page
+@fi s=m649 pos=rc
+@v s=20546
+@【祀利】
+"Oh, don't mention her. My name is Festa... a good name, don't you think?"
+@page
+Beckoning to me, Matsuri-- no, Festa stretches her hand to me.
+@page
+She moves her fingers, touching her lips in a seductive way.
+@page
+@fi s=m648 pos=rc
+@v s=20547
+@【祀利】
+"Itaru... I love you. From long ago... no, from before long ago, I love you."
+@page
+@【至】
+"D-Did we really spend so much time together?"
+@page
+My voice sounds hollow.
+I can't keep my eyes off of her finger.
+Whenever it moves, my spine tingles.
+@page
+@fi s=m647 pos=rc
+@v s=20548
+@【祀利】
+"Hmhm... don't be so nervous.
+If I stop here... look... with this finger..."
+@page
+She moves it up and down seductively,
+as if stroking a stick of meat."
+@page
+Oh shit-- I popped a boner.
+Even so, I still can't take my eyes off her fingertip--
+@page
+@fi s=w558 pos=lc
+@v s=10480
+@【わずか】
+"... Itaru-kun."
+@page
+She speaks, and my sense returns to me.
+@page
+@fi s=w121 pos=lc
+@v s=10481
+@【わずか】
+"Fanuel-chan, next."
+@page
+@setOnce
+@fi id=w
+@fi s=f311 pos=lc
+@fi s=m647 pos=rc
+@endOnce
+@act id=f t=bow
+@v s=40468
+@【ファヌル】
+"Gotcha. Alrighty, doodeedoodeedooooo--"
+@page
+@fi s=m64a pos=rc
+@act id=m t=swing
+Fanuel's finger moves again.
+Matsuri, Parade and Festa-- those are the three so far.
+Are there more? What other personalities are there?
+@page
+I find out immediately.
+@page
+@act id=m t=stopswing
+@fi s=m64b pos=rc
+@v s=20549
+@【祀利】
+"Mn-... dummiiies. I'm sleeepyyy."
+@page
+Here's the fourth person.
+She sounds and feels just like Matsuri.
+But she's different somehow... younger?
+@page
+@setOnce
+@fi id=f
+@fi s=m64b pos=rc
+@fi s=w121 pos=lc
+@endOnce
+@v s=10482
+@【わずか】
+"Name?"
+@page
+@fi s=m112 pos=rc
+@v s=20550
+@【祀利】
+"Good afternoon, I'm Mardi Gras.♪"
+@page
+@act id=m t=bow
+She does a little curtsy, a more innocent gesture than normal.
+@page
+Unlike the other two from before, this one has little hostility.
+@page
+@fi s=m113 pos=rc
+@v s=20551
+@【祀利】
+"Uummm... why are you guys doing this?"
+@page
+@v s=10483
+@【わずか】
+"To make sure that I can kill you."
+@page
+@fi s=m111 pos=rc
+@v s=20552
+@【祀利】
+"You can?"
+@page
+@fi s=w421 pos=lc
+@v s=10484
+@【わずか】
+"Yes. Even right now."
+@page
+@fi s=m112 pos=rc
+Matsuri laughs like a child would, with an innocent smile.
+A truly, truly innocent smile.
+@page
+But--
+@page
+@fi s=m648 pos=rc
+@v s=20553
+@【祀利】
+"You really do truly hate me.
+I kind of understand why Parade wants to kill you."
+@page
+Her intent to kill is clear, even with that smile--
+I have to remember that this is still a part of Matsuri.
+@page
+I can see why. But there's something I can't understand, which is--
+@page
+@setOnce
+@fi s=w421 move=l
+@fi s=m648 move=c
+@fi s=f211 pos=r
+@endOnce
+@v s=40469
+@【ファヌル】
+"Why do you have multiple personalities?"
+@page
+She might have read my mind or was just genuinely curious,
+but either way I don't understand what she means.
+@page
+@fi s=m112 pos=c
+Mardi Gras smiles again, and laughs.
+@page
+@fi s=m111 pos=c
+@v s=20554
+@【祀利】
+"What if I told you my father's work was not honest?"
+@page
+@fi s=m111 pos=c
+@v s=10485
+@【わずか】
+"Is he a criminal?"
+@page
+@v s=20555
+@【祀利】
+"Yupyup. He's with the mafia.
+He deals in money. For that, sometimes he is attacked."
+@page
+Matsuri spreads her fingers and counts on them.
+At ten, she stops.
+@page
+@v s=20556
+"Do you know what I'm counting?"
+@page
+@【至】
+"The number of times someone came after him?"
+@page
+@fi s=m112 pos=c
+@v s=20557
+@【祀利】
+"Nuh-uh, the number of dead people in my family.
+Three mommies, and seven siblings. That's ten all together.
+If another one dies, I'll have to start counting on my toes."
+@page
+@v s=10486
+@【わずか】
+"So what?"
+@page
+@fi s=m648 pos=c
+@v s=20558
+@【祀利】
+"We aren't dead, but that's what probably made us.
+Of course, we were probably almost killed,
+and we've probably been raped."
+@page
+@fi s=m115 pos=c
+@v s=20559
+@【祀利】
+"Each time, I killed the fucker.
+They think I'm not armed, then BLAM."
+@page
+@fi s=m747 pos=c
+@v s=20560
+@【祀利】
+"It was right before we were almost raped.
+We had relaxed our guard, just for a moment,
+and right before he put it in..."
+@page
+@fi s=m112 pos=c
+@v s=20561
+@【祀利】
+"We did this to survive.
+We are here to defend Matsuri."
+@page
+@fi s=m111 pos=c
+@v s=20562
+@【祀利】
+"We've defended her from the most terrible and unpleasant things in the world.
+So, that's why we are here."
+@page
+Then Matsuri-- no, this unpleasant amalgamation of each personality of Matsuri,
+turns towards Wazuka-san.
+@page
+;【備考】ユニゾン
+@fi s=m112 pos=c
+@v s=20563
+@【祀利】
+"WE HATE YOU."
+;@v s=20564
+;@【祀利】
+;「おまえが嫌い」
+;@v s=20565
+;@【祀利】
+;「おまえが嫌い」
+@page
+@fi s=m111 pos=c
+@v s=20566
+@【祀利】
+"You are getting in our way.
+Itaru is ours.
+JUST ours."
+@page
+;分岐
+;フラグ****起立　→021002d
+;上記以外　→021002e
+@jump storage="021002d.scn" cond="f._010503"
+@jump storage="021002e.scn"

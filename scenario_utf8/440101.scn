@@ -1,0 +1,41 @@
+﻿;440101
+*440101|_次の無い命
+@setOnce
+@fi id=f
+@fi s=k348 pos=c
+@endOnce
+@v s=30888
+@【かごめ】
+"Even though I ate you...!"
+@page
+Otogiri-san, of course.
+@page
+@fi id=k
+@se s=se078 loop=true
+@lineFXon
+@qk time=1000
+The instant I detected danger, I bolted.
+@page
+I hear a roar from behind me.
+I don't look back-- I don't want to look back.
+I already know what expression that girl has.
+@page
+@fi s=f11dd pos=c opacity=160
+@v s=40684
+@【ファヌル】
+"Itaru, this is super duper fun!♪"
+@page
+@【至】
+"Great. Don't bite your tongue."
+@page
+@fi id=f
+Holding Fanuel to my chest, I run as fast as I can.
+In order to find a hiding place for now, I run.
+@page
+This was the beginning of a long day for us.
+@page
+@bgm fade=out
+@se fade=stop
+@stoppfx
+@jump storage="440102.scn"
+;→440102

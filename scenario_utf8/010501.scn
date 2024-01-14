@@ -1,0 +1,50 @@
+﻿;010501
+*010501|_The Party Begins
+Damn it, this is it! You point a gun at me, you kiss me, 
+and now you're raping me with your tongue!
+@page
+@bi s=bg03d time=500
+;【背景】自宅玄関・明かりあり
+@qk time=700
+@【至】
+"Give it back!  Gimme back my chastityyyyy!"
+@page
+I puff myself up, and throw the girl off of me.
+@page
+@se s=se066
+@qk time=500
+She was lighter than I thought.
+I didn't mean to push that hard, but she just flew right off me.
+@page
+@fi s=m114a pos=c
+@v s=20034
+@【祀利】
+"Owww!　You dummy! Now my butt's split in two!"
+@page
+@【至】
+"That's how it's supposed to be! I've had enough of this! 
+Gimme back the memories of my first kiss!"
+@page
+@fi s=m64b pos=c
+@v s=20035
+@【祀利】
+"I don't believe this! I even french-kissed you!"
+@page
+@se s=se131
+@fi s=m314 pos=c
+@v s=20036
+@【祀利】
+"Or, is this a surprise attack? You think I'm stupid or something?"
+@page
+@【至】
+"Ergh!?　N, no, wait! I don't need my memories back!　
+These ones are good enough!"
+@page
+@se s=se154
+@fi s=m515 pos=c
+@v s=20037
+@【祀利】
+"Estou satisfeita."
+@page
+@jump storage="010503.scn"
+;→010503

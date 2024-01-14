@@ -1,0 +1,80 @@
+﻿;020800
+*020800|気だるい午後に
+;【背景】教室・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@bgm s=bgm03
+@mwon
+Then, afternoon classes begin.
+@page
+Torture, penance, asceticism, a hell of worldly desires, demon attacks...
+My affliction comes in many names, but the first is: I'm sleepy.
+Of course, if I go to sleep, I'll be asked a question. It's math class, after all.
+@page
+@【先生】
+"... So, for this expression, if we substitute this value,
+then, like this, the solution..."
+@page
+Math must have been created by someone falling asleep.
+There's no way it could make me this sleepy otherwise.
+@page
+@【至】
+"Yawn... so sleepy..."
+@page
+I mutter, looking at Matsuri on my knee.
+@page
+;@mwoff
+@bi s=evn2023
+;@wait time=300
+;@mwon
+;【イベントＣＧ】祀利睡眠
+@v s=20445
+@【祀利】
+"Zzz... zzz... zzz..."
+;@page
+@page
+Oh, who needs math--
+Matsuri said that before promptly falling asleep
+30 seconds after class began.
+@page
+If she were a student, she'd be the teacher's victim by now.
+But Matsuri's not a student. She's just a normal person.
+@page
+@【至】
+"Damn it... I'm jealous. Sleeping looks so appealing right now--"
+@page
+@bi s=blank trans=crossfade all=true
+;【演出】暗転
+That's the situation up until now.
+@page
+Ah, crap. I can't let myself fall asleep.
+No matter how much I think that though, I cannot win against the Sandman.
+@page
+With both the Sandman and a demonic appetite attacking me,
+it's a fearsome party of attackers I'm up against.
+@page
+@【至】
+"... But, of course... not.
+Quick... gotta... get... up......"
+@page
+Ugh.
+@page
+;@mwoff
+;@wait time=200
+;@bi s=bg810 trans=tile
+;@mwon
+Five minutes later, the teacher found me, of course.
+Then he questioned me endlessly because I hadn't paid
+attention for a little while.
+@page
+;分岐
+;ファヌル個別ルートフラグ起立　→020800a
+;わずか好感度特定値以上　→020801
+;それ以外　→020900
+@jump storage="020800a.scn" cond="f._010503"
+@jump storage="020801.scn" cond="f._120100"
+;@jump storage="020801.scn" cond="f.wazuka >= 2"
+@jump storage="020900.scn"

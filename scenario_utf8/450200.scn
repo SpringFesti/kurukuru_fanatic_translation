@@ -1,0 +1,71 @@
+﻿;450200
+*450200|_答えを求めて
+;【備考】主人公視点
+;【背景】夕空
+@bi s=bg820
+@mwon
+On the other hand, at the same time...
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01e trans=ランダム
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+;【ワイプ】視点変更
+;【背景】主人公自室・夕方
+@【至】
+"... Why did Fanuel do that?"
+@page
+The autumn sunset is early.
+After 3PM, the light of the sunset begins to cover the landscape.
+@page
+@【至】
+"... She left at about 11...
+It's been about four or five hours."
+@page
+When I think carefully,
+this might be the first time I've been separated from her.
+@page
+She's usually in my cellphone.
+And we were together for the entirety of yesterday.
+@page
+Only four or five hours--
+I don't want to be separated from her for even that long.
+@page
+Perhaps it's because she's regained her angelic powers,
+but I don't need to worry about her.
+@page
+@【至】
+"... But I am worrying, for some reason.
+There's no reason for me to worry... so why am I doing it?"
+@page
+@se s=se049 loop=true v=30
+;【ＳＥ】雨の音　ボリューム小さく　ループ
+Then I begin to hear rain fall outside.
+@page
+The weather is unstable in this season.
+When I think about it, it rained like this yesterday as well.
+@page
+@【至】
+"She might get mad if I chase after her...
+But I can say it's because of the rain."
+@page
+;【ＳＥ】ループ停止
+;【背景】夕空/曇り・雨
+@setOnce
+@bi s=bg820
+@se s=se049 loop=true v=50
+@rainpfx
+@endOnce
+Can an angel catch a cold if she gets wet?
+@page
+I realize that I asked the same question yesterday,
+and run outside with an umbrella in hand.
+@page
+@mwoff
+@bgm fade=out
+@wait time=1500
+@jump storage="450201.scn"
+;→450201

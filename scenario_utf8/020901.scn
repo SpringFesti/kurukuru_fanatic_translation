@@ -1,0 +1,182 @@
+﻿;020901
+*020901|_１０月２８日午後４時２２分
+;【演出】走るエフェクト
+;【ＳＥ】走る　ループ
+;【背景】廊下夕方
+;@lineFXon
+@qk time=1000
+@lfont
+@【至】
+"AAAAUUUGHHHH!!"
+@page
+@mwoff
+@se fade=stop buf=1
+@se s=se129
+@bi s=bg10e trans=scroll time=300
+@wait time=300
+@se s=se129
+@bi s=bg11e trans=slide time=300
+@wait time=300
+@se s=se129
+@bi s=bg10e trans=swap time=300
+@wait time=300
+@se s=se129
+@bi s=bg10e trans=turn time=300
+@wait time=300
+@se s=se129
+@bi s=bg08e trans=crossfade time=300
+@wait time=300
+@se s=se078 loop=true
+@wait time=1500
+@mwon
+@qk time=1000
+@lfont
+@【至】
+"WAIT! PLEASE, STOP!"
+@page
+@fi s=w111 pos=lc opacity=160
+@v s=10428
+@【わずか】
+"Why? It'll be night soon!"
+@page
+@fi s=m112 pos=rc opacity=160
+@v s=20489
+@【祀利】
+"Wanna go play somewhere?
+I wanna do it with just the two of us!♪"
+@page
+@【至】
+"Oh, damn it.
+Just calm down, alright?
+If you drag me along the road like this, I'll die, won't I?"
+@page
+@setOnce
+@se fade=stop
+@fi id=w
+@fi id=m
+@stoppfx
+@endOnce
+With those words, they finally stop.
+@page
+We passed through the school so fast I thought my life
+was flashing before my eyes.
+@page
+The stairs were especially bad.
+If I had relaxed for a second, I would have immediately died.
+My body would have been cut in two.
+@page
+@fi s=w113 pos=lc
+@v s=10429
+@【わずか】
+"I'm sorry... maybe I should just kill her afterall."
+@wait time=300
+@fi s=w312 pos=lc
+;【ＳＥ】包丁を構える
+;【立ち絵】わずか包丁を構える
+@page
+@fi s=m111 pos=rc
+@v s=20490
+@【祀利】
+"Desculpe me. Just wait one minute. It'll be over soon."
+@wait time=300
+@se s=se131
+@fi s=m311 pos=rc
+;【ＳＥ】銃を構える
+;【立ち絵】祀利、拳銃を構える
+@page
+I get a headache just looking at them.
+In just two days, I've gotten used to seeing this.
+@page
+Why is this happen? Why are they trying to kill each other?
+@wait time=2000
+--Wait, where are the knives and pistols?
+My mind questions that first.
+@page
+@【至】
+"...I'm going home."
+@page
+I casually begin to walk back home.
+@page
+@fi s=w311 pos=lc
+@v s=10430
+@【わずか】
+"I'm coming too."
+@page
+@fi s=m312 pos=rc
+@v s=20491
+@【祀利】
+"Me too!"
+@page
+@【至】
+"Please don't... just leave me alone."
+@page
+Can you blame me for being harsh?
+@page
+I just sit right in the road.
+I need to talk to them. About a lot of things.
+@page
+@【至】
+"Would you two stop fighting?
+Put away your weapons, the both of you."
+@page
+@setOnce
+@fi s=w312 pos=lc
+@fi s=m313 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=10431
+;@【わずか】
+"But then I can't kill her."
+;@v s=20492
+;@【祀利】
+;「そしたらコイツ殺せない」
+@page
+@【至】
+"Fine, go ahead. Do it.
+But if you don't put them away, I will walk home. Alone."
+@page
+@setOnce
+@fi s=m64b pos=rc
+@fi s=w548 pos=lc
+@endOnce
+;【備考】ユニゾン
+@v s=10432
+;@【わずか】
+"Okaaay. We understand."
+;@v s=20493
+;@【祀利】
+;「はーい、わかりましたぁ」
+@page
+They respond in sync.
+If they were this easy to persuade all the time,
+I wouldn't have any problems.
+@page
+I think about the carrot and stick tactic.
+A gentle action after that harsh request. 
+I grab their hands.
+@page
+@【至】
+"Let's go home together, okay? No complaints?"
+@page
+@setOnce
+@fi s=m649a pos=rc
+@fi s=w114a pos=lc
+@endOnce
+;【備考】ユニゾン
+@v s=10433
+;@【わずか】
+"Okay."
+;@v s=20494
+;@【祀利】
+;「うん」
+@page
+They nod and blush, enough to be seen in the light of the setting sun.
+@page
+;分岐
+;わずか好感度特定値以上　→020902
+;フラグ320100起立　→020903
+;それ以外　→020904
+;@jump storage="020902.scn" cond="f.wazuka >= 2"
+;@jump storage="020903.scn" cond="f._320100"
+@jump storage="020902.scn" cond="f._120100"
+@jump storage="020904.scn"

@@ -1,0 +1,79 @@
+﻿;010301
+*010301|_October 27th, 8:24AM
+;【好感度】かごめ+1
+;【背景】学園廊下/昼
+@eval exp="f.kagome++"
+@bi s=bg10d time=300
+That's really the only thing I can do.
+I get myself off of her, and kneel in apology. 
+@page
+@qk time=800
+@lfont
+@【至】
+"I'm sorry! I'm really, really sorry!"
+@page
+Kneeling is the traditional Japanese way to show virtue and trust.
+By showing my neck to her so that my head may be cut off,
+it's proof of my unconditional surrender―― or something like that.
+@page
+No matter the reason, I'm still kneeling anyway.
+I hit my head on the linoleum so hard that blood starts to seep from my forehead.
+@page
+@【至】
+"This is all my fault! But it would be really bad if I were late!
+Please have mercy on me, and forgive me!"
+@page
+I apologize as hard as I can. If I didn't, she'd make me into a sex offender.
+Ahー well, she's kind of an exhibitionist so we're in the same boat.
+@page
+I kneel anyway, as much as I can.
+As a final coup de grace, I smack my forehead into the floor once more.
+@se s=se118
+@qk time=600
+@flash time=600
+;【ＳＥ】ぶつかる
+@page
+…………………………
+@page
+@【至】
+(... Huh? Why isn't she saying anything?)
+@page
+I peek up at her, and she must've stood up, 
+because all I can see is the tips of her shoes.
+@page
+Maybe she's still angry? Is she gonna call the cops?
+No, wait, she can't be. She's not saying anything.
+@page
+So... what is she doing?
+@page
+Daringly, I look up at her. I see her bobbing back and forth, 
+like a pendulum in the shape of a woman.
+@page
+;【立ち絵】かごめ/泣き顔
+;【立ち絵】演出ブルブル
+@fi s=k446a pos=c
+@act id=k t=neckswing
+@v s=30007
+@【？？？】
+"I'm sorry! I'm so sorrryyyyyyyyyyy!!!"
+@page
+@v s=30008
+@【？？？】
+"I'm the bad one! You aren't! I, I'm one of those!"
+@page
+@v s=30009
+@【？？？】
+"I'm really sorry! Sorrryyyyyyyyyyy!!!"
+@page
+She keeps repeating herself.
+―― Now what do I do? Seriously, where do I go from here?
+@page
+If she's apologizing and bawling her eyes out like this, I just want to run.
+On the other hand, if I ran away, that'd be really bad too.
+@page
+@【至】
+(Wait, what time is it? This could get really bad soon...)
+@page
+@act id=k t=stopswing
+@jump storage="010303.scn"
+;→010303

@@ -1,0 +1,121 @@
+﻿;340400
+*340400|_かごめとの約束
+;【備考】モールの背景がないので、さらっと流してください
+;【ワイプ】場面転換
+;【背景】青空
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=tile
+@bgm s=bgm07
+;@fi s=fi**** pos=****
+@mwon
+While I'm expecting something from Otogiri-san,
+the two of us walk to the mall.
+@page
+It's a place not far from the school, so there are
+lots of places for not only students, but everybody to play around.
+Naturally, there are plenty of restaurants all lined up.
+@page
+A hamburger or something might be fitting...
+That's what I thought,、but the shop that Otogiri-san
+was taking me to had nothing to do with that.
+@page
+The food here certainly was good.
+And with that kind of taste comes a fair price.
+@page
+;【ワイプ】時間経過と場面切り替え。
+;【背景】公園・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09e trans=clock
+;@bgm s=bgm07
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Four digits... four digiiiiitsss..."
+@page
+After the meal had ended, we took it easy in a park.
+@page
+It's surprisingly early for an autumn sunset.
+The sun is already far our to the west.
+@page
+@【至】
+"For just a lunch..."
+@page
+I've been murmuring for a while about the price.
+@page
+It's not like I have no money.
+If it's this much money, it doesn't hurt my wallet at all.
+@page
+But if it's a meal in the evening, then...
+@page
+If we're talking thousands of yen for one person
+in a single meal, that's very far away from my
+common sense.
+@page
+That kind of money is possible for adults,
+but it's not surprising that it wouldn't be possible for a student.
+@page
+@【至】
+"... Hey Otogiri-san.
+Was it really okay that we didn't break the check?"
+@page
+@fi s=k114 pos=c
+@v s=30401
+"Aww, I already said I'm okay.
+It looks like I have plenty of money.
+Kufufu, it's kinda cute of you to say that."
+@page
+@【至】
+"But...
+Otogiri-san, could you possibly be a rich person?"
+@page
+@fi s=k211 pos=c
+@v s=30402
+@【かごめ】
+"No, I come from a normal family.
+I have money because I make money."
+@page
+@【至】
+"Oh, you have a part-time job?"
+@page
+@fi s=k213 pos=c
+@v s=30403
+@【かごめ】
+"No, I have a real job.
+... Um, okay, if I'm just telling you then it should be okay.
+No, it would be bad if you didn't know."
+@page
+@fi s=k212 pos=c
+@v s=30404
+@【かごめ】
+"Um... I actually draw manga.
+When I first texted you, did it come from a different name?"
+@page
+@【至】
+"Oh... lemme see.
+Ummm, let's see, this kanji... Sakatsuki Chieri?"
+@page
+@fi s=k211 pos=c
+@v s=30405
+@【かごめ】
+"Yes. I make manga under that name.
+I only have a serialization in a minor magazine,
+but because of that I don't have to worry about money."
+@page
+@fi s=k114 pos=c
+Otogiri-san proudly taps her chest,
+and I'd be surprised if she wasn't thinking 'Of course.'
+@page
+@【至】
+"Wow... you're a manga artist, huh?"
+;選択肢
+;大変じゃないの？　→340401
+;どんなマンガを描いてるの？　→340402
+@pages
+@selinit
+@selbtn cap="Isn't it tough?" s="340401.scn"
+@selbtn cap="What kind of manga do you make?" s="340402.scn"
+@s

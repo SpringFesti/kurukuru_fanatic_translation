@@ -1,0 +1,41 @@
+﻿;010402
+*010402|_Cloudy With A Chance of Red Rain
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+I've got to do something! 
+So, I walk forwards and put myself between the two of them.
+@page
+@【至】
+"Wazuka-san, stop! You're going too far."
+@page
+@fi s=w111d pos=c
+@v s=10139
+@【わずか】
+"No, I'm not. She's not dead yet."
+@page
+Wazuka-san tries to start hitting her again, but I grab her wrist and stop her.
+@page
+@v s=10140
+@【わずか】
+"Why?"
+@page
+@【至】
+"She'll die. Wazuka-san, please stop."
+@page
+@v s=10141
+@【わずか】
+"Let go."
+@page
+@【至】
+"But then you'd keep hitting her, wouldn't you?"
+@page
+She says nothing and tries to move her arm again.
+She's surprisingly strong. It'd be really bad if I didn't stop her.
+@page
+@fi s=w112d pos=c
+@v s=10142
+@【わずか】
+"Let go! I can't kill her if you don't! I can't forgive her!"
+@page
+@jump storage="010404.scn"
+;→010404

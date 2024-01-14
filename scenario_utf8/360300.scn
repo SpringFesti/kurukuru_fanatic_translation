@@ -1,0 +1,253 @@
+﻿;360300
+*360300|理想の姉→弟
+;【ワイプ】場面転換
+;【背景】かごめ部屋・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07b trans=波
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Nn... huh...?"
+@page
+My head feels heavy.
+My mind is dim.
+Was I sleeping just now?
+@page
+No. I was on the rooftop, with Otogiri-san--!
+@page
+@【至】
+"That's right, Wazuka-san--n?!"
+@page
+@qk
+I try and jump to my feet. But my body will not move.
+@page
+When I look at my surroundings, I become speechless.
+@page
+@【至】
+"What the hell!? Why am I tied up!?"
+@page
+Right now, I'm tied to the bed posts--
+My hands and feet are tied to them by leather belts.
+@page
+@fi s=k101 pos=c
+@v s=30679
+@【かごめ】
+"Good morning, Itaru-kun. You slept well.
+It's good that they were just the right length, huh?"
+@page
+@【至】
+"Otogiri-san!!?"
+@page
+@fi s=k102 pos=c
+@v s=30680
+@【かごめ】
+"Onee-chan. Really now... but you can't help it.
+It's okay, you'll remember soon--
+Because I defeated all the witches, right?"
+@page
+@【至】
+"Witches!? What are you... talking... about..."
+@page
+My words become weak at the end, but it's not because I can't hear the reason.
+It's because I don't want to know the reason.
+@page
+The reason that I lost consciousness, the reason that I can't move,
+and the hair I remembered seeing on her hands, all of it.
+@page
+@fi s=k335 pos=c
+@v s=30681
+@【かごめ】
+"You're alright now, okay?
+Onee-chan will protect you for a long time.
+Itaru-kun will live here properly now, with his older sister."
+@page
+@fi s=k435 pos=c
+@v s=30682
+@【かごめ】
+"Kufufu, I've prepared lots of things for Itaru-kun's sake now, haven't I?
+Look, even this... which color do you like?
+You like the blonde, don't you?"
+@page
+@fi s=k439 pos=c
+@v s=30683
+@【かごめ】
+"I was so busy getting Itaru-kun that I could only get the hair,
+but should I get the other parts too?
+Which would you like? The eyes? The nose? Or maybe the chest?"
+@page
+@【至】
+"Wait! That hair is... it's... it can't be!"
+@page
+@fi s=k435 pos=c
+@v s=30684
+@【かごめ】
+"Kufufu... it's okay, I didn't kill her.
+I knew that even if it was a witch, you'd say that it would be bad to kill someone."
+@page
+Good... so Matsuri and Wazuka-san are safe.
+A sigh of relief spills from my mouth.
+@page
+@fi s=k102 pos=c
+@v s=30685
+@【かごめ】
+"But I thought I was going to get killed today,
+so I thought it was okay to kill, you know?
+But I was saved, thanks to you."
+@page
+@【至】
+"Me...?"
+@page
+@fi s=k435 pos=c
+@v s=30686
+@【かごめ】
+"Because you wore my present,
+I understood that I had to attack.
+If I know that much, then it's easy to plan around it, right?"
+@page
+What the hell is she talking about?
+What did wearing her pendant make her understand.
+@page
+@fi s=k204 pos=c
+@v s=30687
+@【かごめ】
+"I was also happy to hear various other things too.
+Like television shows, going to the bathroom,
+and even fighting with that witch..."
+@page
+My spines shivers again.
+How many times does this make today?
+I'm even nauseous now.
+@page
+@【至】
+"... A wire tap, in other words?"
+@page
+@fi s=k435 pos=c
+@v s=30688
+@【かごめ】
+"Of course. The fruits of our sibling love.
+I'll give you my share too later, okay?
+Siblings should know everything about each other, after all."
+@page
+@【至】
+"Are... are you serious?"
+@page
+@fi s=k104 pos=c
+@v s=30689
+@【かごめ】
+"Of course. I waited for a long time, you know?
+I made everything like that manga, in preparation for
+when you recovered your memories.
+@page
+@fi id=k
+Saying this, she takes a book off of her shelf and shows
+it to me.
+@page
+@【至】
+"-- This is..."
+@page
+The thing drawn there is a so-called ero-manga.
+Moreover, it's not a normal one.
+@page
+As she turns the pages, two phrases catch my eye
+over and over. "Onee-chan" and "Little brother".
+@page
+The siblings don't only have sex.
+The older sister is violated until she's at her breaking point, her little brother ejaculating in hole after hole.
+Conversely, the older sister violates the little brother's anus, howling with laughter...
+@page
+That's not all.
+Doing those acts in secret halls of the school, and in the park.
+They also do it in the bathroom-- with toys.
+@page
+I remember each of the scenes that I see.
+In other words, even though she felt embarrassed to do those things, she seemed strangely experienced,
+because everything she did had been drawn in this book.
+@page
+At this point, it may not matter, but
+the author of the book was, as expected, "Sakatsuki Chieri".
+@page
+@fi s=k102 pos=c
+@v s=30690
+@【かごめ】
+"You should remember soon, right? Right, Itaru-kun?
+I've waited a very long time, my younger brother from a previous life.
+My soulmate... I've waited a long, long time."
+@page
+@【至】
+"...Wh ...at?"
+@page
+What has Otogiri-san been talking about?
+Previous worlds? Little brothers?
+@wait time=800
+I see... I've been misunderstanding something very important.
+@page
+Until now, I thought we were just playing a game.
+@page
+But I was wrong. She's completely serious.
+@page
+I'm afraid. Once again, I'm afraid of her.
+Without intimidation or violence, I've been brought to the brink of insanity with fear.
+@page
+@fi id=k
+Her hands begin to undress me.
+With my hands and feet tied, I can't resist.
+I try to shake a little, to cower back.
+@page
+@【至】
+"What are..."
+@page
+@fi s=k335d pos=c
+@v s=30691
+@【かごめ】
+"I've decided to finish up. Even though it seems you haven't remembered yet."
+@page
+@fi s=k339d pos=c
+@v s=30692
+@【かごめ】
+"And now, your reward for saving Onee-chan.
+Maybe this can be a celebration for defeating the witch too, huh?
+Kufu, kufufufufu..."
+@page
+@fi id=k
+In that way, Otogiri-san takes off my clothes,
+and tears the parts that are difficult for her to remove.
+@page
+I was immediately made naked.
+@page
+When Otogiri-san touches my bare cock,
+she turns a feverish smile towards me.
+@page
+@fi s=k335a pos=c
+@v s=30693
+@【かごめ】
+"Onee-chan will give you your reward now, okay?"
+@page
+Her hand loosely strokes my dick.
+My body appears to be honest, even at a time like this.
+It becomes erect quite quickly.
+@page
+@fi s=k339a pos=c
+@v s=30694
+@【かごめ】
+"Nn, a good response. But that's only natural.
+Itaru-kun loves onee-chan's hands very much."
+@page
+@fi s=k335a pos=c
+@v s=30695
+@【かごめ】
+"Now then... this will be good.
+Wait a little bit, I'll go get it ready."
+@page
+Saying that, Otogiri-san takes out something, 
+and I regret not thrashing about a while ago,
+looking at something like that--
+@page
+@fi id=k
+@mwoff
+;【ワイプ】時間経過
+;→360301
+@bgm fade=stop
+@jump storage="360301.scn"

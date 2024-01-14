@@ -1,0 +1,272 @@
+﻿;130303
+*130303|_今、なにしてますか？
+;【ワイプ】視点変更
+;【背景】教室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ランダム
+@bgm s=bgm03
+@mwon
+@【至】
+"...What?"
+@page
+A classmate calls to me wildly as I come in at the last moment.
+@page
+Well, that's normal.
+However, it's the person who called out to me who's the problem.
+@page
+@bgm s=bgm07
+@fi s=k112a pos=c
+@v s=30926
+@【かごめ】
+"Eh, uh, good morning..."
+@page
+@【至】
+"... Hey. Good morning, Otogiri-san."
+@page
+It was a fairly normal morning greeting, but
+I had no idea why Otogiri-san would call out to me so suddenly.
+@page
+It's a bit shocking, and I stop thinking for an instant.
+@page
+A weird kind of shock.
+Like when you pick up an abandoned dog and fall in love with it.
+@page
+@fi s=k214a pos=c
+@v s=30927
+@【かごめ】
+"Um, Takamichi-kun. I know this is a bit sudden, but..."
+@page
+She hunts through her bag for a moment,
+and pulls out a small rectangular box.
+@page
+@【至】
+"Whazzat?"s
+@page
+A bomb!
+... Matsuri might be poisoning my mind. What a shame.
+@page
+@fi s=k212a pos=c
+@v s=30928
+@【かごめ】
+"Umm... I made a lunch box.
+Do you want it...?"
+@page
+Of course it's not a bomb.
+@page
+I suppose that despite my imagination,
+the best way to describe it is as a lunch box.
+@page
+@【至】
+"Wait, you made this for me?"
+@page
+@fi s=k113a pos=c
+@v s=30929
+@【かごめ】
+"Err... I've, I've been kind of a pain to you lately.
+So I was hoping I could apologize with this..."
+@page
+Yeah, you could call running at me with a knife
+'being a pain'.
+@page
+It was certainly troubling.
+I thought I died for a second, back then.
+@page
+But should I really accept this as compensation for attempted murder?
+@page
+But then, it makes me happy that she thought about it and
+at least tried to apologize. I really have no reason to refuse.
+@page
+@【至】
+"Thanks a bunch. It would be my pleasure."
+@page
+@fi s=k214a pos=c
+I take the lunch box and put it into my bag.
+@page
+It'll be a bit hard to eat two lunch boxes
+in one lunch period, but it's better than
+being murdered, that's for sure.
+@page
+@【至】
+"Yeah, sorry about before. You didn't work too hard on this, did you?"
+@page
+@fi s=k211a pos=c
+@v s=30930
+@【かごめ】
+"Oh, it wasn't that bad. But, I don't really know what foods you like...
+actually, I don't know that much about you at all..."
+@page
+That's true. I only learned this girl existed a few days ago.
+@page
+@fi s=k113a pos=c
+@v s=30931
+@【かごめ】
+"So, I'd like to learn more about you..."
+@page
+@fi s=k213a pos=c
+@sfont
+@v s=30932
+@【かごめ】
+"More... about my younger brother..."
+@page
+@【至】
+"... Huh? What was that...?"
+@page
+@fi s=k445a pos=c
+@v s=30933
+@【かごめ】
+"I, I will... I will become an older sister...
+and I'll live with my younger brother for a long time...
+heh, heh heh heh..."
+@page
+@【至】
+Uhh... not to intrude on your business,
+but don't you want to live with your parents too?"
+@page
+@qk time=800
+@fi s=k347 pos=c
+@lfont
+@v s=30934
+@【かごめ】
+"NO!"
+@page
+;【立ち絵】かごめ立ち絵　大
+@fi s=k34ad pos=c
+@act id=k t=neckswing
+@v s=30935
+@sqk
+@【かごめ】
+"An older sister and a younger brother...
+parents aren't a part of that ideal at all!"
+@page
+Her face contorts into a demonic expression.
+I catch my breath, as her hands dig into my shoulders.
+@page
+But--
+@page
+@bgm fade=stop
+@act id=k t=stopswing
+@mwoff
+@se s=se109
+@qk
+@flash
+@fi s=k348d pos=c
+@act id=k t=hit
+@wait time=500
+@bgm s=bgm10
+@mwon
+With a single gunshot, she goes stiff as a board.
+@page
+;【ＳＥ】カチャリ　銃を構えた音
+;【立ち絵】かごめの表情を驚きor怯えたものに。立ち絵のサイズを通常のものに
+@fi s=k347 pos=c
+Then, she puts distance between us, jumping backward.
+@page
+@setOnce
+@fi s=k347 move=rc
+@fi s=m515 pos=lc
+@endOnce
+;以降、パレード
+@v s=21595
+@【祀利】
+"How about you just shut up and listen to me for a second?"
+@page
+The person who saved me from Otogiri-san
+was Matsuri (currently Parade).
+@page
+@fi s=m51c pos=lc
+@v s=21596
+@【祀利】
+"Itaru is mine. You put another hand on him, and you die."
+@page
+@fi s=k34a pos=rc
+@v s=30936
+@【かごめ】
+"I won't let you...
+I'll protect the bond between younger brothers
+and older sisters..."
+@page
+@【至】
+"W-Wait a second! Stop it, you two!
+We're in a classroom, aren't we?!"
+@page
+No response from either of them.
+Not even a cursory glance.
+@page
+Crap. No mistake, this is seriously going to turn into bloodshed soon.
+What should I do? What can I do!?
+@page
+;【ＳＥ】ガラッ　戸が開く音
+@se s=se037
+@【教師】
+"I'm starting homeroooom. Everyone, sit down--"
+@page
+Nice job, professor! Good job!
+They can't stay bloodthirst after they hear a carefree voice like that!"
+@page
+This is my chance!
+@page
+@【至】
+"Matsuri, I'll get you a juice later, okay?
+Otogiri-san, I'll talk to you later."
+@page
+@setOnce
+@fi s=k348 pos=rc
+@fi s=m113 pos=lc
+@endOnce
+Blank expressions are their response to my words.
+@page
+@【至】
+"Got that? Where's my answer!?"
+@page
+They just nod vaguely instead of speaking.
+@page
+@bi s=bg810 all=true trans=crossfade
+;@bgm s=bgm03
+This should stop them from conflicting with each other.
+@page
+So, Matsuri sits on my knee and Otogiri-san goes back to her seat.
+@page
+Now it's the same as yesterday.
+While the suspicious teacher starts teaching,
+a lazy atmosphere fills the classroom.
+@page
+;【ワイプ】時間経過
+;【背景】教室
+;【ＳＥ】携帯のバイブ音
+@bi s=bg12d trans=clock
+@sqk
+@【至】
+"--Hm? A mail?"
+@page
+I'm listening to the teacher seriously when
+my phone starts buzzing in my pocket.
+@page
+I make sure that the teacher can't see my phone.
+Then I look at it, seeing that there's one new mail."
+@page
+It's from Otogiri-san.
+@page
+Seeing the subject "About older sisters and younger brothers",
+I barely resist the urge to delete it immediately.
+@page
+... Whoa.
+@page
+I look inside, and just like I thought...
+She rants about the subject endlessly,
+running straight up against the character limit.
+@page
+She's saying something about the relationship
+having some kind of spiritual side, a mystique,
+and something about a libido overflow?
+@page
+I'm sorry, I really don't care.
+@page
+While I decide on how I should reply,
+I get another new mail, and quickly turn my phone off.
+@page
+@mwoff
+@bgm fade=out
+;→130400
+@jump storage="130400.scn"

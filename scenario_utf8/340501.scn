@@ -1,0 +1,147 @@
+﻿;340501
+*340501|_予兆と陰謀
+;【ワイプ】時間経過
+;【背景】主人公自室・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01n trans=clock
+@bgm s=bgm04
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Phew... she didn't come in today."
+@page
+I talk to myself after my bath.
+@page
+It's not like I wanted her to.
+There's no reason I would, right?
+@page
+@fi s=f114 pos=c
+@v s=40614
+@【ファヌル】
+"Liar. You wanted to see me naked."
+@page
+@【至】
+"Whoah!? When did you get in here?"
+@page
+First of all, I didn't say anything just now, right?
+@page
+@fi s=f111 pos=c
+@v s=40615
+@【ファヌル】
+"Whatever's cool with you."
+@page
+It's not cool!
+I didn't say anything just now!
+@page
+@fi s=f55b pos=c
+@v s=40616
+@【ファヌル】
+"... You got any problems with me reading your mind?"
+@page
+@【至】
+"Well, I like my privacy... well, whatever. What's up?"
+@page
+@fi s=f559 pos=c
+@v s=40617
+@【ファヌル】
+"Tomorrow. If you overcome tomorrow, you'll change your fate."
+@page
+@【至】
+"... Yeah, I know that already."
+@page
+@fi s=f55a pos=c
+@v s=40618
+@【ファヌル】
+"If you know, then why aren't you doing anything?"
+@page
+@【至】
+"I can't do anything.
+I can't understand how a criminal would work,
+so I can't do anything in advance, can I?"
+@page
+That's right.
+If I could redo my life, I could ask for several things, but I have one major problem.
+@page
+If it's not something like a powerful New Game+, there's no point.
+If the player can't carry anything over, then nothing will change.
+@page
+@fi s=f559 pos=c
+@v s=40619
+@【ファヌル】
+"Don't you have some ideas at least?"
+@page
+@【至】
+"Nope. Am I really going to be killed tomorrow?
+I haven't seen any signs of that at all."
+@page
+@fi s=f55b pos=c
+@v s=40620
+@【ファヌル】
+"... That's nice."
+@page
+@【至】
+"What do you mean?"
+@page
+@fi s=f559 pos=c
+@v s=40621
+@【ファヌル】
+"Exactly that.
+If you aren't killed, then my mission is over, so it'd be nice if that would happen."
+@page
+@fi id=f
+Saying that, she leaves the room.
+@page
+@【至】
+"... What a selfish person. Well, whatever."
+@page
+It'd be better if I wasn't murdered tomorrow.
+I'll have to be careful about things tomorrow.
+@page
+-- I look at the table next to me, and see my
+phone flashing.
+@page
+@【至】
+"...Ah. A text from Otogiri-san."
+@page
+@mnon time=300
+@mset l=5 h=true time=300
+@v s=30545
+;@【かごめ】
+"Thanks for the text. I had fun today.
+I'm tired today, so this will be my only text.
+I'll see you tomorrow at school. From Onee-chan."
+@waitclk
+@mwon
+@【至】
+"... I see, so she went to bed."
+@page
+I reply good night to her, getting a little lonely.
+@page
+@【至】
+"... I should go to bed too. I don't have anything to do anyway."
+@page
+;【背景】夜空
+@bi s=bg830
+-- Tomorrow.
+My death is decided tomorrow.
+I try to think about it, but I can't concentrate.
+@page
+@【至】
+"... There's really no reason for me to die again... huh..."
+@page
+I'm amazed that I'm so calm about this.
+@page
+As for today--
+Maybe it's because of the things I did with Otogiri-san,
+but I guess I have some unexpected courage.
+@page
+@bi s=blank trans=crossfade all=true
+Before I find the answer,
+I fall into what may be my last sleep...
+@page
+@mwoff
+;→340502
+@bgm fade=stop
+@jump storage="340502.scn"

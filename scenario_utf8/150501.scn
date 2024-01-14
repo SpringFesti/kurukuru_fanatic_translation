@@ -1,0 +1,545 @@
+﻿;150501
+;わずかＨシーン６の祀利とかごめを責めるわずか
+;【ワイプ】視点変更
+;【イベントＣＧ】evh1080
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+*150501|_償い
+@bi s=evh1080 trans=モザイク
+@bgm s=bgm16
+@mwon
+@se s=se065
+@flash
+@qk
+@v s=21734
+@【祀利】
+"Nmnmgh!"
+@page
+This meets my eyes.
+I reject what I see.
+@page
+@se s=se065
+@flash
+;【ＳＥ】蹴る音
+@qk
+@v s=31044
+@【かごめ】
+"Nnnnnn!"
+@page
+Her too. No matter how many times I reject it.
+@page
+Even if I reject it, I still see them being hit
+with a knife, perhaps hundreds of times.
+@page
+@v s=11231
+@【わずか】
+"... Hm?"
+@page
+@v s=21735
+@【祀利】
+"Nnuh... nnnn!"
+@page
+@【わずか】
+"......"
+@page
+@se s=se065
+@qk
+@flash
+@v s=21736
+@【祀利】
+"Nnnn!?"
+@page
+@v s=11232
+@【わずか】
+"Why are you glaring? Don't you like this?
+Do you want to die? Right here, right now?"
+@page
+@se s=se065
+@flash
+;【ＳＥ】蹴る音
+@qk
+;【ＳＥ】蹴る音
+@se s=se065
+@qk
+@v s=21737
+@【祀利】
+"Nnn! Guh, ahh, nnnn!"
+@page
+@v s=11233
+@【わずか】
+"Do you understand exactly what you've done now?
+Do you understand that the reason I'm not killing you
+immediately is that you must understand what you've done to Itaru-kun?"
+@page
+@【祀利】
+"......"
+@page
+@v s=11234
+@【わずか】
+"... So I can't kill you."
+@page
+@【祀利】
+"......"
+@page
+@se s=se065
+@flash
+;【ＳＥ】蹴る音
+@qk
+@v s=21738
+@【祀利】
+"Nnnn!"
+@page
+@v s=11235
+@【わずか】
+"Does it hurt? It doesn't hurt as
+much as you tortured Itaru-kun."
+@page
+@v s=11236
+@【わずか】
+"No matter what... you can't reach that.
+You scarred him, you know."
+@page
+@v s=11237
+@【わずか】
+"To those that have hurt him like you have,
+you can't die having suffered this little."
+@page
+@v s=11238
+@【わずか】
+"Don't think you can die this easily."
+@page
+@v s=21739
+@【祀利】
+"Kuh..."
+@page
+@v s=31045
+@【かごめ】
+"Mnnnnn!"
+@page
+;【ＳＥ】ガタッという物音
+@se s=se041
+@wait time=1000
+;【背景】浴室
+@bi s=bg05d
+@fi s=w111 pos=c
+@v s=11239
+@【わずか】
+"...Who?"
+@page
+;【ＳＥ】風呂場の戸が開く音
+;【立ち絵】わずか笑顔
+@se s=se040
+@fi s=w547 pos=c
+@v s=11240
+@【わずか】
+"Oh..."
+@page
+;【ワイプ】視点変更
+;【背景】浴室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=ランダム
+;@bgm s=bgm05
+@fi s=w113 pos=c
+@mwon
+@v s=11241
+@【わずか】
+"Itaru-kun, you're already okay?"
+@page
+@【至】
+"Yeah... I'm not numb anymore."
+@page
+@fi s=w547 pos=c
+@v s=11242
+@【わずか】
+"Thank goodness..."s
+@page
+@【至】
+"No, uh, more than that...
+what are you doing?"
+@page
+;【イベントＣＧ】evh1080
+@mwoff
+@fi id=w
+@bi s=evh1080
+@wait time=300
+@mwon
+Otogiri-san and Matsuri's limbs have been restrained,
+and they've been rolled into the bathroom.
+@page
+There are wounds all over their body.
+Some are red and swelling, and others
+are spilling blood.
+@page
+;【背景】浴室
+@setOnce
+@bi s=bg05d
+@fi s=w411 pos=c
+@endOnce
+@【至】
+"W-Wazuka-san...did you...
+those wounds... did you--!?"
+@page
+@v s=11243
+@【わずか】
+"It is a punishment. I didn't want to get your room dirty."
+@page
+@【至】
+"No, I'm talking about this crazy punishment."
+@page
+@fi s=w111 pos=c
+@v s=11244
+@【わずか】
+"These two hurt you, Itaru-kun.
+Even killing them ten times over wouldn't
+compensate, so of course I'm punishing them."
+@page
+@【至】
+"I can't forgive them...
+But isn't this overkill!?"
+@page
+@fi s=w112 pos=c
+@v s=11245
+@【わずか】
+"No. What they did to you, I cannot forgive."
+@page
+@【至】
+"Wazuka-san?"
+@page
+@fi s=w214 pos=c
+@v s=11246
+@【わずか】
+"... But if you want me to, I'll give them mercy."
+@page
+@【至】
+"Mercy?"
+@page
+@fi s=w113 pos=c
+@v s=11247
+@【わずか】
+"Yes. Even though they hurt you...
+Matsuri lived with us for a while... it was fun."
+@page
+@fi s=w211 pos=c
+@v s=11248
+@【わずか】
+"Otogiri-san gave me a chance to study how I cook."
+@page
+@fi s=w114 pos=c
+@v s=11249
+@【わずか】
+"So I'll give them mercy.
+... Torture them with this."
+@page
+@【至】
+"... Torture?"
+@page
+She passes me a whip.
+@page
+Just a whip, by all means.
+With neither thorns nor blades,
+just a simple whip.
+@page
+Even so, if this was swung with human power,
+this would hurt like hell.
+@page
+@【至】
+"... Why?"
+@page
+@fi s=w411 pos=c
+@v s=11250
+@【わずか】
+"If I do it, it is a punishment.
+But if you do it, I'm sure they'll
+be saved."
+@page
+@【至】
+"......"
+@page
+;【イベントＣＧ】evh1081
+@mwoff
+@fi id=w
+@bi s=evh1081
+@wait time=300
+@mwon
+@v s=21740
+@【祀利】
+"MMnnmn, mnnm!"
+@page
+@v s=31046
+@【かごめ】
+"Mnmnnn, mnnmnn!"
+@page
+I look at the two of them, with vibrators on their nipples
+and dildoes in their privates.
+@page
+Completely restrained, they're being violated in every way.
+@page
+;【背景】浴室
+@setOnce
+@bi s=bg05d
+@fi s=w41b pos=c
+@endOnce
+@v s=11251
+@【わずか】
+"They hurt you, didn't they?
+I really want to kill them, even now!"
+@page
+@fi s=w412 pos=c
+@v s=11252
+@【わずか】
+"So Itaru-kun, quickly.
+Before I can kill them, torture them."
+@page
+@fi s=w415 pos=c
+@v s=11253
+@【わずか】
+"If you don't, I... I don't know what I'll do."
+@page
+If she's saying that she'll kill them otherwise,
+I have no other choice than to comply.
+@page
+@【至】
+"... I understand."
+@page
+I hesitate for a bit,
+unsure of exactly what I'm doing right now.
+@page
+;【イベントＣＧ】evh1081
+@setOnce
+@fi id=w
+@bi s=evh1081
+@bgm s=bgm19
+@endOnce
+(Sorry... you two, I really am sorry.
+But... but there's nothing I can do.)
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+Standing in front of those two as they are violated by toys,
+I bend the whip, just slightly.
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@page
+@v s=21741
+@【祀利】
+"Ahh, aah... naaahh..."
+@page
+@v s=31047
+@【かごめ】
+"Nnn, mnn, nn, nnmnn!"
+@page
+To those two, who are completely overtaken by stimulation,
+finally recognize me by the sound of the whip.
+@page
+@【至】
+"... Sorry."
+@page
+I don't want to apologize.
+But I couldn't make up my mind to do it, if I didn't.
+@page
+I breath in, and out...
+And crack the whip.
+@page
+@bi s=evh1082 time=500
+@se s=se064
+@qk time=700
+@flash time=700
+@lfont
+@v s=21742
+"NNNN!?"
+@page
+They shake as I hit them, with a firm slashing sound.
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=21743
+@【祀利】
+"Nn! Mnn! Nnmnm!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=31049
+@【かごめ】
+"Nnnmn! Mnnn, nn!"
+@page
+Matsuri and Otogiri-san's screams
+reach over the crack of the whip.
+@page
+@v s=11254
+@【わずか】
+"Yes, yes Itaru-kun!
+Beat them harder!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=21738
+@【祀利】
+"Nnnn!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=31048
+@【かごめ】
+"Mnnn!"
+@page
+Ignoring Wazuka-san, I torture them
+with the whip many times.
+@page
+Before I knew it, I was striking them
+with all my might.
+@page
+At first I was holding back because of pity,
+but before I knew it I had forgotten that weak concept.
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=21737
+@【祀利】
+"Nnn! Mnnm, mnn, mnnnn!"
+@page
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=31049
+@【かごめ】
+"Nnn-! Mmn, mnn!"
+@page
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=21744
+@【祀利】
+"Nmmnn! Mnnn! Nmnnmn!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=31050
+@【かごめ】
+"Nmmnn! Mn, mnnnn!"
+@page
+Finally, the two of them began to cry,
+from the pain of being beaten over and over.
+@page
+Even though it must be considerably painful,
+I've already forgotten how many times I've hit them.
+@page
+Pain on the outside, pleasure on the inside.
+I wonder how long it will be before they fall unconscious.
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=21745
+@【祀利】
+"Nmnnn! Nmnnnmn!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=31051
+@【かごめ】
+"Mnnmnnn! Mnnnmnnn!"
+@page
+However, I still do not stop.
+I hold the whip, and swing it with all my power.
+@page
+It's funny, if I think about it.
+These two threatened me so much yesterday,
+and now the two of them, who tormented me so much,
+are crying at my feet.
+@page
+Such a horrible power relationship has turned
+upside-down before me.
+@page
+Yesterday, they were on top.
+Now, I am.
+@page
+I am now the torturer.
+I am on top.
+@page
+@【至】
+"Ha.. hahaha... HAHAHAH!!!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=21744
+@【祀利】
+"Nmmn! Mnnn! Nnmn!"
+@page
+;【ＳＥ】鞭で叩く音
+@se s=se064
+@qk time=700
+@flash time=700
+@v s=31050
+@【かごめ】
+"Mnn! Nnn, mnnmn!"
+@page
+;【イベントＣＧ】evh1083
+@flash
+@mwoff
+@bi s=evh1083
+@flash
+@sqk
+@v s=21746
+;@v s=31052
+@mwon
+@lfont
+;【備考】ボイス同時
+;@【祀利】
+"MNNMNMN--!"
+;@【かごめ】
+;「ん゛ん゛ん゛ん゛ーー！！」
+@page
+;【イベントＣＧ】evh1084
+@mwoff
+@bi s=evh1084
+@wait time=300
+@mwon
+With the odor of ammonia, I realize that
+these two have pissed themselves.
+@page
+Shaking, I notice that the two of them
+have climaxed at the same time.
+@page
+@v s=21747
+@【祀利】
+"Mnn... nn, nnmn..."
+@page
+@v s=31053
+@【かごめ】
+"Mnn, nn, mnmnm..."
+@page
+It felt so good that they peed...
+Of course, I'm not talking about the crying.s
+@page
+They must be crying from the pain and the stimulation,
+too strong, and all at once.
+@page
+I made these two cry...
+I realize that, and my head cools down immediately.
+@page
+I forget the superiority complex I had for a while instantly.
+@page
+@replay
+;→150504
+@jump storage="150504.scn"

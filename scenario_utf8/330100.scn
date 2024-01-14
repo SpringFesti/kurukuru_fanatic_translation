@@ -1,0 +1,200 @@
+﻿;330100
+*330100|１０月２９日午前７時１２分
+;【ワイプ】時間経過および場面転換
+;【背景】主人公自室・朝
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=tile
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Nn--... kuah..."
+@page
+;【備考】包丁持ちの立ち絵ってあるんでしょうか？
+;【演出】わずか立ち絵表示
+@fi s=w321 pos=c
+@v s=10696
+@【わずか】
+"Oh."
+@page
+;【演出】クエイク
+;【演出】文字倍角
+@bgm fade=stop
+@bgm s=bgm09
+@qk time=1000
+@lfont
+@【至】
+"Uoaaaaahhh!?"
+@page
+I yell when I see the scene in front of my eyes.
+I almost fall off the bed.
+@page
+Wha, what is this?
+What the hell is going on!?
+Why is she holding a knife!?
+@page
+A knife as soon as I awake.
+Wow, this is a great alarm.
+A great big meeting is held in my brain immediately.
+@page
+The agenda?
+Why does Wazuka-san have a knife in her hand?
+@page
+Conclusion.
+Because she's Wazuka-san.
+@page
+I answer.
+But that's wrong! That can't be right, can it!?
+@page
+@fi s=w121 pos=c
+@v s=10697
+@【わずか】
+"Itaru-kun, what's wrong?"
+@page
+@【至】
+"N-Nothing! What's with the knife!?"
+@page
+Because the meeting in my brain was useless, I asked her directly.
+@page
+@fi s=w124 pos=c
+@v s=10698
+@【わずか】
+"Breakfast is ready, and I need you to get up. So wake up."
+@page
+;@bgm fade=stop
+;@bgm s=bgm02
+Unexpectedly, the conclusion that the meeting in my brain had reached was correct.
+@page
+Because she had prepared breakfast, she had a knife.
+So she came to wake me up.
+@page
+As for why a knife was involved in these two actions at all, it's just because it's Wazuka-san.
+@page
+@【至】
+"A-Alright. I'll get ready to go now."
+@page
+I wanted to ask her to put the knife away,
+I imagine her nodding and shoving it into her vagina, and I become afraid.
+So guess I gotta go now.
+@page
+@fi s=w121 pos=c
+@v s=10699
+@【わずか】
+"It'll get cold, so come on."
+@page
+@fi id=w
+And so, Wazuka-san returned to the kitchen.
+@page
+@【至】
+"Scaryyy... I thought I was gonna get stabbed."
+@page
+She's the type that would stab you if you cheated on her.
+@page
+If you said yes, she'd say it was only natural, and BAM.
+If you denied it, she'd say you were lying, and BAM.
+@page
+It's scary, so I'd never want to date her.
+She'd probably even check my texts from my friends.
+@page
+@【至】
+"... Oh yeah, speaking of that, I haven't looked at 'that' yet..."
+@page
+That = Otogiri-san's text.
+@page
+It goes without saying, but when it comes to the
+contents of the text itself, rather than a delicate friendliness,
+it feels like she's getting too overfamiliar with me.
+@page
+@【至】
+"... If Wazuka-san saw it, she'd definitely misunderstand.
+@page
+Their relationship has always been rocky.
+I'm sure that situation on the roof would repeat itself.
+@page
+@【至】
+"... But it's the first time, isn't it.
+The first time I've talked like that with a girl...
+Otogiri-san was my first."
+@page
+I've had some good chats with females friends in class.
+However, I've never gotten so close to someone that
+we've texted like this. Not even once.
+@page
+... I suppose I should know the reason why.
+@page
+@【至】
+"Is this bad, or not...
+No, I didn't text her with any ulterior motives or anything like that."
+@page
+In the first place, I'm still not sure she's seen it yet.
+And she might not even stab me if she does see it.
+@page
+@【至】
+"Well, I guess I've got two more days, even if she is going to stab me."
+@page
+それもどうよ。
+なんて自己ツッコミを入れつつ、
+行く支度を始めようとした所で――
+@page
+;【備考】至の台詞通り、シノプシスの方でラベル320200と矛盾していましたが、修正指示を受けてもすぐ直せる箇所なのでこちらの判断でこうしておきました。
+;【ＳＥ】携帯電話着信音
+@se s=se027
+@【至】
+"Huh? I thought I put it on silent mode yesterday."
+@page
+@se fade=stop
+Or maybe I just canceled that before I went to sleep.
+To be frank, I'm still half asleep, so I can't remember.
+@page
+@【至】
+"For the time being, I shouldn't reply back now if I don't want her to notice it... I guess."
+@page
+Well, there's no point to worrying about it now.
+Rather, I should check my messages.
+@page
+@【至】
+"Let's see... yep, that's Otogiri-san alright."
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30254
+;@【かごめ】
+"Good morning. Would you mind if I met with you before class today?"
+@waitclk
+@mwon
+@【至】
+"That's a little sudden...
+Hmm, would I have time for food...?"
+@page
+I try to calculate in my head.
+Yeah, I would be in time normally.
+@wait time=500
+... If I get ready and go alone.
+@page
+But reality is not that nice.
+I have two bombs stuck to my feet instead.
+@page
+They'll explode if they find out.
+They'll explode if I leave them.
+And sometimes, they explode if I do nothing at all.
+@page
+@【至】
+"Guess they ain't nuttin I ken do nuttin about."
+@page
+For some reason I delve into a random accent as I mutter to myself.
+@page
+Anyway, about Wazuka-san and Matsuri,
+I've got to confirm if I'm going to late with the two of them or not.
+@page
+@【至】
+"... So what should I do?"
+;選択肢
+;がんばるぜ！　→330101
+;ちょっと無理そう　→330102
+@pages
+@selinit
+@selbtn cap="Try my best!" s="330101.scn"
+@selbtn cap="It's a little too much" s="330102.scn"
+@s

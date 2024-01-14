@@ -1,0 +1,24 @@
+﻿;020605
+*020605|_クイズ！　次はおまえだ！
+@v s=16001
+@【ウサミ】
+"Geez, we gotta make the next one really good.
+They'll shut us down otherwise, you know?"
+@page
+@fi s=f111 pos=lc
+@v s=40384
+@【ファヌル】
+"That too is fate, and His will.
+I can only follow it."
+@page
+@fi s=f114 pos=lc
+@v s=40385
+@【ファヌル】
+"Well, make sure you have no regrets.
+Otherwise, there won't be any point no matter how many times you save."
+@page
+;【演出】暗転
+;→020700
+@bi s=blank trans=crossfade all=true
+@bgm fade=stop
+@jump storage="020700.scn"

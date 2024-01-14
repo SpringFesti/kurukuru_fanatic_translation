@@ -1,0 +1,88 @@
+﻿;340500
+*340500|予兆と陰謀
+;【備考】主人公視点
+;【ワイプ】場面転換
+;【背景】自宅居間・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm12
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Matsuri still hasn't come home."
+@page
+It's late at night, after I came home.
+@page
+Matsuri wasn't home at that time.
+And there were no signs of her at dinner-time either.
+@page
+@【至】
+"Wazuka-san, do you know where Matsuri went?"
+@page
+@fi s=w121 pos=c
+@v s=10736
+@【わずか】
+"I haven't seen her. Perhaps she returned to her home in Brazil?"
+@page
+@【至】
+"No, she hasn't said a thing about that to me.
+Right, I can call her with this."
+@page
+I try contacting Matsuri's cell phone.
+@page
+After ten rings, I connect with her answering machine.
+@page
+@【至】
+"... Hey, Matsuri.
+Sorry about lunch. Call me back."
+@page
+I leave a message and hang up.
+She carries the phone around, so she'll probably call me back.
+@page
+@【至】
+"... Seems like the DVD I rented will go to waste."
+@page
+;@fi s=w122 pos=c
+@v s=10737
+@【わずか】
+"She disappeared all on her own, so you shouldn't worry about it.
+More than that, your food is getting cold, Itaru-kun."
+@page
+@【至】
+"Yeah, okay. Let's eat then, for now."
+@page
+There's no use pouting if she went home.
+Above all else, I can't grant her biggest wish-- to be fiancees.
+@page
+When she got here, it might have been a possbility, but now it's unreasonable.
+@page
+@fi s=w123 pos=c
+@v s=10738
+@【わずか】
+"What's wrong, Itaru-kun?
+Is the food okay?"
+@page
+@【至】
+"Oh, sorry. I'm just distracted.
+The meal's delicious as always."
+@page
+@fi id=w
+Let's try texting Otogiri-san later.
+Both to thank her for today and to ask about tomorrow.
+@page
+... Tomorrow, huh?
+There are things we can do other than that, huh?
+@page
+@【至】
+(... We have to. We absolutely have to do normal things.
+Because we...)
+@page
+While I blow up my own expectations for an enjoyable future,
+the topic of Matsuri completely falls out of my head.
+@page
+@mwoff
+;→340501
+@bgm fade=stop
+@jump storage="340501.scn"

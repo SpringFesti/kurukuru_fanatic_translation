@@ -1,0 +1,169 @@
+﻿;130100
+*130100|１０月２９日午前７時３０分
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【背景】青空
+;【ＳＥ】鳥の鳴き声
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=ランダム
+@se s=se001 loop=true
+@wait time=2000
+@se s=stop
+;【ワイプ】場面転換
+;【背景】主人公自室・朝
+;【立ち絵】わずか立ち絵　大
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=ランダム
+@bgm s=bgm05
+@fi s=w123ad pos=c 
+@mwon
+Was it just another dream?
+That thought is the first thing through my head as I wake up.
+@page
+He was by my side.
+In front of me was Itaru-kun's sleeping face.
+@page
+Impossible.
+That's impossible outside of dreams.
+@page
+But... this is reality.
+Itaru-kun and I slept together last night.
+He even let me use his arm as a pillow...
+@page
+@fi s=w124ad pos=c 
+@v s=10820
+@【わずか】
+"Good morning, Itaru-kun."
+@page
+I give Itaru-kun a quiet morning's greetings, as not to wake him up.
+@page
+I don't want to speak loudly. I certainly don't want to wake him up.
+@page
+@fi s=w557d pos=c 
+@v s=10821
+@【わずか】
+"Ohh..."
+@page
+I remember something important, and put my head back on Itaru-kun's arm.
+@page
+Itaru-kun, how long have I been doing this?
+@page
+@fi s=w223 pos=c 
+@v s=10822
+@【わずか】
+"Sorry, I must have been heavy."
+@page
+Even if I'm in a panick, I'm still too slow.
+His arm must be numb from me sleeping on it for so long.
+@page
+I want to punish myself.
+But, I don't.
+I would wake him up if I did that.
+@page
+I apologize in my mind.
+@page
+I'll face the music. I'll die.
+I hope you can forgive me, Itaru-kun, if I die--
+@page
+... But, he probably won't.
+@page
+Wazuka-san, you weren't heavy at all--
+That's what he'll say to me, for sure.
+@page
+That's the kind of person he is.
+@page
+@fi s=w124a pos=c 
+@v s=10823
+@【わずか】
+"Itaru-kun..."
+Itaru-kun, Itaru-kun, Itaru-kun...
+@page
+Itaru-kunItaru-kunItaru-kunItaru-kunItaru-kun
+Itaru-kunItaru-kunItaru-kunItaru-kun...
+@page
+My heart beats faster, just by thinking of him.
+My body gets so hot it feels like I'm going to collapse.
+@page
+My mind is filled with his words, his smile,
+and all of him.
+@page
+I want more of Itaru-kun.
+I can't stand it. I want all of him.
+@page
+But only Itaru-kun's lover can have all of him.
+@page
+I love Itaru-kun.
+Even so, I'm still not qualified to recieve all of him.
+@page
+;【立ち絵】わずか立ち絵、不機嫌そうなもの
+@fi s=w122 pos=c 
+... What an awful face.
+@page
+I look at my reflection in the mirror,
+and anger and nausea overcome me.
+@page
+I hate looking at my face.
+@page
+Like that woman's face...
+That horrible woman, who gave birth to me.
+@page
+Not only her face.
+Her body, her hands, legs, down to her fingernails, all of it.
+Perhaps even the contents of our bodies. Even the blood.
+@page
+@fi s=w123 pos=c 
+Sometimes, I feel like I'm becoming her.
+Perhaps someday I will.
+@page
+The woman who showed a vain, arrogant selfishness...
+The woman who showed an abnormal attachment, an obsession...
+@page
+If I become her... I might hurt Itaru-kun.
+@page
+His happy, sleeping face will distort in grief due to me.
+@page
+So, I cannot become Itaru-kun's lover.
+Far from loving me... he'll surely come to hate me.
+@page
+@【至】
+"Nn..."
+@page
+@fi s=w123 pos=c 
+Ah...
+@page
+Itaru-kun smiled...
+@page
+I can't worry.
+I must bear all of it.
+@page
+I feel like laughing.
+@page
+@fi s=w124a pos=c 
+@v s=10824
+@【わずか】
+"...Thanks."
+@page
+Even if I cannot become his lover,
+I can stay beside him for the rest of my life.
+@page
+@fi s=w123 pos=c 
+@v s=10825
+@【わずか】
+"So... please forgive me."
+@page
+I understand it's unfair to ask while he's asleep.
+@page
+But... but...
+@page
+@fi s=w12cad pos=c 
+@v s=10826
+@【わずか】
+"Itaru-kun..."
+@page
+I can't control my feelings... my lips hover over his.
+@page
+;→130101
+@jump storage="130101.scn"

@@ -1,0 +1,165 @@
+﻿;010700a
+*010700a|_カウントダウンは始まった
+;【背景】夜空
+@bgm s=bgm04
+@bi s=bg830
+@mwon
+Well, after various things occured, it became later at night.
+@page
+No matter what I think about Fanuel, I can't win against the flow of time.
+To say nothing of the difficulty of going against my destiny.
+@page
+What will happen to me on this revival?
+Will I be connected with someone again?
+@page
+;暗転
+@bi s=blank trans=crossfade all=true
+@【至】
+"... Well, I've got to deal with this for now."
+@page
+@bi s=evn1010
+;【イベントＣＧ】三人で眠る主人公
+I think you understand by now the various
+things that cause this to occur.
+So I'll skip the explanation.
+@page
+Hm? You're calling me lazy?
+Fine, if I act out the situation, will you forgive me?
+@page
+@bgm s=bgm09
+@bzoom s=bg04d time=250
+;【背景】居間明かりあり
+@setOnce
+@fi s=w122 pos=lc
+@fi s=m114 pos=rc
+@endOnce
+@v s=10218
+@【わずか】
+"We're sleeping together. You promised this morning."
+@page
+@v s=20084
+@【祀利】
+"Me too! We're fiancees!
+It's only natural!"
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@se s=se091
+@lineFXon
+@fi s=f415 pos=c
+@qk time=1000
+@flash time=1000
+@endOnce
+@v s=40141
+@【ファヌル】
+"Takamichi-senpai, please do something with
+your invincible Stand 「Nyarara」!"
+@page
+;【イベントＣＧ】三人で眠る主人公
+@fi id=f
+@setOnce
+@mwoff
+@pfxOption backvisible=false
+@bi s=blank
+@endOnce trans=crossfade
+@stoppfx
+@wait time=200
+@bi s=evn1010 trans=円形(中から外へ)
+@mwon
+Is that enough?
+Please put yourself in my shoes. I've had to explain it four times.
+@page
+However, no matter how many times I see it, it's amazing.
+Matsuri's hand.
+The wound that should be on it has already healed.
+@page
+@【至】
+"Parade's power is really amazing.
+Is it a trick or something like that?"
+@bgm fade=out
+@page
+@bgm s=bgm04
+@v s=10220
+@【わずか】
+"... Nn... Itaru-kun..."
+@page
+@【至】
+"Oh, sleeptalk."
+@page
+@v s=10221
+@【わずか】
+"... I love... I love you..."
+@page
+I feel embarassed every time I hear it.
+Even though I've connected with Wazuka-san
+"before", I still feel embarassed.
+@page
+@v s=20086
+@【祀利】
+"Itaru... noo... it hurtsss..."
+@page
+On the other hand, I'm depressed about Matsuri.
+Somehow, I feel like if it was me, she would ask what's wrong.
+@page
+@【至】
+"Well, I suppose being able to worry about these kinds
+of things is a sign of peace, isn't it?"
+@page
+If tomorrow comes, then every-day events will come with it.
+I have to find the way that I can avoid my death this time,
+above all.
+@page
+However, this is my fourth revival.
+In the worst case scenario, I'll connect with someone again.
+@page
+I'm just concerned about Fanuel's words.
+@page
+@bi s=bg03d
+@fi s=f311 pos=c
+@mnon
+@mset l=3 h=true
+@v s=40300e
+"Even so, you are in the process of changing.
+Your final fate is still a mystery."
+@waitclk
+@mset l=5 h=true
+Yes, I certainly have changed.
+Perhaps it's because I remembered Fanuel's name,
+but I really don't understand at all.
+@waitclk
+@mset l=3 h=true
+However, unlike "before",
+Wazuka-san did not lick the wound on my palm.
+@waitclk
+@mset l=3 h=true
+Could that be called a real change?
+And what will happen this time as a result?
+@waitclk
+@fi id=f
+@bi s=bg01b
+@mwon
+@【至】
+"... Don't worry. In the end, it'll be the same."
+@page
+Remembering a dim memory,
+I thought about many things, and tried it out.
+@page
+Though it'll still depend largely on luck,
+I still might survive.
+I might avoid my fated death.
+@page
+@【至】
+"Yeah, I'll do it this time.
+I have to survive...!"
+@page
+I have to do everything I can for the next four days.
+That's all I can do.
+@page
+Wazuka-san and Matsuri sleep next to me.
+I close my eyelids to join them.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="010700b.scn"
+;→010700b

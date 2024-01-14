@@ -1,0 +1,102 @@
+﻿;130502
+*130502|ウサミとササミの倫理無用♪
+;【背景】クイズ番組セット
+@se s=se020
+@cut s=cut2300 trans=z2n_rotin time=1200
+@qk time=500
+@flash time=500
+@setOnce
+@fi s=s111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@bgm s=bgm09
+@mwon
+@v s=16002
+"It's Usami and Sasami's...
+@wait time=800
+@se s=se151
+@lfont
+@v s=16006
+Useless Ethics!♪"
+@page
+@se fade=out
+@act id=u t=neckswing
+@v s=16001
+@【ウサミ】
+"Ohh... scaryscary...
+I'm your host Usami."
+@page
+@act id=s t=bow
+@v s=16006
+@【ササミ】
+"And I'm your host Sasami.
+We've got a low level of tension to start with, don't we?"
+@page
+@act id=u t=stopswing
+@v s=16004
+@【ウサミ】
+"O-O-O-Of course!
+This situation is a bit disturbing, isn't it?"
+@page
+@v s=16005
+@【ササミ】
+"Well yeah, this is THAT kind of game."
+@page
+@v s=16004
+@【ウサミ】
+"Yeah, I know that.
+Butbut, to see Wazuka break like this,
+it is scary after all."
+@page
+@v s=16005
+@【ササミ】
+"Hmmm, you might be a little wrong there."
+@page
+@act id=u t=hit
+@v s=16001
+@【ウサミ】
+"Eh?"
+@page
+@v s=16005
+@【ササミ】
+"She already broke a long time ago.
+So it would be strange to say that she's breaking like it's happening right now."
+@page
+@v s=16001
+@【ウサミ】
+"So what should we say, then?"
+@page
+@v s=16006
+@【ササミ】
+"At last, it begins... muahahahahaha."
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"Ahhhh! That's so scary, I'd prefer if it didn't begin!"
+@page
+@fi id=u
+@v s=16008
+@【ササミ】
+"H-Hey, where are you going!?
+The corner hasn't started yet!"
+@page
+@v s=16005
+@【ササミ】
+"... Damn, he's gone.
+He really was a huge wuss, wasn't he..."
+@page
+@act id=s t=neckswing
+@v s=16005
+@【ササミ】
+"Nothing I can do about it. Guess we'll just have to take the next chance we get.
+Well then, see you next time."
+@page
+@act id=s t=stopswing
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+;→130600
+@jump storage="130600.scn"

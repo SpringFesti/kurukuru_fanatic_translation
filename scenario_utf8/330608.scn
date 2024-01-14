@@ -1,0 +1,52 @@
+﻿;330608
+*330608|_クイズ！　次はおまえだ！
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+@fi s=f114 pos=lc
+@v s=40594
+@【ファヌル】
+"Now now, that's a pretty good answer."
+@page
+@v s=16003
+@【ウサミ】
+"Ehhh? He's pretty clearly being tricked, though!"
+@page
+@fi s=f111 pos=lc
+@v s=40595
+@【ファヌル】
+"That's why I praise this answer.
+It's the best pleasure to turn away from it so daringly."
+@page
+@fi s=f112 pos=lc
+@v s=40596
+@【ファヌル】
+"But if this answer is from the bottom of your heart,
+you're getting a free ticket to a death."
+@page
+@v s=16001
+@【ウサミ】
+"Now matter how you put it, I think that's what they're expecting."
+@page
+@fi s=f55a pos=lc
+@v s=40597
+@【ファヌル】
+"I wonder. In a certain meaning, I wonder if it's not just that woman that's going mad?"
+@page
+@fi s=f55b pos=lc
+@v s=40598
+@【ファヌル】
+"Great minds think alike.
+Even things of madness seek and demand each other."
+@page
+@fi s=f111 pos=lc
+@v s=40599
+@【ファヌル】
+"So then, see you next time."
+@page
+;→330700
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="330700.scn"

@@ -1,0 +1,114 @@
+﻿;130600
+*130600|料理の出来は？
+;【ワイプ】視点変更
+;【背景】主人公家居間・夜
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ランダム
+@bgm s=bgm04
+@fi s=m111 pos=c
+@mwon
+@v s=21605
+@【祀利】
+"Nom, nom..."
+@page
+As usual, it was time for Matsuri to do her taste testing.
+Messing around with my dinner a bit, she checks for poison.
+@page
+@【至】
+"So?"
+@page
+@fi s=m212 pos=c
+@v s=21606
+@【祀利】
+"Really good.♪"
+@page
+@【至】
+"No, I mean, nothing bad?"
+@page
+@fi s=m111 pos=c
+@v s=21607
+@【祀利】
+"You're fine. No poison."
+@page
+Though I'm not worried, Matsuri is still concerned about poison.
+So, she taste tests my meals.
+@page
+I'm glad that she does, but since the only way that Wazuka-san's meals
+could turn poisonous would be through her failure at cooking,
+I don't see much of a point to it.
+@page
+@fi s=m112 pos=c
+@v s=21608
+@【祀利】
+"Itaru, eat up."
+@page
+What am I, a dog?
+@page
+I act the tsukkomi in my mind, and get a little lonely.
+So, I quickly dig in.
+@page
+I reach for the food and shove in a mouthful.
+@page
+It tastes a bit thin, so she probably didn't close the lid for long enough.
+But it's just a case of impatience, so it's easy to fix.
+@page
+@【至】
+"Mmm. You did a good job today too, Wazuka-san."
+@page
+So, I give her the usual compliments.
+Today though, those compliments aren't a lie.
+@page
+@setOnce
+@fi id=m
+@fi s=w121 pos=c
+@endOnce
+@v s=10960
+@【わずか】
+"Thanks."
+@page
+...Huh?
+@page
+@【至】
+"Wazuka-san?"
+@page
+@fi s=w221 pos=c
+@v s=10961
+@【わずか】
+"What?"
+@page
+@【至】
+"Err, your reaction was a bit light there.
+Are you feeling alright?"
+@page
+I eat a bit more of the food again,
+but the taste hasn't changed.
+@page
+Well, my tongue has been ruined by her cooking,
+so I suppose even if I said it was good,
+anybody would take that with a grain of salt.
+@page
+@fi s=w121 pos=c
+@v s=10962
+@【わずか】
+"I'm fine. I checked to make sure it was good beforehand."
+@page
+Eating a small bit of food, she chews it with a serious expression.
+@page
+Perhaps she had tried her super rare hamburger steak (burned, of course)
+and since then had done some culinary research.
+@page
+Did something happen?
+Did I do something that made her study cooking?
+@page
+Wait, it must have been Otogiri-san.
+She must think herself inferior, so it's my fault.
+Maybe I should give her some encouragement.
+@pages
+@selinit
+@selbtn cap="Don't overdo it." s="130601.scn"
+@selbtn cap="Good luck!" s="130602.scn"
+@s
+;選択肢

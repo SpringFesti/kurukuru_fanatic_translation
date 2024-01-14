@@ -1,0 +1,321 @@
+﻿;120403
+*120403|_浴室で――
+;【背景】主人公自室・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01n trans=tile
+@bgm s=bgm04
+@fi s=m111 pos=c
+@mwon
+@v s=20630
+@【祀利】
+"Ahh-, you finally came out."
+@page
+After that, we exited the bathroom and returned to my room to find Matsuri on my bed.
+@page
+@fi s=m64b pos=c
+@v s=20631
+@【祀利】
+"Itaruuu, let's go to beeed. I'm really tireddd."
+@page
+I look at my watch and find that it's already midnight.
+Matsuri certainly would have trouble staying awake, then.
+@page
+;@fi s=m111 pos=c
+@v s=20632
+@【祀利】
+"... I feel really tired for some reason.
+My hand's all numb... yawn..."
+@page
+Matsuri dreamily rubs her eyes.
+The way she acts is certainly different from how she
+acted a little while ago, while she was giving me a handjob.
+@page
+As Festa said in the bathroom, she must have changed personalities.
+Judging from her behavior, this must be Mardi Gras, right?
+@page
+@【至】
+"Yeah, I suppose we should go to sleep.
+... wait, Wazuka-san, what do you think?"
+@page
+@setOnce
+@fi s=m64b move=rc
+@fi s=w121 pos=lc
+@endOnce
+@v s=10558
+@【わずか】
+"You'll die if you don't get some sleep."
+@page
+Err, yeah, alright then.
+I should get to bed before that happen.
+@page
+@【至】
+"Alright, let's pile in then.
+Could someone get the lights?"
+@page
+@fi s=w123 pos=lc
+@v s=10559
+@【わずか】
+"Just wait one second. I need my pillow."
+@wait time=1000
+@fi s=m647 pos=rc
+@page
+I look at my bed and confirm Wazuka-san's words...
+@page
+@【至】
+"True. One just isn't enough."
+@page
+;@setOnce
+;@fi s=w221 move=lc
+@fi s=m112 pos=rc
+;@endOnce
+@v s=20633
+@【祀利】
+"Oohhh, that. So that wasn't garbage.
+Sooorry, I sort of buried it in the garden♪."
+@page
+;【演出】立ち絵、わずか包丁持つ
+@fi s=w322 pos=lc
+@v s=10560
+@【わずか】
+"You...!"
+@page
+Oh boy, more events.
+Look, I just want to go to bed.
+I just ejaculated, I'm really quite tired.
+@page
+Is there anything I can do to dodge this?
+To start, the root cause of this is--
+@page
+@【至】
+"Huh, alright then. We're fine."
+@page
+I lie down in the middle, just like last night,
+and point to the left side of the bed -- Wazuka-san's place.
+@page
+;@setOnce
+;@fi id=w
+;@fi id=m
+;@endOnce
+@fi s=w123 pos=lc
+@v s=10561
+@【わずか】
+"What do you mean?"
+@page
+@【至】
+"Just this."
+@page
+I stretch my arm out, just like a pillow.
+@page
+@【至】
+"Just use my arm as a pillow. Is that alright?"
+@fi s=m113 pos=rc
+@page
+@fi s=w121 pos=lc
+@【わずか】
+"......"
+@page
+@bgm s=bgm09
+@lfont
+@qk
+@fi s=w129a pos=lc
+@act id=w t=neckswing
+@v s=10562
+@【わずか】
+"☆￡ж♪⊿！!?"
+@page
+Wait, what was that?
+I'm pretty sure that wasn't human speech.
+@page
+@【至】
+"Err... did I offend you, just now?"
+@page
+;@fi s=w109a pos=lc
+@v s=10563
+@【わずか】
+"NO! NOT AT ALL!"
+@page
+Rather than just her head, it feels like her whole
+body is shaking to say that it's fine.
+She looks like a broken doll.
+@page
+@【至】
+"Al-Alright... go ahead?"
+@page
+@fi s=w557a pos=lc
+She nods and turns off the light.
+@fi s=m64b pos=rc
+@wait time=700
+@se s=se019
+@bi s=bg01b
+@page
+Then she gets in bed, lies by my side, and puts her head on my arm--
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm s=bgm04
+@bi s=evn1025
+@wait time=300
+@mwon
+@v s=10564
+@【わずか】
+"Haah... Itaru-kun's arm... his arm pillow..
+this really is his... his...!"
+@page
+@v s=20634
+@【祀利】
+"Cheater! You're such a cheater! I want your arm too--!!"
+@page
+@【至】
+"Then just lie here."
+@page
+@v s=20635
+@【祀利】
+"But I want an arm pillow too!
+Armpillowarmpillowarmpillowarmpillow--!!"
+@page
+@【至】
+"No. This is your punishment for earlier. Use a pillow."
+@page
+@v s=10565
+@【わずか】
+"That's right. Sleep until you die."
+@page
+@v s=20636
+@【祀利】
+"Myeeeh! Stupidhead Itaru! Fine!"
+@page
+She turns her head from me and covers her head with a blanket.
+@page
+In less than a minute, I hear her sleeping breath.
+She must really have been tired.
+@page
+@【至】
+"Let's go to sleep too."
+@page
+@mwoff
+@bi s=evn1026
+@wait time=300
+@mwon
+@v s=10566
+@【わずか】
+"Ok... good night."
+@page
+@bi s=blank
+Feeling her cheerfulness in my arms, I slowly shut my eyes.
+@page
+My eyelids shut everything out, even the moonlight,
+and my sight is reduced to a jet-black darkness.
+@page
+I feel Matsuri's sleeping breath beside me,
+and Wazuka-san's head in my arm.
+@page
+I can hear Wazuka-san's sleepy breathing now too.
+It's much quieter, though.
+@page
+......
+@page
+...Huh?
+@page
+A new feeling arises from the darkness.
+A colorful, gently smell.
+@page
+Where is this smell coming from?
+I try to locate it wildly, like a sniffing police dog.
+@page
+... Surprisingly, it's coming from nearby.
+@page
+Carefully, I lean over... and confirm it.
+Yep. It's Wazuka-san's smell.
+@page
+Why does she smell so good?
+Almost like sweet flowers...
+@page
+@mwoff
+@bi s=evn1024
+@wait time=300
+@mwon
+@v s=10567
+@【わずか】
+"...What's wrong? You can't sleep?"
+@page
+I tried my hardest to be quiet, but she must have heard me sniffing.
+@page
+@【至】
+"Oh, no, I just thought that you smelled good. I didn't mean to wake you."
+@page
+@v s=10568
+@【わずか】
+"No... that can't be right."
+@page
+@【至】
+"But it is. You really do smell good."
+@page
+@v s=10569
+@【わずか】
+"... Want to smell me more?"
+@page
+I'm probably half-asleep right now.
+@page
+@【至】
+"Yeah... it really soothes me."
+@page
+I sniff, and take a deep breath--
+absorbing Wazuka-san's smell into my lungs.
+@page
+@mwoff
+;@bgm s=bgm13
+@bi s=evn1025
+@wait time=300
+@mwon
+@v s=10570
+@【わずか】
+"Then... that's all right."
+@page
+With a sweet floral scent and a warm touch, Wazuka-san embraces my arm.
+@page
+@v s=10571
+@【わずか】
+"Just the same as before...
+If you want me to do something, just say it.
+I live for your sake... okay?"
+@page
+@【至】
+"...... Okay."
+@page
+@bi s=blank trans=crossfade all=true
+Even that just barely made it out of my mouth.
+I'm more asleep than awake now.
+@page
+Of course, I have to go to sleep.
+If I don't, I can't see Wazuka-san's face tomorrow.
+@page
+I drift into sleep while thinking such things.
+Intoxicated by her sweet smell, I'm suddenly reminded of Otogiri-san's words.
+@page
+@setOnce
+@bi s=bg12d
+@fi s=k113 pos=c
+@endOnce
+@mnon
+@mset l=5 h=true time=100
+;ここに上記セリフを追加
+;【備考】このセリフにエコーをかけるので末尾にe
+@v s=30072e
+;@【かごめ】
+Hey, Takamichi-kun... do you love your older sister?"
+@page
+@bi s=blank trans=crossfade all=true time=500
+@mwon
+What do I think of Wazuka-san...
+@page
+Family...? Older sister...? Or...
+@page
+In just a bit, I'll find my answer.
+Nonetheless, my consciousness fades, and I--
+@page
+@mwoff
+;→130100
+@bgm fade=stop
+@jump storage="130100.scn"

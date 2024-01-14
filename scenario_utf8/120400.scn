@@ -1,0 +1,802 @@
+﻿;120400
+*120400|浴室で――
+;【背景】風呂場
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=clock
+@smokepfx
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Haahhh, how relaxing..."
+@page
+An hour later, I sigh in relief.
+@page
+For various reasons, I was really sweaty.
+I'm really glad I could find a chance to wash up.
+@page
+This is my valuable alone time, after all.
+I can finally get rid of all the tension I've been building up.
+So of course I'm very happy.
+@page
+@【至】
+"Now, as long as those two don't take a bath either..."
+@page
+;【ＳＥ】戸を開ける音
+;【演出】祀利　裸立ち絵表示
+@bgm s=bgm09
+@se s=se040
+@lfont
+@fi s=m202 pos=c slide=r
+@v s=20570
+@【祀利】
+"Itaru! I'm coming in too!"
+@page
+@lfont
+@qk
+@【至】
+"★Эб☆△∀!?"
+@page
+Why did I have to open my big mouth!?
+@page
+@fi s=m102 pos=c
+@v s=20571
+"Haha, weirdo. Why are you panicking?"
+@page
+@【至】
+"O-Of course I'm panicking! Why the hell are you in here!?"
+@page
+@fi s=m101 pos=c
+@v s=20572
+@【祀利】
+"You made a promise that we'd get in the bath together."
+@page
+... Yeah, I did.
+But I can't allow this to happen!
+@page
+@【至】
+"Please, please, please leave!"
+@page
+@fi s=m63b pos=c
+@v s=20573
+@【祀利】
+"Why? You don't wanna take a bath with me?"
+@page
+@【至】
+"It's not that! It's just that there's one really dangerous person here!"
+@page
+Wait, is saying that there's just one dangerous person here right?
+@page
+Matsuri's figure isn't exactly plump,
+and her breasts are kinda small. Of course,
+there is THAT right there, though.
+@page
+@qk time=1000
+@lfont
+WHAT'S SO WRONG ABOUT GETTING HORNY!?
+@page
+She's a girl, isn't she?!
+She's naked, isn't she?!
+So what's so wrong about getting an erection!?
+@page
+@fi s=m101 pos=c
+@v s=20574
+@【祀利】
+"Weirdo. There isn't anyone else here, right?"
+@page
+@【至】
+"Well, I mean, it's really more of a figure of speech...
+No, wait a minute! Get out of here!"
+@page
+;【演出】わずか　裸立ち絵表示
+@setOnce
+@fi s=w101 pos=lc
+@fi s=m101 move=rc
+@endOnce
+@v s=10490
+@【わずか】
+"Follow his advice. Leave."
+@page
+@【至】
+"Yeah, do as she says."
+@fi s=m63b pos=rc
+@page
+@【至】
+"... Wait."
+@page
+@qk time=800
+@lfont
+@【至】
+"AAAAAGGGGHHHH!?"
+@page
+@【至】
+"N-No, wait a sec!
+Wazuka-san, why are you in here!?"
+@page
+My boner explodes into action, and I hide it as quick as I can.
+Of course my boner would do that. I mean, damn, that body.
+@page
+My erection is so huge that it keeps all of my effort to hide it.
+I can't even look Wazuka-san in the eyes.
+@page
+@fi s=w102 pos=lc
+@v s=10491
+@【わずか】
+"What's wrong!? What has she done to you!?"
+@page
+@【至】
+"N, No, that's not it!
+It's just a little hard to explain--"
+@page
+@fi s=w301 pos=lc
+@v s=10492
+@【わずか】
+"I understand, you don't need to say it.
+Just wait one moment... I'll kill her."
+@page
+@fi s=m637 pos=rc
+@v s=20575
+@【祀利】
+"You think you can? Itaru is mine.
+I don't think you understand that."
+@page
+@fi s=m405 pos=rc
+@se s=se131
+@v s=20576
+@【祀利】
+"Die."
+@page
+Wait a damned minute!
+Why did you two bring weapons into the bath!?
+Actually, where the hell did you hide them before now?!
+@page
+@【至】
+"Alright, I'm done being the idiot here!
+Both of you, listen to me!"
+@page
+;【備考】同時に
+@setOnce
+@fi s=w301 pos=lc
+@fi s=m405 pos=rc
+@endOnce
+@v s=10493
+;@【わずか】
+"Right after I kill her."
+;@v s=20577
+;@【祀利】
+;「こいつを殺したら」
+@page
+Yeah, I thought so. Pretty much what I expected.
+@page
+;@fi s=m405 pos=rc
+@v s=20578
+@【祀利】
+"I'll only say it once. Leave."
+@page
+@fi s=w302 pos=lc
+@v s=10494
+@【わずか】
+"Right back at you. Or... would you rather die?"
+@page
+Sparks fly between the two of them.
+It seems bloodshed is unavoidable now.
+@page
+@fi s=m401 pos=rc
+@v s=20579
+@【祀利】
+"Who do you want, Itaru?"
+@page
+@【至】
+"Whuh?"
+@page
+;@fi s=w101 pos=lc
+@v s=10495
+@【わずか】
+"Do you want her or I to leave?
+Who do you want to stay in the bath with you?"
+@page
+@fi s=w301 pos=lc
+@v s=10496
+@【わずか】
+"I'm fine with either.
+Which ever you'd like... Itaru."
+@page
+@【至】
+"Huh? No, even if you say that so suddenly..."
+@page
+;【備考】ユニゾン
+@setOnce
+@fi s=w102 pos=lc
+@fi s=m104 pos=rc
+@endOnce
+@lfont
+;@v s=20580
+;@【祀利】
+;「至！」
+@v s=10497
+;@【わずか】
+"Itaru!"
+@page
+@qk time=500
+@【至】
+"Y-Y-Y-Yes!?"
+@page
+;【備考】同時に
+;【演出】立ち絵アップ
+@setOnce
+@fi s=w102d pos=lc
+@fi s=m104d pos=rc
+@endOnce
+@qk time=800
+@lfont
+@v s=10498
+;@【わずか】
+"Which!?"
+;@v s=20581
+;@【祀利】
+;「どっち！？」
+@page
+@【至】
+"Waaahh! Get, get away from mmmeeeeeeee!!!"
+@page
+@setOnce
+@fi s=w102 pos=lc
+@fi s=m104 pos=rc
+@endOnce
+Even after they step back, their nakedness is still burnt into my eyes.
+@page
+Oh god, it's too big now! Too big!
+Help me, God, my boner is too big!
+@page
+;【演出】立ち絵　アップを通常表示に
+@fi s=m101 pos=rc
+@v s=20582
+@【祀利】
+"Can't you decide?"
+@page
+@fi s=w101 pos=lc
+@v s=10499
+@【わずか】
+"No, he's already chosen.
+He's just too kind to tell you the result."
+@page
+@fi s=m102 pos=rc
+@v s=20583
+@【祀利】
+"Oh, I gotcha. Then shouldn't you be leaving?"
+@page
+@fi s=w102 pos=lc
+@v s=10500
+@【わずか】
+"No, you should be leaving."
+@page
+@【至】
+"N-No, that's not..."
+@page
+No, the both of you should leave--
+Would they actually do it though, even if I shouted?
+@page
+If I did, the bath water would be died vermillion.
+With my blood, of course.
+@page
+@fi s=m637 pos=rc
+@v s=20584
+@【祀利】
+"Well, we've come to an impasse.
+I suppose we'll just have a contest, then."
+@page
+@fi s=w301 pos=lc
+@v s=10501
+@【わずか】
+"With these?"
+@page
+--and Wazuka-san shows her knife.
+Matsuri looks at it and nods.
+@page
+@【至】
+"No, stop, please! We're in the bathroom! Do it some other way!!!"
+@page
+I shake my head as hard as I can and try to convince the two of them.
+@page
+@fi s=m102 pos=rc
+@v s=20585
+@【祀利】
+"Then we'll wash Itaru's body.♪"
+@page
+@【至】
+"But that's not a competition."
+@page
+@fi s=w101a pos=lc
+@v s=10502
+@【わずか】
+"No, that is a fine way to compete."
+@page
+A strange expression floats onto Wazuka-san's face as she says that.
+@page
+@fi s=w537a pos=lc
+@v s=10503
+@【わずか】
+"I can wash his body? I can make him feel good?
+This is important... the first time I've seen Itaru-kun's body...
+so I should... heehee... heeheehee...!"
+@page
+@fi s=w105a pos=lc
+@v s=10504
+@【わずか】
+"Heeheeheeheeheeheehee...!!!"
+@page
+She looks at Matsuri, and gets a big grin on her face.
+@page
+This might be weird coming from me, but this
+sounds like a perfectly fine game to me.
+@page
+Hey, if it stops those two from trying to kill
+each other, it kills two birds with one stone.
+I get washed, and nobody dies. Cool.
+@page
+@【至】
+(...Wait, no, crap.
+They're going to see my erection...!)
+@page
+Oh no, what am I going to do?
+If I stop the game, they'll realize that I have
+an erection, so now I don't know--
+@page
+@【至】
+"Be... be gentle..."
+@page
+;【演出】立ち絵消去
+@bi s=current all=true trans=crossfade
+I turn my back to them so they can't see my erection.
+@page
+@v s=20586
+@【祀利】
+"Huh...?"
+@page
+@v s=10505
+@【わずか】
+"What is that..."
+@page
+;【演出】わずか、祀利立ち絵表示
+@bgm fade=out
+@setOnce
+@fi s=w103 pos=lc
+@fi s=m103 pos=rc
+@endOnce
+@bgm s=bgm11
+I turn around, and see those two completely frozen.
+@page
+Appalled--
+that's the only thing you can call the expression
+they have on their faces as they look at my back.
+@page
+@【至】
+"W-What's wrong? Is something wrong with my back?"
+@page
+I look at myself, but there's nothing wrong.
+It's just like normal, isn't it...?
+@page
+@【至】
+"Is there something on my back?"
+@page
+@fi s=m73b pos=rc
+@v s=20587
+@【祀利】
+"No, it's not just your back... it's your whole body."
+@page
+@fi s=w102 pos=lc
+@v s=10506
+@【わずか】
+"Itaru-kun... what is that? What is that wound?"
+@page
+... Wound?
+@page
+... Oh. Right.
+@page
+It's hard to see now, but the hot water might have brought it out.
+All the old scars on my body.
+@page
+My stomach, my arms, my thighs... even my back.
+I'm barely conscious of them, but it might be horrifying to see for the first time.
+@page
+@v s=20588
+@【祀利】
+"There are lots of cuts... and other things.
+This is a burn... and this looks like a bad welt."
+@page
+@v s=10507
+@【わずか】
+"Who... who did this...
+Who did this to your body!!!"
+@page
+@【わずか】
+"......"
+@page
+@【祀利】
+"......"
+@page
+;【備考】ユニゾン
+;【演出】立ち絵、武器を持たせる
+@bgm s=bgm17
+@qk
+@se s=se131
+@setOnce
+@fi s=w302 pos=lc
+@fi s=m405 pos=rc
+@endOnce
+@lfont
+@v s=10508
+;@【わずか】
+"YOUUU!!!"
+;@v s=20589
+;@【祀利】
+;「おまえかあああ！！」
+@page
+@v s=10509
+@【わずか】
+"I will never forgive this... never!"
+@page
+@v s=20590
+@【祀利】
+"That's my line. I'll take all the pain
+you gave Itaru, and return it to you."
+@page
+@【至】
+"Wait, wait. don't be too hasty. Calm down, okay?"
+@page
+;【備考】ユニゾン
+@setOnce
+@fi s=w302 pos=lc
+@fi s=m405 pos=rc
+@endOnce
+@qk
+@lfont
+@v s=10510
+;@【わずか】
+"NO WAY!!!"
+;@v s=20591
+;@【祀利】
+;「無理！！」
+@page
+Of course. If I were them, I wouldn't calm down either. But...
+@page
+This is already over.
+@page
+@【至】
+"Neither of you two did this."
+@page
+They hear my words, and stop.
+@page
+@【至】
+"Put away your weapons and I'll tell you who did.
+Now come on, do it. Now!"
+@page
+;【備考】立ち絵、武器所持していないものぶ
+@setOnce
+@fi s=w101 pos=lc
+@fi s=m101 pos=rc
+@endOnce
+Their weapons disappear from their hands like magic.
+Where the hell are they putting them?
+@page
+@v s=20592
+@【祀利】
+"... So? Who did this?"
+@page
+@fi s=w102 pos=lc
+@v s=10511
+"Was it the girl from yesterday!? Then, I'll...!"
+@page
+@【至】
+"Wrong. You two have never met them."
+@bgm fade=out
+@page
+I can only remember their faces dimly.
+@page
+@bgm s=bgm12
+A distant memory.
+A part of my childhood that's vague.
+I can only distinctly remember the pain.
+@page
+@【至】
+"Ah, well. It's not really a big deal."
+@page
+I promised, so I start to explain where I got these wounds.
+@page
+It's not really hard to explain though.
+Even a child could understand.
+@page
+@【至】
+"My parents abused me."
+@page
+Yep, that's it. Real easy to understand.
+@page
+@【至】
+"Oh, not my current parents, no.
+My birth parents, I mean."
+@page
+@fi s=m103 pos=rc
+@v s=20593
+@【祀利】
+"...Do your current parents know?"
+@page
+@fi s=w203 pos=lc
+@v s=10512
+@【わずか】
+"Yes... I think they do know."
+@page
+@【至】
+"Did you tell them?"
+@page
+Wazuka-san shakes her head in response.
+@page
+@fi s=w103 pos=lc
+@v s=10513
+@【わずか】
+"When I saw you talking to your uncle... somehow...
+It felt like they were keeping a great distance from you."
+@page
+Just as expected of Wazuka-san.
+I didn't want it to, but I guess the news got out somehow.
+@page
+@fi s=m101 pos=rc
+@v s=20594
+@【祀利】
+"When did you get these? These scars seem really old."
+@page
+@【至】
+"Hmm... about ten years ago."
+@page
+;@fi s=w203 pos=lc
+@v s=10514
+@【わずか】
+"A little before you met me, right?"
+@page
+I nod, and tell a little story."
+@page
+@【至】
+"Don't worry, that part of my life is over.
+Besides, isn't parental abuse a common thing these days?"
+@page
+@fi s=m63b pos=rc
+@v s=20595
+@【祀利】
+"It certainly was, back where I lived.
+Being hit or raped was commonplace,
+and many children were killed."
+@page
+@fi s=m101 pos=rc
+@v s=20596
+@【祀利】
+"But you lived. You've got good parents now,
+so you can live a healthy, normal life."
+@page
+@fi s=w10b pos=lc
+@v s=10515
+@【わずか】
+"No! It's not okay! If they hurt Itaru-kun...
+they can just go and die!"
+@page
+@【至】
+"Kind of ironic, that. They are dead."
+@page
+@fi s=w103 pos=lc
+@v s=10516
+@【わずか】
+"... If only I had met you earlier, Itaru-kun...
+I would have been able to protect you..."
+@page
+@【至】
+"Oh, no way. We were children back then."
+@page
+But even so-- thanks for the sentiment.
+So... I guess they deserve a little reward.
+I've already almost forgotten about these old things, after all.
+@page
+@【至】
+"Well, I'm done talking about that.
+By the way... the match isn't over yet, is it?"
+@page
+@v s=20597
+@fi s=m10d pos=rc
+@【祀利】
+"Those two things are very different."
+@page
+@fi s=w101 pos=lc
+@v s=10517
+@【わずか】
+"I'm okay with either.
+If it makes you feel better, Itaru-kun, I'll wash your back."
+@page
+Wazuka-san's hands touch the scars on my back.
+An unexpected shock goes up my spine.
+She runs her hands over my back to calm me.
+@page
+@fi s=w103 pos=lc
+@v s=10518
+@【わずか】
+"These wounds look very painful... I'll be sure to be careful."
+@page
+@fi s=m102 pos=rc
+@v s=20598
+@【祀利】
+"Itaru, lie down.♪"
+@page
+Oh shit! I'll be completely exposed if I do!
+My dick had gone down from that little story,
+but then Wazuka-san touched me again and uuuppp it went!
+@page
+@【至】
+"No! Please, no, stop!
+Please, I'm asking you, stop!"
+@page
+;【備考】ユニゾン
+@setOnce
+@fi s=w404 pos=lc
+@fi s=m202 pos=rc
+@endOnce
+@lfont
+@v s=10519
+;@【わずか】
+"Nnnno.♪"
+;@v s=20599
+;@【祀利】
+;「だーめ♪」
+@page
+They fall down on me, and my resistance fails.
+We collapse onto the bath mat.
+@page
+Then, of course--
+@page
+@bgm s=bgm09
+;【カットイン】肉棒モザイク
+;【備考】ユニゾン
+@setOnce
+@fi s=w537a pos=lc
+@fi s=m102a pos=rc
+@endOnce
+@lfont
+@v s=10520
+;@【わずか】
+"Ah-ha!♪"
+;@v s=20600
+;@【祀利】
+;「あ」
+@page
+Completely exposed.
+They're completely mesmerized by my erection.
+@page
+@【至】
+"God, just kill me..."
+@page
+If I just broke down into tears right now,
+would that make it any easier?
+@page
+However sad I am though, I am a man.
+I'm fascinated by their bodies over mine.
+@page
+@fi s=w109a pos=lc
+@v s=10521
+@【わずか】
+"Itaru-kun... this... why?"
+@page
+@fi s=m637 pos=rc
+@v s=20601
+@【祀利】
+"Oooh, he's excited. Of course he is, looking at me."
+@page
+Matsuri's personality has changed.
+Maybe it's just my imagination, but has her style changed?
+@page
+@fi s=m737 pos=rc
+@v s=20602
+@【祀利】
+"Ara ara, what a naughty boy.♪
+But... I'm glad. Look how big you've gotten."
+@page
+While talking in a silky voice, Matsuri's-- no, Festa's
+face draws close to my erection.
+@page
+@fi s=m737a pos=rc
+@v s=20603
+@【祀利】
+"Perhaps I should punish you... like this... gently..."
+@page
+Festa's fingers softly move up and down.
+@page
+@【至】
+"Ooh... ahh..."
+@fi s=w103 pos=lc
+@page
+Matsuri strokes my hard penis with her soft hands.
+@page
+@fi s=w103 pos=lc
+Perhaps I got used to it, but before I know it my dick is
+all slippery from hand soap. It gets even more slippery, 
+and more pleasure comes from my dick.
+@page
+@【至】
+"Haa, oh, aaghh...!"
+@page
+I almost doubt these are hands.
+This feels really good.
+@page
+@fi s=w102 pos=lc
+@v s=10522
+@【わずか】
+"What are you doing to Itaru-kun!?
+Stop that. If you don't...!"
+@page
+@fi s=m10d pos=rc
+@v s=20604
+@【祀利】
+"What, kill me? You'll kill me if I don't stop?
+But wouldn't Itaru feel sad if I stopped?"
+@page
+@fi s=w103a pos=lc
+@v s=10523
+@【わずか】
+"Huh? R-Really?"
+@page
+What should I do?
+Wazuka-san's looking at me with a weird expression.
+@page
+@fi s=m737a pos=rc
+@v s=20605
+@【祀利】
+"Come on, look.
+When I stroke his dick like this...right?"
+@page
+My dick pulses whenever she moves her hand.
+Wazuka-san blushes, looking at me, and her eyes
+start to get all misty.
+@page
+@fi s=w201a pos=lc
+@v s=10524
+@【わずか】
+"Itaru-kun, you look like you feel good...
+Your... dick... is..."
+@page
+@fi s=m637a pos=rc
+@v s=20606
+@【祀利】
+"Ara? Haven't you seen it before?
+How long have you lived together, again?
+Don't you like Itaru-kun?"
+@page
+@fi s=w538a pos=lc
+@v s=10525
+@【わずか】
+"That's completely unrelated!
+And... and I'm sure I can do this!"
+@page
+Saying that, Wazuka-san reaches for my
+dick and grasps it timidly.
+@page
+@fi s=w537a pos=lc
+@v s=10526
+@【わずか】
+"I-Itaru-kun... it doesn't hurt, right?"
+@page
+I can only nod.
+My dick's about to explode after being grasped by these two.
+@page
+@fi s=m637a pos=rc
+@v s=20607
+@【祀利】
+"This will be our competition.
+Let's see who can satisfy Itaru the most."
+@page
+@fi s=w102a pos=lc
+@v s=10527
+@【わずか】
+"Alright. I won't lose... I absolutely won't lose!"
+@page
+@stoppfx
+@bi s=current all=true trans=crossfade
+@mwoff
+;→120401
+@bgm fade=stop
+@jump storage="120401.scn"

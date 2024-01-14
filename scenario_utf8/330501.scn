@@ -1,0 +1,97 @@
+﻿;330501
+*330501|_わずかの危惧
+;（かごめ視点）
+;【ワイプ】視点変更
+;【背景】屋上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg11d trans=ランダム
+@bgm s=bgm15
+@fi s=k34a pos=c
+@act id=k t=neckswing
+@mwon
+@qk time=1000
+@lfont
+@v s=30335
+@【かごめ】
+"UURRRGHHHHH!"
+@page
+The FUCK.
+What the FUCK.
+What the FUCK am I looking at!?
+@page
+If I think about it, my premonition was right on the mark.
+@page
+Honestly, I wanted to kill them.
+Using the tone knife in my pocket,
+I wanted to turn those two into scraps of meat.
+@page
+But bloodshed would be bad in front of my little brother.
+I should only give love and pleasure to that child,
+and not the trauma that comes with his onee-chan murdering someone.
+@page
+Anyway, I needed to cool my head.
+So I left the roof, and entered the little house in the landing of the stairs.
+@page
+@act id=k t=stopswing
+@fi s=k347 pos=c
+@act id=k t=neckswing
+@v s=30336
+@【かごめ】
+"Those bitches, what do they think they're doing to my little brother!?
+Ugggh, her face, her face is too closeeeee!"
+@page
+That chibi-bitch, and those megatits!
+Trying to impersonate an older sister, even if I can't hear you, I understand your ways!
+@page
+I won't forgive them.
+There's no way I'll forgive them!
+That was originally my place!
+@page
+If I could murder a person with hatred alone, they'd be six feet under right now!
+@page
+;@fi id=k
+But that's not how it is.
+I have not awoken yet.
+@page
+My power is insufficient to do something like that.
+No, it couldn't be helped from the start.
+@page
+I can exert unlimited power by matching my own power with my little brother's.
+On the day of judgment, and in the time of the black sun.
+@page
+@act id=k t=stopswing
+@fi s=k448 pos=c
+@v s=30337
+@【かごめ】
+"-- I see, so that witch...
+Is she trying to prevent my little brother from waking as my little brother?"
+@page
+I must help him, as an onee-chan.
+It will be alright, because my little brother has been connected to me for ten thousand years.
+@page
+@fi s=k112 pos=c
+@v s=30338
+@【かごめ】
+"But-- what should I do?
+My little brother will not be able to regain his sealed power..."
+@page
+The ways that I can take right now are few.
+@page
+However, I must do something.
+I must do something, with just my own two hands.
+@page
+Yes.
+There is a password for such a time, right?
+@page
+@fi s=k349 pos=c
+@v s=30339
+@【かごめ】
+"Justice will win... kufuh, kufufufufuh."
+@page
+@fi id=k
+@mwoff
+;→330600
+@bgm fade=stop
+@jump storage="330600.scn"

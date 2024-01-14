@@ -1,0 +1,494 @@
+﻿;120100
+*120100|鍵はかかっていたか？
+;【フラグ】120100
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+@mwon
+@eval exp="f._120100++"
+And so, we now have a calm morning. Somehow, the meal finally
+ended.
+@page
+@【至】
+"Thanks for the meal. It was really good today."
+@page
+@fi s=w124 pos=c
+@v s=10277
+@【わずか】
+"Really? You liked it?"
+@page
+@【至】
+"Yeah, I loved it."
+@page
+I'm lying, of course. It tasted really... normal.
+@page
+But it's much better than the half-cooked hamburg steak she made
+yesterday. So it's really only a half lie.
+@page
+Well, I don't have the courage to tell her that her food is anything but
+delicious.
+@page
+@fi s=w121 pos=c
+@v s=10278
+@【わずか】
+"Would you like some tea, Itaru-kun?"
+@page
+@se s=se027 loop=true
+She says that, but of course an alarm rings from our cell phones.
+@page
+I look at the clock on the wall. 
+Crap, it's almost that time.
+@page
+@se fade=out
+@【至】
+"There's no time, Wazuka-san.
+We've got to get ready, and fast."
+@page
+@fi s=w121 pos=c
+@v s=10279
+@【わずか】
+"Got it. I'll be waiting at the door."
+@page
+;【ワイプ】場所移動
+;【背景】主人公自室/朝
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=tile
+;@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Okay, preparations complete."
+@page
+I say that, but I only changed my clothes.
+@page
+I have no set hair style, so I don't have to worry about that.
+@page
+@【至】
+"Crap, no time for this."
+@page
+No matter how fast I've gone, 5 minutes have still passed.
+It might not be an exaggeration to say that my fate has been decided.
+@page
+Bag in hand, I'm about to leave the room.
+@page
+Then I noticed something.
+To be more accurate, I realized something.
+@bgm fade=out
+@page
+@bgm s=bgm09
+@qk time=800
+@【至】
+"Oohhhh... this feeling is--!"
+@page
+My body trembles and shakes.
+I have to pee. I haven't gone to the bathroom yet this morning.
+@page
+Maybe my bladder untied from the tension this morning, or maybe I
+just really needed to go, but it's gotten really painful now.
+@page
+@【至】
+"But seriously, ughhh!!
+Gottagogottagogottago!"
+@page
+@se s=se081 loop=true
+My heart slams against my chest. 
+This is an extremely dangerously serious crisis.
+@page
+I've got 30- no, 20 seconds.
+My bladder will explode and flood the house if I don't go RIGHT NOW.
+@page
+@【至】
+"Gotta get there, gotta get theerrreee!"
+@page
+@se s=se041
+@bi s=bg02d time=100
+I run out of the room, and walk slowly to the bathroom as not to
+irritate my bladder.
+@page
+I'm squirming all over, just like a slug.
+@page
+@【至】
+"Just a little mooorrreee!
+Then I'll escape this living hell!"
+@page
+@lineFXon
+My pace quickens.
+My limit approaches.
+And my goal is near--!
+@page
+I can do it! Go, me!
+I can get there! Just a little more!
+@page
+@se s=se089 loop=true
+I feel like my heartbeat has changed into cheers of support.
+@page
+Go, go Itaru!　You can do it!　You can get there!
+Get there, Itaru! You can do it!
+@page
+Thanking my supporters, I head for the goal.
+@page
+Just a little more!
+Will reason win out over the need to pee?!
+@page
+Of course, reason will win.
+The bathroom's right in front of my eyes.
+I reach out to the doorknob, seizing victory! VICTORY!
+@page
+@【至】
+"Little moooooore! Little mooooooooooreeee!"
+@page
+@qk time=1000
+@lfont
+@【至】
+"Hiyaaaahhhhh!"
+@page
+@se s=se041
+@setOnce
+@stoppfx
+@bgm fade=stop
+@mwoff
+@bi s=blank trans=crossfade all=true time=500
+@endOnce
+@wait time=1500
+@mwon
+@【至】
+"...What."
+@page
+;【イベントＣＧ】ＮＣＧ1030
+@bgm s=bgm09
+@mwoff
+@bi s=evn1030
+@wait time=300
+@mwon
+@v s=10280
+@【わずか】
+"Ah."
+@page
+;@bgm s=bgm09
+I freeze.
+Thoughts and likes scream in my head.
+What am I, someone who peeks in on people in the toilet?
+@page
+@【至】
+"...Uhm, sorry. I didn't mean to."
+@page
+I gulp, swallowing my saliva. 
+Why don't those words help me leave?
+@page
+@v s=10281
+@【わずか】
+"Itaru-kun? What's wrong?"
+@page
+@【至】
+"No, um... is it my preferences or hobbies that are the problem?
+I mean... what? Why am I even here?"
+@page
+@v s=10282
+@【わずか】
+"You needed to go to the bathroom, just like me, right?"
+@page
+Then, I hear the sound of water trickling.
+@page
+Hearing that is really, really bad.
+Understanding leads to stupefaction and panic, naturally.
+@page
+@qk time=500
+@lfont
+@【至】
+"Waaahhhhh!?"
+@page
+@v s=10283
+@【わずか】
+"Wh, what's wrong!?"
+@page
+@【至】
+"I'm sorry!"
+@page
+@【至】
+"I was daydreaming! I didn't think anyone was in here!
+I'm really sorry, I'll go now!"
+@page
+@v s=10284
+@【わずか】
+"Huh? Why?"
+@page
+@【至】
+"What do you mean, why?"
+@page
+@v s=10285
+@【わずか】
+"You needed to use the bathroom, right?
+Just wait a little bit and I'll be done."
+@page
+What is she saying?
+Shouldn't she be screaming at me right now?
+And yet...
+@page
+@【至】
+What do you mean, wait here?"
+@page
+@v s=10286
+@【わずか】
+"I just need to go a little more, then I'll be done."
+@page
+;【ＳＥ】用を足す音
+Wazuka-san nonchalantly says that and relieves herself in front of
+me.
+@page
+...Am I doing something wrong here?
+@page
+I'm so confused I don't even know how to answer the question
+anymore.
+@page
+@sqk
+@【至】
+"Uhhh..."
+@page
+I tremble. 
+Listening to Wazuka-san go is making me have to go.
+@page
+@v s=10287
+@【わずか】
+"What's wrong?"
+@page
+@【至】
+"No problem, I just need to go a little.
+I can stand it, don't worry about it."
+@page
+I mean, I really, really don't need to pee right now.
+@page
+@v s=10288
+@【わずか】
+"No, you have to go! You'll get kidney diseases!
+Quick, I'll open up for you, so you can go!"
+@page
+Wazuka-san spreads her legs, and I look away quickly.
+@page
+Even if she offers, I really don't have to go that badly.
+@page
+@v s=10289
+@【わずか】
+"Quickly, Itaru-kun! You'll die, you know!"
+@page
+@【至】
+"I'm not going to die! I can put up with waiting a little bit!"
+@page
+Please don't let this awaken some strange fetish.
+I don't even know if this fetish exists, but please don't let me have it.
+I want to stay normal.
+@page
+@v s=10290
+@【わずか】
+"Okay, just wait a second. I'll be done soon."
+@page
+;【イベントＣＧ】ＮＣＧ1031
+;【ＳＥ】用を足す音
+@mwoff
+@bi s=evn1031
+@wait time=300
+@mwon
+And so Wazuka-san concentrates, trying to relieve herself as quickly
+as possible.
+@page
+She's blushing.
+It sounds... like the trickling is getting stronger.
+@page
+@【至】
+(...What the hell is this?　Reverse shyness foreplay?
+Please, just let me out of here!)
+@page
+@v s=10291
+@【わずか】
+"Nn...no..I'm not done yet...
+Even though I'm always done by now!"
+@page
+@【至】
+"Take it slow, okay? I'm still perfectly fine."
+@page
+@v s=10292
+@【わずか】
+"NO! You'll die! And it'll be my fault... my fault... nnn..."
+@page
+But Wazuka-san still isn't done yet.
+@page
+@v s=10293
+@【わずか】
+"Nnn... haah... nn... oh... ohhhh..."
+@page
+She really starts straining herself, and this feels really, really weird.
+@wait time=4000
+By that I mean I have an erection.
+@page
+@se s=se094
+Doodeedoo! Takamichi Itaru Levels Up!
+Now he has a urine fetish!
+@page
+@qk time=800
+@lfont
+Oh hell no!!
+@page
+@【至】
+"I, I'm sorry, I'll be fine!
+I'll just use the toilets at school!"
+@page
+@v s=10294
+@【わずか】
+"--huh? NO! You'll die!"
+@page
+@se s=se041
+;【ＳＥ】戸を閉める音
+;【背景】廊下/朝
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02d trans=tile
+;@fi s=fi**** pos=****
+@mwon
+Unable to respond, I seek refuge in the hallway beside the bathroom.
+@page
+Now I don't know when she'll be done, because I can't hear her
+peeing anymore. Thank god I can't hear that.
+@page
+@【至】
+"God... what was that...
+Where's the candid camera?"
+@page
+Stereotypical. You'd think this would have happened before
+in the 8 years we'd lived together, but it hasn't. Now I just have to
+make sure it never happens again.
+@page
+God must be horrible to make this happen to me when I'm at this age.
+@page
+@【至】
+"...Well, that angel sure is a dick."
+@page
+;【ＳＥ】戸があく音
+;【立ち絵】わずか立ち絵表示
+@setOnce
+@se s=se041
+@fi s=w113 pos=c
+@endOnce
+I thought that, and Wazuka-san came out of the bathroom.
+@page
+@bgm s=bgm05
+@fi s=w548a pos=c
+@v s=10295
+@【わずか】
+"... I'm sorry, but I'm done now."
+@page
+@【至】
+"No, don't worry about it--nono,
+I didn't even knock, so I should be apologizing.
+@page
+I really need to learn how to do that, so it doesn't become a habit. It
+really was my fault.
+@page
+@【至】
+"You didn't do anything wrong. This was all my fault.
+@page
+@fi s=w113 pos=c
+@v s=10296
+@【わずか】
+"I didn't even lock the door, so it's my fault...
+and now... and now it's too late..."
+@page
+@bi s=bg850 time=100
+@fi s=w11ad pos=c time=100
+@bgm s=bgm10
+@qk time=500
+@lfont
+@v s=10297
+@【わずか】
+"UWAHHHHHHHH!!!"
+@page
+This is what you've been waiting for, ladies and gentlemen!
+The daily head meets wall headbutting tournament!
+@page
+@bi s=bg02d time=100
+;わずか、ヘッドバット流用[
+@se s=se118
+@qk time=800
+@flash time=800
+@cut s=cut2100
+@【至】
+"Stop it! It's not your fault, you didn't do anything wrong!"
+@page
+@cut
+@qk
+@fi s=w11ad pos=c
+@v s=10298
+@【わずか】
+"Yes I did!　Of course I did!　You're going to die!
+I killed you! I KILLED YOOUUUUU!"
+@page
+;【備考】壁に頭をぶつける。以下、流用
+@fi id=w
+@se s=se118
+@qk time=800
+@flash time=800
+@cut s=cut2100
+@lfont
+@v s=10026
+@【わずか】
+"Ugh!"
+@page
+@cut
+@【至】
+"No, you didn't! I'm alive! I just need to use the bathroom now!
+So I'm going to do that now! I'm going to live!"
+@page
+@fi s=w213 pos=c
+@v s=10299
+@【わずか】
+"...Really? You won't die? I... I'm not just a nuisance?"
+@page
+@【至】
+"No, and thank you for stopping.
+From now on, why don't you lock the door next time, 
+and I'll knock next time. How's that?
+@page
+@fi s=w114 pos=c
+@v s=10300
+@【わずか】
+"Yeah, okay."
+@page
+@v s=10301
+@fi s=w111 pos=c
+@【わずか】
+"...Oh. We need to leave soon.
+I'll be waiting at the door."
+@page
+@【至】
+"Yeah. I'll be there in a bit."
+@page
+@fi id=w
+I say that to Wazuka-san and she runs off to the door.
+@page
+Was that better than yesterday?
+I look at the wall and only see a tiny dent.
+There isn't even a hole, or any blood.
+@page
+@【至】
+"...But what just happened?
+Wasn't that just a cliched event?"
+@page
+Hopefully tomorrow I'll have a more normal love event.
+@page
+@【至】
+"... Of course, I know that's impossible."
+@page
+Then, I noticed that I didn't have to pee at all.
+I can stand it until I get to school.
+@page
+@【至】
+"I should go get my bag from my room..."
+@page
+I head to my room.
+@page
+@mwoff
+;→020300
+@bgm fade=stop
+@jump storage="020300.scn"

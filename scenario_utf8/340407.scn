@@ -1,0 +1,126 @@
+﻿;340407
+*340407|ウサミとササミの倫理無用♪
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+@se s=se020
+@cut s=cut2300 trans=z2n_rotin time=1200
+@qk time=500
+@flash time=500
+@setOnce
+@fi s=s111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@bgm s=bgm09
+@mwon
+@v s=16002
+"Usami and Sasami's...
+@wait time=800
+@se s=se151
+@lfont
+@v s=16006
+Useless Ethics!♪"
+@page
+@se fade=out
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"This is scary, enough to make your teeth chatter!"
+@page
+@v s=16005
+@【ササミ】
+"It's been too scary from the very beginning.
+If it's too much, our guest can just pull back."
+@page
+@v s=16004
+@【ウサミ】
+"But you can't do anything if you're attacked so suddenly!"
+And even if you evade it once, next time will be... hiii!"
+@page
+@v s=16005
+@【ササミ】
+"Yeah, yeah, it's not really that scary.
+The person who'd be interested isn't you anyway."
+@page
+@v s=16006
+@【ササミ】
+"Well, if such a situation arose...
+They could always use THAT method to avoid it."
+@page
+@act id=u t=stopswing
+@v s=16001
+@【ウサミ】
+"What method?"
+@page
+@v s=16005
+@【ササミ】
+"This, of course."
+@page
+@bgm s=bgm13
+@mnon
+@mset l=3 h=true
+A school experience--
+@waitclk
+@mset l=3 h=true
+This was a story from when I was a student.
+@waitclk
+@mset l=5 h=true
+A-kun went out with B-san, who was in the same class.
+B-san made the lunches, and they were very close.
+@waitclk
+@mset l=3 h=true
+But soon there was a seat change, and C-chan sat next to A-kun.
+The two of them conversed happily, even in class.
+@waitclk
+@mset l=5 h=true
+B-san watched the situation. Right in front of me,
+I heard an unpleasant creaking sound from the
+pencil B-san was holding.
+@waitclk
+@mset l=5 h=true
+It broke with a crack,
+and blood poured from B-san's hands,
+and she was taken to the nurse's office.
+@waitclk
+@mset l=3 h=true
+She was a real yandere, and I had
+a small trauma from having it happen
+before my eyes.
+@waitclk
+@mset l=5 h=true
+Incidentally, C-chan heard the story later.
+"I'll be killed," she said, and feared for her life.
+@waitclk
+@bgm s=bgm09
+@mwon
+@v s=16001
+@【ウサミ】
+"... So where's the avoidance method?"
+@page
+@v s=16005
+@【ササミ】
+"Don't think, feel.
+You should learn from the ways of the ancestors."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Really!? Really really!?"
+@page
+@v s=16005
+@【ササミ】
+"Use your own judgment on that."
+@page
+@act id=u t=hit
+@v s=16003
+@【ウサミ】
+"Ohhh... so what should I do!
+I want you to tell me!"
+@page
+;【演出】暗転
+;→340500
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="340500.scn"

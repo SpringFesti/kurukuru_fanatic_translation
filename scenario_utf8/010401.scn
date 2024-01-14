@@ -1,0 +1,46 @@
+﻿;010401
+*010401|_Cloudy With A Chance of Red Rain
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+I have to do something. Luckily, I have a trump card up my sleeve.
+@page
+@【至】
+"Wazuka-san, stop! You've done enough!"
+@page
+I hug Wazuka-san from behind.
+@page
+I didn't know whether or not she'd stop. It's a gamble.
+But if things are going like this, then I have to stop her――!
+@page
+@【至】
+"I'm fine, Wazuka-san. You can stop now. I don't want you to worry."
+@page
+@fi s=w547ad pos=c
+@v s=10136
+@【わずか】
+"Itaru-kun... thanks."
+@page
+@fi id=w
+@cut s=cut2100
+;【ＳＥ】激突音
+@se s=se118
+@qk time=700
+@flash time=700
+Without hesitation, she slams the girl's head against the wall again.
+@page
+@cut
+@【至】
+"Wha!?　That's not what I said! Didn't I tell you to stop?!"
+@page
+@fi s=w114d pos=c
+@v s=10137
+@【わずか】
+"Don't worry about me. I'll be fine."
+@page
+@fi s=w112d pos=c
+@v s=10138
+@【わずか】
+"This bitch put you in danger... I'll never forgive her!"
+@page
+@jump storage="010404.scn"
+;→010404

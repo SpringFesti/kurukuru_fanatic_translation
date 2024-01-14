@@ -1,0 +1,188 @@
+﻿;340100
+*340100|１０月３０日午前７時２６分
+;【備考】主人公視点
+;【ワイプ】場面転換と視点変更
+;【背景】自宅居間・明かりあり
+@bi s=bg810
+@se s=se001 loop=true
+@wait time=2000
+@se fade=out
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ランダム
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+;【備考】以下、010600から流用
+@lfont
+;【備考】ユニゾン
+@v s=10203
+;@【わずか】
+"Let's eat!"
+;@v s=20071
+;@【祀利】
+;「いただきます」
+;@v s=40106
+;@【ファヌル】
+;「いただきます」
+@page
+@bi s=evn0010
+For all of today, the two of them have been mysteriously quiet.
+And that's not just while they're eating.
+It's been this way all morning.
+@page
+While I wonder why, I take a casual look at my watch.
+@page
+@【至】
+"26 minutes til, huh..."
+@page
+The time is the same as always.
+It should be enough to get to school with time to spare.
+However, that time to spare isn't enough for today.
+@page
+Rather, I want to eat and get to school early.
+Drinking my miso soup and gobbling down my food, I--
+@page
+@bi s=bg04d
+@qk time=800
+@【至】
+"--Ngh!?　Cough! Cough!"
+@page
+@fi s=m112 pos=lc
+@v s=21476
+@【祀利】
+"Ahahaha, Itaru, you big dummy.
+I know the food is good, but you're going too fast."
+@page
+@fi s=f114 pos=rc
+@v s=40613
+@【ファヌル】
+"She's right, onii-chan."
+@page
+@【至】
+"Yeah, sorry..."
+@page
+@setOnce
+@fi id=m
+@fi id=f
+@fi s=w121 pos=c
+@endOnce
+@v s=10729
+@【わずか】
+"Here, some tea."
+@page
+@【至】
+"Nn, thanks."
+@page
+@fi id=w
+I drink the tea she gave me and go back to gobbling down my food.
+@page
+I am eating too quickly, but I want to go to school as fast as I can.
+I want to see Otogiri-san.
+@page
+Glancing at the clock, I continue to eat without tasting the food.
+Man, I'm just like a bratty kid when I eat like this.
+But I don't think that's a bad thing.
+@page
+@fi s=w121 pos=c
+@v s=10730
+@【わずか】
+"... So, Itaru-kun. Today is a half day, so what will you do about lunch?"
+@page
+@【至】
+"Huh? A half day?"
+@page
+;@fi s=w121 pos=c
+@v s=10731
+@【わずか】
+"Yes. There is a celebration of the anniversary of the establishment of the school.
+Because the school will be open to all at noon, we have to leave."
+@page
+-- Wow, I completely forgot.
+But if it is...
+@page
+@【至】
+"Then I should be okay for today. I'll eat out a bit."
+@page
+Even if she tore my mouth open, I wouldn't add 'With Otogiri-san.'
+@page
+But she might have noticed something,
+because her expression become unreadable as she listens to me.
+@page
+@fi s=w123 pos=c
+@v s=10732
+@【わずか】
+"...Understood. But please come back tonight.
+I'll be waiting here with dinner."
+@page
+@fi id=w
+She says that, then falls silent.
+Matsuri is quiet as well.
+@page
+It's only natural that they're worried,
+because I'm sure they want to ask me a lot of things.
+@page
+@【至】
+(... But it's alright if I stop for now.)
+@page
+Anyway, it's better not to rock the boat right now.
+I want to be pardoned from any events that might happen.
+@page
+I quickly finish my meal and stand up.
+@page
+@【至】
+"Thanks for the meal.
+Wazuka-san, call me when you're ready to go."
+@page
+@fi s=w121 pos=c
+@v s=10733
+@【わずか】
+"Yes, understood."
+@page
+;【ＳＥ】走る
+;【背景】主人公自室・朝
+@fi id=w
+;@se s=se078
+@bi s=bg01m
+I go back to my room and immediately write a text.
+@page
+"Good morning.
+It seems that I'm able to leave early today, are you free?"
+@page
+Of course, I'm texting Otogiri-san.
+After that, I finish changing my clothes and prepare to go.
+@page
+But I don't get a reply.
+@page
+@【至】
+"... Is she still asleep?"
+@page
+It's possible, because her house is closer to the school than mine is.
+@page
+@【至】
+"Ah well, might as well text her again."
+@page
+"I'm going to school now, so please answer me if you get the time."
+@page
+As soon as I send that,
+@page
+@v s=10734
+@【わずか】
+"Itaru-kuuun, I'm ready to gooo!"
+@page
+@【至】
+"Got it, coming!"
+@page
+I shout back and look at my phone.
+@page
+There's still no answer from Otogiri-san.
+@page
+@【至】
+"... Hm, guess she can't answer me quickly this morning."
+@page
+She might have something going on right now.
+If I go to school, I'm sure I'll see her there.
+@page
+I get my backpack and head downstairs.
+@page
+@jump storage="340200.scn"

@@ -1,0 +1,57 @@
+﻿;000101
+*000101|_Ceremony of Revival
+As I begin to open my mouth, she slowly climbs on top of me.
+I don't know what to do, and I can't think very well.
+@page
+@【至】
+"W, Wait! You're really arrogant for an angel!"
+@page
+@v s=40057
+@【？？？】
+"Should I stop then? If I do, you can't be resurrected."
+@page
+@【至】
+"T, then what will happen to me?"
+@page
+@v s=40058
+@【？？？】
+"Then you will remain here. Alone. Forever."
+@page
+@【至】
+"That's cheating! There's only one good answer!"
+@page
+@fi s=f102d pos=c
+@v s=40059
+@【？？？】
+"Then let's not waste time. You should put it in soon."
+@page
+@【至】
+"W, wait just a moment! One thing! Just tell me one thing!"
+@page
+@fi s=f101d pos=c
+@v s=40060
+@【？？？】
+"What?"
+@page
+@【至】
+"Your name... what's your name?"
+@page
+It seems almost wrong to not know the name of the person you first have 
+sex with.
+@page
+Well, that's how it's supposed to be, but I guess my ethics don't really apply here.
+@page
+In anticipation, the angel laughs.
+Then, her face warps, distorting.
+@page
+@fi s=f104d pos=c
+@v s=40061
+@【ファヌル】
+"It's Fanuel."
+@page
+As soon as she says that, she grabs my dick and forces it inside her sticky vagina.
+@page
+@bgm fade=out
+@fi id=f
+@jump storage="000101a.scn"
+;→000101a

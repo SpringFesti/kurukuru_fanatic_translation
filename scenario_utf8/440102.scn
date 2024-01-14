@@ -1,0 +1,165 @@
+﻿;440102
+*440102|_次の無い命
+;【備考】かごめ視点
+;【ワイプ】視点変更
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=500
+@bi s=bg08d trans=ランダム
+@bgm s=bgm16
+@fi s=k44aa pos=c
+@act id=k t=neckswing
+@mwon
+@v s=30889
+@【かごめ】
+"Ohh... aaahhh! He raaan!
+He raaaaaaaaaaaaaannnnn!"
+@page
+@act id=k t=stopswing
+@fi s=k349a pos=c
+@v s=30890
+@【かごめ】
+"Even though he tasted so good... even I though I sucked on his bones!"
+@page
+@fi s=k447a pos=c
+@act id=k t=neckswing
+@v s=30891
+@【かごめ】
+"Even though I loved him! Even though I adored him!
+Even though I wanted to eat more and more of hiiiiiiimmm!"
+@page
+@se s=se065
+@qk
+@flash
+I beat a nearby wall, screaming 'Son of a bitch'!
+It hurts. It really hurts.
+But it lets me calm down.
+@page
+@act id=k t=stopswing
+@fi s=k448 pos=c
+@v s=30892
+@【かごめ】
+"Calm down...
+At times like these, count prime numbers.
+Prime numbers will give me courage."
+@page
+Methods from manga are unexpectedly powerful.
+Manga and anime teach me all the important things.
+@page
+If that's the case, then next,
+then the keywords in the weekly magazine I purchase:
+Courage. Friendship. Victory. I can achieve them all.
+@page
+@fi s=k211 pos=c
+@v s=30893
+@【かごめ】
+"For courage, if I count prime numbers, I should be okay.
+Then next is..."
+@page
+@v s=10781
+@【わずか】
+"-- Hey, where's Itaru-kun. Did you eat him?"
+@page
+When I turn around, I see those two bitches standing there.
+I grip the tone knife in my pocket reflexively.
+@page
+@setOnce
+@fi s=k211 move=r
+@fi s=w111 pos=l
+@fi s=m111 pos=c
+@endOnce
+@sfont
+@v s=30894
+@【かごめ】
+"... No. Remember the keywords."
+@page
+@v s=21552
+@【祀利】
+"Huh? Did you say something?"
+@page
+@fi s=k214 pos=r
+@v s=30895
+@【かごめ】
+"Friendship. Let's form an alliance."
+@page
+@v s=10782
+@【わずか】
+"Don't need to."
+@page
+@fi s=k212 pos=r
+@v s=30896
+@【かごめ】
+"Then you won't be able to eat him, will you?
+He'll escape, won't he?"
+@page
+@fi s=m64b pos=c
+@v s=21553
+@【祀利】
+"Why do you know that?"
+@page
+These two are idiots. They're amateurs who don't understand at all.
+@page
+@fi s=k211 pos=r
+@v s=30897
+@【かごめ】
+"Because that is my theory."
+@page
+@fi s=m115 pos=c
+@v s=21554
+@【祀利】
+"Haah? Have you gone insane or something?"
+@page
+@fi s=w411 pos=l
+@v s=10783
+@【わずか】
+"However, I agree on an alliance. More people is preferable right now."
+@page
+She understands. Good, good.♪
+@page
+-- But no, they probably plan to kill me
+when we find Takamichi-kun.
+I know that. After all, I plan to do the same to them.
+@page
+So I can rest assured.
+We can understand each other's feelings.
+Yes, in other words, we're the best of friends!"
+@page
+@v s=30898
+@【かごめ】
+"How about you? Will you search alone?"
+@page
+@fi s=m64b pos=c
+@v s=21555
+@【祀利】
+"... I'll make it three.
+I think I get it, but no head starts, okay?"
+@page
+We nod, but nobody believes it.
+Not even the person who proposed it.
+@page
+@fi s=k214 pos=r
+@v s=30899
+@【かごめ】
+"Whoever finds him will divide him into three equal parts.
+Just like yesterday, okay?"
+@page
+@v s=10784
+@【わずか】
+"Of course."
+@page
+@fi s=m212 pos=c
+@v s=21556
+@【祀利】
+"Let's get along, everybody!♪"
+@page
+Yes, this time I'll kill them all and have him all to myself.
+Wait for me, Takamichi-kun.
+Heeheeheeheeheeheeheeheeheeheeheehee!
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@fi id=k
+@endOnce
+@jump storage="440200.scn"
+;→440200

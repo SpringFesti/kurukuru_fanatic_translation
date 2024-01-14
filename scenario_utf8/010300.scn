@@ -1,0 +1,256 @@
+﻿;010300
+@mwoff
+*010300|October 27th, 8:24AM
+;【背景】学園廊下
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=clock
+@bgm s=bgm03
+@se s=se011
+@fi s=w111 pos=c
+@mwon
+@v s=10100
+@【わずか】
+"I'll see you on the roof."
+@page
+We exchange our usual goodbyes, and the bell rings just like always.
+@page
+My daily life hasn't changed since I entered this school.
+Somehow, that suits me just fine.
+@page
+@v s=10101
+@【わずか】
+"Could you get me a drink? My classroom is far away from the vending machine."
+@page
+@【至】
+"Got it. Just a milk tea, right?"
+@page
+;@fi s=w114 pos=c
+@v s=10102
+@【わずか】
+"It goes best with white rice, so yes."
+@page
+You sure about that? ―― Nah, I can't say that.
+After all, that's how she is. I can't do anything about that.
+@page
+... Personally, I'm not a fan.
+I'm pretty sure most people would take green tea with their white rice.
+@page
+@fi s=w111 pos=c
+@v s=10103
+@【わずか】
+"Goodbye."
+@page
+@fi id=w
+She mutters that, turning to walk towards the senior hallway.
+@page
+She's got a nice figure, and a beautiful face.
+She'd be popular if she was quieter.
+@page
+Sure, it'd be creepy if she talked any less, but whenever she opens her mouth, scathing comments come out and her reputation instantly plummets.
+@page
+@【至】
+"She's... a little uptight."
+@page
+If you confess to her, she'll beat the crap out of you.
+Hand her a love letter, and she'll tear it up right before your eyes.
+And to top it off, the coup de grace...
+@page
+@setOnce
+@bi s=bg8140 time=500
+@fi s=w111d
+@endOnce
+@se s=se071
+@qk time=500
+@flash time=500
+@v s=10104
+@【わずか】
+"Go die."
+@wait time=1500
+@se fade=out
+@page
+She hasn't changed a bit since we were kids.
+@page
+@fi id=w
+@bgm s=bgm09
+@bi s=bg10d time=500
+@qk time=700
+@【至】
+"Wait, I can't keep thinking about this! I need to hurry up!
+@page
+I look at the time on my cell phone, and see 8:28:20.
+Homeroom will start in less than 2 minutes.
+@page
+I need to hurry up. I need to gun it. Even at full speed, I'll barely make it.
+@page
+If I'm late, I'll never hear the end of it.
+The school's tough on behavior just as much as grades.
+@page
+I don't want to make trouble now that my dad's started his new job.
+@page
+It's complicated, so I don't want to bother him.
+If the teachers start lecturing him about me, 
+he'll probably break out into tears.
+@page
+@【至】
+"Just a little more! The classroom's right there!
+Just around the corner――
+@wait time=800
+Come on, I can make it!"
+@page
+@se fade=stop
+@mwoff
+@bi s=white time=600
+@wait time=200
+@se s=se129
+@bi s=bg10d trans=swap time=100
+;【ＳＥ】廊下を走る
+;【背景】学園廊下/拡大/左傾き　効果線ボカシ
+@wait time=200
+@bi s=white
+@wait time=200
+@se s=se129
+@bzoom s=bg10d time=100
+;【背景】学園廊下/さらに拡大/右傾き　効果線ボカシ
+@wait time=100
+;【背景】学園廊下/さらにさらに拡大/左傾き　効果線ボカシ
+@bi s=white
+@wait time=200
+@se s=se145
+@bzoom s=bg10d time=100
+@wait time=200
+@setOnce
+@pfxOption backvisible=false
+@bi s=blank time=100
+@endOnce trans=crossfade
+@stoppfx
+@cut s=cut2100
+@se s=se118
+@qk time=1000
+@flash time=1000
+@wait time=500
+@mwon
+@lfont
+;【ＳＥ】ぶつかる
+@v s=30001
+@【？？？】
+"Kyah!?"
+@page
+@cut
+@【至】
+"... Ohh... What happened?"
+@page
+I notice something as I try to get up.
+@page
+@se s=se080
+Soft―― the floor's become soft. 
+I try feeling around my surroundings, and everything is soft.
+@page
+One word comes to mind―― Did THAT happen? That cliche?
+@page
+And if it did, then I'm touching boobs right now, aren't I?
+If I am, I should rub them.
+@page
+No! I should make sure of it!
+Inside a darkness like this, confirming where I am is the most basic element of survival.
+@page
+While making excuses like that, I gently move my fingers.
+@page
+@v s=30002
+@【？？？】
+"―― Ah?! Hyah!?　Ah... nnn!"
+@page
+Hey, wait a sec. Whose voice is this?　I haven't heard it before.
+@page
+@【至】
+"... Nah. I've heard stuff like this somewhere before...
+Yeah, back when Dad left for his new job, and I gleefully―― "
+@page
+Muttering something like that, I move my fingers again.
+@page
+@v s=30003
+@【？？？】
+"Nng!　Ah... no... stoppp!"
+@page
+Huh... that's weird. This part feels different.
+@page
+Boobs are just soft. But the thing I'm feeling now is... damp?
+Actually... it's a little hot!
+@page
+@【至】
+"Is this... what I think it is?"
+@page
+I don't know who I'm talking to, so of course they won't answer.
+It's only downhill from here.
+@page
+Completely opposite to my worrying mind, my fingers follow their instincts.
+So, I continue to move my fingers "down there".
+@page
+@v s=30004
+@【？？？】
+"Haa... hah... nnn, ah, ohhh!"
+@page
+@【至】
+(It feels like it's getting excited. Something's gonna happen, right?)
+@page
+Yep, my instincts are right on the money.
+This is just like when I watched that uncensored porn on my dad's 40-inch 
+TV in the living room on the night he left!
+@page
+@【至】
+"T, then... this is...!"
+@page
+@mwoff
+@bgm s=bgm07
+;@bi s=evn3010 trans=ripple
+@bzoom s=evn3010 time=800
+@qk time=700
+@wait time=300
+@mwon
+;【イベントＣＧ】かごめの股間の主人公
+@v s=30005
+@【？？？】
+"No... no more... no more..."
+@page
+I'll probably never forget this as long as I live.
+@page
+It looks like I'm tangled up with the girl I ran into around the corner.
+@page
+If this were an anime or a manga, I'd be kissing this girl, 
+or rubbing her breasts or something like that.
+@page
+But this is different―― this is real.
+I'm touching the privates of a girl I don't know.
+Putting it frankly, my fingers are in her vagina.
+@page
+@【至】
+"... Maybe I should put them in more?"
+@page
+And so, I thrust my fingers―― yeah, no I don't. This isn't the time.
+@page
+Wait, why isn't she wearing underwear?
+Looking closely, she isn't wearing a bra either.
+@page
+@mwoff
+@bi s=evn3011
+@wait time=300
+@mwon
+@v s=30006
+@【？？？】
+"... Please... no more... I can't..."
+@page
+@【至】
+"N-no, don't say stuff like that..."
+@page
+It makes me think of other situations where those words are said.
+And it's a dumb idea to do any of that stuff either.
+@page
+So, now what?　Seriously, what the hell should I do now?
+@pages
+@selinit
+@selbtn cap="Apologize!" s="010301.scn"
+@selbtn cap="Run away!" s="010302.scn"
+@s
+;選択肢
+;土下座だ！　→010301
+;逃げるしか！　→010302

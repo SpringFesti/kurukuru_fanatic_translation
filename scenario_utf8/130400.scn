@@ -1,0 +1,114 @@
+﻿;130400
+*130400|２つのお弁当
+;【ワイプ】時間経過
+;【背景】屋上
+;@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@se s=se011
+@bgm s=bgm03
+@fi s=w548 pos=c
+@mwon
+@v s=10918
+@【わずか】
+"Itaru-kun... what's wrong?"
+@page
+That's her first question during lunch break.
+@page
+I'm trying to hide my weariness from her to avoid troubling her,
+but I can't hide it. It's like a cloud, leaking from my body.
+@page
+@【至】
+"Well... cell phones are convenient, but..."
+@page
+@v s=10919
+@【わずか】
+"Cell phones?"
+@page
+@【至】
+"You can just push a button and send a mail, just like that."
+@page
+@fi s=w111 pos=c
+@v s=10920
+@【わずか】
+"Yes, that is true, I suppose."
+@page
+@【至】
+"What a convenient world..."
+@page
+What a world indeed...
+@page
+Defeated by my curiosity about Otogiri-san,
+I turn my phone back on.
+@page
+That was a mistake.
+No, was it a mistake to turn it off in the first place?
+@page
+Now in addition to the mails about younger brothers and older sisters, 
+I freeze when I see mails that ask me why I'm not responding.
+@page
+@setOnce
+@fi id=w
+@fi s=m649 pos=c
+@endOnce
+@【祀利】
+"......"
+@page
+I look at Matsuri, and she comforts me with a gaze.
+@page
+Of course, Matsuri knows all about this. She was there.
+@page
+Of course, I stop feeling happy when I remember that she's
+probably going to try to kill Otogiri-san later. Again.
+@page
+But I suppose that I've got a silver lining in this cloud.
+Matsuri's been near me this whole time, so Otogiri-san
+never approached me.
+@page
+If Matsuri wasn't here... I shudder to think of it.
+@page
+@setOnce
+@fi id=m
+@fi s=w411 pos=c
+@endOnce
+@v s=10921
+@【わずか】
+"Is something up with those mails? What's wrong?"
+@page
+@【至】
+"Nahh, well, I mean..."
+@page
+I can't give details.
+She'd go murder Otogiri-san right now
+if she knew anything more.
+@page
+;【ＳＥ】携帯のバイブ音
+@se s=se027
+@【至】
+"......"
+@page
+I feign calmness, and check my phone again.
+Another mail from Otogiri-san.
+@page
+Wouldn't it be great if this was just spam mail?
+I would happily block the sender.
+@page
+@v s=10922
+@【わずか】
+"Mail? From who?"
+@page
+"That girl?"
+@page
+Great, now I'm hearing things. Fantastic.
+@page
+@v s=10923
+@【わずか】
+"Who sent that?"
+@pages
+@selinit
+@selbtn cap="誤魔化す！" s="130401.scn"
+@selbtn cap="弟切さんから" s="130402.scn"
+@s
+;選択肢

@@ -1,0 +1,102 @@
+﻿;020905
+*020905|_１０月２８日午後４時２２分
+Yep, this is how it turned out.
+Can you two just please stop it?
+@page
+@【至】
+"Fine, whatever!
+I'm going home! Come on-- both of you!"
+@page
+@bgm s=bgm09
+@qk
+@lineFXon
+@setOnce
+@fi s=w113 pos=lc
+@fi s=m113 pos=rc
+@endOnce
+If I can't persuade then, I must use force.
+Clasping their hands, I run forward with all my might.
+@se s=se078 loop=true
+@page
+@setOnce
+@fi s=w113ad pos=lc opacity=160
+@fi s=m113ad pos=rc opacity=160
+@endOnce
+@qk
+@lfont
+@v s=10453
+@【わずか】
+"Wha-!?"
+@page
+@qk
+@lfont
+@v s=20525
+@【祀利】
+"Itaru-!?"
+@page
+@bi s=current all=true trans=crossfade time=100
+I drag them along just like they did to me a little while ago.
+They flutter along behind me like kites.
+@page
+Maybe this is too much?
+I look behind me for a second.
+@page
+...Nah, not really.
+They're still up at arms against each other back there.
+@page
+@setOnce
+@fi s=w312 pos=lc opacity=160
+@fi s=m315 pos=rc opacity=160
+@endOnce
+@v s=10454
+@【わずか】
+"You brat...!"
+@page
+@v s=20526
+@【祀利】
+"Die bitch!"
+@page
+@【至】
+"Are you serious?!
+...Damn it! Give me a break already!"
+@page
+@qk
+@lineFXon
+@setOnce
+@fi s=w119 pos=lc opacity=160
+@fi s=m113 pos=rc opacity=160
+@endOnce
+;@se s=se129 buf=1
+;@se s=se078 buf=2
+I sprint as hard as I can, increasing my speed.
+They scream at the sudden speed.
+@page
+@setOnce
+@fi s=w119ad pos=lc opacity=160
+@fi s=m113ad pos=rc opacity=160
+@endOnce
+@qk time=1000
+@lfont
+;【備考】ユニゾン
+@v s=10455
+;@【わずか】
+"KYAAAAAAHHH!?"
+;@v s=20527
+;@【祀利】
+;「きゃああああああああああぁぁぁぁぁぁ！！？」
+@page
+Ooh, nice Doppler effect.
+@page
+@【至】
+"Going home! As fast as I can!
+Don't bite your tongues, you twoooooooo...!!!"
+@page
+@stoppfx
+@mwoff
+@bi s=current all=true trans=crossfade
+@se fade=stop
+@bgm fade=stop
+;@mwoff
+;→021000
+;@bgm fade=out
+@jump storage="021000.scn"

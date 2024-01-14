@@ -1,0 +1,99 @@
+﻿;020902
+*020902|_１０月２８日午後４時２２分
+@fi s=w111 pos=lc
+@v s=10434
+@【わずか】
+"Itaru-kun, what do you want for dinner today?"
+@page
+I think a little, and reply.
+@page
+@【至】
+"Your favorite food."
+@fi s=m113 pos=rc
+@page
+@fi s=w548 pos=lc
+@v s=10435
+@【わずか】
+"That's a little too much.
+@page
+@fi s=w547 pos=lc
+@v s=10436
+@【わずか】
+"Your favorite foods are my favorite foods.
+So... okay?"
+@page
+She looks embarassed because she's lying to me.
+But that's okay.
+She's just shy, so, I can't answer her back.
+@page
+@fi s=m64b pos=rc
+@v s=20495
+@【祀利】
+"Jeez, this sucks...
+Are you forgetting about me?"
+@page
+@【至】
+"O-Of course not! What do you want?"
+@page
+--then, as soon as I try to make up something to trick her,
+@page
+@fi s=m212 pos=rc
+@v s=20496
+@【祀利】
+"Ooh, how about some feijoada!
+It's really, really good!♪"
+@page
+@【至】
+"What the heck is that?"
+@page
+It's kinda long, so I'll summarize it.
+It's made of pig intestines, cooked meat and black beans.
+Very popular in Brazil, where Matsuri lived.
+@page
+@fi s=m111 pos=rc
+@v s=20497
+@【祀利】
+"It's cheap, delicious, and there's a lot of it!
+Come on, let's try it tonight!"
+@page
+@fi s=w112 pos=lc
+@v s=10437
+@【わずか】
+"Only you will be eating that. Itaru-kun and I will be eating something else."
+@page
+@se s=se131
+@fi s=m315 pos=rc
+;【ＳＥ】拳銃構える
+;【立ち絵】祀利拳銃構える
+;パレード
+@v s=20498
+@【祀利】
+"Uh-huh."
+@page
+@v s=20499
+@【祀利】
+"How about we make the feijoada outta you tonight?
+Oh wait, it'll smell like a dirty ditch."
+@page
+@fi s=w312 pos=lc
+;【ＳＥ】包丁を構える
+;【立ち絵】わずか包丁構える
+@v s=10438
+@【わずか】
+"Or maybe we can make it out of you."
+@page
+@【至】
+"How did this happen!?
+This is just about dinner, isn't it!?"
+@page
+@v s=10439
+@【わずか】
+"It's about something you're going to eat. I can't leave that to someone else."
+@page
+@v s=20500
+@【祀利】
+"Get outta the way, Itaru.
+I'll show you the grudge of a maligned meal."
+@page
+@jump storage="020905.scn"
+;→020905

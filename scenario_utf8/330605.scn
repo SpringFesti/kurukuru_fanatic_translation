@@ -1,0 +1,215 @@
+﻿;330605
+*330605|_ほんの少しの帰り道
+;【備考】主人公視点
+;【ワイプ】場面転換＆視点変更
+;【背景】廊下・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=ランダム
+@bgm s=bgm07
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... This is going quite well."
+@page
+@fi s=k214 pos=c
+@v s=30345
+@【かごめ】
+"Yes, you have tactician Otogiri here with you."
+@page
+@【至】
+"Yeah, this is a great strategy. Nice job, Otogiri-san."
+@page
+Otogiri-san's strategy was a great success.
+@page
+While I contact Wazuka-san and Matsuri,
+Otogiri-san and I will appear here and wait.
+@page
+Then, after we go to the staff room area once,
+we confirm the presence of our pursuers in the waiting place.
+@page
+It's a simple strategy, but the excuse was good.
+The possibility that they'll follow me into the staff room was small.
+@page
+@fi s=k211 pos=c
+@v s=30346
+@【かごめ】
+"Then, let's go home a little together.
+In particular--... we can go to the entrance on this side.
+Or--"
+@page
+Otogiri-san's face turns red.
+If you look at it, you can imagine many words inside of her head.
+@page
+@fi s=k211a pos=c
+@v s=30347
+@【かごめ】
+"Would Takamichi-kun like to go to the place we were at a little while ago?"
+@page
+With my imagination like that, there's no way I wouldn't panic.
+My face turns red immediately.
+@page
+@【至】
+"H-Hey, what are you talking about!?
+No, why are you talking about that at a time like this?"
+@page
+@fi s=k213a pos=c
+@v s=30348
+@【かごめ】
+"I wanted to do it.
+Or, should I consider that a no thank you?"
+@page
+@【至】
+"... I wanted to ask you that."
+@page
+@fi s=k214a pos=c
+@v s=30349
+@【かごめ】
+"I can't hate the part of you that wants to.
+Takamichi-kun, is this the first time you've said something like that?"
+@page
+Ahh man, it's getting harder to hear her again...
+@page
+@【至】
+"... As far as I know.
+If I have, then I don't remember it."
+@page
+@fi s=k345a pos=c
+@v s=30350
+@【かごめ】
+"Kufufu... Just what I thought."
+@page
+Eh, what? What is just what you thought?
+Do I seem like a virgin?
+@page
+... Well, that would be true, because I am one.
+@page
+@fi s=k212a pos=c
+@v s=30351
+@【かごめ】
+"Eh, ah, aaaah!
+J-Just now is a s-secret.
+Prohibited information, yes! It is prohibited information!"
+@page
+@【至】
+"...Oh, alright. Then I won't ask you about it."
+@page
+I might have touched the switch again.
+If I don't continue flipping it, she switchs back immediately,
+so I'm safe in a certain sense of the word.
+@page
+@fi id=k
+;【背景】夕空
+@bi s=bg820
+A conversation about nothing follows from there.
+@page
+A small distance, with too little time.
+But it's the calmness that I can't compare with my everyday life.
+@page
+;【背景】廊下・夕
+@bi s=bg10e
+@【至】
+"... Is around here the limit?
+We should be getting near the massage hallway now."
+@page
+@fi s=k211a pos=c
+@v s=30352
+@【かごめ】
+"Yeah, here.
+... Um, I asked you for something strange.
+So, thank you."
+@page
+-- At those words, my chest throbbed.
+I want to become even better friends.
+Such a desire springs from my heart.
+@page
+@【至】
+"O-Otogiri-san."
+@page
+@fi s=k112a pos=c
+@v s=30353
+@【かごめ】
+"Eh? W-What is it?"
+@page
+@【至】
+"Um... I-If you're okay with it then...
+Tomorrow, would you like to do the same thing?"
+@page
+I stop her and ask her that.
+@page
+I don't need to hear her answer--
+But I would be glad to listen.
+@page
+@fi s=k214a pos=c
+@v s=30354
+@【かごめ】
+"Yeah, I'll see you tomorrow!"
+@page
+@fi id=k
+She says that, and leaves.
+I will return from another exit, as planned.
+@page
+@【至】
+"I'll send the return text now.
+After that, I'll use the excuse of a consultation tomorrow."
+@page
+Trying to suppress an involuntary smile,
+I go to the entrance hall where Matsuri and Wazuka-san are waiting.
+@page
+;【ワイプ】視点変更
+;【背景】廊下・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=ランダム
+@bgm s=bgm15
+@fi s=k349 pos=c
+@mwon
+@v s=30355
+@【かごめ】
+"Kufu, kufufufuh!
+Look at the state of those bitches now!"
+@page
+The first step of the brainwashing cancellation!
+@wait time=500
+-- But I have a strange uneasiness, too.
+@page
+@fi s=k345 pos=c
+@v s=30356
+@【かごめ】
+"Ideal little brother points... today earned about three?
+It's still not enough yet, huh..."
+@page
+Surely he is our ideal-- No.
+Not just an ideal, but my destined little brother from a previous existence.
+Surely that is how it is, naturally.
+@page
+That sense of uneasiness is the result of something I have not awoken to yet.
+But this is the 10,001st case.
+@page
+@fi s=k213 pos=c
+@v s=30357
+@【かごめ】
+"I'll save Operation γ until I've accumulated 2 more points..."
+@page
+Yes, that will do.
+Possibly, those witches
+have prepared a dummy of my little brother.
+@page
+Two more points--
+Five more points should take care of the dummy as well.
+@page
+I just have to wait for two more points,
+to be sure that he is the real thing.
+@page
+@fi s=k445a pos=c
+@v s=30358
+@【かごめ】
+"Wait for me! I'll make sure you awaken, absolutely!"
+@page
+@fi id=k
+@mwoff
+;→330606
+@bgm fade=stop
+@jump storage="330606.scn"

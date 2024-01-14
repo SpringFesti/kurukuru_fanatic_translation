@@ -1,0 +1,735 @@
+﻿;340403
+*340403|_かごめとの約束
+@【至】
+"...Anyway, that's really amazing.
+To be a pro manga artist...
+It's a little surprising that there's someone like that near me."
+@page
+@fi s=k113a pos=c
+@v s=30413
+@【かごめ】
+"O-Oh, it's not that great.
+I'm still small-time."
+@page
+@【至】
+"That's got nothin' to do with it. You're a pro, aren't you?
+It's not easy to get that good, and that is what's amazing."
+@page
+@fi s=k448a pos=c
+@v s=30414
+@【かごめ】
+"... Really?"
+@page
+@【至】
+"I wouldn't lie about something like that."
+@page
+@fi s=k445a pos=c
+@v s=30415
+@【かごめ】
+"Yeah... yeah... yeah."
+@page
+@【至】
+"-- Otogiri-san?"
+@page
+@fi s=k214a pos=c
+@v s=30416
+@【かごめ】
+"Sorry... I haven't been praised so much like that, so I'm really happy..."
+@page
+I look at Otogiri-san's smiling expression.
+She really hasn't been praised.
+Those words remind me--
+@page
+@【至】
+"... Hm."
+@page
+Tears will start to spill from her eyes soon.
+I hug her tightly.
+@bgm fade=out
+@page
+;【立ち絵】かごめ・大
+@bgm s=bgm14
+@fi s=k348ad pos=c
+@v s=30417
+@【かごめ】
+"Ta, Takamichi... kun?"
+@page
+For a short while, I say nothing at all.
+No, I can't say anything.
+@page
+She must've been having a hard time, if nobody praised her.
+-- That's what I remembered.
+@page
+Even if she doesn't worry about them, wounds are wounds.
+So when someone suddenly touches them, they'll hurt.
+@page
+@【至】
+"... You really are amazing, Otogiri-san. I look up to you, after all."
+@page
+At last, those were the words that came out.
+@page
+;【立ち絵】かごめ・大
+@fi s=k345ad pos=c
+@v s=30418
+@【かごめ】
+"... Aww."
+Even though you're a little brother, being so cheeky... dummy."
+@page
+@【至】
+"... It's because I'm a little brother, right?
+To be able to hug you like this is the special privilege of relatives."
+@page
+I usually don't think like that.
+Rather, besides an older brother, special relationships are good.
+@page
+However, I don't care about that now.
+If I can embrace Otogiri-san like this, then I'm fine.
+@page
+;【立ち絵】かごめ・大
+;@fi s=k346ad pos=c
+@v s=30419
+@【かごめ】
+"... It really is good to have a younger brother."
+@page
+@fi id=k
+Otogiri-san buries her head in my chest and says nothing.
+She only cries.
+@page
+The things she's had to endure until now,
+The feelings she hasn't conveyed until now,
+all of them...
+@page
+;【ワイプ】時間経過
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09e trans=clock
+@mwon
+After crying for a while,
+Otogiri-san seperates her body from mine.
+@page
+Wiping her tears, she gives me a shy smile.
+@page
+@fi s=k214a pos=c
+@v s=30420
+@【かごめ】
+"Ah, ahaha... sorry."
+@page
+@【至】
+"No... I should be thanking you."
+@page
+@fi s=k113a pos=c
+@v s=30421
+@【かごめ】
+"O-Oh, okay..."
+@page
+Our eyes couldn't meet.
+And it was impossible to turn our faces towards each other.
+@page
+@【至】
+(... Yesterday, I would have done something even more embarassing.)
+@page
+I understand that she's hiding because she's shy.
+@page
+But the warmth I feel today is different than the stimulation I felt yesterday.
+@page
+Perhaps the warmth is the same, but it's a completely different feeling.
+@page
+@fi s=k112a pos=c
+@v s=30422
+@【かごめ】
+"... Ah, eh... umm, ahh...
+I-It's getting hot around here.
+Wait, I'll go get us something cool, okay?"
+@page
+;【ＳＥ】走る
+@fi id=k
+@【至】
+"Ah... wait, I'll go too!"
+@page
+@fi s=k545a pos=c
+@v s=30423
+@【かごめ】
+"Calm down, calm down. Wait at that bench over there, okay?
+It'll be a reward from oneechan, okay?"
+@page
+@【至】
+"... Ah, okay. I gotcha."
+@page
+@fi id=k
+I sit on a nearby bench, just as she says.
+@page
+Otogiri-san waves to me, and I wave a little back.
+@page
+@【至】
+"-- Otogiri-san has a surprisingly nice smile."
+@page
+From my first impression, I felt a much more subdued feeling.
+@wait time=500
+... Well, I should keep in mind that she's got a strange switch.
+@page
+But she's a much brighter (shining) person than I thought.
+With her stuttering and polite language at the start,
+I've just noticed that she's using much more casual language now.
+@page
+@【至】
+"The distance between us has shrunk quite a bit, hasn't it?
+... For the moment, let's put forth some good feelings."
+@page
+If I say that, it's like spring is coming.
+My chest throbs with high expectations.
+@page
+I understand that I can't afford to indulge in such happiness.
+@page
+Tomorrow is the day I die.
+I can't relax.
+@page
+@【至】
+"But... when that ends.
+If I can survive, I'll..."
+@page
+@fi s=k211 pos=c
+@v s=30424
+@【かごめ】
+"Do you have a death flag or something?"
+@page
+@qk
+@lfont
+@【至】
+"Whoahhh!?"
+@page
+@fi s=k114 pos=c
+@v s=30425
+@【かごめ】
+"Thanks for waiting. What's wrong?
+It seems like you've got death flags scattered about."
+@page
+@【至】
+"No, nothing like that!
+Wait, what's a death flag?"
+@page
+Otogiri-san hands me an ice cream and sits down.
+Taking it, I tilt my head in confusion.
+@page
+@fi s=k112 pos=c
+@v s=30426
+@【かごめ】
+"Hmm... you see it a lot in manga, right?
+'I'm getting married after this' or something."
+@page
+@【至】
+"... You're right. The guy who says that usually dies."
+-- So in other words, I'm dead?"
+@page
+@fi s=k213 pos=c
+@v s=30427
+@【かごめ】
+"If this were a manga or a game, then, yes.
+Usually right after you say that sort of thing."
+@page
+@【至】
+"........."
+@page
+I can't really laugh at that.
+@page
+@【至】
+"Ah, w-well, I don't have plans to die so suddenly,
+so I'm not worried!"
+@page
+@fi s=k114 pos=c
+@v s=30428
+@【かごめ】
+"Yep, and you've been doing things that would
+stop that from happening recently, so you're okay!"
+@page
+@【至】
+"Ha ha ha ha... oh, right, let's eat."
+@page
+I stuff the ice cream in my mouth in a hurry.
+@page
+@【至】
+"Ugh.. bwahh....h"
+@page
+Because I ate it in a flash, I get a brain freeze.
+@page
+@fi s=k112 pos=c
+@v s=30429
+@【かごめ】
+"A-Are you okay?"
+@page
+@【至】
+"Yeah... I shouldn't have eaten it so quickly."
+@page
+@fi s=k214 pos=c
+@v s=30430
+@【かごめ】
+"Of course, aww... younger brothers do need a lot of looking after."
+@page
+@【至】
+"My bad... but I'm kinda happy."
+@page
+@fi s=k111 pos=c
+@v s=30431
+@【かごめ】
+"... Hm? Why are you happy?"
+@page
+@【至】
+"Nah, it's like... right now,
+it's like you're really my older sister.
+I've always wanted an older sister."
+@page
+I could never say that to Wazuka-san.
+She's kind of like an older sister, but... you know?
+@page
+@fi s=k113 pos=c
+@v s=30432
+@【かごめ】
+"Really? But I'm an only child."
+@page
+@【至】
+"Wow, really?"
+@page
+@fi s=k111 pos=c
+@v s=30433
+@【かごめ】
+"Yes. But ever since I was little, I've wanted a brother."
+@page
+@【至】
+"Yeah, I get that. I'm an only child too.
+I've always wanted an older brother or sister."
+@page
+I haven't told Wazuka-san that either.
+There hasn't... really been a problem.
+None, really.
+@page
+@fi s=k114 pos=c
+@v s=30434
+@【かごめ】
+"Ah, but even if you don't have siblings,
+I don't really need an older brother.
+I've always wanted a younger brother."
+@page
+@【至】
+"Yeah, it kinda feels that way."
+@page
+It's a phrase she's often said in our text conversations.
+I finally understand what she meant by it.
+@page
+@【至】
+"I guess you must look at me like a younger brother.
+Am I the kind that needs a lot of looking after?"
+@page
+@fi s=k445a pos=c
+@v s=30435
+@【かごめ】
+"Oh, no! Of course not!
+You're the best!"
+@page
+@【至】
+"I-I am?"
+@page
+;@fi s=k449 pos=c
+@v s=30436
+@【かごめ】
+"You're the ideal younger brother!
+You've been gaining lots of points,
+and even now they're still rising rapidly!"
+@page
+@fi s=k449a pos=c
+@v s=30437
+@【かごめ】
+"Each and every one of your answers is exquisite!
+And on the other hand if you concentrate on the fine
+points then you've got the feeling of a moe bullseye!"
+@page
+@【至】
+"... Uh, umm.
+I'm glad that you like me..."
+@page
+@fi s=k447a pos=c
+@v s=30438
+@【かごめ】
+"Now don't be ambiguous like that!
+You're the ultimate younger brother! The ultimate!
+There's nothing that can compete with the supreme younger brother!"
+@page
+@【至】
+"I got it, I got it so calm down a bit!
+Come on, eat some ice cream!"
+@page
+I guess I flipped the switch by accident.
+She would be normal... if not for this...
+@page
+@mwoff
+@fi id=k
+@bgm fade=stop
+@bi s=bg820
+@wait time=2000
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09e trans=clock
+@bgm s=bgm07
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Calmed down?"
+@page
+@fi s=k111a pos=c
+@v s=30439
+@【かごめ】
+"Y-Yes... thank you."
+@page
+Her impassioned speech took a while to subside,
+but as her red face turned blue,
+she eventually reached the calmness she is at now.
+@page
+@【至】
+"I'm glad you're pleased with me.
+As a younger brother, I think you're a good onee-chan."
+@page
+@fi s=k112a pos=c
+@v s=30440
+@【かごめ】
+"... Really?"
+@page
+@【至】
+"I'm sure. Rather, I said it before, but
+I don't think I could lie about something like that."
+@page
+@fi s=k114a pos=c
+@v s=30441
+@【かごめ】
+"Do you really see me as an older sister."
+@page
+@【至】
+"... Yeah, I do."
+@page
+I see that part too.
+The truth is that there's another, bigger part, but I see that too.
+@page
+@fi s=k345a pos=c
+@v s=30442
+@【かごめ】
+"Fuhe, fuhehe. I see, so Takamichi-kun thinks of me as..."
+@page
+@fi s=k211a pos=c
+@v s=30443
+@【かごめ】
+"Hey, Takamichi-kun!"
+@page
+@【至】
+"Whoah! W-What?"
+@page
+@fi s=k112a pos=c
+@v s=30444
+@【かごめ】
+"Then, when it's just the two of us,
+we could be siblings? And then, wouldn't
+we both be fulfilling our dreams?"
+@page
+"... Siblings, huh..."
+@page
+The words tickle somehow.
+But it's not a bad feeling.
+@page
+@【至】
+"Then when should we start?"
+@page
+@fi s=k114a pos=c
+@v s=30445
+@【かごめ】
+"Right now, of course!
+-- Now, look at me."
+@page
+;【演出】かごめ立ち絵・大
+@fi s=k345ad pos=c
+@【至】
+"... Huh?"
+@page
+Her mouth is just a few centimeters from mine.
+Her lips touch my own.
+@page
+;【演出】かごめ立ち絵・大解除
+@fi s=k214a pos=c
+@v s=30446
+@【かごめ】
+"Nn... aww. You really are like a little kid."
+@page
+@【至】
+"Eh, ah... uhh.... w-was there something there?"
+@page
+@fi s=k113a pos=c
+@v s=30447
+@【かごめ】
+"... Ice cream. There was a little left."
+@page
+@【至】
+"O, oh... thanks."
+@page
+In response to her unexpected act, my brain stops.
+I was barely able to thank her, but I couldn't say anything after that.
+The inside of my head spins round and round, and I can't get my thoughts in order.
+@page
+@fi s=k114a pos=c
+@v s=30448
+@【かごめ】
+"... Umm. How was that?
+Was that what an onee-chan would do?"
+@page
+@【至】
+"Eh? Oh..."
+@page
+My brain begins to reboot, and slowly I begin to understand.
+In other words, Otogiri-san was trying to act like an older sister just now.
+@page
+@fi s=k112a pos=c
+@v s=30449
+@【かごめ】
+"Was that odd?
+Was it too sudden for you? Did you hate it?"
+@page
+@【至】
+"N-No, I'm alright.
+How should I put this... you surprised me."
+@page
+@fi s=k111a pos=c
+@v s=30450
+@【かごめ】
+"Y-Yeah.
+Just then, I too was... it went by fast."
+@page
+@【至】
+"Well, if I got used to it, it wouldn't be bad...
+Anyway, everything is OK.
+I hope to get along in the future, nee-chan."
+@page
+@fi s=k213a pos=c
+@v s=30451
+@【かごめ】
+"... If you could, call me onee-chan."
+@page
+@【至】
+"If it's what onee-chan wants.
+One more time, then. I hope to get along in the future, onee-chan."
+@page
+@fi s=k114a pos=c
+@v s=30452
+@【かごめ】
+"Yeah. I hope so as well, Itaru-kun."
+@page
+@fi s=k211 pos=c
+@v s=30453
+@【かごめ】
+"Ah, but... what should we do?"
+@page
+@【至】
+"About what?"
+@page
+@fi s=k214 pos=c
+@v s=30454
+@【かごめ】
+"Somehow, I'm glad that I miscalculated.
+Do you remember the text I sent yesterday?"
+@page
+@【至】
+"Yesterday... Oh, that one at the end."
+@page
+The last one.
+The sign that even more wonderful things would come--
+@page
+@【至】
+"Yeah, it hasn't changed yet."
+@page
+@fi s=k114 pos=c
+@v s=30455
+@【かごめ】
+"Yeah, it won't when we're talking-- Oh, I got it!"
+@page
+;【演出】かごめ立ち絵・大
+@fi s=k114d pos=c
+Although she seemed troubled for a moment,
+it seems that something huge was sparked.
+@page
+But, when she flattens herself against me, I feel bad somehow...
+No, is this a good feeling?
+@page
+@fi s=k345ad pos=c
+@v s=30456
+@【かごめ】
+"Should I check like this?"
+@page
+Just as I expected.
+Otogiri-san's hand fondles my groin.
+@page
+@fi s=k214ad pos=c
+@v s=30457
+@【かごめ】
+"Hm... it's soft right now, so it seems different."
+@page
+While saying that, she doesn't stop the movement of her hand.
+@page
+@【至】
+"By the way... by chance, will it be this way every time?"
+@page
+@fi s=k211ad pos=c
+@v s=30458
+@【かごめ】
+"Yes. If we're at school, we'll do it at break time.
+If we're out... we'll go to a place with no people, okay?"
+@page
+@【至】
+"R-Really? But even so, that's..."
+@page
+Erection checks at that frequency are dangerous.
+@page
+But Otogiri-san's fingers are quite nice, to be honest.
+@page
+Therefore, it's a problem.
+I'm happy, but if she touches me this way every time, then...
+@page
+@fi s=k214ad pos=c
+@v s=30459
+@【かごめ】
+"Aha, it's getting bigger, huh...?
+You really want to do it, don't you?"
+@page
+No.
+I didn't have that in mind, but that's changing.
+-- I wouldn't mind it though, so it's okay.
+@page
+@fi s=k345ad pos=c
+@v s=30460
+@【かごめ】
+"Wanna try something like what we did yesterday?"
+@page
+Saying that, Otogiri-san touches my zipper.
+Then, she tries to lower it, but I stop her.
+@page
+@fi s=k348ad pos=c
+@v s=30461
+@【かごめ】
+"What's wrong, Itaru-kun?"
+@page
+@【至】
+"Ah, well... yesterday, you did something to me.
+So today, I want to do something for you."
+@page
+@fi s=k211d pos=c
+@v s=30462
+@【かごめ】
+"... Itaru-kun?"
+@page
+Otogiri-san shakes her head to say no.
+She seems displeased.
+@page
+@fi s=k212ad pos=c
+@v s=30463
+@【かごめ】
+"What am I to you?"
+@page
+@【至】
+"Huh?"
+@page
+Well, she's not a friend.
+But she's not my girlfriend either.
+No, that's not right. If she's asking me now, then--
+@page
+@【至】
+"Let me correct myself.
+Today, I want to do something for my onee-chan."
+@page
+When it's just the two of us, we're siblings.
+That should be the correct answer.
+@page
+However, Otogiri-san continues to shake her head.
+@page
+@fi s=k212ad pos=c
+@v s=30464
+@【かごめ】
+"It isn't enough yet.
+As a punishment for your little mistake,  you have to hold on for a little longer.
+@page
+@fi s=k211ad pos=c
+@v s=30465
+@【かごめ】
+"What part of onee-chan does Itaru-kun want?
+Why do you want it?
+... If you ask, I'll give it to you."
+@page
+@【至】
+"Eh... that's, it can't be..."
+@page
+Is it that?
+One of a man's romances, saying what you want right to her face.
+Are we starting some kind of shame fetish type thing?
+@page
+@fi s=k214ad pos=c
+@v s=30466
+@【かごめ】
+"Because I'm a girl, I want to bully my favorite boy.
+So say it, okay?"
+@page
+The sly smile on her face is the kind that belongs on a bully's face.
+Not just her face.
+Her hand on my crotch is evil itself.
+@page
+@【至】
+"... Kuh-h... anything?"
+@page
+@fi s=k345ad pos=c
+@v s=30467
+@【かごめ】
+"Mmhm. I want to hear it from your mouth."
+... If you do, I'll give you an amazing reward, okay?"
+@page
+@【至】
+"I want onee-chan's um... down there..."
+@page
+@fi s=k214ad pos=c
+@v s=30468
+@【かごめ】
+"Say it again. Kufufu, it's a cliche but it's super moe."
+@page
+I hear Otogiri-san's words from somewhere far away.
+As for my body, it is a great and terrible thing.
+@page
+My heart beats terribly, probably because of embarassment.
+My throat is dry, and my back's all sweaty.
+@page
+But at the same time, I'm awfully excited.
+My loose erection has become painfully hard,
+and I want it to be freed as soon as possible.
+@page
+I overcame this feeling of awkwardness.
+@page
+@【至】
+"I want... onee-chan's pussy, to touch it with my finger, or my mouth..."
+@page
+@fi s=k213ad pos=c
+@v s=30469
+@【かごめ】
+"Nn... fu.
+Why do you want it, Itaru-kun?"
+@page
+@【至】
+"I... even if I have to touch myself,
+I want my dick... to feel... good."
+@page
+My face is getting hot.
+I think it's going to catch on fire, and that's not a figure of speech.
+It seems so hot that it'll catch on fire.
+@page
+@fi s=k345ad pos=c
+@v s=30470
+@【かごめ】
+"Good job!
+Kufufu... now, how about that reward?"
+@page
+@fi id=k
+After saying that, Otogiri-san leads me by the hand
+to a nearby bush, and then...
+@page
+@mwoff
+;→340404
+@bgm fade=stop
+@jump storage="340404.scn"

@@ -1,0 +1,90 @@
+﻿;130704
+*130704|_気持ちの意味
+;【ワイプ】時間経過
+;【背景】主人公自室・夜
+;【立ち絵】わずか立ち絵　裸
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01b trans=tile
+@bgm s=bgm04
+@fi s=w103a pos=c
+@mwon
+@【わずか】
+"........."
+@page
+We clean off our privates, and look at each other's faces.
+@page
+Wazuka-san's cheeks are red with embarrassment.
+I'm sure I'm the same way.
+@page
+@fi s=w537a pos=c
+@v s=11067
+@【わずか】
+"...Itaru-kun."
+@page
+My name is called in a pleading voice.
+@page
+If I nod, Wazuka-san and I will do it.
+I'm not so insensitive as to miss that.
+@page
+@【至】
+"......"
+@page
+@【わずか】
+"......"
+@page
+@【至】
+"...Let's stop here."
+@page
+I choose my answer precisely because I'm not insensitive.
+@page
+@fi s=w203 pos=c
+@【わずか】
+"........."
+@page
+Whether it's because she can read my mind, or because she's at a loss for words,
+but she doesn't answer me, even after I wait a little while.
+@page
+@【至】
+"Let's give it a little time."
+@page
+I don't get a response this time either.
+@page
+@【至】
+"I want to think more seriously, a lot more seriously,
+about us, and especially you, Wazuka-san."
+@page
+@【至】
+"I don't want to break what we have already.
+So I need to think for a little while more...
+I want you to think more too, Wazuka-san."
+@page
+@fi s=w101 pos=c
+@【わずか】
+"......"
+@page
+She hears out my request.
+@page
+She's mad. No, she's disgusted.
+My complaint is selfish, after all.
+@page
+@fi s=w537a pos=c
+@v s=11068
+@【わずか】
+"...Okay."
+@page
+...But finally, she nods and gives me her usual smile.
+@page
+@【至】
+"Thank you, Wazuka-san."
+@page
+I'm happy to see her smile, and I embrace her.
+@page
+@fi s=w537ad pos=c
+Even though I couldn't do it up until now,
+this embrace is a safe place for me. Surely.
+@page
+;→130705
+@jump storage="130705.scn"

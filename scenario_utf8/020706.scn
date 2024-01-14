@@ -1,0 +1,135 @@
+﻿;020706
+*020706|_１０月２８日午後１２時４２分
+;【背景】青空
+@bi s=current all=true trans=crossfade
+@bgm s=bgm03
+@bi s=bg810
+And so, the lunch break passed like that.
+@page
+You've gotta be happy for a calm autumn afternoon like that though, huh?
+@page
+Now that I think about it, it's been noisy from the start of this, hasn't it?
+If I only have 5 days until I must die, I don't need to seek tranquility and peace.
+@page
+So what should I do?
+What should Takamichi Itaru do?
+Is there a scheme, or a method of survival that will save me?
+@page
+@【至】
+"... Damn it. I'll do it somehow... won't I?"
+@page
+;【背景】屋上昼
+@bi s=bg13d
+@fi s=w113 pos=c
+@v s=10394
+@【わずか】
+"You've been talking to yourself a lot recently... is there something wrong?"
+@page
+Your hamburg steak.
+Matsuri.
+And Otogiri-san.
+@page
+And now-- I die in 3 days.
+@page
+@【至】
+"... Nothing. Just a bad dream."
+@page
+@fi s=w113 move=lc
+@fi s=m212 pos=rc
+@v s=20318
+@【祀利】
+"Then lemme give you a hug!"
+@page
+@fi s=m747 pos=rc
+@v s=20319
+@【祀利】
+"Then, maybe something better after that?"
+@page
+I'd like to be alone, actually.
+I'd be more comfortable alone.
+--But I don't have the courage to say that.
+@page
+@【至】
+"Sorry, don't worry about it.
+A dream? Nothing to worry about."
+@page
+;【ＳＥ】チャイム
+@se s=se011
+@fi s=w111 pos=lc
+@v s=10395
+@【わずか】
+"...Ah. We should get going."
+@page
+@fi s=m64b pos=rc
+@v s=20320
+@【祀利】
+"Awww, boring."
+@page
+@fi s=m212 pos=rc
+@v s=20321
+@【祀利】
+"Ooh, I have a good idea!
+For the next class's teacher, why don't I--"
+@page
+@【至】
+"No, you can't kill the next teacher either.
+If this is boring, why not go back home?"
+@page
+@fi s=m114a pos=rc
+@v s=20322
+@【祀利】
+"No, I can't! I have to be together with my fiancee!♪"
+@page
+@fi s=w112 pos=lc
+@v s=10396
+@【わずか】
+"Itaru-kun, I am at the limit of my patience."
+@page
+This is going to go bad in so many ways soon.
+@page
+@【至】
+"L-Let's get back to the classroom then.
+Don't leave anything behind, you two."
+@page
+@fi s=m212 pos=rc
+@v s=20323
+@【祀利】
+"Then hold me.♪
+You're forgetting your fiancee~."
+@page
+A vein appears in Wazuka-san's forehead.
+Now, she'll probably--"
+@page
+@【至】
+"Ah-- crap! We have to run!
+We're going to be late for the next class!"
+@page
+@se s=se078
+@bi s=current all=true trans=crossfade
+So I begin to run.
+However, I can hear the two of them catch up to me.
+@page
+@v s=10397
+@【わずか】
+"Wait for me! I'm coming too!"
+@page
+@v s=20324
+@【祀利】
+"Aaah, you idiot! Carry meee!"
+@page
+Just as I thought. Following me, the two of them begin to run.
+@page
+@【至】
+(I can avoid them fighting if I distract them, huh?
+Kinda like cats and dogs.)
+@page
+They've both got A rank in jealousy levels.
+My future's really uncertain...
+@page
+@mwoff
+@bi s=current all=true trans=crossfade
+;分岐
+;祀利好感度特定値以上　→220200
+;それ以外　→020800
+@jump storage="220200.scn" cond="f._220102"
+@jump storage="020800.scn"

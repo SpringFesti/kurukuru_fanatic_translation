@@ -1,0 +1,705 @@
+﻿;450202
+*450202|_答えを求めて
+;【備考】主人公視点
+;【ワイプ】視点変更
+;【背景】公園・夕暮れ・雨
+@setOnce
+;@fi id=f
+;@se fade=stop
+@stoppfx
+@endOnce
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=700
+@bi s=bg09e trans=ランダム
+@rainpfx
+@se s=se049 loop=true v=40
+@bgm s=bgm11
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"What... what is this!?
+What the hell do you think you're doing?!"
+@page
+When I found Fanuel,
+she had scattered her blood all around her.
+@page
+There's too much for it to just be from her fist.
+But as it reforms after losing its shape,
+I understand that all of it is Fanuel's blood.
+@page
+@fi s=f556 pos=c
+@v s=40899
+@【ファヌル】
+"... Don't stop me... I just need a little more."
+@page
+@【至】
+"You dumbass! Don't give me this 'little more' crap!
+Stop! How many times did you do this!?"
+@page
+I pull her arm, and her, away from the wall.
+Then, I hug her close.
+@page
+@fi s=f556d pos=c
+;【立ち絵】ファヌル/大
+@v s=40900
+@【ファヌル】
+"... Let go."
+@page
+@【至】
+"Do you think I will? Do you think I even can!?"
+@page
+While I hug her, the wounds on her hands close entirely.
+But it's pathetic to see the blood still sticking to them.
+@page
+@【至】
+"What were you doing!? Tell me!
+I won't let you go until you do!"
+@page
+;@fi s=f556d pos=c
+@v s=40901
+@【ファヌル】
+"... Probably... something terrible and cruel."
+@page
+Fanuel stares at me as I tilt my head in confusion.
+@page
+@fi s=f311d pos=c
+@v s=40902
+@【ファヌル】
+"To express it in human feelings... love.
+I... I love you... something like that."
+@page
+I'm a bit confused at her sudden words.
+@page
+They're just like yesterday's words.
+But they're somehow different than yesterday's.
+I feel strong emotions at those words without feeling.
+@page
+@fi s=f556d pos=c
+@v s=40903
+@【ファヌル】
+"I'm not lying... no, I don't want to.
+More than that, I can't feel the necessity to lie."
+@page
+@【至】
+"That's... did your heart tell you that?"
+@page
+I return a question to her in one beat--
+and her answer afterwards is:
+@page
+@fi s=f559d pos=c
+@v s=40904
+@【ファヌル】
+"I don't know.
+I... Angels don't have hearts.
+But I do know something."
+@page
+Fanuel separates from me.
+And she steps up to the wall again.
+@page
+@fi s=f411 pos=c
+@v s=40905
+@【ファヌル】
+"I can feel pain in this meat body.
+But I can't have feelings without a heart.
+That's what I can't understand."
+@page
+@fi id=f
+@se s=se118 buf=1
+@qk time=700
+@flash time=700
+She raises her fist.
+Before I can shout for her to stop, she hits the wall--
+No, she throws her hand at the wall without hesitation.
+@page
+@fi s=f556 pos=c
+@v s=40906
+@【ファヌル】
+"Ugh...h!"
+@page
+I try to rush up to her in a panic.
+But Fanuel holds me back with her hand.
+@page
+@fi s=f414a pos=c
+@v s=40907
+@【ファヌル】
+"Hey... look... it's all fucked up.
+It's all fucked up, Itaru...
+It hurts and hurts... fufu... so I'm happy."
+@page
+@fi id=f
+@se s=se118 buf=1
+@qk time=700
+@flash time=700
+Her fist-- no, her lump of flesh beats the wall again.
+Blood and meat scatters about each time.
+@page
+@【至】
+"Stop! That hurts, doesn't it!?
+Or doesn't it!? It does, right!?"
+@page
+@fi s=f556 pos=c
+@v s=40908
+@【ファヌル】
+"Yes... and it's okay. I have to do this!"
+@page
+@fi id=f
+@se s=se118 buf=1
+@qk time=700
+@flash time=700
+She flings her fist once again.
+Her meat sticks to the wall.
+@page
+@fi s=f556 pos=c
+@v s=40909
+@【ファヌル】
+"I want you to see.
+If my "wavering" can be erased...
+No... if this can take its place..."
+@page
+@fi id=f
+@se s=se118 buf=1
+@qk time=700
+@flash time=700
+Her fist is thrown again.
+That's not the sound of hitting the wall.
+It's the sound of meat exploding.
+@page
+With it is the sound of Fanuel's voice.
+Delicate, weak, as if bearing something,
+she mutters something.
+@page
+@fi s=f558a pos=c
+@v s=40910
+@【ファヌル】
+"Love... I... love... Itaru...!"
+@page
+Her hand's structure is beaten away,
+smashed into blood, bones and meat.
+@page
+If she was human-- that would be all. 
+@page
+But, as she half-raises her broken hand,
+it comes back in an instant, and she forms a fist.
+Then, once again--
+@page
+@setOnce
+@fi id=f
+@stoppfx
+@se fade=stop
+@bi s=bg8140
+@endOnce
+;【イベントＣＧ】血ノリ
+;【ＳＥ】叩き潰れる　～グシャリ
+@se s=se118 buf=1
+@qk time=700
+@flash time=700
+@lfont
+@v s=40911
+@【ファヌル】
+"Agahhh!"
+@page
+@setOnce
+@bi s=bg09e
+@rainpfx
+@se s=se049 loop=true v=40
+@endOnce
+;【背景】公園・夕暮れ・雨
+@【至】
+"Please, stop! ...Stop all this!"
+@page
+@fi s=f558a pos=c
+@v s=40912
+@【ファヌル】
+"I can't... I still don't understand... I still don't!"
+@page
+She looks around while saying that.
+Her gaze stops on me-- no, her eyes move
+to search for something.
+@page
+@fi s=f114a pos=c
+@v s=40913
+@【ファヌル】
+"There."
+@page
+Her bloodstained hand picks up a fragment of glass.
+@page
+@v s=40914
+@【ファヌル】
+"My hand... it's not enough...
+So... with this--"
+@page
+Her raised hand paints the fragment in blood.
+Then, the same red blood coils around the sharp blade.
+Not aiming at the wall, but for Fanuel.
+@page
+@setOnce
+;@stoppfx
+@fi id=f
+;@se fade=stop
+@endOnce
+@mwoff
+@bi s=evn4030
+@wait time=300
+@mwon
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+;【イベントＣＧ】ガラス片でグサリ　4031
+@lfont
+@v s=40915
+@【ファヌル】
+"Gyii!?"
+@page
+She drills a holes in her hand with the glass.
+@page
+@【至】
+"Fanuel, stop! You'll die!"
+@page
+I realize that the words I say are meaningless.
+An angel won't die-- they can't.
+@page
+;【イベントＣＧ】4030
+@v s=40916
+@【ファヌル】
+"Itaru... I love you."
+@page
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+Her glass fragment moves,
+and cuts her hand once more.
+@page
+@mwoff
+@bi s=evn4031
+@wait time=300
+@mwon
+;【イベントＣＧ】4031
+@v s=40917
+@【ファヌル】
+"Aww... still... it won't go away... still... More!"
+@page
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+The tip of the glass slips into her palm.
+Fanuel must have put her strength into it,
+as it makes a disgusting sound and buries itself in her palm.
+@page
+@v s=40918
+@【ファヌル】
+"Still... still... more...e!"
+@page
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+The glass moves.
+It moves in her pierced hand.
+It slowly cuts from her hand to her forearm.
+@page
+@mwoff
+@bi s=evn4032
+@wait time=300
+@mwon
+@v s=40919
+@【ファヌル】
+"Uwahh... ahhh.... aaaaaahhh!"
+@page
+With a cry, she repeats the same cut.
+There, the glass fragment is held fast inside of her.
+@page
+The meat and the blade fight each other.
+The victor is-- Fanuel.
+@page
+While the glass smashes her swelling meat,
+she scoops out her arm with her jagged blade.
+She tears into it with a sawing motion.
+@page
+@mwoff
+@bi s=evn4033
+@wait time=300
+@mwon
+@v s=40920
+@【ファヌル】
+"Haah, haah... hahahahahaha!
+Itaru... it hurts! It hurts! Kufu, fufufu..."
+@page
+@v s=40921
+@【ファヌル】
+"Ahahahahahahahahahahahahaha
+hahahahahahahahahahahahaha!!"
+@page
+This is the limit.
+I try to run up to her.
+I try to hold her arm back.
+@page
+I can't.
+@page
+While enduring the pain...
+No, the accepting Fanuel smiles. I was fascinated with that smile.
+@page
+@mwoff
+@bi s=evn4034
+@wait time=300
+@mwon
+;【イベントＣＧ】4032
+@v s=40922
+@【ファヌル】
+"Itaru... soon... soon...
+I think I'll understand... something important... a little more..."
+@page
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+While she says that with a smile mixing with tears,
+she tears up her wrist once again.
+@page
+@v s=40923
+@【ファヌル】
+"Hghh... oh, ohhh... hahah, hii, hii,
+Itaru... together... forever... and ever... together."
+@page
+New blood gushes out.
+The wall of the playground equipment is dyed red with blood.
+If she was human, this much blood loss would have killed her.
+@page
+Among that stagnating red blood, Fanuel and I stand there.
+This seemed like the center of the world.
+@page
+@v s=40924
+@【ファヌル】
+"Itaru... please... give it to me.
+More... I want more pain."
+@page
+Fanuel holds the glass chip to me.
+I understand what she means.
+-- I can't do it.
+@page
+@【至】
+"Enough! Enough already!
+I've seen enough of this!"
+@page
+I say that, unable to take my eyes off her.
+After all, she still fascinates me.
+@page
+I thought that her bloody skin was beautiful.
+I thought the bruised, red wound was lovely.
+@page
+@bgm fade=out
+Above all, she did this saying she loved me...
+Fanuel was adorable.
+Only adorable, and irresistable.
+@page
+@bgm s=bgm14
+@v s=40925
+@【ファヌル】
+"Itaru... I love... I love you..."
+@page
+@【至】
+"Cheater... don't say it with this timing.
+The worst... it's the worst!"
+@page
+@v s=40926
+@【ファヌル】
+"Fufu... it's because I have no heart.
+Instead, I can read the hearts of others.
+But now... I don't want to."
+@page
+Yeah, she's right. She doesn't need to.
+Even if she needs it for other people,
+she no longer needs to do it for me.
+@page
+@v s=40927
+@【ファヌル】
+"Thank you... Itaru... I'm honored to feel these "wavers"."
+@page
+@v s=40928
+@【ファヌル】
+"So... please... only you can do it.
+It can't be... anyone other than you!"
+@page
+Holding the glass shard, I hold it to my chest like a holy object.
+@page
+It breaks the skin of my palm and blood comes out.
+But I don't feel pain.
+Things like that aren't a big problem anymore.
+@page
+@v s=40929
+@【ファヌル】
+"Itaru... please. Please... kill me.
+I want to feel supreme pain.
+Pain that even breaks my soul."
+@page
+Her eyes staring up at mine remind me of her expression yesterday.
+@page
+That's probably-- an innocent, sad look.
+The two expressions were the same.
+@page
+@【至】
+"If I do this... is it okay?"
+@page
+I let the glass shard touch her skin.
+@page
+@v s=40930
+@【ファヌル】
+"Yes... if you do it... then it's okay.
+It's amazing... amazing... the "wavering"."
+@page
+When I put a little power into the blade,
+the skin slips aside easily.
+Blood overflows. Pain is born.
+@page
+@v s=40931
+@【ファヌル】
+"Itaru... can I trust you?"
+@page
+@【至】
+"Trust me? I'm just a human, aren't I?"
+@page
+@v s=40932
+@【ファヌル】
+"But you're you. You're you.
+You're the person I "waver" for.
+I yearn, and I waver, and it's unbearable.
+@page
+She puts her arm on my shoulder. It's the same warmth as yesterday.
+@page
+Even if she's an angel, even if she "degenerated",
+it's her after all.
+Nothing changes. Not one thing.
+@page
+@【至】
+"...Will you trust me?"
+@page
+@v s=40933
+@【ファヌル】
+"Of course... just like the ceremony, do it powerfully.
+Deeper... and deeper."
+@page
+We didn't need words any longer.
+I hug her closely while nodding.
+I let the glass piece in my hand touch her white skin.
+@page
+@mwoff
+@bi s=evn4040
+@wait time=300
+@mwon
+;【イベントＣＧ】4040
+@v s=40934
+@【ファヌル】
+"... Agh, kwaaah!"
+@page
+When I put the point of the glass to her stomach,
+a gasp leaks from Fanuel's mouth.
+@page
+I can't hear that it's painful. It's meaningless.
+I give her pain. That is my purpose.
+@page
+@v s=40935
+@【ファヌル】
+"Itaru... keep going... more... more pain...n!"
+@page
+@【至】
+"Okay."
+@page
+@mwoff
+@bi s=evn4041
+@wait time=300
+@mwon
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+;【イベントＣＧ】4041　傷追加
+Before I finish my words, I make a new wound in Fanuel's skin.
+Her clothes are torn, and the meat under it is scooped out.
+@page
+@mwoff
+@bi s=evn4042
+@wait time=300
+@mwon
+;【イベントＣＧ】4042　絶叫
+@v s=40936
+@【ファヌル】
+"Aggghhhh!?"
+@page
+That was surely a scream.
+@page
+I have to stop -- This is fine.
+Those two contradicting thoughts whirl inside me,
+but when I look at her face, I am lead to one conclusion.
+@page
+@【至】
+"Fanuel... more?"
+@page
+She nods, with her face twisted in 
+agony and a bit of delight.
+@page
+So--
+@page
+@mwoff
+@bi s=evn4043
+@wait time=300
+@mwon
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+;【イベントＣＧ】4043　傷追加
+Let's carve new wounds.
+I give her body, as she screams herself
+hoarse with pain, pain. I give her a heart.
+@page
+@v s=40937
+@【ファヌル】
+"Hih... cough! Gyii, hih, hahi!"
+@page
+She sighs in pain, and her wounds heal.
+I cut her again.
+Carefully, persistently, I tear off her crust.
+@page
+@v s=40938
+@【ファヌル】
+"Haah! Haah! Pain... it's painful!
+Itaru... more! More! Give me more!"
+@page
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+I nod, and cut her again.
+Piercing her and twisting the glass,
+meat and blood come out of her.
+@page
+This is just like sex.
+This is a ceremony too.
+@page
+So that I may shift from death to life,
+Fanuel obtains a heart from her pain.
+I try to grasp my certain feelings.
+@page
+@【至】
+"Fanuel... I love you.
+I'll love you forever and ever."
+@page
+Fanuel "wavers".
+It doesn't mean that she's changed.
+I feel this.
+@page
+Blood overflows from the wound torn with the glass,
+and it seems as if her consciousness and mine are connected.
+@page
+Perhaps this fits in the category of a miracle.
+But that's nonsense.
+It's cruel and absurd.
+@page
+But right now, this is necessary for us.
+@page
+@se s=se071 buf=1
+@qk time=800
+@flash time=800
+@lfont
+;【イベントＣＧ】4044　なき弱る
+@v s=40939
+@【ファヌル】
+"Uwaaaaaahh!?"
+@page
+Large tears come from her eyes as I tear a new wound in her.
+@page
+They're beautiful.
+@page
+I lick them up with my tongue, and stab deeper into her body.
+Then, more tears come out.
+@page
+@mwoff
+@bi s=evn4044
+@wait time=300
+@mwon
+@v s=40940
+@【ファヌル】
+"Gyaah... ohh, guh... aooh, nnnn!
+Itaruuu... Itaruuu!"
+@page
+Her tears are merely a physiological phenomenon.
+But they're hot, because they carry her feelings.
+@page
+Otherwise I'd be sad to see her cry.
+She wouldn't become as adorable-- So.
+@page
+@【至】
+"Fanuel... more... just a little more.
+So... do you understand?"
+@page
+I can't find the right words.
+But even so, I know.
+We can communicate through our wills.
+@page
+@mwoff
+@bi s=evn4045
+@wait time=300
+@mwon
+;【イベントＣＧ】4045　泣き笑い
+@v s=40941
+@【ファヌル】
+"Itaru... thank you.. I... I...
+Sorry... I don't know... what to say..."
+@page
+That's okay. I can't either.
+So let's tear into her more.
+More and more, let's connect.
+@page
+@v s=40942
+@【ファヌル】
+"Yeah... so... just like usual... okay?"
+@page
+Fanuel embraces me strongly once again.
+I don't need to think about what she means.
+@page
+@v s=40943
+@【ファヌル】
+"More pain... get me more excited.
+If you hold me, I'll "waver" more.
+If I do... then I'll probably..."
+@page
+Pain and pleasure are only slightly different.
+Her "wavering" and her pain are the same.
+Yes, they are twins born from the same womb.
+@page
+So I'll give her pleasure.
+I'll give her pain with pleasure.
+Pain, and so, so much love.
+@page
+@【至】
+"Fanuel, let's do it.
+If you feel good, then I'll be happy."
+@page
+Yes, just like yesterday--
+@page
+@v s=40944
+@【ファヌル】
+"Me too... me too.
+If you feel good... more... and more...
+Yes... I'll love... I'll love you..."
+@page
+Her wet eyes look up at me.
+Again, just like yesterday.
+And they sparkle once again.
+@page
+@【至】
+"Fanuel... let's do it together.
+Let's get happier and happier."
+@page
+I want to love her more and more.
+We must know that we are each other's most precious existence.
+@page
+So--- Yes.
+@page
+@v s=40945
+@【ファヌル】
+"Itaru... let's love each other."
+@page
+No matter what form, even if it brings pain, we--
+@page
+@stoppfx
+@se fade=out
+@bgm fade=out
+@mwoff
+@jump storage="450203.scn"
+;→450203

@@ -1,0 +1,168 @@
+﻿;020300b
+*020300b|いっしょに行きたい！
+@【至】
+"If it keeps going this way today, I'll die..."
+@page
+@fi s=f111 poc=c
+@v s=40354
+@【ファヌル】
+"Nah, you're fine for 3 days."
+@page
+@bgm fade=stop
+@bgm s=bgm08
+I look back to the voice in the entranceway,
+and I see Fanuel standing there.
+@page
+@fi s=f559 poc=c
+@v s=40355
+@【ファヌル】
+"That is, you'll die if you don't do anything about it."
+@page
+@【至】
+"No way I'll let that happen. Have any pointers for me?"
+@page
+@fi s=f55a poc=c
+@v s=40356
+@【ファヌル】
+"I'm not giving you any hints."
+@page
+Well, that was blunt.
+@page
+@【至】
+"Not even a little one? Has God forbid you?"
+@page
+@fi s=f559 poc=c
+@v s=40357
+@【ファヌル】
+"No, but I can't give you one without permission."
+@page
+@【至】
+"Alright, then just be silent to answer me with a yes."
+@page
+@fi s=f55b poc=c
+@v s=40358
+@【ファヌル】
+"Sorry, no can do. It's an angel thing."
+@page
+@【至】
+"Then why are you standing in the entranceway?"
+@page
+@fi s=f111 poc=c
+@v s=40359
+@【ファヌル】
+"I'm here to carry out my instructions. I'm going to school too."
+@page
+@【至】
+"No way. Do you have a uniform? What if someone catches you?"
+@page
+I say that, and realize she'll just fiddle with people's memories like she
+did to Wazuka-san.
+@page
+But she must have read my thoughts again, because she starts shaking her
+head.
+@page
+@fi s=f211 poc=c
+@v s=40360
+@【ファヌル】
+"I can't always be with you, but I have to monitor you.
+So I'm doing this."
+@page
+She walks up to the desk and touches my cell phone.
+@page
+@fi id=f trans=out
+Without a word, she disappears.
+@page
+@【至】
+"Wha!? H, hey, where'd ya go?
+Where are you!?"
+@page
+;【ＳＥ】携帯着信音　メール
+@se s=se027
+@【至】
+"Oh, I have a mail."
+@page
+I pick up my phone and look at the screen.
+Then, there she was.
+@page
+;【備考】以下、『　』セリフは全て電話越しの声に加
+;【立ち絵】ファヌル/大
+;【演出】上記立ち絵　透過率を50パーていどに変更
+@fi s=f114d pos=c opacity=120
+@v s=40361
+@【ファヌル】
+"Sup."
+@page
+@【至】
+"Whaaaaaaat!?
+What did you do?! You scared me!
+How'd you get on my wallpaper!?"
+@page
+@fi s=f111d pos=c opacity=120
+@v s=40362
+@【ファヌル】
+"I'm not your wallpaper, I fused with your phone.
+Now I can keep on watching you."
+@page
+@【至】
+"Oh. I guess you could."
+@page
+I always have my phone on me, so this is perfect for her.
+@page
+@【至】
+"...Hey, wait a sec. Are you going to peep at my mails?"
+@page
+;@fi s=f65bd pos=c opacity=120
+@v s=40363
+@【ファヌル】
+"No point in asking now. I've been doing it for the past few days.
+You have surprisingly few friends."
+@page
+@【至】
+"Oh, shut up! I just don't tell them my email address!"
+@page
+;【備考】壁越しの声で、遠くから
+@v s=10302
+@【わずか】
+"--Itaru-kun, we need to go!"
+@page
+@【至】
+"Got it! Coming now!"
+@page
+@v s=40364
+@fi s=f559d pos=c opacity=120
+@【ファヌル】
+"Anyway, don't do anything stupid. I won't be able to help you."
+@page
+@【至】
+"Why? Aren't you right there in my phone?"
+@page
+@fi s=f111d pos=c opacity=120
+@v s=40365
+@【ファヌル】
+"I'm here to monitor you, not guard you."
+@page
+@【至】
+"Geez, do me a favor for once."
+@page
+@fi id=f
+But she doesn't say anything back.
+Fanuel disappears from my wallpaper,
+and my tasteless landscape comes back.
+@page
+@【至】
+"... Tch. Stupid girl."
+@page
+So she wants me to go through a day filled with more events,
+does she?
+@page
+It'll be just like yesterday.--
+As I leave, that premonition touches my thoughts.
+@page
+;【演出】暗転
+@bi s=blank trans=crossfade all=true
+Then, it immediately becomes reality.
+@page
+@mwoff
+;→020300c
+@bgm fade=stop
+@jump storage="020300c.scn"

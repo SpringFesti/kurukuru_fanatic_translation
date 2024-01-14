@@ -1,0 +1,227 @@
+﻿;440204
+*440204|_芽生える想い
+;【演出】暗転
+@mwoff
+@wait time=1000
+@filmpfx
+@mnon
+@mset l=5 h=true
+@v s=10794
+It hurts... Mommy, it hurts! Stop! Don't hit me!
+@waitclk
+@setOnce
+@bgm s=bgm11
+@se s=se022 v=40 loop=true buf=0
+@endOnce
+@mnon vertical=true
+@mset l=3
+　When I heard the voice in the darkness--
+
+　My consciousness awoke.
+@waitclk
+@bi s=evn1052
+@mset l=3
+;【イベントＣＧ】わずか子供/目元ｱｯﾌﾟ、モノクロ
+　This is the scene I didn't see.
+
+　The one I have no memory of.
+@page
+@mset l=3
+　In a strange place, a strange girl
+
+　was being abused by a strange woman.
+@page
+@mset l=3
+　No, there was only one unknown thing--
+　
+　I remember something other than the woman.
+@waitclk
+@mnon
+@mset l=5 h=true
+@v s=10795
+No!　Don't go! I'll be lonely!
+Don't leave me here!
+@waitclk
+@mnon vertical=true
+@mset l=3
+　This is probably Wazuka-san.
+
+　Before she met me.
+@waitclk
+@mset l=3
+　Then, as expected,
+
+　it becomes the time when only Wazuka-san lived here.
+@waitclk
+@mset l=4
+　Why am I having such a mysterious dream?
+　It it because I'm with Fanuel?
+　Or is this the dying dream of the rotting house?
+@waitclk
+@mset l=3
+　But no matter the reason, I'm in the dream.
+
+　I'm reliving someone's past.
+@waitclk
+@mset l=3
+　While I think about that, Wazuka-san's body jumps, then flies away.
+　I did not make her fly.
+　She was knocked off her feet.
+@waitclk
+@mset l=3
+　To the young woman without a voice, cowering on the ground,
+　her (probably) mother raises her fist without mercy,
+　and kicks her.
+@waitclk
+@mset l=3
+　A dull sound comes from the living room,
+
+　and only the suppressed sobs of the girl accompany it.
+@waitclk
+@mset l=3
+　The abuse continues.
+　Like a video on repeat,
+　over and over and over... and over.
+@waitclk
+@mset l=3
+　Wazuka-san only repeats the words she said before,
+
+　clinging to her mother.
+@waitclk
+@mset l=3
+　She is sent flying, and the abuse continues.
+
+　It continues for a while, and I return first.
+@waitclk
+@mset l=4
+　While seeing that scene,
+　I overlap that person with myself.
+　With the abused child, and the abusing mother--
+　it is identical to my own childhood.
+@waitclk
+@mset l=3
+　But it is different somehow.
+　Something is out of place.
+　The two images don't fit together.
+@waitclk
+@mset l=3
+　Then, the video changes abruptly.
+　I remember it.
+　It's when I first met Wazuka-san.
+@waitclk
+@mset l=3
+　She stood in the road in front of her house.
+　Having nothing to do, she stood there,
+ several steps in front of her house.
+@waitclk
+@mset l=3
+　Why did she do that?
+　It's a dream, but can I ask that past memory?
+　It was possible.
+@waitclk
+@mnon
+@mset l=3 h=true
+;【備考】エコー加工
+@v s=10796
+... Because I have nowhere to belong.
+@waitclk
+@mnon vertical=true
+@mset l=3
+　I hear the voice of the girl in the dream.
+ A voice I had never experienced.
+　Perhaps it's my delusion-- or perhaps it's still just a dream.
+@waitclk
+@mset l=3
+　In either case, that is the answer.
+　The two images-- appearing in memory,
+ the difference between Wazuka-san and I.
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=10797
+Then, what's different?
+@waitclk
+@mnon vertical=true
+@mset l=5
+　I had somewhere to belong.
+　I was abused, but I wanted
+　to be with my mother.
+　Yes, that was the difference.
+ It was decisively different.
+@waitclk
+@mset l=3
+　But, why do I think that?
+
+　Then--
+@waitclk
+@mnon
+@mset l=5 h=true
+@v s=10798
+Why were we abused?
+Why did our mothers abuse us?
+@waitclk
+@mnon vertical=true
+@mset l=3
+　I still don't know.
+　Is there an answer in my memories?
+　Is it still lying hidden within me?
+@waitclk
+@mnon
+@mset l=5 h=true
+@v s=10799
+When you find it, what will you do?
+What will you do to our abusive mothers?
+@waitclk
+@mnon vertical=true
+@mset l=3
+　I don't know.
+
+　Even in a dream, I can't answer.
+@waitclk
+@mnon
+@mset l=5 h=true
+@v s=10800
+Answer, Itaru-kun.
+Tell me... Quickly... Itaru-kun... Quickly...
+@waitclk
+@mnon
+@mset l=5 h=true
+;【備考】ユニゾン
+@v s=10801 v=50
+;@【わずか】
+Itaru-kun... Itaru-kun...
+;@v s=40836
+;@【ファヌル】
+;「至…………至…………」
+@waitclk
+@mnon vertical=true
+@mset l=3
+　Just for a little while, be quiet.
+　I'm looking for the answer.
+　With a little more, I might understand.
+@waitclk
+@mnon
+@mset l=5 h=true
+;【備考】ユニゾン
+@v s=10802 v=70
+;@【わずか】
+But, Itaru-kun...!
+;@v s=40837
+;@【ファヌル】
+;「けれど、いたる……！」
+@waitclk
+@setOnce
+@stoppfx
+@bi s=blank
+@bgm fade=stop
+@se fade=stop
+@endOnce
+@mwon
+;【演出】暗転
+;【演出】音楽ストップ
+@v s=40838
+@【ファヌル】
+"Hey Itaru, wake up!
+@page
+@jump storage="440300.scn"
+;→440300

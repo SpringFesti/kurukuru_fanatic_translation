@@ -1,0 +1,203 @@
+﻿;140601
+*140601|_運命の分かれ道
+;【ワイプ】時間経過
+;【演出】暗転
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bgm s=bgm12
+@mwon
+How much time passed, there?
+@page
+Knocked into the depths of despair,
+I curled up in complete resignation,
+and somehow I fell asleep.
+@page
+I am between dreams.
+I came to, still drowzy.
+@page
+Trying to fall back asleep,
+I fell somebody next to me.
+@page
+It's probably Fanuel.
+She's probably come for food or something.
+@page
+Oi, Fanuel, read the atmosphere, will ya?
+You're an angel, so you can skip a meal, can't you?
+@page
+.........
+@page
+......... Huh? There's no reply.
+@page
+Fanuel can read minds.
+So I should be hearing a sarcastic remark right now.
+@page
+But I'm not.
+@page
+@bgm fade=out
+Then, the person in front of me is...
+@page
+@mwoff
+@bi s=bg02b trans=波
+@bgm s=bgm05
+@fi s=w121d pos=c
+@wait time=300
+@mwon
+@qk time=700
+;【背景】自宅廊下
+;【立ち絵】わずか立ち絵　大
+;【演出】文字倍角
+@【至】
+"--!?"
+@page
+@【わずか】
+"......"
+@page
+I open my eyes, and see Wazuka-san right in front of me.
+@page
+@【至】
+"Ah, ah... Wa..."
+@page
+I can't speak.
+@page
+I wanted to see her so badly--
+I want to talk with her about so many things,
+but I can only groan for some reason.
+@page
+@【わずか】
+"......"
+@page
+@【至】
+"Um... Wa... Awa..."
+@page
+@fi s=w557d pos=c
+@v s=11131
+@【わずか】
+"... I understand."
+@page
+@【至】
+"Ah..."
+@page
+As if to ask how I'm doing, Wazuka-san
+smiles at me, just like usual."
+@page
+@v s=11132
+@【わずか】
+"I understand, so..."
+@page
+@fi s=w123ad pos=c
+Putting her arms around me, she tells me that
+she understands, and kisses me.
+@page
+Wazuka-san's faint smell hangs in the air,
+her warm lips touch my cold body, and my
+pulse quickens.
+@page
+@fi s=w121d pos=c
+@v s=11133
+@【わずか】
+"Itaru-kun."
+@page
+@【至】
+"... What?"
+@page
+@fi s=w123d pos=c
+@v s=11134
+@【わずか】
+"Itaru-kun... are you in love with me?"
+@page
+@【至】
+"... Yeah. I love you."
+@page
+Obediently, I speak my mind.
+@page
+No matter what Matsuri or Otogiri-san did,
+I never said that I didn't.
+So now, I can tell her that.
+@page
+@fi s=w121ad pos=c
+@v s=11135
+@【わずか】
+"... Do you remember our promise, at noon?"
+@page
+@【至】
+"Yeah. I remember."
+@page
+We had come to love each other, bit by bit.
+So, we promised not to restrain our feelings.
+@page
+@v s=11136
+@【わずか】
+"I... I can't hold back, right? Can I tell you?"
+@page
+@【至】
+"Please, go ahead.
+Tell me how you feel, right now."
+@page
+@fi s=w123d pos=c
+@v s=11137
+@【わずか】
+"... Okay."
+@page
+She breathes in deeply,
+and stares at me with a serious look.
+@page
+@fi s=w557d pos=c
+@v s=11138
+@【わずか】
+"I... want to do it with you."
+@page
+@v s=11139
+@【わずか】
+"Not because you want me to.
+I want to do it, and I want you to take my first time."
+@page
+Not just for me, she wanted to let me have her first time.
+To her sincere wish, I nodded silently.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01b trans=ひし形(左から右へ)
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+@fi s=w557 pos=c
+;【ワイプ】場所移動
+;【背景】主人公自室
+I went back to my room, and nobody else was there.
+Fanuel was nowhere to be found.
+@page
+We watch each other, and take off our clothes.
+@page
+;【ＳＥ】服を脱ぐ音　衣擦れ音
+@fi id=w
+No words are held between us.
+Only the rustling of clothes.
+@page
+@fi s=w201a pos=c
+Having finished taking off her clothes,
+Wazuka-san is naked now.
+@page
+Even the rustling is gone now.
+Only silence remains.
+@page
+However, it isn't awkward.
+@page
+To the happiness that will only grow in the future,
+I cannot say anything. I can only feel pleasure.
+@page
+@fi s=w103a pos=c
+@v s=11140
+@【わずか】
+"... Itaru-kun."
+@page
+My name is called, and the silence is broken.
+It was the signal that started the happiness.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+@jump storage="140602.scn"
+;→140602

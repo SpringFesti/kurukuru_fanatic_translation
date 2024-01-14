@@ -1,0 +1,78 @@
+﻿;340405
+*340405|_かごめとの約束
+;【ワイプ】場面転換
+;【背景】公園・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09e trans=tile
+@bgm s=bgm14
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Then, here?"
+@page
+@fi s=k114a pos=c
+@v s=30519
+@【かごめ】
+"Sure. I'll see you at school!"
+@page
+@【至】
+"Yeah, see ya."
+@page
+@fi id=k
+She had some things to take care of, so I saw my onee-chan...
+No, I saw Otogiri-san off.
+@page
+I look at her take the back streets home, and not the main streets,
+and I'm wrapped up in a strange feeling.
+@page
+@【至】
+"Onee-chan... huh?"
+@page
+A strange relationship.
+Honestly, I don't think we could ever be siblings.
+@page
+@【至】
+"Or isn't this some kind of lover's fetish play?
+... It's still weird though.
+@page
+We've hopped over way too many steps as lovers.
+Although I've touched her privates, I haven't even held her hand, let alone kissed her.
+@page
+@【至】
+"Is this how being lovers works these days?"
+@page
+No, I don't think that's how Otogiri-san sees it.
+@page
+@【至】
+"... Well, whatever works."
+@page
+In either case, the facts haven't changed.
+@page
+I love Otogiri-san, and I want to be together.
+If that's all there is, then there's no problems.
+@page
+@【至】
+"Now then... what should I do now..."
+@page
+We went to such extents to get to the mall,
+so maybe I should go to a book store or a CD store before I head home.
+@page
+@【至】
+"-- Oh yeah. I'll head to the rental store and pick
+up a movie that Matsuri might want to see."
+@page
+She's been bad, but I guess I said too much to her.
+I should patch things up with her.
+@page
+@【至】
+"But what kind of movie would she like?
+I should choose properly."
+@page
+I decide my destination and begin to walk down Main Street.
+@page
+@mwoff
+;→340406
+@bgm fade=stop
+@jump storage="340406.scn"

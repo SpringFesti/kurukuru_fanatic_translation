@@ -1,0 +1,31 @@
+﻿;010503a
+*010503a|_名前は、ファヌル
+@【至】
+(Yeah... I know this person.
+I remember now... I had forgotten.)
+@page
+Where is the key to understanding this?
+Where is it?
+@page
+Don't worry. I already have it.
+Inside my heart is this girl's name.
+@page
+@【至】
+(... But should I say it?
+If I tell her, something will change, probably. No, definitely.
+This is extraordinarily important, somehow.)
+@page
+There's a proverb that says "Fortune is unpredictable. But it can change."
+This could bring happiness, or unknowable calamity.
+@page
+If I call out the name of the girl in front of me,
+which will really happen?
+After thinking for a little while, I--
+@pages
+@selinit
+@selbtn cap="Call her name" s="010503a1.scn"
+@selbtn cap="Let it drop" s="010503a2.scn"
+@s
+;選択肢
+;名前を呼ぶ　→010503a1
+;やめておこう　→010503a2

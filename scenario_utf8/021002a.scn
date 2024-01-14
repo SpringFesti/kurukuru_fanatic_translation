@@ -1,0 +1,54 @@
+﻿;021002a
+*021002a|_祀利の秘密
+@【至】
+(... Right, it's this. It's Matsuri's multiple personalities.)
+@page
+@fi s=f659 pos=rc
+When I think this, Fanuel winks at me for a moment.
+Of course, she means "Don't get in my way."
+@page
+Of course I know that.
+I turn towards her and nod a little bit.
+@page
+@【至】
+(... Who had this idea in the first place?
+Fanuel hadn't mentioned anything about hypnotism...)
+@page
+So by process of elimination, Wazuka-san must have put the idea forward.
+Actually, after this, she admits that very thing.
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=w122 pos=c
+@endOnce
+I glance at her for a moment,
+and she has a more serious look than anyone here.
+@page
+@fi s=w121 pos=c
+@v s=10471
+@【わずか】
+"What's wrong, Itaru-kun?"
+@page
+Crap, she noticed me looking at her.
+@page
+@【至】
+"Nothing, I was just thinking that hypnotism is really effective."
+@page
+When I try to lie to her like that, a thin smile
+appears on Wazuka-san's face.
+@page
+@fi s=w421 pos=c
+@v s=10472
+@【わずか】
+"Maybe... if it is that effective,
+we might learn lots of things tonight."
+@page
+That's a completely correct answer.
+That's the result of Wazuka-san's plans.
+@page
+In front of the two of us, who have totally different expectations for this,
+Fanuel has a bright smile, as if to say that she has no idea about any of it.
+@page
+;→021002c
+@fi id=w
+@jump storage="021002c.scn"

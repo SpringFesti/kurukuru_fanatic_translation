@@ -1,0 +1,31 @@
+﻿;020300
+*020300|いっしょに行きたい！
+;【ワイプ】時間経過
+;【背景】自室・朝
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=clock
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Uhmmm... I'm alright, aren't I?"
+@page
+I need to make sure I'm good to go, because I left most
+of my textbooks in my desk, and I'm not used to the reduced
+weight.
+@page
+@【至】
+"Finally, my wallet and cell phone...
+Please God, don't heap events on me today."
+@page
+There were way too many yesterday.
+The number of events yesterday equalled the number I'd had all year.
+It's getting really dangerous for me now.
+@page
+;分岐
+;フラグ****起立　→020300a
+;それ以外　→020300b
+@jump storage="020300a.scn" cond="f._010503"
+@jump storage="020300b.scn"

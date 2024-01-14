@@ -1,0 +1,199 @@
+﻿;020500
+*020500|祀利、来襲
+;【ワイプ】時間経過
+;【背景】青空
+;【ＳＥ】チャイム
+;【背景】教室昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=700
+@se s=se011
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Ah-- finally. First period is the worst time of the day."
+@page
+English class sucks. They keep throwing weird words at me and expect me to understand them.
+@page
+I'm barely fluent in Japanese.
+I don't mean to brag, but even though I said I hate it, I've never had to retest an English exam.
+@page
+It feels almost like I'm learning magic spells when I learn English.
+@page
+@【至】
+"Just as I thought, Japanese is good for Japanese people.
+... I still suck at it though."
+@page
+Saying that, I lay my head on the desk. I wonder if I should go buy a drink as I watch Otogiri-san leave the classroom like normal.
+@page
+I wonder where she goes all the time. The cafeteria, or the rooftop, or maybe just the bathroom? The mystery is endless, but I don't care enough to solve it.
+@page
+;【背景】暗転
+@bi s=blank trans=crossfade all=true
+In order to solve the mysteries of English, I decide to ask the Sandman himself. I close my eyes, and feel myself becoming sleepy.
+@page
+;【ＳＥ】倒れる
+@se s=se066
+@qk
+@lfont
+@v s=30082
+@【かごめ】
+"Eeeekk!?"
+@page
+@se s=se088 loop=true
+I hear a scream in the darkness. The noise of other people. Then, someone running.
+@page
+@【？？？】
+@v s=20239
+;@【祀利】
+"Wherewherewherewherewhere's Itaru!?"
+@page
+Did someone call my name just now? It sounded like a girl. But who would call me by my first name in this classroom.
+@page
+I look up for the time being.
+@page
+;【背景】教室昼
+;@se fade=stop
+@bi s=bg12d
+The usual classroom enters my eyes--
+@page
+No, wait.
+The eyes of my classmates are concentrating on something.
+@page
+;@fi s=k112 pos=c
+Following their gaze, I look at the entrance to the classroom. It appears Otogiri-san fell over again as she tried to run from something. She's also staring at something, frightened.
+@page
+;@fi id=k
+What could that be--?
+Looking again, I...
+@page
+@se fade=stop
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true time=100
+@wait time=100
+@bi s=bg12d trans=こすり(右から左へ) time=300
+@bgm s=bgm06
+@fi s=m112 pos=c
+@mwon
+@v s=20240
+@【祀利】
+"Aha♪"
+@page
+@【至】
+"Good night."
+@page
+@fi id=m time=100
+@bi s=blank trans=crossfade all=true time=100
+I slam my face onto the desk. I'd like to go to sleep in about half a second. I'd also like to sleep soundly, unable to be raised by anything.
+@page
+Before I can, I hear someone's footsteps coming closer, then my hair being yanked upward.
+@page
+;【背景】教室昼
+@bi s=bg12d trans=上から下へ time=300
+@fi s=m212 pos=c time=300
+@qk time=700
+@v s=20241
+@【祀利】
+"I finally found you!
+Itaru, I really, reaaally wanted to see you again!"
+@page
+;【立ち絵】祀利大
+@fi s=m112ad pos=c
+@v s=20242
+@【祀利】
+"Smoochー♪"
+@page
+And that was how I got my second kiss.
+@page
+You only see passionate kisses like this in school love dramas, don't you?
+@page
+Heck, only really old ones at that.
+@page
+This kiss might be worthy of a romance, but the way she's grabbing my hair is literally ripping the love out of it.
+@page
+@qk
+@【至】
+"Oww! Let go of my hair, it hurts-- ow!"
+@page
+@fi s=m112ad pos=c
+@v s=20243
+@【祀利】
+"Nooo... kiss, just a little longer... It was really, really hard to find you. Let me have my reward for just a little longer... mnnn..."
+@page
+Forcibly, relentlessly, she continues to hold onto my hair as she kisses me deeply.
+@page
+;@fi s=m647a pos=c
+@v s=20244
+@【祀利】
+"Mnn.. kiss, nn... hah, nn... Itaruuu, more... nn..."
+@page
+I notice that there isn't a single sound in the classroom. Looking around, everyone is staring at me. A natural reaction.
+@page
+With this and the thing with Otogiri-san this morning, people are probably judging me very harshly right now.
+@page
+@【至】
+"Matsuri, let go... come on, let go!"
+@page
+@fi id=m
+I finally force myself away from her.
+@page
+I hear a horrid sound coming from my head, which must mean that she ripped some of my hair out.
+It hurts. A lot. I almost want to cry.
+@page
+@fi s=m64b pos=c
+@v s=20245
+@【祀利】
+"Meaaanie!　You're so stingy! Lemme kiss you some mooore!"
+@page
+I look at her hands and touch the back on my head, and yep, there's a bald spot the size of a dime up there.
+@page
+@【至】
+"Whatever, just go home! I told you not to come here, didn't I!?"
+@page
+@fi s=m114 pos=c
+@v s=20246
+@【祀利】
+"What if you were in trouble! You could have died!"
+@page
+Uhh... when did I ask you to save me? Isn't this just like yesterday?
+@page
+I'm at my wit's end. Matsuri doesn't get that at all, and smiles brightly.
+@page
+@fi s=m111 pos=c
+@v s=20247
+@【祀利】
+"Don't worry, Itaru. I've got something for you."
+@page
+@【至】
+"What?"
+@page
+@fi s=m112 pos=c
+@v s=20248
+@【祀利】
+"I have a lunch box for you.♪ There's no poison in it, too."
+@page
+Um, of course there isn't any poison.
+If there's someone in the world who willingly eats poisoned food, they're either the ultimate masochist or just suicidal.
+@page
+@fi s=m748 pos=c
+@v s=20249
+@【祀利】
+"Itaru, I'm being a good girl now.
+I love you a whole lot, so I'm being a very good girl now."
+@page
+@fi s=m749 pos=c
+@v s=20250
+@【祀利】
+"So... is it okay now? Can I... stay with you now?"
+;@page
+;選択肢
+;仕方ないな　→020501
+;ダメだ帰れ　→020502
+@pages
+@selinit
+@selbtn cap="Can't be helped" s="020501.scn"
+@selbtn cap="I told you, no" s="020502.scn"
+@s

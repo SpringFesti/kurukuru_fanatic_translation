@@ -1,0 +1,65 @@
+﻿;330402
+*330402|_答えと姉と
+@qk time=700
+@lfont
+@【至】
+"NO WAY!
+PREPARE YOURSELFFFF!"
+@page
+@fi s=k346ad pos=c
+@act id=k t=neckswing
+@v s=30283
+@【かごめ】
+"Hii, so, sor, sorr... hi, hiiih!"
+@page
+@【至】
+"Not! That was a joke! I wasn't serious!"
+@page
+@v s=30284
+@【かごめ】
+"Sorrysorrysorrysorr--... Eh?"
+@fi s=k348d pos=c
+@page
+@【至】
+"I-It was a joke.
+Although I don't really know what I'm forgiving, I don't have a reason to get angry."
+@page
+@fi s=k111d pos=c
+@v s=30285
+@【かごめ】
+"......"
+@page
+@【至】
+"... Sorry."
+@page
+@fi s=k112ad pos=c
+@v s=30286
+@【かごめ】
+"I-I, I thought you were extremely, seriously angry at me...
+@page
+@【至】
+"Nah, I'm real sorry about that.
+I just wanted to bully you for a minute."
+@page
+I lower my head as an apology.
+With this angle, I'm already a great member of society.
+@page
+@fi s=k113ad pos=c
+@v s=30287
+@【かごめ】
+"... I-It's fine. It really wasn't..."
+@page
+Alright, looks like my apology passed muster.
+Then--
+@page
+;【演出】文字半角
+@fi s=k212d pos=c
+@sfont
+@v s=30288
+@【かごめ】
+"-- Minus one ideal little brother point."
+@page
+I hear a little whisper from her.
+@page
+;→330403
+@jump storage="330403.scn"

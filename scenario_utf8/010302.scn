@@ -1,0 +1,37 @@
+﻿;010302
+*010302|_October 27th, 8:24AM
+What kind of a girl comes to school with no underwear on?
+She must be some kind of lunatic.
+@page
+Well, in that case――!
+@page
+;【背景】学園廊下/昼
+;【演出】走る+効果線
+@bi s=bg10d time=500
+@【至】
+"Sorry, I just remembered I have something to do!
+My older sister's cousin got into an accident and they're gonna die!"
+@page
+@fi s=k212 pos=c
+It's almost like she has a question mark over her head or something.
+@page
+Alright, this is my chance! Time to run!
+@page
+@【至】
+"A-alright, I'm off to the hospital..."
+@page
+Spewing bullshit, I gradually edge backward.
+@page
+On my ranking list of awful people, sex offenders rank better than lunatics.
+If you talk to a criminal, they'll understand. You can't talk to a lunatic, though.
+@page
+@【至】
+(... One more, just one more step, and I can bolt. 
+One more step and I can get away!)
+@page
+... Hey, wait a sec. What was I supposed to be doing again?
+@page
+What was it? It feels really important. Yeah... yeah, it's gotta be...
+@page
+@jump storage="010303.scn"
+;→010303

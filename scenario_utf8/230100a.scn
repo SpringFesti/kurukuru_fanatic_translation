@@ -1,0 +1,230 @@
+﻿;230100a
+*230100a|婚約の証
+;【ワイプ】場面転換
+;【背景】主人公自室/朝
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se001 loop=true
+@bi s=bg810 trans=clock
+@wait time=1500
+@se s=se110 loop=true
+@gunspfx
+@bgm s=bgm09
+@mwon
+@qk time=1000
+@v s=20671
+@【？？？】
+"Orrrraaaahhhh!!
+Die! Die! Just fuckin' die!!!"
+@page
+@stoppfx
+@se fade=out
+;【ＳＥ】銃声連発
+@bi s=bg01m trans=tile
+With bullets screaming around me,
+and gunshots ricocheting around in my eardrums,
+I awaken to the smell of gunpowder.
+@page
+Since there's no way I could fall back asleep,
+It's a refreshing awakening.
+@page
+;【ＳＥ】銃声連発
+;@gunspfx
+@se s=se110
+@qk time=1000
+@flash time=1000
+@fi s=m51c pos=c
+@v s=20672
+@【祀利】
+"Get out! Don't come near Itaru!"
+@page
+Matsuri screams, a gun in her hand.
+My room's already become a battlefield, filled with bullets.
+@page
+@【至】
+"... So what's all this about?"
+@page
+;@stoppfx
+@setOnce
+@fi id=m
+@fi s=w122 pos=c
+@endOnce
+@v s=10613
+@【わずか】
+"I don't know! I was going to come wake you up,
+but then she suddenly--!"
+@page
+@fi s=w123 move=lc
+@fi s=m515 pos=rc trans=inblink time=500 slide=r
+@v s=20673
+@【祀利】
+"Oraoraoraora!"
+@page
+;【ＳＥ】銃声連発
+@se s=se110
+@qk time=700
+@flash time=700
+@【至】
+"Ah- gotcha.
+She's just firing her guns at you."
+@page
+@fi s=m31c pos=rc
+@v s=20674
+@【祀利】
+"Don't make me say it again. Don't come near Itaru!"
+@page
+@fi s=w122 pos=lc
+@v s=10614
+@【わずか】
+"Kuh... I can't get near him. I can only retreat..."
+@page
+@gunspfx
+;【ＳＥ】銃声連発
+@se s=se110 loop=true
+@fi s=w121 move=c time=300
+@wait time=200
+@fi s=w122 move=l time=300
+@wait time=200
+@fi id=w trans=out slide=r
+Dodging innumerable bullets, Wazuka-san jumps out of the room.
+@page
+@se fade=stop
+@stoppfx
+@fi s=m315 move=c
+@v s=20675
+@【祀利】
+"Phew... she finally left. What a pain."
+@page
+@【至】
+"Don't 'what a pain' me! What the hell are you doing, Matsuri!?"
+@page
+@fi s=m747 pos=c
+@v s=20676
+@【祀利】
+"Oh, you're awake Itaru. Bom dia."
+@page
+@【至】
+"Oh, good morning."
+@page
+@qk
+@【至】
+"... No, wait a second!
+Why are you blowing the house to bits this early in the morning!?"
+@page
+@v s=20677
+@【祀利】
+"Why? Isn't that obvious?
+I'm getting her out of the room."
+@page
+@【至】
+"Wait a minute, stop. Didn't you promise to behave yourself yesterday?"
+@page
+@fi s=m115 pos=c
+@v s=20678
+@【祀利】
+"Yeah, I did promise to behave yesterday. And I did behave. Yesterday."
+@page
+@v s=20679
+@【祀利】
+"Just relax. I was just getting her out of the room."
+@page
+@fi s=m747 pos=c
+@v s=20680
+@【祀利】
+"As long as she doesn't do anything, she can live for now."
+@page
+@【至】
+"Do anything... oh, I get it.
+You know, you could try asking her not to go after you with a knife."
+@page
+If Wazuka-san could accept that, my quiet everyday life could return.
+@page
+@fi s=m11c pos=c
+@v s=20681
+@【祀利】
+"Fuck that. If she gets within 5 meters of you again, I'll fuckin' kill her."
+@page
+@【至】
+"That... might be hard for her to agree to."
+@page
+@fi s=m747 pos=c
+@v s=20682
+@【祀利】
+"Then I guess she doesn't have long to live, does she?"
+@page
+@fi s=m64b pos=c
+@v s=20683
+@【祀利】
+"More importantly... Itaru, did I say you could do anything yesterday?"
+@page
+@【至】
+"Huh? Er, yeah... you said that, but..."
+@page
+Well, that was sudden. But what is she talking about?
+@page
+@fi s=m115 pos=c
+@v s=20684
+@【祀利】
+"Then I'll need you to sign this."
+@page
+She hands me a sheet of paper.
+@page
+It's filled with words in a foreign language that I can't read,
+so I don't konw why she gave it to me.
+@page
+@【至】
+"What's this?"
+@page
+@fi s=m747 pos=c
+@v s=20685
+@【祀利】
+"It's a written oath that says that we're engaged.
+Sign it, then put a bloody thumbprint next to it.
+It proves that we're engaged."
+@page
+@【至】
+"W-Wait, why do I have to do something like that!?"
+@page
+@v s=20686
+@【祀利】
+"I said you could do anything. This is for Matsuri's sake. You don't have a choice in the matter."
+@page
+;【ＳＥ】弾丸装填音
+@se s=se131
+@fi s=m41d pos=c
+She loads a bullet into the chamber and points her pistol at me.
+@page
+@fi s=m415 pos=c
+@v s=20687
+@【祀利】
+"And if you refuse... get it?
+Now, sign it and put that blood seal there."
+@page
+Is she going to shoot me if I refuse?
+@page
+I really don't understand this, but...
+@page
+I've got no choice. I'll sign it for now.
+@page
+I pick up the pen and sign the written oath.
+@page
+@【至】
+"Look, is this enough?"
+@page
+@fi s=m41c pos=c
+@v s=20688
+@【祀利】
+"You can't trust just a signature.
+Put a seal of blood next to it."
+@page
+Matsuri takes a knife out of her pocket and presents it to me.
+@page
+A blood seal... and she'll kill me if I don't do it?
+But can I really afford to do it?
+@pages
+@selinit
+@selbtn cap="Seal it with blood" s="230101.scn"
+@selbtn cap="Don't seal it with blood" s="230102.scn"
+@s
+;選択肢

@@ -1,0 +1,15 @@
+﻿;330603
+*330603|_ほんの少しの帰り道
+The text I got back from Otogiri-san was a little surprising.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30344
+;@【かごめ】
+"I've got a good idea.
+Why don't you contact me like this?"
+@waitclk
+@mnoff
+;→330604
+@bgm fade=stop
+@jump storage="330604.scn"

@@ -1,0 +1,148 @@
+﻿;340502
+*340502|_予兆と陰謀
+;【備考】かごめ視点
+;【ワイプ】視点変更
+;【背景】かごめ自室・消灯
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07b trans=ランダム
+@bgm s=bgm15
+@fi s=k335 pos=c
+@mwon
+@v s=30546
+@【かごめ】
+"... Yes, good night Itaru-kun."
+@page
+His curt manner of business is nice as usual.
+No, there's no reason for it to be bad.
+@page
+Although one seal remains, he is still my younger brother.
+It's impossible for me to dislike him.
+@page
+@fi s=k204 pos=c
+@v s=30547
+@【かごめ】
+"... Now, I must first solve the problem of the first seal."
+@page
+Muttering, I look towards the bed.
+The itty-bitty bitch scowls at me.
+@page
+It was hard to bring her here.
+At any rate, she does have the appearance of a woman.
+It was most difficult to fend off prying eyes.
+@page
+The reason I brought her here was to break the seal.
+And--
+@page
+@fi s=k435 pos=c
+@v s=30548
+@【かごめ】
+"I was blonde until this life, did you know that?
+So Itaru-kun was decieved by your hair."
+@page
+Or was he decieved by your big, round eyes?
+But that comes from the younger sister type parts...
+Well, if my younger brother likes it, then it's okay."
+@page
+@fi s=k439 pos=c
+@v s=30549
+@【かごめ】
+"What... will... we... do... nowwww?"
+@page
+@fi s=k639 pos=c
+I take out my favorite holy broadsword that I used regularly in my previous life,
+which had now taken the form of a tone cutter.
+@page
+@fi s=k635 pos=c
+@v s=30550
+@【かごめ】
+"You shouldn't turn your hair red, you know?
+If you do, all that preparation will go to waste."
+@page
+However, I need to do the ritual before that.
+If she doesn't give up quickly, then I'll have no choice.
+@page
+Let's take her clothes off immediately for that purpose.
+However, her hands and feet are already bound.
+@page
+@fi s=k339 pos=c
+@v s=30551
+@【かごめ】
+"Hey, what do you think will happen if I take your clothes off now?"
+@page
+@v s=21504
+@【祀利】
+"........."
+@page
+@fi s=k335 pos=c
+@v s=30552
+@【かごめ】
+"Well, I guess you can't answer.
+You can't even talk in the first place."
+@page
+@fi s=k339 pos=c
+@v s=30553
+@【かごめ】
+"You should thank me. I was really going to use that
+gag on Itaru-kun. Now I have to go get a new one."
+@page
+@v s=21505
+@【祀利】
+"Nnn! Mn!"
+@page
+@fi s=k33a pos=c
+@v s=30554
+@【かごめ】
+"Yeah, yeah, shut up.
+Now, my response to that question is..."
+@page
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@qk time=700
+@flash color=red time=700
+@fi s=k635 pos=c
+@v s=30555
+@【かごめ】
+"This. Understand?"
+@page
+I swing once and her clothes are cut.
+And a little smear of blood starts to spread.
+@page
+@fi s=k639 pos=c
+@v s=30556
+@【かごめ】
+"And so, LET'S SLASH!"
+@page
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@qk time=700
+@flash color=red time=700
+@wait time=800
+@se s=se067
+@qk time=700
+@flash color=red time=700
+Each time I show my talent,
+The itty-bitty bitch's clothes and skin are cut.
+@page
+@fi s=k639a pos=c
+@v s=30557
+@【かごめ】
+"Oooh, reminds me of the battlefield.
+The sensation of cutting is the beeeeest!"
+@page
+Spirit Up!
+Itty-bitty bitch's raised voice is a pleasant feeling.
+@page
+While in high spirits, I take off her clothes,
+and cut them into strips so I can strip her.
+@page
+And finally is... this.
+@page
+@fi id=k
+@mwoff
+;→340503
+@bgm fade=stop
+@jump storage="340503.scn"

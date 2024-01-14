@@ -1,0 +1,196 @@
+﻿;240400
+*240400|奇妙なメール
+;【ワイプ】場面転換
+;【背景】教室・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@se s=se011
+@bgm s=bgm03
+@mwon
+And then, after lunch time had ended, afternoon classes began.
+@page
+@se fade=out
+Matsuri isn't here sitting on my lap.
+To be honest, it's a strange feeling.
+@page
+This is how it was before.
+@page
+But now, in only two days, I feel a sense of discomfort when she isn't here...
+@page
+@【至】
+(... I really do love Matsuri, don't I?)
+@page
+Alright, after this class ends, I'll ask Wazuka-san and Otogiri-san to let Matsuri out.
+@page
+... If for some reason they say no...
+@wait time=700
+Then I'll think of something I can do.
+@page
+;【ＳＥ】携帯着信音（バイブ）
+@sqk
+As I think, the cell phone in my pocket shakes.
+@page
+As I secretly open my cell phone, I see Fanuel on my standby screen again.
+@page
+Hmph. You're not going to surprise me with something like that, you know.
+@page
+Then, I see that I have a text... and hey,
+it looks like it's from Fanuel.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+;【備考】発音「ｗ」は笑い声「あははははは」
+;【演出】携帯上に文字表記。
+@fi s=f11dd pos=c opacity=160 time=300
+@v s=40544
+"This is finally getting interesting (lol)
+　It's fun to watch (roflmao)"
+@waitclk
+@fi id=f
+@mwon
+What the hell is she writing? I'm gonna get angry.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@fi s=f111d pos=c opacity=160 time=300
+@v s=40545
+"Oh, and you have a text from your lover.
+You should read that."
+@waitclk
+@fi id=f
+@mwon
+From my lover... Does she mean Matsuri?
+@page
+I open up the text.
+@bgm fade=out
+@page
+@bgm s=bgm11
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21130
+"Itaru, where are you? Why is Matsuri all tied up?"
+@waitclk
+@mwon
+This is from Matsuri... No, it must be from Matsuri's original personality.
+@page
+Crap, if I don't explain what's going on--
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@fi s=f111d pos=c opacity=160 time=300
+@sqk
+@v s=40546
+"Oh, you got another text."
+@waitclk
+@fi id=f
+@mwon
+@【至】
+"Oh, shut up. I don't need you to tell me about every text I get."
+@page
+I tell Fanuel off with a whisper, 
+then open up the second text from Matsuri.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21131
+"Itaru, I'm freezing. I'll catch a cold."
+@waitclk
+@mwon
+Oh yeah... she would get cold, if she was left like that.
+That poor thing...
+@page
+However, I'm in class right now.
+There's no way I could go to her right now.
+@page
+;【ＳＥ】携帯着信音（バイブ）
+@sqk
+Just after I think that, my cell phone vibrates again.
+Another text from Matsuri.
+@page
+S-She's sending them one after the other...
+I look at the screen, and--
+@page
+@bgm fade=out
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21132
+"Aha, I get it now, Itaru. You're smart."
+@waitclk
+@mwon
+@bgm s=bgm15
+... What's she talking about?
+This isn't like the other texts at all.
+@page
+Maybe her personality changed, so the topic did too?
+But with this way of writing, she's definitely replying to me.
+@page
+;【ＳＥ】携帯着信音（バイブ）
+@sqk
+-- And with no time to think, the next text comes.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21133
+"So, when the hell are you gonna come let me out?"
+@waitclk
+@mwon
+Even if you ask when, the earliest time that I can is the next break time.
+I'm still in class...
+@page
+;【ＳＥ】携帯着信音（バイブ）
+@sqk
+Then, even if I hesitate for a few seconds,
+the texts just keep coming.
+@page
+@mnon time=300
+@mset l=5 h=true time=300
+@v s=21134
+"Alright, I guess there's nothing I can do.
+But you better come let me out at the next break.
+I'll be waiting, you hear!?"
+@waitclk
+@mwon
+... I didn't send a text to Matsuri yet, did I?
+@page
+I look at the text history in a panic.
+Of course, I hadn't sent Matsuri even one text.
+@page
+Wh-what the hell... How...
+Matsuri, who are you sending texts to?
+@page
+No, I already know that. She's sending them to me.
+These texts are surely meant for me.
+@page
+But she can't be replying to me.
+Because I haven't sent her a single text.
+@page
+However, Matsuri is still talking with me through texts.
+@page
+... Something's off about all this.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@fi s=f11dd pos=c opacity=160 time=300
+@v s=40547
+"Baaahahahahah! What are you even talking about? You're funny. Hahaha!"
+@waitclk
+@fi id=f
+@mwon
+Fanuel is laughing pleasantly on my standby screen.
+@page
+But of course, I'm not in the mood.
+@page
+I notice a line of cold sweat dripping down my spine.
+Even though it's fall, the back of my shirt is wet, as if it were summer.
+@page
+@【至】
+"... What the hell... What's going on...?"
+@page
+I've got a really bad feeling about this.
+@page
+@mwoff
+;→240401
+@jump storage="240401.scn"

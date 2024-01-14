@@ -1,0 +1,49 @@
+﻿;340402
+*340402|_かごめとの約束
+@【至】
+"What kind of manga do you make?"
+I can't imagine what kind of manga you would draw."
+@page
+@fi s=k213 pos=c
+@v s=30409
+@【かごめ】
+"Huh? Oh... uhh, I draw... uhhh..."
+@page
+@【至】
+"What's wrong?"
+@page
+@fi s=k112 pos=c
+@act id=k t=hit
+@v s=30410
+@【かごめ】
+"N-Nothing! Describing the manga I draw is a little difficult..."
+@page
+@【至】
+"I read plenty of manga. If you tell me the kind of
+atmosphere it has, I think I'll understand."
+@page
+@fi s=k213 pos=c
+@v s=30411
+@【かごめ】
+"... Jus-just a moment.
+Ummm... that's, ahhh...
+I, um... I can't explain it well."
+@page
+@fi s=k112a pos=c
+@v s=30412
+@【かごめ】
+"But I'm not saying you wouldn't know about it!
+I... I draw a wide variety of miscellaneous manga!
+Y-Yes! There is no main, common genre among them!"
+@page
+@【至】
+"Hmmm... I see. In that case, I guess you couldn't really explain it easily."
+@page
+Otogiri-san has become somewhat, no, extremely nervous for some reason.
+I realize that as I read the air.
+@page
+I don't absolutely need to hear about it.
+Rather, forcing her to talk more would be bad.
+@page
+;→340403
+@jump storage="340403.scn"

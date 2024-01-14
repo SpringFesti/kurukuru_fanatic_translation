@@ -1,0 +1,396 @@
+﻿;010503
+*010503|_The Party Begins
+@setOnce
+@bgm fade=stop
+@mwoff
+@fi id=m
+@bi s=bg850 time=100
+@endOnce
+@se s=se069
+@qk time=300
+@flash time=300
+@bi s=bg860 time=100
+@qk time=300
+@flash time=300
+@bi s=bg8150 time=100
+;【背景】効果線
+;【ＳＥ】金属がぶつかる
+@qk time=300
+@flash time=300
+@wait time=500
+;【背景】自宅玄関・灯りアリ
+@bgm s=bgm16
+@bi s=bg03d
+@fi s=w322 pos=c
+@mwon
+@v s=10179
+@【わずか】
+"You can die now."
+@page
+Knife and gun grind against each other and sparks fly, 
+lighting up the air in front of me.
+@page
+@【至】
+"Wa, Wazuka-san?!"
+@page
+@v s=10180
+@【わずか】
+"Step aside. I'm going to kill her."
+@page
+@setOnce
+@fi s=w322 move=lc
+@fi s=m315 pos=rc
+@endOnce
+;@v s=20044
+;@【祀利】
+;「それは祀利のセリフだよ――お願い」
+;@page
+;【立ち絵】祀利/両手持ち
+;@fi s=m315 pos=rc
+@v s=20045
+@【祀利】
+"...Tch, I was busy. Alright, let's enjoy ourselves."
+@page
+@v s=10181
+@【わずか】
+"Better yet―― die."
+@page
+@bi s=current all=true trans=crossfade time=200
+@mwoff
+;【演出】剣閃
+;【ＳＥ】剣閃
+@se s=se070
+@qk time=800
+@flash time=800
+@wait time=2000
+@mwon
+Wazuka-san swings her knife without hesitation.
+Without a doubt, she's aiming for Matsuri's heart.
+@page
+Watch out――! I wanted to say that. However, I couldn't.
+Before I could, Matsuri's hands moved too.
+@page
+@se s=se069
+@qk time=500
+@flash time=500
+@wait time=500
+@fi s=m315 pos=c
+@v s=20046
+@【祀利】
+"Tchau!"
+@wait time=800
+@mwoff
+;【演出】銃撃　ループ
+@fi id=m
+@gunspfx
+@se s=se110 loop=true
+@wait time=2500
+@stoppfx
+@se fade=stop
+;【演出】停止
+;【ＳＥ】停止
+@mwon
+She was still standing. 
+Wazuka-san still stood, faint gun smoke blowing around her.
+@page
+@setOnce
+@fi s=w321 pos=lc
+@fi s=m515 pos=rc
+@endOnce
+@v s=20047
+@【祀利】
+"How'd you dodge that?"
+@page
+I realized what she meant.
+There were no wounds on Wazuka-san's body.
+However, there were bullet holes drilled into the floor around her.
+@page
+@v s=20048
+@【祀利】
+"It didn't occur to you to run?"
+@page
+@v s=10182
+@【わずか】
+"Not at all."
+@page
+@fi s=m51c pos=rc
+@v s=20049
+@【祀利】
+"Then how?"
+@page
+@v s=10183
+@【わずか】
+"My goal is to kill you. To rescue Itaru-kun. That's all."
+@page
+@v s=20050
+@【祀利】
+"You don't factor your own life into that?"
+@page
+@v s=10184
+@【わずか】
+"No need to say."
+@page
+@fi s=m515 pos=rc
+@v s=20051
+@【祀利】
+"I get you."
+@page
+@bi s=current all=true trans=crossfade
+The two take up battle stances once more.
+@page
+What the hell?　Is this okay?! This is Japan, right?! Wasn't this a comedy!!!?
+@page
+While I think that, the distance between Wazuka-san and Matsuri slowly closes.
+@page
+That distance measured how long before one of them died.
+It continues to shrink. It shrinks, and shrinks, and then――
+@page
+@setOnce
+@fi s=w329 pos=lc
+@fi s=m313 pos=rc
+@endOnce
+;【立ち絵】わずか・祀利驚き
+@qk time=500
+@flash time=500
+@lfont
+@【至】
+"Stop ittt!!!"
+@page
+@setOnce
+@fi s=w123 pos=lc
+@fi s=m113 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=10185
+;@【わずか】
+"Itaru-kun..."
+;@v s=20052
+;@【祀利】
+;「至……」
+@page
+@【至】
+"You two have to stop! Enough, both of you!"
+@page
+@【至】
+"This is Japan! And it's my house! You, don't fire holes into the walls!
+Wazuka-san, stop swinging that knife around! Just, just――"
+@page
+@qk time=500
+@flash time=500
+@lfont
+@【至】
+"STOP FIGHTING!"
+@page
+@【至】
+"Make love, not war! We can make money off this! Take it all off! 
+Fight naked!"
+@page
+@setOnce
+@fi s=w121 pos=lc
+@fi s=m111 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=10186
+;@【わずか】
+"Okay."
+;@v s=20053
+;@【祀利】
+;「わかった」
+@page
+The two of them nod, and begin taking off their clothes.
+@page
+@【至】
+"No, stop! I was joking! Don't take off your clothes, seriously!"
+@page
+@fi s=m747 pos=rc
+@v s=20054
+@【祀利】
+"You're so perverted～♪"
+@page
+@v s=10187
+@【わずか】
+"I don't mind if you want to see me naked. You want it now, or later?"
+@page
+@【至】
+"No, really, don't! Anyway, who the hell are you?!"
+@page
+――Then, I point straight at Matsuri. I know her name, and nothing else. 
+She's Mystery Girl X.
+@page
+@fi s=m64b pos=rc
+@v s=20055
+@【祀利】
+"I told you, I'm Matsuri. Matsuri Carnaval."
+@page
+I don't mean to boast, but I have a great memory.
+If I knew her name, I would have remembered it by now.
+@page
+@fi s=m214 pos=rc
+@v s=20056
+@【祀利】
+"What's with that face? Don't you remember?　
+We played a little while ago, didn't we?"
+@page
+@【至】
+"When?"
+@page
+@fi s=m111 pos=rc
+@v s=20057
+@【祀利】
+"13 years and 129 days ago."
+@page
+@【至】
+"That's not a little while. That's a long while. A very long while."
+@page
+@fi s=m212a pos=rc
+@v s=20058
+@【祀利】
+"Time is a small problem for two people in love. 
+After all, you're my fiance～♪."
+@page
+@v s=10188
+@【わずか】
+"Liar."
+@page
+@fi s=m114 pos=rc
+@v s=20059
+@【祀利】
+"I'm not a liar."
+@page
+@fi s=w122 pos=lc
+@v s=10189
+@【わずか】
+"Then why did you do that terrible thing to Itaru-kun?"
+@page
+@fi s=m111 pos=rc
+@v s=20060
+@【祀利】
+"The kiss? What, are you jealous?"
+@page
+@fi s=w121 pos=lc
+@v s=10190
+@【わずか】
+"No, not the kiss. Itaru-kun's hand."
+@page
+Wazuka-san says that and touches my palm.
+@page
+Then, I notice. My hand's all scratched up.
+It must've been from when I got knocked over by Matsuri.
+@page
+@fi s=w122 pos=lc
+@v s=10191
+@【わずか】
+"You can do anything you want to me. But if you hurt Itaru-kun, 
+I won't ever forgive you!"
+@page
+;@fi s=m112 pos=rc
+@v s=20061
+@【祀利】
+"I agree. I'm his fiance, after all."
+@page
+@fi s=m74ba pos=rc
+@v s=20062
+@【祀利】
+"Sorry Itaru, you must've been in pain all alone.
+But I'm with you now, so you'll be okay."
+@page
+@se s=se131
+@fi s=m411 pos=rc
+;【ＳＥ】拳銃を構える
+;【立ち絵】祀利/銃をかまえる～片手のみ
+Saying that, Matsuri takes out her gun once again. 
+She points it straight at me. She squeezes the trigger, and then――
+@page
+@mwoff
+@se s=se109
+@qk time=800
+@flash time=800
+@wait time=2000
+@fi s=m111 pos=rc
+@mwon
+@v s=20063
+@【祀利】
+"We're the same if I do this, right?"
+@page
+Just as she said, there's now a bloody, gaping gash in Matsuri's hand.
+There's blood all over the gun.
+@page
+@fi s=m112 pos=rc
+@v s=20064
+@【祀利】
+"Now we're the same. We're pain buddies～♪."
+@page
+Each time she moved her hand, more crimson blood dripped down to the floor.
+I could see into the meat of her hand...
+@page
+@【至】
+"Who's supposed to be buddies with you?! Wazuka-san, call an ambulance!"
+@page
+@fi s=w121 pos=lc
+@v s=10192
+@【わずか】
+"Eh, she can rub some dirt in it."
+@page
+@【至】
+"Dirt!?　Call the hospital, fast!"
+@page
+@fi s=m74ab pos=rc
+@v s=20065
+@【祀利】
+"No. You think I want you to call an ambulance? Hell no. 
+I don't like that place. I'll die. Die. DIE. DIEDIEDIEDIEDIEDIEDIE."
+@act id=m t=neckswing
+@page
+;【ＳＥ】銃を構える
+@act id=m t=stopswing
+@se s=se131
+@fi s=m515 pos=rc
+@v s=20066
+@【祀利】
+"Die."
+@page
+@fi s=w321 pos=lc
+Wazuka-san readies her knife again, and I'm pretty sure I'm going to start screaming "Not this shit again!" soon.
+@page
+@【至】
+"Just wait a second, you two! Calm down!　It's night, right!? 
+The neighbors will notice!"
+@page
+;【備考】ユニゾン
+@v s=10193
+@【わずか】
+"So what?"
+;@v s=20067
+;@【祀利】
+;「だから何？」
+@page
+@【至】
+"Ah... well, do it quietly at least."
+@page
+What am I talking about?! Stop! If I don't stop them, somebody's going to die!
+@page
+@【至】
+"I mean, I get that part! But what the hell do I do now?!"
+@page
+@setOnce
+@bgm fade=stop
+@fi id=w
+@fi id=m
+@fi s=f111 pos=c
+@endOnce
+@v s=40101
+@【ファヌル】
+"You gonna put yourself between 'em or something?"
+@page
+@【至】
+"... Huh? Y-you, you're... ?"
+@page
+@bgm s=bgm08
+Suddenly, the front door opens up. From out of the blue comes a stranger.
+No, I feel like I've seen this person somewhere.
+@page
+@jump storage="010503a.scn" cond="f._000104"
+@jump storage="010503b.scn"
+;分岐
+;フラグ****起立　→010503a
+;上記以外　→010503b

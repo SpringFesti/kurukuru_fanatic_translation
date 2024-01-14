@@ -1,0 +1,31 @@
+﻿;230101
+*230101|_婚約の証
+@eval exp="f.matsuri++"
+;【好感度】祀利+1
+It's ridiculous, but if Matsuri wants it, then I guess I really do have no choice.
+@page
+@【至】
+"Got it. Gimme the knife."
+@page
+@fi s=m415 pos=c
+@v s=20689
+@【祀利】
+"Good. Seems like we understand each other."
+@page
+I slice though my thumb with the knife.
+@page
+A tingling pain runs through my thumb, and blood begins to seep through it.
+@page
+Then, I push my thumb onto the written oath.
+Now there's an engravement shaped like a thumbprint.
+@page
+@fi s=m41d pos=c
+@v s=20690
+@【祀利】
+"You're a pretty obedient guy. I didn't expect that.
+Or... were you just afraid of me?"
+@page
+Matsuri sneers at me, and admires her gun, stroking it.
+@page
+;→230103
+@jump storage="230103.scn"

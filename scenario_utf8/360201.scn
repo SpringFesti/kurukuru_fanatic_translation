@@ -1,0 +1,71 @@
+﻿;360201
+*360201|_運命の日
+;【備考】（わずか視点）
+;【ワイプ】視点切り替え
+;【背景】学園廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm05
+@fi s=w111 pos=c
+@sqk
+@se s=se031
+@mwon
+My cell phone vibrates in my bag.
+It must be Itaru-kun.
+@page
+And of course, it is Itaru-kun.
+@page
+But that's enough.
+I don't need anything except for Itaru-kun.
+@page
+When I put my hand into my bag, I do not grasp my cell phone.
+Instead, I grasp the side of my kitchen knife.
+@page
+It's okay if Itaru-kun hates me.
+I have to deal with this somehow.
+@page
+She is dangerous.
+Unlike Matsuri and I, if she obtains Itaru-kun, she wouldn't care if she brought him hell.
+@page
+I can't delay.
+If I don't hurry up, Itaru-kun will...!
+@page
+@fi s=w312 pos=c
+@v s=10757
+@【わずか】
+"I'll kill her. Even if we stab each other, I'll kill her.
+At worst, I'll take away one of her hands or feet.
+@page
+@fi id=w
+I walk towards Itaru-kun's classroom.
+@page
+A bit later.
+When I go down those stairs, there--
+@page
+When I pass the unused classroom in the hallway,
+I see something between the doors that opened a little for just a moment.
+@page
+@mwoff
+@se s=se118
+@bi s=bg8140 time=100
+@qk time=1000
+@flash color=red
+@mwon
+@lfont
+@v s=10758
+@【わずか】
+"Agh!?"
+@page
+What the hell is...!?
+@page
+My head takes a sharp blow, and my body stops working, as if it were paralyzed--
+@page
+My consciousness fades, and my eyes barely catch
+a fragment of plaster in the hallway...
+@page
+@mwoff
+;→360202
+@bgm fade=out
+@jump storage="360202.scn"

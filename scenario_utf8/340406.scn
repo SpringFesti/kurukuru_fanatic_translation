@@ -1,0 +1,431 @@
+﻿;340406
+*340406|邪魔はさせない
+;【備考】かごめ視点
+;【ワイプ】視点変更
+;【背景】住宅街路上・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08e trans=ランダム
+@bgm s=bgm15
+@fi s=k349 pos=c
+;@act id=k t=hit
+@mwon
+@v s=30520
+@【かごめ】
+"Kufuh, fu... kufufufufu!"
+@page
+I did it!
+My intuition was correct after all.
+@page
+That person is my younger brother.
+I'm absolutely certain.
+The number of points he has proves it.
+@page
+Moreover, I confirmed it a short while ago.
+That person has a mole in the same place as my other younger brother did in a previous life.
+@page
+The synchronization rate has broken through to 120%.
+Now all that's left is to awaken him.
+@page
+@fi s=k345 pos=c
+@v s=30521
+@【かごめ】
+"It'll be okay, Itaru-kun.
+I'll wake you up properly, won't I?
+It'll be painful, but only at the start."
+@page
+A strong stimulation is necessary to awaken him.
+Yes, I'm certain that his seal has loosened a little bit.
+@page
+We'll melt into each other greedily with hardcore sex.
+This is the means that I found to break the witch's seal.
+@page
+@fi s=k445a pos=c
+@v s=30522
+@【かごめ】
+"What kind of items will Itaru-kun like?
+In those days, they didn't have THAT kind of thing, so I wonder if he'll like it..."
+@page
+@fi s=k349 pos=c
+@v s=30523
+@【かごめ】
+"Kufufu, fufu, it looks like I've gotten a bit weird.
+So this is the rumored intracranial substance!
+My ambition is paralyzing the pain like morphine!"
+@page
+;【備考】祀利立ち絵無し
+;【備考】本編話者なし
+@v s=21484
+;@【祀利】
+@【？？？】
+"If it is, why don't I try some?"
+@page
+;【ＳＥ】銃声
+;【演出】クエイク
+;@gunspfx
+@bgm fade=stop
+@bgm s=bgm17
+@se s=se109
+@qk
+@flash
+@fi s=k34ab pos=c
+@lfont
+@v s=30524
+@【かごめ】
+"Agyaaaah!?"
+@page
+;@stoppfx
+A terrible heat rises from my shoulders.
+No, it's not heat.
+It's pain.
+@page
+;【備考】祀利立ち絵無し
+;【備考】本編話者なし
+@v s=21485
+;@【祀利】
+@【？？？】
+I thought so, but it was you, wasn't it?
+@page
+@fi s=k112b pos=c
+@v s=30525
+@【かごめ】
+"W=What... what is... what did you do...?"
+@page
+@fi id=k
+I don't understand, so I turn around, and there is--
+@page
+@fi s=m315 pos=c
+@qk
+@lfont
+@v s=30526
+"Hiii!?"
+@page
+Her. The one with the gun at the ready.
+In other words, the reason I'm in this pain is because of her bullet!"
+@page
+@fi s=m515 pos=c
+@v s=21486
+@【祀利】
+Try to understand what I'm about to say to you.
+The first shot was just a threat, so I hit you in the shoulder.
+Scary.
+Scaryscaryscaryscary.
+I'll be killed.
+@page
+@fi id=m
+@fi s=k112b pos=c
+@v s=30527
+@【かごめ】
+"Hi, ii... h, hiiiih!"
+@page
+This has become an overwhelmingly frightening situation.
+My knees collapse without my permission and my bottom flops onto the ground.
+@page
+@fi s=k446b pos=c
+@act id=k t=neckswing
+@v s=30528
+@【かごめ】
+"Ah... aah, aaaahhhaaa..."
+@page
+But I was not forgiven.
+With so much fear in me, I feel my underwear get warm and the ground becomes wet.
+@page
+@act id=k t=stopswing
+@fi id=k
+@fi s=m515 pos=c
+@v s=21487
+@【祀利】
+"Hah, you're unsightly.
+Guess that's only natural for a thieving bitch like yourself."
+@page
+@fi s=m51c pos=c
+@v s=21488
+@【祀利】
+"Itaru is Matsuri's, got it?
+Nobody told you that you could have him!"
+@page
+;パレード
+;@fi s=m515 pos=c
+@v s=21489
+@【祀利】
+"So I'll erase you.. is what I'd like to say,
+but if I killed you, Itaru wouldn't like it.
+So the bullet I just shot was rubber, not lead.
+@page
+;パレード
+@fi s=m515 pos=c
+@v s=21490
+@【祀利】
+"So let's perform some plastic surgery.
+Even if Itaru looks, he won't understand."
+@page
+Itaru... kun?
+@page
+The person who is turning her gun towards me certainly said that just now.
+Yes, this is one of the witch's accomplices.
+One of the demons obstructing Itaru-kun's awakening.
+@page
+;@fi s=m51c pos=c
+@v s=21491
+@【祀利】
+"What's wrong? Plead for your life and I might listen.
+-- I might even forgive you, just a tiny bit.
+@page
+@fi id=m
+@fi s=k34a pos=c
+@v s=30529
+@【かごめ】
+"... --nd him over..."
+@page
+@fi id=k
+@fi s=m51c pos=c
+@v s=21492
+@【祀利】
+"Hn, what'dya say?"
+@page
+@fi id=m
+@fi s=k347 pos=c
+@act id=k t=neckswing
+@v s=30530
+@【かごめ】
+"Won'tletyouWon'tletyouWon'tletyouWon'tletyou!
+I won't let you get in our way!"
+@page
+Howling with all my might, I jump and slam into the witch.
+@page
+@act id=k t=stopswing
+@fi id=k
+@linepfx
+@fi s=m51c pos=c
+@v s=21493
+@【祀利】
+"Tch!"
+@page
+;【ＳＥ】銃声数回
+@setOnce
+@se s=se110
+@gunspfx
+@endOnce
+-- Even if she's shooting desperately, I can see it.
+Without time to deploy a shield,
+I've already got something on hand.
+@page
+I only need to prevent her from hitting my face.
+I hold up my bag in front of my face. Her rubber bullets will make holes in it,
+but it'll do the job.
+@page
+Just like that, I slam into the witch.
+@page
+;【演出】クエイク
+@setOnce
+@stoppfx
+@fi id=m
+@endOnce
+@se s=se118
+@qk
+@flash
+@lfont
+@v s=21494
+@【祀利】
+"Ughhh!?"
+@stoppfx
+@page
+;【イベントＣＧ】evn3040
+@mwoff
+@bi s=evn3040
+@wait time=300
+@mwon
+The witch falls to the ground.
+It was a mistake to make such a small body her vessel.
+@page
+Right away, I put my hands around her throat.
+@page
+;パレード
+@v s=21495
+@【祀利】
+"Fucker, lemme go!"
+@page
+;【ＳＥ】銃声数回
+;【演出】クエイク
+@se s=se110
+@qk time=700
+@flash time=700
+My stomach burns.
+But it doesn't hurt at all.
+@page
+That's only natural.
+I hate this girl more than that.
+@page
+@v s=30531
+@【かごめ】
+"I won't hand him over, never!
+Itaru-kun is my little brother!"
+@page
+@qk
+I squeeze tight with both hands.
+Her left hand is in the way, so I can't strangle her well.
+@page
+;パレード
+@v s=21496
+@【祀利】
+"Guh... oh, no fuckin' way...!
+There's no fuckin' way you're his older sister!"
+@page
+@v s=30532
+@【かごめ】
+"You're wrong.. that boy is my younger brother.
+He was in my previous life, and the one before that, and the one before that!
+He will always be my sibling!"
+@page
+;【イベントＣＧ】evn3041
+;パレード
+@mwoff
+@bi s=evn3041
+@wait time=300
+@mwon
+@v s=21497
+@【祀利】
+"You... nonsense-spewing bitch!"
+@page
+;【ＳＥ】銃声数回
+@se s=se110
+@qk time=700
+@flash time=700
+I hear a dull sound and bullets sink into my abdomen.
+However, I feel neither heat nor pain.
+That's because I prepared a shield to cut the damage.
+@page
+@v s=30533
+@【かごめ】
+"Look! Your magic attacks won't work any more!
+This power is evidence of your lies!"
+@page
+;パレード
+@v s=21498
+@【祀利】
+"Get off the drugs, got it!?
+Itaru is only your younger brother inside your own head!"
+@page
+@v s=30534
+@【かごめ】
+"No! He is my younger brother!
+Reincarnating for tens of thousands of years,
+and every time we meet each other!"
+@page
+;パレード
+@v s=21499
+@【祀利】
+"Such delusions...
+What would Itaru think if he heard this!?"
+@page
+@v s=30535
+@【かごめ】
+"He wouldn't know what to decide yet!
+He hasn't awakened yet!"
+@page
+;パレード
+@v s=21500
+@【祀利】
+"... Shit, she's a real live mental case...
+Fucker, get the hell--"
+@page
+;【イベントＣＧ】evn3042
+@mwoff
+@bi s=evn3042
+@wait time=300
+@mwon
+@v s=30536
+@【かごめ】
+"It's your damned fault!"
+It's because of the seal that both of you witches made!"
+@page
+@v s=30537
+@【かごめ】
+"First will be you...
+I'll break you and prevent you from using magic!"
+@page
+@qk time=700
+Squeezesqueezesqueeze.
+I squeeze even harder with my hands.
+This is surely the power of my love for my younger brother.
+@page
+;パレード
+@v s=21501
+@【祀利】
+"Kah, hah... gh..."
+@page
+@v s=30538
+@【かごめ】
+"Come on, comeoncomeoncomeon!
+Break, quickly! Break, break, break!"
+@page
+;パレード
+@v s=21502
+@【祀利】
+"Agh...h, ahk, gah... geheh."
+@page
+I hear a strange clinking sound.
+Then, I see the witch's expression change.
+@page
+@v s=30539
+@【かごめ】
+"You've run out of bullets! Ahahahahaha!
+Look, God has said that I'm the one in the right!"
+@page
+That's right, I'm the hero.
+And so, there can be only one ending.
+@page
+;パレード
+@v s=21503
+@【祀利】
+"Kehe...h, kuhi... ah..."
+@page
+;【イベントＣＧ】evn3043
+@mwoff
+@bi s=evn3043
+@wait time=300
+@mwon
+@v s=30540
+@【かごめ】
+"I did it... I did it, DiditDiditDidit!"
+@page
+I've defeated the witch!
+Look how her unsightly eyes open wide!
+@page
+@v s=30541
+@【かごめ】
+"Look, I was right...
+This proves that I wasn't wrong!"
+@page
+Now I'm fine.
+Everything is alright now.
+@page
+If I was wrong, then this wouldn't have been allowed to happen.
+Yes! This proves that the witch was evil!"
+@page
+@v s=30542
+@【かごめ】
+"Now, what should I do next..."
+@page
+Yes, there is one seal left remaining.
+The false older sister.
+@page
+That bitch that's taken my place as his sister.
+The main reason that Itaru-kun and I are not closer.
+This girl is but a small fry compared to her.
+@page
+@v s=30543
+@【かごめ】
+"I'll erase her from Itaru-kun's life...
+Once he understands that she's a witch, Itaru-kun will be delighted."
+@page
+@v s=30544
+@【かごめ】
+"Wait for me, Itaru-kun...
+Aha, ahaha, kuhi... kihihihihihii!"
+@page
+@mwoff
+;→340407
+@bgm fade=stop
+@jump storage="340407.scn"

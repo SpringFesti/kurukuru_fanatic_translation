@@ -1,0 +1,102 @@
+﻿;330406
+*330406|_答えと姉と
+;【備考】かごめ視点
+;【ワイプ】時間経過＋視点変更
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ランダム
+@bgm s=bgm15
+@mwon
+@v s=30329
+@【かごめ】
+"This is... Takamichi-kun's. My younger brother's sperm..."
+@page
+@mwoff
+@bi s=evn3030
+@wait time=300
+@mwon
+I look at the sperm, still on my hands.
+@page
+I didn't wipe it off, just a while ago.
+Instead, I kept it stuck to my hand.
+@page
+This is actually the first time I've seen semen.
+After all, this is the first time I've given a handjob.
+@page
+But it went better than I thought.
+My younger brother felt good too... and gave me this.
+@page
+Should I use my mouth next time?
+He gave me a really great expression, just like I expected.
+Asking his onee-chan with that expression. Moe.
+@page
+... Even so, it's an amazing smell.
+Although I couldn't say that it smells good,
+it makes me think of my younger brother.
+@page
+When I rub it between my fingers, I hear a sticky sound,
+and a semitransparent liquid climbs all over my finger.
+@page
+Indeed, this will serve as a great reference.
+... Oh, not as a manga artist, but as that.
+@page
+@v s=30330
+@【かごめ】
+"Now, how about the taste... hmm."
+@page
+I lick the sperm off my palm and take it into my mouth.
+The taste that spreads in my mouth is smelly and numbing.
+@page
+@v s=30331
+@【かごめ】
+"Nn, kuchu... kuchuh, nkuh..."
+@page
+;【イベントＣＧ】evn3031
+@mwoff
+@bi s=evn3031
+@wait time=300
+@mwon
+@v s=30332
+@【かごめ】
+"Nhah, aah..."
+@page
+Although it should taste bad, it tastes delicious.
+Is this something like love being the secret ingredient in cooking!?
+@page
+@v s=30333
+@【かごめ】
+"Kefuh... ha.
+This is my younger brother... Itaru-kun's taste."
+@page
+Although I drank it after fully diluting it with saliva,
+even with a situation like that, there's still a feeling that is caught in my throat.
+@page
+But it's not bad.
+No, on the other hand, it's good.
+Little brother milk is awesome!
+@page
+;【イベントＣＧ】evn3032
+@mwoff
+@bi s=evn3032
+@wait time=300
+@mwon
+@v s=30334
+@【かごめ】
+"Nfu... kufufu, kufufufu...
+Itaru-kun, next time you can't stand it anymore,
+why don't you let your younger sister drink it?"
+@page
+But first I should get used to it.
+Next time, I'll drink it directly.
+@page
+After all, your onee-chan isn't good with lewd situations.
+So I can't spoil him rotten yet.
+@page
+But it's okay, because he's my ideal little brother--
+@page
+@mwoff
+;→330500
+@bgm fade=stop
+@jump storage="330500.scn"

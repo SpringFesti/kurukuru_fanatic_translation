@@ -1,0 +1,33 @@
+﻿;120201
+*120201|_気まずい二人
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+I shouldn't have to think about it.
+I was in the wrong, so I have to do this.
+@page
+@【至】
+"Wazuka-san."
+@page
+@fi s=w111 pos=c
+@v s=10316
+@【わずか】
+"Yes?"
+@page
+@【至】
+"I'm sorry about coming in on you earlier."
+@page
+@fi s=w113 pos=c
+@v s=10318
+@【わずか】
+"Why?"
+@page
+@【至】
+"Huh?"
+@page
+@fi s=w548 pos=c
+@v s=10319
+@【わずか】
+"Why are you apologizing? You didn't do anything bad."
+@page
+;→120203
+@jump storage="120203.scn"

@@ -1,0 +1,332 @@
+﻿;160103
+*160103|_２人きり
+;【ワイプ】時間経過
+;【背景】屋上
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=tile
+@bgm s=bgm20
+@mwon
+@【至】
+"......"
+@page
+@fi s=w547ad pos=c
+@【わずか】
+"......"
+@page
+Basking on the roof,
+we soak in the afterglow of our acts.
+@page
+Holding onto her, at last,
+our time as lovers has begun.
+@page
+What will I do in the future?
+@page
+Should we go shopping on the way back?
+@page
+We could buy the normal stuff, but maybe
+we should start thinking in terms of
+husband and wife.
+@page
+Or maybe not. It'll be great either way.
+@page
+Since we've become lovers, maybe
+we should hold hands on the way back home?
+@page
+@【至】
+"... Well, I'm sure even crazier stuff will
+happen now..."
+@page
+Oh, how happy I am!
+@page
+Through fortune and misfortune, I've ended up at
+that truth.
+@page
+I've had hard times up until now, but my happy
+every-day life starts here.
+@page
+@【至】
+"Hey, Wazuka-san--"
+@page
+@fi s=w113ad pos=c
+I try to take her shoulder and kiss her again, when--
+@page
+@fi id=w
+@bgm fade=stop
+@qk time=800
+@lfont
+@v s=30762
+@【？？？】
+"GYAAAAHHHHHHH!"
+@page
+@mwoff
+@se s=se066 v=50
+@qk
+@wait time=2000
+@bgm s=bgm15
+@mwon
+Suddenly, a scream echoes around me.
+@page
+;【ＳＥ】喧騒
+@se s=se087 buf=1 loop=true v=50
+@se s=se088 buf=2 loop=true v=50
+It came from the courtyard.
+@page
+Students who heard the scream are gathering there.
+Even from the roof, I can hear the noise of those
+people.
+@page
+@【至】
+"W-What!? What just happened!?"
+@page
+I look through the fence towards the courtyard.
+@page
+However, because of the amount of people,
+I can't tell what happened.
+@page
+@mnon time=300
+@mset l=5 h=true time=300
+Hey, what happened?
+Wow, how awful!
+Take a picture, come on!
+@waitclk
+@mwon
+Curious bystanders speak their minds freely.
+In an conversation with no form,
+I still can't tell what happened.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+Woow, from up there? Jumped off the roof?
+Then... suicide?　She really jumped off the roof and killed herself?
+@waitclk
+@mwon
+@【至】
+"Jumped off... suicide?"
+@page
+At last, from amongst the clamor,
+I begin to understand what was going on.
+@page
+@【至】
+"Wazuka-san, did you hear?! Someone just committed suicide!"
+@page
+@fi s=w111 pos=c
+@v s=11315
+@【わずか】
+"Yep."
+@page
+@【至】
+"I wonder who died...?"
+@page
+Unable to understand, I try to listen
+to the spectators once again.
+@page
+@fi id=w
+@mnon time=300
+@mset l=4 h=true time=300
+Hey, did you know that girl?
+No, I didn't... you?
+Did anybody know her?
+@waitclk
+@mnon time=300
+@mset l=3 h=true time=300
+Oh, I know her!
+@waitclk
+@mnon time=300
+@mset l=5 h=true time=300
+She was kinda shy, but we were in the same class.
+Let's see, her name was... was...
+@wait time=1500
+... Oh, yeah! I remember!
+@waitclk
+@bgm fade=out
+@se fade=out buf=1
+@se fade=out buf=2
+@mnon time=300 size=50
+@mset l=5 h=true time=300
+@qk time=1000
+Otogiri! It was Otogiri!
+@waitclk
+@mwon
+@bgm s=bgm17
+@【至】
+"...... Eh?"
+@page
+@fi s=w647 pos=c
+@v s=11316
+@【わずか】
+"Fuh... fufu..."
+@page
+@【至】
+"... Wazuka-san?"
+@page
+@fi s=w115 pos=c
+@v s=11317
+@【わずか】
+"Kukukukuku..."
+@page
+@【至】
+"Otogiri-san... just killed herself..."
+@page
+@fi s=w414 pos=c
+@v s=11318
+@【わずか】
+"Yes... isn't that nice?"
+@page
+"... Nice?"
+@page
+@fi s=w214 pos=c
+@v s=11319
+@【わずか】
+"Yes. It was hard to make up an alibi, and the specific
+devices were tricky, but if they think it was a suicide,
+then it's fine."
+@page
+What is she saying?
+Otogiri-san just died... and that's good?
+@page
+Alibis and devices... then, it was...
+@page
+@fi s=w547 pos=c
+@v s=11320
+@【わずか】
+"But, it was all for you.
+I didn't get tired at all, when I though of you."
+@page
+;【立ち絵】わずか立ち絵　大
+@fi s=w114d pos=c
+In contrast to my feelings, she holds me close with
+a bright smile on her face.
+@page
+Hugging me tightly...
+But I did not want to return that hug.
+@page
+;【ＳＥ】消防車のサイレン
+@se s=se015 loop=true v=50
+... Wait, what is that?
+@page
+I tremble as I hear the sound of a fire engine
+passing near the school.
+@page
+I thought it was nothing... but for some reason,
+it seems to be taking the route away from the school.
+;@wait time=500
+@se fade=out
+@page
+@v s=11321
+@【わずか】
+"Fufu..."
+@page
+At the same time, she sighs in relief.
+Again, she tries to subdue a laugh as she smiles.
+@page
+Does her laughter have to do with that fire engine?
+The fire engine was going away from us, though.
+It can't be related, can it?
+@page
+@fi s=w647d pos=c
+@v s=11322
+@【わずか】
+"Haha... ahahahaha..."
+@page
+However... she just keeps laughing...
+@page
+Is her laughter and that fire engine
+really unrelated..?
+@page
+... No, wait, it can't be!?
+@page
+The place that fire engine was going...
+I know that place well.
+@page
+That... that was the direction my house is in...
+@page
+@【至】
+"N-No goddamn way... there couldn't be a fire...!"
+@page
+@fi s=w114d pos=c
+@v s=11323
+@【わずか】
+"Yes... Itaru-kun's house."
+@page
+That thought hadn't even crossed my mind.
+However, that could be true.
+@page
+I didn't want to know.
+However, I knew...
+@page
+@【至】
+"There... in that house... Matsuri was there, wasn't she?"
+@page
+@fi s=w547d pos=c
+@v s=11324
+@【わずか】
+"I burned it to the ground in one go.
+It's too good of an end for her."
+@page
+@【至】
+"You seriously..."
+@page
+As she answered just as I thought she would,
+my head is filled with white fog.
+@page
+Otogiri-san is dead. Matsuri is dead.
+Wazuka-san snuffed out their lives.
+@page
+@fi s=w113ad pos=c
+@v s=11325
+@【わずか】
+"Itaru-kun..."
+@page
+She calls my name, and I stand there
+in blank surprise as she hugs me even harder.
+@page
+@fi s=w114ad pos=c
+@v s=11326
+@【わずか】
+"Itaru-kun... Itaru-kun... Itaru-kun...n!"
+@page
+;【イベントＣＧ】evn1060
+@mwoff
+@fi id=w
+@bi s=evn1060
+@wait time=300
+@mwon
+@v s=11327
+@【わずか】
+"Finally, we're the only ones left."
+@page
+My body doesn't move, out of fear from the
+madness in her voice.
+@page
+@v s=11328
+@【わずか】
+"Now... nobody will ever get in our way again..."
+@page
+Hugging me so hard that I can't even respond,
+I can't even take one step back. I only stand
+there in dumb amazement.
+@page
+@v s=11329
+@【わずか】
+"We'll be together forever, won't we...?
+Forever and ever and evvvverrrr....r!"
+@page
+Yes, until Wazuka-san tires of it.
+Until the day she seeks something more than me.
+@page
+Will I be the next one to die?
+At that time, will I come back to life?
+@page
+@v s=40353
+-- In the Name of God.
+   Only God Knows All.--
+@page
+I think I hear Fanuel's words, coming from somewhere.
+@page
+@mwoff
+@bgm fade=out
+@eval exp="sf._wazu=1"
+@jump storage="scriptend.ks"
+;→スタッフロール

@@ -1,0 +1,42 @@
+﻿;330801
+*330801|_お姉ちゃん、だもん
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+Yeah, I should do things that I want to do!
+I'm a part of the pressure-free generation,
+so I don't want to put up with patience!
+@page
+"Of course I want to. So could we, please?"
+@page
+I send out a text like that, ashamed.
+Not a percentage of ashamed, but completely, perfectly ashamed.
+@page
+@【至】
+"When did I become like this?
+I'm just like an incompetent-- hey, a reply!"
+@se s=se032
+@page
+Because I jump in excitement, I'm ashamed.
+Goodbye, my self.
+@page
+Well, the discipline you get from self-depreciation doesn't really help anything.
+@page
+Anyway, there are no changes to the plan.
+My chest swells with expectations as I open the text.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30362
+;@【かごめ】
+"Good, now make me one promise.
+You'll cum a whole bunch, so don't do it alone today!"
+@waitclk
+@mwon
+Otogiri-san is unexpectedly positive.
+Should I say positive, or aggressive?
+@page
+@【至】
+"--Huh? The text keeps going."
+@page
+;→330803
+@jump storage="330803.scn"

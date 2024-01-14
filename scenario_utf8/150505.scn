@@ -1,0 +1,79 @@
+﻿;150505
+*150505|クイズ！　次はおまえだ！
+;【ワイプ】場面変更
+;【背景】クイズ番組セット
+@setOnce
+@bgm fade=stop
+@mwoff
+@se s=se100
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@fi s=f114a pos=lc
+@lfont
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+@se fade=out
+@v s=16002
+@【ウサミ】
+"Hi everyone! I'm your host, Usami!"
+@page
+@setOnce
+@fi s=u111 move=rc
+@fi s=f111 pos=lc
+@endOnce
+@v s=41078
+@【ファヌル】
+"Final Episode. I'm Fanuel."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Whaaaa!?"
+@page
+@fi s=f311 pos=lc
+@v s=41079
+@【ファヌル】
+"What?"
+@page
+@v s=16001
+@【ウサミ】
+"Are you returning to God...?"
+@page
+@fi s=f411 pos=lc
+@v s=41080
+@【ファヌル】
+"Maybe. Maybe not."
+@page
+@fi s=f559 pos=lc
+@v s=41081
+@【ファヌル】
+"At any rate, the story is ending.
+When this program ends, the epilogue will begin."
+@page
+@v s=16001
+@【ウサミ】
+"What on earth will happen?
+I want to know, but I kinda also don't want to know..."
+@page
+@fi s=f55a pos=lc
+@v s=41082
+@【ファヌル】
+"Then, the last quiz.
+What happens to Itaru after this?"
+@pages
+;選択肢
+@selinit
+@selbtn cap="He marries Wazuka-san!" s="150506.scn"
+@selbtn cap="Wazuka-san kills him? " s="150507.scn"
+@s

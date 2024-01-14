@@ -1,0 +1,306 @@
+﻿;230303
+*230303|_トイレの中で……
+;【備考】かごめ視点
+;【ワイプ】視点切り替え＋場面転換
+;【背景】踊り場
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg11d trans=ランダム
+@bgm s=bgm11
+@fi s=k348 pos=c
+@mwon
+@v s=30193
+@【かごめ】
+"Hahh! Hahh! Hahh! Hahh!"
+@page
+I run out of the bathroom and to the corner of the stairs,
+my shoulders shaking.
+@page
+@fi s=k44a pos=c
+@v s=30194
+@【かごめ】
+"Shit... shittt!　I shouldn't have gone there!"
+@page
+Takamichi-kun was in there.
+And so was that brat.
+@page
+And if there were two of them in there... then they must've been--
+@page
+@fi s=k347 pos=c
+@v s=30195
+@【かごめ】
+"Ughhh... I feel like I'm gonna hurl!
+Sex should just stay in 2D!
+Ohh... I feel sick!"
+@page
+I try to hold back the pollution I can feel going up my throat.
+As I do, I hear a voice coming from the darkness again.
+@page
+@fi id=k
+@bi s=evh2060 trans=モザイク time=500
+@v s=20788e
+@【祀利】
+"Hahh... ahh... hahh... hahhh... nn...
+Ahhnn....? Itaru... what's wrong?"
+@page
+@v s=20789e
+@【祀利】
+"Hey... nn... come on...
+Stir up my pussy againnn...
+I can't staaand ittt...."
+@page
+@v s=20792e
+@【祀利】
+"Haahh... ah, ah, aghh...!　
+W-Waaaittt... your dick, it's too inteennssee!!!"
+@page
+@bi s=bg10d time=100
+@fi s=k213b pos=c
+Crap, I'm gonna vomit-- I can't stand it.
+Should I go back to the restroom?
+@page
+@fi s=k447b pos=c
+@v s=30196
+@【かごめ】
+"I can't... guh, do somethin' like that!"
+@page
+@fi id=k
+@qk time=1000
+@flash time=1000
+@lfont
+@v s=30197
+@【かごめ】
+"BARRRRRRFFFF!"
+@page
+I vomit bile all over the corner of the landing.
+I hate the third dimension.
+@page
+@fi s=k44a pos=c
+@v s=30198
+@【かごめ】
+"... I won't forgive her... not that girl, absolutely nottt!"
+@page
+I want Takamichi-kun to become my younger brother...
+No, he already is.
+@page
+10,000 years ago, we were brother and sister in a previous life.
+We've been connected for a very long time.
+@page
+So I have ownership rights.
+Even if the universe turned itself upside down, I still wouldn't
+let her have sex with my younger brother.
+@page
+@fi s=k113 pos=c
+@v s=30199
+@【かごめ】
+"So what should I do? What should I do... to that brat..."
+@page
+But there's no concrete thing I can do.
+@page
+In manga, I would have torn them apart long ago.
+@page
+But reality is different.
+I'm powerless, and above all, she has a gun.
+I can't interfere easily.
+@page
+So what the hell should I do--
+If I can do it, the disposal of the body should be easy.
+@page
+Isn't there a way to kill two-- no, three birds with one stone?
+Thinking about it while I return to the classroom, I'm suddenly stunned.
+@page
+;【背景】教室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d
+@bgm s=bgm07
+@fi s=k348 pos=c
+@mwon
+@v s=30200
+@【かごめ】
+"... Nobody's here... am I being bullied?"
+@page
+I remember some unpleasant memories.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+It's just like my old school.
+@waitclk
+@mnon time=300
+@mset l=5 h=true time=300
+My first class would rush to go into another classroom in the afternoon.
+Everyone knew about it.
+Everyone eating lunch in the classroom knew about it.
+@waitclk
+@mnon time=300
+@mset l=4 h=true time=300
+But I didn't.
+I was the only one that ate in the restroom.
+@waitclk
+@mnon time=300
+@mset l=3 h=true time=300
+So I didn't know.
+@waitclk
+@mnon time=300
+@mset l=5 h=true time=300
+So when lunch ended, when I came back to the classroom, I was stunned, just like now.
+I was confused, because nobody else was there.
+@waitclk
+@mnon time=300
+@mset l=5 h=true time=300
+Everyone laughed in the other classroom when they saw me.
+They had a video camera planted in my classroom,
+and I heard them splitting their sides with laughter.
+@waitclk
+@mnon time=300
+@mset l=4 h=true time=300
+... I saw the video later.
+@wait time=1000
+It was on the internet, though.
+@waitclk
+@mwon
+@fi s=k347 pos=c
+@v s=30201
+@【かごめ】
+"Again... this again...
+I'll beat the shit out of them... I'll kill them all!"
+@page
+There's got to be a camera somewhere.
+The guy who set it up has to be nearby,
+laughing at me.
+@page
+I'll rip the camera apart.
+I break it all to pieces--!
+@page
+I look around me quickly.
+@page
+I was looking for "that", when suddenly I saw
+something written on the blackboard.
+@page
+@fi s=k348 pos=c
+@v s=30202
+@【かごめ】
+"...Huh? 'Sensei is sick, so 3rd period will be held in the AV room?"
+@page
+@fi s=k445 pos=c
+I wasn't being bullied after all.
+Instinctively, I sigh in relief.
+@page
+@fi s=k349 pos=c
+Then-- a smile spreads across my face.
+@page
+@v s=30203
+@【かごめ】
+"Then I'm the only one in the classroom right now...
+fufufu... hahaha... fuheeheeheehee!"
+@page
+@bgm fade=out
+Vengeance is mine!
+@bgm s=bgm16
+@page
+Those two left earlier.
+I'm not in the wrong.
+What's wrong with a strictly defensive national policy?
+@page
+@fi s=k211 pos=c
+... That last one might have been too much.
+@page
+@fi s=k111 pos=c
+@v s=30204
+@【かごめ】
+"Now then... what should I start with?"
+@page
+I've got to move quickly.
+I hunt for Takamichi-kun's desk, to hunt for that brat's bags.
+@page
+But there's nothing. Nothing there.
+I thought she would have come with at least one bag.
+@page
+So what should I do now?
+What should I surprise her with-- what
+trauma can I give that stupid kid?
+@page
+I think while I'm hunting in her desk. Then--
+@page
+@fi s=k213 pos=c
+@v s=30205
+@【かごめ】
+"This smell... a bento?
+She probably made this for him, didn't she?"
+@page
+I opened the cap of the bento before thinking about it.
+@page
+@fi s=k348 pos=c
+I stand there with a blank look on my face.
+No way. This isn't a bento. This is trash. Shit.
+@page
+@fi s=k349 pos=c
+@act id=k t=neckswing
+@v s=30206
+@【かごめ】
+"Heehee, heeheeheehee!?
+The fuck is this? It smells like garbage!"
+@page
+It repeats. Takamichi-kun is my younger brother.
+If that's so, it's my right and obligation to
+remove anything that would endanger his health.
+@page
+@act id=k t=stopswing
+@fi s=k34a pos=c
+@v s=30207
+@【かごめ】
+"So now, I'll--"
+@page
+;【ＳＥ】なにかいい効果音があれば……
+@fi s=k347 pos=c
+@act id=k t=neckswing
+@se s=se061
+@qk time=700
+@flash time=700
+@v s=30208
+@【かごめ】
+"Do thiiissssssss!
+I'll crush and rip and tear that
+stupid bento the girl madeeeeeeeee!"
+@page
+@act id=k t=stopswing
+@fi s=k349 pos=c
+@v s=30209
+@【かごめ】
+"I wouldn't even feed this shit meal
+to the flooooorrrrrr!"
+@page
+@fi s=k34a pos=c
+@v s=30210
+@【かごめ】
+"Take this! And that! I'll trample it!
+@se s=se065
+@act id=k t=bow
+@qk
+Grind it into dusttttt!"
+@se s=se065
+@act id=k t=bow
+@se s=se065
+@qk
+@act id=k t=bow
+@wait time=200
+@act id=k t=neckswing
+@page
+@act id=k t=stopswing
+@fi s=k349 pos=c
+@act id=k t=neckswing
+@v s=30211
+@【かごめ】
+"Hahh... hahh... hahh... hee hee hee!
+How does it feel to have your precious lunch stomped into the ground!
+Hyahahahahahahaha!"
+@page
+@act id=k t=stopswing
+@fi id=k
+@mwoff
+@bgm fade=out
+;→230400
+@jump storage="230400.scn"

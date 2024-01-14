@@ -1,0 +1,43 @@
+﻿;340504
+*340504|_予兆と陰謀
+;【背景】かごめ自室・消灯
+@bi s=bg07b
+@bgm s=bgm15
+@fi s=k339 pos=c
+@v s=30591
+@【かごめ】
+"... Has she finally become obedient?"
+@page
+But this is the worst.
+Cleaning and removing the smells are quite difficult.
+@page
+@fi s=k335 pos=c
+@v s=30592
+@【かごめ】
+"But now the preparations are complete, aren't they?"
+@page
+Now, the seal should have been removed.
+Now I have only one goal left.
+@page
+I pick up the tone knife that I threw away a little while ago.
+@page
+Yes, there is still an enemy I must defeat.
+@page
+Another hateful witch--
+If I defeat her, Itaru-kun will awaken.
+Then, we can become true siblings.
+@page
+I still must prepare for that.
+I'll use the itty-bitty bitch here as materials.
+@page
+@fi s=k639 pos=c
+@v s=30593
+@【かごめ】
+"Kufufu...
+How? Should? I? Do? This?"
+@page
+@fi id=k
+@mwoff
+;→350100
+@bgm fade=stop
+@jump storage="350100.scn"

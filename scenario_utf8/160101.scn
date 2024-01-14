@@ -1,0 +1,241 @@
+﻿;160101
+*160101|_２人きり
+;【ワイプ】時間経過
+;【背景】屋上
+;【ＳＥ】風の音
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@bgm s=bgm20
+@fi s=w111 pos=c
+@se s=se046
+@mwon
+@【至】
+"Oh... it's a little cold."
+@page
+We have lunch on the rooftop, like usual.
+@page
+It's getting colder,
+so there's almost nobody eating lunch on the roof, even if it's sunny.
+@page
+Today, it's just us.
+And man, is it cold...
+@page
+@【至】
+"Wow, it's gotten cold recently..."
+@page
+@fi s=w114 pos=c
+@v s=11265
+@【わずか】
+"Then, why don't we warm up?"
+@page
+@se fade=out
+;【立ち絵】わずか立ち絵　大
+@fi s=w547d pos=c
+She snuggles with me, and I get warmer.
+@page
+@v s=11266
+@【わずか】
+"Fufu... it's warm."
+@page
+She smiles the best smile I've ever seen,
+and she hugs me. I'm drunk in euphoria.
+@page
+@【至】
+"You're in a good mood today. Did something happen?"
+@page
+@fi s=w547d pos=c
+@v s=11267
+@【わずか】
+"Yes... the nuisances are gone..."
+@page
+Wait, what? What does she mean?
+I want to ask her.
+@page
+But I can't do that.
+I'm afraid that would break our relationship.
+@page
+@【至】
+(... Otogiri-san isn't here today.
+Matsuri wasn't at home either...
+Did some trouble happen to those two?)
+@page
+That's all the concern I can feel for those two.
+They're probably afraid of Wazuka-san, and won't get near her anymore.)
+@page
+Otogiri-san is my classmate,
+so I'll probably see her again,
+She's learned her lesson. She won't get near me any more.
+@page
+However, Matsuri...
+I may never meet her again. It feels awful.
+@page
+I feel a little lonely... but maybe I'll
+see her again, after a little while.
+@page
+After the stuff that happened over the past couple days...
+it seems like it's all over for the time being."
+@page
+-- No, there's still more.
+I forgot something really important.
+@page
+@【至】
+"Wazuka-san."
+@page
+@fi s=w111d pos=c
+@v s=11268
+@【わずか】
+"Yes?"
+@page
+@【至】
+"Before this... we screwed around in various ways,
+and we got into weird situations."
+@page
+@v s=11269
+@【わずか】
+"So what?"
+@page
+@【至】
+"So, I... want to say it again."
+@page
+@fi s=w211ad pos=c
+@【わずか】
+"......"
+@page
+@【至】
+"I love you, Wazuka-san."
+I want to hold you forever."
+@page
+@【至】
+"So, tonight..."
+@page
+@fi s=w214ad pos=c
+@v s=11270
+@【わずか】
+"... Okay."
+@page
+@fi s=w547ad pos=c
+@v s=11271
+@【わずか】
+"Me too... I want to hold you too."
+@page
+@fi s=w113d pos=c
+@v s=11272
+@【わずか】
+"But... I'm sorry..."
+@page
+@【至】
+"Eh?"
+@page
+@fi s=w547ad pos=c
+@v s=11273
+@【わずか】
+"I say that... but I can't wait until night.
+I want you right now!"
+@page
+@【至】
+"Wazuka-san..."
+@page
+@【至】
+"... Yeah. I can't hold back either."
+@page
+@v s=11274
+@【わずか】
+"Itaru-kun... mnn..."
+@fi s=w113ad pos=c
+@page
+We share a hot kiss, uncomparable to the ones we've had before.
+We move to the corner of the rooftop.
+@page
+She fumbles with my zipper,
+urged on my her excitement.
+@fi s=w547d pos=c
+@page
+;【備考】横に画面をスクロールするのもいいかも。
+@【至】
+"Ergh..."
+@page
+@fi s=w111 pos=c
+@v s=11275
+@【わずか】
+"What's wrong?"
+@page
+@【至】
+"Err, it's a little cold..."
+@page
+@fi s=w111d pos=c
+Although my dick's out now,
+it shivers from the cold air.
+@page
+@fi id=w
+@【至】
+"...Ooh."
+@page
+-- then, she holds onto my dick. The warmth of
+her hand starts to warm up my dick.
+@page
+@【至】
+"Wazuka-san, your hand is warm."
+@page
+;【イベントＣＧ】evh1030
+@mwoff
+@bi s=evh1030
+@wait time=300
+@mwon
+@qk
+@【至】
+"--- Wait, what the fuck!?"
+@page
+@v s=11276
+@【わずか】
+"Hm?"
+@page
+@【至】
+"No, not 'Hm'! What did you do!?"
+@page
+The hand that grasps my dick is dyed red.
+@page
+I look at her mouth, and see a box cutter.
+Did she cut her hand and get blood all over it?
+@page
+@【至】
+"Why!? Why would you do that!?"
+@page
+;【イベントＣＧ】evh1031
+@mwoff
+@bi s=evh1031
+@wait time=300
+@mwon
+@v s=11277
+@【わずか】
+"Because my hand was cold. This should warm it up, right?"
+@page
+@【至】
+"Well sure, it's warm... but you can't!
+You'll collapse if you don't treat that quickly!"
+@page
+@v s=11278
+@【わずか】
+"I won't collapse from this much blood."
+@page
+@v s=11279
+@【わずか】
+"So don't worry about me.
+I'll make you feel good, okay?"
+@page
+@【至】
+"Ohhh..."
+@page
+I want to help her.
+I really do want to.
+@page
+However, Wazuka-san looks like she's in a trance,
+grabbing my dick with her bloody hands.
+@page
+This is not a good thing.
+I can't stop her, and my dick hardens even further.
+@page
+;→160102
+@jump storage="160102.scn"

@@ -1,0 +1,45 @@
+﻿;130401
+*130401|_２つのお弁当
+@【至】
+"Oh, it's from a friend."
+@page
+If I gave up the truth here, I'd waste the little lie I told earlier.
+@page
+@fi s=w211 pos=c
+@v s=10924
+@【わずか】
+"... Otogiri?"
+@page
+@【至】
+"How did you read my mind!?"
+@page
+@v s=10925
+@【わずか】
+"Read your mind?
+I just looked at your phone."
+@page
+@fi s=w411 pos=c
+@v s=10926
+@【わずか】
+"But Otogiri... I've heard about her recently."
+@page
+@fi s=w412 pos=c
+@v s=10927
+@【わずか】
+"......ah."
+@page
+She doesn't usually pay attention to other people,
+but probably because she made such a impactful first impression,
+Wazuka-san might be watching Otogiri-san.
+@page
+I regret giving her my last name now.
+Maybe I should have given her a weird name,
+like a airhead would do.
+@page
+@fi s=w111 pos=c
+@v s=10928
+@【わずか】
+"She... texted you?"
+@page
+;→130403
+@jump storage="130403.scn"

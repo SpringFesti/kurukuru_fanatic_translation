@@ -1,0 +1,276 @@
+﻿;230300
+*230300|トイレの中で……
+;【ワイプ】時間経過
+;【背景】教室・昼
+;【ＳＥ】チャイム
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+@se s=se011
+@mwon
+When the bell rings, the teacher leaves.
+@page
+@【至】
+"Now, what's the next class?"
+@page
+@fi s=m113 pos=c
+I look at my schedule, and Matsuri pulls on my sleeve.
+@page
+@【至】
+"Hm? What's up Matsuri?"
+@page
+@fi s=m111 pos=c
+@v s=20746
+@【祀利】
+"Itaru... I need to go to the bathroom."
+@page
+@【至】
+"Well, then go."
+@page
+@fi s=m74b pos=c
+@v s=20747
+@【祀利】
+"No... I don't know where it is."
+@page
+@【至】
+"Ah, gotcha. I forgot that yesterday was your first time here."
+@page
+@【至】
+"Let's see, if you head to the right,
+take a left, then head up the stairs to your right..."
+@page
+@v s=20748
+@【祀利】
+"I don't understand what you're talking about. Lead me there, Itaru."
+@page
+@【至】
+"Sigh... alright, let's go."
+@page
+;【ワイプ】場所移動
+;【背景】廊下
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ひし形(左から右へ)
+@mwon
+@【至】
+"Hey, it's over here, come on."
+@page
+The bathroom on this floor is in the back of the building.
+People call it the haunted toilet.
+@page
+Nobody died in there, and there aren't any rumors or
+ghost stories either. It's still called the haunted toilet though.
+@page
+@fi s=m74b pos=c
+@v s=20749
+@【祀利】
+"...It's dark in there."
+@page
+That's why. Because of efforts to save energy on power during eco-week,
+they never turn the lights on in there.
+@page
+@【至】
+"There aren't any windows in there either. The other bathrooms are okay though."
+@page
+It's way too dark in there.
+It's pitch black until your eyes get accustomed.
+@page
+@【至】
+"Matsuri, are you going to be okay in there?"
+@page
+@fi s=m749 pos=c
+@v s=20750
+@【祀利】
+"Yeah, I'll be fine. My hometown's restrooms didn't have lights either."
+@page
+@fi s=m747 pos=c
+@sfont
+@v s=20751
+@【祀利】
+"... Besides, it's better this way."
+@page
+@【至】
+"Huh? Did you say something?"
+@page
+@fi s=m748 pos=c
+@v s=20752
+@【祀利】
+"No, nothing."
+@page
+@fi s=m111 pos=c
+@v s=20753
+@【祀利】
+"Actually, how do you use Japanese toilets, Itaru? I have no idea."
+@page
+Aren't all bathrooms held to a global standard?
+@page
+@fi s=m649 pos=c
+@v s=20754
+@【祀利】
+"Itaru... why don't you come with me, huh?
+Teach me how to use one."
+@page
+@【至】
+"W-What are you talking about!?
+I can't go in the girl's restroom!"
+@page
+@fi s=m748 pos=c
+@v s=20755
+@【祀利】
+"Eu estou bem. Nobody will see us."
+@page
+@【至】
+"That's not the problem!"
+@page
+@fi s=m116 pos=c
+@v s=20756
+@【祀利】
+"Waaaaahhh!　Itaru, I can't stand itttt. I gotta go potty!"
+@page
+@【至】
+"W-W-Wait, don't go here!
+Use the restroom right there!"
+@page
+@v s=20757
+@【祀利】
+"But I don't know how! Itaru, go with me!"
+@page
+She grabs my hand and drags me into the restroom.
+@page
+;【演出】暗転
+;【ＳＥ】ドア閉まる
+@bgm fade=out
+@fi id=m
+@bi s=blank trans=crossfade all=true
+@wait time=500
+@bgm s=bgm15
+@se s=se042
+@v s=20758
+@【祀利】
+"Huhuhu..."
+@page
+It's pitch-black in the restroom.
+I can't even see my hand in front of my face.
+@page
+Then, I hear a clink behind me.
+@page
+@【至】
+"W-What? What was that sound?"
+@page
+@v s=20759
+@【祀利】
+"Oh, that was me locking the door? Do you know why I would do that, Itaru?"
+@page
+@【至】
+"I-I have no idea! Just do what you need to do!"
+@page
+@v s=20760
+@【祀利】
+"I will. What I need to do... is have sex with you."
+@page
+;【立ち絵】ここから入力してください
+@fi s=m747 trans=inblink time=1000
+Matsuri appears from out of the darkness.
+Her skin looks blue in the small amount of light we have,
+and its an almost lewd shade...
+@page
+@【至】
+"W-Wait! We can't!"
+@page
+@fi s=m11d pos=c
+@v s=20761
+@【祀利】
+"Why? Someone will come in?
+It's okay, there isn't any light in here."
+@page
+@【至】
+"Even so... we can't do it at school, right?"
+@page
+@fi s=m113 pos=c
+@v s=20762
+@【祀利】
+"Huh? How come? We did it before, didn't we?
+Do you hate me, Itaru?"
+@page
+@【至】
+"Of course not, but..."
+@page
+@fi s=m64b pos=c
+@v s=20763
+@【祀利】
+"Then have sex with me. That is what fiancees do, don't they?"
+@page
+@【至】
+"That might be true, but right now is..."
+@page
+@fi s=m116 pos=c
+@v s=20764
+@【祀利】
+"Waahh... so it is true, Itaru doesn't like me at all..."
+@page
+@v s=20765
+@【祀利】
+"He got my first time, but now he doesn't want to at all... waaaahh!"
+@page
+@【至】
+"No, that's not it! I really do love you, Matsuri!"
+@page
+@fi s=m111 pos=c
+@v s=20766
+@【祀利】
+"Then prove it by having sex with me.♪"
+@page
+Well, those tears dried up quickly.
+@page
+@【至】
+"Fine, whatever... but don't make any noise. If someone hears something, they will come."
+@page
+@fi s=m212d pos=c
+@v s=20767
+@【祀利】
+"Yay! I love you, Itaru!"
+@page
+Matsuri gives me a big hug.
+@page
+@fi s=m647d pos=c
+@v s=20768
+@【祀利】
+"Nhuhu... so we've finally gotten to here."
+@page
+Then, I feel a hand on my crotch.
+@page
+@v s=20769
+@【祀利】
+"Saying that you're surprised... your body isn't surprised at all. Itaru, can you really put up with just this?"
+@page
+@【至】
+"W-Well, I mean..."
+@page
+@fi s=m649d pos=c
+@v s=20770
+@【祀利】
+"I've been putting up with it too.
+So come on... with this..."
+@page
+Pulling down her stockings, she leads my hand right to her privates.
+@page
+Matsuri's already really wet.
+@page
+@fi s=m647ad pos=c
+@v s=20771
+@【祀利】
+"... So? I can't wait anymore.
+I want you. Your dick... put it into my pussy."
+@page
+Matsuri leans against the way putting her ass towards me,
+and opens up her privates with her finger.
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→230301
+@jump storage="230301.scn"

@@ -1,0 +1,54 @@
+﻿;240303
+*240303|_ずっと一緒にいたい
+;【好感度】祀利+1
+@eval exp="f.matsuri++"
+I really do feel sorry for her after all.
+@page
+@【至】
+"Hey Wazuka-san, Otogiri-san, isn't this enough? Just forgive her already."
+@page
+@【至】
+"Matsuri will think hard about what's she's done, so let her go."
+@page
+@fi s=m104d pos=c
+@v s=21124
+@【祀利】
+"Itaru... Obrigada! That's right, you whores! Now let me go!"
+@page
+@setOnce
+@fi id=m
+@fi s=w112 pos=lc
+@fi s=k447 pos=rc
+@endOnce
+@v s=10659
+@【わずか】
+"No. No matter how many times Itaru asks, I will not."
+@page
+@fi s=k111 pos=rc
+@v s=30238
+@【かごめ】
+"That thinking you were talking about... you weren't going to do it at all, were you?"
+@page
+@fi s=w312 pos=lc
+@v s=10660
+@【わずか】
+"At this very moment, every molecule in my body is itching to murder this woman."
+@page
+@v s=10661
+@【わずか】
+"I am holding that in and bottling it up. Because of that, I can make no further concessions."
+@page
+Right. I had to beg and plead to stop her from being killed right this second.
+@page
+I don't think I can ask for any better.
+@page
+If I'm too persistent, I'll be stirring the hornet's nest.
+@page
+@【至】
+"Matsuri... I'll come for you as soon as I can. As soon as afternoon classes are done, I'll come for you."
+@page
+@【至】
+"So please, wait quietly until then."
+@page
+;→240305
+@jump storage="240305.scn"

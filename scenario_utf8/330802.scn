@@ -1,0 +1,48 @@
+﻿;330802
+*330802|_お姉ちゃん、だもん
+I want to say yes, I want to!
+Of course I do, I'm a man!
+@page
+But can I say that?
+Do I have the courage to say yes?
+I don't.
+@page
+@【至】
+"Of course not. We shouldn't do that kind of thing at a school."
+@page
+She should stop here.
+Yeah, whatever the truth is, the theory should pass.
+It's an adult thing to do.
+@page
+... But I still wanted to do it.
+@page
+In such a sorry state,
+I send a text back to Otogiri-san.
+@se s=se032
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30363
+;@【かごめ】
+"You shouldn't lie, you know. You really want to do it, don't you?
+It's a minus to not be obedient."
+@waitclk
+@mwon
+... You're absolutely right.
+I've been seen through, and though I'm ashamed, I'm also a little happy.
+When I look at the continuance of the text with a wry smile,
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30364
+;@【かごめ】
+"So don't lie from now on.
+If you behave yourself, I'll give you more and more."
+@waitclk
+@mwon
+Somehow, the message that I expected would end in a yes or a no continued.
+@page
+I keep pushing the button, to see how it keeps going.
+@page
+;→330803
+@jump storage="330803.scn"

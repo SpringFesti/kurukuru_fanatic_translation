@@ -1,0 +1,43 @@
+﻿;010403
+*010403|_Cloudy With A Chance of Red Rain
+@【至】
+"... I can't. I don't want to die."
+@page
+The only people who could intervene in something like this would be a superhero, or the son of God, or even God himself.
+@page
+Unfortunately, I'm not any of those.
+If I tried to interfere with those two, it'd be like putting myself on death row.
+@page
+@fi s=w112d pos=c
+@se s=se118
+@qk time=700
+@flash time=700
+@v s=10143
+@【わずか】
+"Just die! Die already!"
+@page
+@setOnce
+@fi id=w
+@fi s=k346ad pos=c
+@endOnce
+@v s=30036
+@【？？？】
+"Oww!　It hurtsss!"
+@page
+@fi id=k
+Wazuka-san doesn't let up.
+Without hesitation, she savagely beats the girl's head against the wall.
+@page
+The sound changed again. It went from being soft to being hard――
+Yeah, it looks like she's gone too far.
+@page
+@【至】
+"Stop! You can't go any further!"
+@page
+@fi s=w111d pos=c
+@v s=10144
+@【わずか】
+"Why? She tried to kill you, didn't she?"
+@page
+@jump storage="010404.scn"
+;→010404

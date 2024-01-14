@@ -1,0 +1,222 @@
+﻿;020704
+*020704|_１０月２８日午後１２時４２分
+;【背景】青空
+@bi s=current all=true trans=crossfade
+@bi s=bg810
+In the warm autumn sunlight, a lunch that was completely not calm began.
+@page
+Certainly, I'd like to get along with Wazuka-san and Matsuri, but 
+consider the progress thus far, my good-natured goal is way out of sight.
+@page
+But, that's just my life.
+My housemates will fight, won't they?
+They'll use weapons, and of course there will be no mercy.
+@page
+@【至】
+(... Let's try fixing it one step at a time.
+That can't be a bad thing, can it?)
+@page
+That's just how people work, isn't it?
+Doing that, even God must support me.
+@page
+Thinking that, my cell phone begins buzzing.
+@page
+It's probably Fanuel laughing at me.
+She expects me to fail, doesn't she?
+@page
+Hell with that-- don't screw with humanity!
+I will absolutely make them into friends!
+@page
+@setOnce
+@bgm fade=stop
+;【演出】暗転
+;【カットイン】テキスト「ごめんなさい。やっぱ無理でした」
+@bi s=blank trans=crossfade all=true time=200
+@endOnce
+@mnon vertical=true size=60 time=200
+@mset l=6
+@se s=se090
+@qk time=800
+　Nope.
+
+　You can't.
+@waitclk
+@mwon
+;【背景】学園屋上・昼
+@bi s=bg13d
+@bgm s=bgm09
+@fi s=w114 pos=lc
+@v s=10372
+@【わずか】
+"Itaru-kun, how's the hamburg steak?"
+@page
+@【至】
+"Ah-- yeah, good job."
+@page
+My wording is completely truthful.
+She did a very good job completely burning it.
+However, when it comes to taste, it isn't a good job at all.
+@page
+And when we come to the ration,
+@page
+@fi s=m112 pos=rc
+@v s=20308
+@【祀利】
+"How is it? Is the steak good?"
+@page
+@【至】
+"Only 200 grams? This has a ton of nutritional value."
+@page
+I'm sure it does.
+However, it smells and tastes like rubber.
+@page
+The coffee is the most dangerous thing here, though. Is this mud water?
+It smells and tastes like sewer water.
+@page
+@fi s=w547 pos=lc
+@v s=10373
+@【わずか】
+"Hey, Itaru-kun."
+@page
+@【至】
+"Yeeesss?"
+@page
+@fi s=m748a pos=rc
+@v s=20309
+@【祀利】
+"Hey, Itaru..."
+@page
+@【至】
+"Uh-huh?"
+@page
+@fi s=w214a pos=lc
+@v s=10373
+@【わずか】
+"Hey, Itaru-kun."
+@page
+@【至】
+"Yeeesss?"
+@page
+@fi s=m112a pos=rc
+@v s=20309
+@【祀利】
+"Hey, Itaru..."
+@page
+@【至】
+"Uh-huh?"
+@page
+@fi s=w547 pos=lc
+@v s=10373
+@【わずか】
+"Hey, Itaru-kun."
+@page
+@【至】
+"Yeeesss?"
+@page
+@fi s=m748a pos=rc
+@v s=20309
+@【祀利】
+"Hey, Itaru..."
+@page
+@【至】
+"Uh-huh?"
+@page
+@fi s=w214a pos=lc
+@v s=10373
+@【わずか】
+"Hey, Itaru-kun."
+@page
+@【至】
+"Yeeesss?"
+@page
+@fi s=m112a pos=rc
+@v s=20309
+@【祀利】
+"Hey, Itaru..."
+@page
+@【至】
+"Uh-huh?"
+@page
+@fi s=w547 pos=lc
+@v s=10373
+@【わずか】
+"Hey, Itaru-kun."
+@page
+@【至】
+"Yeeesss?"
+@page
+@fi s=m748a pos=rc
+@v s=20309
+@【祀利】
+"Hey, Itaru..."
+@page
+@【至】
+"Uh-huh?"
+@page
+No omissions. That is exactly what I've been going through.
+@page
+Wazuka-san and I talk.
+Matsuri and I talk.
+But they never talk to each other.
+@page
+Hey, maybe they can make friends this way?
+Perhaps if I let them talk to each other, they'll ignore what's happened before?
+@page
+Maybe they just started off on the wrong foot!
+Maybe they're getting tired of being enemies!
+@page
+Maybe we can continue on like this forever?
+... No, wait, I've only got 3 days. Shit.
+@page
+Well, maybe there's no point in just thinking about letting
+myself escape from this situation, but it relieves me.
+@page
+@【至】
+(... If I can make them into friends, that'd be nice, huh...?)
+@page
+Looking at the two of them next to me, I can only sigh.
+@page
+@fi s=w111 pos=lc
+@v s=10374
+@【わずか】
+"What's wrong? Is it her fault?"
+@page
+@fi s=m111 pos=rc
+@v s=20310
+@【祀利】
+"I understand. It's her, isn't it?"
+@page
+They're saying the same thing, so they must think the same way.
+Since that's true, maybe they can be friends that way?
+Is this my chance?
+@page
+@【至】
+"Hey, you two want to go to karaoke later?"
+@page
+@setOnce
+@fi s=w214 pos=lc
+@fi s=m212 pos=rc
+@endOnce
+@lfont
+;【備考】ユニゾン
+@v s=10375
+;@【わずか】
+"After I kill her."
+;@v s=20311
+;@【祀利】
+;「コイツを殺した後で」
+@page
+You two are really the same, aren't you?
+@page
+I wish they'd listen to me, though.
+I said the both of them, didn't I?
+@page
+At those words, they brandish a knife and a gun at each other,
+but as soon as I see it they vanish from my view.
+@page
+@bgm fade=out
+;分岐
+;フラグ120300起立　→020705
+;それ以外　→020706
+@jump storage="020705.scn" cond="f._120100"
+@jump storage="020706.scn"

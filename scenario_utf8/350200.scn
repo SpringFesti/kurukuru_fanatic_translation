@@ -1,0 +1,183 @@
+﻿;350200
+*350200|かごめからの贈り物
+;【ワイプ】場面転換
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@bgm s=bgm03
+@fi s=w111 pos=c
+@mwon
+@【至】
+"Alright, see you at lunch."
+@page
+@v s=10739
+@【わずか】
+"Bye."
+@page
+@fi id=w
+Then, without understanding what happened to Matsuri,
+I make my way to school.
+@page
+While walking down the corridor towards my classroom, I think about various things.
+@page
+About where Matsuri could be, about Wazuka-san's expression, and about the cause of my death.
+I can't answer any of these problems.
+@page
+;@【？？？】
+@v s=30594
+;@【かごめ】
+@【？？？】
+"--Itaru-kun, Itaru-kun!"
+@page
+@【至】
+"... Nn?"
+@page
+@v s=30595
+@【かごめ】
+"Come here!"
+@page
+When I turn around towards the voice,
+I see Otogiri-san in front of me, beckoning me towards the corner of the corridor.
+@page
+;【ワイプ】場所移動
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@bgm s=bgm07
+@fi s=k211 pos=c
+@mwon
+@【至】
+"What's up, Otogiri-san?"
+@page
+@sqk
+@fi s=k112 pos=c
+@v s=30596
+@【かごめ】
+"Nooo, retake!"
+@page
+@【至】
+"... Huh? What's a retake?"
+@page
+@fi s=k113 pos=c
+@v s=30597
+@【かごめ】
+"Itaru-kun, have you already forgotten it all?
+I thought you were okay with yesterday's promise."
+@page
+@【至】
+"-- Ah, okay then. Sorry.
+Good morning, onee-chan."
+@page
+@fi s=k214 pos=c
+@v s=30598
+@【かごめ】
+"Yes, that's better. Good morning, Itaru-kun."
+@page
+-- Somehow, I'm still not accustomed to it yet.
+Also, I didn't think we were the only people in the school right now.
+@page
+@【至】
+"Uhhh... so, what's up?"
+@page
+@fi s=k114 pos=c
+@v s=30599
+@【かごめ】
+"Here you go. I'm giving this to you. You can open it."
+@page
+She says that and hands me a box the size of my palm.
+@page
+@【至】
+"What is..."
+@page
+When I open it, I find a pendant with a silver plate on it inside.
+@page
+@【至】
+"Eh, this... is it for me?"
+@page
+@fi s=k214 pos=c
+@v s=30600
+@【かごめ】
+"Yes. Yesterday, I found it in a store by chance.
+I thought it suited you, so I bought it for you."
+@page
+@【至】
+"... Is it okay?"
+@page
+;@fi s=k211 pos=c
+@v s=30601
+@【かごめ】
+"It was cheap, so don't worry about it.
+Now, let's put it on you."
+@page
+Otogiri-san takes the pendant out of the box and extends her hand towards me.
+@page
+;【演出】かごめ立ち絵・大
+@fi s=k214d pos=c
+@v s=30602
+@【かごめ】
+"Nn... there. Is that okay?"
+@page
+She gets near me, and I smell a sweet scent.
+With a somehow ticklish feeling,
+I become quiet until Otogiri-san seperates from me.
+@page
+@fi s=k114 pos=c
+@v s=30603
+@【かごめ】
+"Yes, it suits you!
+I thought it would look good on you, and it did."
+@page
+@【至】
+"Thanks. this is the first time I've gotten a present like this."
+@page
+@fi s=k111 pos=c
+@v s=30604
+@【かごめ】
+"Oh, it's not such a big deal. Rather..."
+@page
+Otogiri-san gets close to me again.
+Closer than before.
+@page
+I should say, so close that her chest hits me.
+Too close.
+Actually this is a dangerous distance.
+@page
+@fi s=k345d pos=c
+;【演出】立ち絵かごめ・大
+@v s=30605
+@【かごめ】
+"If you're a good boy, I'll give you a reward that you'll like even more, okay?"
+@page
+This distance is breaking the rules.
+My face becomes crimson red when I understand what she means.
+No, not just my face.
+@page
+;【ＳＥ】チャイム
+@setOnce
+@se s=se011
+@fi s=k114 pos=c
+@endOnce
+@v s=30606
+@【かごめ】
+"Ah, we have to go. I'll go on ahead, Itaru-kun.
+... Don't be late, okay?"
+@page
+@fi id=k
+I see, sorry onee-chan.
+@page
+Because I can't calm down the erection that I got a little while ago,
+I can't go back to the classroom.
+@page
+@【至】
+"This is painful... or should I say pathetic."
+@page
+I shouldn't be lead around by the nose by an older sister...
+@page
+@mwoff
+;→350201
+@bgm fade=stop
+@jump storage="350201.scn"

@@ -1,0 +1,167 @@
+﻿;020300c
+*020300c|いっしょに行きたい！
+;【ワイプ】場所移動
+;【背景】玄関灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03d trans=ひし形(左から右へ)
+@bgm s=bgm02
+@fi s=w111 pos=c
+@mwon
+@v s=10303
+@【わずか】
+Come on, Itaru-kun, let's go.
+We'll be late if we don't hurry up.
+@page
+Then she looks at the clock--8:12 AM.
+We're already late.
+@page
+@【至】
+"Ohhh crap, now we have to run. Sorry, Wazuka-san."
+@page
+@fi s=w114 pos=c
+@v s=10304
+@【わずか】
+"No, it's okay, I like running.
+Do you have your handkerchief, Itaru-kun?
+Need any tissues?
+@page
+@【至】
+"No, I have everything I need. Let's go."
+@page
+@bgm fade=stop
+@se s=se093
+@qk time=1000
+@flash time=1000
+@lfont
+@v s=20219
+@【祀利】
+"No, don't gooo!!!"
+@page
+@bgm s=bgm06
+@fi id=w
+@fi s=m114 pos=c
+@v s=20220
+@【祀利】
+"No, no, no! You can't go!"
+@page
+@【至】
+"Okay, okay, just talk to me later!
+Gimme a rain check on this!"
+@page
+@fi s=m314 pos=c
+@act id=m t=neckswing
+@v s=20221
+@【祀利】
+"No, you can't go now! I wanna go!
+Lemme go with you!"
+@page
+She latches on to my legs... well, no,
+actually she just waves her pistol at me.
+@page
+It may be absurd, but it's still dangerous.
+Even though she's just a little girl, anyone would be frightened if someone
+waved a gun around.
+@page
+@setOnce
+@act id=m t=stopswing
+@fi s=m314 move=rc
+@act id=m t=neckswing
+@fi s=w111 pos=lc
+@endOnce
+@v s=10305
+@【わずか】
+"Come on, let's go Itaru-kun."
+@page
+In other words, complete rejection.
+No room for argument. Wazuka-san's thinking the same thing I am.
+@page
+But--
+@page
+@setOnce
+@act id=m t=stopswing
+@fi s=w111 pos=lc
+@fi s=m316 pos=rc
+@act id=m t=neckswing
+@endOnce
+@v s=20222
+@【祀利】
+"Nonononononono!
+I'm going too!　I'm going with Itaru-kun!!!"
+@page
+@【至】
+"Sorry, no dice.
+You aren't even a student, you know?"
+@page
+@se s=se131
+@fi s=m516 pos=rc
+@v s=20223
+@【祀利】
+"But I still wanna gooo!
+I hafta hafta hafta go with you--!"
+@page
+Matsuri's hand moves.
+@page
+@bi s=current all=true trans=crossfade
+What's she--oh crap--move out of the way!
+I realize what she's doing, but I'm too late.
+Her hand latches on to the hem of my uniform.
+@page
+@fi s=m114d pos=c
+@【至】
+"H, hey, leggo!　You're going to make me late!"
+@page
+@fi s=m116d pos=c
+@v s=20224
+@【祀利】
+"Then lemme go! I'm your fiancee!
+I have to go with you!"
+@page
+@fi s=m74bd pos=c
+@v s=20225
+@【祀利】
+"I can't trust you with HER.
+She'll poison you for sure!"
+@page
+@se s=se131
+@fi s=m314d pos=c
+Then she points right at Wazuka-san--
+no, actually, she points the muzzle
+of her gun at Wazuka-san.
+@page
+Of course, there's only one reply possible.
+Wazuka-san pulls a kitchen knife out from
+her skirt.
+@page
+;【立ち絵】わずか包丁持ち
+@setOnce
+@fi s=m314 move=rc
+@fi s=w312 pos=lc
+@endOnce
+@v s=10306
+@【わずか】
+"Itaru-kun, move."
+@page
+@【至】
+"I will if you put your knife away!
+Calm down, the both of you! Just talk!"
+@page
+...If that was all it took, this
+problem would have been solved
+a long time ago.
+@page
+Of course, it hasn't been solved yet.
+So, what should I do?
+@page
+Do I listen to Matsuri, or refuse her?
+If it's come to those two choices--
+;@page
+;選択肢
+;いっしょに行こう！　→020301;
+;やっぱりだめ　→020302
+@pages
+@selinit
+@selbtn cap="She can go" s="020301.scn"
+@selbtn cap="She can't go" s="020302.scn"
+@s

@@ -1,0 +1,136 @@
+﻿;010700b
+*010700b|_至の夢～イタミノキオク
+@wait time=1000
+@bgm s=bgm12
+@mnon vertical=true
+@mset l=1
+@filmpfx
+;【演出】暗転
+There are moments in which I become absolutely defenseless.
+@waitclk
+@mset l=3
+When I eat.
+
+When I have sex.
+@waitclk
+@mset l=1
+And-- when I'm dreaming.
+@waitclk
+@mset l=3
+There is a true fear that appears there,
+
+a result of my true self, thrusting from the depths of my heart where I have sealed him.
+@waitclk
+@bi s=bg8190
+@mset l=3
+;【イベントＣＧ】ロールシャッハテスト
+@v s=50000
+;@【子供の頃の至】
+It hurts... it hurts...
+@wait time=1000
+
+Following the pained cry of a child, one of three:
+@waitclk
+@mset l=5
+A slap on the half beat.
+
+Red-hot tongs.
+
+And in the end, an embrace of noise into my ear.
+@waitclk
+@mset l=3
+Possibly, all of these happen randomly.
+
+-- But yes, this one is the most common.
+@waitclk
+@mset l=4
+@v s=50001
+;@【子供の頃の至】
+It hurtsss... it hurtsss...!
+Sobs mixed in with pleading, it quickly changes into crying.
+This child does not have amazing endurance.
+Whenever I relive this scene, I give myself a bitter smile.
+@waitclk
+;【演出】エコー
+@mset l=1
+@v s=50002
+Oh, look. I'm crying again.
+@waitclk
+@mset l=3
+;【備考】以下ボイスＳＥ化、ボリューム小さく
+@v s=50003
+;@【子供の頃の至】
+Waaaaaahhaaaaa! Waaaaaaahhhh!
+My only memories of childhood are pain.
+Those three random actions combined happened more 
+often than the number of times I had 3 square meals 
+a day, and tormented me.
+@waitclk
+@mset l=3
+Humans remember their feelings and actions in memories.
+A person who says that they win a lot could be called "typical".
+The experience of being bullied could be called "typical".
+@waitclk
+@mset l=3
+I can only recall pain in my childhood memories,
+
+so I wonder. Why I can smile at them?
+@waitclk
+@mset l=3
+If you think I'm lying,
+;【備考】以下ボイスＳＥ化、ボリューム小さく
+@v s=50004
+;@【子供の頃の至】
+Hee, fufuh, aahhh, nngh, ahahaha...
+;【演出】ここで上記セリフＳＥ化を演奏　ループ
+then look.
+@waitclk
+@mset l=3
+I can't remember the reason any more.
+Each time I try to recall why, I can't.
+Before I can, I wake up.
+@waitclk
+@mset l=3
+Perhaps it's like waking up during a lucid dream.
+@waitclk
+@mset l=3
+Although you're free to flutter about in that interval,
+
+as soon as you try to consider something, you wake up.
+@waitclk
+@mset l=3
+Even if I try to immerse myself in my dreams,
+
+I forget how to think, just like that.
+@waitclk
+@mset l=3
+"... Tch, do something already."
+I sigh, muttering that line, the evidence
+that I will awake soon.
+@waitclk
+@mset l=3
+Once more, I'll come back to reality.
+
+The daily life that I've revived to, so many times.
+@waitclk
+@mset l=3
+Why did I smile when I was a kid--
+
+I can't remember what let me accept the pain.
+@waitclk
+@mset l=1
+But there's one thing I'll never forget.
+@waitclk
+@mset l=3
+The person who tortured me so.
+
+That person, who already died--
+@waitclk
+@stoppfx
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@mwon
+@mwoff
+@jump storage="020100.scn"
+;@jump storage="010703.scn"
+;→010703

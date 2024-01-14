@@ -1,0 +1,114 @@
+﻿;140100
+*140100|１０月３０日７時３８分
+;【備考】主人公視点
+;【ワイプ】視点変更
+@bi s=white trans=crossfade all=true
+@bi s=bg810
+@se s=se001 loop=true
+@wait time=3000
+@mwoff
+@se fade=out
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bgm s=bgm02
+@mwon
+@v s=21616
+@【？？？】
+"Itaru... Itaru..."
+@page
+I hear my name being called, and I begin to wake.
+@page
+My head's not fully with me yet,
+but I realize now that I'm being woken up in the morning.
+@page
+Even so, I'm super sleepy.
+The sunlight peeking through the windows is too bright for me.
+@page
+@【至】
+"Five more minutes... please, Wazuka-san..."
+@page
+.........
+@page
+@se s=se131
+;【ＳＥ】撃鉄を引く音
+......... Huh?
+@page
+I hear an ominous sound, and feel something touching me.
+@page
+... Ooh, is this a wake-up kiss?
+@page
+No, wait! This isn't a--!
+@page
+@mwoff
+@bi s=bg01m trans=crossfade
+@qk
+@fi s=m415 pos=c
+@mwon
+;【背景】主人公自室
+@v s=21617
+@【祀利】
+"Bom dia."
+@page
+@lfont
+@qk
+@【至】
+"AAAAHHHH!??"
+@page
+It is a gun after all!
+@page
+@fi s=m414 pos=c
+@v s=21618
+@【祀利】
+"How could you mistake me for her!?
+How could you mistake me for that good-for-nothing?!"
+@page
+Good-for-nothing!?
+That's a really hard word, good job!
+@page
+@v s=21619
+@【祀利】
+"What're you smiling at!? You want me to shoot you?!"
+@page
+@【至】
+"D-Don't shoot me! I'm sorry, okay?
+Please, put the gun away, okay?"
+@page
+@fi s=m64b pos=c
+@v s=21620
+@【祀利】
+"Mmmnn..."
+@page
+She reluctantly puts the gun away.
+As soon as she does, I sigh in relief.
+@page
+@fi s=m111 pos=c
+@v s=21621
+@【祀利】
+"You're in a good mood this morning.
+Did something happen last night."
+@page
+@【至】
+"Aw, well, I'm happy that you took care of me for so long."
+@page
+@fi s=m64b pos=c
+@v s=21622
+@【祀利】
+"Took care of--? That's really it--?"
+@page
+@【至】
+"D-Don't say stupid things.
+Isn't breakfast soon? Let's go!"
+@page
+@fi id=m
+So, I open the door and smell the usual miso soup.
+@page
+As always, my body moves by itself to where
+breakfast is being served.
+@page
+...Well, even if I couldn't move,
+Wazuka-san would probably make me eat it anyway.
+@page
+So, anyway, I should see how she's feeling.
+@page
+@jump storage="140101.scn"
+;→140101

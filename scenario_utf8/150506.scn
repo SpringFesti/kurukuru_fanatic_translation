@@ -1,0 +1,57 @@
+﻿;150506
+*150506|_クイズ！　次はおまえだ！
+@v s=16001
+@【ウサミ】
+"Itaru and Wazuka get married!"
+@page
+@fi s=f556 pos=lc
+@v s=41083
+@【ファヌル】
+"Sigh..."
+@page
+@fi s=f212 pos=lc
+@se s=se065
+@qk
+@flash
+@lfont
+@v s=16004
+@【ウサミ】
+"GYAHHH!?"
+@page
+@v s=16003
+@【ウサミ】
+"That hurts! Why did you hit me?!"
+@page
+@v s=41084
+@【ファヌル】
+"Were you even paying attention?
+Do you really think something that
+heart-warming will end this game?"
+@page
+@v s=16001
+@【ウサミ】
+"B-But it would be nice if the last part
+would be a Happy End."
+@page
+@fi s=f213 pos=lc
+@v s=41085
+@【ファヌル】
+"If you want that kind of story,
+go buy some other game.
+@page
+@v s=16001
+@【ウサミ】
+"L-Like what?"
+@page
+@fi s=f55a pos=lc
+@v s=41086
+@【ファヌル】
+"Go buy a game that says 'Now on Sale!' or 'New Work!'.
+Something like that."
+@page
+@v s=16001
+@【ウサミ】
+"So confused..."
+@page
+;→150508
+@jump storage="150508.scn"

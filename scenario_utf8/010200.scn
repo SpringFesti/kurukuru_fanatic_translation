@@ -1,0 +1,442 @@
+﻿;010200
+;@mwoff
+*010200|The Girl Named Wazuka
+;【背景】主人公自宅廊下
+;@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03d trans=tile
+@bgm s=bgm02
+@fi s=w119 pos=c
+@mwon
+@v s=10077
+@【わずか】
+"Itaru-kun, are you ready to go?
+Do you have your hankerchief?　Tissues?
+@page
+@【至】
+"I'm fine. I'm not a kid anymore, right?"
+@page
+@fi s=w111 pos=c
+@v s=10078
+@【わずか】
+"You're just as forgetful as one, though."
+@page
+@【至】
+"It hurts when you put it that way..."
+@page
+@fi s=w112 pos=c
+@v s=10079
+@【わずか】
+"We'll be late if we don't go soon. We'll need to walk fast."
+@page
+@fi id=w
+;【ワイプ】場所移動
+;【背景】住宅街路上/昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=ひし形(左から右へ)
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+Hurrying out of the house, I find that the town seems busy somehow.
+@page
+I live in a developing residential area.
+Many suited figures run to the station, among other people.
+@page
+@【至】
+"So this is the so-called 'graveyard of the white-collar worker'?
+I wonder if they own expensive houses?"
+@page
+@fi s=w111 pos=c
+@v s=10080
+@【わずか】
+"Maybe."
+@page
+@【至】
+"Yeah, maybe. Still, that's not our problem."
+@page
+@v s=10081
+@【わずか】
+"Yeah."
+@page
+@【至】
+"Turn that frown upside-down, Wazuka-san!"
+@page
+@v s=10081
+@【わずか】
+"Sure."
+@page
+She's always like this when we go out.
+@page
+She isn't in a bad mood. 
+I understand why she's like this, so it's not a big deal.
+@page
+She just doesn't like the outside world.
+Seeing other people brings up bad memories for her.
+She doesn't think anything's significant to her.
+@page
+So when we go out, she's like this. Cool and emotionless.
+If anybody except for me talks to her, they're ignored.
+@page
+―― Huh? Isn't that a big deal? Isn't that really bad, you say?
+@page
+Well, that's just how she lives her life.
+If I say I don't like Western music because I don't understand it,
+is that a crime?　Isn't that just a difference in taste?
+@page
+At home, though, she's normal.
+There are a lot of problems, like what happened a little while ago, 
+but I'm used to it now.
+@page
+@【至】
+"... It'll be ten years soon, won't it?"
+@page
+@v s=10082
+@【わずか】
+"What do you mean?"
+@page
+@【至】
+"Since we began living together."
+@page
+@v s=10083
+@【わずか】
+"8 years, 5 months, and 13 days."
+@page
+@【至】
+"You counted?"
+@page
+@fi s=w547 pos=c
+@v s=10084
+@【わずか】
+"It's related to you."
+@page
+@fi s=w111 pos=c
+@v s=10085
+@【わずか】
+"... And I can't forget that time."
+@page
+@setOnce
+@fi id=w
+@bi s=bg810 time=500
+@endOnce
+;【背景】青空
+It looks like that's still the most important thing in the world to her.
+@page
+Something like that is normally a bad year, or a natural disaster or something.
+A miracle, statistically speaking.
+@page
+It's a miracle when two people meet as well.
+To meet one specific person within the billions that live on Earth.
+@page
+@bgm fade=out
+That's how it was for Wazuka-san and I.
+@page
+@mwoff
+@bgm s=bgm05
+@filmpfx
+@bi s=bg811 time=500
+@mnon
+;以下、モノローグ/文章縦表示
+;【背景】青空→グレーに変更
+@mset l=4 h=true
+I first met her when we were both kids――
+It was a dull, cloudy day. It looked like it would rain soon.
+@waitclk
+@bi s=evn1050
+@mset l=3 h=true
+She stood in the road, barefoot.
+Wearing a dirty dress, with her hair crumpled and messy――
+She stood there, trembling.
+@waitclk
+@mset l=3 h=true
+I wasn't a good kid.
+Justice sounded like a bunch of crap to me,
+and I wanted to live life disconnected from everything.
+@waitclk
+@mset l=3 h=true
+But, there are times you can't ignore what's in front of you.
+@waitclk
+@mset l=3 h=true
+"―― What's wrong?"
+I asked her that, and this was her response:
+@waitclk
+@mset l=3 h=true
+@v s=10086
+"―― Die."
+@waitclk
+@mset l=3 h=true
+That word was spoken without feelings and without hesitation.
+I was stunned. I couldn't think of anything else to say.
+@waitclk
+@mset l=4 h=true
+That was the end of our first encounter.
+She turned her back on me and walked away.
+Where she was going, I didn't know--
+I don't think she knew either.
+@waitclk
+@mset l=3 h=true
+In other words, she had no destination.
+Even though her house was only 10 meters away, she didn't go in.
+Her mother wouldn't let her.
+@waitclk
+@mset l=3 h=true
+I never asked why. I didn't want to hear.
+Eventually, she told me just one thing about it.
+@waitclk
+@mset l=3 h=true
+@v s=10087
+"... She was a woman before she was a mother."
+@waitclk
+@mset l=3 h=true
+I didn't know what that meant.
+Even if I generally know the truth, it's all over now.
+After all, I can't ask anymore.
+@waitclk
+@mset l=3 h=true
+Yeah. You can't talk to the dead.
+@waitclk
+@rainpfx slot=1
+@se s=se049 loop=true
+@bi s=bg8080
+@mset l=4 h=true
+;【背景】雨
+A month after I met her, it was another rainy day.
+I thought I'd go out and play.
+I didn't have anything else to do.
+I was just bored in my house. That's all.
+@waitclk
+@mset l=3 h=true
+I walked out of my front door, and puzzled over where I should go.
+Should I go left, or right? I opened up my umbrella while I wandered.
+@waitclk
+@mset l=4 h=true
+@stoppfx slot=1
+@bi s=evn1051
+"... Oh."
+In the pitter-patter of rain, I heard a small murmur.
+@waitclk
+@mset l=3 h=true
+She was there―― Wazuka-san was there.
+Just like before.
+Barefoot, in a dirty dress, with no umbrella.
+@waitclk
+@mset l=3 h=true
+I thought she hated me. I didn't want to get involved with her.
+I thought I'd just pass by.
+@waitclk
+@mset l=3 h=true
+But I couldn't.
+@waitclk
+@se fade=stop
+@mset l=4 h=true
+@setOnce
+@pfxOption backvisible=false
+@bi s=blank
+@endOnce trans=crossfade
+@se s=se048
+@qk time=600
+@wait time=1000
+@se fade=out
+I was about to start walking, when she fell down.
+Before I could get to her, she shook and keeled over.
+She fell right on her face.
+@waitclk
+@mset l=3 h=true
+I began to run towards her――
+No, I hoped to run away from what I expected.
+@waitclk
+@mset l=5 h=true
+No, that wasn't my place.
+I didn't see THAT. There's no such thing as THAT.
+As if that would become the truth, I repeated it in my head.
+I kept thinking that, as I ran, and ran, and ran-
+@waitclk
+@mset l=4 h=true
+"A- are you alright?　G- g- g- get up!"
+I realized that I was holding her.
+With a runny nose, tears and saliva dripping down my face, I stuttered.
+@waitclk
+@bi s=evn1051
+@mset l=4 h=true
+@v s=10088
+"... Ah..."
+Did she try and say someting?
+That single word stopped her from saying anything else, 
+and her head drooped limply.
+@waitclk
+@bi s=bg8080
+@mset l=5 h=true
+I think I shouted something.
+Probably something dumb.
+I've forgotten since then.
+I only remember holding her, covered in mud, and running inside my own home.
+@waitclk
+@mset l=3 h=true
+Again, I wasn't a good kid.
+I was going to waste away the days doing nothing at all.
+@waitclk
+@mset l=3 h=true
+But, could you ignore something like that?
+I took on this burden because I didn't ignore her.
+@waitclk
+;【背景】住宅街路上/昼
+;@mwoff
+@stoppfx slot=0
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=tile
+;@bgm s=bgm***
+@fi s=w111 pos=c
+@mwon
+@v s=10089
+@【わずか】
+"... Itaru-kun... Itaru-kun... can you hear me?"
+@page
+@【至】
+"―― Eh? Oh, yeah, sorry."
+@page
+@v s=10090
+@【わずか】
+"Your food. Lunch and dinner."
+@page
+@【至】
+"You eat it. You made it."
+@page
+@v s=10091
+@【わずか】
+"There's a fried egg in there."
+@page
+@【至】
+"You're terrible with fried eggs."
+@page
+@fi s=w113 pos=c
+@v s=10092
+@【わずか】
+"No I'm not. So, what were you daydreaming about?"
+@page
+@【至】
+"Oh, just something from a long time ago.
+Back when we started living together... After I brought you home."
+@page
+@fi s=w547 pos=c
+@v s=10093
+@【わずか】
+"We've been together for 8 years, 5 months, and 13 days.
+Always, always together."
+@page
+@mwoff
+@fi id=w
+@filmpfx
+@bi s=bg04d
+@mnon
+@mset l=4 h=true
+That day, when Mom and Dad came home,
+we went straight to the police to send Wazuka-san to an institution――
+@wait time=3000
+No, not really. Actually, we did the opposite.
+@waitclk
+@mset l=4 h=true
+After putting her in the a spare room,
+We called a doctor―― and from then on, we stayed together.
+@waitclk
+@mset l=3 h=true
+From that day, Wazuka-san joined our family.
+The spare room became hers, and she got a key to the house.
+@waitclk
+@mset l=5 h=true
+@v s=10094
+"Why...?"
+My father asked me about her.
+Who wouldn't――
+It's natural to lend a hand in that situation.
+@waitclk
+@mset l=3 h=true
+After a few years went by, I learned what happened.
+Wazuka-san's parents went on a trip and left her behind.
+They died in a car accident and never came back.
+@waitclk
+@mset l=3 h=true
+There's a chance she already knew at the time.
+@waitclk
+@bi s=evn1050 time=500
+@mset l=6 h=true
+She had extreme malnutrition.
+She had burns that were hard to see.
+She might have become mute.
+She might have become a little autistic.
+All of these symptoms came from one place――
+That is――
+@waitclk
+@mset l=3 h=true
+Even if I knew, what could I do?
+It's already over.
+Even if they would take responsibility, they're not in this world anymore.
+@waitclk
+;【背景】住宅街路上/昼
+@setOnce
+@pfxOption backvisible=false
+@bi s=bg08d
+@endOnce trans=crossfade
+@stoppfx
+@fi s=w111 pos=c
+@mwon
+@v s=10095
+@【わずか】
+"... Itaru-kun... Itaru-kun... again?"
+@page
+@【至】
+"―― Ah, sorry. What is it?"
+@page
+@v s=10096
+@【わずか】
+"We'll be late. We have 3 minutes until first bell."
+@page
+@qk time=500
+@lfont
+@【至】
+"SERIOUSLY!?"
+@page
+@v s=10097
+@【わずか】
+"I've been saying that for a while. We need to run, or we'll be late."
+@page
+We really, really need to hurry.
+We haven't even walked 10 meters from my house.
+@page
+Then, we arrive at her house.
+@page
+I look over the fence at the tangled ivy and weeds.
+There's no house there anymore.
+When people stopped living there, nature overran it immediately.
+@page
+@【至】
+"It'd be good to care for it a bit."
+@page
+@v s=10098
+@【わずか】
+"For what?"
+@page
+@【至】
+"Your house."
+@page
+;@fi s=w548 pos=c
+@v s=10099
+@【わずか】
+"I cleaned it last night."
+@page
+Before I try to say that I meant this house,
+→ She quickens her pace.
+→ And I stop talking.
+@page
+@【至】
+"... Guess it isn't a big deal."
+@page
+Yeah, it's just how she lives her life.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+@jump storage="010300.scn"
+;【ワイプ】時間経過
+;→010300

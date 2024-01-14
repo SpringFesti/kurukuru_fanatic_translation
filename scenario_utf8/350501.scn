@@ -1,0 +1,160 @@
+﻿;350501
+*350501|変わる運命
+;【ワイプ】場面転換
+;【背景】主人公自室・点灯
+@bi s=bg01n
+After all that, I return to my room.
+@page
+I don't want to do anything.
+... No, I don't understand what I should do.
+@page
+@【至】
+"Sigh..."
+@page
+I lie down on my bed and sigh, looking up at the ceiling.
+@page
+The date will change soon, or perhaps I should say that the time zone will change soon.
+But I can't get myself to fall asleep.
+@page
+When I look at my cell phone...
+@wait time=700
+I see that there aren't any more texts from Otogiri-san today.
+@page
+@【至】
+"I wonder what's wrong... perhaps I should send her one.
+Or maybe I shouldn't today?"
+@page
+Which is it?
+To send or not to send, that is the question.
+@page
+I stare at my cell-phone, fretting and worrying.
+@page
+Somehow, I think she'll get angry at me either way.
+That's how I choose to think.
+@page
+@【至】
+"... I really don't get any of this at all."
+@page
+I'm not her little brother, but I feel like a little kid, afraid of being scolded.
+However, when I try to think about what I should do, I just can't.
+@page
+In the meantime, the date on my phone changed.
+@page
+@se s=se041
+@v s=40622
+@fi s=f111 pos=c
+@【ファヌル】
+"Hey, you still here?"
+@page
+@【至】
+"Don't come in so suddenly.
+Besides that, do you need something?"
+@page
+@fi s=f215 pos=c
+@v s=40623
+@【ファヌル】
+"Good grief, is your brain rotting out of your skull?
+The date just changed, Takamichi Itaru."
+@page
+@【至】
+"Oh... you're right, I forgot."
+@page
+That's right, today-- No, yesterday was my final day.
+I completely forgot that it was the fifth day of destiny.
+@page
+Rather, it's appropriate that I forgot, given all the things that happened today.
+@page
+I feel the joy of having managed to survive, the fruits of all of my labors.
+@page
+@【至】
+"But, well... for now, it seems like I'm saved."
+@page
+@fi s=f212 pos=c
+@v s=40624
+@【ファヌル】
+"Don't relax yet.
+Though your fate has changed, my duty has not ended yet."
+@page
+@【至】
+"That... What do you mean?"
+@page
+@fi s=f211 pos=c
+@v s=40625
+@【ファヌル】
+"Exactly what I said. Your fate of dying today has changed.
+However, the signs of your death have not disappeared.
+You might still share the same fate of death."
+@page
+@【至】
+"H-Hey, whaddaya mean by that!?
+I didn't save myself yesterday?!"
+@page
+@fi s=f111 pos=c
+@v s=40626
+@【ファヌル】
+"Even if I said you might die, I don't know for certain.
+Only God can know that for certain."
+@page
+@【至】
+"Then ask God! Then the cause of my death would be easy to find, wouldn't it!?"
+@page
+@fi s=f55a pos=c
+@v s=40627
+@【ファヌル】
+"While I'd very much like to do that, he's out of range.
+If I don't go to a place with more radio waves, I can't connect."
+@page
+@【至】
+"Don't give me that! Just go contact him already!"
+@page
+@fi s=f559 pos=c
+@v s=40628
+@【ファヌル】
+"You're slow, aren't you? I said that I can't.
+Well, try your best to survive further.
+If the signs of your death disappear, I'll tell you."
+@page
+@se s=se041
+@fi id=f
+@【至】
+"Ah, hey, wait-- don't just leave like that."
+@page
+@【至】
+"... Even if she says that, what am I supposed to do?"
+@page
+From tomorrow on, there's still a possibility that I'm going to die.
+Although even that much would be bad, I can't remember anything else, so I'm getting anxious.
+@page
+@【至】
+"This is certainly disadvantageous, isn't it?"
+@page
+Even if I don't say it, that's how it is.
+In all probablility, I'm still going to die.
+@page
+What should I do to save myself?
+@wait time=700
+-- I have to do something about the cause.
+@page
+So what is the cause?
+@wait time=700
+-- I don't know.
+@page
+This thought is a dead end.
+Even if I try harder, I can't find anything that way.
+@page
+@【至】
+"... Gimme a break.
+Why are there so many of these kinds of events?"
+@page
+Like with the fate of my death, with Otogiri-san,
+with Wazuka-san, with Matsuri...
+@wait time=1000
+... What's after that?
+@page
+My head becomes heavy thinking about these things,
+and my consciousness sinks into the deep darkness...
+@page
+@mwoff
+;→360100
+@bgm fade=stop
+@jump storage="360100.scn"

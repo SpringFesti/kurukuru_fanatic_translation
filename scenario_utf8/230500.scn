@@ -1,0 +1,132 @@
+﻿;230500
+*230500|_観察
+;【ワイプ】場面転換
+;【背景】屋上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=tile
+@bgm s=bgm03
+@mwon
+@【至】
+"Sorry, did I keep you waiting?"
+@page
+@setOnce
+@fi s=w114 pos=lc
+@fi s=m112 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=10619
+;@【わずか】
+"No, we were just going to start the killing now.♪"
+;@v s=20821
+;@【祀利】
+;「ううん、今殺るところ♪」
+@page
+Somehow it feels like that was the wrong line.
+@page
+At lunchtime, I come up to the roof being slightly late,
+and jump into the middle of a glare that says
+that they'll start killing each other at any moment.
+@page
+@【至】
+"W-We should probably eat first though, right?"
+@page
+I put myself between them and smile as radiantly as possible.
+@page
+@fi s=w111 move=l
+@fi s=m64b move=r
+@wait time=500
+@fi s=m64a pos=r
+@v s=20822
+@【祀利】
+"Itaru, move. I can't kill her like this."
+@fi s=w112 pos=l
+@page
+For a moment, I see the barrel of a gun under Matsuri's coat.
+@page
+@【至】
+"No, it's bad to kill people. You have to eat lunch right now."
+@page
+@v s=10620
+@【わずか】
+"That's true. You can't pay attention to someone like her forever."
+@page
+@fi s=w114 pos=l
+@v s=10621
+@【わずか】
+"Here you go, here's your lunch."
+@page
+Wazuka-san tries to sit next to me and hand me a bento.
+@page
+@fi s=m64a pos=r
+@v s=20823
+@【祀利】
+"... 5 meters."
+@page
+@bi s=current all=true trans=crossfade time=100
+@se s=se120
+@qk
+Crap--
+I get away from Wazuka-san as fast as I can when I hear Matsuri's whisper.
+@page
+I don't know why she's staring at me like that right now,
+but I lower my head a little and try to bear it.
+@page
+@【至】
+"Err... well then, thanks for the food."
+@page
+Nom nom... yep, it's the usual.
+This is a bit better than a half-baked hamburger steak though, isn't it?
+@page
+;@bi s=current all=true trans=crossfade
+@fi s=m114 pos=c
+@v s=20824
+@【祀利】
+"Even after Matsuri made it...
+who could have done that?
+I won't let them go... I won't forgive them...!"
+@page
+I understand her feelings.
+The thing she made with so much effort was smooshed into the ground.
+@page
+However, the aura of that anger is bad.
+If a kid saw that, they'd be so afraid that they wouldn't be able to cry.
+@page
+@【至】
+"Who the hell could have done that?
+We have to find the criminal."
+@page
+@setOnce
+@fi id=m
+@fi s=w411 pos=c
+@endOnce
+@v s=10622
+@【わずか】
+"What are you talking about?"
+@page
+Wazuka-san leans in, tilting her head.
+@page
+@fi s=w111 pos=c
+@v s=10623
+@【わずか】
+"Just leave it. Don't do something for her sake."
+@page
+"I can't do that. It happened in my classroom, after all."
+@page
+@fi s=w214 pos=c
+@v s=10624
+@【わずか】
+"Before that, eat up. Today's is a masterpiece too.♪"
+@page
+To be honest, my stomach hurts. I can't comprehend this taste.
+@page
+Yesterday's was pretty bad, but today isn't going to be easy either.
+@page
+What the hell is going to happen from now on...?
+@page
+;→230501
+@fi id=w
+@bgm fade=out
+@mwoff
+@jump storage="230501.scn"

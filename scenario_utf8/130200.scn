@@ -1,0 +1,148 @@
+﻿;130200
+*130200|新たな悩み
+;【ワイプ】時間経過
+;【背景】住宅街路地・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810
+@wait time=1000
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=clock
+@bgm s=bgm03
+@fi s=w111 pos=c
+@mwon
+@【至】
+"Hey, Wazuka-san?"
+@page
+An hour later, I ask her--
+@page
+We had to shovel breakfast into our mouths
+and get to school right before being late,
+just like usual.
+@page
+So I ask her a question on the way.
+@page
+@v s=10856
+@【わずか】
+"What?"
+@page
+@【至】
+"Are you still mad at Matsuri?"
+@page
+;@fi s=w211 pos=c
+@v s=10857
+@【わずか】
+"Hmm."
+@page
+A trivial refusal on her part.
+Well, it doesn't really matter anyway.
+@page
+I explained what happened earlier to Matsuri.
+@page
+I explained a little more over breakfast,
+and as soon as we got ready to go, Matsuri went to the bathroom.
+@page
+Although I was willing to wait for her, Wazuka-san
+pulled me by the hand out of the house before she came back.
+@page
+She locked all the doors, but we're talking about Matsuri here,
+so I expect her to come kicking and screaming to us any time now.
+@page
+I still haven't given her a house key.
+That's a natural, logical decision.
+@page
+@【至】
+"Matsuri isn't following us."
+@page
+I turn around and neither her nor her guns are there.
+@page
+@fi s=w411 pos=c
+@v s=10858
+@【わずか】
+"Yep."
+@page
+She bluntly gives me the answer I was expecting,
+and silence returns once more.
+@page
+I've said this before, but she isn't mad at me.
+She's just tense when we're outside.
+@page
+Usually it doesn't trouble me, but today
+it's a little concerning.
+@page
+It would be okay if she was still mad.
+If Matsuri were here, she could help take my mind off things.
+@page
+But with just the two of us,
+it's embarrassing to just walk silently.
+@page
+Looking at Wazuka-san's lips, I remember... that.
+@page
+Red, puffy lips. I kissed those lips.
+As I remember, my body temperature rises by two degrees.
+@page
+It was soft, pleasant... and embarrassing.
+So far, the best kiss I've ever had, I think.
+@page
+Of course, it was also the best way I could think of to calm her down.
+@page
+It was a rude and awful thing to do, really.
+I'm not the kind of guy who would do that on a whim.
+@page
+Heh, what was with that "Wanna kiss?" before?
+What an asshole I was.
+@page
+I blush as I remember it.
+My chest burns with intense self-hatred and regret.
+Even my stomache starts to ache and scream.
+@page
+@qk time=1000
+@lfont
+SOMEONE KILL ME!
+Actually, no, ERASE MY MEMORIES!
+@page
+@fi s=w111 pos=c
+@v s=10859
+@【わずか】
+"What's wrong?"
+@page
+@【至】
+"Wha!?"
+@page
+;@fi s=w211 pos=c
+@v s=10860
+@【わずか】
+"You were mumbling something."
+@page
+@【至】
+"No way, you heard me?"
+@page
+;@fi s=w111 pos=c
+@v s=10861
+@【わずか】
+"Yep."
+@page
+Aaaaghhh... this is torture...
+@page
+;@fi s=w411 pos=c
+@v s=10862
+@【わずか】
+"What are you thinking about?"
+@page
+I'm thinking about that kiss!
+... It'd be nice if I could say that,
+but it's too embarrassing.
+@page
+@【わずか】
+"......"
+@page
+Ohhh, this silent pressure is scary...
+@pages
+;選択肢
+@selinit
+@selbtn cap="Tell the truth" s="130201.scn"
+@selbtn cap="Say it's nothing" s="130202.scn"
+@s

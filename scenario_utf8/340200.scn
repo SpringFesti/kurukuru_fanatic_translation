@@ -1,0 +1,124 @@
+﻿;340200
+*340200|かごめとの約束
+;【ワイプ】場面転換
+;【背景】青空
+@bi s=bg810 trans=tile
+There were no problems going to school either.
+@wait time=500
+... Although nobody talked very often.
+@page
+Anyway, thanks to that, I was able to get to school early.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=clock
+@bgm s=bgm03
+@fi s=w111 pos=c
+@mwon
+@【至】
+"See you... tonight."
+@page
+@v s=10735
+@【わずか】
+"Yes... see you later."
+@page
+@fi id=w
+In a condition like that, she doesn't start a conversation.
+Although Matsuri talks about various things,
+I wasn't able to give her any good answers either.
+@page
+Am I lovesick?
+That self-diagnosis is probably right on the mark.
+@page
+So the awkward atmosphere is my fault, I think.
+@page
+However, I can't control my feelings well.
+I'll apologize to the both of them after calming down.
+@page
+;【ワイプ】場面転換
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+;@fi s=fi**** pos=****
+@mwon
+Then I went to the classroom.
+Matsuri immediately sat in my seat and began to sleep.
+@page
+You don't really need to come to school to do that...
+Eh, if I let her sleep then the situation around me will be better.
+@page
+@【至】
+"Otogiri-san is... still not here.
+No texts either."
+@page
+There's nothing I can do about it, so I'll try sitting in my seat and waiting.
+@page
+-- Five minutes.
+@wait time=500
+Still not here.
+@page
+-- Ten minutes.
+@wait time=500
+Nope.
+@page
+@se s=se011
+@fi s=k211 pos=c
+Then fifteen minutes go by.
+Just before homeroom starts,
+Otogiri-san finally comes.
+@page
+@se fade=out
+I want to call out to her, but I think a little and stop myself.
+@page
+@fi id=k
+@【至】
+(It's a little embarrassing...
+She probably wouldn't like being called out in front of everyone.)
+@page
+In that case, I decide to text her.
+@page
+"Hey, did you get my text?"
+@page
+@mnon time=300
+@mset l=5 h=true time=300
+@v s=30368
+;@【かごめ】
+"Good morning.
+Sorry, I didn't have enough time to respond today.
+I wanted to see you too."
+@waitclk
+@mwon
+-- Alright, this is good.
+@page
+"Then, what are you doing about lunch?
+Today's a half-day, so we have lunch after school."
+@page
+The moment I send it, my hand trembles a little.
+@page
+Only a dozen seconds go by until her reply comes.
+Meanwhile, my chest hurt a lot.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30369
+;@【かごめ】
+"Then let's meet on the rooftop!
+Look forward to lunch, okay?"
+@waitclk
+@mwon
+Alriiiiiiight!
+Almost yelling in happiness, I strike a little victory pose.
+@page
+@【至】
+"Meet on the roof, huh... good. I feel like a little kid again, wanting to see what happens."
+@page
+;【ＳＥ】チャイム
+@se s=se011
+Somehow a grin stretches on my face for an hour before I notice it with the bell.
+I rub my face in a hurry with both hands to get rid of it.
+@page
+;→340300
+@jump storage="340300.scn"

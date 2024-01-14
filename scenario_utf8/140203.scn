@@ -1,0 +1,75 @@
+﻿;140203
+*140203|_クイズ！　次はおまえだ！
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+@v s=16001
+@【ウサミ】
+"I-I don't need to hear it?"
+@page
+@fi s=f213 pos=lc
+@v s=41051
+@【ファヌル】
+"... Correct."
+@page
+@act id=u t=hit
+@v s=16003
+@【ウサミ】
+"Why did you say that so hatefully!?"
+@page
+@fi s=f312 pos=lc
+@v s=41052
+@【ファヌル】
+"Does the couple who cuts the cake at the wedding cut the rest?
+In other words, can't you read the mood?"
+@page
+@v s=16001
+@【ウサミ】
+"Err, umm..."
+@page
+@fi s=f556 pos=lc
+@v s=41053
+@【ファヌル】
+"Shut up for once in a while. Worthless."
+@page
+@v s=16001
+@【ウサミ】
+"You say that like Sasami would."
+@page
+@v s=16001
+@【ウサミ】
+"Actually, is an answer like 'I don't need to hear it' okay?"
+@page
+@fi s=f311 pos=lc
+@v s=41054
+@【ファヌル】
+"Yes. They don't need to hear it.
+So it's pointless to tell them."
+@page
+@fi s=f55b pos=lc
+@v s=41055
+@【ファヌル】
+"Fufufu... a wonderful train of thought.
+I love that human rationality."
+@page
+@v s=16001
+@【ウサミ】
+"In a sense, it's great, but...
+What are you talking about?"
+@page
+@fi s=f55a pos=lc
+@v s=41056
+@【ファヌル】
+"Whether I was right or wrong depends on the interpretation of the individual."
+@page
+@fi s=f559 pos=lc
+@v s=41057
+@【ファヌル】
+"However, I can say that fundamentally, they don't need
+to listen to that person's story."
+@page
+@v s=41058
+@【ファヌル】
+"As a result, without knowing what happened to himself..."
+@page
+@jump storage="140204.scn"
+;→140204

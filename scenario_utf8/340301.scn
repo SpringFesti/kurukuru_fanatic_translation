@@ -1,0 +1,100 @@
+﻿;340301
+*340301|_かごめとの約束
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+@【至】
+"You haven't done anything as bad as that..."
+@page
+@v s=30384
+@【かごめ】
+"B-but, but I... I..."
+@page
+@【至】
+"You didn't mean for it to go bad, right?
+So there's nothing to apologize for."
+@page
+Yeah, she didn't mean for something like that to happen.
+So when she tries to apologize, my heart hurts.
+@page
+@【至】
+"Even though I can't eat this, I understand the feelings that went into it."
+@page
+@v s=30385
+@【かごめ】
+"...O-Okay."
+@page
+@【至】
+"Thanks, Otogiri-san.
+I'm really happy that you made this for me."
+@page
+;【イベントＣＧ】evn3023
+@mwoff
+@bi s=evn3023
+@wait time=300
+@mwon
+@v s=30386
+@【かごめ】
+"Oh, e-ehehe... you're too kind, Takamichi-kun...
+That's a +1..."
+@page
+I don't understand what she's talking about, but I got a point.
+@page
+But, was that really so kind?
+She didn't mean any harm, so it's normal to respond like that.
+@page
+@【至】
+"Hey, why don't we try eating out?
+That's what I wanted to do from the start."
+@page
+@v s=30387
+@【かごめ】
+"Oh, yeah, okay. Eating out... Uwah, it's kinda like a date, huh?"
+@page
+@【至】
+"Ah... umm, yeah, it kinda is."
+@page
+@v s=30388
+@【かごめ】
+"Ah... y-yeah."
+@page
+Date--
+When both of us say it, our faces both turn red.
+@page
+@【至】
+"Um... a date, huh. It certainly is a date.
+... Is that too much?"
+@page
+@v s=30389
+@【かごめ】
+"Oh, of course not."
+A date is fine. It's the best!
+Di molto!　Di molto-- good!"
+@page
+;【背景】屋上・昼
+@bi s=bg13d
+@【至】
+"Then it's decided. Do you want to
+go to the mall? I'll treat you."
+@page
+@fi s=k114 pos=c
+@v s=30390
+@【かごめ】
+"Of course! But don't worry about money, I'll pay for both of us."
+@page
+@【至】
+"No, I said I'll pay.
+If you don't want me to, we could split the bill."
+@page
+@fi s=k112 pos=c
+@v s=30391
+@【かごめ】
+"No, I want to pay. The lunch
+I made went bad, and besides..."
+@page
+@fi s=k114a pos=c
+@v s=30392
+@【かごめ】
+「I'm Itaru's onee-chan.」
+@page
+;→340303
+@jump storage="340303.scn"

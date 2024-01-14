@@ -1,0 +1,760 @@
+﻿;010400
+@mwoff
+*010400|Cloudy With A Chance of Red Rain
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@bgm s=bgm03
+@fi s=w111d pos=c
+@mwon
+;【背景】学園屋上/昼
+;【立ち絵】わずか/大　……以降、指示あるまで基本的に正面・大で
+@v s=10105
+@【わずか】
+"So, there was nothing you could do?"
+@page
+I nod a little. It's lunch time, around 3 hours later.
+
+@page
+I came to the roof as promised, and I told her about what happened to me this morning while we ate lunch.
+@page
+I left out the part where I touched "that", of course.
+@page
+@fi s=w112d pos=c
+@v s=10106
+@【わずか】
+"How rude. Why did you apologize?"
+@page
+@【至】
+"It was an accident. I mean, I did..."
+@page
+I swallow the words I was about to blurt out carelessly.
+Even if someone was gonna kill me, I'd never say that I touched her "there".
+@page
+Wazuka-san thinks for a moment, and then looks at me, annoyed and clearly wanting to ask me more.
+@page
+@v s=10107
+@【わずか】
+"You did... what?"
+@page
+@【至】
+"Uh, yeah... I did something bad to a girl. Of course I had to apologize."
+@page
+It's a good excuse, if I do say so myself.
+I'll just call it "apologizing to girls". I'm not lying, I'm just leaving things out.
+@page
+@fi s=w548d pos=c
+@v s=10108
+@【わずか】
+"Itaru-kun, you're too nice."
+@page
+@【至】
+"It's normal to be nice."
+@page
+@fi s=w112d pos=c
+@v s=10109
+@【わずか】
+"Nuh-uh. Don't apologize next time. You're both at fault."
+@page
+@v s=10110
+@【わずか】
+"If it were me, I'd beat the crap out of her.
+She ran into me and knocked me down, so it's only natural."
+@page
+Ah... yeah, that sounds like something Wazuka-san would do.
+Rather, she'd probably do something even worse.
+@page
+I don't want to ask her about what she'd do.
+While I listen to her talk, time passes. 
+In other words, less time that I can use to eat.
+@page
+@【至】
+"Wazuka-san, let's eat. Lunch will be over soon."
+@page
+@fi s=w113d pos=c
+@v s=10111
+@【わずか】
+"Oh, sorry... did I talk too much?"
+@page
+@【至】
+"Nah, not at all. Besides, this omelette's really good!"
+@page
+@fi s=w547d pos=c
+@v s=10112
+@【わずか】
+"Really? The taste isn't too much?"
+@page
+I shake my head in disagreement and pop another bite into my mouth.
+@page
+Yeah, this is great. To be precise, it tastes super mediocre.
+In other words, it doesn't taste like complete trash.
+@page
+I mean, compared to my mom's home cooking, this isn't as... no, this sucks.
+@page
+@【至】
+(... But, I do appreciate the trouble she went to. I can't cook at all.)
+@page
+Even if she occasionally burns omelettes and sunny-side up eggs,
+if I have Wazuka-san, I won't have to eat convenience store meals every day. 
+@page
+;@fi s=w112d pos=c
+@v s=10113
+@【わずか】
+"How's the hamburger steak? Did you try it?"
+@page
+@【至】
+"Not yet, I'll try it now."
+@page
+I put my chopsticks into the hamburger, and divide it in two.
+@page
+……………………
+@wait time=800
+Alright, let's pretend I didn't see that.
+@page
+@【至】
+(... Wow, it's really rare to see meat this rare.)
+@page
+The innards are completely red. This is more like sashimi than a burger.
+@page
+@fi s=w113d pos=c
+@v s=10114
+"What's wrong?　I didn't burn it, did I?"
+@page
+If I nodded yes, she'd probably jump off the roof.
+@page
+I won't let blood be spilled today. More than anything―― this is a test.
+A test of the bonds of love between Wazuka-san and I!
+@page
+@sfont
+@【至】
+"... Not really though."
+@page
+While I murmur that, I carry something that's more of a suspicious lump of meat than a hamburger to my mouth.
+@page
+@fi s=w111d pos=c
+@v s=10115
+@【わずか】
+"... How is it?"
+@page
+@【至】
+"Wow, this is great!"
+@page
+It's cold, rare, and it tastes uncooked. 
+We've finally reached a new kind of taste.
+@page
+@【至】
+"Thanks, Wazuka-san. You've really gotten better at this."
+
+@page
+She's actually gotten worse. 
+I just want to stay positive so I can keep this down.
+@page
+;【立ち絵】わずか照れ
+@fi s=w547d pos=c
+@v s=10116
+@【わずか】
+"Hehehe, I did a really good job. I didn't even look at the book today～♪"
+@page
+@【至】
+"Wow, really? I bet if you looked at the book though, 
+you could make this even better."
+@page
+Better than this, anyway.
+@page
+@fi s=w11bd pos=c
+@v s=10117
+@【わずか】
+"Hell no! A book that somebody else wrote? You can't trust them... 
+They'll definitely lie! I would fail completely if I trusted them!"
+@page
+Again, this is how she works. 
+I'd really, REALLY like it if she looked at the book, though.
+@page
+If she didn't, I'd be in a real pinch.
+My eating habits―― no, my very life might be in danger.
+@page
+@【至】
+"Hey, Wazuka-san."
+@page
+I'd like to start scolding her.
+@page
+;【立ち絵】わずか笑顔
+@fi s=w114d pos=c
+@v s=10118
+@【わずか】
+"Oh, you want more? I'll give you mine too～♪」
+@page
+That smile is my weakness.
+@page
+She doesn't smile... no, she usually doesn't show any emotions at all.
+So when she smiles like this, I get all bashful. It's like she's cheating.
+@page
+So, that's why I can't yell at her. 
+More than anything, this is the real test of my love.
+―― Not really, though.
+@page
+@【至】
+"Thanks, Wazuka-san."
+@page
+@fi s=w547d pos=c
+@v s=10119
+@【わずか】
+"Ehehehe～ Eat up, okay?"
+@page
+She blushes a little, and puts her hamburger in my lunch――
+Then, she stops.
+@page
+The next thing I know――
+@page
+@qk time=500
+@fi s=w112ad pos=c
+@act id=w t=neckswing
+;【ＳＥ】グチグチとかき混ぜる音ないか？
+@v s=10120
+@【わずか】
+"Mnnnnnnnnnnnnnnnnnnnnn..."
+@page
+She moans and mumbles, twirling her chopsticks round and round.
+She's turning the contents of my lunch box into a mush.
+@page
+@qk time=500
+@v s=10120
+@【わずか】
+"Mnnnnnnnnnnnnnnnnnnnnn..."
+@page
+Stirring together the rice, sausages, eggs, and the half-cooked hamburger,
+the mixture turns into a kind of dark, red gravy.
+@page
+@【至】
+"Wh- what's wrong? Did you want that hamburger?"
+@page
+@setOnce
+@act id=w t=stopswing
+@fi s=w113ad pos=c
+@act id=w t=neckswing
+@endOnce
+@v s=10121
+@【わずか】
+"No... No, I..."
+@page
+Squishsquishsquishsquish, squeeshsqueeshsqueeshsqueesh.
+@page
+The sound changes halfway through, as the mixture turns from a solid into 
+some sort of gooey material.
+@page
+Did she break?　―― No, this must be about before.
+@page
+@【至】
+"Is there something wrong? Can I help?"
+@page
+@act id=w t=stopswing
+@fi s=w547ad pos=c
+@v s=10122
+@【わずか】
+"Um... umm... yeah, but only you... if it's you... you can..."
+@page
+@【至】
+"Spit it out! What's wrong?!"
+@page
+@act id=w t=neckswing
+Squeeshsqueeshsqueeshsqueeshslurpslurpslurpslurpslurpslurpslurpslurp.
+@page
+Wait, did the sound just change again? No, that's not important.
+The contents of my lunch box are turning to liquid now.
+@page
+@act id=w t=stopswing
+@fi s=w647ad pos=c
+@v s=10123
+@【わずか】
+"Umm... ahh... I want to... feed you. Is that... okay?"
+@page
+@【至】
+"Oh, is that all? Go for it!"
+@page
+Honestly, I'm kind of relieved.
+@page
+If I ate everything in that lunch box... Well, drank everything, since it's a liquid...
+I'd have to write a will on my cellphone first.
+@page
+Anyway, I wonder how this is going to go? Is this still a test of my love?
+@page
+@fi s=w414ad pos=c
+@v s=10124
+@【わずか】
+"Itaru-kun, say ahh!"
+@page
+@【至】
+"Ahhh..."
+@page
+She stuffs my mouth with that fraud of a hamburger.
+It tastes really juicy, because it's really fresh.
+@page
+Ugh... I can't let myself grumble.
+I hold my breath and swallow before I taste it.
+@page
+@【至】
+"Phew... that was great. Thanks for the food."
+@page
+@fi s=w547d pos=c
+@v s=10125
+@【わずか】
+"Aww, you're welcome. Look forward to tomorrow, okay――"
+@wait time=3300
+@fi s=w111d pos=c
+@page
+@bgm fade=out
+Then, her expression changes a little. 
+Rather, the meaning behind it changed.
+@page
+@bgm s=bgm15
+@fi s=w112d pos=c
+@v s=10126
+@【わずか】
+"... Is someone there?"
+@page
+With an exceptionally grim gaze, she stares towards a corner of the roof where the sun never hits.
+@page
+Depending on the angle, you couldn't see it at all.
+Sitting there was the girl I tried to talk to earlier.
+@page
+@fi id=w
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=ランダム
+;@bgm s=bgm***
+@fi s=k214ad pos=c
+@mwon
+;【ワイプ】同一場所から同一場所に
+;【背景】屋上/昼
+@v s=30015
+@【？？？】
+"... Kuh, fufufu... Yes, those lines! God-like!　And here I am, in my heaven!"
+@page
+@fi s=k345d pos=c
+@v s=30016
+@【？？？】
+"Hidden from sight, drawing my precious doujinshi! This is a great ass!　
+Nice! Fucking great!"
+@page
+@fi s=k345d pos=c
+@v s=30017
+@【？？？】
+"Haah... yeah... nnnn! Got it!　That's a great, pleasureable phrase!
+Hit my brain like a freight train... got it... got ittt!"
+@page
+@setOnce
+@lineFXon
+@fi s=k349d pos=c
+@endOnce
+@qk time=1000
+@flash time=2000
+@lfont
+@v s=30018
+@【？？？】
+"WHOOOOO-HOOOOO!"
+@page
+@setOnce
+@mwoff
+@pfxOption backvisible=false
+@bi s=blank trans=crossfade all=true
+@endOnce trans=crossfade
+@stoppfx
+@wait time=200
+@bi s=bg13d trans=ランダム
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+;【ワイプ】同一場所から同一場所に
+;【背景】屋上/昼
+@【至】
+"... What the hell?"
+@page
+@fi s=w112 pos=c
+@v s=10127
+@【わずか】
+"Die."
+@page
+This is probably something that's better left a secret.
+@page
+But if I said something like what she's saying to one of my classmates,
+they'd probably kill me before I knew what was coming.
+@page
+@【至】
+"... Maybe she's ill or something?"
+@page
+@fi s=w111 pos=c
+@v s=10128
+@【わずか】
+"You mean she's insane?"
+@page
+@【至】
+"Sick in the body, not sick in the head. Is she having a seizure?"
+@page
+Setting aside that possibility, there's another one as well.
+@page
+I think back on what happened today. Maybe I should try talking to her?
+@page
+@【至】
+"I'm gonna go over there for a second."
+@page
+@v s=10129
+@【わずか】
+"I'll help. Can I bring the knife?"
+@page
+What? How the hell would a knife help?
+@page
+@【至】
+"Hmm... wait here for now. I'll be right back."
+@page
+Our talk might get complicated. But truthfully, I don't want Wazuka-san to hear about what happened earlier today.
+@page
+@v s=10130
+@【わずか】
+"You sure?"
+@page
+@【至】
+"Trust me. Alrighty then――"
+@page
+@fi id=w
+I turn around and begin to walk towards the girl. 
+That's when I realize something.
+@page
+@【至】
+"... What was her name again?"
+@page
+Yeah, that's right. We're in the same class, but I don't know her name.
+I guess I just hadn't kept it in memory until now.
+@page
+Anyway, I have to talk to her. We'll go from there.
+@page
+;【ワイプ】同一場所→同一場所
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=ランダム
+;@bgm s=bgm***
+@fi s=k345a pos=c
+@mwon
+@v s=30019
+@【？？？】
+"Fufu... nfufufufu... my blood's pumping... Yeah, do more of thaaat, hee hee, 
+and thennn, in the ass, hee hee hee..."
+@page
+@fi s=k349a pos=c
+@v s=30020
+@【？？？】
+"Screeeam for me! Shriieek! I want you to screeeeaaaam!"
+@page
+@【至】
+"Heeey! Are you alright over there?!"
+@page
+@bgm fade=stop
+@fi s=k348 pos=c
+;【立ち絵】かごめ驚き
+@v s=30021
+@【？？？】
+"Oh."
+@page
+@【至】
+"Is this a bad time? Or..."
+@page
+Has she got some kind of mental condition?
+But before I could ask something so rude, my answer came.
+@page
+@setOnce
+@bgm s=bgm16
+@lineFXon
+@fi s=k647ad pos=c
+@endOnce
+@qk time=1000
+@lfont
+@v s=30022
+@【？？？】
+"GYAAAAAAAAGHH!!?"
+@page
+@setOnce
+@stoppfx
+@mwoff
+@fi id=k
+@endOnce
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@flash time=700
+@wait time=1000
+@mwon
+What was that just now――?
+I feel a pain in my cheek after a short delay, and the heat tells me blood is coming out of it.
+@page
+@【至】
+"Wha!? What're you doing!?"
+@page
+My cheek had been cut. How? Did her scream do it? Nah, no way.
+Then, what actually cut me must've been――
+@page
+@fi s=k64aa pos=c
+@act id=k t=neckswing
+@qk time=1000
+@lfont
+@v s=30023
+@【？？？】
+"DON'T LOOOOOOOOK!!!!"
+@page
+That. In her hands I see something strange that looks like a box cutter.
+@page
+She swings up, and rather than gravity choosing her target, 
+her willpower does. In other words, her target is... me.
+@page
+@setOnce
+@act id=k t=stopswing
+@stoppfx
+@mwoff
+@fi id=k
+@endOnce
+;【ＳＥ】切り裂く
+@se s=se067
+@flash time=700
+@wait time=500
+@fi s=k64aa pos=c time=300
+@act id=k t=neckswing
+@mwon
+@v s=30024
+@【？？？】
+"Why are you dodging?　Why? Why? Why? Why? Why?"
+@page
+@setOnce
+@lineFXon
+@act id=k t=stopswing
+@fi s=k647a pos=c
+@endOnce
+@qk time=1000
+@qk time=1000
+@lfont
+@v s=30025
+@【？？？】
+"Stop avoiding ittt!"
+@page
+@stoppfx
+@【至】
+"That's stupid!　Calm down! Why are you yelling!?"
+@page
+;@fi s=k347 pos=c
+@v s=30026
+@【？？？】
+"Don't look!　You can't seeeee! Only I can! Normal people can't see this!!!"
+@page
+@setOnce
+@lineFXon
+@fi s=k64aa pos=c
+@act id=k t=neckswing
+@endOnce
+@qk time=700
+@lfont
+@v s=30027
+@【？？？】
+"EEEEEEIIIK!"
+@page
+@stoppfx
+She's completely beside herself. What does she not want me to see so badly?
+And why is she trying to kill me over it?
+@page
+@【至】
+"I didn't see it!　Talk to me here, please! I'll listen!"
+@page
+@act id=k t=stopswing
+@fi s=k64aa pos=c
+@v s=30028
+@【？？？】
+"You shithead! Fucktard! I'll beat your brains across the ground!"
+@page
+Crazy words echo through the calm blue sky.
+This is an unexpected new direction to take this scene.
+@page
+But, I don't want this to be my death scene. More than anything, I――
+@page
+@【至】
+"... What am I doing? Why did I get mixed up in this?"
+@page
+What caused this? Was it me? Or was it something else? Or maybe――
+@page
+@setOnce
+@lineFXon
+@fi s=k647ad pos=c
+@act id=k t=neckswing
+@endOnce
+@se s=se067
+@flash time=700
+@qk time=1000
+@lfont
+@v s=30029
+@【？？？】
+"Eiiighh!!"
+@page
+@setOnce
+@stoppfx
+@fi id=k
+@act id=k t=stopswing
+@se s=se067
+@endOnce
+The knife passes in front of my eyes.
+Perhaps it was chance, a miracle, good luck, 
+or all of the above that caused me to avoid it.
+@page
+But of course, nothing comes without a price.
+@page
+My leg bends in an unnatural direction. I lose my balance. 
+All to avoid that knife.
+@page
+Crap――
+Before I can speak, she starts to swing the knife again.
+@page
+I can't avoid it―― And I can't protect myself either! Is this the end?　
+I just started again, damn it!
+@page
+@fi s=k649a pos=c
+@act id=k t=neckswing
+@v s=30030
+@【？？？】
+"Heehee!　Heehee!　Die!　Die!　Heehee! Die!　Die! Die!　Die!　Die!
+You saw my precious thing, so you can diiiiieee!"
+@page
+@act id=k t=stopswing
+@fi s=k648 pos=c
+@bgm fade=stop
+;【立ち絵】まだ立ち絵なし
+@v s=10131
+@【わずか】
+"You first, bitch."
+@page
+@setOnce
+@fi id=k
+@bzoom s=bg8140 time=250
+@endOnce
+;【背景】血ノリ
+;【カットイン】書き文字/バキ！
+;【ＳＥ】打撃音/大
+@se s=se118
+@qk time=1000
+@flash time=1000
+@lfont
+@v s=30031
+@【？？？】
+"Gyah!?"
+@page
+@bgm s=bgm17
+;【背景】屋上/昼
+The knife disappeared. More precisely, it was covered by her hands.
+Then along those two hands came streams of blood.
+@page
+But, nobody saw that. I was looking at something else entirely.
+@page
+@bi s=bg13d time=700
+@fi s=w112d pos=c
+@v s=10132
+@【わずか】
+"How dare you attack him..."
+@page
+Wazuka-san's hands move quickly.
+I hear a dull tear, and a low moan leaks from the girl's mouth.
+@page
+But that's only natural. 
+Wazuka-san is holding onto the hair of the girl who attacked me.
+@page
+Wazuka-san moves again, powerfully and without hesitation.
+She brings the girl towards the wall of the rooftop.
+@page
+@mwoff
+@fi id=w
+;【カットイン】書き文字/ドガン！
+@se s=se118
+@cut s=cut2100
+@qk time=700
+@flash time=700
+@wait time=1000
+@mwon
+@cut
+@fi s=k346ad pos=c
+@v s=30032
+@【？？？】
+"Aggh! It hurts!!"
+@page
+@fi id=k
+@fi s=w111d pos=c
+@v s=10133
+@【わずか】
+"You hurt him more."
+@page
+@se s=se118
+@qk time=700
+@flash time=700
+SMASH―― I hear that horrible, painful sound again.
+@page
+@v s=30033
+@【？？？】
+"Stoppp!　It hurts!! Oh god, stoppp!"
+@page
+@v s=10134
+@【わずか】
+"This, right now? This isn't pain."
+@page
+@fi id=w
+@bi s=bg8140 time=500
+@se s=se118
+@qk time=700
+@flash time=700
+She beats her head against the wall, again and again.
+I start to notice blood running down the wall.
+Each time I hear the SMASH, the blood becomes denser.
+@page
+@bi s=bg13d
+@【至】
+"... Maybe you should stop? She's gonna die."
+@page
+But, what should I do? Should I stop Wazuka-san?　Can I stop her?
+Who else could? How would I even do it?　
+@page
+I worry while that terrible sound continues.
+The girl's screams continue to tear through the air.
+The blood becomes dark as ink.
+@page
+@fi s=k346ad pos=c
+@v s=30034
+@【？？？】
+"Aggh!　Ahh!　Owww!　Stop! I'll die!　I really will die!　Please, I'll die!"
+@page
+@setOnce
+@fi id=k
+@fi s=w112d pos=c
+@endOnce
+@v s=10135
+@【わずか】
+"Then die."
+@page
+@fi id=w
+@se s=se119
+@flash time=1000 color=red
+@lfont
+@v s=30035
+@【？？？】
+"AGYAHHHHH!"
+@qk time=1000
+@page
+The smashing sound changes. Wazuka smashes her against the wall, 
+and grinds her face against it.
+@page
+She has to stop. This is the limit.
+It's way past that point, but I still need to stop her.
+@page
+@【至】
+"―― But, can I really do that? Is it really possible for me to stop her?"
+@pages
+@selinit
+@selbtn cap="Hug Wazuka-san" s="010401.scn"
+@selbtn cap="Break them up" s="010402.scn"
+@selbtn cap="Just watch" s="010403.scn"
+@s
+;選択肢
+;わずかを抱きしめる　→010401
+;二人の間に割って入る　→010402
+;そのまま見ている　　→010403

@@ -1,0 +1,123 @@
+﻿;130500
+*130500|勉強しないと
+;【背景】夕空
+@bgm fade=out
+@bi s=bg820
+@bgm s=bgm04
+So the sun set on this day...
+@page
+;【ワイプ】時間経過
+;【背景】住宅街路地・夕方
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08e trans=clock
+@fi s=m112 pos=c
+@mwon
+@v s=21599
+@【祀利】
+"Itaruuu, let's go home!♪"
+@page
+Class ended, and so did school.
+The two of us walked back home.
+@page
+Yes, the two of us.
+Wazuka-san is not next to me.
+@page
+;【背景】学園廊下・セピア
+;【備考】少しエコー
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=円形(外から中へ)
+@fi s=w111 pos=c
+@mwon
+@v s=10951
+@【わずか】
+"... I have something to do in the bookstore.
+I'll come back later."
+@page
+@fi id=w
+Wazuka-san said that and left me to go to the bookstore.
+@page
+Although she said she'd return later,
+I was surprised that she ignored Matsuri.
+@page
+@【至】
+(... The usual Wazuka-san would never let us be alone
+together... What happened?)
+@page
+;【背景】住宅街路地・夕方
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08e trans=円形(中から外へ)
+@fi s=m649 pos=c
+@mwon
+@v s=21600
+@【祀利】
+"Hey, Itaru. Come on, hey."
+@page
+@【至】
+"...Huh? What did you say?"
+@page
+@v s=21601
+@【祀利】
+"I said, we're finally alone together.
+So? What do you want to do... huh?♪"
+@page
+@【至】
+"Go home. Frankly, I'm really tired.
+I just want to take a bath and go to bed."
+@page
+Those are my honest feelings.
+Thinking about all those events today,
+I feel a bit depressed.
+@page
+@fi s=m114 pos=c
+@v s=21602
+@【祀利】
+"Ohh, stupid Itaru! Read the mood!"
+@page
+She grabs my hand, puffs her cheeks up
+and shakes it sullenly.
+@page
+@v s=21603
+@【祀利】
+"Stupid Itaru! Stupid, stupid, stupid!　You're so..."
+@page
+@lfont
+@qk
+@v s=21604
+@【祀利】
+"STUPIIIIIIDDDD!"
+@page
+@mwoff
+@fi id=m
+@bi s=bg820
+@mwon
+Her voice echoes in the beautiful violet sky--
+Almost poetic in it's picturesque status.
+@page
+But it's not enough.
+@page
+I think that, and glance next to me--
+Where Wazuka-san would normally be.
+@page
+@【至】
+(... somehow, I'm used to her being there...)
+@page
+She's always been with me.
+So it would be natural for her to be there.
+@page
+I don't understand this.
+@page
+For some reason, it hurts.
+I feel lonely without her next to me.
+@page
+@【至】
+(... I wish I had gone with her to the bookstore.
+Wazuka-san, what book are you looking for...?)
+@page
+;→130501
+@jump storage="130501.scn"

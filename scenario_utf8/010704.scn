@@ -1,0 +1,29 @@
+﻿;010704
+*010704|_Quiz! You're Next!
+;【好感度】わずか+1
+;【ＳＥ】ハズレブザー
+@eval exp="f.wazuka++"
+@se s=se139
+@fi s=f312 pos=lc
+@v s=40151
+@【ファヌル】
+"How boring."
+@page
+@v s=16001
+@【ウサミ】
+"So, have they failed?"
+@page
+@fi s=f111 pos=lc
+@v s=40152
+@【ファヌル】
+"Yep. But, rejoice. This show gives away prizes even on a wrong answer."
+@page
+;【ＳＥ】ファンファーレ
+@se s=se094
+@fi s=f55b pos=lc
+@v s=40153
+@【ファヌル】
+"I'll raise that dull woman's love points. That way, you'll get stabbed."
+@page
+@jump storage="010707.scn"
+;→010707

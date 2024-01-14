@@ -1,0 +1,94 @@
+﻿;330604
+*330604|_ほんの少しの帰り道
+;【備考】わずか視点
+;【ワイプ】場面転換＆視点変更
+;【背景】学園玄関・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=ランダム
+@se s=se011
+@bgm s=bgm05
+@fi s=w111 pos=c
+@mwon
+The troublesome homeroom is over, and now it is after school.
+It is finally time to return home.
+However, today's scenario is a little different.
+@page
+@setOnce
+@fi s=w111 move=lc
+@fi s=m64b pos=rc
+@endOnce
+@v s=21470
+@【祀利】
+"Mmn... What's taking Itaru? Half an hour is too long to wait..."
+@page
+Did this girl recieve the same thing?
+@page
+"I've been summoned to the staff room, so I'll be a little late.
+I think I'll be there for about thirty minutes, so wait at the entrance."
+@page
+I recieved this text.
+@page
+@fi s=w112 pos=lc
+@v s=10721
+@【わずか】
+"Itaru-kun is in the staff room.
+@page
+I have an uncomfortable feeling.
+@page
+I am often summoned to the staff room.
+Itaru-kun sometimes comes with me.
+@page
+But Itaru-kun has never gone alone before.
+That's why I feel strangely uneasy.
+@page
+@fi s=w547 pos=lc
+@v s=10722
+@【わずか】
+(But Itaru-kun said to wait.
+So I will wait. Thirty minutes, or a month, or even a year.)
+@page
+Bothersome obstructions aside,
+Itaru-kun seems to be glad that I'm waiting obediantly.
+So I will not kill her now.
+@page
+@fi s=m113 pos=rc
+@v s=21471
+@【祀利】
+"... Hey, isn't there something funny about this?
+There's something strange going on with Itaru.
+I think you call it a woman's intuition?"
+@page
+@fi s=w111 pos=lc
+;@v s=10723
+@【わずか】
+"......"
+@page
+@fi s=m11d pos=rc
+@v s=21472
+@【祀利】
+"Ohhh, but it was a mistake to tell you thaaat."
+@page
+Then don't talk to me.
+Die.
+@page
+But I understand what you want to say.
+Even trash can be unexpectedly useful.
+@page
+I don't have conclusive evidence, but I feel uneasy.
+If you want to call that intuition, then it probably is.
+@page
+This might be the strategy of that woman.
+I should kill her right now after all.
+But Itaru-kun wrote that he wanted me to wait.
+@page
+So I must wait.
+Today, I'll figure out how to kill her after I get home.
+And the one beside me too.
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+;→330605
+@bgm fade=stop
+@jump storage="330605.scn"

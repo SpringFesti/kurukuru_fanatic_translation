@@ -1,0 +1,65 @@
+﻿;130201
+*130201|_新たな悩み
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+@【至】
+"...Err, I was thinking about that kiss earlier."
+@page
+I yield to insight and speak my mind.
+@page
+Just remembering it is embarrassing, even if it's starting to become fuzzy.
+@page
+@fi s=w113 pos=c
+@v s=10863
+@【わずか】
+"I'm sorry. I'll kill myself in a little while."
+@page
+@【至】
+"Why!?"
+@page
+@fi s=w548 pos=c
+@v s=10864
+@【わずか】
+"... I got unreasonable and selfish, 
+and did something you hated, didn't I?"
+@page
+@【至】
+"No, you didn't. I told you I was okay with it a little while ago, didn't I?"
+@page
+@【至】
+"I mean... I wasn't the one doing it, and it's not something
+I do every day, so it was kinda embarrassing."
+@page
+@【至】
+"I'm not that kinda guy.
+I'm really hating myself for it, you know?
+I went a little overboard."
+@page
+@fi s=w111 pos=c
+@v s=10865
+@【わずか】
+"No you didn't."
+@page
+@【至】
+"Huh?"
+@page
+@fi s=w547 pos=c
+@v s=10866
+@【わずか】
+"You're gentle, and cool, and that's who you are."
+@page
+@v s=10867
+@【わずか】
+"I was really happy that we kissed."
+@page
+She smiles gently, just like this morning.
+@page
+When I look at her smile, the crushing self-hatred
+in my stomach vanishes right away.
+@page
+@v s=10868
+@【わずか】
+"So, Itaru-kun..."
+@page
+;→130203
+@jump storage="130203.scn"

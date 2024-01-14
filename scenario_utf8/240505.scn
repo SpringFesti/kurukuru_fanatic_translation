@@ -1,0 +1,152 @@
+﻿;240505
+*240505|_皆にはしたのに
+;バッドエンド
+@【至】
+"That's enough! That's not the problem right now."
+@page
+I brush Parade's foot off of me,
+put away my dick, and stand up.
+@page
+;【背景】公園・夜
+@bi s=bg09n
+@【至】
+"Right now, we need to do something about this situation.
+We can have sex later, can't we?"
+@page
+As I fix my clothes, I look at Matsuri's
+face and see that it's completely pale.
+@page
+Then, when I put on the clothes that had been taken off of me,
+she looks at me with a sad expression, disatisfied.
+@page
+@fi s=m11c pos=c
+@v s=21233
+@【祀利】
+"Nao! Not later! I want to do it now!"
+@page
+@【至】
+"No means no. In the first place, I couldn't do it like this."
+@page
+@fi s=m74b pos=c
+@v s=21234
+@【祀利】
+"Not even a little?"
+@page
+@【至】
+"Nope. Can't."
+@page
+@fi s=m74a pos=c
+@v s=21235
+@【祀利】
+"... Okay. I understand."
+@page
+Did I finally convince her?
+@wait time=800
+Then--
+@page
+;【ＳＥ】銃声
+@bgm fade=stop
+@fi id=m time=100
+@bi s=bg8140 time=100
+@se s=se109
+@qk time=1000
+@flash time=1000
+I hear a gunshot, and a hot pain pierces my chest.
+@page
+@bgm s=bgm17
+@【至】
+"Ahh... guh... ahh... h!"
+@qk time=700
+@page
+@se s=se066
+@qk
+A wretched moan creeps from my throat, and I topple to the ground.
+@page
+I touch my wound, and I can feel blood pumping
+from it, right in step with my heartbeat.
+@page
+@bi s=bg09n
+@fi s=m74a pos=c
+@v s=21236
+@【祀利】
+"So you really do...
+You really do like the others better.
+You won't come to love me, will you..."
+@page
+@【至】
+"I... I didn't mean-- gah!
+Parade, I... love... cough!"
+@page
+I can't talk anymore.
+Blood overflows from my mouth like vomit.
+@page
+@fi s=m11c pos=c
+@v s=21237
+@【祀利】
+"... How can I believe you if you say it now?"
+@page
+@fi s=m64a pos=c
+@v s=21238
+@【祀利】
+"... Shut up, Mardi-gras.
+Your crying isn't going to win me over."
+@page
+I can't breath. I'm getting colder.
+@page
+@fi s=m74b pos=c
+@v s=21239
+@【祀利】
+"Festa... you had it good.
+You tempted Itaru, so you had sex plenty of times.
+... You could never understand how I feel."
+@page
+Parade... she didn't listen to anything I said.
+@page
+@fi s=m115 pos=c
+@v s=21240
+@【祀利】
+"Tchau! I'll be off now.
+See you on the flip side."
+@page
+So in the end, it came to this?
+I... where did I go wrong?
+@page
+;【ＳＥ】銃声
+@fi id=m
+@bi s=bg8140 time=100
+@se s=se109
+@qk time=1000
+@flash time=1000
+I hear a gunshot. But where is the bullet going?
+@page
+Me? Or Parade?
+... I don't know.
+I... I can't think anymore... so...
+@page
+@bi s=blank trans=crossfade all=true
+@v s=21241
+@【祀利】
+"Itaru... damn it...Itaru... I'll go too..."
+@page
+;【ＳＥ】銃声
+@v s=21242
+@【祀利】
+"Because... I love you, Itaru!"
+@page
+@bgm fade=stop
+@mwoff
+@se s=se109
+@qk time=1000
+@flash time=1000
+@wait time=2000
+@mwon
+In the world of darkness.
+@page
+Although I should have turned into nothingness, I...
+@page
+Parade's voice, which I should not be able to hear,
+echoes sadly in my ears...
+@page
+@mwoff
+@bgm fade=out
+@jump storage="gotitle.ks"

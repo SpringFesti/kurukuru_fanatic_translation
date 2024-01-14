@@ -1,0 +1,498 @@
+﻿;450300
+*450300|新生
+@mwoff
+@wait time=2000
+@bi s=white
+@bgm s=bgm14
+@bi s=bg8170
+@filmpfx
+@mnon vertical=true
+@mset l=6
+;【背景】なんていうかイメージ。カラフルなサイケな。ここ、クルクル回るアニメは無理か？
+;【演出】縦モノローグ
+　The world is filled with colorful surprises.
+　The blood which I shed on the dull, plain concrete,
+　Was a charming and beautful thing.
+　Red, red, red-- only red.
+　In the interval of evening and night-- in that blue shining light,
+　the stagnant muddy red was a strangely beautiful color.
+@waitclk
+@mset l=1
+　This too, is a somehow beautiful thing--
+@waitclk
+@mset l=5
+　Beautiful scenery.
+　A beautiful world.
+　Everything is beautiful.
+　I admire this world.
+ I can only be fascinated by this beautiful world.
+@waitclk
+@mset l=1
+　Besides, I must perform our final greetings.
+@waitclk
+@mset l=4
+　Soon, the color will disappear.
+　The color will go out from the world.
+　I will disappear from the world.
+　I will disappear.
+@waitclk
+@mset l=1
+　So, let's perform our last greetings.
+@waitclk
+@mset l=1
+　So-- I turn.
+@waitclk
+@mset l=2
+　To the unfair place.
+　I turn to the place I began, and where I ended.
+@waitclk
+@mset l=4
+　The proof I was forgiven-- pain.
+　My heart was corrupted, was eaten, was healed, and felt pain.
+　I obtained it, and was able to give it.
+　Then, I could know its meaning.
+@waitclk
+@mset l=7
+　Yes.
+　I noticed who I was,
+　and I understood what was happening.
+　I repeated a life of only five days.
+　I saw various human beings there.
+　And everyone taught me.
+　Who I was to be, and why I was to die.
+@waitclk
+@mset l=2
+　So-- the world changes.
+　From a multi-colored world, to a world of merely one color.
+@waitclk
+@mset l=2
+　Yes, the world is full of surprises.
+　Even if there's only one color.
+　Still, the world really is--
+@waitclk
+@mwon
+@v s=41018
+@【ファヌル】
+"... Come on, give it a break."
+@page
+It was a sudden voice.
+@page
+A voice I longed for. A voice I missed.
+@page
+I think that I heard it a little before now,
+but it's like a voice I've heard in days long past.
+@page
+But I can't remember who it is.
+@page
+@v s=41019
+@【ファヌル】
+"... Itaru Takamichi. Itaru Takamichi. Itaru Takamichi."
+@page
+Yes. That is my name.
+@page
+@【至】
+"... I understand... I can hear you."
+@page
+@v s=41020
+@【ファヌル】
+"Then wake up.
+The gate has opened by the hand of the father."
+@page
+I understand her meaning.
+Not her words, but the concept.
+When I understood, I noticed.
+@page
+@【至】
+"... My mother was the impetus of this.
+Now that I understand this, Fanuel... you..."
+@page
+@v s=41021
+@【ファヌル】
+"That's my line.
+Itaru... thank you. I'm alright now."
+@page
+What are we?
+What are humans?
+What are angels?
+@page
+Such questions are nonsense.
+@page
+In this world-- there are no answers.
+There's no value to answers.
+@page
+@v s=41022
+@【ファヌル】
+"Itaru... open your eyes.
+Everything will start soon."
+@page
+@【至】
+"Yeah... it will, won't it."
+@page
+Muttering that, I try to wake up.
+@page
+My body was light.
+I feel something powerful, something I haven't felt so far.
+It seems I've been totally reborn.
+@page
+@bgm fade=out
+Yeah-- I really was.
+@page
+@mwoff
+@stoppfx
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg8180 trans=円形(中から外へ)
+@smokepfx slot=1
+@bgm s=bgm20
+;@fi s=fi**** pos=****
+@mwon
+;【ワイプ】気絶からの復帰
+;【背景】不可思議な空間
+The world was there.
+@page
+That mysterious space.
+The place this story began. The first place.
+@page
+I was there.
+Fanuel was there.
+And-- God was there.
+@page
+;【備考】話者は他のキャラだが、本編では全て神を現す表記で
+;【備考】エコー加工
+@mnon
+@mset l=3 h=true
+@v s=10812
+-- Thou, Itaru Takamichi
+The decided fate was fulfilled
+@waitclk
+@mnon
+@mset l=5 h=true
+@v s=21576
+Now, a choice
+Will you ask the meaning of life?
+Or will you walk the path of a new fate?
+@waitclk
+@mwon
+I understand the meaning.
+I knew which one to choose.
+@page
+The me that knew the future was near me.
+The person who knew the past was inside me.
+And the present me-- was the one who knew pain.
+@page
+@【至】
+"... In other words, the beginning is pain.
+I am one with pain."
+@page
+@mnon size=30
+@mset l=4 h=true
+@v s=10813
+;@【わずか】
+PAIN IS THE BEGINNING
+;@v s=21577
+;@【祀利】
+;はじめに痛みありき
+;@v s=30918
+;@【かごめ】
+;はじめに痛みありき
+;@v s=41023
+;@【ファヌル】
+;はじめに痛みありき
+@waitclk
+@mwon
+@【至】
+"I am me. I am not everyone.
+I cannot become anyone.
+But... but I have a wish."
+@page
+@mnon
+@mset l=3 h=true
+@v s=30919
+Proclaim it. Those, the first words.
+@waitclk
+@mwon
+@【至】
+"I want to be with Fanuel.
+I want to share the pain with her, forever and ever.
+I want to feel her "wavering"."
+@page
+I know what the equivalent exchange will be.
+I know which fate it will lead to.
+@page
+But-- what am I afraid of?
+@page
+@mnon
+@mset l=3 h=true
+@v s=10814
+Then thou, Itaru Takamichi
+Accept a new fate
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=21578
+Your fate as a person ends here
+A new fate is better for you now
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=30920
+It is the same fate as Fanuel
+You should enter the loop
+@waitclk
+@mwon
+@fi s=f556 pos=c
+@v s=41024
+@【ファヌル】
+"And I will abandon my heart.
+Will I lose my thoughts and feeling as a person?"
+@page
+@【至】
+"Do you really think so?
+If so, then think again.
+Fanuel... what do you think of me?
+@page
+@fi s=f55a pos=c
+Then, in one beat.
+On Fanuel's face is:
+@page
+@fi s=f315a pos=c
+@v s=41025
+@【ファヌル】
+"... I love you. Itaru... I love you.
+But why... why aren't I wavering?"
+@page
+;@fi s=f114a pos=c
+@【至】
+"That's probably my power, huh?
+The existence I will become, maybe."
+@page
+Those words are whispered to me by my future self.
+@page
+It's a mysterious experience.
+My future is right there.
+A me who followed another time and world will soon be here.
+@page
+But this too will soon become natural.
+@page
+And this isn't the choice I was given.
+It's the ending I hoped for.
+The fate I led myself to.
+@page
+@fi id=f
+@mnon
+@mset l=3 h=true
+@v s=10815
+Then a question for thou
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=21579
+Who art thou?
+What is thine fate?
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=30921
+Answer. That will be thine name.
+@waitclk
+@mwon
+I don't have to think.
+The road I followed--
+My fate is tied to only one word.
+@page
+@【至】
+I am human. I was human.
+The fate I followed was a human fate.
+@page
+Everyone demanded it.
+I could only fulfill the love inside of me
+because everyone demanded it.
+@page
+Everyone struggled.
+Everyone floundered.
+Everyone loved.
+@page
+@mnon size=30
+@mset l=4 h=true
+@v s=10816
+;@【わずか】
+;そう――病んでるほどに
+;@v s=21580
+;@【祀利】
+;「そう――病んでるほどに」
+;@v s=30922
+;@【かごめ】
+;「そう――病んでるほどに」
+;@v s=41026
+;@【ファヌル】
+;「そう――病んでるほどに」
+YES-- AS A YANDERE
+@waitclk
+@mwon
+The beginning is that word.
+But there was something that followed.
+There's something that confirms it.
+@page
+Maybe love. Maybe starvation.
+Maybe violence. Maybe insanity.
+Maybe laziness. Maybe jealousy.
+@page
+For me, it was pain.
+@page
+Pain comes first.
+The pain of a sick heart is inside.
+@page
+;@v s=10816
+Yes-- as a yandere.
+@page
+It was the opening scene of a new fate.
+The world began to change.
+And I, like that, became a different me.
+@page
+;ホワイアウト
+@mnon
+@mset l=3 h=true
+@v s=10817
+Itaru Takamichi has now begun a new fate
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=21581
+Let's give thou a name
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=30923
+Thou, the angel who controls love and devotion
+Who spins tales of unrewarded affection
+@waitclk
+@mnon size=30
+@mset l=5 h=true
+;@lfont
+;【備考】ユニゾン
+@v s=10818
+;@【わずか】
+That name is Yanderu!
+;@v s=21582
+;@【祀利】
+;其の名はヤンデル！
+;@v s=30924
+;@【かごめ】
+;其の名はヤンデル！
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=10819
+Continue to accept pain for all eternity
+Spread good news to the hearts of others
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=21583
+So suffer, so fall ill, and go insane
+@waitclk
+@mnon
+@mset l=3 h=true
+@v s=30925
+Angel Yanderu, thine birth is now--!
+@bgm fade=out
+@waitclk
+@bgm s=bgm22
+@mnoff
+@stoppfx slot=1
+@bi s=white all=true
+@wait time=600
+@bi s=evn4050
+@starpfx slot=0
+;@smokepfx slot=1
+@wait time=300
+@mwon
+Then, everything was wrapped in light.
+@page
+Fanuel danced in it.
+Large wings flapped on her back,
+like her original self.
+@page
+Then, there were wings on my back.
+I knew that I will never cure my wounds.
+@page
+@v s=41027
+@【ファヌル】
+"That is you.
+This is the first of your fates."
+@page
+@【至】
+"I know. This is what I wanted."
+@page
+Whenever blood stains these wounds,
+an unrewarded love will be born somewhere.
+@page
+Whenever these wounds open,
+somewhere a person will die at the end of that love.
+@page
+When these wounds increase,
+two lovers will surmount their fate and connect.
+@page
+@v s=41028
+@【ファヌル】
+"Now... let's go.
+We have things to do."
+@page
+I'm about to nod, but I shake my head.
+@page
+@【至】
+"There's something I have to do first.
+Fanuel... this--"
+@page
+@mwoff
+@bi s=evn4051
+@wait time=300
+@mwon
+;【イベントＣＧ】evn4051
+I hand her the bloody glass shard.
+@page
+I used it back then in the park.
+From now on, I control that, which
+many lovers hold in their hands.
+@page
+@【至】
+"Do you understand me?"
+@page
+@mwoff
+@bi s=evn4052
+@wait time=300
+@mwon
+;【イベントＣＧ】evn4052　満面の笑み
+@v s=41029
+@【ファヌル】
+"Yes. But first I must ask you something."
+@page
+And she smiles.
+Teasing me and provoking me like normal.
+@page
+@v s=41030
+@【ファヌル】
+"Do you want to stab or be stabbed?"
+@page
+I have only one answer.
+@page
+@mwoff
+@stoppfx slot=0
+@bgm fade=stop
+@bi s=bg8140 time=100
+@se s=se071
+@qk time=800
+@flash time=800 color=red
+;【ＳＥ】刺突音
+;【イベントＣＧ】血のり差分　背景白
+@waitclk
+@mnon size=30
+@mset l=5 h=true
+@v s=41031
+Now, let's begin!
+@waitclk
+@bgm fade=out
+@mnoff
+@eval exp="sf._fanu=1"
+@jump storage="scriptend.ks"
+;→スタッフロール。タイトルに戻る。

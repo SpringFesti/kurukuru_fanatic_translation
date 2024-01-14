@@ -1,0 +1,233 @@
+﻿;140600
+*140600|運命の分かれ道
+;【ワイプ】時間経過
+;【背景】住宅街路上・夜
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08n trans=clock
+@bgm s=bgm12
+@mwon
+After being released by those two, I enjoy
+my temporary freedom while I make my way home.
+@page
+Even though I was prepared for the worse, they
+released me, surprisingly.
+@page
+Because... of those shackles.
+@page
+If I don't want those images to be released...
+@page
+I'll do anything. I don't want those images to be
+released, so I'll do anything.
+@page
+@【至】
+"... Sigh."
+@page
+I'm tired. My body is tired. My feet are tired.
+@page
+Although I was freed from my restraints,
+I still feel like I'm being held captive.
+@page
+I want to go home and sleep. I walk like that,
+but honestly I want to sleep on the street
+like a homeless person.
+@page
+;【ワイプ】場所移動
+;【背景】自宅廊下・消灯
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03b trans=ひし形(左から右へ)
+@mwon
+@【至】
+"... Huh?"
+@page
+I get home, and reach the door.
+@page
+However, it's pitch-dark,
+and I don't smell dinner at all.
+@page
+@【至】
+"Wazuka-san... are you home?"
+@page
+Her shoes are in the door.
+She must've come back...
+@page
+@【至】
+"What's going on?"
+@page
+@bi s=bg04b
+;【ワイプ】場所移動
+;【背景】自宅居間
+I go into the kitchen and see that she must've
+made that. The table is still set.
+@page
+However, there are no other signs that Wazuka-san was ever here.
+It feels like she's playing hide-and-seek with me.
+@page
+@【至】
+"Wazuka-saaan?"
+@page
+......
+@page
+I call her name, but there's no response.
+@page
+Of course, she can't be playing hide-and-seek.
+She'd have answered me if she heard me, so
+perhaps she didn't hear me?
+@page
+;【ワイプ】場所移動
+;【背景】主人公自室
+;【立ち絵】ファヌル立ち絵表示
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01b trans=ひし形(左から右へ)
+@fi s=f311 pos=c
+@mwon
+@v s=41063
+@【ファヌル】
+"Oh, you finally came back."
+@page
+I came in because I thought somebody
+was in here, but it was only her.
+@page
+Why is she here?
+Wasn't she supposed to be in my cell phone?
+@page
+@fi s=f559 pos=c
+@v s=41064
+@【ファヌル】
+"I came out halfway.
+It would have been bad if they had seen me."
+@page
+@【至】
+"Who cares!? Why didn't you help me!?"
+@page
+@fi s=f55a pos=c
+@v s=41065
+@【ファヌル】
+"I said it before, didn't I?
+I'm just watching over you. Not guarding you."
+@page
+@【至】
+"Tch... whatever.
+Do you know where Wazuka-san is?"s
+@page
+@fi s=f211 pos=c
+@v s=41066
+@【ファヌル】
+"She's in her room.
+She doesn't intend to come out."
+@page
+@【至】
+"She won't come out?"
+@page
+@fi s=f559 pos=c
+@v s=41067
+@【ファヌル】
+"Nope. She's just been in her room, staring
+at her cell phone this whole time."
+@page
+@【至】
+"Cell phone...?"
+@page
+Could be a new recipe... or not.
+@page
+She was apparently so mad that she
+looked like she was going to crush it.
+Wait, then she must've...!
+@page
+@【至】
+"Wazuka-san!"
+@page
+;【ワイプ】場所移動
+;【背景】自宅廊下
+;【ＳＥ】ノックの音　コンコンではなくゴンゴン
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02b trans=ひし形(左から右へ)
+@bgm s=bgm11
+@se s=se033
+@mwon
+@【至】
+"Wazuka-san, you there?"
+@page
+I knock on the door to Wazuka-san's room.
+However, I don't hear a reply from within.
+No reply at all, in fact.
+@page
+Then, I put my hand on the doorknob, and turn it.
+@page
+But it's no use. It's locked.
+@page
+@【至】
+"Wazuka-san, open the door. Are you in there?"
+@page
+......
+@page
+@se s=se033
+@【至】
+"Wazuka-san!"
+@page
+......
+@page
+No matter how much I knock or call,
+Wazuka-san doesn't answer.
+@page
+However, the door is locked. That
+must mean that she's inside.
+@page
+@【至】
+"Wazuka-san, listen to me!
+It's not what you think! They forced me!"
+@page
+......
+@page
+@【至】
+"After school, Matsuri knocked me out!
+When I woke up, I was in Otogiri-san's room,
+and they had tied up my hands and feet... then...!"
+@page
+......
+@page
+@se s=se033
+@【至】
+"Wazuka-san! Please! Open the door!
+@page
+......
+@page
+@【至】
+"Wazuka-san..."
+@page
+......
+@page
+@【至】
+"Please, open up..."
+@page
+I call to her, pleading to her...
+However, there's no answer, and the door doesn't open.
+@page
+Even though the only thing in my way is this door,
+I can't reach her.
+@page
+Wazuka-san is rejecting me.
+Not speaking to me, not coming to me,
+she's giving me the silent treatment with this door.
+@page
+@【至】
+"Wazuka-san..."
+@page
+Finally, we told each other how we felt.
+I could finally tell her that I liked her...
+@page
+@【至】
+"... Why? Why are you doing this?
+Tell me... please, tell me!"
+@page
+@jump storage="140601.scn"
+;→140601

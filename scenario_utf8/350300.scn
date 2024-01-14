@@ -1,0 +1,226 @@
+﻿;350300
+*350300|_もっとしっかり！
+;【ワイプ】時間経過＆場面転換
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@bgm s=bgm16
+@fi s=k34a pos=c
+@mwon
+@v s=30612
+@【かごめ】
+"Wait, now what are you doing!?"
+@page
+@【至】
+"Uhhhh... w-what?"
+@page
+;【立ち絵】かごめ・大
+;【演出】クエイク
+@fi s=k447d pos=c
+@qk time=1000
+@v s=30613
+@【かごめ】
+"Don't 'what' me!
+You understand, don't you!? You do, right!?"
+@page
+Lunchtime.
+Otogiri-san called out to me.
+Rather, she shook me.
+@page
+Because of Otogiri-san's overly angry way of calling out to me, I declined Wazuka-san's promise too.
+@page
+Even so-- isn't Otogiri-san too angry?
+@page
+@fi s=k44ad pos=c
+@v s=30614
+@【かごめ】
+"So, what is it!?
+You know what I want to say, right?!
+So say the reason, now! Do it!"
+@page
+;【演出】クエイク
+@qk
+@【至】
+"Wah, wa-wait, calm down!
+I don't understand what you're talking about if you ask me this suddenly!"
+@page
+Right now, she's clearly very angry.
+However, I can't understand the real reason why she's so angry.
+@page
+I want her to at least tell me the reason.
+I can't do anything about it if I don't know what it is.
+@page
+@fi s=k347 pos=c
+@v s=30615
+@【かごめ】
+"You don't understand at all, Itaru-kun!
+Your attitude earlier, what was with that!? Come on!"
+@page
+@【至】
+"Ah... yeah, uh, sorry about that."
+@page
+@fi s=k547d pos=c
+@qk time=700
+@v s=30616
+@【かごめ】
+"Stop apologizing! You're not like a little brother at all! Way more points deducted!"
+@page
+It worries me that she's this angry.
+This is just a make-believe game, isn't it?
+@page
+@【至】
+(... If I said that, she'd get even more mad.)
+@page
+If I go out with other women,
+as well as apologizing, I might be able to sympathize with Otogiri-san's feelings.
+@page
+That's a problem for the future...
+@wait time=700
+For now, I can only think of apologizing.
+@page
+@【至】
+"Sorry, I'll do better in the future.
+What should I do, as an example?"
+@page
+I know it's unreasonable, but I shouldn't get angry.
+It would be exactly correct to call this the weakness called love.
+I don't want this girl to hate me.
+@page
+@fi s=k34ad pos=c
+@v s=30617
+@【かごめ】
+"It's the little brother's role to think of a
+way to make his onee-chan forgive him, right!?"
+@page
+@【至】
+"Eh, ah... yeah. Right..."
+@page
+Even if you say that, I can't think of anything.
+Rather, I still don't understand.
+@page
+Was Otogiri-san this kind of person?
+She's been very different up until now.
+@page
+In the end I only look down a bit. It seems that she's reaching her limits because I can't give her the answer she wants.
+@page
+@fi s=k347d pos=c
+@v s=30618
+@【かごめ】
+"Hey, do you really understand?
+Rather, do you really think you did something wrong?"
+@page
+@【至】
+"Of course I do. That's what I'm worried about.
+I do anything you want, if you'll forgive me."
+@page
+I'm getting gradually more afraid.
+Man, I hate being shouted at.
+@page
+@fi s=k349d pos=c
+@v s=30619
+@【かごめ】
+"Really? You'll do ANYTHING for your onee-chan?"
+@page
+@【至】
+"Ah, yeah. Of course."
+@page
+If you forgive me.
+When such a timid thought comes to mind, I realize that comparatively, I'm a complete loser.
+@page
+@fi s=k211d pos=c
+@v s=30620
+@【かごめ】
+"Then ejaculate for onee-chan.
+The restroom should be a nice place."
+@page
+@【至】
+"Huh...? Eh, now, why--"
+@page
+@fi s=k34ad pos=c
+@v s=30621
+@【かごめ】
+"I said, show me how you ejaculate.
+Then I'll forgive you."
+@page
+;@fi s=k44a pos=c
+@v s=30622
+@【かごめ】
+"You said you'd do anything, right? Or was that a lie?"
+@page
+@【至】
+"No... that wasn't a lie...
+But this is a bit sudden..."
+@page
+@fi s=k345d pos=c
+@v s=30623
+@【かごめ】
+"It's okay, onee-chan will do various things for you.
+For example, I'll help you prepare..."
+@page
+@【至】
+"Prepare... wai- uwah!?"
+@qk time=700
+@page
+Suddenly Otogiri-san pulls up her shirt.
+She was wearing nothing underneath it.
+@page
+In other words-- what met my eyes were Otogiri-san's large breasts.
+As she said, the sight of those is good enough to prepare me.
+@page
+@fi s=k214ad pos=c
+@v s=30624
+@【かごめ】
+"Kufufu... is that enough?
+I have other ways to prepare you besides that.
+For instance-- things like this."
+@page
+Onee-chan says that, and takes out something bizarre.
+@page
+A pink, cylindrical mass of rubber.
+That's not a metaphor-- that's the only way I can describe.
+@page
+@【至】
+"What... is this?"
+@page
+@fi s=k345d pos=c
+@v s=30625
+@【かごめ】
+"Kufufu, onee-chan will teach you all about it, okay?
+This is an onahole.
+This is a tool to help men masturbate."
+@page
+@fi s=k214d pos=c
+@v s=30626
+@【かごめ】
+"The type where you don't need lotion costs 2000 yen.
+It's been really popular lately, you know?"
+@page
+@【至】
+"Huh... wait, by man, you mean I'm going to use this!?"
+@page
+@fi s=k345d pos=c
+@v s=30627
+@【かごめ】
+"You said anything, right?
+Come on, let's go to the restroom already.
+It's Itaru-kun punishment time now."
+@page
+@【至】
+"Y-Yeah..."
+@page
+There's a limit to my love weakness.
+But even so, I can't go against Otogiri-san.
+@page
+@fi id=k
+Led by the hand, we start walking.
+@page
+And the last stop for us is the unpopular
+boy's bathroom in the middle of the school...!
+@page
+@mwoff
+;【ワイプ】場面転換
+;→350301
+@bgm fade=stop
+@jump storage="350301.scn"

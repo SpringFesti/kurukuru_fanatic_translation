@@ -1,0 +1,38 @@
+﻿;010706
+*010706|_Quiz! You're Next!
+;【好感度】かごめ+1
+;【ＳＥ】正解
+@eval exp="f.kagome++"
+@se s=se094
+@fi s=f559 pos=lc
+@v s=40156
+@【ファヌル】
+"Correct. However, that's a twisted way to say it. 
+Be more careful next time."
+@page
+@v s=16001
+@【ウサミ】
+"Isn't that a wrong answer though?"
+@page
+@fi s=f55a pos=lc
+@v s=40157
+@【ファヌル】
+"It's good enough. A fake answer is good enough for now."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"T- then that's all you'll say for now?"
+@page
+@fi s=f311 pos=lc
+@v s=40158
+@【ファヌル】
+"Anyway, here's a prize, I guess."
+@page
+@fi s=f55b pos=lc
+@v s=40159
+@【ファヌル】
+"I'll raise that twisted girl's love points. Then, she'll rape you soon."
+@page
+@jump storage="010707.scn"
+;→010707

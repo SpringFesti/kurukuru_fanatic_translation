@@ -1,0 +1,161 @@
+﻿;220302
+*220302|_祀利の秘密
+;【備考】祀利視点
+;【背景】廊下・夜・消灯
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02b trans=ランダム
+@bgm s=bgm16
+@fi s=m315 pos=c
+@mwon
+@v s=20649
+@【祀利】
+"... Heh heh, what a nice feeling.
+The air is full of bloodlust."
+@page
+Her-- Wazuka is the only one.
+That plain, open urge to kill is refreshing.
+@page
+I examined the structure of this house beforehand.
+I climbed up the wall, got into Itaru's room,
+and silently snuck to the living room.
+@page
+Of course, my target is Wazuka.
+@page
+;@fi s=m411 pos=c
+@v s=20650
+@【祀利】
+"Just wait, Matsuri. I'll dispose of this bitch right now."
+@page
+Slowly, slowly I go towards the living room.
+Wazuka hasn't moved.
+She's just standing there in the middle of the room.
+@page
+Does she know that I'm here?
+Or is she just inviting me in...
+@page
+@fi s=m315 pos=c
+@v s=20651
+@【祀利】
+"Heh heh... let's see what you've got."
+@page
+I put up my arm, like a hug.
+Put the gun into my hand--
+and slide my finger around the trigger.
+@page
+@fi id=m
+@mwoff
+@bi s=blank
+;【背景】居間・夜・消灯
+@bi s=bg04b
+@mwon
+I enter the living room.
+Immediately, I slide into the shadow of the nearby furnature.
+@page
+I don't make a sound.
+Just one smooth, gradual movement.
+@page
+Even if Itaru and the others have seen me, they haven't noticed me.
+At least, there's no signs that I've been noticed.
+@page
+@fi s=m315 pos=c
+@v s=20652
+@【祀利】
+(... That's only natural.
+Even in my hometown, if I didn't want anybody
+to see me, nobody ever would.)
+@page
+But--
+@page
+@fi id=m
+@fi s=f55b pos=c
+@v s=40485
+@【ファヌル】
+"... Heh."
+@page
+The punk kid named Fanuel watches me.
+She laughs scornfully at me, then turns away.
+@page
+Did she see me--!?
+I try to train my gun on her.
+However, I stop.
+@page
+@fi id=f
+@fi s=m315 pos=c
+;【備考】エコー
+@v s=20653
+@【祀利】
+(She's just some punk kid...
+besides, now's my chance.)
+@page
+I look at Itaru and Wazuka again.
+@page
+Neither of them are looking where I am.
+It seems neither of them are aware of me at all.
+Even still, Fanuel somehow is.
+@page
+@fi id=m
+I move between the shadows of the furnature, and approach them slightly.
+@page
+This is the absolute best moment.
+The highest pleasure, that I never get tired of,
+no matter how many times I do it.
+@page
+Tapping them on the shoulder in their blind spot, heralding their "last goodbye"--
+At that time, one of two expressions float onto the face of the target.
+Surprise, or a strong fear.
+@page
+@fi s=m315 pos=c
+@v s=20654
+@【祀利】
+(Wazuka... which will you be?
+Which face will you show me when you die...?)
+@page
+I'm now behind her. Of course, she hasn't noticed me.
+@page
+I want to enjoy this thrill a little more.
+Until the very last moment. I want to taste this extreme tension.
+@page
+However, the others are making noise in my head.
+I'll kill her, and fast--
+@page
+;@fi s=m311 pos=c
+@v s=20655
+@【祀利】
+(... tch. The others are being noisy.)
+@page
+@fi id=m
+I erase all of my presence. Then, I walk out of the shadow of the furnature.
+@page
+It's time for the "last goodbye".
+@page
+I point both of the handguns in my hands at her.
+The distance between us is only 15cm.
+Only that remains between life and death.
+@page
+@fi s=w322 pos=lc
+I slowly approach her side.
+Then, I tap her shoulder.
+@wait time=200
+@fi s=m315 pos=rc slide=l time=1500
+@page
+She turns.
+Her face--
+@page
+What a boring person.
+The same face as always.
+Whatever, that's enough.
+@page
+@fi s=m515 pos=rc
+@v s=20656
+@【祀利】
+"Tchau."
+@page
+I pull the trigger.
+@page
+@bi s=current all=true trans=crossfade time=100
+@mwoff
+;→220303
+@bgm fade=stop
+@jump storage="220303.scn"

@@ -1,0 +1,164 @@
+﻿;140400
+*140400|忍び寄る影
+;【備考】主人公視点
+;【ワイプ】視点変更
+;【背景】廊下・昼
+;【備考】ゲームでは話者表記無し
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@se s=se011
+@wait time=3000
+@bgm s=bgm07
+@mwon
+@fi s=k114 pos=c
+@v s=30961
+@【かごめ】
+"Takamichi-kun, Takamichi-kun!"
+@page
+@se fade=out
+Otogiri-san calls out to me right after homeroom ends.
+@page
+@setOnce
+@fi id=k
+@fi s=m111 pos=c
+@endOnce
+@v s=21663
+@【祀利】
+"She's calling you, isn't she?"
+@page
+@【至】
+"Yep."
+@page
+To be honest, I don't want to go.
+She'll probably give me more speeches about
+older sisters anyway.
+@page
+But I don't know what'll happen if I ignore her
+and she starts sending me lots of mails like the other day.
+@page
+Compared to that, I'd take a speech any day.
+@page
+Alright, I'll listen to her for a little, then
+tell her I have something to do and run away.
+Perfect.
+@page
+@v s=30962
+@【かごめ】
+"Takamichi-kuuun!"
+@page
+@【至】
+"Yeah, I'm coming!"
+@page
+I've already decided to escape her, so I don't feel that bad.
+She can't do anything to me until after school,
+so I'll take the brunt of her obsession now.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true time=300
+@bi s=bg10d trans=ひし形(左から右へ) time=400
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+@fi s=k114 pos=c
+@v s=30963
+@【かごめ】
+"Sorry for suddenly calling you out like this."
+@page
+@【至】
+"It's fine. What's up?"
+@page
+@fi s=k112 pos=c
+@v s=30964
+@【かごめ】
+"Hmm... I'm sorry... I think."
+@page
+@【至】
+"No, you don't have to apologize..."
+@page
+@fi s=k113 pos=c
+@v s=30965
+@【かごめ】
+"... But, Takamichi-kun has been bad.
+So there's nothing I can do, right?"
+@page
+With that "right?", Otogiri-san tilts her head just a smidge.
+@page
+But not at me.
+@page
+Her eyes look right past me... to...
+@wait time=1000
+Behind me?
+@page
+@bgm fade=stop
+@mwoff
+@se s=se118
+@qk
+@flash
+@wait time=300
+@mwon
+@lfont
+@【至】
+"--GAHH!?"
+@page
+@bgm s=bgm16
+My neck feels heavy.
+With a great boom, a strong impact slams into my head.
+However, it isn't painful.
+@page
+Already having been paralyzed,
+I fall to the floor of the hallway.
+@page
+@fi s=k449 pos=c
+@v s=30966
+@【かごめ】
+"Got him...we did it!　Heehee... success!
+A great success! Hee... heeheeheeee!"
+@page
+@fi s=k349 pos=c
+@qk time=1000
+@lfont
+@v s=30967
+@【かごめ】
+"Hee-- hyahahah!"
+@page
+@【至】
+"Wh...y...?"
+@page
+Whatever it was that hit me, came from behind me.
+The culprit was whoever Otogiri-san was looking at--
+So, it could nobody but her.
+@page
+@fi s=k349 move=rc
+@fi s=m748 pos=lc
+@v s=21664
+@【祀利】
+"Sorry Itaru. But you'll only be going beddy-bye for a little, okay?"
+@page
+Yes, it was Matsuri.
+She had been the one who hit me from behind.
+@page
+@【至】
+Wh... y... would... you...?"
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true time=100
+@se s=se118
+@qk
+@flash
+@wait time=700
+@mwon
+I see Matsuri swing her fist.
+After that, I don't remember.
+Only darkness filled my vision.
+@page
+I think I can hear the laughter of two people.
+Of course I don't want to remember something like that,
+but for some reason, the sound touched my mind.
+@page
+@bgm fade=out
+@mwoff
+@jump storage="140401.scn"
+;→140401

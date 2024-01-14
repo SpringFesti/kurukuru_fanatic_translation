@@ -1,0 +1,268 @@
+﻿;330200
+*330200|かごめとの約束
+;【ワイプ】場面転換
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=clock
+@se s=se011
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+Then, I arrived at school without a single trouble.
+@page
+Well, because the teacher has accepted the thing with Matsuri,
+there was no spark for the fire, so to speak.
+@page
+@se fade=out
+@fi s=w111 pos=c
+@v s=10702
+@【わずか】
+"I'll see you on the roof.
+When we meet, tell me if anyone bothered you. I'll murder them immediately."
+@page
+@fi id=w
+It's just like Wazuka-san to say such dangerous words next to a classroom.
+And so, I head to my own classroom.
+@page
+;【ワイプ】場面転換
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+So, now what should I do...?
+@page
+As soon as I enter the classroom, I immediately think about my promise with Otogiri-san.
+@page
+There's a big obstacle in the way of my fulfillment of that promise.
+I'm talking, of course, about Matsuri.
+@page
+@【至】
+"Hm..."
+@page
+I need her to be in the classroom.
+I've already got a strategy for that.
+I'm just anxious about whether or not that strategy will succeed.
+@page
+@fi s=m111 pos=c
+@v s=21449
+@【祀利】
+"What's wrong, Itaru? Are you thinking about something?"
+@page
+But I've got to do it.
+I smile at Matsuri, and point at my own throat.
+@page
+@【至】
+"Nah, I'm just thirsty, so I'm thinking of buying something."
+@page
+So, her answer here should probably be--
+@page
+@fi s=m212 pos=c
+@v s=21450
+@【祀利】
+"I'll go too-!"
+@page
+Okay, my hypothesis was valid.
+I had thought about it on my way to school, and there it is.
+And of course, I had thought about the actions I need to take now.
+@page
+@【至】
+"No, I need you to do something for me.
+I might not be in time for class now.
+So I need you to answer for me when the teacher calls my name."
+@page
+@fi s=m74b pos=c
+@v s=21451
+@【祀利】
+"Answer for you?"
+@page
+@【至】
+"Yeah. When the teacher calls my name, I need you to say that I'm here."
+@page
+@【至】
+"Got it, Matsuri? This is a serious task for you.
+Can I put my faith in you, for my sake?"
+@page
+How's that!?
+@page
+@fi s=m112 pos=c
+@act id=m t=bow
+@v s=21452
+@【祀利】
+"Yep, got it. I'll do my best for you.♪"
+@page
+@fi id=m
+Matsuri answers cheerfully.
+I sit down in my chair with a smile.
+@page
+Yes, mission accomplished!
+@page
+She really is the same as Wazuka-san, where "for my sake" are the only words she needs to hear.
+@page
+@【至】
+"Alright, Matsuri! I'm counting on you to answer for me!"
+@page
+;【ワイプ】場面転換
+;【背景】廊下・昼
+@bi s=bg10d
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+Then I went out into the hallway.
+First I walk towards the cafeteria area.
+Of course, that's just to make sure if anyone is following me.
+@page
+I turn the corner and wait there for a while.
+Then, I gently look back to where I came from.
+@page
+... No problems.
+Alright, let's hurry.
+@page
+;【ＳＥ】廊下を走る
+;【ワイプ】場面転換
+;【背景】屋上・昼
+@se s=se078
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=tile
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Phew. I'm tired."
+@page
+I'm not tired from the run.
+@page
+What would happen... if I was found out?
+That pressure is tiring me right out.
+@page
+Damp sweat covers my palms,
+and I really am thirsty now.
+@page
+@【至】
+"Sigh... I wish I had actually bought a drink now."
+@page
+@bgm fade=stop
+@v s=30259
+@【？？？】
+"Ah, umm, w... would this do?"
+@page
+@bgm s=bgm07
+@fi s=k214 pos=c
+I hear a voice behind me,
+and turn around to see Otogiri-san standing behind me.
+@page
+In her hands stretched out towards me,
+she holds a can of tea.
+@page
+@【至】
+"Oh, thanks for waiting. ... Uuuuhhh, can I have that?"
+@page
+;@fi s=k213 pos=c
+@v s=30260
+@【かごめ】
+"Y-Yes. I-I have plenty in my bag."
+@page
+@【至】
+"Why do you have so many?"
+@page
+@fi s=k112a pos=c
+@v s=30261
+@【かごめ】
+"A-Ah, I-I, I often get thirsty or hot,
+b-but, um, I can't finish my drink during
+b-breakfast, s-so I put it in my bad!"
+@page
+@【至】
+"In other words, so you can drink it during school?"
+@page
+@fi s=k114a pos=c
+@act id=k t=bow
+@v s=30262
+@【かごめ】
+"Y-Yes, precisely!"
+@page
+Otogiri-san laughs in embarassment while she holds out her can.
+Of course, I should take it.
+@page
+@【至】
+"Thanks. My throat really needs this."
+@page
+@fi s=k111a pos=c
+@v s=30263
+@【かごめ】
+"T-There's no need to thank me!"
+@page
+@【至】
+"Well, you would usually thank someone for something like this.
+So thanks, I guess?"
+@page
+I'm a little confused since I already thanked her, but I'm happy to thank her again.
+@page
+@fi s=k112a pos=c
+@v s=30264
+@【かごめ】
+"N- I mean it's not, it's normally 120 yen
+b-but I can get it for 88 at the store,
+so the price isn't really a huge sticking point and uhh..."
+@page
+Otogiri-san panics even more.
+Yeah, I should calm her down.
+She's a good person.
+@page
+;【演出】文字半角
+@fi s=k113a pos=c
+@sfont
+@v s=30265
+@【かごめ】
+"And it's only natural for an onee-chan..."
+@page
+--Hm?
+Just now, that strange phrase again...
+@page
+@se s=se011
+@fi s=k348 pos=c
+And at that time.
+The chime that signals the five minute warning until class rings.
+@page
+@【至】
+"Ah, oh crap! It can't be that late, can it?"
+@page
+I must have spent too much time getting here!
+@page
+@【至】
+"Sorry! Even though I came, we'll have to finish this up later!"
+@page
+I clap both my hands together and apologize.
+Otogiri-san seems to shake her head for some reason.
+@page
+@fi s=k214a pos=c
+@v s=30266
+@【かごめ】
+"It's okay! The event came, I got some points, and I even raised a flag too!"
+@page
+Then she says some stuff I can't understand.
+But I can't question her now.
+@page
+@【至】
+"Alrighty. Are we good then?
+I gotta get to class!"
+@page
+@fi s=k114a pos=c
+@v s=30267
+@【かごめ】
+"Y-Yes, go ahead!"
+@page
+Without being able to question her on what she meant,
+we head to the classroom together in a hurry.
+@page
+@fi id=k
+;→330201
+@bgm fade=stop
+@jump storage="330201.scn"

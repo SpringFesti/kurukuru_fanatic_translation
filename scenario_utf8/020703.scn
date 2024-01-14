@@ -1,0 +1,73 @@
+﻿;020703
+*020703|_１０月２８日午後１２時４２分
+;【好感度】祀利+1
+@eval exp="f.matsuri++"
+;@bi s=current all=true trans=crossfade
+Let's try Matsuri's.
+--Err, not trying her's would be dicey.
+@page
+From being together with her this morning,
+I now know that she's completely unpredictable.
+@page
+Her actions and words are inconsistent,
+and she doesn't listen to other people.
+@page
+@【至】
+(... At least I know Wazuka-san will understand me.
+I have no confidence in THIS one to follow anything I say.)
+@page
+Besides, I'm kind of curious about how a ration tastes,
+and at worst I have a story to tell, so--
+@page
+@【至】
+"Alright, I'll take Matsuri's."
+@fi s=w112 pos=lc
+@page
+@fi s=m212 pos=rc
+@v s=20305
+@【祀利】
+"Just as I expected! I love you, Itaru!"
+@page
+@fi s=w113 pos=lc
+@v s=10369
+@【わずか】
+"... Itaru-kun..."
+@page
+Her eyes say the same thing as her mouth.
+I see a little bit of the knife peep out, and I get scared.
+Anyone would, I can't help getting scared.
+@page
+@【至】
+"Of-Of course I'll eat yours too!
+I'll eat your's too, okay!? Okay!?"
+@page
+@fi s=w112 pos=lc
+@v s=10370
+@【わずか】
+"That isn't the problem... no."
+@page
+I know. I understand perfectly what she's saying.
+However, I have to do this, Wazuka-san.
+@page
+@fi s=m114 pos=rc
+@v s=20306
+@【祀利】
+"Itaru, no talking to the crappy lunch box lady!
+Come on, eat it, quick!"
+@page
+@【至】
+"... Even if you say that, how should I eat it?"
+@page
+@fi s=m747 pos=rc
+@v s=20307
+@【祀利】
+"Nhmhmhm, how about I teach you?
+Step-by-step, in every way.♪"
+@page
+@fi s=w115 pos=lc
+@v s=10371
+@【わずか】
+"... I will kill you... I am absolutely going to kill you."
+@page
+;→020704
+@jump storage="020704.scn"

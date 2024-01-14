@@ -1,0 +1,25 @@
+﻿;020302
+*020302|_いっしょに行きたい！
+There's no way she can go with us.
+She'd be caught as soon as we got there.
+@page
+@【至】
+"Sorry, but the answer's still no. Just wait quietly for us at home,
+okay Matsuri?"
+@page
+@se s=se131
+@fi s=m514 pos=rc
+@v s=20232
+@【祀利】
+"No!　I gotta go!　I'm going with you!"
+@page
+@【至】
+"You can go with us up to the gate, but not inside the school, okay?"
+@page
+@fi s=m64b pos=rc
+@v s=20233
+@【祀利】
+"But... Itaru, come on!"
+@page
+;→020303
+@jump storage="020303.scn"

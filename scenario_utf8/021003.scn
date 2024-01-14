@@ -1,0 +1,66 @@
+﻿;021003
+*021003|１０月２８日午後１１時４２分
+;【背景】夜空
+@bi s=bg830
+@wait time=1000
+;【ワイプ】時間経過
+;【イベントＣＧ】三人で寝る
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evn1010 trans=clock
+@bgm s=bgm04
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... After all that, it's this again tonight, huh?"
+@page
+After Wazuka-san and Matsuri fall asleep,
+I finally breathe a sigh of relief.
+@page
+Unless those two wake up, today's
+events should be over.
+@page
+Huh? What'll happen if they get up?
+Bloodshed, of course. No, a battlefield.
+@page
+@【至】
+"Maybe I should mix sleeping pills in their meals tomorrow..."
+@page
+How would I do that?
+What would be the probability that they wouldn't notice?
+@page
+@【至】
+"... Maybe I should ask Fanuel."
+@page
+When I mouth her name, I remember.
+I remember the scene before dinner.
+@page
+@【至】
+"... Did I really make her mad?"
+@page
+When she came to dinner, her normal appearance hadn't changed at all.
+If that's the case, then maybe it was just her temper?
+@page
+Muttering "Then I guess it's alright...", a sigh leaks out for some reason.
+@page
+Yeah... I really am worried.
+The reason that Fanuel was different back then--
+I'm thinking about it for some reason.
+@page
+Of course, I've only got a hunch.
+But once I think about it, I keep getting more interested.
+Above all, I want to see if my hunch is correct or not.
+@page
+@【至】
+"... What could be the cause?"
+@page
+Is it that I told her to become human?
+Is it that I said I'd look together with her?
+@page
+What's really the question here...?
+@page
+@mwoff
+;→021004
+@bgm fade=stop
+@jump storage="021004.scn"

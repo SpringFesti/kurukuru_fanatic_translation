@@ -1,0 +1,688 @@
+﻿;000100
+@eval exp="tf._clearCount2 = int(sf._wazu) + int(sf._matsu) + int(sf._kago) + int(sf._fanu)"
+@eval exp="f.clearFlag2 = 1" cond="tf._clearCount2 >= 2"
+@eval exp="f.clearFlag3 = 1" cond="tf._clearCount2 >= 3"
+*ks_init
+*000100|_In the name of god
+;@mwoff
+@bgm s=bgm10
+@bi s=bg8170 time=500
+@filmpfx
+@se s=se022 v=50 loop=true buf=0
+;【背景】なんていうかイメージ。カラフルなサイケな。ここ、クルクル回るアニメは無理か？
+;【演出】縦モノローグ
+;【備考】モノローグの文字数が不明であったため、２５文字で表記
+;//モノローグモードに入ります。
+@mnon 
+;//msetは文字位置を決めるためのコマンドです。
+;//l= には一画面に表示する予定の行数を入れます。
+;//最初の画面では6行なのでl=6とします。
+;//msetはwaitclkで画面をクリアするごとに必要です。
+@mset l=3 h=true
+The world is filled with colorful surprises.
+@waitclk
+@mset l=6 h=true
+For example, take the marble underneath my feet――
+I am amazed at its beauty, even as it's covered in blood.
+Shining under the light on the white marble, 
+silver, orange and the red of settled blood
+mix together, in a chaotic mix――
+Just like a kaleidoscope, the colors spin round and round.
+;//クリックを待ちます。
+;//クリック待ちのグリフは必要でしょうか？
+@waitclk
+@mset l=3 h=true
+@se s=se071 buf=1
+@qk
+;@wait time=800
+Sploosh―― drip, drip, drip.
+;@se s=se052 buf=1
+@waitclk
+@mset l=5 h=true
+A terrible, strange sound joins the chaotic mix.　
+Even though I hate it, I want to endure it.
+More blood comes out. The white marble becomes crimson once more.
+Blood drips from my body again and again―― yes.
+@waitclk
+@mset l=4 h=true
+@se s=se071 buf=1
+@qk time=700
+@flash time=700
+It hurts.
+Who would want to stab someone like me? Why?
+@waitclk
+@mset l=4 h=true
+A sharp pain comes from the middle of my back.
+In the center of that disastrous pain, a knife sprouts from my body
+like a flower, using my shirt as a flower bed and my flesh as its seed.
+@waitclk
+@mset l=4 h=true
+My shirt is stained red.
+The knife, covered in blood, shines with a tinge of chrome light.
+@waitclk
+@mset l=4 h=true
+Yes... it really is beautiful.
+@waitclk
+@bi s=blank trans=crossfade all=true time=100
+@se s=se071 buf=1
+;【演出】文章消去
+;【演出】暗転
+;【ＳＥ】刺す
+@qk time=700
+@flash time=700
+@wait time=1500
+@mset l=6 h=true
+Then, the swirling colors become one.
+Ten thousand colors become one and the same.
+Yes-- they become black.
+I can't see whatever lurks there anymore.
+I cannot see through the overwhelming black.
+@waitclk
+@mset l=5 h=true
+Oh, what a wonderful world.
+A colorful world.
+A world full of surprises.
+@waitclk
+@mset l=3 h=true
+Yes, the world really is colorful.
+@waitclk
+@se fade=stop buf=0
+@stoppfx
+;@bgm s=stop
+;【演出】文章消去
+;【演出】モノローグ終了
+@wait time=1000
+@mwon
+;//mwonでモノローグモードを抜けます。
+@v s=40001
+@【？？？】
+"... Alright, that's enough."
+@page
+Suddenly, I hear a voice calling out in the darkness.
+@page
+I find another color inside the black.
+@page
+Such a nostalgic color.
+Perhaps this color was stolen from me.
+Destiny. A soul. In other words, life.
+@page
+@v s=40002
+@【？？？】
+"... Takamichi Itaru. Takamichi Itaru. Takamichi Itaru."
+@page
+The name repeated in the black――
+I only need a little time to realize that it's mine.
+@page
+@【至】
+"... Ah, yeah... I can hear you."
+@page
+@v s=40003
+@【？？？】
+"Then get up. The door has been closed, by none other than the hands of the father."
+@page
+I don't understand what that means.
+@page
+A door?　Closed? Father?
+Did my father do something?
+Wait, if the voice says that he closed the door, then――
+@page
+@【至】
+"Mom... Mom... it's been so long... tell me... why you were alone there...... 
+swinging..."
+@page
+@v s=40004
+@【？？？】
+"Are you still half asleep? Hurry up and open your eyes."
+@page
+@【至】
+"... Huh?　Wait... I'm still alive?!"
+@page
+@v s=40005
+@【？？？】
+"Just open your eyes and you'll understand."
+@page
+The speaker falls silent.
+@page
+I can't tell if it's a man or a woman, an adult or a child.
+Rather than calling it a gender neutral voice, I would say that I can't tell enough from the voice alone to tell who's speaking.
+@page
+@【至】
+"... Tch, alright."
+@page
+Muttering, I try to sit up.
+@page
+My whole body is stiff, and my eyelids are hard to move.
+I feel heavy, and I ache all over. I want to go back to sleep.
+@page
+However――
+@page
+@bgm fade=out
+;【背景】イメージ。不可思議な空間
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg8180 trans=波
+@bgm s=bgm08
+;@fi s=fi**** pos=****
+@mwon
+How can I describe a place like this?
+@page
+Colors mix and splash around me like the waves of the ocean,
+the foam turning into spinning spirals.
+@page
+@【至】
+"This doesn't look like any kind of special effects that I've ever seen...
+I wonder which amusement park I'm at?"
+@page
+@fi s=f311 pos=c
+@v s=40006
+@【？？？】
+"You have been defeated by your world.
+You are in the mountain of garbage, a chaos that refuses to be defeated."
+@page
+@【至】
+"Is that supposed to be a compliment?"
+@page
+@fi s=f559 pos=c
+@v s=40007
+@【？？？】
+"I'm only speaking facts. You died, and you've been resurrected."
+@page
+@【至】
+"Hah, alright. Thanks a ton. So is this a hospital or something?"
+@page
+@fi s=f411 pos=c
+@v s=40008
+@【？？？】
+"We are in the so-called afterlife.
+You might call it the flowerbeds of the river Styx."
+@page
+@【至】
+"Wha?　You don't sound like you're joking."
+@page
+@fi s=f311 pos=c
+@v s=40009
+@【？？？】
+"Of course I'm not. Why would there be a hospital in the afterlife,
+or near the Styx?"
+@page
+@【至】
+"If you died while you were in the hospital, then there would be one."
+@page
+@fi s=f414 pos=c
+@v s=40010
+@【？？？】
+"That's right. Have you started to understand?
+If you have, then you should start by praying to the Father."
+@page
+@【至】
+"Yeah, I'll pass. Is this a cult or something?"
+@page
+@fi s=f311 pos=c
+@v s=40011
+@【？？？】
+"No. It is source of the tradition of religion.
+Believe. Don't people say that if you believe, you will be saved?"
+@page
+@【至】
+"Wha?　God, I doubt that..."
+@page
+@fi s=f212 pos=c
+@v s=40012
+@【？？？】
+"Don't speak His name in vain. You will be cursed."
+@page
+@【至】
+"Why would I be cursed? This is God we're talking about, right?"
+@page
+@fi s=f415 pos=c
+@v s=40013
+@【？？？】
+"Now you've been cursed. You will turn to salt when you die."
+@page
+@【至】
+"Is it really that easy to be cursed?!"
+@page
+@fi s=f311 pos=c
+@v s=40014
+@【？？？】
+"Even if you spilled your semen all over the ground, you're still screwed, y'know? You should have used a tissue when fapping."
+@page
+@【至】
+"Whoahwhoahwhoah, where did that come from?!"
+@page
+@fi s=f211 pos=c
+@v s=40700
+@【？？？】
+"It's all good. The omnipotent and almighty God has reached out to you with the ultimate opportunity."
+@page
+@【至】
+"I'm so confused..."
+@page
+@fi s=f55b pos=c
+@v s=40016
+@【？？？】
+"We're talking about God, so that's alright. Isn't He such a great guy?
+Nobody can blame Him for cheating, right?"
+@page
+@fi s=f55a pos=c
+@v s=40017
+@【？？？】
+"Well, the devil wanted to rebel too, didn't he?
+He attacked with all his might back then."
+@page
+She nods with a triumphant air, smiling smugly.
+@page
+What the hell is she talking about? I died, but I was resurrected? 
+And God did all this?
+@page
+@fi s=f211 pos=c
+@v s=40018
+@【？？？】
+"Oh, don't doubt Him. You'll get cursed again."
+@page
+@【至】
+"Alright, then show me evidence. Bring God here!"
+@page
+@fi s=f111 pos=c
+@v s=40019
+@【？？？】
+"He's already at your side. God is part of everything in creation... 
+You just can't see Him."
+@page
+Looking to my side, she bows in respect.
+@page
+@【至】
+"S, seriously? W- well, I can't see spirits or anything like that."
+@page
+@fi s=f411 pos=c
+@v s=40020
+@【？？？】
+"You cannot meet nor see Him.
+Do you think He would appear to a mere human?"
+@page
+@【至】
+"Huh? Then what you said just now..."
+@page
+@fi s=f111 pos=c
+@v s=40021
+@【？？？】
+"I lied."
+@page
+@【至】
+"Y, you asshole!!! Don't be an idiot!　Where the hell are we?!"
+@page
+@fi s=f312 pos=c
+@v s=40022
+@【？？？】
+"We are in the afterlife. If you think I'm lying, touch your back."
+@page
+What the hell? Cursing, I touch my back just like she said to.
+@page
+With the first touch, I feel a greasy, disgusting sensation.
+Looking at my hand, I'm at a loss for words.
+@page
+@【至】
+"What... what the hell is going on?!"
+@page
+@setOnce
+@fi id=f
+@bi s=bg8140 time=800
+@endOnce
+Blood was on my fingers.
+@page
+Ripping at my shirt in a panic, I look at the back of it. It's covered in blood.
+@page
+There was a single hole in my shirt. It seems that blood was seeping out of it.
+@page
+@【至】
+"Then that means... there must be a wound there?
+If there's this much blood, then could I be...!!"
+@page
+@setOnce
+@bi s=bg8180 time=800
+@fi s=f311 pos=c
+@endOnce
+@v s=40023
+@【？？？】
+"Of course you're dead. You died of something like shock and blood loss,
+I suppose. But you don't need to worry."
+@page
+@fi s=f559 pos=c
+@v s=40024
+@【？？？】
+"You're not alive right now. However, you're not dead. You're in between."
+@page
+She says those same words again.
+@page
+I don't get what she's saying. Alive? Dead? In between?
+Who, me? Is this really the afterlife?
+@page
+@fi s=f311 pos=c
+@v s=40025
+@【？？？】
+"You finally understand."
+@page
+@【至】
+"... I don't get this at all. Is... is this really the afterlife?"
+@page
+@v s=40026
+@【？？？】
+"Didn't I just say that?"
+@page
+@【至】
+"What should I do? ... Should I try and do something about my wound?"
+@page
+I touch my back.
+@page
+Blood covers it. It feels realistic. This can't be a dream.
+@page
+With a grim resolve, I put my hand into my shirt. I touch my wound directly.
+@page
+@【至】
+"... What is this? It's split... and inside, it's squishy... Oh man..."
+@page
+I feel soft flesh on my fingers. I've never felt this kind of flesh, though.
+I can feel around under my skin.
+@page
+Blood overflows from inside my wound.
+Pulling my hand out, I see blood settling on my upper arm.
+@page
+@fi s=f311 pos=c
+@v s=40027
+@【？？？】
+"How disgusting. It must be so inconvenient to be human."
+@page
+@【至】
+"Oh, shut up. Aren't you human too?"
+@page
+@fi s=f212 pos=c
+@v s=40028
+@【？？？】
+"Don't mock me. I am not human, but one of God's servants."
+@page
+@【至】
+"Are you the Grim Reaper?"
+@page
+@fi s=f211 pos=c
+@v s=40029
+@【？？？】
+"I am called that from time to time. My true identity is that of an angel, 
+of course."
+@page
+@【至】
+"Bullshit."
+@page
+@fi s=f212 pos=c
+@v s=40030
+@【？？？】
+"Wanna get cursed again?"
+@page
+@【至】
+"Okay, then where's your angel's habit?"
+@page
+@fi s=f55b pos=c
+@v s=40031
+@【？？？】
+"Oh, that. It was torn apart by a bolt of lightning."
+@page
+@【至】
+"Alright, I guess it doesn't matter. 
+Now, could you do something about my wound?"
+@page
+As a human being I'm worried sick, but I'm mysteriously calm right now.
+@page
+Putting my hand in my shirt, I touch my wound again.
+There's no more blood. I can't feel any pain, 
+and the blood loss isn't affecting me.
+@page
+@【至】
+"... Was this what you were talking about, being in between life and death?"
+@page
+@fi s=f311 pos=c
+@v s=40032
+@【？？？】
+"Exactly. And because you're like that, you feel no pain and you can't die."
+@page
+@【至】
+"Then are you going to leave me like this!?"
+@page
+@fi s=f559 pos=c
+@v s=40033
+@【？？？】
+"That's up to you. You could stay like this, or you could go back to your world."
+@page
+@【至】
+"O, of course I'd like to go back! Isn't that the only real choice here!?"
+@page
+@fi s=f55a pos=c
+@v s=40034
+@【？？？】
+"How boring. Why would you want to go back to a garbage dump like that?
+We'll be putting a time restriction on you this time, after all."
+@page
+@【至】
+"Huh?"
+@page
+@fi s=f211 pos=c
+@v s=40035
+@【？？？】
+"You will be revived for 5 days.
+Figure out why you were stabbed, and stop it from happening."
+@page
+@【至】
+"What if I can't?"
+@page
+@v s=40036
+@【？？？】
+"You die for good, and you don't get to come back to life again."
+@page
+She declares my death sentence, once and for all.
+However, this is much better than a sudden death like my last one.
+@page
+I won't get killed this time. I must've gotten stabbed in the back.
+I was stabbed, so――――
+@page
+@【至】
+"... Wait. Who killed me? If I was stabbed... do you know who did it?"
+@page
+@fi s=f55a pos=c
+@v s=40037
+@【？？？】
+"God is omnipotent. As His servant, so am I."
+@page
+@【至】
+"So tell me then."
+@page
+@fi s=f55b pos=c
+@v s=40038
+@【？？？】
+"I'll need proper compensation for that.
+As a one-time offer for tonight only, you can sell me your soul."
+@page
+@【至】
+"How can I give you something like that?!　What kind of crappy sale is that?!"
+@page
+@fi s=f559 pos=c
+@v s=40039
+@【？？？】
+"But seriously, I can't tell you. I cannot defy His will."
+@page
+The ultimate opportunity had appeared. 
+After she said that, the conversation was over.
+@page
+I'll be resurrected. I'll start over again, before I was stabbed.
+This time, I won't die.
+@page
+@【至】
+"... But... why?"
+@page
+@fi s=f111 pos=c
+@v s=40040
+@【？？？】
+"Why what?"
+@page
+@【至】
+"Why am I being revived? Aren't there tons of other dead people?"
+@page
+@fi s=f55a pos=c
+@v s=40041
+@【？？？】
+"Oh, you aren't garbage and maggots like them."
+@page
+@【至】
+"What makes me different?"
+@page
+@fi s=f559 pos=c
+@v s=40042
+@【？？？】
+"I don't know."
+@page
+@【至】
+"What?"
+@page
+@fi s=f55a pos=c
+@v s=40043
+@【？？？】
+"Angels do not doubt Him. We just follow His orders."
+@page
+@fi s=f55b pos=c
+@v s=40044
+@【？？？】
+"Besides, y'know how old guys from a foreign countries rape girls?
+We'll be doing something kinda like that."
+@page
+@【至】
+"Wait, what?!"
+@page
+@fi s=f111 pos=c
+@v s=40045
+@【？？？】
+"I have my orders, and I will carry them out.
+So now, that's what we'll be doing."
+@page
+@【至】
+"So I'm going to get raped?!"
+@page
+@fi s=f311 pos=c
+@v s=40046
+@【？？？】
+"If you don't like that, you can do the raping."
+@page
+@bgm s=bgm10
+@se s=se124
+@fi s=f101 pos=c trans=inblink time=1500
+@flash time=1000
+@【至】
+"Wait?!　What are you doing?!"
+@page
+@fi s=f201 pos=c
+@v s=40047
+@【？？？】
+"This is the ritual. I will give "Life" to you."
+@page
+As she says that, she begins to tear my clothes off.
+@page
+Of course I tried to resist. I try to move. However, I can't.
+I couldn't move a single finger.
+@page
+No―― I could only stand in place.
+@page
+@fi s=f53b pos=c
+;【演出】ここ、カットインか何かで勃起した肉棒を表現できないか？
+@v s=40048
+@【？？？】
+"Hehe... here we are."
+@page
+Her gaze is fixed on my crotch.
+She touches my erection with a finger, and begins to play with it!
+@page
+@【至】
+"S, Stop!　W, what the hell are you doing?!"
+@page
+@fi s=f53a pos=c
+@v s=40049
+@【？？？】
+"What a cliche line. I suppose I'll reply with a cliche line too."
+@page
+@fi s=f53b pos=c
+@v s=40050
+@【？？？】
+"Naturally, I'm doing THIS."
+@page
+@qk time=1000
+@lfont
+@【至】
+"Nnnnoooooooo!!"
+@page
+@【至】
+"You can't!　We just met! You're an angel, aren't you!?　
+Don't you have a contraceptive or something?!"
+@page
+@fi s=f202 pos=c
+@v s=40051
+@【？？？】
+"Don't have any misconceptions about angels.
+We don't need contraceptives.
+We can make miracle drugs with supernatural powers."
+@page
+This weirdo's reasoning was: If the semen of a man, and the love juices of a woman mix together as if yin and yang, a miracle drug can be made――
+@page
+@【至】
+"That's a lie!　An absolute lie! Wouldn't you get pregnant if that happened?!"
+@page
+@fi s=f301 pos=c
+@v s=40052
+@【？？？】
+"Humans have imperfect souls. However, angels are perfect beings."
+@page
+My body is pushed over.
+@page
+@fi s=f101d pos=c
+Her face comes much closer to mine. Completely symmetrical, 
+her appearance was a perfect golden ratio.
+Her golden eyes look into mine, copying my perplexed look.
+@page
+@fi s=f104d pos=c
+@v s=40053
+@【？？？】
+"Well then, I shall start. Don't worry. Our ritual shall soon be over."
+@page
+@【至】
+"C, can you be more specific about that ritual?"
+@page
+@fi s=f101d pos=c
+@v s=40054
+@【？？？】
+"You will stick your dick in me, and move.
+Sperm will come from your dick."
+@page
+@【至】
+"Are you really an angel?! You're really obscene!　Use other words!"
+@page
+@fi s=f104d pos=c
+@v s=40055
+@【？？？】
+"You are going to stick your thick, burly dick into my 
+soft quivering flesh, and pour semen into it.
+Now that you understand, we'll start right now."
+@page
+@【至】
+"You can't!　Get off me! This is a horrible first time!　I object!
+Let me reseeeeeettttt!"
+@page
+@fi s=f101d pos=c
+@v s=40056
+@【？？？】
+"Now, it's time for sex. Let's continue five days before now."
+@page
+@eval exp="tf._clearCount = int(sf._wazu) + int(sf._matsu) + int(sf._kago) + int(sf._fanu)"
+@jump storage="000104.scn" cond="tf._clearCount >= 3 && f.clearFlag2 && f.clearFlag3 && sf._000103a"
+@jump storage="000103.scn" cond="tf._clearCount >= 2 && f.clearFlag2"
+@jump storage="000102.scn" cond="tf._clearCount >= 1"
+@jump storage="000101.scn"
+;分岐
+;初回プレイ　→000101
+;一人クリア　→000102
+;二人クリア　→000103
+;三人クリア　→000104

@@ -1,0 +1,329 @@
+﻿;340300
+*340300|_かごめとの約束
+;【背景】青空
+@bi s=bg810
+It feels like a long time goes by, with a happy occasion in front of me.
+Still, I can put up with it until noon.
+@page
+Without sleeping (because I went to bed early last night),
+I'm fully aware and paying attention during class.
+@page
+With my interal state looking forward to noon too much,
+it's just like I'm on autopilot.
+@page
+Then one class ends, and then another...
+@page
+;【ワイプ】時間経過
+;【背景】教室・昼
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@se s=se011
+@qk
+@lfont
+@【至】
+"It's oveeeer!"
+@page
+The bell that signals the end of homeroom rings.
+The end of school that I've been waiting for finally comes.
+@page
+@fi s=m212 pos=c
+@v s=21477
+@【祀利】
+"Itaru, let's go home!"
+@page
+-- And the last obstacle appears.
+As expected, I can't take her along.
+@page
+@【至】
+"I told you this morning though, didn't I? I have a promise with a friend to take care of now. So go home by yourself today."
+@page
+@fi s=m114 pos=c
+@v s=21478
+@【祀利】
+"So I'll go too. I wanna be with you."
+@page
+@sqk
+She pulls hard on my sleeve.
+This girl is really intending to come with me.
+@page
+@【至】
+"H-Hey, Matsuri..."
+@page
+@sqk
+@fi s=m112d pos=c
+@v s=21479
+@【祀利】
+"Come on, I'll go with you.
+Where's your friend?　At school? Or outside?"
+@page
+@【至】
+"Well... this is a promise between my friend and I.
+It's like if I made a promise with you, y'know?"
+@page
+With my ability to read Matsuri slipping,
+my normal way of speaking goes with it.
+@page
+@fi s=m114d pos=c
+@v s=21480
+@【祀利】
+"That's got nothing to do with it!
+I'm your fiance, so I'm going with you!"
+@page
+@bgm fade=stop
+@qk
+@lfont
+@【至】
+"No, you can't!"
+@page
+@bgm s=bgm15
+@fi s=m113b pos=c
+@qk
+@v s=21481
+@【祀利】
+"Hii!"
+@page
+Something bursts inside my head.
+Just after I feel it, I shout at her angrily.
+The rage accumulating in me spills over.
+@page
+@【至】
+"What do you mean, fiancee! Even if that's so,
+this is a private matter! Don't just butt in like that!"
+@page
+I can't hold myself back.
+Although I allowed her some freedom occasionally,
+there's only so far she can go with it.
+@page
+Shouting at her, my classmates that haven't gone home yet turn to me.
+@page
+@fi s=m116 pos=c
+@v s=21482
+@【祀利】
+"Hic... a, aww..."
+@page
+;@fi s=m116 pos=c
+@v s=21483
+@【祀利】
+"You dummy!
+I don't know you anymore!"
+@page
+;【ＳＥ】走る
+@fi id=m
+;@se s=se078
+@【至】
+"Ah... Matsuri!"
+@page
+I try to run after her,
+but she's already long gone.
+@page
+@【至】
+"... I really said too much."
+@page
+My claims aren't wrong.
+But I didn't need to shout.
+@page
+@【至】
+"... I'll apologize when I get home.
+Man, I just made a woman cry..."
+@page
+Anyway, that promise is my priority now.
+I don't think I need to worry about Matsuri anymore.
+@page
+Otogiri-san isn't in the classroom anymore.
+@page
+Although she didn't mention a time, I should go now.
+I begin to run and head to the roof.
+@page
+@bgm fade=out
+;【ワイプ】場面転換
+;【背景】屋上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=tile
+@bgm s=bgm07
+@fi s=k214 pos=c
+@mwon
+@v s=30370
+@【かごめ】
+"Ah, Takamichi-kun. You're late, what's wrong?"
+@page
+@【至】
+"... Ah, yeah... I just had to take care of something."
+@page
+@【至】
+"Anyway, what are you going to have for lunch?
+Do you want to try heading to the mall?"
+@page
+@fi s=k112a pos=c
+@v s=30371
+@【かごめ】
+"Oh, we could... but I already prepared lunch for us."
+@page
+@【至】
+"Eh, really? But what did you...?"
+@page
+@fi s=k213a pos=c
+@v s=30372
+@【かごめ】
+"To tell the truth, I was thinking of inviting you to my house...
+So there you are. Do you want to come over?"
+@page
+@【至】
+"... O, oh. Uh, yeah. Sure, I'd love to."
+@page
+Wow, I'm really burning red right now.
+I can even tell that I'm grinning wide right now.
+@page
+@【至】
+"Ah, so then, do you want to eat quick then?"
+@page
+@fi s=k114a pos=c
+@v s=30373
+@【かごめ】
+"Yes, sit down and I'll take it out."
+@page
+@fi id=k
+;【イベントＣＧ】evn3020
+@mwoff
+@bi s=evn3020
+@wait time=300
+@mwon
+@v s=30374
+@【かごめ】
+"Yes, here you go. I hope this will be to your taste."
+@page
+@【至】
+"Don't worry about it. I can eat almost anything."
+@page
+Anything is better than raw ground meat and moldly rations.
+I won't have a problem with it if she seasoned it wrong or something.
+@page
+@v s=30375
+@【かごめ】
+"That would be nice...
+I don't usually cook or do housework, so I tried really hard today."
+@page
+Is that right... she prepared this just for me.
+@page
+Yeah, this flavor is like a power-up for my tastebuds.
+I could say that anything is delicious now.
+@page
+@【至】
+"Yeah, this is super awesome.
+What did you make for a side dish?
+Do you mind if I open this up?"
+@page
+@v s=30376
+@【かごめ】
+"Y-Yes, go ahead." 
+@page
+Maybe it's because of my bizarre elation, but I push it around in a vaguely stupid way.
+@page
+Anyway, there's no helping that I'm having fun.
+This can't be bad.
+@page
+@【至】
+"Alright, let's open 'er up.
+Let's eat!"
+@page
+@bgm fade=stop
+;【イベントＣＧ】evn3021
+@mwoff
+@bi s=evn3021
+@wait time=300
+@mwon
+Whoah, when I open up the lunchbox, there are lots of sticky threads on the lid!
+@page
+@bgm s=bgm09
+... Threads?
+@page
+@【至】
+"Uhh, does this have natto or okra in it?"
+@page
+That's what must be sticky in it.
+Of course.
+@page
+@v s=30377
+@【かごめ】
+"T-This is an ordinary lunch box..."
+@page
+My wish is immediately destroyed.
+So this is what has become of it...
+@page
+@qk
+@v s=30378
+@【かごめ】
+"T-That's too fast! It went bad!"
+@page
+@【至】
+"Uhhh... ah, yeah."
+@page
+I have no way of responding.
+@page
+@v s=30379
+@【かごめ】
+"W-What should I...?
+Even though I only made it yesterday..."
+@page
+@【至】
+"Uh, after you made it yesterday, what did you do with it?
+Did you put it in the refrigerator?"
+@page
+@v s=30380
+@【かごめ】
+"... No. After I finished, I put the cover on immediately,
+and since it was cold last night, I left it in the kitchen."
+@page
+@【至】
+"I see then... So it's that."
+@page
+@v s=30381
+@【かごめ】
+"Eh, i-it's what?"
+@page
+@【至】
+"You can't put the cover on it until it gets cold.
+If you put the cover on immediately, the heat will
+stay inside, and it'll become like this."
+@page
+So you should leave it open for a while, then
+cap it when it's cold and put it into the refrigerator.
+By the way, you should also make it the morning
+that you're going to eat it in the summertime.
+@page
+Although there are a lot of steps and details to remember,
+I know this stuff because I like to read cookbook manga.
+@page
+;【イベントＣＧ】evn3022
+@mwoff
+@bi s=evn3022
+@wait time=300
+@mwon
+@qk
+@v s=30382
+@【かごめ】
+"I-I'm sorry, really sorryyy!"
+@page
+@v s=30383
+@【かごめ】
+"I've failed as an onee-chan!
+I failed even though you were looking forward to this so much,
+and I'm sorrysorrysorrysorrysorryyyy!"
+@page
+@【至】
+"Eh, ah... uhhh..."
+;選択肢
+;こういうときもあるよ　→340301
+;もっと注意しないと　→340302
+@pages
+@selinit
+@selbtn cap="We still have time" s="340301.scn"
+@selbtn cap="Be more careful" s="340302.scn"
+@s

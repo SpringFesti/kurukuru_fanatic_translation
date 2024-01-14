@@ -1,0 +1,71 @@
+﻿;020604
+*020604|_クイズ！　次はおまえだ！
+;【好感度】全員+1
+@eval exp="f.wazuka++"
+@eval exp="f.matsuri++"
+@eval exp="f.kagome++"
+@fi s=f114 pos=lc
+@v s=40376
+@【ファヌル】
+"Hm, that's appropriate.
+It has a poetic nuance to it, doesn't it?"
+@page
+@v s=16001
+@【ウサミ】
+"What do you mean?"
+@page
+@fi s=f111 pos=lc
+@v s=40377
+@【ファヌル】
+"I wanted to know just how a man faced with death thought."
+@page
+@fi s=f559 pos=lc
+@v s=40378
+@【ファヌル】
+"No meaning to life, nor to death.
+There, all returns to nothing."
+@page
+@fi s=f55a pos=lc
+@v s=40379
+@【ファヌル】
+"This man cannot accept that.
+So, perhaps that persistence gives meaning to his life."
+@page
+@v s=16004
+@【ウサミ】
+"So is he going to be alright!?"
+@page
+@fi s=f55b pos=lc
+@v s=40380
+@【ファヌル】
+"That question is nonsense.
+His answer will lie in the meaning he finds."
+@page
+@fi s=f111 pos=lc
+@v s=40381
+@【ファヌル】
+"We angels do not ask such questions. We do not use
+poetic words, nor do we restrict ourselves to one 
+dimension."
+@page
+@fi s=f114 pos=lc
+@v s=40382
+@【ファヌル】
+"In any case, you do deserve a reward.
+I'll give you affection points with all the heroines."
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"Gwah!? That's horrible!
+Now all of them are going to go insane!"
+@page
+@fi s=f55b pos=lc
+@v s=40383
+@【ファヌル】
+"That too is part of life's flow... no, perhaps it's fate.
+Can you take meaningful actions, and leave this life with no regrets?"
+@page
+@act id=u t=stopswing
+;→020605
+@jump storage="020605.scn"

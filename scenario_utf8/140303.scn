@@ -1,0 +1,377 @@
+﻿;140303
+*140303|_味？  それとも気持ち？
+Wow... this is worse than I thought.
+@page
+It feels like anything I say is useless,
+but I can't leave this as is.
+@page
+But what can I say?
+That Wazuka-san's food tastes better?
+That'd be suspicious.
+@page
+She already does all the housework,
+so if I complained about her cooking
+I'd only start a fight.
+@page
+Damn it, no matter what I say,
+it'd be counterproductive...
+@page
+@fi s=w213 pos=c
+@v s=11099
+@【わずか】
+"Oh..."
+@page
+@fi s=w546 pos=c
+@v s=11100
+@【わずか】
+"I-I'm sorry!"
+@page
+"... Huh?"
+@page
+@fi s=w213 pos=c
+@v s=11101
+@【わずか】
+"I-I went too far...
+I must've been annoying you..."
+@page
+As if the sulky Wazuka-san from before were a lie,
+she timidly begins to apologize.
+@page
+DidI really look troubled?
+I almost don't want to look at my expression right now.
+@page
+@fi s=w546 pos=c
+@v s=11102
+@【わずか】
+"I'm sorry, I'm sorry...
+I'm annoying you..."
+@page
+@【至】
+"Don't worry about it. You really weren't."
+@page
+@fi s=w113 pos=c
+@v s=11103
+@【わずか】
+"That's a lie... I troubled you...
+I went too far, so..."
+@page
+@fi s=w546 pos=c
+@v s=11104
+@【わずか】
+"I'm sorry...
+I'm truly sorry..."
+@page
+@mwoff
+@fi id=w trans=out slide=l time=2000
+@mwon
+@【至】
+"-- Wha? Wa-Wazuka-san?"
+@page
+Mouthing a weak apology, Wazuka-san
+slowly walks off.
+@page
+With an unsteady gait,
+she slowly pushes herself towards her destination--
+@page
+@【至】
+"Heeey! That's a dead end, don't you know--?"
+@page
+She still keeps right on walking, though,
+and a fence blocks her way. She can't keep going.
+@page
+I'm getting some kinda deadly premonition, where
+she'll start scaling the fence if she keeps going--
+@bgm fade=out
+@page
+@bgm s=bgm09
+@qk
+@lfont
+@【至】
+"WAAAAAIIITTT!!"
+@page
+Expecting the worst possible result, I dash towards her
+just as she puts her hand on the fence.
+@page
+@se s=se078
+@lineFXon
+@qk
+Just as I expected!
+Go faster, stupid legs!
+@page
+@se s=se120
+@qk time=1000
+@lfont
+@【至】
+"TOOOORYAAAAHHHH!!"
+@page
+I jump at the fence with all my might,
+and climb after Wazuka-san.
+@page
+@【至】
+"Don't be hasty!"
+@page
+@stoppfx
+I stretch out my arms and grasp her legs,
+and drag her down off the fence by force.
+@page
+@qk time=1000
+@lfont
+@v s=11105
+@【わずか】
+"Waaaagghh!?"
+@page
+@qk
+@se s=se066
+;【ＳＥ】倒れる音
+Catching her as she falls,
+I fall straight on my back.
+@page
+@【至】
+"Oof, owww....
+A-Are you alright, Wazuka-san?"
+@page
+@fi s=w113d pos=c
+@v s=11106
+@【わずか】
+"...I'm okaaay."
+@page
+@【至】
+"Oh, good..."
+@page
+@fi s=w11ad pos=c
+@v s=11107
+@【わずか】
+"Not good!　I must die!"
+@page
+@【至】
+"So, why did you just-- ah!"
+@page
+A pain ran through my right hand.
+@bgm fade=out
+@page
+@bgm s=bgm05
+@fi s=w113d pos=c
+@v s=11108
+@【わずか】
+"I-Itaru-kun... your, your hand..."
+@page
+I look at my right hand,
+and see a small stream of blood run from a tiny cut.
+@page
+Maybe I cut myself when I was climbing the fence.
+I probably grabbed an old part and cut myself.
+@page
+However, the wound's shallow and small,
+so it's no big deal.
+@page
+But it is a big deal to Wazuka-san.
+She's already staggering backwards.
+@page
+@fi s=w113a pos=c
+@v s=11109
+@【わずか】
+"Ohhh... ah, aaahh...."
+@page
+@fi s=w546 pos=c
+@v s=11110
+@【わずか】
+"Again... it's my fault that you're hurt, again..."
+@page
+@fi s=w646 pos=c
+@v s=11111
+@【わずか】
+"I'm sorry... I'm sorry...!" 
+@page
+Ragged tears run down her face as she
+apologizes to me many times.
+@page
+@setOnce
+@fi s=w646 move=lc
+@fi s=m41d pos=rc
+@endOnce
+@se s=se131
+@v s=21646
+@【祀利】
+"You think I'll forgive you, even if you apologize?"
+@page
+With a thunk, she cocks the gun,
+and aims the muzzle at Wazuka-san's forehead.
+@page
+@v s=11112
+@【わずか】
+"I'm sorry..."
+@page
+... Even so, she continues to apologize.
+@page
+@【至】
+"Matsuri, put that down.
+You'll be doing me a huge favor if you go to
+the nurse's office and get me some bandages."
+@page
+That's the truth. Even though the wound is shallow,
+I want to put some bandages on it.
+@page
+@fi s=m64b pos=rc
+@v s=21647
+@【祀利】
+"...Got it. If you're the one asking, then..."
+@page
+@fi id=m
+@fi s=w646 move=c
+;【立ち絵】祀利立ち絵消去
+Matsuri puts away her gun and quietly heads to the infirmary.
+I would be a happy man if she was always this obedient.
+@page
+... Now then.
+@page
+@v s=11113
+@【わずか】
+"Guh, oh... I'm sorryyy...."
+@page
+With such a guilty cry like that,
+nothing I say would do anything.
+@page
+@bgm s=bgm13
+@fi s=w113d pos=c
+;【立ち絵】わずか立ち絵　大
+@v s=11114
+@【わずか】
+"Ah..."
+@page
+Words would be useless,
+so I grab Wazuka-san and hold her close.
+@page
+I still can't do this in front of Matsuri,
+so I got her to go away under the pretext 
+of getting me some bandages.
+@page
+Well, those bandages will be useful anyway.
+@page
+@fi s=w546d pos=c
+@v s=11115
+@【わずか】
+"No, nooo...
+I-I don't deserve to be hugged by you like this..."
+@page
+@【至】
+"You don't really need to deserve it, and I think
+you deserve one right now anyway."
+@page
+@v s=11116
+@【わずか】
+"But... I hurt you..."
+@page
+@【至】
+"I said yesterday that I liked you."
+@page
+@【至】
+"If you went and died, do you think I'd like that?
+Me, who just realized his true feelings?"
+@page
+@fi s=w113d pos=c
+@v s=11117
+@【わずか】
+"Itaru-kun..."
+@page
+@【至】
+"Don't say that you have to die.
+Don't say that you don't deserve it.
+Just let me be stupid for a little bit."
+@page
+@fi s=w547d pos=c
+@v s=11118
+@【わずか】
+"... I'm sorry."
+@page
+@v s=11119
+@【わずか】
+"... Hey, do you want to hear my answer to yesterday's question?"
+@page
+@【至】
+"Yeah. I'll hear it."
+@page
+We know each other's feelings, but let's
+think about it once again.
+@page
+Even after a whole day has passed,
+those feelings haven't changed. I've still decided.
+@page
+@v s=11120
+@【わずか】
+"Those feelings that I said yesterday..."
+@page
+Then, of course Wazuka-san too, should...
+@page
+@fi s=w548d pos=c
+@v s=11121
+@【わずか】
+"...Were a lie."
+@page
+... What?
+@page
+@【至】
+"A... lie?"
+@page
+@v s=11122
+@【わずか】
+"Yes..."
+@page
+@fi s=w547ad pos=c
+@v s=11123
+@【わずか】
+"Because... I like you more than yesterday."
+@page
+;@fi s=w547d pos=c
+@v s=11124
+@【わずか】
+"Probably, I came to like you more and more every day...
+and as I've liked you all this time,
+you came to occupy my thoughts more and more."
+@page
+@v s=11125
+@【わずか】
+"I can't hold back my feelings any longer..."
+@page
+@【至】
+"... Me neither."
+@page
+@fi s=w111ad pos=c
+@v s=11126
+@【わずか】
+"Then, don't hold back...
+Would you tell me all about your feelings...?"
+@page
+I move my hands to her back,
+and hug her as deeply as I can.
+@page
+Then-- our lips meet.
+@page
+@fi s=w11cad pos=c
+@v s=11127
+@【わずか】
+"Mn..."
+@page
+To transmit those feelings, I kissed her.
+@page
+Even if I can't transmit them fully,
+I'll keep kissing her until I do.
+@page
+Ten, hundreds, thousands of times.
+I'll hold Wazuka-san close, and kiss her.
+@page
+My answer has already been decided.
+@page
+I like Wazuka-san.
+I like this person.
+@page
+I'm happy that I can finally tell her that.
+@page
+If we can understand each other, even without words--
+@wait time=500
+That is my greatest happiness.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+@jump storage="140304.scn"
+;→140304

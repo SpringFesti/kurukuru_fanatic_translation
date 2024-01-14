@@ -1,0 +1,734 @@
+﻿;250100
+*250100|祀利達を見て
+;【ワイプ】時間経過
+;【背景】主人公自室　朝
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=clock
+@bgm s=bgm11
+@mwon
+Before I knew it, the sun began to rise.
+@page
+;【ＳＥ】銃声
+@se s=se110
+But unlike the sun, which rises every day,
+I hear the sound of gunfire and violence, which you don't hear everyday.
+@page
+@【警察】
+"Ehh, to all criminals in the vicinity.
+Please stop your useless resistance and come out quietly.
+Your mom and dad are crying!"
+@page
+I also hear the voice of a loudspeaker.
+@page
+;【ＣＧ】evn2033
+;【ＳＥ】銃乱射
+@mwoff
+@bi s=evn2033
+@wait time=300
+@mwon
+@se s=se110
+@v s=21259
+@【祀利】
+"Shut the fuck up! Dad's happy, and Mom's gone!"
+@page
+;【ＳＥ】爆発音
+@se s=se097
+With the sound of Matsuri yelling, I hear a police car blowing up.
+@page
+;【背景】自室？　……この前のシーンにあわせて
+@bi s=bg01m
+@【至】
+"... If this is a dream, that would be nice.
+But there's no way that could be true. Ahahaha..."
+@page
+The firefight between Matsuri and the policemen continued throughout the night.
+@page
+I didn't participate, of course, but there's no
+way I could sleep in such a situation.
+@page
+I stayed up all night.
+@page
+@【至】
+"Ahh... the sky is yellow..."
+@page
+@fi s=m313 pos=c
+@v s=21260
+@【祀利】
+"Huh? Itaru, you're awake.
+You got up really early today."
+@page
+@【至】
+"It's not that I just woke up,
+I never went to sleep..."
+@page
+@fi s=m312 pos=c
+@v s=21261
+@【祀利】
+"Then let's have breakfast.
+Because that obstructive bitch isn't here
+today, I'll make it."
+@page
+@【至】
+"Speaking of that, Wazuka-san didn't come home last night.
+Although, I doubt she could come here when it's like this..."
+@page
+@fi s=m515 pos=c
+@v s=21262
+@【祀利】
+"Don't say that bitch's naaaaaaaaame!"
+@page
+;【ＳＥ】銃乱射
+@se s=se110
+@qk time=800
+@gunspfx
+@【至】
+"Hiiiiiiih!?"
+@page
+@stoppfx
+@se fade=out
+@fi s=m314 pos=c
+@v s=21263
+@【祀利】
+"Don't say that name! You'll dirty your mouth!
+Itaru, your mouth will rot off!"
+@page
+@【至】
+"O-Okay! I won't! I won't say it!"
+@page
+@fi s=m312 pos=c
+@v s=21264
+@【祀利】
+"... Nufufu, then we're okay.
+Itaru should only look at me. OR ME. OR ME."
+@page
+@fi s=m111 pos=c
+@v s=21265
+@【祀利】
+"Then I'll go make some food.
+Go wash up, and come downstairs right afterwards."
+@page
+@【至】
+"A... Alright..."
+@page
+;【ワイプ】場所移動
+;【背景】自宅居間
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ひし形(左から右へ)
+@fi s=m212 pos=c
+@mwon
+@v s=21266
+@【祀利】
+"Here you go, Itaru. Eat up."
+@page
+Before my eyes was a plastic parcel that I had seen before.
+@page
+There's no need to ask what it is. It's a military ration.
+@page
+@【至】
+"U-Um... Matsuri-san... this is...?"
+@page
+@fi s=m648 pos=c
+@v s=21267
+@【祀利】
+"I put all my skill into making it.
+If you leave any behind, I'll kill you, okay?"
+@page
+@【至】
+"... Let's eat. Uwah, this is really good."
+@page
+I say that as joyfully as possible.
+Even so, my voice can't help but tremble.
+@page
+I take out a cracker, spread jam on it, and eat it.
+@page
+@【警察】
+"Ehh, to all criminals in the vicinity.
+Stop your useless resistance and come out quietl-y!"
+@page
+I eat my military ration while listening to the
+warning from the loudspeaker.
+@page
+;【ＳＥ】銃声
+@se s=se109
+It might just be a warning shot, but I occasionally hear
+the sound of gunshots from outside, too.
+@page
+It feels like I'm in a battlefield.
+@page
+@qk
+@【至】
+"Damn it, I can't do this! I can't stand this!
+I'm just a student of completely ordinary Japan!"
+@page
+@bgm fade=out
+@fi s=m113 pos=c
+@bgm s=bgm12
+@v s=21268
+@【祀利】
+"W-What's wrong, Itaru? Shut up, if you're gonna yell so loud."
+@page
+@【至】
+"Matsuri, let's end this. Let's surrender."
+@page
+@fi s=m649 pos=c
+@v s=21269
+@【祀利】
+"Eh? W-What was that? Itaru, what are you saying?"
+@page
+@【至】
+"I want to stop acting like a terrorist.
+We're never going to win against the police.
+You know that, don't you Matsuri?"
+@page
+@【至】
+"You should give up quietly, pay for your crimes,
+go to the hospital, and cure your split personality disorder.
+That's the best option."
+@page
+@fi s=m74b pos=c
+@v s=21270
+@【祀利】
+"What are you... What do you mean?
+Itaru, you don't wanna be with me any more!?"
+@page
+@【至】
+"Of course I do. I'm thinking in your best interests... so please!"
+@page
+@fi s=m516 pos=c
+@v s=21271
+@【祀利】
+"Shutupshutupshutup!
+Be quietttt!"
+@page
+;【ＳＥ】銃乱射
+@gunspfx
+@se s=se110
+@【至】
+"Ma... Matsuri..."
+@page
+@stoppfx
+@fi s=m514 pos=c
+@se fade=out
+@v s=21272
+@【祀利】
+"Itaru wouldn't! He wouldn't! He wouldn't!
+He wouldn't say something like that!"
+@page
+@v s=21273
+@【祀利】
+"He would never betray me! OR ME! OR ME!"
+@page
+@fi s=m116 pos=c
+@v s=21274
+@【祀利】
+"He promised to be with me forever!
+He's my fiancee!
+He signed the written oath, didn't he!?"
+@page
+@【至】
+"I-I haven't forgotten my promise!
+We'll surrender together! So please..."
+@page
+@fi s=m114 pos=c
+@v s=21275
+@【祀利】
+"Nao! Nao! Nao! Nao!
+We'll be together! We'll never leave each other!
+Itaru will be with me forever!"
+@page
+I-I can't... She isn't listening to me anymore.
+@page
+Should I do what Wazuka-san suggested and
+ask for the police's help after all?
+@page
+If I slip out of the house quietly...
+@page
+;【ＳＥ】銃声
+@fi s=m412 pos=c
+@se s=se109
+@v s=21276
+@【祀利】
+"... Hey, where are you going? Itaru?"
+@page
+@【至】
+"N-No, I was just going to the bathroom..."
+@page
+@fi s=m747 pos=c
+@v s=21277
+@【祀利】
+"You can't. Itaru will stay with me foreeeeeeeeeeever.
+So you can't run away. Ever."
+@page
+@【至】
+"B-But I can go to the bathroom, can't i?"
+@page
+@fi s=m111 pos=c
+@v s=21278
+@【祀利】
+"Poop? Or pee? ... Either is fine.
+I don't mind being your portable restroom."
+@page
+@【至】
+"You don't mind... what does that even mean..."
+@page
+@fi s=m748 pos=c
+@v s=21279
+@【祀利】
+"Itaru has to stay here.
+He can't go anywhere else but here."
+@page
+Matsuri turns her pistol towards me,
+and rustles around in her luggage.
+@page
+Before long, I see a pair of handcuffs and a chain
+that I recognize coming out of the box.
+@page
+@fi s=m415d pos=c
+@v s=21280
+@【祀利】
+"Foreverrr and everrr. Together. Right, Itaru...?"
+@page
+@【至】
+"You... Ma... Ma... Tsu... Ri..."
+@page
+;【ワイプ】時間経過
+;【ＣＧ】evn2032
+;【ＳＥ】銃乱射
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evn2032 trans=clock
+@bgm s=bgm16
+@mwon
+@se s=se110
+@gunspfx
+@qk time=1000
+@v s=21281
+@【祀利】
+"Urrrrrrrrraaaaaaah!
+Diediediediediedie!"
+@page
+The sounds of gunfire coming from Matsuri never stops.
+In addition, she seems to be firing towards the police.
+@page
+@se fade=stop
+@stoppfx
+My hands and feet are bound in chains.
+So I can't do anything but listen dimly to the sound.
+@page
+;【背景】自宅居間・灯りつき
+;【ＳＥ】自宅固定電話呼び出し音
+@bi s=bg04d
+@se s=se025 loop=true
+... Again. For some time,
+the telephone has been ringing.
+@page
+It's probably Wazuka-san or one of my friends.
+Because my cell phone has broken.
+However, I can't answer the phone right now.
+@page
+@se fade=out
+@fi s=m415 pos=c
+@v s=21282
+@【祀利】
+"Wazuka! Kagome! Whereever you are, come out!
+I'll fill you full of so many holes, you'll look like a beehive!"
+@page
+;【ＳＥ】銃乱射
+@se s=se110
+@fi id=m
+@【至】
+"Why has it become like this...
+Matsuri... I thought you were a good kid..."
+@page
+... Hm? Wait. That's right.
+The original Matsuri couldn't be this violent.
+Wasn't it only one of her personalities that could do this?
+@page
+I look back on Matsuri's behavior yesterday.
+@page
+Her tone became all messed up halfway through the day
+and I feel like the personality that was the original
+Matsuri hasn't talked for quite a while.
+@page
+Then... if the original Matsuri came out,
+wouldn't she stop all this?
+@page
+@fi s=m648 pos=c
+@v s=21283
+@【祀利】
+"Itaru, thanks for waiting. Here's your lunch."
+@page
+Matsuri comes over with some canned food.
+@page
+She opens the lid and boiled rice and vegetables come out from inside.
+This might be a kind of ration as well.
+@page
+@fi s=m112 pos=c
+@v s=21284
+@【祀利】
+"It should be Japanese rations for Japanese Itaru, after all.
+The rations of the Self Defense Force are really good."
+@page
+That's how it is.
+@page
+@【警察】
+"To all criminals, please throw away your arms and surrender quietl-y!"
+@page
+@fi s=m74b pos=c
+@v s=21285
+@【祀利】
+"... Aw, they should shut up during meal time.
+Let's watch TV."
+@page
+@se s=se013
+Matsuri turns on the television with the remote.
+@page
+@【レポーター】
+"At present, the criminal...
+Huh, they're eating lunch?
+The room has quieted down now."
+@page
+@【レポーター】
+"However, until now the criminal has been firing intermittently.
+This unpredictable situation still continues. That's all from the scene."
+@page
+@【キャスター】
+"Ehh, with a girl that small barricading herself in a private residence,
+the nearby residents can't hide their shock at this unprecidented case."
+@page
+My house is on TV.
+@page
+@fi s=m113 pos=c
+@v s=21286
+@【祀利】
+"Wowww! I'm on TV!
+Look, it's back when I blew up that police car!
+I look really pretty..."
+@page
+@【至】
+"This is the national news...
+My face is known all through Japan now..."
+@page
+@fi s=m747 pos=c
+@v s=21287
+@【祀利】
+"Nfufu, I'm famous now."
+@page
+@【至】
+"... In the worst way."
+@page
+@fi s=m111 pos=c
+@v s=21288
+@【祀利】
+"Ah, sorry. I stopped feeding you.
+Itaru, eat up."
+@page
+@fi s=m649 pos=c
+@v s=21289
+@【祀利】
+"... Oh, right. You can't move.
+Then I'll feed you instead. Okay, open uppp!"
+@page
+Matsuri puts rice on the spoon and brings it to my lips.
+@page
+It's frustrating, but I can't endure this hunger.
+I reluctantly open my mouth.
+@page
+@fi s=m649d pos=c
+@v s=21290
+@【祀利】
+"... Ehehe, how is it? Is it good?"
+@page
+@【至】
+"I can't even taste it. Come on Matsuri... please..."
+@page
+@fi s=m114d pos=c
+@qk
+@se s=se068
+Instantaneously, Matsuri flings the spoon with the rice on it against the floor.
+@page
+@v s=21291
+@【祀利】
+"Nao! I'll never surrender!
+The police can go fuck themselves!"
+@page
+@【至】
+"Matsuri... what does Matsuri think...?
+Is this really alright...?"
+@page
+@fi s=m112d pos=c
+@v s=21292
+@【祀利】
+"What are you talking about, Itaru?
+I am Matsuri! AND ME, AND ME, AND ME.
+We all want to be with Itaru forever!"
+@page
+@【至】
+"No... none of you.
+Matsuri... I want the real Matsuri to come out...
+I want to talk with the real Matsuri..."
+@page
+@fi s=m116d pos=c
+@v s=21293
+@【祀利】
+"Why! Why do you want Matsuri!
+I love Itaru the most!
+Uwaaaaahhhh!?"
+@page
+@fi s=m115d pos=c
+@v s=21294
+@【祀利】
+"No! I do! Itaru! I'm the best, right!?
+I love Itaru the absolute most!
+Guah!? M-My head...!?"
+@fi s=m116d pos=c
+@page
+@fi s=m114d pos=c
+@v s=21295
+@【祀利】
+"What are you talking about! I'm the best at sex with Itaru! Isn't that right, Itaru!"
+@page
+@【至】
+"No... that's not right... it's none of you.
+Matsuri! Come out! You can hear me, right?
+You can't leave it like this! You've got to surrender!"
+@page
+@fi s=m115d pos=c
+@v s=21296
+@【祀利】
+"Ku... kukuku... AHAHAHAHAHAHAH!
+You don't get it yet, do you Itaru!?
+Matsuri can't come out anymore!"
+@page
+@【至】
+"W... What are you...!?
+That's impossible! Matsuri! Matsuri!"
+@page
+@se s=se131
+@fi s=m515d pos=c
+@v s=21297
+@【祀利】
+"Muda muda muda muda muda muda!"
+@page
+;【ＳＥ】銃乱射
+@se s=se110
+@gunspfx
+@qk time=1000
+@v s=21298
+@【祀利】
+"Itaru is mine! MINE! MINE!
+Nobody else... I won't even let Matsuri have you!"
+@page
+@【至】
+"What!? Don't shoot! You'll hit me! You'll kill me!"
+@page
+@stoppfx
+@se fade=stop
+@se s=se131
+@fi s=m313 pos=c
+@v s=21299
+@【祀利】
+"Eh!? Oh, soryy Itaru.
+I got a little excited. Kukukuku."
+@fi s=m312 pos=c
+@page
+It's already gotten to the point where I can't understand at all.
+@page
+@fi s=m112d pos=c
+@v s=21300
+@【祀利】
+"Itaru, come on, we're in the middle of a meal.
+Open wide. Ahhhh-."
+@page
+There are a lot of things I want to say.
+However, I need to keep my strength by eating now.
+@page
+@【至】
+"... Ahhhh."
+@page
+Obediently, I keep eating.
+@page
+I didn't understand most of what she said.
+However, I do understand that "Matsuri" can't come out anymore.
+@page
+If that's so, what should I...
+I might be completely screwed right now.
+@page
+Perhaps... the original Matsuri probably came to love me.
+@page
+Of course, Matsuri's multiple personalites wanted to
+love whoever Matsuri loved, so they tried to do so.
+@page
+There's no way they just wanted to overcome her body.
+@page
+Matsuri can't come out anymore.
+It's not clear who I'm talking to anymore at this point.
+@page
+So what am I here to do?
+What should I do?
+Her mind seems so broken.
+@page
+;【ＳＥ】下痢っぽいＳＥがあれば
+@se s=se082
+@【至】
+"... Crap, bathroom."
+@page
+Even if I'm thinking about completely serious things,
+my stomach and intestines don't care at all.
+@page
+@【至】
+"Matsuri, let me use the bathroom, really. Take this off."
+@page
+@fi s=m215d pos=c
+@v s=21301
+@【祀利】
+"Ahaha! So you really were lying before?
+Itaru, you meanie... ahahahaha!"
+@page
+@【至】
+"Ah, crap..."
+@page
+@fi s=m747d pos=c
+@v s=21302
+@【祀利】
+"It's okay, Itaru. I said I'd be your portable restroom.
+I'll make you all nice and shiny. But next time you lie, I'll kill you."
+@wait time=5000
+@fi s=m515d pos=c
+@page
+@【至】
+"... I won't lie anymore. I won't run away.
+But please, just let me go to the bathroom."
+@page
+@fi s=m747d pos=c
+@v s=21303
+@【祀利】
+"Nao. Okay, off come the pants. Off come the undies!
+... Kyahaha!
+Itaru's dick is so little and cute!"
+@page
+She reveals the lower part of my body in no time.
+@page
+@fi s=m748d pos=c
+@v s=21304
+@【祀利】
+"Okay, let's use the potty! I'll massage it until it comes out!"
+@page
+... This is humiliating.
+@page
+;【ワイプ】場面転換
+;【背景】自宅居間・灯りあり
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm11
+@mwon
+@fi s=m112d pos=c
+@v s=21305
+@【祀利】
+"Okay, I'll wipe you. Keep still."
+@page
+She wipes the lower half of my body with a wet towel.
+@page
+Somehow, it doesn't matter anymore.
+@page
+@fi s=m111ad pos=c
+@v s=21306
+@【祀利】
+"Your dick... now it's all clean.
+@page
+Is Festa's consciousness strong now?
+She seems to be wiping quite emphatically now.
+@page
+@【至】
+"W... Wait! That's enough! That's enough already..."
+@page
+@fi s=m747ad pos=c
+@v s=21307
+@【祀利】
+"Kukuku... what's wrong, Itaru? Are you geting big?"
+@page
+@【至】
+"I-If you play with it like that.. kuah!"
+@page
+Matsuri isn't using the towel anymore.
+Now she's using her fingers to play with my dick.
+@page
+Like a conditioned response, my dick slowly begins to harden.
+@page
+@fi s=m749ad pos=c
+@v s=21308
+@【祀利】
+"Hahhn... Itaru... even though I was only wiping it...
+You're such a hopeless guy..."
+@page
+Matsuri's slim fingers tangle around my hot cock.
+@page
+@【至】
+"Uwah...! Ma... Matsuri...!"
+@page
+@fi s=m747ad pos=c
+@v s=21309
+@【祀利】
+"So... you wanna do it? Itaru...
+Wanna have sex with me...? Ufufufu..."
+@page
+Attacking the back of my dick with her fingertips,
+it shakes with pleasure.
+@page
+@v s=21310
+@【祀利】
+"Aha! Itaru... it's twitching!"
+@page
+@fi s=m64ad pos=c
+@v s=21311
+@【祀利】
+"--Eh? What? No, wait! This time it's my turn to..."
+@page
+@fi s=m115d pos=c
+@v s=21312
+@【祀利】
+"... Ha, you're just sticking it way out there, aren't ya?
+Now why don't you turn those pretty eyes towards me too?"
+@page
+This is Parade.
+The softness of the hand on my dick doesn't change.
+However, the strength behind it does.
+@page
+@v s=21313
+@【祀利】
+"How is it? This much feels much better, doesn't it?"
+@page
+These movements, like she's trying to strip my dick,
+are much more intense.
+The back of my dick bends, and a drop leaks from the head of my dick.
+@page
+@【至】
+"Sto...p... Please! Parade, stop!"
+@page
+I ask Parade, who is looking down on me.
+Who is staring at me with a feverish, sadistic smile.
+@page
+@fi s=m747ad pos=c
+@v s=21314
+@【祀利】
+"You say that... but you can't stand it anymore, can you?
+... You don't have to endure anymore, you know."
+@page
+Matsuri throws aside her clothes and straddles me.
+Then, she pushes my thing against her privates.
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→250101
+@jump storage="250101.scn"

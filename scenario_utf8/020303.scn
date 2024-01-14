@@ -1,0 +1,110 @@
+﻿;020303
+*020303|_いっしょに行きたい！
+"So we really can't do it.
+We'll be back right after class ends.
+How's that, hm?"
+@page
+@fi s=m74b pos=rc
+@v s=20234
+@【祀利】
+"Buttt..."
+@page
+@fi s=w112 pos=lc
+@v s=10310
+@【わずか】
+"Itaru-kun, we can't stay any longer.
+If we don't go soon..."
+@page
+@【至】
+"Got it. Okay, Matsuri, I'm going to leave the key with you."
+@page
+;@fi s=m116 pos=rc
+@v s=20235
+@【祀利】
+"Oh... okay. Itaru, come back quick, okay?"
+@page
+@fi s=w111 pos=lc
+@v s=10311
+@【わずか】
+"Go away before we get back. You're an eyesore."
+@page
+@qk time=500
+@lfont
+@fi s=m115 pos=rc
+@v s=20236
+@【祀利】
+"Shut up!"
+@page
+@se s=se131
+@fi s=m315 pos=rc
+@v s=20237
+@【祀利】
+"You really think you can steal Itaru, you fat bitch?
+If you do anything strange, I'll blow a hole
+in your vagina and give you a second asshole, got it?"
+@page
+I was stunned--I couldn't believe it.
+@page
+It wasn't just the crude words, but that their contents had changed.
+I'd never seen anyone so angry.
+@page
+;@fi s=w112 pos=lc
+@v s=10312
+@【わずか】
+"... Itaru-kun, let's go."
+@page
+@【至】
+"Ah... y, yeah. Let's."
+@page
+@fi s=m112 pos=rc
+@v s=20238
+"Itaruuu, come back quick.
+Matsuri...Matsuri will be a good girl!
+I promise!"
+@page
+@bgm fade=out
+;【背景】住宅街路上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=tile
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+"So what was that, a little while ago?"
+@page
+I go out the front door, and murmur that.
+@page
+@fi s=w112 pos=c
+@v s=10313
+@【わずか】
+"Well... but..."
+@page
+@【至】
+"But what?"
+@page
+@fi s=w548 pos=c
+@v s=10314
+@【わずか】
+"I just felt that something was wrong.
+...But it must have been that girl. Yeah."
+@page
+I tilt my head, and Wazuka-san smiles.
+She seems to be happy--then.
+@page
+@fi s=w114 pos=c
+@v s=10315
+@【わずか】
+"I'll kill her soon. Just wait a little longer, Itaru-kun."
+@page
+Oh right, there's still going to be more events today.
+I could almost hear Fanuel's laughter in my pocket.
+@page
+;分岐
+;フラグ120100起立　→120200
+;それ以外　→020400
+@jump storage="120200.scn" cond="f._120100"
+@fi id=w
+@bgm fade=out
+@mwoff
+@jump storage="020400.scn"

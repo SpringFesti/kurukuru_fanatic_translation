@@ -1,0 +1,103 @@
+﻿;250103
+*250103|ウサミとササミの倫理無用♪
+;【ワイプ】場面転換
+;【カットイン】人形劇舞台
+;【ＳＥ】ウサミ＋ササミ叫び
+;【カットイン】ウサミササミＳＨＯＷ！
+;【カットイン】ウサミササミショー消去
+@se s=se020
+@cut s=cut2300 trans=z2n_rotin time=1200
+@qk time=500
+@flash time=500
+@setOnce
+@fi s=s111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@bgm s=bgm09
+@mwon
+@v s=16002
+"Usami and Sasami's!
+@wait time=800
+@se s=se151
+@lfont
+@v s=16006
+Useless Ethics!♪"
+@page
+@se fade=out
+@v s=16001
+@【ウサミ】
+"Good evening from your eroge window!"
+@page
+@v s=16002
+@【ウサミ】
+This is the social satire puppet show, Usami and Sasami's Useless Ethics!♪ One more show before the last rownd!"
+@page
+@v s=16006
+@【ササミ】
+"It really is the end, huh? Give me a break.
+But didn't you just spell "round" wrong?"
+@page
+@v s=16001
+@【ウサミ】
+"Not really. If you think about the other routes,
+we're gonna see the last round many times, so it's Owkay!"
+@page
+@v s=16005
+@【ササミ】
+"Don't be weird like that. Nobody would have noticed if I didn't say it."
+@page
+@v s=16003
+@【ウサミ】
+"Don't worry! Even a stuffed animal has a passion for his job!"
+@page
+@v s=16005
+@【ササミ】
+"Fine, whatever. Let's just continue the corner."
+@page
+@v s=16004
+@【ウサミ】
+"Oh god, no! It's too scary!
+This story got really scary all of a sudden!
+I can barely watch!"
+@page
+@v s=16006
+@【ササミ】
+"Heh, you ain't seen nothin' yet. It'll get even worse before the end. Prepare yourself."
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"Uwaah, I'm trembling!"
+@page
+@act id=u t=stopswing
+@v s=16002
+@【ウサミ】
+"... Weeeell, I guess that's okay.
+It doesn't matter now anyway.
+Isn't this exciting too!?"
+@page
+@v s=16006
+@【ササミ】
+"Oh, so you've finally come around to the philosophical side of things.
+If you're expecting something though, I'll be troubled, so please continue watching."
+@page
+@v s=16003
+@【ウサミ】
+"You're gonna run? But you can't run!
+Are you gonna live? Or are you gonna die!?
+Which is it gonna be!?"
+@page
+@v s=16006
+@【ササミ】
+"The answer will be revealed after this commercial break. Same channel, same time."
+@page
+@v s=16001
+@【ウサミ】
+"We don't have any commercials."
+@page
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="260100.scn"

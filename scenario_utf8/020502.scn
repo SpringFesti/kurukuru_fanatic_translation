@@ -1,0 +1,163 @@
+﻿;020502
+*020502|_祀利、来襲
+@【至】
+"No means no. Get out of here before the teacher sees you."
+@page
+@fi s=m74b pos=c
+@v s=20254
+@【祀利】
+"Awww... but I've been a really good girl."
+@page
+Tears form in her blurry eyes.
+For a moment, I falter. However, I can't retreat here!
+I have to stick to my guns!
+@page
+@【至】
+"I'm glad that you're trying, but that's all.
+I told you to stay home, didn't I? 
+By going against my orders, you're being a bad girl, aren't you?"
+@page
+@fi s=m74bb pos=c
+@v s=20255
+@【祀利】
+"Ah... ohh... but... but I... but I..."
+@page
+@【至】
+"I get it, you've been a very good girl.
+But you aren't being one right now. Why don't you head back home now?"
+@page
+;@fi s=m111 pos=c
+@v s=20256
+@【祀利】
+"I know... I know that...
+Then... then... I'll..."
+@page
+@fi s=m74a pos=c
+;【立ち絵】祀利のどれかの表情に影を落とすのを検討
+@【祀利】
+"――――――――"
+@page
+Then, I feel a strange feeling I've felt before.
+Just like this morning, I feel like "something" has changed.
+@page
+@【至】
+"Uh, uhm... Matsuri? You okay? Are you feeling alright?"
+@page
+@fi s=m748 pos=c
+;【備考】本文では「……………………」
+@sfont
+@v s=20257
+@【祀利】
+"...We only have one choice, huh?"
+@page
+@【至】
+"Huh? What did you-"
+@page
+Matsuri raises her head and looks straight at me.
+She almost starts to smile at me.
+@page
+However, before I can make sure that she was smiling,
+another expression obscures that smile completely.
+@page
+@fi s=m74b pos=c
+@v s=20258
+@【祀利】
+"Hic... ohh... hic... mmn....ohhh..."
+@page
+@qk time=1000
+@lfont
+@fi s=m116 pos=c
+@v s=20259
+@【祀利】
+"WAAAAAAHH!!!"
+@page
+She explodes, whining extremely loudly.
+Is this what a stun grenade is like? 
+I had no idea they were so effective up until now. I'm sorry.
+@page
+For about a minute (I think), my brain is vaporized and turned to soup.
+In fact, I think someone else fainted for a few seconds.
+@page
+By the way, this scream eminated through the entire floor.
+One of my classmates lost his hearing for a week.
+@page
+;@act id=m t=neckswing
+@v s=20260
+@【祀利】
+"Waaaaaaaaaah!
+I wanna be with you! I wanna be with you, Itaru!"
+@page
+;@fi s=m216 pos=c
+@v s=20261
+@【祀利】
+"IwannaIwannaIwannaIwannaIwanna!
+Just let me stay with you!　Just that...!"
+@page
+;@fi s=m116 pos=c
+@v s=20259
+@【祀利】
+"Waaaaaaaaaah!!!!"
+@page
+Ugh... her scream is liquefying my brain!
+It sounds like nails on a chalkboard!
+Plus, it sounds a million times stronger in my head.
+@page
+;@fi id=m
+I look around and see some of my classmates start falling.
+Of course there are some of them who could bear it, but 
+they all have one thing in common--
+@page
+They're all glaring at me.
+@page
+I can't let her keep going.
+If I don't stop her now, she's going to attract way too much attention!
+@page
+@【至】
+"Alright! I get it, okay, stop screaming!"
+@page
+@act id=m t=neckswing
+@v s=20262
+@【祀利】
+"NONONONONONONONONO!
+I don't wanna go home!
+I wannawannawannawanna stay with you!"
+@page
+@【至】
+"Okay, you can! You can stay with me!
+Just stop crying, please god stop!"
+@page
+@act id=m t=stopswing
+@fi s=m111 pos=c
+@v s=20263
+@【祀利】
+"K."
+@page
+Instantly her tears stop.
+@page
+No way, was she faking the entire time?
+Maybe so, but those were some pretty thick tears...
+@page
+@fi s=m112 pos=c
+@v s=20264
+@【祀利】
+"Ehehehe, thanks Itaru.
+You really are kind after all♪"
+@page
+@【至】
+"Yeah... thanks. I don't think the others think the same of me, though."
+@page
+Now, everyone is staring at me in particular.
+@page
+@fi s=m212 pos=c
+@v s=20265
+@【祀利】
+"It's okay, I'll protect you.
+I'll be your knight in shining armor♪"
+@page
+Then pledge your pistol to me, Sir Matsuri--
+Instead of saying that clever quip, I just sigh heavily.
+@page
+;→020503
+@fi id=m
+;@bgm fade=stop
+@jump storage="020503.scn"

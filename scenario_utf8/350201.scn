@@ -1,0 +1,92 @@
+﻿;350201
+*350201|もっとしっかり！
+;【ワイプ】場面転換
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"A more amazing thing... huh...?"
+@page
+Even though my erection had calmed down, and even though class had started,
+I couldn't focus at all.
+@page
+Of course, that was because of what Otogiri-san had said to me.
+@page
+While playing with the ring that Otogiri-san had given me on my finger,
+I daydream about various things.
+@page
+@【至】
+(The next reward...would be more than before, she said...
+Will I finally cast off my virginity?
+Will I finally join the ranks of adulthood?)
+@page
+Yeah, that'd be awesome.
+I'll make sure that I behave myself.
+@page
+@【至】
+(Oh, but I wonder if I'll be good enough...
+Maybe I should do a little image training or something?)
+@page
+@【先生】
+"Takamichi?"
+@page
+@【至】
+(... Which reminds me, I don't have a condom.
+I wonder if I should go buy one after class?)
+@page
+@【先生】
+"Takamichi?"
+@page
+@【至】
+(Err, no, before I think about that, I should make sure that we feel the same way about this.
+I'm sure it'll be okay, but still, I need to--)
+@page
+@【先生】
+"Hey, Takamichi!"
+@page
+@【至】
+"Eh... ah, yes?"
+@page
+@【先生】
+"Don't 'yes' me.
+... Whatever, just make sure you're listening to class."
+@page
+@【至】
+"Excuse me."
+@page
+The teacher was calling on me, and I didn't even notice.
+I guess I was daydreaming too much.
+@page
+@sqk
+@【至】
+"... Hm?"
+@page
+The teacher returns to his lesson, and my pocket vibrates.
+It must be a text from my phone.
+@page
+I open my phone in an inconspicuous way,
+and find that the text is from Otogiri-san.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30607
+;@【かごめ】
+"No, you have to pay attention to class!
+You're my little brother, so try harder!"
+@waitclk
+@mwon
+... She's completely correct.
+@page
+"Sorry, I'll pay better attention."
+Because we're in the middle of class, I can only send her that much.
+Making sure that I pay attention, I take the class seriously from there.
+@page
+@mwoff
+;→350202
+@bgm fade=stop
+@jump storage="350202.scn"

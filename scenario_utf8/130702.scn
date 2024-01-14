@@ -1,0 +1,446 @@
+﻿;130702
+*130702|_気持ちの意味
+;【ワイプ】時間経過
+;【イベントＣＧ】evn1022
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evn1022 trans=clock
+@bgm s=bgm04
+@mwon
+@v s=10998
+@【わずか】
+"Nn..."
+@page
+;【イベントＣＧ】evn1021
+@mwoff
+@bi s=evn1021
+@wait time=300
+@mwon
+I had begun to doze off, when Wazuka-san woke up.
+@page
+@【至】
+"Hey there."
+@page
+@v s=10999
+@【わずか】
+"Itaru-kun..."
+@page
+;【イベントＣＧ】evn1020
+@bi s=evn1020
+@v s=11000
+@【わずか】
+"... It must have been a long time."
+@page
+@【至】
+"Nah, not at all. I was already half-asleep by now."
+@page
+@v s=11001
+@【わずか】
+"... Thank you."
+@page
+@【至】
+"I told you, it's fine.
+More than that, how do you feel? Does anything hurt?"
+@page
+@v s=11002
+@【わずか】
+"I'm fine. I can get up now."
+@page
+;【背景】主人公自室
+@bi s=bg01b
+@fi s=w121 pos=c
+She moves a bit, and gets up from the bed.
+It seems like her numbness is gone. Good.
+@page
+@【至】
+"I wonder what happened. That was the first time I've seen that happen."
+@page
+I wonder what a doctor would have to say.
+Probably something long.
+@page
+Even so, I still don't know what sickness caused this.
+@page
+Maybe I really should have called an ambulance and had her see a doctor.
+@page
+If she really does have a bad illness...
+It frightens me to even think about it.
+@page
+;【備考】ボイス流用。このラベル中のボイスです。ニュアンスが違う場合、別のボイスを流用。
+@fi s=w421 pos=c
+@v s=11012
+@【わずか】
+"Itaru-kun."
+@page
+@【至】
+"Hm?"
+@page
+@v s=11003
+@【わずか】
+"What's wrong? You look like you're in pain."
+@page
+@【至】
+"Oh... no. I was just thinking of what would happen if you didn't get better.
+I'm really worried about you, you know?"
+@page
+@v s=11004
+@【わずか】
+"That's all?"
+@page
+@【至】
+"Huh? I mean, that's really important to me..."
+@page
+@v s=11005
+@【わずか】
+"No, that's not what I mean. Is anything else wrong?"
+@page
+@【至】
+"...Huh?"
+@page
+@fi s=w223 pos=c
+@v s=11006
+@【わずか】
+"You looked like you were in pain, a little while ago."
+@page
+@v s=11007
+@【わずか】
+"You were normal until I went to sleep a while ago.
+But when I woke up, you looked like you were in pain."
+@page
+That's not how I felt, but I suppose that because I was worrying,
+I must've looked like I was in pain.
+@page
+I don't know what kind of expression I have,
+but unfortunately there aren't any mirrors in this room.
+@page
+@fi s=w123 pos=c
+@v s=11008
+@【わずか】
+"Did anything happen while I was asleep?
+Were you worrying about something?"
+@page
+I was thinking about various things.
+@page
+Yeah, that must be it. For now, that must've been
+what caused my expression to be like that.
+@page
+To begin with, I can't bring things like that up
+with Wazuka-san...
+@page
+@fi s=w121 pos=c
+@v s=11009
+@【わずか】
+"Tell me."
+@page
+"Nn?"
+@page
+@v s=11010
+@【わずか】
+"Something's wrong, so tell me what it is."
+@page
+@【至】
+"... Are you psychic?"
+@page
+@fi s=w557 pos=c
+@v s=11011
+@【わずか】
+"I've been with you for a long time, so of course I'd know when you're concerned about something."
+@page
+Her declaration is full of confidence.
+I still think she's psychic though.
+@page
+@fi s=w123 pos=c
+@v s=11012
+@【わずか】
+"Itaru-kun?"
+@page
+@【至】
+"... Alright."
+@page
+I wouldn't dare ask her face to face, but she's psychic.
+Eventually it would come out, so I might as well do it anyway.
+@page
+@【至】
+"While you were asleep, I was thinking about something."
+@page
+@fi s=w121 pos=c
+I began to talk, and she put on a serious expression as she listened.
+@page
+@【至】
+"Wazuka-san, why do you take care of me?"
+@page
+@fi s=w421 pos=c
+@v s=11013
+@【わずか】
+"Because I want to."
+@page
+Just like I thought.
+@page
+Usually this answer would satisfy me.
+This time though, that's not what I'm asking.
+@page
+@【至】
+"Why do you want to take care of me, then?
+That's what I want to know."
+@page
+@v s=11014
+@【わずか】
+"That's because you--"
+@page
+@【至】
+"Because I saved your life?
+Because you want to repay that kindness?"
+@page
+@【至】
+"Or, is it..."
+@page
+Or is it because you like me?
+@page
+@fi s=w121 pos=c
+@【わずか】
+"........."
+@page
+I have to ask her.
+Even so, I can't muster the courage to say it.
+@page
+@fi s=w123a pos=c
+@v s=11015
+@【わずか】
+"...Is it?"
+@page
+@【至】
+"Is it..."
+@page
+She asks me to continue, but I can't say a word.
+@page
+Come on, I thought you were psychic, Wazuka-san.
+Read my mind.
+@page
+I want to say it, but I'm awkward, so I can't.
+@page
+@fi s=w557 pos=c
+@v s=11016
+@【わずか】
+"... Can I just ask you one thing?"
+@page
+I can't answer her, so she helps me.
+I nod at her.
+@page
+@fi s=w557d pos=c
+@v s=11017
+@【わずか】
+"Why did you say that you liked me, and that I was the
+most important person in the world to you?"
+@page
+She takes my hand, and speaks to me.
+She comes closer, and now she's at my side.
+@page
+I look away, embarrassed, but she
+gently clenches my hand.
+@page
+@fi s=w224d pos=c
+@v s=11018
+@【わずか】
+"Of course I want to repay that kindness.
+If I can repay even a bit of that favor,
+then I'll take care of you."
+@page
+@v s=11019
+@【わずか】
+"That hasn't changed. Because I felt that kindness,
+I'll take care of you."
+@page
+@fi s=w123ad pos=c
+@v s=11020
+@【わずか】
+"But more than that... more than those feelings,
+I came to like you as a member of the opposite sex."
+@page
+@fi s=w124ad pos=c
+@v s=11021
+@【わずか】
+"So now, because I want to be near my favorite pesron,
+I'll take care of you."
+@page
+@fi s=w557ad pos=c
+@v s=11022
+@【わずか】
+"... I'm very happy."
+@page
+Happiness.
+Those kinds of words don't come out of repaying a favor.
+@page
+Nevertheless, I'm glad she can say that she's happy, with a smile.
+@page
+I can't prove that she's lying.
+In other words, Wazuka-san really does like me.
+@page
+@fi s=w558d pos=c
+@v s=11023
+@【わずか】
+"...But."
+@page
+@【至】
+"...Eh?"
+@page
+@fi s=w121d pos=c
+@v s=11024
+@【わずか】
+"I've always thought that.
+I've always liked you, but..."
+@page
+@v s=11025
+@【わずか】
+"If I come to like you more than now...
+I won't be able to hold myself back..."
+@page
+@fi s=w223d pos=c
+@v s=11026
+@【わずか】
+"I'll hurt you, all because of my selfishness.
+I'll take your most important thing, because of my feelings."
+@page
+@fi s=w556d pos=c
+@v s=11027
+@【わずか】
+"Those feelings... no, I can't, I absolutely can't...
+Then, I'll be, just like that woman...!"
+@page
+"That woman."
+She begins to weep with fear of the shadow of a woman I don't know...
+@page
+One or two years don't matter. To a trauma like that,
+it always seems like it was yesterday.
+@page
+@fi s=w656d pos=c
+Now that I finally know that, I'm angry at my powerlessness.
+@page
+It's mortifying, but I can't find the words...
+@page
+@【至】
+"Wazuka-san..."
+@page
+She trembles, and the only thing I can do is hold her close.
+@fi s=w556d pos=c
+@page
+@【至】
+"Wazuka-san, I like you."
+@page
+If I can hold her pain back just a little,
+I'll say the thing I couldn't say before.
+@page
+@【至】
+"I like you, but more importantly,
+I know what that means now."
+@page
+@【わずか】
+"........."
+@page
+Her trembling begins to die down as I talk to her.
+I can't hear her snuffling, either.
+@page
+@【至】
+"I found that answer, but I also found a new problem as well."
+@page
+@【至】
+"Now, the problem is that I didn't know what you think of me."
+@page
+@【至】
+"To like someone as a member of the opposite sex... that thought scared me.
+Because I found my answer, and I noticed my feelings, I was scared.
+@page
+@【至】
+"... But I'm not afraid anymore."
+@page
+@fi s=w557d pos=c
+@v s=11028
+@【わずか】
+"...Yeah."
+@page
+@fi s=w557ad pos=c
+@v s=11029
+@【わずか】
+"You're Itaru-kun.
+You're my Itaru-kun, who I like.
+I knew that from a long time ago."
+@page
+@【至】
+"... So, do you know what I want to do now?"
+@page
+@fi s=w12cad pos=c
+@v s=11030
+@【わずか】
+"Nn..."
+@page
+She closes her eyes at once."
+@page
+@【至】
+"Correct."
+@page
+I reward her excellence with a kiss.
+@page
+@fi s=w557ad pos=c
+@v s=11031
+@【わずか】
+"...Right? I know all about you."
+@page
+@fi s=w123ad pos=c
+@v s=11032
+@【わずか】
+"I also know that I want to do something... even better."
+@page
+My thoughts stop, and I break out in a cold sweat.
+@page
+She gave me a handjob last night,
+so it seems she won't be satisfied with kisses any longer.
+@page
+My dick became hard as we kissed, as if asking for something better.
+@page
+@fi s=w557ad pos=c
+@v s=11033
+@【わずか】
+"Maybe I should take care of this part of you too."
+@page
+Without waiting for an answer, she pulls my pants zipper open.
+My stiff penis is exposed.
+@page
+@v s=11034
+@【わずか】
+"Let me make you feel good..."
+@page
+A thin, white hand grips my penis.
+Just like yesterday, I can only expect pleasure from what is to come.
+@page
+But...
+@page
+@【至】
+"Wait, Wazuka-san."
+@page
+I stop her hand, and the pleasure that comes with it.
+@page
+@【至】
+"Today... I want to do it to you."
+@page
+@fi s=w123ad pos=c
+I want to do it to her, just like she did it to me.
+@page
+I want to pleasure the woman I love with my own hands.
+@page
+Now that our feelings are connected,
+I can't hold back my emotions any longer.
+@page
+@fi s=w557ad pos=c
+@v s=11035
+"...Okay."
+@page
+She takes my feelings in to consideration, and nods.
+She's really saved me by being a psychic.
+@page
+@【至】
+"Why don't we do it together?"
+@page
+She understands what I mean, and nods.
+@page
+;→130703
+@jump storage="130703.scn"

@@ -1,0 +1,197 @@
+﻿;140101
+*140101|_１０月３０日７時３８分
+;【ワイプ】時間経過
+;【背景】自宅居間
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+@mwon
+@lfont
+;【備考】ユニゾン
+@v s=10203
+;@【わずか】
+"Let's eat."
+@page
+@bi s=evn0010
+After making preparations, I begin to eat my miso soup.
+@page
+For better or worse, I feel relieved at the normal taste.
+It seems she's recovered enough to cook without problems.
+@page
+Just to make sure, I steal a look at Wazuka-san.
+@page
+She looks fine, and she wasn't stumbling around like yesterday.
+She seems to be fine for the time being.
+@page
+Well, that might be me.
+In reality, she might just be hiding it.
+@page
+She doesn't want to worry me.
+So, it's something that she would do.
+@page
+@bi s=bg04d
+@fi s=w221 pos=c
+@v s=11076
+@【わずか】
+"...Hm? What's wrong?"
+@page
+Oh, I must've been staring at her. Now she's got me.
+@page
+@fi s=w123 pos=c
+@v s=11077
+@【わずか】
+"Is the food good?"
+@page
+Oh well. It would be stupid to try to lie to her at this point.
+@page
+@【至】
+"Are you feeling alright?"
+@page
+@fi s=w121 pos=c
+@v s=11078
+@【わずか】
+"Huh?"
+@page
+@fi s=w557a pos=c
+@v s=11079
+@【わずか】
+"Oh... yes."
+@page
+@【至】
+"Oh, alright. That's good."
+@page
+@fi s=w224a pos=c
+@v s=11080
+@【わずか】
+"Yes. Thank you."
+@page
+As always, Wazuka-san smiles and thanks me.
+@page
+When I see her smile, I can truly believe that she's gotten better.
+@page
+@setOnce
+@fi s=w224a move=lc
+@fi s=m64b pos=rc
+@endOnce
+@v s=21623
+@【祀利】
+"Hmmm... something's different about you two..."
+@page
+Matsuri really is good at reading the atmosphere.
+@page
+Of course, I don't have the courage to tell her what happened,
+so for now I don't comment.
+@page
+@fi s=m74b pos=rc
+@v s=21624
+@【祀利】
+"Yesterday... did something happen that Matsuri doesn't know about?"
+@page
+@【至】
+"I was just looking after Wazuka-san. Didn't I say that before?"
+@page
+@fi s=m114 pos=rc
+@v s=21625
+@【祀利】
+"You liar, that's not what I mean!
+What happened? Tell me, tellmetellmetellme-!"
+@page
+@fi s=w122 pos=lc
+@v s=11081
+@【わずか】
+"Shut up and eat."
+@page
+@fi s=m111 pos=rc
+@v s=21626
+@【祀利】
+"If you tell me, I'll shut up."
+@page
+@fi s=w121 pos=lc
+@【わずか】
+"........."
+@page
+@fi s=m114 pos=rc
+@v s=21627
+"It'd be nice if you talked, though!"
+@page
+Way to be the butt of the joke, Matsuri.
+@page
+@【わずか】
+"........."
+@page
+@fi s=m64b pos=rc
+@v s=21628
+@【祀利】
+"Ohhh... tell meee!
+Don't just leave Matsuri out!"
+@page
+@【わずか】
+"........."
+@page
+Wazuka-san clams up, not giving Matsuri's
+request any mind.
+@page
+Although it's probably just Wazuka-san being herself,
+it really would be a bad idea to tell Matsuri right now.
+So, that's why she's staying silent.
+@page
+@qk time=300
+@fi s=m64a pos=rc
+@v s=21629
+@【祀利】
+"Oh..."
+@page
+@【祀利】
+"........."
+@page
+@fi s=m747 pos=rc
+@v s=21630
+@【祀利】
+"... Fufufu."
+@page
+@fi s=m647 pos=rc
+@v s=21631
+@【祀利】
+"You're asking the wrong person, Matsuri.
+If we ask Itaru, he'll listen, right?"
+@page
+From her expression and tone, the personality
+that just appeared must be Festa.
+@page
+She stares at me with a look in her eyes.
+So she really is targeting me now.
+@page
+However, I still won't tell her.
+From the mood in the room, and from our sudden silence,
+Festa gives us a meaningful smile. She must have realized something.
+@page
+@fi s=m747 pos=rc
+@v s=21632
+@【祀利】
+"Fufu... so you won't even tell me."
+@page
+@v s=21633
+@【祀利】
+"I am I, and you are you...
+Let's enjoy each other."
+@page
+@fi id=m
+@fi s=w121 move=c
+;【立ち絵】祀利立ち絵消去
+Leaving behind some profound words,
+Matsuri leaves the dining room.
+@page
+I feel a sort of unpleasant weirdness as she goes.
+@page
+No way, but... she couldn't have found out about
+all the stuff Wazuka-san and I did last night, could she?"
+@page
+I shoot a questioning look at Wazuka-san, but she just
+stares at the table and continues eating.
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+@jump storage="140200.scn"
+;→140200

@@ -1,0 +1,97 @@
+﻿;240305
+*240305|_ずっと一緒にいたい
+;俺は祀利の目を見ないようにして、教室から出た。
+;@page
+;あの悲しそうな目を見たら、
+;胸が苦しくなってしまうから。
+;@page
+;【ワイプ】場面転換
+;【背景】教室・昼
+;【備考】ワイプを使って至が教室出る→だけど教室にまだ居た、というおかしい展開になっているので一度コメントアウト。
+@fi s=k449 pos=rc
+@v s=30239
+@【かごめ】
+"T-This is g-great, isn't it? If you try anything funny, we'll kill you. So just keep quiet. Kuhihihi!"
+@page
+@fi s=w115 pos=lc
+@v s=10662
+@【わずか】
+"Fufufu... well, with your situation, I don't think you could do anything funny at all."
+@page
+@setOnce
+@fi id=w
+@fi id=k
+@fi s=m10cd pos=c
+@endOnce
+@v s=21128
+@【祀利】
+"Shut up! Die! Drop dead!"
+@page
+@setOnce
+@fi id=m
+@fi s=w115 pos=lc
+@fi s=k349 pos=rc
+@endOnce
+@v s=30240
+@【かごめ】
+"Fuhihihihi!　That's some nice screaming! Keep going! Come on, do it!"
+@page
+@【至】
+"Otogiri-san, stop provoking her. Parade, please keep quiet for now."
+@page
+@setOnce
+@fi s=w113 pos=lc
+@fi s=k113 pos=rc
+@endOnce
+With those words, Otogiri-san nods reluctantly, acknowledging that she understands. Wazuka-san does the same.
+Looks like these two will be OK.
+@page
+Now then, moving on to Matsuri.
+@page
+@setOnce
+@fi id=w
+@fi id=k
+@fi s=m63bd pos=c
+@endOnce
+@【至】
+"Matsuri, never ever shoot that gun. If the police are called, you won't be able to be with me any more, will you?"
+@page
+@fi s=m10cd pos=c
+@v s=21129
+@【祀利】
+"Itaru... is that a guarantee? A guarantee that you'll come pick me up?"
+@page
+@【至】
+"Yeah... you got it. If I'm lieing, let me take a thousand bullets down the throat."
+@page
+@fi s=m102d pos=c
+With a joyful smile, Matsuri nods at my words.
+@page
+@mwoff
+@bgm fade=out
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ひし形(左から右へ) time=500
+@se s=se037
+@bgm s=bgm11
+@fi s=w111 pos=c
+@mwon
+The door closes shut in front of me, who doesn't want to go.
+@page
+Then, Wazuka-san chains up the door with a padlock.
+@page
+@【至】
+"W-why did you get something like that...?"
+@page
+@v s=10663
+@【わずか】
+"Just in case. Now, let's go, Itaru-kun.
+If we don't eat soon, lunch break will be over."
+@page
+Wazuka-san pulls me by the hand and I leave that place reluctantly.
+@page
+;→240306
+@fi id=w
+@mwoff
+@bgm fade=out
+@jump storage="240306.scn"

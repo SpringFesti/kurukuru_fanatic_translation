@@ -1,0 +1,239 @@
+﻿;130300
+*130300|今、なにしてますか？
+@bgm fade=out
+;【ワイプ】場所移動
+;【背景】学園廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ひし形(左から右へ)
+@bgm s=bgm03
+@se s=se011
+@mwon
+@【至】
+"Huff, huff, huff... phew, that was intense."
+@page
+Just as we run into the school, the first bell sounds.
+@page
+Day after day, we come here at our top speed.
+Honestly I'd like to come to school at a normal pace for once.
+@page
+@fi s=w111 pos=c
+@v s=10880
+@【わずか】
+"You've got a lot of sweat on you. Wait, I'll wipe it off."
+@page
+@setOnce
+@fi s=w211 move=lc
+@fi s=m64b pos=rc
+@endOnce
+@v s=21594
+@【祀利】
+"You don't get enough exercise, Itaru.
+You'll get fat."
+@page
+I'd think anyone would be tired if they sprinted with all their might right after waking up.
+Wait, why don't the two of them seem sweaty at all?
+@page
+@fi s=w113 pos=lc
+@v s=10881
+@【わずか】
+"Are you okay? Do you need to go to the nurse?"
+@page
+@【至】
+"I'm fine. More importantly, we need to go, or we'll be late."
+@page
+@fi s=w111 pos=lc
+@v s=10882
+@【わずか】
+"Ah, yes. Then I'll see you later."
+@wait time=300
+@fi s=w214 pos=lc
+@page
+@【至】
+"Yeah, later."
+@page
+@bi s=current all=true trans=crossfade
+And so Matsuri and I go to our classroom--
+and Wazuka-san goes the opposite way to ours.
+@page
+I turn around for a moment, and Wazuka-san is still there.
+She waves to me, a little bit.
+@page
+I want to go back.
+I want to talk about this morning.
+@page
+I wanted to ask her about that empty feeling I felt a little while ago.
+@page
+But I can't do that now.
+I've got Matsuri with me, and class coming up.
+@page
+@【至】
+(... I'll talk to her at lunch-time.
+Even if I can't, then I'll do it at home.)
+@page
+I don't want to leave, but there's nothing I can do about it.
+@page
+So later--
+I turn the corner, waving to her.
+@page
+;【ワイプ】視点変更
+;【ＢＧＭ】ＢＧＭストップ
+;【背景】学園廊下・昼
+;【立ち絵】わずか立ち絵、笑顔
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg11d trans=ランダム
+@bgm s=bgm05
+@fi s=w111 pos=c
+@mwon
+And so, as I wave to Itaru-kun, I head up to the stairs to my own classroom.
+@page
+But I stop immediately.
+@page
+@fi s=w548 pos=c
+@v s=10883
+@【わずか】
+"Is it impossible... today?"
+@page
+Words leak from my mouth, but I don't understand them fully.
+@page
+I want to follow him.
+I want to find him, and embrace him.
+@page
+Then I want to kiss him.
+Just as he did this morning, but from my lips to his this time.
+@page
+However, he's already gone.
+With Matsuri.
+@page
+I want to follow him.
+@page
+I want to chase him, and kiss Matsuri!
+She only embarrasses him, so I'll stab her!
+@page
+But not today.
+If I tried, I would only annoy Itaru-kun.
+@page
+So I continue on my way.
+@page
+;【ワイプ】場所移動
+;【背景】教室・昼
+;【ＳＥ】喧騒ループ
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ひし形(左から右へ)
+@se s=se087 loop=true
+@fi s=w111 pos=c
+@mwon
+;【ＳＥ】ＳＥストップ
+As soon as I enter the classroom, the clamor stops.
+@wait time=500
+@se fade=out
+@page
+Quiet is good.
+But being stared at is unpleasant.
+@page
+@fi s=w112 pos=c
+@wait time=300
+When I look them in the eyes, they turn their own eyes away.
+That one, this one, and everyone.
+@page
+@se s=se087 loop=true
+Finally, the clamor comes back to the classroom.
+@page
+@fi s=w112 pos=c
+They turn back to their friends to lick each other's wounds.
+@page
+Worthless.
+Every day, they just repeat the same actions, 
+unaware that they're slowly becoming boring.
+@page
+... It doesn't matter.
+There is no meaning to being here.
+@page
+I must go, quickly.
+If I don't--
+@page
+@se fade=out
+;【ワイプ】場所移動
+;【背景】屋上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=ひし形(左から右へ)
+@fi s=w111 pos=c
+@mwon
+After confirming that nobody's following me, I make my way to the rooftop.
+@page
+That's natural. Class is currently in session.
+But a teacher might come by on patrol. A minimal risk.
+@page
+If I'm seen right now, that would be bad.
+I would trouble Itaru-kun.
+I head to the corner of the rooftop.
+@page
+@fi id=w
+The shadows of the power facilities--
+I hide myself there.
+@page
+I sit on the floor and recline against the wall.
+It feels chilly, but good.
+@page
+@fi s=w113d pos=c
+@v s=10753
+@【わずか】
+"... Itaru-kun..."
+@page
+I say his name, and I reach my hand into my skirt.
+@page
+It already feels hot down there.
+@page
+Then-- I take my underwear off.
+@page
+@fi s=w548ad pos=c
+@v s=10884
+@【わずか】
+"... It's so wet..."
+@page
+I saw him wet in the bathroom yesterday,
+and I touched him.
+@page
+I kissed him today.
+And I was kissed by him.
+@page
+I can remember it all clearly.
+My body shakes as I recall it-- my body becomes hot.
+@page
+@fi s=w113ad pos=c
+@v s=10885
+@【わずか】
+"I... I can't stand it..."
+@page
+I can't control my feelings for Itaru-kun.
+I cannot suppress them any longer.
+@page
+I changed my panties before leaving the house.
+Nonetheless, they're already dirty.
+They're wet, soaked with the juice from deep within my body.
+@page
+@fi s=w548ad pos=c
+@v s=10886
+@【わずか】
+"I'm sorry, Itaru-kun."
+@page
+I don't want to think about Itaru-kun.
+It feels dirty to think of him. It would make him sad.
+@page
+But at times like this, he naturally comes to mind.
+@page
+Only thinking of Itaru-kun, I want to comfort--
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+;→130301
+@jump storage="130301.scn"

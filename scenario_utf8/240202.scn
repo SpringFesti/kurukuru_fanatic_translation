@@ -1,0 +1,363 @@
+﻿;240202
+*240202|_私の番！
+;【ワイプ】時間経過
+;【背景】教室・昼
+;【ＳＥ】チャイム
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+@mwon
+And so, first period ends.
+@page
+Surprisingly, Parade behaved herself all through the class.
+@page
+@【至】
+"Good job, Parade. You really took class seriously."
+@page
+@fi s=m212 pos=c
+@v s=21022
+@【祀利】
+"Yaaay, it's finally break time! Itaru, let's play, play!"
+@page
+Just as I praised her, I learned she wasn't Parade anymore.
+@page
+@v s=21023
+@【祀利】
+"Itaru, let's play tag!
+I'll run and you'll chase me! You're it!"
+@page
+@fi id=m trans=out slide=r time=1000
+I wonder if Matsuri played tag in South America.
+@page
+Ahh, she probably did play real tag. With the Mafia.
+@page
+... While I had stood there thinking, Matsuri
+ran out of the classroom.
+@page
+@【至】
+"Guess I don't get a choice, then..."
+@page
+@【至】
+"-- Matsuri, wait! You're going to bother people!"
+@page
+@fi s=m111 pos=c trans=in slide=l time=700
+@v s=21024
+@【祀利】
+"Huh? I'll just kill whoever gets in our way.
+If they don't move, I'll knock them out of the way--"
+@page
+@qk time=700
+@【至】
+"NOOOOOOO! Don't do any of that!"
+@page
+;【ワイプ】時間経過
+;【背景】廊下・昼
+;【ＳＥ】チャイム
+@fi id=m
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se011
+@wait time=500
+@bi s=bg10d trans=clock
+@bgm s=bgm06
+@mwon
+-- So.
+@page
+After that I ran all around the campus many times.
+@page
+@【至】
+"Hahh... hii... hafu... gehoh...
+I, I'm gonna die..."
+@page
+@fi s=m212 pos=c
+@v s=21025
+@【祀利】
+"Ohh, you're all tired now. Come on, over here."
+@page
+@【至】
+"N-No... hii... didn't..
+phew... haa... t-the bell... just ring...?"
+@page
+@fi s=m111 pos=c
+@v s=21026
+@【祀利】
+"Eh-? Yeah, I guess it did."
+@page
+@【至】
+"Hahh... hahh... then, playtime is over...
+we need to get back... to the classroom..."
+@page
+@fi s=m114 pos=c
+@v s=21027
+@【祀利】
+"Nao! I'm not done playing yet!
+Itaru, you can skip class, so can we play more?"
+@page
+@【至】
+"I-I can't do something like that!
+Please, Mardi-gras...
+Come on, let's end this..."
+@page
+@fi s=m111 pos=c
+@v s=21028
+@【祀利】
+"Mnn... okay. If you're asking, then I'll put up with it."
+@page
+@【至】
+"Thanks... I knew you'd understand...
+if I just got to say it... fuu... hii... haa..."
+@page
+I try to keep my breathing under control and barely manage to return to class.
+@page
+;【ワイプ】場面転換
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@mwon
+@【至】
+"S-sorry... we're late..."
+@page
+@fi s=m212 pos=c
+@v s=21029
+@【祀利】
+"We're late--!
+@page
+@【教師】
+"Nn, ahh, that's fine. Please get to your seat."
+@page
+@【至】
+"Yes sir."
+@page
+@fi s=m112 pos=c
+@v s=21030
+@【祀利】
+"Itaru, come on. Lemme sit on your knee.♪"
+@page
+;【ワイプ】時間経過
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@fi s=m648d pos=c
+@mwon
+2nd period is chemistry. I'm not good at it.
+@page
+So now, I'm taking notes for studying later...
+@page
+I hold my mechanical pencil.
+@page
+@fi s=m647d pos=c
+@se s=se080
+Then Matsuri grips my dick inside my pants.
+@page
+@lfont
+@qk
+"NOWAAAAHH!?"
+@page
+Instinctively I raise my voice at the sudden stimulation.
+@page
+@【教師】
+"Takamichi, keep quiet."
+@page
+@【至】
+"Sorry..."
+@page
+Already adding insult to injury I see.
+@page
+@fi s=m649d pos=c
+@v s=21031
+@【祀利】
+"That won't do, Itaru. If you raise your voice,
+I won't be able to continue, will I?"
+@page
+Matsuri whispers into my ear.
+This tone... it's Festa, right?"
+@page
+@【至】
+"C-Continue? Festa, you aren't...!?"
+@page
+@fi s=m647d pos=c
+@v s=21032
+@【祀利】
+"Fufufu... of course... it's something good."
+@page
+I try to resist, but Festa takes my dick out of my pants.
+@page
+@bgm fade=out
+@mwoff
+@fi id=m
+@bi s=evn2022
+@bgm s=bgm10
+@wait time=300
+@mwon
+@v s=21033
+@【祀利】
+"Oh, this is serious. Mardi-gra isn't going to
+take my place so easily this time."
+@page
+@v s=21034
+@【祀利】
+"She's mad, so she's trying to push me out."
+@page
+@v s=21035
+@【祀利】
+"I pushed your pants aside and took out your cock.
+Ufufu, it looks like it's going to burst."
+@page
+@【至】
+"W-Who said you were good at this...
+Wait, isn't this Festa now!?"
+@page
+@v s=21036
+"Nfu... how is it? Are you excited?
+Getting excited by this..."
+@page
+Festa grasps my engorged member and squeezes it.
+@page
+@v s=21037
+@【祀利】
+"Your dick... is pulsing. Come on, let's do it..."
+@page
+@【至】
+"Are you serious!? Here!?"
+@page
+@v s=21038
+@【祀利】
+"Yes... if I lift my hips a little, you should be able to put it inside..."
+@page
+@【至】
+"Wait. Waitwaitwaitwaitwait.
+We can't do it in a classroom!"
+@page
+@v s=21039
+@【祀利】
+"But it's alright. You're getting excited by the possibility of someone seeing us, aren't you?"
+@page
+@【至】
+"It's not a 'possibility'. It's a 100% certainty."
+@page
+@v s=21040
+@【祀利】
+"We'll cross that bridge when we come to it. We're fiancees, aren't we?"
+@page
+@v s=21041
+@【祀利】
+"And if anybody says anything bad, I'll just have to kill them."
+@page
+@【至】
+"G-Give me a break here, no!"
+@page
+@【至】
+"Not now! Later!
+Mouth, ass, anything you want, later!"
+@page
+@v s=21042
+@【祀利】
+"...Really? After this, you'll fill me all up?"
+@page
+@【至】
+"Yes, really, okay? Just not now."
+@page
+@v s=21043
+"Fufufu... okay. I'll look forward to it."
+@page
+Festa finally relents.
+@page
+... But I feel like I gave up.
+@page
+@【至】
+"Hey... Festa-san?"
+@page
+@v s=21044
+@【祀利】
+"Yeees?"
+@page
+@【至】
+"Uhh... if you said you would stop, why are you still holding onto it?"
+@page
+@v s=21045
+@【祀利】
+"Well, Itaru's cock is my favorite thing.
+I've been waiting to do this for a long time."
+@page
+@【至】
+"You just promised to wait, though!"
+@page
+@v s=21046
+@【祀利】
+"Yes, I did promise to wait. For sex.
+But you didn't say anything about holding onto it."
+@page
+@【至】
+"T-That's-- uhhgh!?"
+@page
+She gropes me under the desk and my voice trembles.
+@page
+@【至】
+"Cr-Crap... crap...
+If you do that... cum! I'm gonna cum!"
+@page
+@v s=21047
+@【祀利】
+"Then cum...
+Itaru, it's going to be an intense smell...
+Everyone will surely find out..."
+@page
+That's very bad.
+I have to avoid that, by all means necessary.
+@page
+I grit my teeth and endure the stimulation.
+@page
+@v s=21048
+@【祀利】
+"Don't hold back...
+I'll kill everyone that sees your embarrassing moment..."
+@page
+@v s=21049
+@【祀利】
+"So don't worry... okay?"
+@page
+Okay? I can't, even if she says it is.
+@page
+What now!? What should I do!?
+Can I only withstand it until I ejaculate!"
+@page
+But I can't cum! I absolutely can't!
+If I do, the lives of everyone in the class...!"
+@page
+@【至】
+(Kuuuh! To cum or not to cum, that is the question!"
+@page
+Foolishness aside, while I'm suffering from a huge problem--
+@page
+@sfont
+@v s=21050
+@【祀利】
+"Nnn... again...n!"
+Parade! Marti-gra! Itaru is mine!
+I won't... I won't give him up...!"
+@page
+What on earth is happening?
+Is her personality changing again?
+@page
+It's a problem, but I have a bigger one right now.
+@page
+It feels good. I want to cum.
+But if I cum, everyone will die.
+@page
+@qk
+My sperm is the difference between life and death!
+@wait time=1000
+... Wait, what the hell am I saying?
+@page
+@mwoff
+@bgm fade=out
+;→240300
+@jump storage="240300.scn"

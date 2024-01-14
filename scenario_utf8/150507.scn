@@ -1,0 +1,99 @@
+﻿;150507
+*150507|_クイズ！　次はおまえだ！
+@v s=16001
+@【ウサミ】
+"A Happy End would be nice, but...
+Wazuka's gonna kill him, isn't she?"
+@page
+@fi s=f111 pos=lc
+@v s=41087
+@【ファヌル】
+"Not a bad answer.
+You seem to have understood this game a little."
+@page
+@v s=16002
+@【ウサミ】
+"Why, thank you!♪"
+@page
+@fi s=f55a pos=lc
+@v s=41088
+@【ファヌル】
+"This is the final episode."
+@page
+@v s=16001
+@【ウサミ】
+"That's a promise, isn't it..."
+@page
+@v s=16001
+@【ウサミ】
+"Then... will he still die?"
+@page
+@fi s=f111 pos=lc
+@v s=41089
+@【ファヌル】
+"No, he will not."
+@page
+@v s=16004
+@【ウサミ】
+"Eh!? How!?"
+@page
+@fi s=f55b pos=lc
+@v s=41090
+@【ファヌル】
+"Because I am going to kill Itaru now."
+@page
+;【演出】暗転
+;【ＳＥ】刺突音
+;【演出】血ノリ　カットイン？それとも背景？
+@setOnce
+@bgm fade=out
+@bi s=current all=true trans=crossfade
+@bi s=blank
+@bi s=bg8140
+@se s=se071
+@endOnce
+;【背景】クイズ番組セット
+@wait time=2000
+@bi s=bg04d
+@cut s=cut2290
+@fi s=f411 pos=c
+@bgm s=bgm10
+@v s=41091
+@【ファヌル】
+"Just kidding."
+@page
+@setOnce
+@fi s=f411 move=lc
+@fi s=u111 pos=rc
+@endOnce
+@v s=16003
+@【ウサミ】
+"You scared me!
+Please stop, it's bad for my heart!"
+@page
+@fi s=f559 pos=lc
+@v s=41092
+@【ファヌル】
+"Are you serious?
+Don't worry, I didn't kill Itaru."
+@page
+@v s=16001
+@【ウサミ】
+"So the punch line is when Wazuka kills him first?"
+@page
+@fi s=f111 pos=lc
+@v s=41093
+@【ファヌル】
+"No, that's not it either."
+@page
+@v s=16001
+@【ウサミ】
+"Oh, then what is it?"
+@page
+@fi s=f55b pos=lc
+@v s=41094
+@【ファヌル】
+"Wazuka won't kill Itaru. Rather, only Itaru can... heh heh."
+@page
+;→150508
+@jump storage="150508.scn"

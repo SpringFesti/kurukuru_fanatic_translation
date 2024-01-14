@@ -1,0 +1,44 @@
+﻿;140302
+*140302|_味？  それとも気持ち？
+@【至】
+"Even so, you can't throw away something like this.
+She really did put her heart and soul into making it."
+@page
+@【わずか】
+"......"
+@page
+@【至】
+"If there was a bomb or poison or something, that'd be fine,
+but since there isn't, we shouldn't throw it away."
+@page
+@v s=11096
+@【わずか】
+"...Fine."
+@page
+@setOnce
+@fi s=w548 move=lc
+@fi s=m112 pos=rc
+@endOnce
+@v s=21645
+@【祀利】
+"Besides, her's is really good～♪."
+@page
+@【至】
+"That's true, but--"
+@page
+...... Oh.
+@page
+@setOnce
+@fi id=m
+@fi s=w548 move=c
+@endOnce
+@v s=11097
+@【わずか】
+"......... Sigh."
+@page
+@v s=11098
+@【わずか】
+"So her's really is better than mine..."
+@page
+@jump storage="140303.scn"
+;→140303

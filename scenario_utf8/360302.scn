@@ -1,0 +1,249 @@
+﻿;360302
+*360302|_理想の姉→弟
+;【背景】かごめ部屋・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07b trans=tile
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+Perhaps thinking that I won't resist anymore,
+just after the act, she undoes my restraints.
+@page
+A contented smile is on Otogiri-san's face.
+However, naturally, I was not happy at all.
+@page
+The cause was that I had become depressed after getting so excited.
+The pain, which had blurred, had become clear once again.
+@page
+Sitting on the bed is difficult.
+But I dion't have the energy to stand, either.
+@page
+@fi s=k204 pos=c
+@v s=30753
+@【かごめ】
+"Nn, looks like it still hurts. But you'll get used to it soon.
+We'll be doing that together every day from now on."
+@page
+I understand the meaning of Wazuka-san's words once more.
+@page
+I had thought that the feelings that Otogiri-san and I held for each other were the same.
+@page
+However, that was wrong.
+The feelings that we had were fundamentally different.
+@page
+My "love" and her "love" were completely different.
+Rather, the way we see the world might be different.
+@page
+@fi s=k435 pos=c
+"Siblings really should live together, huh?
+It seems like your memories haven't returned yet, 
+but I'll make sure that you return to the way you were back then."
+@page
+@【至】
+"No... that's impossible."
+@page
+So, I answer in that way.
+@page
+@fi s=k438 pos=c
+@v s=30755
+@【かごめ】
+"-- What? You're my little brother, aren't you?
+Do you hate your onee-chan... do you hate me?"
+@page
+@【至】
+"I'm not your little brother.
+And right now... I do hate you, Otogiri-san."
+@page
+This might be a mistake.
+After all, I don't know a single thing about Otogiri-san.
+I can only break this one-sided "love".
+@page
+@【至】
+"So, give me a bit more time, and--"
+@page
+@bgm fade=stop
+@fi s=k637 pos=c
+@qk time=700
+@lfont
+@v s=30756
+@【かごめ】
+"Giiiiiiiiiiih!"
+@page
+@bgm s=bgm16
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@qk time=700
+@flash color=red time=700
+That's right-- the same as the time we first met.
+@page
+Of course.
+I think that I had still misunderstood her.
+@page
+I had thought that I could persuade her somehow,
+but I had misunderstood far, far too much.
+@page
+@fi s=k63a pos=c
+@v s=30757
+@【かごめ】
+"A little brother wouldn't say that! He wouldn't hate his onee-chan!
+A little brother that doesn't want to be together with me isn't my little brother!"
+@page
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@qk time=700
+@flash color=red time=700
+In the same frantic manner as that day,
+she swings the box cutter that I'm not familiar with.
+I stop her the second time with my arm, and jump away to put distance between us.
+@page
+Many drops of red suddenly fall to the floor.
+Then-- I remember that scene.
+@page
+It didn't happen in the past.
+Although I didn't know about it, I now did.
+@page
+@fi s=k637 pos=c
+@v s=30758
+@【かごめ】
+"I'll erase you! I'll kill the vessel that's been poisoned by the witch!
+Reincarnate so I can awaken you next time for sureeeeee!"
+@page
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@qk time=700
+@flash color=red time=700
+I desperately avoid the killer attack that comes many times.
+However, in such a small room, I cannot get away.
+My arm, which I use to defend, is torn many, many times.
+@page
+I must escape from here.
+If I don't-- then I will die once again.
+@page
+@fi s=k63a pos=c
+@v s=30759
+@【かごめ】
+"Disappear! Disappear! Disappeardisappeardisappear!!!"
+@page
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se067
+@qk time=700
+@flash color=red time=700
+@【至】
+"Kh..!"
+@page
+I throw things at my feet, scattering them as I desperately run about, trying to escape.
+I think about how to escape from here.
+@page
+No matter where I look, there is only one exit.
+And before it is Otogiri-san, obviously.
+@page
+(...If that's the cast, as expected, she...
+Even so, I've got to be as gentle as possible.)
+@page
+Is this the weakness of love as well?
+I'm about to be murdered. Even so,
+I think of foolish, stupid things like this.
+@page
+But still--
+Even if my opponent is using violence,
+I will not.
+@page
+@fi s=k637 pos=c
+@v s=30760
+@【かごめ】
+"You won't escape... I'll absolutely, definitely erase you!
+I'll definitely reset this!"
+@page
+@se s=se067
+@qk time=700
+@flash color=red time=700
+@lfont
+@v s=30756
+@【かごめ】
+"Giiiiiiih!"
+@page
+I concentrate on my thoughts too much.
+It was the decisive opening that became fatal.
+@page
+;【演出】切り裂くエフェクト
+;【ＳＥ】切り裂く
+@se s=se071
+@qk time=700
+@flash
+@【至】
+"Gh!?"
+@page
+I twist my body to evade.
+@wait time=700
+-- But not in time.
+A deep cut appears in my shoulder.
+@page
+But luckily, I avoided the bigger thing.
+@page
+@fi s=k637b pos=c
+@act id=k t=hit
+@v s=30761
+@【かごめ】
+"Kuh, ah-- aaaah!?"
+@page
+She might have intended to kill me with that blow,
+but she had swung downwards too hard, and her momentum was too strong.
+@page
+@fi id=k
+She staggers.
+In the confusion, her feet slip, and her body--
+@page
+;【演出】クエイク
+;【ＳＥ】派手に転ぶ？何か適切なものがあれば。
+@se s=se119
+@qk time=1000
+@flash time=1000
+@lfont
+@v s=30762
+@【かごめ】
+"Igyaaaaaaahh!"
+@page
+Her body crashes into the desk.
+@page
+Worrying about her hand in pain, she used too much force trying to support herself
+and knocked it down onto herself.
+@page
+That was bad.
+@page
+@qk
+@v s=30763
+@【かごめ】
+"It hurts, ah, gh, my head, and my back iissssss!"
+@page
+It might have been the tools she used to draw her manga.
+Various things had dropped onto Otogiri-san's body.
+And they had pierced that body.
+@page
+A cutter, identical to the one she had a while ago,
+a drawing compass, pen nibs, and other various things,
+all of them had damaged her body.
+@page
+I wanted to ask if she was okay.
+But then, I realized something.
+@page
+@【至】
+(... I have to run away now.)
+If I miss this chance, I...!)
+@page
+If the fate of death awaits me, it can't be anywhere but here.
+@page
+Perhaps what killed me five days ago was Otogiri-san.
+@page
+If that's the case, then I'll--!
+@page
+;分岐
+;かごめ好感度特定値以上　→360303
+;それ以下　→360400
+@jump storage="360303.scn" cond="f.kagome >= 7"
+@jump storage="360400.scn"

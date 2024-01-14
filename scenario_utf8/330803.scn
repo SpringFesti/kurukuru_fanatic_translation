@@ -1,0 +1,102 @@
+﻿;330803
+*330803|_お姉ちゃん、だもん
+;【備考】前の２つのラベルからメールの文面として繋がるようにお願いします。
+;【備考】本編では話者なし。
+;【演出】モノローグ処理～横書き
+@mwoff
+@mnon
+@mset l=7 h=true
+@v s=30365
+;@【かごめ】
+"Don't be absent from school if you want me to do it more.
+It's going to get pretty cold today.
+Do you have a blanket?　Are you dressed properly?
+You should close the windows when you sleep.
+Of course, staying up late is strictly prohibited, too."
+@waitclk
+@mwon
+;【演出】モノローグ終了
+@【至】
+"Huh...?
+Somehow, it feels like she's really worried."
+@page
+She seems like a parent.
+No, rather than a parent, this is...
+@page
+"You're acting like my older sister,
+even though we're the same age."
+I try telling her directly, laughing a bit.
+@page
+Somehow, I feel like her vaguely anxious speech is like Wazuka-san's.
+So this is what it would feel like if she was my older sister.
+@page
+In other words, she's my second older sister with no blood connections.
+@page
+Incidentally, I have two people that are like my younger sisters as well.
+It feels like my family of unrelated people is steadily increasing in number.
+@page
+@【至】
+"How about it?
+I don't feel particularly bad about it."
+@page
+While I whisper that, I get a reply text.
+@page
+;【備考】ここで使っている１行空けや、空白による右詰めはちゃんと表示されるでしょうか？難しいようでしたら修正します。
+;【備考】本編では話者なし。
+;【演出】モノローグ処理～横書き
+@mwoff
+@mnon
+@mset l=8 h=true
+@v s=30366
+;@【かごめ】
+"What do you think? Do I feel like an older sister?
+In that case, I want you to call me onee-chan tomorrow when we do it.
+I'll do some awesome things if you do.
+Okay then, onee-chan has to go to bed now. Good night.
+
+　　　　　　　　　　　　From the older sister that loves her little brother."
+@waitclk
+@mwon
+@【至】
+"...Onee-chan, huh?
+I think she really wants me to say that."
+@page
+While laughing, I reply:
+"Got it. Good night."
+@page
+@【至】
+"I wonder what all this is about?
+She thinks I'm her little brother... I wonder if that means she likes me?"
+@page
+Rather, I don't think there's another way to interpret it.
+@page
+@【至】
+"But didn't she just paste a little brother character onto me?
+Ahh, I guess I get confused by curveballs, then..."
+@page
+I scratch the back of my head.
+@page
+@【至】
+"Ok, let's change the agenda.
+What do I think of Otogiri-san?"
+@page
+@bi s=bg830
+The answer, when I look at my reflection in the windowpane, is clear.
+@page
+@【至】
+"What's with that huge grin... what a creep I am."
+@page
+In other words, it's like that. I don't need to think about it any more.
+@page
+@【至】
+"Alright, let's change and go to bed."
+@page
+With lots of warm things on, so I don't catch cold,
+I try to hurry up and sleep so I won't be late.
+@page
+I think about how I've changed into the little brother that adores his "onee-chan".
+@page
+;→330804
+@mwoff
+@bgm fade=stop
+@jump storage="330804.scn"

@@ -1,0 +1,92 @@
+﻿;020400
+*020400|１０月２８日午前８時２７分
+;【備考】前提として……「一日目の終わりにかごめからメールをもらった＝ルート落ちの条件が設定された」
+;【ワイプ】場面転換
+;【背景】青空
+;【ＳＥ】チャイム
+;【ワイプ】場所移動
+;【背景】学園廊下・昼
+;@【わずか】
+;「それじゃまた屋上で」
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se011
+@bi s=bg10d trans=clock
+@bgm s=bgm03
+@fi s=w111 pos=c
+@mwon
+@v s=10100
+@【わずか】
+"See you on the roof."
+@page
+@fi id=w
+We part in the same way as yesterday, and as always I start
+running to the classroom.
+@page
+@【至】
+"Crap, gotta pay attention."
+@page
+Muttering to myself, I slow down and pay particular
+attention to the corner.
+@page
+@【至】
+"I can't let yesterday repeat itself."
+@page
+Basically, that particular part of yesterday.
+I don't want to bump into a certain someone again.
+@page
+;【イベントＣＧ】ぶつかるかごめ　モノクロ
+@bi s=evn3014
+If I did, this would happen again.
+@page
+;【背景】教室・昼
+@bi s=bg10d
+@【至】
+"I need to hurry, but slowly."
+@page
+Muttering ludicrous things like that, I turn the corner one step at a time.
+@page
+;【ワイプ】場所移動
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ひし形(左から右へ)
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+Looking at my cell phone, it looks like I'm safe, barely.
+Only 30 seconds left until homeroom.
+@page
+My heart's in tremendous pain from running so hard.
+Sitting down in my chair, my breath comes in gasps.
+If I could have left 5 minutes earlier, this would be so much easier.
+@page
+@【至】
+"...Of course, I couldn't have left early.
+I would have gotten into yet another event."
+@page
+If Matsuri hadn't interfered this morning, maybe 5 minutes...
+No, I should have been able to leave 3 minutes earlier.
+@page
+Is there any way I can avoid these events?
+Is there any magic I can use to cancel them out?
+@page
+@【至】
+"...Whatever. Oh well."
+@page
+Muttering, I look over the classroom absentmindedly,
+and see that one person is missing.
+@page
+@【至】
+"...Otogiri-san isn't here yet."
+@page
+If it's like yesterday, she should be here soon.
+Perhaps she has some masterful technique to sidestep whatever
+punishment she's going to get.
+@page
+;分岐
+;フラグ010701起立　→020401
+;それ以外　→020402
+@jump storage="020401.scn" cond="f._010701"
+@jump storage="020402.scn"

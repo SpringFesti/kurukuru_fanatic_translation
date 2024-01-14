@@ -1,0 +1,306 @@
+﻿;230103
+*230103|_婚約の証
+@fi s=m115 pos=c
+@v s=20692
+@【祀利】
+"Now, that's all I needed from you.
+We should probably get back to bed soon."
+@page
+@【至】
+"Bed? You think I can sleep, after that?"
+@page
+@v s=20693
+@【祀利】
+"That's not what I meant. I'll be going to sleep, but Matsuri will be the one waking up."
+@page
+@【至】
+"So you mean that you're going to be changing personalities?"
+@page
+Parade nods at my question.
+@page
+@fi s=m747 pos=c
+@v s=20694
+@【祀利】
+"Now, Itaru. You just signed a written oath.
+That means you can never betray Matsuri. Ever."
+@page
+@【至】
+"H-Hey, wait! What's that supposed to mean?"
+@page
+@fi s=m64b pos=c
+@v s=20695
+@【祀利】
+"You have a complaint?"
+@page
+@【至】
+"You thought I was going to betray Matsuri if I didn't sign this thing?"
+@page
+@【至】
+"Don't be stupid. You didn't have to make me sign that.
+I wouldn't have betrayed Matsuri anyway."
+@page
+@fi s=m115 pos=c
+@v s=20696
+@【祀利】
+"Oho...?"
+@page
+@【至】
+"I made a promise when I was a kid, didn't I?
+I don't need documents or anything like that. I always keep my promises."
+@page
+@fi s=m747 pos=c
+@v s=20697
+@【祀利】
+"A good philosophy to take. Eu gostei."
+@page
+@se s=se131
+@fi s=m415 pos=c
+Then, she points her pistol at me again.
+@page
+@【至】
+"... What? Your actions and your words are different."
+@page
+@fi s=m41c pos=c
+@v s=20698
+@【祀利】
+"Say that to me again, and I'll shoot you."
+@page
+@【至】
+"W-What!?"
+@page
+@v s=20699
+@【祀利】
+"You aren't the only trash-mouthed fucker to say that to me.
+You all drop the good guy act when it comes to saving your own skin, though."
+@page
+@【至】
+"What are you talking about? I'm serious, I--"
+@page
+@se s=se109
+@qk
+@flash
+@wait time=300
+@fi s=m415 pos=c
+@v s=20700
+@【祀利】
+"So come on. Say it now, when you have a gun in your face."
+@page
+;@fi s=m415 pos=c
+@v s=20701
+@【祀利】
+"Say it, and I'll give you a nice big bullet as a reward.
+I won't kill you though. Just take one of your ears."
+@page
+@【至】
+"Yeah, alright... then listen up.
+Even without a written oath, I would never betray Matsuri."
+@page
+@fi s=m41c pos=c
+@v s=20702
+@【祀利】
+"Wh-...!?"
+@page
+Matsuri seems to be shocked at my instantaneous answer.
+@page
+@【至】
+"What's wrong? I said it. So where's my reward?"
+@page
+I provoke her, trying to hide the cold sweat inching down my neck.
+@page
+@fi s=m41c pos=c
+@v s=20703
+@【祀利】
+"Kuh... do you even care about the bullet with your name on it?"
+@page
+@【至】
+"I might, or I might not.
+It doesn't change how I feel, though."
+@page
+@【至】
+"I will never betray Matsuri... Really."
+@page
+Her expression changes as she watches me.
+She's got a complicated expression now.
+@page
+@fi s=m115 pos=c
+@v s=20704
+@【祀利】
+"Damn it... I guess it's my loss, for now."
+@page
+@fi s=m64a pos=c
+Throwing out a line that I can barely hear, Matsuri's face deadens,
+and then...
+@bgm fade=out
+@page
+@bgm s=bgm06
+@fi s=m112 pos=c
+@v s=20705
+@【祀利】
+"...Mnn... yawnnn.
+Oh, Itaru, bom dia!"
+@page
+It seems that her personality has changed.
+@page
+@【至】
+"Good morning, Matsuri."
+@page
+I wonder how many times I'm going to have to say that today.
+@page
+@fi s=m113 pos=c
+@v s=20706
+@【祀利】
+"Oh, Itaru, what's this paper for?"
+@page
+She picks up the written oath.
+@page
+@fi s=m212 pos=c
+@v s=20707
+@【祀利】
+"Wah, incrivel! This is a pledge of engagement."
+@page
+@fi s=m748 pos=c
+@v s=20708
+@【祀利】
+"You must've written this. You really were thinking seriously about us, weren't you?"
+@page
+Well... if she's this pleased, I can't feel bad about it."
+@page
+@v s=20709
+@【祀利】
+"Then, I can too... smooch!"
+@fi s=m11ed pos=c
+@page
+Suddenly, Matsuri's lips touch my own.
+@page
+@【至】
+"T-that was sudden!"
+@page
+@fi s=m112d pos=c
+@v s=20710
+@【祀利】
+"Hee hee, that was Matsuri's pledge kiss."
+@page
+Matsuri's radiant smile is really cute.
+@page
+Yeah... she's usually such a good girl, when she's like this.
+@page
+It's her other personalities that are bad.
+Especially Parade.
+@page
+If I'm careful though, I should be able to get along with her.
+@page
+... Naturally. Probably. Maybe. I think.
+@page
+;【ワイプ】時間経過
+;【背景】主人公自宅玄関
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03d trans=clock
+@bgm s=bgm02
+@fi s=m112 pos=c
+@mwon
+@v s=20711
+@【祀利】
+"Sorrryyy, I'm coming now!"
+@page
+We're on the brink of being late after Matsuri's finished up her preparations.
+@page
+@setOnce
+@fi id=m
+@fi s=w111 pos=c
+@endOnce
+@v s=10615
+@【わずか】
+"Itaru-kun, you didn't have to wait."
+@page
+The one in the back's been getting noisy, though...
+After I talked to her about Matsuri's mood,
+she went from being cranky to vaguely smiling.
+@page
+@setOnce
+@fi id=w
+@fi s=m748 pos=c
+@endOnce
+@v s=20712
+@【祀利】
+"Heeeyyy Itaru, what's thiiisss?"
+@page
+Matsuri shows me a package of some sort.
+@page
+@【至】
+"A military ration, again?
+Having one for the third day in a row is a bit..."
+@page
+@fi s=m111 pos=c
+@v s=20713
+@【祀利】
+"No, this is a lunch box. Matsuri made it."
+@page
+Ah, I see. This is what made her take so long.
+@page
+@【至】
+"...Huh? But where'd you get the materials for it?"
+@page
+@fi s=m212 pos=c
+@v s=20714
+@【祀利】
+"Oh, I used the ration.
+Full marks on nutrition, and a perfect amount too!♪"
+@page
+Another cold sweat creeps down my back.
+I feel like I want to compliment myself on my poker face.
+@page
+@fi s=m74b pos=c
+@v s=20715
+@【祀利】
+"Just wait a second. I can't get it into my bag."
+@page
+I nod and wait for a second while she puts it away.
+@page
+@setOnce
+@fi s=m111 move=rc
+@fi s=w111 pos=lc
+@endOnce
+@v s=10616
+@【わずか】
+"Let's go, Itaru-kun."
+@page
+@【至】
+"Yeah. We're probably gonna be late, though."
+@page
+And so, we start walking.
+@page
+@fi s=m11c pos=rc
+@v s=20716
+@【祀利】
+"... 5 meter radius."
+@page
+I remember her words this morning.
+@page
+@qk
+Crap--! I quickly get away from Wazuka-san.
+@page
+@【至】
+"M-Matsuri, look, just for now-- the hallway's too narrow, so I can't--"
+@page
+@fi s=m112 pos=rc
+@v s=20717
+@【祀利】
+"Hm? What's wrong, Itaru? Come on, let's go."
+@page
+@【至】
+"Eh... oh... yeah, okay..."
+@page
+@bi s=current all=true trans=crossfade
+I'm led out of the door by Matsuri's hand.
+I also feel Wazuka-san's eyes on the back of my head.
+@page
+If a look could kill, Matsuri would certainly be dead.
+I can feel Wazuka-san's thirst for blood.
+@page
+@bgm fade=out
+@mwoff
+;→230200
+@jump storage="230200.scn"

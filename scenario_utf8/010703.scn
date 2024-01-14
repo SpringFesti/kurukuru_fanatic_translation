@@ -1,0 +1,119 @@
+﻿;010703
+*010703|Quiz! You're Next!
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+@setOnce
+@bgm fade=stop
+@mwoff
+@se s=se100
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@fi s=f114a pos=lc
+@lfont
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+@se fade=out
+@v s=16002
+@act id=u t=bow
+@【ウサミ】
+"Starting today for only a limited time, a little game for your brain!
+Quiz! You're Next! I am your humble host, Usami!"
+@page
+@fi s=f757a pos=lc
+@act id=f t=bow
+@v s=40143
+@【ファヌル】
+"Likewise, I'm your host Fanuel!♪ Thanks for coming, everyone!"
+@page
+@se fade=stop
+@fi s=f55b pos=lc
+@v s=40144
+@【ファヌル】
+"... Wait, what now?"
+@page
+;【ＳＥ】シロ平素
+@v s=16001
+@【ウサミ】
+"Don't stop! Keep the 緊張 going!"
+@page
+@fi s=f55a pos=lc
+@v s=40145
+@【ファヌル】
+"緊張 means tension. Keep it to one language, please."
+@page
+;【ＳＥ】シロ機嫌よさげ
+@v s=16002
+@【ウサミ】
+"English it is, then. So, what should we do on our program?"
+@page
+@fi s=f111 pos=lc
+@v s=40146
+@【ファヌル】
+"You're the one who said it was a quiz, right? Go for it."
+@page
+;【ＳＥ】シロ平素
+@v s=16001
+@【ウサミ】
+"Right, yeah! Questions! Okay, here we..."
+@page
+@【ウサミ】
+"………………"
+@page
+@act id=u t=tremor
+@v s=16004
+@【ウサミ】
+"Huh? There's no teleprompter!?"
+@page
+@fi s=f211 pos=lc
+@v s=40147
+@【ファヌル】
+"Hosts are supposed to make up the questions. Hot topics are our best bet."
+@page
+@v s=16001
+@【ウサミ】
+"If that's the case, then... How about Itaru-kun's problem?"
+@page
+@fi s=f559 pos=lc
+@v s=40148
+@【ファヌル】
+"That's a safe bet. So, do you have anything in mind?"
+@page
+@v s=16001
+@【ウサミ】
+"Hmhmhmhm, yes. THAT. You can't wash it away that easily, can you?"
+@page
+@fi s=f55a pos=lc
+@v s=40149
+@【ファヌル】
+"He IS the protagonist of an eroge. We can't advance the story without him."
+@page
+@act id=u t=tremor
+@v s=16004
+@【ウサミ】
+"He's only got 4 days left, right? That's a bit too slow, isn't it?"
+@page
+@fi s=f312 pos=lc
+@v s=40150
+@【ファヌル】
+"There's the question! What will Itaru do now? Choose one of these three."
+@pages
+@selinit
+@selbtn cap="Get stabbed to death" s="010704.scn"
+@selbtn cap="He's already dead" s="010705.scn"
+@selbtn cap="Death itself is life" s="010706.scn"
+@s
+;選択肢
+;刺されて死ぬ　→010704
+;おまえはもう死ぬでいる　→010705
+;死ぬだけが人生さ　→010706

@@ -1,0 +1,264 @@
+﻿;440400
+*440400|_１日振りの再会
+;【ワイプ】視点変更
+;【備考】ファヌル視点
+;【演出】ホワイトアウト
+;【ＳＥ】鳥の鳴き声　ループ
+@mwoff
+@bi s=blank
+@wait time=2000
+@se s=se001 loop=true
+@wait time=2000
+@mwon
+@v s=40843
+@【ファヌル】
+"...Ohh... my head... is heavy..."
+@page
+It's the worst kind of feeling.
+I open my eyes while everything feels terrible.
+@page
+@mwoff
+@se fade=stop
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=ランダム
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+;【ＳＥ】停止
+;【背景】主人公自室・朝
+It's Itaru's room.
+Seems that I was taking a rest...
+No, this isn't the living room where I usually go to kill time.
+@page
+@fi s=f559 pos=c
+@v s=40844
+@【ファヌル】
+"Wait... what?"
+@page
+Isn't this what a human would say just after waking up?
+It's definitely not a good feeling.
+It's so unpleasant that I can't turn my head.
+@page
+But, why--?
+Angels don't sleep.
+So then, why am I here? What is the reason, and what do I remember?
+@page
+@fi s=f212 pos=c
+@v s=40845
+@【ファヌル】
+"... Shit, I don't know. What... was I doing?"
+@page
+@【至】
+"... I don't know... but it's already over."
+@page
+I hear a voice from the side of the bed.
+There is the owner of the room.
+A bloody Itaru, laying there for some reason.
+@page
+@fi s=f111 pos=c
+@v s=40846
+@【ファヌル】
+"That's an unusual hobby.
+Or did you finally accept the three girls' love?"
+@page
+It sounds ironic for humans, but my words are the simple truth.
+... Well, there are some subjectivities involved.
+@page
+@【至】
+"Hehe... it looks like I came back somehow.
+... Well, I suppose that's too bad."
+@page
+Instead of his normal grimace,
+he smiles a strange smile and tears come to his eyes.
+@page
+@v s=40847
+@【ファヌル】
+"What do you mean? You came back?
+I didn't change anything.
+An angel is an unchangable existence."
+@page
+-- However, there is one sole exception.
+@page
+@bgm fade=out
+But then I noticed, and remembered what happened to my body.
+@page
+@bgm s=bgm11
+@fi s=f556 pos=c
+@v s=40848
+@【ファヌル】
+(... Yes... the "degeneration". I... back then...)
+@page
+It all makes sense if I think about it.
+The weight of my head must be the reaction to recovering from the "degeneration".
+@page
+@fi s=f559 pos=c
+@v s=40849
+@【ファヌル】
+"... How did you get that wound?"
+@page
+@【至】
+"Oh, these? Hehe... you could say I got them in the final boss battle.
+Just before I got away, they found me."
+@page
+I briefly inspect Itaru's bloody body.
+There's a great number of lacerations, at least 30 counting both big and small cuts,
+six bullet wounds only counting what I immediately see, and--
+@page
+@fi s=f55a pos=c
+@v s=40850
+@【ファヌル】
+"... You were eaten again.
+Two places on the upper right arm, three on the left forearm, and...
+five places on the cheeks and neck."
+@page
+@【至】
+"It'd be nice if I wasn't naked.
+There's probably nothing left of my dick."
+@page
+The after life.
+He wasn't strong enough or tough enough to protect himself, and could only strip naked.
+@page
+@【至】
+"I escaped while I was being eaten.
+I suppose you could say that their new fetish helped me out."
+@page
+@fi s=f311 pos=c
+@v s=40851
+@【ファヌル】
+"So, you made it somehow, then?"
+@page
+He nods at my clever answer.
+@page
+@【至】
+"Just before they were going to finish me off,
+the day changed. That's game over, with our victory."
+@page
+As if sleepwalking, the three of them returned to their rooms,
+just like we did, in other words.
+@page
+@【至】
+"Well, after running away for an hour after being eaeten,
+I've got some newfound respect for myself, hahahahaha!"
+@page
+He laughs, smiling frivolously.
+He turns his blood-stained, wounded smile to me.
+@page
+My head hurts.
+It's not the so-called feeling that is the problem, however.
+@page
+The weight of my head that I've been feeling,
+has changed into a dull pain now.
+It's become stronger after seeing his smile.
+@page
+@fi s=f112 pos=c
+@v s=40852
+@【ファヌル】
+"... Shit... this is the worst."
+@page
+@【至】
+"What's wrong? Have we not gone back yet?"
+@page
+He stands up and walks next to me. His hand touches my forehead."
+@page
+@fi s=f556 pos=c
+@se s=se081
+;【ＳＥ】心音
+@qk time=600
+@v s=40853
+@【ファヌル】
+"... Kuh!"
+@page
+My headache gets even worse.
+In addition, I start to shake.
+It's probably because of the aforementioned increase in intensity.
+@page
+@fi s=f112b pos=c
+@sfont
+;【備考】本編では「…………るな」
+;ボリューム小さく
+@v s=40854
+@【ファヌル】
+"... -ch me."
+@page
+@【至】
+"Eh? What was--"
+@page
+@qk time=700
+@fi s=f113 pos=c
+@v s=40855
+@【ファヌル】
+"I said, don't touch me! And stop smiling like that!"
+@page
+@【至】
+"S-Sorry..."
+@page
+Itaru releases me, and stands in place.
+He's fallen silent like a scolded puppy.
+@page
+I want to confirm it once more.
+I am an angel. I am His merciful servant.
+@page
+If so, then it is necessary to act as befitting His servant.
+Even if a damaged and discouraged person is rescued, it isn't strange.
+Yes, this is an objective thought.
+@page
+@fi s=f557 pos=c
+@v s=40856
+@【ファヌル】
+"... Sit down."
+@page
+@【至】
+"... Eh?"
+@page
+@fi s=f559 pos=c
+@v s=40857
+@【ファヌル】
+"Don't just stand there like an idiot, sit down.
+... Let me treat your wounds."
+@page
+@【至】
+"C-Can you do that?"
+@page
+@fi s=f55a pos=c
+@v s=40858
+@【ファヌル】
+"It's my fault anyway. C'mon, sit."
+@page
+He nods with a happy smile, just like a puppy again.
+I imagine that if he had a tail, it would be wagging by now.
+@page
+@【至】
+"Sorry. Thanks... also, I love you!"
+@page
+@fi s=f559 pos=c
+Itaru says that, and then immediately gets an "Oh crap" expression on his face.
+Then it disappears immediately, transforming into a bright, proud smile.
+@page
+@【至】
+"Yeah... I love you. I really, really love you!"
+@page
+It's not a bad thing to tell someone your feelings.
+Since he's not telling a big lie, it's something to be encouraged.
+@page
+@fi s=f211 pos=c
+@v s=40859
+@【ファヌル】
+(... But I don't understand his feelings.
+Why does he have an expression like that?)
+@page
+That question rumbles around inside of me, stirring something up.
+Something I felt the day before yesterday--
+it shakes again inside of me, in slow motion.
+@page
+@fi s=f312 pos=c
+@v s=40860
+@【ファヌル】
+"... Shit... this really is the worst."
+@page
+I mutter that, and the "fluctuations" grow more intense.
+@page
+@fi id=f
+@mwoff
+@jump storage="440400a.scn"
+;→440400a

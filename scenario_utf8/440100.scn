@@ -1,0 +1,566 @@
+﻿;440100
+*440100|１０月２９日午前７時２５分
+@wait time=1000
+@se s=se027 loop=true
+;【ＳＥ】アラーム　ループ
+@wait time=2000
+@mwon
+... What's that sound?
+@page
+It's a familiar sound.
+It's a sound that's familiar, that I've heard for a long time,
+a sound with a pretty important role. It is, of course...
+@page
+@se fade=stop
+@bi s=bg01m time=100
+;【ＳＥ】ループ停止
+;【背景】主人公自室・朝
+@bgm s=bgm09
+@qk time=500
+@lfont
+@【至】
+"An alarm!"
+@page
+@se s=se013
+I extend my arm in a panic and stop the alarm on my cell phone.
+@page
+The time is 7:25.
+I'm late by about two parts.
+If I get up now, I can surely avoid being late.
+@page
+@【至】
+"Fuah... let's get ready."
+@page
+I stretch myself, and hear popping in my joints.
+The sound isn't bad.
+Let's try my best today too.
+@page
+-- At that time, I notice.
+I should have been killed.
+And my body should have been eaten.
+@page
+@【至】
+"But... here I am.
+Nothing's missing, not a hand or a foot."
+@page
+Most importantly, I'm alive.
+Just as God said, I've been revived.
+@page
+@【至】
+"What happened to Fanuel?
+Is she in that person's room?
+@page
+I think that, and when I try to leave the room...
+@page
+@bgm s=bgm08
+@mwoff
+@bi s=evn4020
+@wait time=300
+@mwon
+@v s=40664
+@【ファヌル】
+"Haah... hahh... hahh... hahh..."
+@page
+She was there, on the bed.
+Fanuel, bunched up like a child,
+breathing as if she were asleep.
+@page
+@【至】
+"... What's with this?"
+@page
+I smile at her, with her being so 
+unlike her normal carefree appearance.
+@page
+She almost appears to be too happy.
+If it's true, then I don't want to wake her up.
+@page
+But I want to discuss with her what we should do today,
+and what God meant by "corruption".
+@page
+@【至】
+"Sorry, but let me wake you up.
+Fanuel... Hey, Fanuel--"
+@page
+With my hand on her shoulder, I shake her with great strength.
+@page
+@mwoff
+@bi s=evn4021
+@wait time=300
+@mwon
+@v s=40665
+@【ファヌル】
+"Nn... nnnhhhh..."
+@page
+Somehow, her voice sounds like a mumbling puppy.
+@page
+@【至】
+"... It's a cute sound.
+It'd be nice if she was always like this."
+@page
+If I showed her to Wazuka-san and the others,
+I feel like they'd feel the same."
+@page
+@mwoff
+@bi s=evn4022
+@wait time=300
+@mwon
+;【イベントＣＧ】差分
+While I shake her, thinking things like that,
+Fanuel's eyes open.
+@page
+@v s=40666
+@【ファヌル】
+"Nn... fuah... nn-------...hm?
+@page
+@bi s=bg01m
+;【背景】主人公自室朝
+She stands up and rubs her eyes, and looks
+around the room restlessly.
+@page
+@【至】
+"It's my room. Somehow we were sleeping together."
+@page
+@fi s=f31f pos=c
+@v s=40667
+@【ファヌル】
+"Mnnn..."
+@page
+Then she crosses her arms and thinks about something.
+What is it? Whether or not to be sarcastic in the morning?
+Or does she want to do the ceremony or should I say, 'that'?
+@page
+@fi s=f55a pos=c
+@v s=40668
+@【ファヌル】
+"Hm."
+@page
+Fanuel claps and stands closer to me.
+@page
+@fi s=f11cd pos=c
+@v s=40669
+@【ファヌル】
+"Mmn."
+@page
+@【至】
+"W-What?"
+@page
+I ready my defense position for her sarcasm attack.
+@page
+But Fanuel's actions are totally surprising.
+@page
+;【立ち絵】ファヌル立ち絵大
+@fi s=f11dd pos=c
+@v s=40670
+@【ファヌル】
+"Kiss-♪"
+@page
+She embraces me, saying that.
+She caresses my chest like a spoiled child. 
+@page
+@【至】
+"Wh!? What the!? What are you doing!?"
+@page
+;@fi s=f11cd pos=c
+@v s=40671
+@【ファヌル】
+"Nfufufu.♪ It's waaaarm.
+I like this, I looooove this.♪"
+@page
+The Fanuel in my chest is almost...
+No, she's just like a child.
+@page
+She's not acting.
+And if she is, I don't know why.
+@page
+Is it pointless to ask her why with my mouth?
+Then I can ask her with my mind.
+@page
+..........
+@page
+@【至】
+"... Huh?"
+@page
+I get no response.
+Once again, I try asking her what's up.
+But the result is the same-- nothing.
+@page
+@fi s=f11cd pos=c
+@v s=40672
+@【ファヌル】
+"Mmmn, what's uuup?"
+@page
+@【至】
+"N-No... did something happen to you?"
+@page
+@fi s=f11fd pos=c
+@v s=40673
+@【ファヌル】
+"Hmm?"
+@page
+@【至】
+"No, uh... back then.
+Y'know, with the promise with God."
+@page
+@fi s=f11cd pos=c
+@v s=40674
+@【ファヌル】
+"Pro-mise?"
+@page
+She leans her head to the side, as if troubled.
+She takes five seconds to think things through, with a "Hmm, hmm..."
+With another clap,
+@page
+@fi s=f11dd pos=c
+@v s=40675
+@【ファヌル】
+"Pro like a prowling cat,
+and mise is for misery, a sad person!"
+@page
+@【至】
+"Come on. Why are you acting like an idiot anyway?"
+@page
+@fi s=f11ed pos=c
+@v s=40676
+@【ファヌル】
+"Mmnn! I'm not! I'm not actin'!
+You're a dummy! I'm not actin'!"
+@page
+It seems if I ask her if she's acting, she doesn't like it.
+Anyway, what kind of joke is this?
+@page
+I think about how to get her to stop with the jokes,
+and it troubles me.
+@page
+The main cause of my troubles stares into my face
+with a big wide smile, not caring about my puzzlement.
+@page
+@fi s=f11fd pos=c
+@v s=40677
+@【ファヌル】
+"Hey, hey... who are you?"
+@page
+@【至】
+"Huh? It's me."
+@page
+@fi s=f11ed pos=c
+@v s=40678
+@【ファヌル】
+"It's You!"
+I'm, uh... I forgot.
+Anyway, You, tell me!"
+@page
+@【至】
+"Come on, stop the joke.
+I'm Itaru Takamichi, and you're Fanuel."
+@page
+@fi s=f11cd pos=c
+@v s=40679
+@【ファヌル】
+"Aha, I see. I gotcha. Thanks, Itaru!"
+@page
+Did I hurt your feelings in some way?
+I think this is pretty cruel treatment for reviving and waking her up.
+@page
+@【至】
+"Hey, what did I do wrong?
+Did I hit your head when I turned over in my sleep or something?"
+@page
+@fi s=f11fd pos=c
+@v s=40680
+@【ファヌル】
+"Hmhm? Itaru hit me? Where? My head? My body? Where, where?"
+@page
+@【至】
+"No, that's not..."
+@page
+What made her so angry at me?
+Or was there something worse that made her so stupid?
+@page
+My chest stirs at those words.
+I don't know the reason.
+@page
+However, because Fanuel is in front of me, I noticed.
+Her appearance is different from normal.
+It's like she's completely changed.
+@page
+@【至】
+"... Is this her 'corruption'?"
+@page
+This Fanuel shows no signs of her usual sarcastic attitude.
+What if, on the other hand, she lost her intelligence?
+@page
+@【至】
+"... If that wasn't the only thing she lost, then what should I do?
+.......... Isn't this really bad?"
+@page
+With her intellect... was there anything else?
+I feel like I'm leaving something important out.
+@page
+But, perhaps it's because of waking her up or because of the revival,
+or maybe it's because my memory's bad, but I can't remember at all.
+@page
+But the world is considerate.
+Thank you, God.
+For giving me this chance.
+@bgm fade=out
+@page
+@se s=se109
+@bgm s=bgm15
+;【ＳＥ】銃声
+@fi s=f11ed pos=c
+A gunshot-- then, the sound of the door being kicked in.
+Then, Wazuka-san and Matsuri appear.
+@page
+@setOnce
+@fi id=f
+@fi s=w111 pos=lc
+@fi s=m313b pos=rc
+@endOnce
+@v s=21542
+@【祀利】
+"Itaru...? You... you can't be here!"
+@page
+@v s=10772
+@【わずか】
+"I ate Itaru-kun.
+Even though I ate his eyes and his liver and his
+right leg and one-third of his penis, he's..."
+@page
+@【至】
+"Uh, yeah, it's a long story.
+Before that, there's something I want to talk about."
+@page
+At this point, if I had noticed something strange, I would have been fine.
+@page
+But I didn't notice.
+Instead of stopping, I compromised with the two of them to talk about the circumstances.
+@page
+@v s=10773
+@【わずか】
+"This is probably..."
+@page
+@fi s=m51d pos=rc
+@v s=21543
+@【祀利】
+"Is this a fake, or the genuine article."
+@page
+No, everything's going according to plan--
+Before I can say that, a gun and knife are pointed towards me.
+@page
+@fi s=w311 pos=lc
+@v s=10774
+@【わずか】
+"In either case, I'll kill him."
+@page
+@v s=21544
+@【祀利】
+"When I kill him, I can check."
+@page
+@【至】
+"No, don't!
+What would you do if I was real!?
+It's me! I'd die for real!"
+@page
+The two of them smile sweetly.
+@page
+An unusually cheerful, calm, and blissful smile.
+Then--
+@page
+@setOnce
+;@fi id=f
+@fi s=w114 pos=lc
+@fi s=m112 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=10775
+;@【わずか】
+"You were delicious."
+;@v s=21545
+;@【祀利】
+;「美味しかったよ」
+@page
+I take a peek between their lips when they speak.
+Their teeth are sharper than yesterday.
+@page
+@fi s=w414a pos=lc
+@v s=10776
+@【わずか】
+"Itaru-kun... you were absolutely delicious.
+I want to eat you again. I want to eat more and more of you."
+@page
+@fi s=m111a pos=rc
+@v s=21546
+@【祀利】
+"You were tasty because you were the real Itaru.
+Because I loved you, Itaru, you were really tasty."
+@page
+@fi s=m749a pos=rc
+@v s=21547
+@【祀利】
+"And then I got really aroused after that.
+So while I ate... ehehe, I masturbated.♪"
+@page
+@【至】
+"T-That's nice.
+But overeating isn't good, right?
+Just one person should be enough, right? Right?"
+@page
+Shaking their heads, the two of them walk up to me.
+As if to hug me, they both open their arms.
+@page
+@fi s=w111 pos=lc
+@v s=10777
+@【わずか】
+"Don't worry... I'll tell you how you taste."
+@page
+Doesn't that mean I'll be alive while you're eating me!?
+Step by step, they grow closer to me.
+@page
+@fi s=m112 pos=rc
+@v s=21548
+@【祀利】
+"Don't worry. I won't eat her.
+I'll only eat you. Because I love you♪!"
+@page
+@【至】
+"No, that's not what I'm concerned about!"
+@page
+@【至】
+"... Wait, wait a second.
+Do either of you remember Fanuel?"
+@page
+@fi s=m111 pos=rc
+@v s=21549
+@【祀利】
+"Is that her name? Hmm... so it's Fanuel."
+@page
+@fi s=w111 pos=lc
+@v s=10778
+@【わずか】
+"I don't need to remember. I'm going to kill her soon."
+@page
+I was convinced at that time.
+This is definitely the "corruption".
+@page
+What Fanuel lost with her intelligence was
+her powers as an angel.
+@page
+The proof is that Wazuka-san and Matsuri
+can't remember her.
+@page
+@【至】
+"Crap... this is really bad! If that's the case, then...!
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@fi s=f21c pos=c
+@endOnce
+@v s=40681
+@【ファヌル】
+"Hey Itaruuu. My belly's rumblin'.
+I wanna eat somethin'."
+@page
+But before we do something about your hunger,
+it seems these two want to fill their stomaches.
+With my meat, of course.
+@page
+@setOnce
+@fi id=f
+@fi s=w314 pos=lc
+@fi s=m511 pos=rc
+@endOnce
+@v s=10779
+@【わずか】
+"Now, let's eat.
+Itaru-kun, what's on the menu? 
+Steak? Can we fry you? Or would you prefer to be grilled?
+@page
+@fi s=m512 pos=rc
+@v s=21550
+@【祀利】
+"We should figure out the plates, and put veggies and salt into him.
+After he's overflowing with veggies, we'll serve him on a plain white plate.♪"
+@page
+I feel like I've heard these lines somewhere.
+But I'm sorry to say that I don't know where.
+@page
+@【至】
+"Sorry, but you won't finish your preparations.
+I don't really feel like letting you."
+@page
+Emergency measures.
+At times like these, the proper choice is 'nothing'.
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@bi s=bg8150
+@endOnce
+@se s=se061
+@qk time=700
+@flash time=700
+While I think that, I leap.
+I grab Fanuel (who is unexpectedly light)
+and jump through the window from the second floor.
+@page
+@v s=21551
+@【祀利】
+"Ah, you meanie! Don't you love Matsuri!?"
+@page
+@v s=10780
+@【わずか】
+"You shouldn't run."
+@page
+@bi s=bg08d trans=scroll time=300
+@se s=se079
+@qk time=700
+;【背景】路上・昼
+While hearing those voices, I hit the ground.
+@page
+@【至】
+"Phew... I'm way too lucky."
+@page
+I was able to break through the glass because there
+were cracks in it caused by the bullet that Matsuri shot.
+@page
+I landed without injury,
+there was nobody in the street, there weren't any glass fragments,
+and the road felt particularly soft for some reason.
+@page
+@【至】
+"... When did asphault become this brittle?
+But I had no choice, right?"
+@page
+If the coincidences pile up this much, I'll get scared.
+However, I don't have the time to think about this right now.
+@page
+@fi s=f31d pos=c
+@v s=40682
+@【ファヌル】
+"Itaru, do that again!
+This is awesome!"
+@page
+@【至】
+"Later. We'll have more happy fun times starting now!"
+@page
+@fi s=f31c pos=c
+@v s=40683
+@【ファヌル】
+"Likewhatlikewhatlikewhat?"
+@page
+@【至】
+"Tag, of course."
+@page
+If you're caught, you'll be killed and eaten.
+Also, because the other side has weapons,
+we're at an extreme disadvantage.
+@page
+In addition, it seems like the world itself is our foe.
+As if considering the immense luck I just had, it
+sent our third enemy after us.
+@page
+Who is, of course,
+@page
+@jump storage="440101.scn"
+;→440101

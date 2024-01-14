@@ -1,0 +1,44 @@
+﻿;240309
+*240309|_クイズ！　次はおまえだ！
+@fi s=f55a pos=lc
+@v s=40540
+@【ファヌル】
+"Well anyway, this is the reality you chose. Including whether or not Itaru dies."
+@page
+@v s=16001
+@【ウサミ】
+"Who are you talking about?
+Do you mean the person sitting in front of the monitor?"
+@page
+@fi s=f411 pos=lc
+@v s=40541
+@【ファヌル】
+"No, they're not necessarily sitting. They might be standing.
+Or perhaps a certain part of them might be standing."
+@page
+@fi s=f314 pos=lc
+@v s=40542
+@【ファヌル】
+"Whatever. In any case, please enjoy the story after this to the fullest."
+@page
+@fi s=f115 pos=lc
+@v s=40543
+@【ファヌル】
+"Huh? ... Hey, look behind you! Someone's there!"
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"No! Don't turn around! They'll kill you! Ah! Ahhh! AAAAAAAAAAAAHHHHHH!"
+@page
+@act id=u t=stopswing
+@mwoff time=100
+@cut time=100
+@se s=se071
+@bi s=current all=true trans=crossfade time=100
+@bgm fade=stop
+@bi s=blank time=100
+@wait time=2000
+;【演出】暗転
+;→240400
+@jump storage="240400.scn"

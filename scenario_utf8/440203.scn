@@ -1,0 +1,92 @@
+﻿;440203
+*440203|_芽生える想い
+;【ワイプ】時間経過
+;【背景】夜空
+@bi s=bg830
+... After embracing each other like this for a while,
+Fanuel sleeps in my chest.
+@page
+Can an angel even catch a cold?
+While thinking about such stupid things,
+I wear clothes as a substitute for a blanket.
+@page
+While I take a rest like that,
+I look at the clock of my phone and see that it's 9:30PM.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg06b trans=clock
+@bgm s=bgm12
+;@fi s=fi**** pos=****
+@mwon
+;【背景】わずか自宅居間
+@【至】
+"Two and a half more hours...
+I hope nothing else happens."
+@page
+If I calm down and think, despite this one in a million chance,
+we probably shouldn't have had sex a short while ago.
+@page
+We made noise, and yelled.
+I didn't realize because I was absorbed in it,
+but Fanuel's voice was really loud.
+@page
+@【至】
+"In other words, it wouldn't have been strange if they found us."
+@page
+I crouch down and hid myself while looking out the window.
+@page
+.........
+@page
+@【至】
+"... Doesn't look like there's anything out there... I suppose?"
+@page
+I don't feel a lingering gaze nor the signs of the three of them.
+@page
+I notice that the rain has stopped.
+The neighborhood is the same as any normal, quiet night.
+@page
+To be honest, there's no movement at all. It's strange.
+@page
+Wazuka-san will not look in this house.
+However, the other two might.
+Will they use the process of elimination to search here?
+@page
+When will we be found?
+Are they already watching us?
+No, in the background--!
+@page
+@【至】
+"... Don't get impatient. No, don't be scared.
+　No matter what happens, there's only one thing I can do."
+@page
+Yes, I promise myself.
+I will absolutely protect Fanuel.
+@page
+@v s=40835
+@【ファヌル】
+"Nn... Itaru... I love you..."
+@page
+Lured by her sleep talk, I stay near Fanuel.
+@page
+Drool runs down the chin of the angel who sleeps so easily.
+@page
+@【至】
+"... Tch. You're seriously defenseless."
+@page
+I wonder if she'll forgive some mischief?
+@page
+As for the reward--
+@page
+I draw close to her face, and kiss her lightly.
+Her soft warmth clears my anxiety.
+@page
+@【至】
+"I'll protect you... with all my might."
+Lying next to Fanuel, I hug her closely.
+@page
+@bgm fade=out
+@bi s=blank
+@jump storage="440204.scn"
+;→440204

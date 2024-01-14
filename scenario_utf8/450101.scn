@@ -1,0 +1,125 @@
+﻿;450101
+*450101|_全て元通り？
+;【備考】ファヌル視点
+;【演出】暗転
+@bi s=blank
+@v s=40869
+@【ファヌル】
+"... That's... I'm the same way."
+@page
+;【ワイプ】視点変更
+;【背景】住宅街路上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=ランダム
+;@bgm s=bgm***
+@fi s=f311 pos=c
+@mwon
+@v s=40870
+@【ファヌル】
+"Sigh... some free time."
+@page
+As if speaking to someone I don't know, somewhere I don't know,
+I think a little of my feelings slip through.
+@page
+But that's not it.
+There are no feelings. Because I have no heart.
+@page
+My head feels heavy.
+The existence called myself continues to sway.
+@page
+@fi s=f559 pos=c
+@v s=40871
+@【ファヌル】
+"Is this still the reaction to recovering from "before"?
+... Or is there another cause?"
+@page
+Although I already know that--
+Although I already know what's happening to me now.
+@page
+I am an angel.
+A spiritually complete individual, with a flawless spirit.
+@page
+So why did I avert my eyes?
+Because of my current self. Because of the current cause.
+Because I accepted the answer--
+@page
+@se s=se081
+;【ＳＥ】心音
+@qk time=500
+@flash time=500
+@fi s=f556 pos=c
+@v s=40853
+@【ファヌル】
+"... Ugh."
+@page
+@fi s=f559 pos=c
+@v s=40872
+@【ファヌル】
+"... This... again..."
+@page
+I waver.
+My existence wavers.
+@page
+It is repeating once again.
+Angels do not have hearts.
+We have no feelings. We have no concept of excitement.
+@page
+@fi s=f55a pos=c
+@v s=40873
+@【ファヌル】
+"So... if I feel something,
+then that is "wavering".
+Perhaps this is... excitement."
+@page
+What is the reason? Or the cause?
+Why am I feeling this way?
+Why am I wavering in this way?
+@page
+There is only one answer.
+Itaru Takamichi.
+He has changed me. He is inside of me.
+@page
+@fi s=f559 pos=c
+@v s=40874
+@【ファヌル】
+"In other words... this is good will.
+You could say that... I... love... him."
+@page
+I recall all of the current events.
+We have slept together many times.
+There have been a few relaxing actions taken as well.
+@page
+So, there is good will.
+Although my existence was erased, he saved me.
+He protectd my "degenerated" self.
+@page
+@fi s=f556 pos=c
+@v s=40875
+@【ファヌル】
+"Then inside... yes, inside of me is..."
+@page
+Although it's dim, I have the memories of another person like myself.
+Like reading a picture book, those memories are so childish.
+@page
+They were me.
+The me who had lost my angelic powers, but gained a heart.
+@page
+@fi s=f557 pos=c
+@v s=40876
+@【ファヌル】
+"Here... everything is here.
+I... I want to remember.
+If I can't remember--"
+@page
+I say that, and waver once more.
+However, I no longer feel a dull pain.
+@page
+I feel something torn, unbearable, and yet slightly sweet.
+@page
+@mwoff
+@fi id=f
+@bgm fade=out
+@jump storage="450200.scn"
+;→450200

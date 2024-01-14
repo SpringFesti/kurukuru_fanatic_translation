@@ -1,0 +1,173 @@
+﻿;020903
+*020903|_１０月２８日午後４時２２分
+@bi s=bg820
+@bgm s=bgm03
+@mwon
+Then I return to where the two of them
+are waiting, and I begin to walk home.
+@page
+At last, peaceful times have come. It's a very ordinary, everyday scene.
+@page
+But how long is it going to last?
+@page
+Thank you for your immediate prediction.
+That is correct. It ends immediately.
+@page
+@bi s=bg08e
+@fi s=w111 pos=c
+@v s=10440
+@【わずか】
+"... Itaru-kun."
+@page
+I turn around and see Wazuka-san staring at me, looking strangely anxious.
+@page
+@【至】
+"What's up? Do you feel bad?"
+@page
+She shakes her head.
+@page
+@v s=10441
+@【わずか】
+"No... it's about her."
+@page
+Even if she says that, I don't know who she's talking about.
+I'm puzzled.
+Wazuka-san sighs.
+@page
+@fi s=w112 pos=c
+@v s=10442
+@【わずか】
+"From yesterday on the roof... That girl.
+She's no good for you, Itaru-kun."
+@page
+Oh, she's talking about Otogiri-san.
+But what is she talking about, saying she's no good for me?
+@page
+@【至】
+"Why? What are you talking about?
+Why would she be good or bad for me?"
+@page
+@fi s=w548 pos=c
+@【わずか】
+"........."
+@page
+No reply.
+But I hear a faint answer in the form of a sigh.
+It's a slightly sorrowful sound.
+@page
+@fi s=w113 pos=c
+@v s=10443
+@【わずか】
+"... I'll go get dinner ready."
+@page
+When she says that, I notice that we're in front of the house.
+Wazuka-san turns away from me and goes inside.
+@page
+@fi id=w
+@fi s=m111 pos=c
+@v s=20501
+@【祀利】
+"Are you going to stop?"
+@page
+@【至】
+"Do you want me to stop?"
+@page
+@fi s=m212 pos=c
+@v s=20502
+@【祀利】
+"Nope. It's nice to be alone with you.♪"
+@page
+Matsuri wraps her arms around me.
+It's nice and soft, so I should feel good, right?
+Unfortunately, I'm not in that kind of mood right now?"
+@page
+I wonder what's up with Otogiri-san.
+Did something happen yesterday?
+Yeah, and Wazuka-san was acting a little weird too."
+@page
+@fi s=m111 pos=c
+@v s=20503
+@【祀利】
+"Hey, are you thinking about her?"
+@page
+I'm startled that she could see through me so easily.
+It appears that my thoughts came through on my face.
+@page
+@fi s=m64b pos=c
+@v s=20504
+@【祀利】
+"Bulls-eye, huh.
+But I'm okay with that, somehow."
+@page
+@【至】
+"Somehow? You're not talking to a rock here."
+@page
+Waving her finger smugly, Matsuri turns a wry smile towards me.
+@page
+@fi s=m749 pos=c
+@v s=20505
+@【祀利】
+"I can tell just by looking at you.
+Danger perception is the most basic skill of all!
+Otherwise, you can't survive."
+@page
+@fi s=m74a pos=c
+@v s=20506
+@【祀利】
+"She is the worst.
+She only thinks about herself."
+@page
+@【至】
+"Like you?"
+@page
+@fi s=m214 pos=c
+@v s=20507
+@【祀利】
+"Nuh-huh! I love Itaru!
+I wanna love you more and more and more!"
+@page
+@fi s=m115 pos=c
+@v s=20508
+@【祀利】
+"... So dont' be together with that stupid amateur.
+She's just a freak, isn't she?"
+@page
+@fi s=m647 pos=c
+@v s=20509
+@【祀利】
+"Listen to me.
+You must not approach her any further."
+@page
+@fi s=m648 pos=c
+@v s=20510
+@【祀利】
+"Please Itaru, can you listen to my request?"
+@page
+Why is her tone changing around so much?
+But I'm not in the mood to listen to her right now.
+So, I say:
+@page
+@【至】
+"I'll think about it."
+@page
+Which means, "I'll decide after I'm together with her more."
+@page
+@fi s=m64b pos=c
+@v s=20511
+@【祀利】
+"Okay. I don't know if you're going to regret it."
+@page
+@【至】
+"If I do, please come to my rescue."
+@page
+While I'm thinking about how Matsuri is probably overexaggerating,
+I hear Wazuka-san's voice from inside the house.
+@page
+The wind that carries the cold of night brushes against my skin.
+Looking at each other's cold faces,
+we open the front door.
+@page
+@fi id=m
+@bgm fade=stop
+@jump storage="021000.scn"
+;→021000

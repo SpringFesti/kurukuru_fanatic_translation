@@ -1,0 +1,231 @@
+﻿;020900
+*020900|１０月２８日午後４時２２分
+;【ワイプ】場面転換
+;【背景】夕空
+;【ＳＥ】チャイム
+;【ワイプ】場所移動
+;【背景】教室・夕方
+;【ＳＥ】ざわめき
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg820 trans=tile
+@se s=se011
+@wait time=2000
+@wait time=200
+@bi s=bg12e trans=ひし形(左から右へ)
+@se s=se087
+@bgm s=bgm03
+@fi s=m212 pos=c
+@mwon
+@v s=20472
+@【祀利】
+"Awesome, it's finally over!♪"
+@page
+@se fade=out
+@【至】
+"...Weren't you sleeping the whole time?"
+@page
+She had slept until homeroom had ended.
+Looking at her mouth, I can see traces of drool.
+@page
+@【至】
+"But I wonder how you can even sleep well in that position.
+Aren't your arms tired?"
+@page
+@fi s=m647a pos=c
+@v s=20473
+@【祀利】
+"If you think that, you should carry me...
+maybe even to bed?"
+@page
+@【至】
+"Ha, what, a bed inside of a classroom?
+We'd get kicked out."
+@page
+@fi s=m112 pos=c
+@v s=20474
+@【祀利】
+"Then we could play more!
+Come on, bring a bed in here so we can lie down!"
+@page
+I get ready to go, giving her a vague answer.
+Well, even if I say that I'm getting ready to go,
+I leave my books in my desk, so I have an empty backpack.
+@page
+@【至】
+"Now then... I wonder where Wazuka-san is?"
+@page
+@fi s=m64b pos=c
+@v s=20475
+@【祀利】
+"Mmn, who cares! Let's just go home together!"
+@page
+@fi s=m74b pos=c
+@v s=20476
+@【祀利】
+"Do you hate me? You don't want it to be just the two of us?"
+@page
+She says, looking up at me.
+If you were the kind who liked the young and fragile type,
+I'm sure you'd crack right here and now.
+@page
+... Sorry, I cracked a little here too.
+@page
+@fi s=m111 pos=c
+@v s=20477
+@【祀利】
+"Come on, let's go. I feel all icky and sticky,
+let's go in the bath together."
+@page
+@fi s=m647 pos=c
+@v s=20478
+@【祀利】
+"I can wash your back... and if you want...
+even more... right?"
+@page
+;【立ち絵】ここではなし
+@v s=10415
+@【わずか】
+"Don't even try."
+@page
+@fi s=m647 move=rc
+@fi s=w112 pos=lc
+I look back, and see Wazuka-san.
+When did she get here?
+@page
+She's expressionless as always.
+But her... aura is different somehow.
+Almost like an extremely negative aura, like black or red.
+@page
+@v s=10416
+@【わずか】
+"Itaru-kun, let's go home. Now."
+@page
+@【至】
+"Ah... ah, yeah, just a minute."
+@page
+@v s=10417
+@【わずか】
+"No. It'll be dark soon."
+@page
+Wazuka-san grasps my hand, trying to reason with me.
+@page
+@fi s=w212 pos=lc
+@v s=10418
+@【わずか】
+"Nothing good can come from that."
+@page
+She begins to walk away with my arm.
+Of course, the rest of me has to follow it.
+@page
+@【至】
+"W-Wait! Matsuri is still here!"
+@page
+@fi s=w412 pos=lc
+@v s=10419
+@【わずか】
+"What, that trash? Doesn't matter to me."
+@page
+Well, I'm sure of that.
+I can't afford to leave without her, though.
+Then, when I thought that--
+@page
+@fi s=m111 pos=rc
+@v s=20479
+@【祀利】
+"Come on Itaru, let's go home."
+@page
+Immediately, my hand is held.
+Of course, Matsuri's the one holding it.
+@page
+@fi s=m212 pos=rc
+@v s=20480
+@【祀利】
+"The bath should feel really good.
+If just the two of us I get in, it'll be awesome!♪"
+@page
+@fi s=m111 pos=rc
+@v s=20481
+@【祀利】
+"So we should go, right Itaru?
+Before anyone else gets in the way?"
+@page
+Matsuri starts walking extremely quickly, dragging me along.
+@page
+Naturally, with Matsuri and Wazuka-san both dragging me,
+we're going quite fast.
+@page
+What'll happen now?
+Well, that's a no-brainer.
+@page
+@fi s=w112 pos=lc
+@v s=10420
+@【わずか】
+"Itaru-kun, the sun is almost down."
+@page
+Well, no, it's still sunset.
+@page
+@v s=10421
+@【わずか】
+"Let's go. We really, really have to hurry."
+@page
+@bi s=current all=true trans=crossfade time=100
+@mwoff
+@bgm s=bgm09
+@se s=se037 buf=0
+@bi s=bg10e time=100
+@lineFXon time=100
+@se s=se078 loop=true buf=1
+@qk time=1000
+@wait time=1000
+@mwon
+As she sprints out of the classroom, could anyone stop Wazuka-san?
+@page
+It's impossible. 
+She can't even hear me.
+@page
+@【至】
+"Wait! Stop! For god's sake, stoooooooo
+ooooooppppppppppppppppp..."
+@page
+@fi s=w115 pos=lc opacity=160
+As I scream, Wazuka-san overtakes Matsuri.
+She smiles grimly.
+She must be sneering triumphantly at Matsuri.
+@page
+@fi s=m115 pos=rc opacity=160
+@v s=20482
+@【祀利】
+"That bitch...! I'll drag her to death!!!"
+@page
+@bi s=current all=true trans=crossfade time=300
+She'll kill me first!
+I flap along behind them like a kite in the storm.
+@page
+@【至】
+"Waaaaaaiiiiiitttt!
+For crying out loouuudd, listeeeen to meeeeeeee!!"
+@page
+As I follow behind them, my voice reverberates.
+Huh, the Doppler effect in action.
+@page
+My feet are floating above the ground.
+The speed of two women with murderous rage compelled by jealousy
+is really and truly fast.
+@page
+Could I run at the same speed as them?
+-- Can I do it? Can I?
+@page
+@qk time=1000
+@lfont
+@【至】
+"Of course I caaaaannnn!!!"
+@page
+There's the Doppler effect again.
+@page
+;分岐
+;フラグ010700起立かつかごめ好感度特定値以上　→320100
+;それ以外　→020901
+@jump storage="320100.scn" cond="f._010701"
+@jump storage="020901.scn"

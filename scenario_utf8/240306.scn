@@ -1,0 +1,91 @@
+﻿;240306
+*240306|クイズ！　次はおまえだ！
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+;【カットイン】書き文字「クイズ！　次はおまえだ！」
+@setOnce
+@mwoff
+@bgm fade=stop
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+;【ＳＥ】ウサミ平素
+@se fade=out
+@v s=16002
+@【ウサミ】
+"No skipping us with the Ctrl key!♪
+This is Quiz! You're Next! With your host Usami!"
+@page
+@fi s=f311 pos=lc
+@v s=40531
+@【ファヌル】
+"And I'm your host Fanuel."
+@page
+@v s=16004
+@【ウサミ】
+"That was a really big disturbance!"
+@page
+@v s=16002
+@【ウサミ】
+"So what happened after the battle?
+Did any of them learn any attacks by leveling up!?
+Come on, let's trade poke-- I mean girls as friends! Okay!?"
+@page
+@fi s=f55a pos=lc
+@v s=40532
+@【ファヌル】
+"That was quite interesting.
+They really did make a battle mode. Though that kind of thing is superfluous to an eroge."
+@page
+@v s=16001
+@【ウサミ】
+"Well, what do you consider absolutely needed then?"
+@page
+@fi s=f111 pos=lc
+@v s=40533
+@【ファヌル】
+"Just those three people."
+@page
+@v s=16001
+@【ウサミ】
+"Ah, nice topic dodge."
+@page
+@fi s=f759 pos=lc
+@v s=40534
+@【ファヌル】
+"In the first place, there's no real sense of confronting your opponent there."
+@page
+@fi s=f75b pos=lc
+@v s=40535
+@【ファヌル】
+"We're talking a one-sided smashing of those useless hunks of meat here.
+So something like a "battle scene" is impossible."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"So one blow really will kill you, is that it!? How scary!"
+@page
+@fi s=f111 pos=lc
+@v s=40536
+@【ファヌル】
+"Anyway, here's the question.
+What do you want to happen to Matsuri? Answer."
+;選択肢
+@pages
+@selinit
+@selbtn cap="Starve to death" s="240307.scn"
+@selbtn cap="Wazuka and Otogiri kill her" s="240308.scn"
+@s

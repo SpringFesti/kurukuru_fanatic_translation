@@ -1,0 +1,52 @@
+﻿;230504
+*230504|_クイズ！　次はおまえだ！
+@fi s=f311 pos=lc
+@v s=40510
+@【ファヌル】
+"There is evil in human goodness. But at the same time, goodness is not evil."
+@page
+@v s=16001
+@【ウサミ】
+"Wow, that sounds like a zen koan or something.
+Did you steal one of them or something?"
+@page
+@fi s=f559 pos=lc
+@v s=40511
+@【ファヌル】
+"Probably, there's a lot of them. But in summary, you can go kill whatever you want."
+@page
+@fi s=f55b pos=lc
+@v s=40512
+@【ファヌル】
+"I'll laugh at anybody that tries to get through the Pearly Gates while surpressing that desire, you know."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Then you can go to heaven if you kill someone!? Viva la genocide!"
+@page
+@fi s=f111 pos=lc
+@v s=40513
+@【ファヌル】
+"Are you kidding? The gates of heaven do not open to murderers. That's common sense."
+@page
+@fi s=f55a pos=lc
+@v s=40514
+@【ファヌル】
+"Anyway, pile up good deeds. God knows whether or not you will be rewarded."
+@page
+@act id=u t=swing
+@v s=16001
+@【ウサミ】
+"I've come to hate living now... 
+See ya next timmmeeeeeee..."
+@page
+;【演出】暗転
+;→230600
+@act id=u t=stopswing
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="230600.scn"

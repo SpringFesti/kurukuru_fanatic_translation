@@ -1,0 +1,120 @@
+﻿;140300
+*140300|味？　それとも気持ち？
+;【ワイプ】時間経過
+;【背景】青空
+;【ＳＥ】チャイム音
+;【背景】屋上
+@bi s=white all=true
+@wait time=200
+@bi s=bg810
+@se s=se011
+@wait time=3000
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@bgm s=bgm03
+@mwon
+And then it was lunchtime--
+@page
+As usual Wazuka-san joins us,
+and the three of us start to eat.
+@page
+@se fade=out
+Well, there is one magical thing here.
+@page
+@fi s=w547 pos=c
+And that would be Wazuka-san's smiling face...
+@page
+@fi s=w112 pos=c
+@【わずか】
+"......"
+@page
+When I take out two lunch boxes,
+her expression immediately sours.
+@page
+... And the magic is gone.
+@page
+@fi s=w412 pos=c
+@v s=11082
+@【わずか】
+"Her lunch box again?"
+@page
+@【至】
+"Err, well... it's a four-dimensional wonder."
+@page
+@fi s=w548 pos=c
+@v s=11083
+@【わずか】
+"What? I don't get it."
+@page
+@【至】
+"Heh, yeah..."
+@page
+If I was told something like that,
+I wouldn't get it either.
+@page
+But when I saw those infinite lunch boxes,
+I couldn't help but just give up and accept it.
+And that's how I explain it to her.
+@page
+@fi s=w112 pos=c
+@v s=11084
+@【わずか】
+"I really should go kill her."
+@page
+@【至】
+"No. Be friendlier."
+@page
+@fi s=w211 pos=c
+@v s=11085
+@【わずか】
+"Then I'll just throw that bag off the roof."
+@page
+An utter refusal. I must be stupid
+to try to convince her otherwise.
+@page
+@fi s=w111 pos=c
+@v s=11086
+@【わずか】
+"Should I do it now?
+Even if she comes for it, I'll chase her away.
+So I should, right? Gimme it so I can.
+@page
+@【至】
+"I told you, no. How could you throw away
+something that she went to such pains to make?"
+@page
+@fi s=w213 pos=c
+@v s=11087
+@【わずか】
+"... I suppose so."
+@page
+Huh? She actually acknowledged me?
+@page
+@fi s=w548 pos=c
+@v s=11088
+@【わずか】
+"Her's is better than mine...
+So I can't throw it away..."
+@page
+Woah, she's sulky all of a sudden...
+@page
+It must be a huge shock to lose at cooking skill.
+With this much difference between them,
+she can't even bluff about it.
+@page
+@v s=11089
+@【わずか】
+"So... what about my lunch box..."
+@page
+I rarely get the chance to see her sulk like this.
+I kinda want to see it a bit more...
+Of course, I can't tell her that.
+@pages
+@selinit
+@selbtn cap="Your's is better" s="140301.scn"
+@selbtn cap="Don't throw it away" s="140302.scn"
+@s
+;選択肢
+;わずかのほうが美味しい　→140301
+;捨てるのも悪いし……　→140302

@@ -1,0 +1,580 @@
+﻿;010404
+*010404|_Cloudy With A Chance of Red Rain
+
+@【至】
+"What if I told you I was at fault here too?"
+
+@page
+@fi s=w112d pos=c
+@v s=10145
+@【わずか】
+"So what? I should have let her kill you? That would be awful!"
+@page
+Err, Wazuka-san, beating someone's head against a wall until they die is 
+awful too, you know.
+@wait time=800
+―― But I keep those words to myself.
+
+
+
+
+@page
+;@fi s=w112a pos=c
+@v s=10146
+@【わずか】
+"Itaru-kun, let go! I have to kill her!"
+
+@page
+@【至】
+"I can't do that!"
+
+@page
+@fi s=w113d pos=c
+@v s=10147
+@【わずか】
+"Why?　Is it because she's our classmate? Or... are you in love with her!?"
+
+
+@page
+It's a strange mental leap to make, but that's just how she is.
+If it's come to this, I have to talk her out of this.
+
+
+
+@page
+@【至】
+"Wazuka-san, where are we?"
+
+@page
+@fi s=w111d pos=c
+@v s=10148
+@【わずか】
+"School."
+
+@page
+@【至】
+"Yes, we're not home. So, this could get pretty bad, right?"
+
+
+@page
+Wazuka-san looks a bit doubtful. But that's fine, I can do this.
+
+
+@page
+@【至】
+"Cleaning this up is gonna be pretty hard. Plus, we're in broad daylight, 
+aren't we? If someone sees this, it'll be hard to convince them we didn't do it."
+
+
+
+@page
+;@fi s=w211d pos=c
+@v s=10149
+@【わずか】
+"I can do it."
+
+@page
+@【至】
+"No, you can't."
+
+@page
+@fi s=w112d pos=c
+@v s=10150
+@【わずか】
+"I will."
+
+@page
+I can't let up. One more push.
+
+@page
+@【至】
+"Alright. Go ahead. But what about dinner?
+You wouldn't be able to cook while cleaning all this up, would you?"
+
+
+
+@page
+@fi s=w113d pos=c
+@v s=10151
+@【わずか】
+"Oh..."
+
+@page
+@【至】
+"Dinner or her, which is more important?"
+If you didn't cook for me, I'd be in a lot of trouble."
+
+
+
+@page
+@fi s=w548ad pos=c
+@v s=10152
+@【わずか】
+"I'm sorry... I, I've been a bad girl."
+
+@page
+@【至】
+"No, it's not your fault. Sorry for making you do all this."
+
+
+@page
+@fi s=w114d pos=c
+@v s=10153
+@【わずか】
+"No... Itaru-kun, you're so kind. Very... very kind... ehehehe."
+
+
+@page
+I feel bad for the girl she almost killed, 
+but this is the only excuse I could think of.
+
+
+@page
+If I don't replace the problem at hand with a very personal issue, 
+she won't calm down.
+
+
+@page
+@【至】
+"... Alright, I feel better now."
+
+@page
+Not really, though. I haven't addressed the other girl yet.
+
+
+@page
+@v s=30037
+@【？？？】
+"U, umm..."
+
+@bgm fade=out
+@page
+I quickly turn around to face the source of the voice.
+
+@page
+@setOnce
+@bgm s=bgm07
+@fi id=w
+@fi s=k212 pos=c
+@endOnce
+And it's her. It looks like she's not holding that knife anymore.
+It looks like her angry mood is gone too.
+
+
+
+@page
+@fi s=k212 pos=c
+@act id=k t=neckswing
+@v s=30038
+@【？？？】
+"I, I apologize for causing you any inconvenience!"
+
+@page
+@【至】
+"No, I'm alright... are you okay?"
+
+@page
+@v s=30039
+@【？？？】
+"YYYYes! Absolutely!"
+
+@page
+Maybe she cleaned herself up while I talked to Wazuka-san,
+because I don't see any blood on her smiling face.
+
+
+
+@page
+I say that, but there's still spots of blood on her hair and uniform.
+
+
+@page
+@【至】
+"Are you sure you're fine? Do you need to go to the nurse's office?"
+
+@page
+@setOnce
+@act id=k t=stopswing
+@fi s=k212 move=rc
+@act id=k t=neckswing
+@fi s=w111 pos=lc
+@endOnce
+@v s=10154
+@【わずか】
+"Leave us alone."
+
+@page
+@【至】
+"Wazuka-san..."
+
+@page
+@fi s=w114 pos=lc
+@v s=10155
+@【わずか】
+"Itaru-kun, let's get back to eating lunch now."
+
+@page
+@【至】
+"No, that's not what I..."
+
+@page
+@fi s=w111 pos=lc
+@v s=30040
+@【？？？】
+"D- d- don't worry about me, please! Thi- this was all my fault!"
+
+
+@page
+@act id=0 t=stopswing
+@fi s=k213a pos=rc
+@v s=30041
+@【？？？】
+"U- u- um, a- actually... did you see it?"
+
+@page
+@【至】
+"See what?"
+
+@page
+―― Now that I think about it, I remember her shouting about her precious or something.
+
+
+@page
+That was the reason she tried to kill me. What could that thing have been?
+Can I ask? Or――
+
+
+
+@page
+@【至】
+"I don't really know what you mean... but I didn't see anything."
+
+@page
+I don't want any more trouble. I don't want to pour fuel on that fire.
+
+
+@page
+She sighs, obviously relieved. It seems I picked the correct answer.
+
+
+@page
+@fi s=k214a pos=rc
+@v s=30042
+@【？？？】
+"A, aha, I see! Y, yeah! That's good! Th, then there's no problem!"
+
+
+
+@page
+@v s=10156
+@【わずか】
+"Just leave."
+
+@page
+@fi s=k212 pos=rc
+@v s=30043
+@【？？？】
+"Y, ye, yes ma'am!"
+
+@page
+@【至】
+"Wait! I didn't catch your name! Ever since... that thing this morning."
+
+
+@page
+@fi s=k211 pos=rc
+@v s=30044
+@【？？？】
+"Oh, what thing this morning?"
+
+@page
+@fi s=k448 pos=rc
+@v s=30045
+@【？？？】
+"Oh."
+
+@page
+@fi s=k213a pos=rc
+@act id=k t=neckswing
+@v s=30046
+@【？？？】
+"Ohh, ohhhh!　Yeah, that!　Th- th- THAT!"
+
+@page
+@v s=30047
+@【？？？】
+"Yeah! I really, really want to apologize for that! I'm super sorry!"
+
+
+@page
+@【至】
+"W, well... uh... it was an accident, so you don't have to apologize that much..."
+
+@page
+@v s=30048
+@【？？？】
+"Nn, no!　An, an accident?! It, it was a super duper bad accident!
+Supercalifragilisticexpialidociously bad!"
+
+
+
+@page
+I don't know what she means by that last part, but it looks like we agree.
+Looks like it's case closed.
+
+
+
+@page
+@【至】
+"... So, what's your name? I'm Takamichi Itaru. We're in the same class, right?"
+
+
+@page
+@act id=0 t=stopswing
+@fi s=k212a pos=rc
+@v s=30049
+@【？？？】
+"S, sorry! I, I-um... I don't have any friends."
+
+
+@page
+@fi s=k214a pos=rc
+@v s=30050
+@【かごめ】
+"Ah, um, uh, that, that is... I'm, Oto, Otogiri Kago, Kagome!
+Pleased, pleased to meet you... you!"
+
+
+
+@page
+@v s=10157
+@【わずか】
+"Never show your face around me again. I won't let you live next time."
+
+@page
+@【至】
+"Give it a break already! I'm just making friends with a classmate."
+
+
+@page
+@v s=10158
+@【わずか】
+"You don't need to make friends. Especially with HER."
+
+@page
+I'd like to retort, but we need to stop.
+It'd be better to follow this up and get the truth after we get back to class.
+
+
+
+@page
+@fi s=w112 pos=lc
+@v s=10159
+@【わずか】
+"What are you doing? Leave."
+
+@page
+@fi s=k212 pos=rc
+@v s=30051
+@【かごめ】
+"I- I, I- I- I- I- I, I understand! S- s- so p, please ex, excuse me!"
+
+
+@page
+@setOnce
+@fi id=k
+@fi s=w112 move=c
+@endOnce
+She bows deeply―― and turns around at the same time, 
+a very skillful maneuver. Then, she runs away as fast as she can.
+
+
+
+@bgm fade=out
+@page
+@bgm s=bgm02
+@【至】
+"She must be really scared..."
+
+@page
+@fi s=w111 pos=c
+@v s=10160
+@【わずか】
+"Even though I didn't kill her?"
+
+@page
+@【至】
+"But you were going to kill her, weren't you?"
+
+@page
+@fi s=w11b pos=c
+@v s=10161
+@【わずか】
+"Because of the knife! She pointing that at you! Fuck that, I'll kill her!"
+
+
+@page
+Wazuka-san clenches her fist. Maybe it's because of her anger, 
+or maybe it's because she let her prey go.
+
+
+@page
+Even so, that doesn't matter. I take her clenched hand and spread it open.
+
+
+@page
+@【至】
+"You really did get cut―― Whoah, wait, this is really deep!"
+
+
+@page
+@fi s=w111 pos=c
+@v s=10162
+@【わずか】
+"No big deal. It'll heal up on it's own."
+
+
+@page
+@【至】
+"No, it won't. Wait just a second."
+
+@page
+I always have a band-aid in my pocket ready to go. I'm always prepared... 
+But really, Wazuka-san makes sure I have it with me every morning.
+
+
+
+@page
+I've never used it myself. I made sure I had it for Wazuka-san and situations like this.
+
+
+@page
+@【至】
+"Wipe away the blood, and put on the band-aid... and there we go."
+
+
+@page
+@fi s=w113d pos=c
+;【立ち絵】わずか/大
+@v s=10163
+@【わずか】
+"... I'm making you worry, aren't I?"
+
+@page
+@【至】
+"It's just a band-aid, right? It's nothing."
+
+@page
+@fi s=w548ad pos=c
+@v s=10164
+@【わずか】
+"No, really! That was for you. Then you had to give it to me, and..."
+
+
+@page
+I finish dressing her wound, and she touches my palm.
+
+@page
+@fi s=w114a pos=c
+@v s=10165
+@【わずか】
+"... Thanks. I live for you, so..."
+
+
+@page
+@【至】
+"... Man, I'm confused."
+
+@page
+Maybe I'm confused about what she said, or maybe I'm confused about my own feelings. I don't even know what I'm confused about.
+
+
+@page
+However, I do understand one thing.
+
+@page
+It seems that this time, my love was tested.
+
+@wait time=800
+―― Really, though?
+
+@page
+@setOnce
+@fi id=w
+@bi s=bg810
+@endOnce
+;【背景】青空
+And so, with that everyday... err, no, unthinkable event, 
+our lunchtime continues.
+
+
+@page
+I put up a contented smile while I finish my half-cooked meat, Wazuka-san finishes her lunchbox-turned-gruel, and our meal comes to an end.
+
+
+
+@page
+Now all we've got left are our afternoon classes. Now that I'm done eating, 
+I want to go to sleep, which is natural for human beings, I guess.
+
+
+
+@page
+5 times my head falls onto the desk. 2 times the teacher warns me.
+That's actually good progress for me.
+
+
+
+@page
+;【背景】教室/昼
+@bi s=bg12d
+Meanwhile, I look at Otogiri-san, and find that she's the same way.
+Wait, no. She's doing something.
+
+
+@page
+On a piece of paper hidden behind her textbook,
+she's scratching something down onto a piece of paper.
+
+
+@page
+@【至】
+(... I wonder what she's doing? Taking notes? ... Probably not.)
+
+
+@page
+I can tell, because Otogiri-san hasn't raised her head even once.
+
+
+@page
+@【至】
+(Is that the thing she was talking about earlier? ... Well, whatever.)
+
+
+@page
+Discretion is the better part of valor. I should be careful about when I talk to her about that.
+
+
+@page
+;【背景】青空
+@bi s=bg810
+... I think that, and my head flops onto the desk once more.
+
+@page
+;【背景】夕空
+@bi s=bg820
+This happens about 5 or 6 times per class before the sun finally begins to set.
+
+
+@page
+Then...
+
+@page
+@mwoff
+@bgm fade=out
+@bi s=bg830
+@wait time=3000
+@jump storage="010500.scn"
+;【ワイプ】時間経過
+;【背景】夜空
+;→010500

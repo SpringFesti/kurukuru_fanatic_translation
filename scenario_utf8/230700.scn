@@ -1,0 +1,311 @@
+﻿;230700
+*230700|祀利のお願い
+;【ワイプ】視点切り替え+場面転換
+;【背景】自宅居間・灯りあり
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ランダム
+@bgm s=bgm03
+@fi s=w121 pos=c
+@mwon
+After being home from school for several hours--
+I was helping Wazuka-san with her preparations for dinner.
+@page
+But that's not all. We had repaired a broken cupboard a little while ago,
+and did our homework before that.
+@page
+It seems that she's trying to stay by my side to prevent Matsuri from getting close to me.
+@page
+@setOnce
+@fi s=w121 move=lc
+@fi s=m64b pos=rc
+@endOnce
+@v s=20855
+@【祀利】
+"Itaru, aren't you done helping her yet?"
+@page
+@【至】
+"Ah, yeah... sorry. I'll be done in a little bit.
+@page
+@fi s=m114 pos=rc
+@v s=20856
+@【祀利】
+"Man, I'm so bored. Can't you help Matsuri too?"
+@page
+@v s=10631
+@【わずか】
+"No. You're getting in the way of cooking."
+@page
+@fi s=m74b pos=rc
+@v s=20857
+@【祀利】
+"Mnnnnn..."
+@page
+This is one of Wazuka-san's good points.
+@page
+Rather than forcibly keeping Matsuri away, she's giving her reasons.
+@page
+"You're interfering with our studying."
+"You're in the way of dinner."
+Things like that.
+@page
+If she started with "Die, go somewhere else" like normal,
+Matsuri would strike back and I'd have to get in the middle again.
+@page
+However, if there's a good reason then there's not much she can do.
+@page
+Because she knows that, Matsuri can't interfere.
+@page
+@fi s=m111 pos=rc
+@v s=20858
+@【祀利】
+"Oh oh, then Matsuri will cheer Itaru on!"
+@page
+@fi s=m212 pos=rc
+@v s=20859
+@act id=m t=bow
+@【祀利】
+"Go, go Itaru!
+@act id=m t=bow
+Do your best, Itaru!"
+@act id=m t=bow
+@page
+@【至】
+"H, hey!? If you're loud in such a place--"
+@page
+;【ＳＥ】包丁が床に刺さる音
+@se s=se071
+A kitchen knife fell at her feet.
+@page
+@fi s=m64a pos=rc
+The place where Matsuri's foot had been just a second ago.
+@page
+It stood vertically in the floor, piercing the wooden floor.
+@page
+@fi s=w121 pos=lc
+@v s=10632
+@【わずか】
+"... Oh, I'm so sorry. My hand slipped."
+@page
+@【至】
+"Ah, watch out! A little more and it would have gone through Matsuri's foot!"
+@page
+@fi s=w124 pos=lc
+@v s=10633
+@【わずか】
+"Yes, I'm quite sorry about that.
+... Though it would have been better if it had.
+Ufufufufu."
+@page
+@fi s=m648 pos=rc
+@v s=20860
+@【祀利】
+"... What an interesting joke. Then, Matsuri's hand is going to slip too."
+@page
+;【ＳＥ】拳銃を構える
+@se s=se131
+@fi s=m412 pos=rc
+@v s=20861
+@【祀利】
+"Whoops, my hand slipped. Whoops, my finger's on the trigger."
+@page
+@fi s=w324 pos=lc
+@v s=10634
+@【わずか】
+"Yes, my hands have been slipping a lot recently.
+Maybe the knife will go towards your heart this time. I don't know."
+@page
+@【至】
+"Damn it, stop! No knives or guns! Put them away, both of you!"
+@page
+@setOnce
+@fi s=w121 pos=lc
+@fi s=m74b pos=rc
+@endOnce
+@v s=20862
+@【祀利】
+"Ohh, but that's not fair. She started this whole thing..."
+@page
+@【至】
+"Yes, but that doesn't mean you have to kill her."
+@page
+@fi s=m112 pos=rc
+@v s=20863
+@【祀利】
+"You could kill for that kind of thing in Matsuri's country."
+@page
+@qk
+@lfont
+@【至】
+"THIS. IS. JAPAN."
+@page
+@fi s=w122 pos=lc
+@v s=10635
+@【わずか】
+"Hmph... anyway, go play somewhere. You're in the way of dinner."
+@page
+@setOnce
+@fi id=w
+@fi s=m64b move=c
+@endOnce
+With a firm look, Wazuka-san turns back to the cutting board.
+@page
+@【至】
+"Come on Matsuri, put away the gun."
+@page
+@v s=20864
+@【祀利】
+"Oh... alright."
+@page
+Grudglingly, Matsuri slips the pistol back into her jacket.
+@page
+@【至】
+"Alright then! Now, sit here and wait for a bit."
+@page
+I push on Matsuri's back, and have her sit down on a cushion.
+@page
+@fi s=m74b pos=c
+@v s=20865
+@【祀利】
+"But... this is so weird.
+Even though we're fiancees, why can't we play together."
+@page
+@【至】
+"We-Well, there's nothing I can do. Just wait a little longer."
+@page
+@fi s=m114 pos=c
+@v s=20866
+@【祀利】
+"You said that a while ago!
+You're probably gonna make up another excuse after the cooking's done, too!"
+@page
+@【至】
+"Th-that's... that's probably true. But while Wazuka-san is here, there's nothing I can--"
+@page
+@fi s=m749 pos=c
+@v s=20867
+@【祀利】
+"... Hey, Itaru... if I can't kill that woman, can you do something about her?"
+@page
+@【至】
+"W-Well, I'm not sure what I could do in the first place..."
+@page
+@fi s=m74b pos=c
+@v s=20868
+@【祀利】
+"Come on... for me?"
+@page
+With such a sweet tone, she runs a hand down onto my crotch.
+@page
+@fi s=m747d pos=c
+@v s=20869
+@【祀利】
+"When we're alone... we can do whatever we want, can't we?"
+@page
+After Matsuri began running her hand over my crotch, I had promptly gotten a boner.
+@page
+@【至】
+"O-Okay... I'll think of something. Just wait for a bit."
+@page
+I tell Wazuka-san that I'm going to the bathroom, and slip out of the living room.
+@page
+;【背景】自宅廊下・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg02d trans=ひし形(左から右へ)
+@mwon
+@【至】
+"Heeey, Fanuel, you here?"
+@page
+@bgm s=bgm08
+@fi s=f111 pos=c
+@v s=40515
+@【ファヌル】
+"You called?"
+@page
+@【至】
+"Aaaghh!? ... Don't appear so suddenly, you scared me."
+@page
+@fi s=f312 pos=c
+@v s=40516
+@【ファヌル】
+"Is that a complaint? You're the one who called me."
+@page
+@【至】
+"Sigh... whatever. By the way, I have a favor I need to ask of you. Is that alright?"
+@page
+@fi s=f559 pos=c
+@v s=40517
+@【ファヌル】
+"What is it? Is it about how you're going to die?"
+@page
+@【至】
+"Well, not really... but if I can ask about that, I would love to...
+but that's not the point."
+@page
+@【至】
+"So, could you take Wazuka-san outside for a while? 2 or 3 hours should be perfect."
+@page
+@fi s=f111 pos=c
+@v s=40518
+@【ファヌル】
+"Huh? Just take her out? What kind of request is that?"
+@page
+@【至】
+"Err... well... Matsuri and I would like to be alone for a while... so..."
+@page
+@fi s=f55b pos=c
+@v s=40519
+@【ファヌル】
+"Heh, you're doing well for yourself."
+@page
+@【至】
+"Pl-please, can't an angel do something like that?"
+@page
+@fi s=f311 pos=c
+@v s=40520
+@【ファヌル】
+"Well, I guess I don't mind."
+@page
+@【至】
+"Really? I'm in your debt."
+@page
+@fi s=f559 pos=c
+@v s=40521
+@【ファヌル】
+"But Itaru, is that really good enough?"
+@page
+@【至】
+"W-What... what do you mean?"
+@page
+@fi s=f311 pos=c
+@v s=40522
+@【ファヌル】
+"Just making sure. Do what you want, I don't care."
+@page
+@【至】
+"Y-you say it like I should be worried about something..."
+@page
+@fi s=f55b pos=c
+@v s=40523
+@【ファヌル】
+"... Fufufu. Well, enjoy yourselves now."
+@page
+@【至】
+"H-Hey..."
+@page
+@fi s=f114 pos=c
+@v s=40524
+@【ファヌル】
+"Wazuka-saaan! Do you have a bit? I have something I want--"
+@fi id=f trans=out slide=l time=1500
+@page
+Just as I'm about to say something to her, Fanuel walks off into the living room.
+@page
+@mwoff
+@bgm fade=out
+;→230701
+@jump storage="230701.scn"

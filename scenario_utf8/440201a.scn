@@ -1,0 +1,548 @@
+﻿;440201a
+*440201a|１０月２９日午後８時１１分
+;【ワイプ】時間経過
+;【背景】わずか居間・灯り無し
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg06b trans=clock
+@bgm s=bgm12
+@fi s=f11c pos=c
+@mwon
+@v s=40714
+@【ファヌル】
+"Wow, this place is dirty. Who lives here?"
+@page
+@【至】
+"This is Wazuka's family's house.
+But nobody's lived here for a long time."
+@page
+A house that nobody lives in will degrade quickly.
+It will go from being a house to a hovel.
+And this place has become that.
+@page
+Perhaps a long time ago, this was a luxurious interior.
+But now, the wallpaper is peeling and the furniture has started to rot.
+@page
+Even so, I don't get the impression it's been ruined,
+because no one has set foot inside it--
+In other words, there's no cause for it to be ruined.
+@page
+But it's still degraded.
+Just like the memory of its previous resident,
+it's lost in a time far from now.
+@page
+@【至】
+"Wazuka-san probably won't come here.
+She's... probably forgotten about this place."
+@page
+She's also forgotten the days she spent here.
+So there's nothing.
+That disgusting time she spent here is nothing now.
+@page
+So there's nothing for her here now.
+It's a place she would never think to go.
+@page
+@【至】
+"It's... a little past 8. We've got four hours left."
+@page
+There's no guarantee we won't be found until then.
+@page
+But we can rest for a little bit.
+Rather, this is our limit.
+@page
+@fi s=f21e pos=c
+@v s=40715
+@【ファヌル】
+"Ow, my butt hurts.
+You jostled me around too much when you carried meee."
+@page
+@【至】
+"My entire body is beating. This will probably hurt tomorrow."
+@page
+@fi s=f41d pos=c
+@v s=40716
+@【ファヌル】
+"Ohh, cool!
+Let's beat beat! Beat, beat, beat!"
+@page
+Fanuel smiles and playfully starts beating my body like a drum.
+@page
+She looks cute.
+So cute that I feel like giving her a hug--
+@page
+@se s=se082
+;【ＳＥ】腹の虫がなる
+@fi s=f31c pos=c
+@v s=40717
+@【ファヌル】
+"Itaru, I'm hungryyy!"
+@page
+As she says that, I hunt through my pockets.
+@page
+Too bad for her, but that's all I can do.
+I know there's nothing inside of them.
+@page
+@【至】
+"Sorry, but I have nothing. Be patient."
+@page
+@fi s=f41e pos=c
+@v s=40718
+@【ファヌル】
+"Nooo! I wanna eat sumthin!"
+@page
+Fanuel beats my legs with loud claps.
+Hurriedly stopping her, I bring her into a hug.
+@page
+@【至】
+"Be quiet! Do you want those three to find us!?"
+@page
+@fi s=f11c pos=c
+@v s=40719
+@【ファヌル】
+"So are you gonna give me food?"
+@page
+Sorry. To put it more accurately, instead of giving her food, I'll be made into food.
+My meat will be all over the dining table of those three.
+@page
+@【至】
+"Sorry, not right now.
+But yeah... you're pretty wet."
+@page
+Fanuel's clothes are dripping wet from the rain.
+As I hug her, I squeeze out the water in small drops.
+@page
+@v s=40720
+@【ファヌル】
+"Nahhh, I'm okay."
+@page
+@fi s=f11ea pos=c
+@act id=f t=hit
+@qk time=300
+@lfont
+@v s=40721
+@【ファヌル】
+"Ah-choo!"
+@page
+@【至】
+"I said that in the beginning. Come on, take that off."
+@page
+-- I say, and get a little flustered.
+@page
+Fanuel is essentially a child right now.
+But I've had sex with this body so many times now...
+@page
+@【至】
+"No! Not now! Don't take it off!"
+@page
+;【立ち絵】ファヌル/裸
+@fi s=f10c pos=c
+@v s=40722
+@【ファヌル】
+"Huh? Already did it."
+@page
+@【至】
+"That fast!? Do you have any shame?"
+@page
+@fi s=f10f pos=c
+@v s=40723
+@【ファヌル】
+"Whuzzat?"
+@page
+I try to explain that it's that, but I smile wryly instead.
+@page
+It reminds me of what I said when we first met.
+I wonder when I said that, and how long before then...
+@page
+@bgm s=bgm14
+@fi s=f10d pos=c
+@v s=40724
+@【ファヌル】
+"Itaruuu, I'm cold! Warm me up!"
+@page
+@fi s=f10dd pos=c
+;【立ち絵】ファヌル/裸/大
+When Fanuel jumps into my chest--
+@wait time=2500
+I couldn't do anything.
+@page
+Far from pushing her down, I can't even hold her back.
+I can't speak.
+I can only stand, my back straight like a tree.
+@page
+@fi s=f10fd pos=c
+@v s=40725
+@【ファヌル】
+"What's wrong? Are you hungry too?"
+@page
+@【至】
+"No... it's just... You surprised me."
+@page
+I could only say that.
+The inside of my mouth had dried out.
+Wazuka-san and the others had disappeared from my head.
+@page
+@fi s=f10cd pos=c
+@v s=40726
+@【ファヌル】
+"Itaru's all warm.♪
+Let's stay like this for a while."
+@page
+@【至】
+"A-Alright, go for it.
+Like this... maybe you won't catch a cold."
+@page
+@fi s=f10dd pos=c
+@act id=f t=bow
+@v s=40727
+@【ファヌル】
+"Uh-huh!♪"
+@page
+And Fanuel buries her face in my chest.
+@page
+With both of her arms around me, I realize that Fanuel is smaller than I thought she was.
+@page
+She sometimes looks up at me,
+her eyes shining with pure gold,
+and with her overly organized features, I say--
+@page
+@【至】
+"... An angel. You really are... an angel."
+@page
+@fi s=f10fd pos=c
+@v s=40728
+@【ファヌル】
+"Huh?"
+@page
+Answering with a puzzled expression,
+she smiles in a somewhat embarrassed and sarcastic way and says,
+@page
+@fi s=f10dd pos=c
+@v s=40729
+@【ファヌル】
+"Nihihihi, I forgot.♪
+But, hm... I'm a little happy."
+@page
+Fanuel puts her arms around me again.
+Grasping me tightly, she squeezes.
+@page
+@fi s=f10dad pos=c
+@v s=40730
+@【ファヌル】
+"You praised me, so I'm happy.
+I dunno why, but I'm happy!♪"
+@page
+@【至】
+"R-really?"
+@page
+@fi s=f10cd pos=c
+@v s=40731
+@【ファヌル】
+"Mmhm, I'm an angel.
+If you don't believe me, you'll get cursed."
+@page
+Aah, I remember that.
+@page
+After I revived, before I awoke,
+I heard those words many times.
+I remember exchanging jokes like that.
+@page
+@【至】
+"... You were with me that whole time.
+I suppose it was your duty,
+but I was alright with it... no, I was really happy, you know?"
+@page
+When I remembered her name, my fate changed.
+My fate changed from "before".
+And now, it has become like this.
+@page
+@【至】
+"It's alright if you hate me... and it's fine if you don't like me.
+But don't say that you don't have a heart.
+No matter how much of an angel you are, that's sad, right?"
+@page
+@fi s=f10fd pos=c
+@v s=40732
+@【ファヌル】
+"Itaru, you're weird. I don't get what you're sayin'."
+@page
+@【至】
+"Sorry, but... I'd regret it if I didn't get to say it."
+@page
+@fi s=f537d pos=c
+;【立ち絵】ファヌル不機嫌
+@v s=40733
+@【ファヌル】
+"Mmmn, I really don't get it.
+But I'm not sad."
+@page
+;【立ち絵】ファヌル笑顔
+@fi s=f10cd pos=c
+@v s=40734
+@【ファヌル】
+"I'm with you.
+Did you forget that?
+I love you."
+@page
+@fi s=f10fd pos=c
+@v s=40735
+@【ファヌル】
+"I'm with Itaru, the person I love, right?
+What's sad about that?
+Shouldn't I be really, really happy?"
+@page
+@【至】
+"Liar."
+@page
+@fi s=f10ed pos=c
+@v s=40736
+@【ファヌル】
+"Mmn. I'll curse you!"
+@page
+@【至】
+"Haha... yeah. I'll be shattered by the lightning."
+@page
+@fi s=f10dd pos=c
+@v s=40737
+@【ファヌル】
+"Exactly!"
+@page
+@fi s=f10cd pos=c
+@v s=40738
+@【ファヌル】
+"But I'm not the sad one here. You are."
+@page
+Both of her hands touch my cheek.
+I notice then.
+Tears had blotted in my eyes.
+@page
+@fi s=f10fd pos=c
+@v s=40739
+@【ファヌル】
+"How come you're sad? Are you super hungry?"
+@page
+@【至】
+"Nah... I'm just... really happy."
+@page
+When a person faces honest feelings like this, they get confused.
+But for some reason I don't understand, it's alright.
+@page
+But the answer is easy.
+First comes the words--
+Yeah, all I have to do is say it honestly.
+@page
+@【至】
+"When you said you loved me, I was happy.
+I... love you too.
+@page
+@fi s=f10dad pos=c
+@v s=40740
+@【ファヌル】
+"Nihehehehe...♪ That makes me super happy!"
+@page
+@v s=40741
+@【ファヌル】
+"I love you, Itaru!"
+@page
+I pull her close again.
+@page
+I understand what I should do this time.
+There's nothing I haven't realized now.
+@page
+@【至】
+"Fanuel... I love you."
+@page
+The easist, the most understandable, and the simplest words.
+There are no false feeling in those words.
+Nothing else is necessary.
+@page
+So, I strongly hug Fanuel again.
+In my chest, deep inside, utterly-- I am gentle.
+@page
+@fi s=f10cd pos=c
+@v s=40742
+@【ファヌル】
+"Itaru, I'm cold."
+@page
+It was a complaint that utterly destroyed the mood with no hope of recovery.
+But she's certainly cold.
+The water on Fanuel's body got my clothes wet.
+@page
+@fi s=f10dd pos=c
+@v s=40743
+@【ファヌル】
+"You should take your clothes off too. Then we'll be warmer."
+@page
+@【至】
+"E-Even if you say that..."
+@page
+@fi s=f10cd pos=c
+;@qk time=700
+;@lfont
+@v s=40744
+@【ファヌル】
+"It's okay, take it off."
+@page
+@fi s=f10fd pos=c
+@v s=40745
+@【ファヌル】
+"Then... what's this? Is this beating too?"
+@page
+Saying that, Fanuel gently brushes my groin.
+@page
+Hey Fanuel, human beings certainly are imperfect.
+This is an impressively self-centered scene,
+as the object that should have an erection, has an erection.
+@page
+@fi s=f10ed pos=c
+@v s=40746
+@【ファヌル】
+"Hey hey Itaru, show me!"
+@page
+@【至】
+"S-Show you what?"
+@page
+@fi s=f10cd pos=c
+@v s=40747
+@【ファヌル】
+"This. Is this sick?
+Or... does it hurt?"
+@page
+@【至】
+"W-Well... somewhat."
+@page
+But in a different meaning.
+@page
+@fi s=f10ed pos=c
+@v s=40748
+@【ファヌル】
+"Okay, take it off! Or I'll take it off for you!"
+@page
+@【至】
+"-- Hey, w-what!? Don't!
+Don't do it by force, it's only okay when it's the ceremony!"
+@page
+@v s=40749
+@【ファヌル】
+"Too slow!"
+@page
+@qk
+I'm not quick enough, and my pants and underwear are taken off.
+My erect dick is revealed.
+@page
+;【カットイン】肉棒モザイク付き
+;【演出】上記カットイン　クエイク
+@fi s=f105ad pos=c
+@v s=40750
+@【ファヌル】
+"Wow... awesome.!"
+@page
+@【至】
+"D-Don't look! Don't survey it!"
+@page
+Not hearing my words, she stares at my dick.
+@page
+@fi s=f10cad pos=c
+@v s=40751
+@【ファヌル】
+"I don't have one of those... Itaru, what's that?"
+@page
+@【至】
+"... I-It's a dick."
+@page
+@v s=40752
+@【ファヌル】
+"Why's it like this?"
+@page
+@【至】
+"Do I have to tell you?"
+@page
+This is torture, right? Or shame play?
+But when Fanuel nods as if to say, 'Of course',
+anything I saw will make me a masochist, right? Maybe even a super masochist?
+@page
+@【至】
+"... I-it's because I like you.
+　Rather... uhh... well, yeah.
+I guess you could say it's because it wants to... or something like that."
+@page
+@v s=40753
+@【ファヌル】
+"Then let's do it!"
+@page
+Fanuel's hand touches my penis.
+Her five white fingers intertwine with it in an awkward way,
+but somehow they move in a slightly familiar way.
+@page
+@fi s=f10dad pos=c
+@v s=40754
+@【ファヌル】
+"When I do this... does it feel good?
+Somehow, I know about this... about your dick."
+@page
+At first her hands are awkward, but soon they start
+moving like they did "before".
+@page
+My dick rises in her hands once again.
+With a violent sound almost like a creak,
+it becomes extremely excited.
+@page
+@fi s=f10cad pos=c
+@v s=40755
+@【ファヌル】
+"Let's do it, Itaru. I want to make you feel good."
+@page
+@v s=40756
+@【ファヌル】
+"Then I'll be happy.
+If you're happy, then I'll be super super happy."
+@page
+@fi s=f10fad pos=c
+@v s=40757
+@【ファヌル】
+"I want to love you more and more.
+Do you feel differently?... Is that okay?"
+@page
+Her eyes look up at me, swelling with tears.
+My groundless suspicion that she was acting disappeared at once.
+@page
+No, even if she was, it would be okay.
+She's already tricked me many times,
+so one more time doesn't matter.
+@page
+@【至】
+"Fanuel... thank you. But... we can't."
+@page
+@fi s=f537ad pos=c
+@v s=40758
+@【ファヌル】
+"Do we need to stop?"
+@page
+Fanuel hugs me and whispers in my ears while I shake my head in refusal.
+@page
+@【至】
+"I want to make you feel good too.
+Then I'll be happy.
+And I'll love you more and more... do you understand?"
+@page
+@fi s=f10dad pos=c
+@v s=40759
+@【ファヌル】
+"Yeah... Itaru... let's do it together.
+More and more... let's be even happier."
+@page
+I turn myself over and make her lie on the floor.
+@page
+It's cold and wet there.
+@page
+I lay the clothes out on the floor, since it's better than nothing.
+@page
+@【至】
+"Fanuel... let's love each other, together."
+@page
+She smiles at my words, and nods--
+@page
+@fi id=f
+@bgm fade=out
+@jump storage="440202.scn"
+;→440202

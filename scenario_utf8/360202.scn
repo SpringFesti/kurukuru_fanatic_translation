@@ -1,0 +1,222 @@
+﻿;360202
+*360202|_運命の日
+;【備考】（主人公視点）
+;【ワイプ】視点変更
+;【背景】屋上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=ランダム
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Wazuka-san, I'm late!"
+@page
+Lunch break is already half over.
+As usual, I'm not sure I can eat my lunch slowly.
+@page
+@【至】
+"She won't answer texts, or calls...
+What is she up to?"
+@page
+Or maybe she's still worrying about yesterday--
+Anyway, she seems strange today.
+@page
+Suddenly, I realize that half the day has already gone by.
+@page
+I haven't found any signs that I'll be killed, let alone clues.
+-- If that's the case, then it'll be after school, huh.
+@page
+Originally, I felt safe in school.
+I still feel that way, however...
+@page
+I feel like my intuition is more important now.
+It might be my memory from before I died.
+And with those kinds of feelings--
+@page
+@【至】
+"No, there's no reason for that. I need to calm down."
+@page
+I probably can't settle my thoughts because I'm anxious.
+In that situation, time passes gradually.
+@bgm fade=stop
+@page
+@bgm s=bgm07
+@fi s=k112b pos=c
+@v s=30667
+@【かごめ】
+"Hahh... hah, hah..."
+@page
+Otogiri-san shows up, looking like that.
+@page
+She's out of breath, but she smiles joyfully when she sees me.
+@page
+@fi s=k114a pos=c
+@v s=30668
+@【かごめ】
+"O-Onee-chan... made you wait...
+Hahh... just as expected, Itaru-kun."
+@page
+@【至】
+"yeah, um, that's... I mean,
+I always eat lunch here anyways.
+So uh... we should probably get outta here fast."
+@page
+Get outta here is a rather rude expression.
+But we probably should run away.
+@page
+Although it was cleaned, there's still a dim blood stain on the wall.
+I had stopped it that time, but this time--
+@page
+@fi s=k212 pos=c
+@v s=30669
+@【かごめ】
+"Come on, what are you saying to your older sister?
+If you say something like that, I won't let you eat out of this lunch box."
+@page
+@【至】
+"No, but... it's like this, so--"
+@page
+@fi s=k211 pos=c
+@v s=30670
+@【かごめ】
+"It'll be fine. Sit down over there, okay?
+It's revenge for the other day."
+@page
+@【至】
+"Wait, we shouldn't..."
+@page
+It's dangerous, so I say that.
+@page
+Looks like I'll have to face down the threat of the lunch box in the end.
+Well, if Wazuka-san arrives, then I'll deal with it somehow.
+@page
+@fi s=k214 pos=c
+@v s=30671
+@【かごめ】
+"Okay, here you go. It's a little hot, so be careful."
+@page
+@【至】
+"Mm, thanks."
+@page
+She pours tea from a pot, and gives it to me.
+Even though it's autumn, because I was waiting
+for a long time outside, the warmth feels
+wonderful.
+@page
+@【至】
+"... Nn?"
+@page
+Then, I suddenly notice something.
+There's something white attached to Otogiri-san's hand.
+If I had to guess, it looks like it's powder.
+@page
+@【至】
+"Onee-chan, what's on your hand?"
+@page
+@fi s=k212 pos=c
+@v s=30672
+@【かごめ】
+"Aww, that's for after.
+Let's eat first, okay?
+I'm confident in today's tamagoyaki, okay?"
+@page
+@【至】
+"Ah, okay, yeah. Thanks for the food."
+@page
+I put my cup aside, and take some chopsticks.
+Then,I start throwing the rice ball and the tamagoyaki into my mouth together.
+@page
+@【至】
+"Yeah, this is delicious.
+I'm sorry that I couldn't eat this the other day."
+@page
+This isn't flattery.
+She said she wasn't good at housework, but if
+she can make this, then she's good enough for me.
+@page
+@fi s=k214 pos=c
+@v s=30673
+@【かごめ】
+"Oh, good."
+@page
+Seeing her smile, my hand speeds up and I start on the side dishes.
+@page
+@【至】
+"Now then... what's on your hand?"
+@page
+When I finish eating the third riceball, I try to ask her once again.
+@page
+It seems trivial,
+but I'm worried about it, and I won't settle down if I don't hear it.
+@page
+@fi s=k111 pos=c
+@v s=30674
+@【かごめ】
+"Oh, yes. This is plaster."
+@page
+@【至】
+"Plaster? Did you have art class today?"
+@page
+No, she didn't come to class at all today, so--"
+@page
+@bgm s=bgm15
+@fi s=k214 pos=c
+@v s=30675
+@【かごめ】
+"No, but it was... necessary."
+@page
+Otogiri-san's smile sends shivers down my spine for some reason.
+At the same time, my heart reverberates anxiously.
+@page
+@fi s=k111 pos=c
+@v s=30676
+@【かごめ】
+"-- Hey Itaru-kun.
+If someone hit you with a plaster bust, how much do you think it would hurt?"
+@page
+My worries double in size.
+Although I've been drinking tea for a while,
+my throat suddenly dries up.
+@page
+@【至】
+"What... is that supposed to mean?"
+@page
+My mouth dries, and my saliva becomes sticky.
+My voice feels low, and throaty.
+@page
+This feels weird.
+And that's not just because of my worrying.
+@wait time=700
+My body is... heavy...?
+@page
+@fi s=k112 pos=c
+@v s=30677
+@【かごめ】
+"It's your fault, you know. I told you to stop going near that woman, but you didn't. So I had to use force."
+@page
+@bgm fade=stop
+@fi s=k449 pos=c
+@v s=30678
+@【かごめ】
+"I hit that woman with the plaster bust as hard as I could."
+@page
+;【ＳＥ】倒れる音。ドサッとかバタッとかあれば。
+;【演出】暗転
+@bi s=blank trans=crossfade all=true time=100
+@se s=se066
+@qk
+Then, I fall down-- I think.
+@page
+I couldn't see anymore. I couldn't hear anymore.
+I realized in the end that Otogiri-san's abusive language had decieved me.
+@page
+But even that faded away immediately as well...
+@wait time=700
+Only darkness spread before me.
+@page
+;→360300
+@mwoff
+@bgm fade=stop
+@jump storage="360300.scn"

@@ -1,0 +1,136 @@
+﻿;430100a
+*430100a|クイズ！　次はおまえだ！
+;【カットイン】クイズ！　次はおまえだ！
+;【カットイン】舞台
+;【ＳＥ】シロ叫び声
+@setOnce
+@bgm fade=stop
+@mwoff
+@se s=se100
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@fi s=f114a pos=lc
+@lfont
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+@se fade=out
+@v s=16002
+@act id=u t=bow
+@【ウサミ】
+"Now entering the final route,
+this is Quiz! You're next!"
+@page
+@fi s=f312 pos=lc
+@v s=40631
+@【ファヌル】
+"YYYep."
+@page
+@v s=16001
+@【ウサミ】
+"What's wrong? You seem low-spirited today."
+@page
+@fi s=f559 pos=lc
+@v s=40632
+@【ファヌル】
+"I'm on my period, don't worry about it."
+@page
+@v s=16001
+@【ウサミ】
+"Angels get those too?"
+@page
+@fi s=f55a pos=lc
+@v s=40633
+@【ファヌル】
+"No."
+@page
+@v s=16003
+@【ウサミ】
+"Then what is it!?"
+@page
+@v s=16001
+@【ウサミ】
+"... Whatever, it doesn't matter.
+Let's push the program forwards."
+@page
+@fi s=f657 pos=lc
+@v s=40634
+@【ファヌル】
+"Sigh... how tiresome..."
+@page
+@v s=16003
+@【ウサミ】
+"What's with that attitude!?
+You're being impolite to the audience!"
+@page
+@fi s=f55a pos=lc
+@v s=40635
+@【ファヌル】
+"Alright, fine. See ya."
+@page
+@fi id=f
+;【立ち絵】ファヌル立ち絵消去
+@v s=16004
+@【ウサミ】
+"What!? Where are you going!?"
+@page
+@fi s=f311 pos=lc
+@v s=40636
+@【ファヌル】
+"I feel bad so I'm leaving. Just do something or other."
+@page
+@fi id=f
+@v s=16001
+@【ウサミ】
+"... She really up and left."
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"What should I do!? What should I do!?"
+@page
+@v s=16004
+@qk time=800
+@lfont
+@【ウサミ】
+"WHAT SHOULD I DO!?"
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"TTTTTTTTThere's only one thing to do in this situation!
+That is.... it's...!"
+@page
+;【ＳＥ】シロ鳴き声
+;【立ち絵】拡大消去　……
+@act id=u t=stopswing
+@act id=u t=zoom
+@qk time=800
+@lfont
+@v s=16003e
+@【ウサミ】
+"RUN AWAAAAAYYY!"
+@wait time=500
+@fi id=u
+@mnon size=80 italic=true time=300
+@mset l=5 h=true
+@se s=se091
+What will happen next time!?
+@qk time=800
+@waitclk
+@mnoff
+@bgm fade=out
+@jump storage="430101.scn"
+;【ＳＥ】ドン！
+;【イベントＣＧ】テキスト「どうなる次回！？」
+;→430101

@@ -1,0 +1,70 @@
+﻿;320200a
+*320200a|メール、する
+While I think that, I've somehow got my phone in my hand.
+Maybe I'll get another text today.
+A light expectation like that was wonderfully proved right.
+@page
+@setOnce
+@bi s=bg01b
+@se s=se027
+@endOnce
+@【至】
+"... I should put this on vibrate."
+@page
+While cursing my carelessness,
+I open the text while confirming that the two of them are asleep.
+@page
+@mnon
+@mset l=5 h=true
+@v s=30132
+"Thank you for today.
+I'm sorry if you were asleep. Please forgive me.
+I really am thankful."
+@waitclk
+@mwon
+@【至】
+"I don't even need to look at the sender to know who's sending me this."
+@page
+It's definitely Otogiri-san.
+I text her back after turning my phone to vibrate.
+@page
+@【至】
+"Umm... don't worry about that.
+If I hadn't done something about it, I'm sure another one of our classmates would have."
+@page
+It's a nuisance, above all.
+It's bad that they're clashing with each other,
+and Wazuka-san even injured her.
+@page
+@【至】
+"Alright, then that's all for this text."
+@page
+;【備考】マナーモードだから特に演出なし。必要でしたら指摘お願いします。
+;@se s=se032
+@qk
+@flash
+@【至】
+"-- Whoah, that was a quick reply.
+Besides, I was still apologizing..."
+@page
+For now, it's not necessary for her to apologize for anything.
+Then, the topic shifted more towards a day to day chat kinda thing.
+@page
+@【至】
+"... It's been a long time since I've texted someone so much like this."
+@page
+Yeah, usually it's too noisy during the day.
+@page
+I can see now that it's a very important thing.
+While thinking that it can't be helped that I didn't know that until now,
+I look at the cause of my non-everyday life besides me.
+@page
+@【至】
+"... Thanks, Otogiri-san."
+@page
+Without a care, I begin happily exchanging texts with her for more than two hours.
+@page
+@bgm fade=stop
+@mwoff
+@jump storage="320201.scn"
+;→320201

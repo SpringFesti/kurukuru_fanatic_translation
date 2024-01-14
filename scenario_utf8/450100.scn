@@ -1,0 +1,292 @@
+﻿;450100
+*450100|１０月３０日午前１０時３７分
+;【備考】主人公視点
+;【ワイプ】場面転換
+;【背景】主人公自室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01d trans=ランダム
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Sigh... how carefree."
+@page
+I mutter that while I lay on the bed,
+several hours after Fanuel has healed my wounds.
+@page
+It's 10:37AM right now.
+It's a weekday, so school is happening.
+@page
+If that's so, then why am I at home?
+I'm taking the day off, of course.
+I'm taking it off because of poor health.
+@page
+Actually, my body feels heavy.
+That's because of the muscle aches, and it'd be bad if I collapsed.
+@page
+According to Fanuel, even though my wounds are healed,
+I won't recover until I get back the vitality I lost,
+or so she says.
+@page
+Anyway, let's take a break for today.
+If I didn't, there wouldn't be a point in kicking
+Matsuri and Wazuka-san out of the house.
+@page
+;【背景】自室モノクロ
+@setOnce
+@fi s=w412 pos=lc
+@fi s=m212 pos=rc
+@endOnce
+;【立ち絵】わずかと祀利不安げモノクロ
+@mnon
+@mset l=1 h=true
+@v s=10811
+"Itaru-kun, are you sure we can't do anything for you?
+@waitclk
+@mset l=1 h=true
+@v s=21575
+"I'll do anything! So say it! Come on, Itaru!"
+@waitclk
+@mset l=3 h=true
+Those two asked me things like that, of course.
+@waitclk
+@mset l=3 h=true
+　My answer was yes.
+　I smile a bit, and tell the two women who
+ can't stop hanging around me every day.
+@waitclk
+@mset l=1 h=true
+"Can you both leave me alone today?"
+@waitclk
+@mset l=3 h=true
+　These two are innocent.
+　But yesterday, they started to kill and eat me.
+　As expected, being together with them is tough.
+@waitclk
+@setOnce
+@fi id=w
+@fi id=m
+@endOnce
+@mwon
+;【ワイプ】場面転換
+;【背景】主人公自室・昼
+@【至】
+"... I feel a bit bad. But, oh well."
+@page
+After Wazuka-san went to schoo,
+Matsuri also went somewhere.
+@page
+When I felt better, I sent Otogiri-san a text, but she didn't respond.
+Of course, it's better to leave the reason for that unsaid.
+@page
+@【至】
+"Is there anything else I need to do?
+... Is today the fifth day since I've revived?"
+@page
+Yeah, that's today.
+Today, I will be killed by someone.
+@page
+But unlike "before", I'm not going out with anyone.
+In other words, I don't know how I can evade my death.
+@page
+@【至】
+"... Damn, what now...
+If I stay like this, I'm gonna get killed..."
+@page
+Although I say that, I feel relaxed for some reason.
+Perhaps it's because this is my fourth revival,
+but I feel optimistic somehow.
+@page
+Wait, no. That's not it.
+Perhaps it's more fundamental than that...
+@page
+@【至】
+"Hm... what could it be?
+Do you know, Fanuel?"
+@bgm fade=out
+@page
+@bgm s=bgm12
+When I say that, I notice something.
+I still remember Fanuel.
+@page
+If this was like "before", then she should have disappeared.
+She disappeared from my memories.
+@page
+But she hasn't.
+She's still here.
+She hasn't disappeared like "before".
+@page
+If that's true, then-- what will happen now?
+Will she disappear unexpectedly again?
+@page
+@【至】
+"... Now what? Will she disappear... again?"
+@page
+If it was like always, I could seal these feelings away.
+If it was like always, I would be okay with it if she disappeared.
+@page
+But not this time.
+It's like it was yesterday.
+I can't bear this--
+@page
+Even if she's going to disappear, I want to talk with her at least.
+Even if she's going to disappear, I don't want my memories to disappear.
+@page
+@【至】
+"Yeah... even if she disappears... even if she disappears..."
+@page
+@qk time=500
+@lfont
+@【至】
+"Not this time, right!?"
+@page
+I raise myself off the bed and exit the room.
+@page
+@se s=se041
+@bi s=bg02d
+;【背景】廊下灯りあり
+@【至】
+"... Where is she?"
+@page
+When I think about it, she's usually in my cell phone around this time.
+I haven't looked at it since I got home.
+@page
+@【至】
+"... That's right... I don't know much about her at all..."
+@page
+What I know is that she's an angel, she has no shame,
+and when she opens her mouth, nothing but sarcasm comes out--
+@page
+@【至】
+"But even so, I love her.
+Not just the her of yesterday... but all of her."
+@page
+I protected her, because it was her.
+Even if I got pelted with sarcasm and abuse today,
+nothing would have changed.
+@page
+Yes-- that's the truth.
+@page
+@bi s=bg04d
+@fi s=f111 pos=c
+;【背景】居間
+@【至】
+"... H, heh... this is where you were."
+@page
+I find her in the living room and sigh a bit.
+@page
+I want to ask her what happened,
+but I can't find the words.
+@page
+However, I stop trying.
+Fanuel can read my mind.
+If that's so, she should be able to hear me.
+@page
+@【至】
+"H-Hey, are you going to... are you going to disappear this time too?"
+@page
+Her shoulders shake a bit when I ask her that.
+@page
+@fi s=f211 pos=c
+@v s=40861
+@【ファヌル】
+"What will you do when you hear the answer to that?"
+@page
+@【至】
+"To be frank, I don't want you to disappear.
+Even if you do, don't erase my memories."
+@page
+@fi s=f55a pos=c
+@v s=40862
+@【ファヌル】
+"I don't get to decide that."
+@page
+@【至】
+"Then negotiate with God. If you can't, then I will."
+@page
+@v s=40863
+@【ファヌル】
+"Don't say stupid stuff."
+@page
+@【至】
+"It's fine, I can do it.
+If I have to do something like yesterday, then I will.
+So please..."
+@page
+@fi s=f559 pos=c
+@v s=40863
+@【ファヌル】
+"Don't say stupid stuff."
+@page
+@【至】
+"I know what I'm saying. So please... 
+@page
+@fi s=f312 pos=c
+@v s=40864
+@【ファヌル】
+"It's impossible."
+@page
+@【至】
+"I know! But--"
+@page
+@fi s=f213 pos=c
+@qk time=700
+@lfont
+@v s=40865
+@【ファヌル】
+"So cut it out!"
+@page
+It's something I would regret and repent for later.
+But I know that I'm right.
+@page
+This is the first time she's gotten this mad.
+It's been different until now.
+She's completely enraged.
+@page
+@fi s=f413 pos=c
+@v s=40866
+@【ファヌル】
+"Just stop... I am only a servant.
+There are thing I can and can't do."
+@page
+@【至】
+"... S-Sorry. But is it really impossible?"
+@page
+@fi s=f312 pos=c
+@v s=40867
+@【ファヌル】
+"I don't even know that."
+@page
+Her words are self-mocking like usual,
+but I get a small feeling of sorrow from her.
+@page
+I'll try to judge the truth of that from her next words.
+@page
+@fi id=f
+But then Fanuel turns around and tries to leave the room.
+@page
+@【至】
+"H-Hey, where are you going?"
+@page
+@fi s=f212 pos=c
+@v s=40868
+@【ファヌル】
+"I'm going for a walk."
+@page
+@fi id=f
+I wanted to say that I'm going too.
+But Fanuel's back refuses me.
+@page
+Just like the present me,
+she probably wants to be alone.
+That's what I want to think.
+@page
+@【至】
+"... Otherwise, I'd run after her."
+@page
+I still don't understand anything about her.
+@page
+@jump storage="450101.scn"
+;→450101

@@ -1,0 +1,47 @@
+﻿;240504
+*240504|_非常事態
+;【備考】わずか視点
+;【ワイプ】視点切り替え
+;【背景】公園・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09n trans=ランダム
+@bgm s=bgm05
+@setOnce
+@fi s=w112 pos=lc
+@fi s=k34a pos=rc
+@endOnce
+@mwon
+@v s=10675
+@【わずか】
+"... They're leaving."
+@page
+@v s=30252
+@【かごめ】
+"Thaaaaaaat bitch, clawing at Takamichi-kun like that... I won't forgive her.
+I'llll kill her. Kill her, rip her apart..."
+@page
+@fi s=w411 pos=lc
+@v s=10676
+@【わずか】
+"Calm down. That woman has a gun.
+We can't interfere that easily."
+@page
+@fi s=k347 pos=rc
+@v s=30253
+@【かごめ】
+"Then, nn, what do we do?
+If it stays like this, then Takamichi-kun will..."
+@page
+@fi s=w111 pos=lc
+@v s=10677
+@【わずか】
+"Oh, it's easy. If it's catching a criminal,
+we don't necessarily have to be the ones to do it..."
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+;→240600
+@jump storage="240600.scn"

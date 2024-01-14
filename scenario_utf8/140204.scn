@@ -1,0 +1,102 @@
+﻿;140204
+*140204|_クイズ！　次はおまえだ！
+@fi s=f211 pos=lc
+@v s=41059
+@【ファヌル】
+"Now then, it's time for the notice of termination for this program."
+@page
+@act id=u t=hit
+@v s=16003
+@【ウサミ】
+"That expression is useless! This is still the final episode!"
+@page
+@fi s=f65a pos=lc
+@v s=41060
+@【ファヌル】
+"Yeah, something like that.
+How many times do you think we'll do this?"
+@page
+@v s=16001
+@【ウサミ】
+"W-Well, I'm not sure, but I think it'll end someday..."
+@page
+@fi s=f311 pos=lc
+@v s=41061
+@【ファヌル】
+"Stop. We don't have time for that kind of talk."
+@page
+@v s=16001
+@【ウサミ】
+"Huh? Isn't this program at a fixed broadcasting time?"
+@page
+@fi s=f559 pos=lc
+@v s=41062
+@【ファヌル】
+"No. The misfortune of the person watching this is approaching."
+@page
+@v s=16001
+@【ウサミ】
+"Misfortune? That's--"
+@page
+@bgm fade=stop
+@bi s=blank trans=crossfade all=true time=100
+;【演出】暗転
+@qk time=1000
+;【演出】文字倍角
+@lfont
+HEY!! WAKE UP, TAMAMICHI!"
+@page
+@bgm s=bgm09
+@bi s=bg12d time=100
+@qk
+@lfont
+@【至】
+"WAAAHHHH!?"
+@page
+@【至】
+"... w-what?"
+@page
+@【教師】
+"No, I don't want a 'what!'"
+This is much more important! Don't doze off!"
+@page
+@【至】
+"Ah... s-sorry..."
+@page
+@【教師】
+"Damned kids..."
+@page
+@se s=se076
+;【ＳＥ】チョークで黒板に文字を書く音
+Slashing away at the blackboard with his chalk,
+the teacher resumes his interrupted class.
+@page
+I fell asleep because of that sound, so it's his fault, isn't it?
+@page
+@se fade=out
+... Course, this is the eight time now, but whatever.
+@page
+@fi s=m115d pos=c
+@v s=21644
+@【祀利】
+"I'll kill that teacher."
+@page
+... Not the kind of thing you want to hear after waking up.
+@page
+@【至】
+"Don't kill him. I was the one being bad."
+@page
+@fi id=m
+Still trying to listen to the teacher,
+I try to calm down Matsuri, who is sitting on my knee.
+@page
+... But I fell asleep during class.
+Was I really that tired?
+@page
+Yeah, and I was dreaming about something...
+but what was it?
+@page
+@mwoff
+@bgm fade=out
+@jump storage="140300.scn"
+;→140300

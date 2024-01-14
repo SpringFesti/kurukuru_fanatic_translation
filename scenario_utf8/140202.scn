@@ -1,0 +1,95 @@
+﻿;140202
+*140202|_クイズ！　次はおまえだ！
+@v s=41042
+@fi s=f559 pos=lc
+@【ファヌル】
+"Four... zero. Time's up."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Ehhh!? The time really flew, didn't it!?"
+@page
+@fi s=f55b pos=lc
+@v s=41043
+@【ファヌル】
+"Stereotypical, right?"
+@page
+@v s=16001
+@【ウサミ】
+"Stereotypical..."
+@page
+@fi s=f311 pos=lc
+@v s=41044
+@【ファヌル】
+"So, your answer?"
+@page
+@v s=16001
+@【ウサミ】
+"Eh? Ah... I don't understand."
+@page
+@fi s=f312 pos=lc
+@v s=41045
+@【ファヌル】
+"Huh?"
+@page
+@act id=u t=hit
+@v s=16003
+@【ウサミ】
+"BB-But humans can't understand the feelings
+of stuffed animals, can they?"
+@page
+@fi s=f556 pos=lc
+@v s=41046
+@【ファヌル】
+"Sigh... do you really think this is what a quiz show consists of?"
+@page
+@v s=16001
+@【ウサミ】
+"I'm sorry..."
+@page
+@v s=16001
+@【ウサミ】
+"... S-So, the answer...?"
+@page
+@fi s=f311 pos=lc
+@v s=41047
+@【ファヌル】
+"No need for one."
+@page
+@v s=16001
+@【ウサミ】
+"Eh?"
+@page
+@v s=41048
+@【ファヌル】
+"They don't need to hear it, so it's unnecessary.
+That's all."
+@page
+@v s=16001
+@【ウサミ】
+"That's... alright?
+This is a quiz show, so the answer is..."
+@page
+@fi s=f55a pos=lc
+@v s=41049
+@【ファヌル】
+"To begin with, we don't fight for ratings like other programs.
+so the only reward is self-satisfaction."
+@page
+@v s=16001
+@【ウサミ】
+"But is that kind of answer okay?"
+@page
+@fi s=f312 pos=lc
+@v s=41050
+@【ファヌル】
+"Again, it would only be a problem is we cared about ratings.
+If you don't understand, shut up, idiot."
+@page
+@v s=16001
+@【ウサミ】
+"Ohh... okaaay..."
+@page
+@jump storage="140204.scn"
+;→140204

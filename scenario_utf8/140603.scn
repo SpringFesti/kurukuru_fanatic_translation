@@ -1,0 +1,181 @@
+﻿;140603
+*140603|_運命の分かれ道
+;【ワイプ】時間経過
+;【背景】主人公自室
+;【立ち絵】わずか立ち絵は全て　サイズ大
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01b trans=clock
+@bgm s=bgm20
+@fi s=w537d pos=c
+@mwon
+I'm so exhausted that I can't get up,
+so I rest on the bed.
+@page
+My fatigue reached it's peak just a little while ago.
+I'm too languid to even move just an inch,
+so we remain like that, connected by our privates.
+@page
+@【至】
+"Wazuka-san... that felt great."
+@page
+@fi s=w537ad pos=c
+;【立ち絵】わずか立ち絵　笑顔
+She didn't say anything, too embarrassed,
+but she nodded.
+@page
+Even so, it felt good.
+Now that we've grown, we know that much.
+@page
+@bi s=blank trans=crossfade all=true
+;@wait time=200
+;【演出】暗転
+My collective tiredness attacks me all at once.
+Dozing off, my heavy eyelids begin to droop.
+@page
+I'll sleep like this, connected with Wazuka-san.
+The two of us, happy...
+@page
+@【至】
+"Wazuka-san... I'm so happy."
+@page
+Is Wazuka-san happy too...?
+@page
+.........
+@page
+........?
+@page
+No response.
+Wazuka-san? Is something wrong?
+@page
+@bgm fade=out
+@bi s=bg01b trans=crossfade
+@fi s=w301d pos=c
+@bgm s=bgm19
+;【立ち絵】わずか立ち絵　無表情　包丁
+@【わずか】
+"......"
+@page
+@【至】
+"...Eh?"
+@page
+That smile from before had disappeared.
+Before I knew it, she had a knife in her hands.
+@page
+@【至】
+"Wazuka-san... what is that?"
+@page
+No reply to my question.
+Wazuka-san gives me a cold glance.
+@page
+What's going on?
+Why is she doing this?
+Were those words from before a lie?
+@page
+I try to raise my body.
+@page
+But I cannot.
+Wazuka-san is on top of me.
+@page
+I could move this weight easily, normally.
+However, I'm tired from what we just did.
+@page
+Above all-- I am afraid.
+She's different than usual.
+She's pushing me down, holding me in check.
+@page
+@【至】
+"Kuh... ergh... Wazuka-san, what're you--!"
+@page
+@setOnce
+@se s=se067
+@fi id=w
+@bi s=bg8150
+@endOnce
+She swings her knife down in silence.
+@page
+@bi s=blank trans=crossfade all=true
+Horrified, I watch the knife swing slowly down, like a lantern.
+I shut my eyes reflexively, and now I'm in complete darkness.
+@page
+Isn't this how I died?
+Wasn't I stabbed to death, just like this?
+@page
+No matter what I do, this is my end.
+@page
+I will feel the pain immediately.
+And the darkness will swallow me up once more...
+@page
+.........
+@page
+............
+@page
+.........Huh? It's not coming.
+I don't feel any pain, let alone darkness.
+@page
+@bgm fade=out
+@bi s=bg01b trans=crossfade
+@fi s=w303d pos=c
+;【背景】主人公自室
+;【立ち絵】わずか立ち絵　無表情　包丁
+@【至】
+"Wazuka... san?
+@bgm s=bgm05
+@page
+Shaking, the knife hangs just above my head.
+It looks like she stopped at the last second.
+@page
+@fi s=w103d pos=c
+@v s=11178
+@【わずか】
+"I love you..."
+@page
+@【至】
+"Eh?"
+@page
+@v s=11179
+@【わずか】
+"I love you... I love Itaru-kun...
+I love you so much, that it's unbearable."
+@page
+;@fi s=w103ad pos=c
+@v s=11180
+@【わずか】
+"I don't want to see how you die...
+I don't want to see something sad like that..."
+@page
+@【至】
+"Wazuka-san..."
+@page
+@fi s=w101ad pos=c
+@v s=11181
+@【わずか】
+"...But, you know?"
+@page
+@fi s=w301d pos=c
+@v s=11182
+@【わずか】
+"When I imagine killing you, then dying myself...
+My body gets hot, and I get excited."
+@page
+@fi s=w305d pos=c
+@v s=11183
+@【わずか】
+"It would feel so, so good...
+Maybe even better than sex..."
+@page
+A frenzied, mad expression comes to her face,
+and a cold sweat flows down my back.
+@page
+@fi s=w103d pos=c
+@v s=11184
+@【わずか】
+"Hey... Itaru-kun, what do you think of me?"
+@page
+;分岐
+;わずか好感度特定値以上　→140604
+;上記以下　→140605
+@jump storage="140604.scn" cond="f.wazuka >= 7"
+@jump storage="140605.scn"

@@ -1,0 +1,153 @@
+﻿;020904
+*020904|_１０月２８日午後４時２２分
+In any case, it seems like peace has finally come.
+This is what I want it to be like when I leave school.
+@page
+@setOnce
+@fi s=m111 pos=rc
+@fi s=w111 pos=lc
+@endOnce
+@v s=20512
+@【祀利】
+"Hey, Itaru! Itaru!"
+@page
+@【至】
+"Hm?"
+@page
+@fi s=m112 pos=rc
+@v s=20513
+@【祀利】
+"Obrigada! Today was super fun♪."
+@page
+Oh, this decieving face that tricked me.
+I almost think that it'd be alright to be decieved.
+@page
+However, my mind is cool like an iceburg.
+I take care not to ignore her next words.
+@page
+@fi s=m111 pos=rc
+@v s=20514
+@【祀利】
+"Let's make tomorrow even more fun."
+@page
+@fi s=m64b pos=rc
+@v s=20515
+@【祀利】
+"When you leave and when you come home, and when it's just the 
+two of you having lunch, it must be nice... can I come along next time?"
+@page
+@【至】
+"Ask Wazuka-san."
+@page
+@fi s=m647 pos=rc
+;【備考】キチガイ　→伏字
+@v s=20516
+@【祀利】
+"Who, her? Wouldn't you call her a "lunatic" or something in English?"
+@page
+Crap-- I need to instantly follow up. Restrain her, I mean.
+@page
+Wazuka-san looks at me and nods, as if
+to say it was nothing.
+@page
+@fi s=w411 pos=lc
+@v s=10444
+@【わずか】
+"We don't keep company with idiots."
+@page
+@fi s=m111 pos=rc
+@v s=20517
+@【祀利】
+"If we're talking about idiots, you're the biggest one of all."
+@page
+@v s=10445
+@【わずか】
+"People that call people the biggest idiots are the biggest idiots."
+@page
+@v s=20518
+@【祀利】
+"People who call people who call people the biggest idiots the biggest idiots really are the biggest idiots in the world."
+@page
+@v s=10446
+@【わずか】
+"People who call people who call people who call people the biggest idiots the biggest idiots who are the biggest idiots in the world are the dumbest creatures on the planet."
+@page
+@v s=20519
+@【祀利】
+"People who call people who call people who call people the biggest idiots the biggest idiots who are the biggest idiots in the world the dumbest creatures on the planet are the biggest idiots in space."
+@page
+@fi s=w113 pos=lc
+@v s=10447
+@【わずか】
+"How stupid... that's what I think."
+@page
+@fi s=w414 pos=lc
+@v s=10448
+@【わずか】
+"Your vocabulary is poor... Oh, I'm sorry.
+You must not know the meaning of the word vocabulary."
+@page
+@fi s=m114 pos=rc
+@v s=20520
+@【祀利】
+"Y-Yeah I do! Don't make fun of me!"
+@page
+@fi s=w411 pos=lc
+@v s=10449
+@【わずか】
+"Then what does it mean?"
+@page
+Wazuka-san asks, and Matsuri can't respond.
+It's pretty obvious that she doesn't know."
+@page
+@【至】
+"Isn't that enough? Let's stop fighting."
+@page
+@v s=10450
+@【わずか】
+"Oh, we're not. It's not a fight if the other side doesn't fight back."
+@page
+@fi s=m74a pos=rc
+@v s=20521
+@【祀利】
+"... What was that?"
+@page
+At that moment, Matsuri's tone changed.
+No, more precisely, the person in control of her changed.
+@page
+@fi s=m115 pos=rc
+@v s=20522
+@【祀利】
+"It's not a fight, is it?
+Yeah, sorry, it really isn't.
+Sorry, I was being stupid."
+@page
+@se s=se131
+@fi s=m315 pos=rc
+;【ＳＥ】拳銃構える
+;【立ち絵】祀利拳銃構える
+@v s=20523
+@【祀利】
+"It's a double homicide."
+@page
+Again!?
+If I said that, I feel like my jaw would hit the floor.
+Come on me, don't be angry and don't be surprised.
+@page
+@v s=20524
+@【祀利】
+"Why don't we bring this to an end? That's what you wanted, right?"
+@page
+@fi s=w112 pos=lc
+@v s=10451
+@【わずか】
+"You misunderstand. This isn't a double homicide."
+@page
+@fi s=w312 pos=lc
+;【立ち絵】わずか包丁を構える
+@v s=10452
+@【わずか】
+"You're the only one that's going to be dying."
+@page
+@jump storage="020905.scn"
+;→020905

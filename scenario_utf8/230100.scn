@@ -1,0 +1,103 @@
+﻿;230100
+*230100|ウサミとササミの倫理無用♪
+;【ワイプ】場面転換
+;【カットイン】人形劇舞台
+@se s=se020
+@cut s=cut2300 trans=z2n_rotin time=1200
+@qk time=500
+@flash time=500
+@setOnce
+@fi s=s111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@bgm s=bgm09
+@mwon
+@v s=16002
+"Usami and Sasami's!
+@wait time=800
+@se s=se151
+@lfont
+@v s=16006
+Useless Ethics!♪"
+@page
+@se fade=out
+@v s=16001
+@【ウサミ】
+"Good evening to all you 30 million
+eroge fans out there!♪"
+@page
+@v s=16002
+@【ウサミ】
+"The social satire puppet show,
+Usami and Sasami's Useless Ethics♪ is starting now!"
+@page
+@v s=16006
+@【ササミ】
+"If we're going for black comedy and social satire, there's one topic we can't avoid.
+Ooh, just look at those developer's faces go pale."
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"Nooo! You must absolutely not mention that!
+It's no-good behavior! We'll be hunted!
+The entire game's stock will be recalled!"
+@page
+@act id=u t=stopswing
+@v s=16001
+@【ウサミ】
+"Rather than that, let's talk about the game's story.
+Last night was pretty serious, huh?"
+@page
+@v s=16005
+@【ササミ】
+"Really? It wasn't that bad, was it?"
+@page
+@v s=16006
+@【ササミ】
+"All the heroines came anyway.
+All that talk of snipers and assassins."
+@page
+@v s=16005
+@【ササミ】
+"This is pretty peaceful.
+If we were a certain other company, there would be corpses everywhere."
+@page
+@v s=16001
+@【ウサミ】
+"Ah-- that's true. There'd be explosions,
+bombs, and then the next scene would be completely normal.
+It's a pretty good gag for a comedy, after all."
+@page
+@v s=16006
+@【ササミ】
+"Eeehhh. Don't forget, though.
+The peaceful world isn't a bag of treats either.
+For example there are stalkers, serial killers and murderers."
+@page
+@v s=16004
+@【ウサミ】
+"Aaahhh, you can't talk about that!
+We were all good before the curtain went up!"
+@page
+@v s=16005
+@【ササミ】
+"No, no, the curtain had already risen."
+@page
+@act id=u t=hit
+@v s=16001
+@【ウサミ】
+"Eh? Ar-ar-ar-ar-are you seriousss!?"
+@page
+@v s=16005
+@【ササミ】
+"... Are you really one of the hosts here?"
+@page
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+;【演出】暗転
+;→230100a
+@jump storage="230100a.scn"

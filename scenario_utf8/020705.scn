@@ -1,0 +1,312 @@
+﻿;020705
+*020705|_１０月２８日午後１２時４２分
+--Then, I noticed.
+@page
+@bgm s=bgm05
+@【至】
+(... Huh? What's on Wazuka-san's hand?)
+@page
+@bi s=current all=true trans=crossfade
+On the cuff of her sleeve is a powder--
+like concrete or plaster.
+@page
+Something that's vividly red is floating around in it.
+Suddenly, I realize something-- like a flash of lightning.
+@page
+@【至】
+"Wazuka-san."
+@page
+@fi s=w111 pos=c
+@v s=10376
+@【わずか】
+"Yes?"
+@page
+@【至】
+"Did you meet Otogiri-san earlier?"
+@page
+No answer.
+She hasn't denied it, so maybe I can take that as confirmation.
+@page
+However, I want to make absolutely sure.
+So, I ask her this question.
+@page
+@【至】
+"What did you do to Otogiri-san?"
+@page
+Again, silence-- and then.
+@page
+;@fi s=w211 pos=c
+@v s=10377
+@【わずか】
+"Something. You didn't so anything, so, I did."
+@page
+I want to ask what that something was.
+However, I'm too much of a coward.
+Matsuri's here too, and I don't want to have to deal with her reaction.
+@page
+@【至】
+"Alright. But, promise me this.
+You won't do anything like what you did yesterday anymore, right?"
+@page
+;@fi s=w111 pos=c
+@v s=10378
+@【わずか】
+"Anymore?"
+@page
+@【至】
+"Yes. Not anymore.
+Don't do anything like yesterday."
+@page
+Once the police get her, there's only two choices. Suspension, or dropping out.
+I really need to thank Otogiri-san later for not telling on Wazuka-san.
+@page
+@【至】
+"I already apologized this morning to her--
+But really, I'm asking you to promise me, Wazuka-san."
+@page
+;@fi s=w111 pos=c
+@v s=10379
+@【わずか】
+"Okay. I won't do that from now on.
+But Itaru-kun, I want you to promise too."
+@page
+@【至】
+"What?"
+@page
+@fi s=w112 pos=c
+@v s=10380
+@【わずか】
+"Don't apologize to her. She should be the one apologizing instead."
+@page
+@【至】
+"Now why would you say that?
+You hit her head against the wall, didn't you? There was blood there."
+@page
+;@fi s=w115 pos=c
+@v s=10381
+@【わずか】
+"I know that, but even so.
+That girl... is strange."
+@page
+You're the strange one--
+I laugh at myself, who was about to say that.
+@page
+I'm right, after all.
+@page
+@fi s=w111 pos=c
+@v s=10382
+@【わずか】
+"Is something wrong?"
+@page
+@【至】
+"No, I was just thinking about my talk with her this morning.
+You really do change when it comes to me, don't you?"
+@page
+@fi s=w548 pos=c
+@v s=10383
+@【わずか】
+"No. This is the real me.
+Everything else is a lie."
+@page
+@【至】
+"Then why do you have to lie to everyone else?"
+@page
+@fi s=w211 pos=c
+@v s=10384
+@【わずか】
+"I must. People other than you...
+No, the world has no value other than you."
+@page
+I feel a little embarassed at the things she said to me with a straight face.
+Like, love, etc.
+Those words have a common meaning. Favorable.
+@page
+However, Wazuka-san's words are above that meaning.
+Like the final boss of a game 
+@page
+@【至】
+"...tch, gimme a break."
+@page
+@fi s=w548 pos=c
+@v s=10385
+@【わずか】
+"You didn't like that?"
+@page
+@【至】
+"No, but... that's kind of an exaggeration, isn't it?"
+@page
+Wazuka-san denies that with no hesitation.
+@page
+@fi s=w111 pos=c
+@v s=10386
+@【わずか】
+"I exist for you.
+My existence has no value besides that."
+@page
+I know why that is.
+@page
+So I don't say anything to her.
+Anything I say will just make her owe me more--
+That's how I feel, so...
+@page
+@【至】
+"Can't wait for dinner."
+@page
+I decieve her with those words.
+@page
+Otherwise, I would say many other things.
+So many unecessary things--
+;@bgm fade=out
+@page
+@mnon
+@mset l=4 h=true
+;@bgm s=bgm05
+;@fi s=w114 pos=c
+@v s=10387
+"... It's true."
+@waitclk
+@mset l=5 h=true
+Itaru-kun is truly kind.
+No, he is too kind.
+That is why he allows lowlifes to approach him.
+They exploit that kindness.
+@waitclk
+@mset l=4 h=true
+@v s=10388
+(... I will protect him...
+ I have to help him!)
+@waitclk
+@mset l=4 h=true
+I must compensate for a life with a life.
+This person have me life, at the basest level.
+There is nothing more important than Itaru-kun in this world.
+@waitclk
+@mwon
+@fi s=w112 pos=c
+@v s=10389
+@【わずか】
+"... I have to pay more and more attention."
+@bgm fade=out
+@page
+@bgm s=bgm03
+@【至】
+"Why?"
+@page
+I see her muttering, but she just shakes her head in silence.
+@page
+@fi s=w111 pos=c
+@v s=10390
+@【わずか】
+"Nothing."
+@page
+I take my lunch box, and resume my meal.
+@page
+@fi id=w
+Was it really nothing?
+Well, I guess she won't tell me even if I ask.
+She's that kind of person.
+@page
+@qk time=800
+@flash time=800
+@lfont
+@fi s=m214 pos=c
+@v s=20312
+@【祀利】
+"Itaru!"
+@page
+@【至】
+"Wh-What is it!?"
+@page
+@fi s=m114 pos=c
+@v s=20313
+@【祀利】
+"Eat the ration. You haven't eaten it at all."
+@page
+@【至】
+"Oh yeah, sorry.
+Err, is this... jam?
+So I put this on the cracker, and..."
+@page
+Rip the package and slather it on... hm?
+@page
+@qk time=800
+@flash time=800
+@lfont
+@【至】
+"Horrible!?"
+@page
+An ungodly fishy taste fills my mouth, so I spit it out in the water fountain.
+@page
+@fi s=m64b pos=c
+@v s=20314
+@【祀利】
+"Don't throw it away! Was it really that bad?"
+@page
+@【至】
+"I'm wondering if it was even people food!
+Why was it so fishy?!"
+@page
+Smelling the jam again, how the heck can I even describe it?
+I feel like it's the smell of solidification.
+@page
+@fi s=m112 pos=c
+@v s=20315
+@【祀利】
+"It's tuna spread!
+Eat it! It's really good!"
+@page
+@fi s=m112 move=rc
+@fi s=w111 pos=lc
+@v s=10391
+@【わずか】
+"Itaru-kun, you don't have to eat that.
+Only eat mine."
+@page
+@fi s=m214 pos=rc
+@v s=20316
+@【祀利】
+"No! Eat mine too!
+Say aahh! Open up!"
+@page
+@fi s=w112 pos=lc
+@v s=10392
+@【わずか】
+"You don't have to. Eat only mine.
+Say aahh. Just like yesterday... okay?"
+@page
+This is the beginning of the dangerous part of my life.
+I may die if I eat any of this.
+Perhaps this was how I died?
+@page
+I have no time to think
+Matsuri sticks out a spoon with her tuna spread.
+Wazuka-san sticks out chopsticks with her raw meat on it.
+@page
+@fi s=m112 pos=rc
+@fi s=w114 pos=lc
+;【備考】ユニゾン
+@v s=10393
+;@【わずか】
+"Okay, open up.♪
+;@v s=20317
+;@【祀利】
+;「はい、あーん♪」
+@page
+;【ＳＥ】らしいのがあったはず
+@se s=se080
+@qk time=600
+Smoosh.
+@page
+@bi s=current all=true trans=crossfade time=100
+@bi s=bg810 time=300
+@qk time=1000
+@flash time=1000
+@lfont
+@【至】
+"AAAAUUUUUGGHHHH!?"
+@page
+I think my scream reached the opposite side of the school...
+@page
+;→020706
+;@bgm fade=stop
+@jump storage="020706.scn"

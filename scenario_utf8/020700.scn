@@ -1,0 +1,8 @@
+﻿;020700
+*020700|_セーブできたらすげー！
+;分岐
+;わずか好感度特定値以上　→120300
+;それ以外　→020701
+@jump storage="120300.scn" cond="f._120100"
+;@jump storage="120300.scn" cond="f.wazuka >= 2"
+@jump storage="020701.scn"

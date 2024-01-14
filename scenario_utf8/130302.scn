@@ -1,0 +1,41 @@
+﻿;130302
+*130302|_今、なにしてますか？
+;【ワイプ】時間経過
+;【背景】屋上・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@bgm s=bgm04
+@fi s=w113a pos=c
+@mwon
+I look at my watch after soaking in the afterglow,
+and notice that it's already halfway through first period.
+@page
+I don't really want to go to class now.
+I had already decided that since I came here.
+@page
+@fi s=w548a pos=c
+@v s=10916
+@【わずか】
+"... I'm skipping.
+@page
+;【背景】青空
+@fi id=w
+@bi s=bg810
+I look into the sky, for some reason.
+@page
+Blue. Peaceful. I try to breathe it in.
+I don't know why I do, but I think of him again...
+@page
+@v s=10917
+@【わずか】
+"Itaru-kun..."
+@page
+What did I just do?
+@page
+@mwoff
+@bgm fade=out
+;→130303
+@jump storage="130303.scn"

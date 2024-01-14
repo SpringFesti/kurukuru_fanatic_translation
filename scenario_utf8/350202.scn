@@ -1,0 +1,172 @@
+﻿;350202
+*350202|_もっとしっかり！
+;【ワイプ】時間経過
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@se s=se011
+@mwon
+@【至】
+"Phew... I'm beat."
+@page
+Even though it's only the first break period, my body is strangely tired.
+@page
+I need to get a grip--
+I realized this, and my body became tense.
+@page
+Which reminds me, where did my angry older sister go?
+As usual, she's disappeared from the room.
+@page
+She must've gone to that place, huh?
+If she did, then I have to go too.
+@page
+-- Then, one of my friends catches me while I'm thinking.
+@page
+"Are you free on Sunday? Let's do some karaoke."
+is what he says, all in all a very standard invitation.
+@page
+Honestly, because it's out of the question,
+I can't respond with anything except for a refusal.
+@page
+But on the other hand, I'm happy.
+@page
+My stock prices in the class plummet to a new low every day.
+Soon I'll be delisted.
+@page
+And in that situation, someone started a conversation with me so easily.
+It truly is wonderful.
+Perhaps this is God.
+@page
+And so, the conversation switched from my plans to idle chat about times past.
+@page
+;【ワイプ】時間経過
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@se s=se011
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+Finally, we had a long talk until class began.
+@page
+My cell phone vibrated, and at that time.
+@page
+@【至】
+"... Hm? Another text?"
+@page
+"Could it be?" I thought as I took out my phone,
+and sure enough it was a text from Otogiri-san.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30608
+;@【かごめ】
+"Why didn't you come to see me a little while ago?
+Onee-chan waited a long time for you, you know!"
+@waitclk
+@mwon
+@【至】
+(Ah crap... she really was waiting for me.
+But I never promised that I'd meet her, so...)
+@page
+"Sorry, break time ended while I was talking to a friend."
+I send that to her, and immediately a reply comes.
+@page
+@mnon time=300
+@mset l=5 h=true time=300
+@v s=30609
+;@【かごめ】
+"Then your friend is more important than your older sister?
+Being with my little brother is more important than anything to me!
+If you're my real little brother, then I expect the same from you!　Points deducted!"
+@waitclk
+@mwon
+@【至】
+"... what's with that?"
+@page
+I didn't think she'd get that angry.
+My spine shivers a little.
+@page
+@【至】
+"I should apologize, huh..."
+@page
+I don't think I did anything wrong, but I should apologize.
+With those feelings, I start typing my reply.
+@page
+"I'm sorry, I shouldn't have just left you there no matter what.
+I'll pay more attention from now on."
+@page
+With this, she should calm down a little.
+That expectation was broken to pieces with the next text.
+@page
+@mnon time=300
+@mset l=5 h=true time=300
+@v s=30610
+;@【かごめ】
+"I must object! That's why I'm so angry!
+Even if your older sister says so, you
+shouldn't ignore your friends!"
+@waitclk
+@mwon
+... Wait, what?
+@page
+No, I know what's she's saying.
+I understand. It's a sound argument.
+@page
+But it's hard to swallow.
+Still, I send her another text.
+@page
+"Yeah, you're right. Sorry."
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30611
+;@【かごめ】
+"No, no! If you understand, then it's okay.
+You shouldn't be so easy to apologize!"
+@waitclk
+@mwon
+@【至】
+"What the hell... I seriously don't get it..."
+@page
+So what should I do, then?
+I'm getting the feeling that's she's hard to please.
+@page
+I don't know how I should reply at all.
+Rather, I think she'll get angry if I reply at all.
+@page
+So I don't reply anymore, and I put my face down on my desk.
+@page
+@【至】
+"... Man, I'm really tired."
+@page
+@bi s=bg810
+So, I decided to sleep through the class.
+@page
+During that time, feeling a piercing glance,
+I felt myself getting goosebumps.
+@page
+I'm sure it's Otogiri-san.
+@page
+I don't know whether she's angry at my attitude or if she's given up,
+but at least I haven't gotten any more texts from her. That's a small mercy.
+@page
+But I'm still scared.
+Because at the next break, and then at the lunch break...
+@page
+@bgm fade=stop
+@bi s=blank time=100
+@mnon size=60 time=100
+@mset l=4 h=true time=100
+@se s=se090
+His hunch was on the money!
+@waitclk
+@mnoff
+;→350300
+@jump storage="350300.scn"

@@ -1,0 +1,417 @@
+﻿;010103
+*010103|_October 27th, 7:37 AM
+Her throat quickly grows hoarse from the screaming, and soon the only things coming out of her mouth are anguished moans.
+@page
+The sounds coming from her mouth sound like a dog's growling.
+But instead of growling at an enemy, she's growling at me.
+@page
+;【カットイン】血ノリ
+;【ＳＥ】激突音
+@fi s=w41a pos=c
+@v s=10043
+@【わずか】
+"Itaru-kun!　Dead!　Bad!　I! Useless! Dead! Dead! Dead! I MUST DIIIIIEEEEE!"
+@wait time=5000
+@fi s=w11b pos=c
+@act id=w t=neckswing
+@page
+@【至】
+"No!　I'm not dead! You helped me! You helped me get up!"
+@page
+Well, she made a certain part of me get up. A small part of me down there.
+@page
+@act id=w t=stopswing
+@fi s=w548 pos=c
+@v s=10044
+@【わずか】
+"... No, I didn't help you. I didn't do anything."
+@page
+@【至】
+"Yes, you did! You helped me out of a dream I was having!"
+@page
+@fi s=w113 pos=c
+@v s=10045
+@【わずか】
+"... I did? What kind of dream?"
+@page
+@【至】
+"I can't remember. But... it was probably a bad dream."
+@page
+My memory was clear a few minutes ago,
+but the noise and distractions caused it to deteriorate.
+@page
+@【至】
+(I feel like I should be able to remember, but I can't anymore... 
+Maybe I'll remember if I find a trigger.)
+@page
+@fi s=w213 pos=c
+@v s=10046
+@【わずか】
+"You're okay, Itaru-kun?　Are you really okay?"
+@page
+@【至】
+"It was just a dream, right?　It was nothing serious."
+@page
+@fi s=w548 pos=c
+@v s=10047
+@【わずか】
+"I'm still worried about it. If you're feeling bad, I want to help you feel better."
+@page
+@【至】
+"Well, there's no way you could see into my dreams."
+@page
+@fi s=w412 pos=c
+@v s=10048
+@【わずか】
+"Yes, there is! There must be! If there isn't, I'll find a way! 
+I'll make myself useful!"
+@page
+@【至】
+"It's not that big of a deal..."
+@page
+I try to convince her of that, but Wazuka-san ignores my words as she ponders something to herself.
+@page
+@fi s=w548 pos=c
+@v s=10049
+@【わずか】
+"There should be something... there definitely is... 
+If it's for Itaru-kun... how can I――!"
+@page
+@【わずか】
+"…………………………"
+@page
+@fi s=w419 pos=c
+@v s=10050
+@【わずか】
+"... Aha! There's that... I can use that!"
+@page
+@se s=se044
+@qk time=500
+@fi id=w
+Before I can ask what "that" is, Wazuka-san bursts out of my room, 
+and runs off somewhere.
+@page
+3 seconds pass. I feel nothing but dumb shock.
+@page
+@se s=se044
+@qk time=500
+―― Then, the door bursts open again. 
+Wazuka-san sprints back into the room.
+@page
+@fi s=w114 pos=c
+@v s=10051
+@【わずか】
+"Got it! I can help you with this!"
+@page
+She pats on a large white pillow, and little pomf sounds come out of it.
+@page
+@【至】
+"What's that?"
+@page
+I just asked a really dumb question.
+Wazuka-san chuckles, and pushes out her chest with pride.
+It looks like the buttons on her uniform will fly off.
+@page
+@fi s=w412 pos=c
+@v s=10052
+@【わずか】
+"This is my secret weapon for getting rid of nightmares.
+If it looks like you're having a nightmare, I'll wake you up."
+@page
+Wazuka-san flings the pillow on the bed, and puts her hands on my shoulders.
+@page
+@fi s=w111 pos=c
+@v s=10053
+@【わずか】
+"Go to sleep."
+@page
+@【至】
+"W, what?"
+@page
+@fi s=w112 pos=c
+@v s=10054
+@【わずか】
+"Sleep. I'll protect you from the nightmares."
+@page
+@【至】
+"How?"
+@page
+@v s=10055
+@【わずか】
+"Like this."
+@page
+She pushes down on my shoulders again.
+She tries to calm me, saying "It's okay" over and over again.
+@wait time=2000
+―― Well, I didn't need any more calming.
+@page
+@fi s=w114 pos=c
+@v s=10056
+@【わずか】
+"Itaru-kun, it's time to sleep. It's a nice morning. 
+Just the right time to sleep."
+@page
+@【至】
+"No, the time to sleep is night. It's time to get up now."
+@page
+@fi s=w212 pos=c
+@v s=10057
+@【わずか】
+"Even so, you can sleep now, so I can make myself useful.
+Weren't you standing up a little while ago?"
+@page
+A part of my body was...
+I nod, and Wazuka-san smiles a little.
+@page
+@fi s=w114 pos=c
+@v s=10058
+@【わずか】
+"Itaru-kun, I'll protect you. That's why I'm here."
+@page
+Soothing me like I was a child, Wazuka-san makes me lie down on the bed.
+@page
+@fi s=w547 pos=c
+@v s=10059
+@【わずか】
+"Good night, Itaru-kun. I'll sleep next to you. 
+I'll watch over you until you wake up."
+@page
+@【至】
+"But I just got up a little while ago, didn't I?
+Besides, if I sleep for a long time, you won't get any sleep yourself."
+@page
+@fi s=w111 pos=c
+@v s=10060
+@【わずか】
+"I'll go to sleep when you get up. Come on, it's bed time."
+@page
+No, you can't――
+But before I say that, I swallow my words.
+@page
+@【至】
+(She might say something strange and start hitting her head against the wall again... It'd be really bad if she gave herself a concussion...)
+@page
+She's the kind of person who would hit her head hard enough to turn her brain into soup.
+@page
+Let's try and make the best of this situation.
+Let's sleep. I'll go to sleep. Time to start going back to sleep.
+@page
+@【至】
+"O, okay then, good night."
+@page
+@fi s=w114 pos=c
+@v s=10061
+@【わずか】
+"Good night. I'll join you..."
+@page
+@fi s=w111 pos=c
+@v s=10062
+@【わずか】
+"... Oh, wait. I should take this off."
+@page
+@【至】
+"Take what off?"
+@page
+@fi s=w211 pos=c
+@bgm fade=out
+@v s=10063
+@【わずか】
+"My bra."
+@page
+@fi id=w
+@bgm s=bgm14
+@mwoff
+;@lenspfx
+@bi s=evn1023
+@wait time=300
+@mwon
+Slowly, she reaches under her uniform and takes off her bra as casually as one would take off a mask or a pair of glasses.
+She flings it aside and brings me into a tight embrace again.
+@page
+She's naked. I can feel her naked breast right on my cheek.
+Of course, that gives me an erection again.
+@page
+@v s=10064
+@【わずか】
+"Are you asleep? Tell me if you fall asleep, okay Itaru-kun?"
+@page
+@【至】
+"I can't talk if I'm asleep. Actually, I wouldn't be able to hear you either."
+@page
+@v s=10065
+@【わずか】
+"If you don't tell me, then I won't know if you're having a nightmare.
+If you start seeing a scary dream, tell me, okay?"
+@page
+You're putting the cart before the horse, Wazuka-san.
+Besides, I wouldn't be able to tell you.
+@page
+@【至】
+"... Hey, why did you take that off?"
+@page
+@v s=10066
+@【わずか】
+"Oh, do you mean my clothes? 
+If I had them on, wouldn't it hurt when I hug you?"
+@page
+@【至】
+"But now you're naked."
+@page
+@v s=10067
+@【わずか】
+"I'm not naked, I'm only half naked. Oh... should I take off my underwear?"
+@page
+―― Then, her legs begin to squirm a little.
+It's pretty obvious what she's doing, don't you think?
+@page
+@【至】
+"Stop!　Stop taking it off! Just your chest is good!
+I mean, uh, your chest is, um..."
+@page
+;@v s=10068
+;@【わずか】
+;"Oh, okay."
+;@page
+;@qk time=500
+;@lfont
+;@【至】
+;"No, it's not okay!"
+;@page
+@v s=10069
+@【わずか】
+"Do my breasts... smell?　Or are they too soft and flabby?"
+@page
+Actually, it's the opposite. They smell nice.
+Wait, why do I feel relieved that I'm only touching them?
+@page
+@【至】
+"... So, is this the story of a true man?"
+@page
+It's a bit sad, but these are the so-called "tits".
+I'm relieved, but I have a full erection now.
+@page
+@v s=10070
+@【わずか】
+"Itaru-kun, sleep softly. I'll be with you... okay?"
+@page
+Oooh, I can't resist.
+This isn't what you're supposed to see first thing in the morning, God.
+Or are you trying to seduce me back to sleep with devilish whispers?
+@page
+;【演出】イベントＣＧの上にソフフォーカスレイヤー的カットインを重ねることは可能？
+@v s=10071
+@【わずか】
+"I'll do anything for you, Itaru-kun. That is the only reason I exist...
+That is what I dedicate all of my being to."
+@page
+Those words are like a lullaby to me.
+@page
+Oh man, I really am going to fall back to sleep.
+@page
+... Well, that's okay. If I'm being held like this, falling back asleep is okay...
+@page
+I feel like I'm a kid again.
+@page
+I remember longing to be held by my mother.
+I breathe in, smell a sweet scent, and fall into a gentle light.
+@page
+Yes... that nostalgic time.
+Those soft memories, scorched into the back of my brain...
+@page
+... I can't... my mind... It's fading... melting...... falling apart...
+@page
+;@stoppfx
+;【演出】暗転
+@bi s=blank trans=crossfade all=true
+…………
+…………
+@wait time=2000
+Oh.
+@page
+;【背景】主人公自室/朝
+;【ＳＥ】アラーム・目覚まし時計的な何かで
+@bgm fade=stop
+@bi s=bg01m time=200
+@se s=se027 loop=true
+@fi s=w101d pos=c
+@v s=10072
+@【わずか】
+"... Ah... that."
+@page
+@bgm s=bgm09
+Suddenly, loud, piercing beeps start ringing, 
+and the last rational part of my brain screams.
+@page
+@【至】
+"What... what's that? I feel like that's really important."
+@page
+@v s=10073
+@【わずか】
+"That's the alarm on your cell phone. We'll be late to school if we don't get up."
+@page
+@【至】
+"Wait, shit! That's really bad! We need to go, now!"
+@page
+;@fi s=w102d pos=c
+@v s=10074
+@【わずか】
+"But, your nightmares..."
+@page
+@【至】
+"Fine, we'll sleep together tonight. I'm not tired anymore."
+@page
+@fi s=w103d pos=c
+@v s=10075
+@【わずか】
+"Okay. Is that a promise? If you break it, I..."
+@page
+Will she beat her head on the wall more, or something worse?
+I'm afraid to even imagine it.
+@page
+@【至】
+"―― Wait, there's no time! We really need to hurry up!"
+;@bgm fade=stop
+@page
+@setOnce
+@se fade=stop
+@fi id=w
+;@bgm s=bgm02
+@bi s=bg810 time=800
+@endOnce
+@mwoff
+@mnon
+@mset l=3 h=true
+;【演出】縦モノローグ
+;【備考】モノローグの文字数が不明であったため、２５文字で表記
+I open the curtains, where the gentle sunshine of October was waiting.
+@waitclk
+;【背景】なんていうかイメージ。カラフルなサイケな。ここ、クルクル回るアニメは無理か？
+@mset l=3 h=true
+It's sunny, with a clear sky. No clouds in sight.
+Nothing but the dazzling sunlight of autumn――
+Yes, as if to announce the start of something.
+@waitclk
+@mset l=3 h=true
+"Wow... this is beautiful."
+@waitclk
+@bgm fade=stop
+;本編では話者抜き
+@mset l=3 h=true
+@v s=10076
+"What is?"
+@waitclk
+@mset l=3 h=true
+I hear a voice behind me, and I freeze up. As for why, well...
+@waitclk
+@mnoff
+;@mwon
+;@mwoff
+@bgm fade=out
+@bi s=white trans=crossfade all=true
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+;【演出】ＯＰムービー再生
+@opmovie
+;再生終了後→010200
+;【ワイプ】場面転換
+@jump storage="010200.scn"

@@ -1,0 +1,278 @@
+﻿;220200
+*220200|偶然と計画と
+;【フラグ】フラグ220200起立
+;【背景】学園踊り場
+@eval exp="f._220200++"
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg11d trans=tile
+;@bgm s=bgm06
+@fi s=m112 pos=c
+@mwon
+@v s=20325
+@【祀利】
+"Come on, let's get back to the classroom.
+I wanna be with you aaall afternoon."
+@page
+In other words, Matsuri's going to be returning to my knee this afternoon.
+Well, she's pretty light, so I don't mind.
+@page
+@fi s=m111 pos=c
+@v s=20326
+@【祀利】
+"There was someone in our way just now,
+but it'll just be the two of us in the classroom, huh?"
+@page
+No, wait, wait.
+My classroom will have my classmates in it.
+It most certainly will not be just the two of us.
+@page
+Well, when Matsuri was talking about someone in our way,
+she probably meant Wazuka-san. She doesn't care about
+our classmates.
+@page
+Matsuri smiles radiantly at my side.
+I wonder what kind of expression she had when she was looking at Wazuka-san behind me?
+@page
+@【至】
+(... Somehow I think I already know.)
+@page
+I don't want to see.
+If I do, it'll just cause trouble.
+@page
+I try to go down the stairs, thinking those kinds of things.
+@wait time=2000
+But then.
+@page
+@fi s=m113 pos=c
+@act id=m t=tremor
+@qk time=500
+@lfont
+@v s=20327
+@【祀利】
+"Kyah!?"
+@page
+Matsuri's body suddenly shakes.
+@page
+@fi id=m
+I'm not fast enough to react.
+Matsuri falls before my eyes.
+And then--
+@page
+;【ワイプ】場所移動
+;【背景】学園廊下
+@mwoff
+@bi s=blank time=100
+@se s=se118
+@cut s=cut2100
+@qk time=800
+@flash time=800
+@waitclk
+@cut
+@bi s=bg10d time=100
+@bgm s=bgm11
+;@fi s=m112 pos=c
+@mwon
+@【至】
+"Matsuri, are you alright!?"
+@page
+Even while I cry out, Matsuri's body smacks against the stairs again and again.
+A strange, dull sound.
+@page
+She falls onto the corridor, and stops moving.
+@page
+@【至】
+"Matsuri! Matsuri!!　Are you okay!? Please, be okay!"
+@page
+Matsuri weakly looks up at me while I cradle her in my arms.
+@page
+@fi s=m64bbd pos=c
+@v s=20328
+@【祀利】
+"Mnn... ow... it hurts... Itaru..."
+@page
+@【至】
+"Where!? Where does it hurt!?
+Your arm!? Your leg!? Or does your head hurt!?"
+@page
+@fi s=m116bd pos=c
+@v s=20329
+@【祀利】
+"I don't know... my body... it all hurts..."
+@page
+@fi id=m
+@fi s=w111 pos=c
+@v s=10398
+@【わずか】
+"So? That's your own fault. Itaru-kun, let's go."
+@page
+@【至】
+"No way I can leave now! Matsuri just fell down the stairs!
+She's gotta be hurt!"
+@page
+@fi id=w
+@fi s=m647bd pos=c
+@sfont
+@v s=20330
+@【祀利】
+"... Fufu... just as I thought, Itaru."
+@page
+@【至】
+"-- Eh? Did you say something?"
+@page
+@fi s=m116bd pos=c
+@v s=20331
+@【祀利】
+"... It hurts... it really hurts, Itaru...
+Help me, Itaru... I... I might dieee..."
+@page
+@【至】
+"Got it, I'll call an ambulance.
+For now, let's head to the nurse's office."
+@page
+@fi id=m
+@fi s=w111 pos=c
+@v s=10399
+@【わずか】
+"Itaru-kun, she's lying.
+There's nothing wrong with her."
+@page
+@【至】
+"She just fell all the way down the stairs, didn't she?
+There's got to be something, then!
+Don't say stupid things, or I'll hate you!"
+@page
+@fi s=w113 pos=c
+@v s=10400
+@【わずか】
+"I... I really am telling the..."
+@page
+@fi id=w
+@fi s=m116bd pos=c
+@qk time=800
+@lfont
+@v s=20332
+@【祀利】
+"Owww!"
+@page
+@v s=20333
+@【祀利】
+"Help me... it hurts... Itaru... I...
+I'm... I can't..."
+@page
+@【至】
+"Okay, let's get to the nurse's office.
+We'll be there soon."
+@page
+@fi s=m64bbd pos=c
+@v s=20334
+@【祀利】
+"Where... is that? Is that like a hospital?"
+@page
+@【至】
+"Yeah, something like that.
+It'll be good enough for first aid."
+@page
+I carefully begin to lift Matsuri into my arms.
+However, she grabs my sleeve and starts to shake her head.
+@page
+@fi s=m114bd pos=c
+@v s=20335
+@【祀利】
+"Nao... no hospital... I hate those...
+Please Itaru, don't take me to the hospital...!"
+@page
+@【至】
+"W-What are you talking about? You're hurt, you
+have to go to the nurse's office..."
+@page
+@fi s=m116bd pos=c
+@v s=20336
+@【祀利】
+"No... nonono... Don't take me there... you can't!"
+@page
+@v s=20337
+@【祀利】
+"Just let me rest a little...
+If I'm with you... I'll be alright...
+I'll get better soon..."
+@page
+@【至】
+"I can't do that!
+You need to get examined by a professional!
+Are you afraid of needles or something?"
+@page
+;【備考】祀利立ち絵目閉じ
+@fi s=m11ebd pos=c
+@【祀利】
+"........."
+@page
+No response.
+Matsuri's eyes close, and her body slumps in my arms.
+@page
+@【至】
+"Matsuri? Hey, Matsuri!"
+@page
+@fi id=m
+Even if I call out her name, there's still no response.
+Almost like...
+@page
+No, no way, she can't be dead.
+She's still breathing, I'm sure of it.
+She's lost consciousness, though.
+@page
+@【至】
+"Wazuka-san... do you still think she's lying?
+You think she could lie about this!?"
+@page
+@fi s=w213b pos=c
+@v s=10401
+@【わずか】
+"Stop... don't look at me with those eyes...!
+No, I'm not wrong! I'm not lying, I'm not!"
+@page
+Even so, I still don't believe Wazuka-san.
+Besides, finding out if she's lying is not my priority right now.
+I've gotta get Matsuri out of here.
+@page
+@fi id=w
+@【至】
+"She said that she hated the nurse's office...
+does she really hate needles that much?"
+@page
+Or maybe there's another reason.
+I don't know what it is, but--
+@page
+@【至】
+"... Guess I won't be going to the nurse's office, then."
+@page
+She won't be treated immediately.
+However, I'm more afraid of the trouble she'd cause if she woke up there.
+She wouldn't possibly start firing her handgun in the nurse's office, but...
+@page
+@【至】
+"I suppose I'll go find an unused classroom somewhere.
+What're you going to do, Wazuka-san?"
+@page
+I don't expect an answer. It would be a negative one, even if I got one.
+@page
+So the result... is just silence.
+She might be waiting for me to talk more, but I don't have time.
+I run off towards a classroom of some kind.
+@page
+@【至】
+"... Well, somehow I thought this would happen."
+@page
+I hate to admit it, but it looks like the two of them getting along is not going to happen.
+@page
+@【至】
+"... Wait, I've got to find a classroom, and fast."
+@page
+I've got to find a place where she can rest.
+I quickly run down the corridor with Matsuri's body in my arms.
+@page
+@mwoff
+;→220201
+@bgm fade=stop
+@jump storage="220201.scn"

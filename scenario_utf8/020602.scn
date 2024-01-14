@@ -1,0 +1,29 @@
+﻿;020602
+*020602|_クイズ！　次はおまえだ！
+@fi s=f55b pos=lc
+@v s=40370
+@【ファヌル】
+"He'll die? But of course.
+Everyone dies at some point.
+@page
+@v s=16001
+@【ウサミ】
+"...But aren't all the choices back there the same?"
+@page
+@fi s=f212 pos=lc
+@v s=40371
+@【ファヌル】
+"That's the trick to this quiz.
+It tests just how flexible your thinking is."
+@page
+@v s=16001
+@【ウサミ】
+"So how was that answer?"
+@page
+@fi s=f212 pos=lc
+@v s=40372
+@【ファヌル】
+"Completely awful. An incorrect choice."
+@page
+;→020605
+@jump storage="020605.scn"

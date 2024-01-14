@@ -1,0 +1,42 @@
+﻿;350302
+*350302|_お姉ちゃんの秘密道具
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@bgm s=bgm07
+;@fi s=fi**** pos=****
+@mwon
+Ending like that, I go out into the corridor with a heavy head.
+My body is still dragging along the afterglow of ejaculation.
+@page
+@fi s=k345 pos=c
+@v s=30657
+@【かごめ】
+"Itaru-kun, from now on, when your older sister talks,
+listen properly, okay?"
+@page
+@【至】
+"... Y-Yeah. Okay... I understand."
+@page
+With my distracted state of mind, I can't consider anything.
+Right now, the only thing I can do is nod at onee-chan's words.
+@page
+With that, it seems that she's satisfied.
+@page
+@fi s=k214 pos=c
+@v s=30658
+@【かごめ】
+"Good. Now, let's return. Class has already started."
+@page
+Smiling, I'm led by the hand to class.
+@page
+@fi id=k
+Languishing in my lazy feelings,
+somehow, I feel like I've made a huge mistake...
+@page
+@mwoff
+;→350400
+@bgm fade=stop
+@jump storage="350400.scn"

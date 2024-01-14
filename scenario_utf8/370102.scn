@@ -1,0 +1,194 @@
+﻿;370102
+*370102|姉⇔弟
+;【背景】かごめ部屋・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07d trans=clock
+@bgm s=bgm20
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Nn... yawn... ah."
+@page
+@fi s=k204 pos=c
+@v s=30865
+@【かごめ】
+"Good morning, Itaru-kun. It's evening already."
+@page
+@【至】
+"Nn... really? I slept rather well."
+@page
+After that, my mind faded away immediately.
+It was probably the consequence of the threads of my tension being cut.
+@page
+But, this was how the case was settled.
+I was able to survive,
+and Otogiri-san and I also became lovers.
+@page
+@【至】
+(... After I report this to Fanuel...
+actually, she hasn't contacted me, huh?)
+@page
+When I've evaded the fate of my death, she definitely said she'd tell me.
+@page
+;【備考】あれば。
+;【ＳＥ】腹の音
+@se s=se082
+-- Then, my stomach rumbled suddenly.
+@page
+@fi s=k104 pos=c
+@v s=30866
+@【かごめ】
+"That was amazing, are you hungry?"
+@page
+@【至】
+"Well, I didn't eat yesterday afternoon."
+@page
+I guess I could say that I had no time for it.
+@page
+@fi s=k204 pos=c
+@v s=30867
+@【かごめ】
+"Okay, then wait just a second then."
+@page
+@fi id=k
+Otogiri-san says so, and exits the room.
+Noticing my hunger pains, I wait.
+@page
+@【至】
+"Well, I guess this is much better if you compare it to before.
+It's good to be alive."
+@page
+I am alive.
+With that much joy, I can deal with a little hunger.
+@page
+Well, I'd be happy if I could eat, too.
+That is that and this is this, I guess. I'm that kind of guy.
+@page
+@fi s=k335 pos=c
+@v s=30868
+@【かごめ】
+"Thanks for waiting."
+@page
+Otogiri-san says that she's back, and in her right hand is:
+@page
+@【至】
+"Eh, uh, wait a secon--"
+@page
+It's a knife that emits a heavy, metallic light.
+I remember that shade--
+@page
+@fi s=k103 pos=c
+@v s=30869
+@【かごめ】
+"I didn't have anything in the fridge. I should go shopping later.
+Can you make due with this for now?
+@page
+In her left hand, she firmly grasps a bright red apple.
+@page
+-- Yeah, that's it. I'm just too jittery.
+@page
+@fi s=k204 pos=c
+@v s=30870
+@【かごめ】
+"Now, watch TV for a bit while you wait.
+Your onee-chan will peel this for you.
+-- It might become a little warped though.
+@page
+@【至】
+"Nn, thanks. You're a big help."
+@page
+@fi s=k102 pos=c
+@v s=30871
+@【かごめ】
+"Aww, a little brother wouldn't say that."
+@page
+@【至】
+"Aah, right. Sorry."
+@page
+@v s=30872
+@【かごめ】
+"Aww, that's not it either."
+@page
+@【至】
+"Yeah, now that you mention it. Sorry about that, really."
+@page
+@fi s=k203 pos=c
+@v s=30873
+@【かごめ】
+"That's not it either."
+@page
+@【至】
+"Hn? Ahh, sor... uhh... umm... Thank you?"
+@page
+@fi s=k202 pos=c
+@v s=30874
+@【かごめ】
+"Too many ums. I don't think you're grateful enough."
+@page
+@【至】
+"No, it's not such a big deal..."
+@page
+@fi id=k
+@v s=30875
+"Whatever."
+@page
+She says that and turns her back to me.
+@page
+Aw, crap. I was getting a bit tongue-tied for a moment there.
+@page
+@【至】
+"Oh, I was going to watch TV."
+@page
+Trying not to put my foot in my mouth any further, I turn my back on her, too.
+@page
+@【至】
+(... I wonder if she's mad.
+I should be more careful from now on.)
+@page
+Now that I mention it, I don't hear the sounds of apple slicing anymore. Maybe she got angry and stopped?
+@page
+Thinking that, I turn around for an instant.
+@bgm fade=out
+@page
+@bgm s=bgm15
+;【イベントＣＧ】evn3050
+@mwoff
+@bi s=evn3050
+@wait time=300
+@mwon
+And there was Otogiri-san, with her knife like that.
+@page
+@v s=30876
+@【かごめ】
+"You're not enough.
+You are too far from my ideal little brother."
+@page
+Wait a minute--! I start to shout.
+@page
+However, what leaked from my mouth that had stiffened in fear was only a whimper.
+@page
+Having turned to me with such a cold glare--
+I'm dumbfounded at her look of extreme contempt, as if she was looking at cattle,
+at those eyes with no feeling in them.
+@page
+@mwoff
+@bi s=evn3051
+@wait time=300
+@mwon
+@v s=30876a
+@【かごめ】
+"Reincarnate. Once more."
+@page
+;【背景】暗転
+@bi s=blank time=100
+@bgm fade=stop
+@mwoff
+@se s=se071
+@qk time=700
+@flash time=700
+@wait time=4000
+@eval exp="sf._kago=1"
+@jump storage="scriptend.ks"
+;→スタッフロール

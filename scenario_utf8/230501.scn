@@ -1,0 +1,79 @@
+﻿;230501
+*230501|クイズ！　次はおまえだ！
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+;【カットイン】書き文字「クイズ！　次はおまえだ！」
+;【ＳＥ】シロウサギ叫び声
+@setOnce
+@mwoff
+@bgm fade=stop
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+@se fade=out
+@v s=16002
+@【ウサミ】
+"A rush of criticism! The complaint telephone is ringing!
+But the host who doesn't care, Usami is here!"
+@page
+@se fade=out
+@fi s=f211 pos=lc
+@v s=40504
+@【ファヌル】
+"And I'm your host Fanuel, who feels the same.
+Are we seriously getting complaints?"
+@page
+@v s=16001
+@【ウサミ】
+"Not really, it was just to get the show going.
+That's all, Fanuel-san. Gigigigigigi."
+@page
+@fi s=f112 pos=lc
+@v s=40505
+@【ファヌル】
+"Player, please throw out your monitor.
+I'll forgive you. We won't compensate you if you call user support, though."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Before that though, so many things are happening in the game!
+A woman's grudge is terrifying! Where will this sticky bullying situation go next!?"
+@page
+@fi s=f559 pos=lc
+@v s=40506
+@【ファヌル】
+"That was an abrupt change of topic. Well, whatever.
+Stickiness is humanity's true nature."
+@page
+@v s=16002
+@【ウサミ】
+"Oh ho, but-but isn't goodness humanity's true nature?
+Didn't some little girl in some country say something about that?"
+@page
+@v s=16001
+@【ウサミ】
+"...Huh? Wait, didn't the people in that same country
+say that human nature was evil? Huhhhhhhh?"
+@page
+@fi s=f111 pos=lc
+@v s=40507
+@【ファヌル】
+"So I guess one of them must be a falsehood. Which one?"
+@pages
+@selinit
+@selbtn cap="Good" s="230502.scn"
+@selbtn cap="Evil" s="230503.scn"
+@s

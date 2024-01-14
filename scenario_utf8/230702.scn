@@ -1,0 +1,27 @@
+﻿;230702
+*230702|_祀利のお願い
+@【至】
+"I guess so..."
+@page
+@fi s=m11ead pos=c
+I bend down and kiss Matsuri.
+@page
+Our wet lips touch, and part.
+@page
+@fi s=m64bd pos=c
+@v s=20874
+@【祀利】
+"Mnn..."
+@page
+Matsuri seems dissatisfied.
+@page
+@【至】
+"W-What's wrong? Didn't you like it?"
+@page
+@fi s=m111d pos=c
+@v s=20875
+@【祀利】
+"... It's nothing. Let's do something even better. Let's play."
+@page
+;→230704
+@jump storage="230704.scn"

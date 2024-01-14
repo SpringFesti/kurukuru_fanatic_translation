@@ -1,0 +1,259 @@
+﻿;230400
+*230400|なんとかして！
+;【備考】主人公視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】廊下
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm03
+@mwon
+"Crap! We don't have any time until the next class!"
+@page
+I look at the time and panic.
+@page
+@【至】
+"Matsuri, hurry up!"
+@page
+@fi s=m113 pos=c
+@act id=m t=hit
+@v s=20814
+@【祀利】
+"Wah, wah, don't pull on me so much! Matsuri's gonna fall down!"
+@page
+;【ワイプ】場面転換
+;【背景】教室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@mwon
+@【至】
+"Hahh... hahh... we-we got there in time somehow... hahh..."
+@page
+@【至】
+"-- Wait, what? Nobody's here. What's going on?"
+@page
+I look around doubtfully, and see instructions on the blackboard.
+@page
+@【至】
+"I see, the AV room. Then no matter what, we're late already."
+@page
+Well, there probably isn't even a teacher there,
+so it's okay to be a little late.
+@page
+@bgm fade=stop
+@fi s=m113 pos=c
+@v s=20815
+@【祀利】
+"Ahhh! What's this!?"
+@page
+@bgm s=bgm15
+I look back at the sudden scream.
+The remains of Matsuri's bento lay scrambled
+at her feet.
+@page
+@【至】
+"This smell is... the thing you made this morning, right?"
+@page
+@fi s=m114 pos=c
+@v s=20816
+@【祀利】
+"Whyyy~? Why would someone do thisss?
+It's so cruuueeelll..."
+@page
+@fi s=m116 pos=c
+@v s=20817
+@【祀利】
+"Waaaahhhh... hic... hic...
+I didn't do anything bad...
+Waaaaaaahhhhh!"
+@page
+@【至】
+"It's okay, isn't it? Don't worry so much about it."
+@page
+@fi s=m216 pos=c
+@v s=20818
+@【祀利】
+"Waaaah! Butbut, Matsuri tried her very best to make it for yoooouuuu!"
+@page
+I desperately comfort Matsuri, who doesn't seem ready to stop crying.
+@page
+@【至】
+(... This is a little much. Who could have done this?)
+@page
+This is too malicious for a prank.
+@page
+Why would someone bully Matsuri?
+@page
+It was only yesterday that she came to this school.
+I don't remember hearing any conversation with anyone
+that would draw this kind of wrath.
+@page
+So then, why...?
+@page
+Anyway, maybe I should try talking to the teacher.
+@page
+;【ワイプ】場面転換
+;【背景】教室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@mwon
+@【教師】
+"Hmm... I see. This is the bento that girl made, huh?"
+@page
+After third period, I consult with the teacher about the bento.
+@page
+This is probably going to become a deep conversation.
+It's not something I want Matsuri to hear about.
+@page
+So I asked her to get me a drink to get her out of the classroom for a while.
+@page
+@【至】
+"Sensei, can't you do anything?"
+@page
+@【教師】
+"Yeah... I understand. I'll contact the other teachers, and pay close attention
+to the people around Matsuri-kun."
+@page
+@【至】
+"Thanks a lot. You've been a big help."
+@page
+@【教師】
+"Nah, catching criminals is easy. Just have to check who's where at what time, and--"
+@page
+@bgm fade=stop
+@se s=se061
+@qk
+@wait time=300
+@【至】
+"Wh-what the!?"
+@page
+@bgm s=bgm10
+@【教師Ｂ】
+"F-Fire! Somebody threw a Molotov cocktail in the school!"
+@page
+@bi s=bg10d
+I hear a scream coming from a teacher in the hallway.
+@page
+@se s=se088 loop=true
+Then, I see an uproar in front of another classroom.
+@page
+;@se s=se054 loop=true v=50
+;@fireFXon
+@【教師Ｃ】
+"Kyah!　The handouts are on fire!
+Fire! Fiiirrrreeeeee--!"
+@page
+@【至】
+"Se-Sensei, isn't this dangerous!?"
+@page
+@【教師】
+"G-Got it! Someone bring a fire extinguisher!
+... Ohh, how do you use one of those things!?"
+@page
+I run over and pick up a fire extinguisher and go
+to the classroom on fire, ignoring the helpless teacher.
+@page
+@【至】
+"Is this gonna do it...!?"
+@page
+@se fade=stop
+;【ワイプ】場面転換
+;【背景】教室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@stoppfx
+@wait time=200
+@bi s=bg12d trans=tile
+@bgm s=bgm15
+@mwon
+...After that, the fire was put out before long.
+@page
+The fire extinguisher really is a convenience of civilization.
+Even an inexperienced person can easily put out a fire.
+@page
+@【教師】
+"Well, looks like the fire was weak.
+Whew, looks like we're all good for now."
+@page
+Just like he said, the fire didn't spread.
+@page
+However, it's completely unheard of to throw
+a Molotov cocktail into a classroom in the middle of the day.
+@page
+@【至】
+"... Sensei, isn't there something strange about this?"
+@page
+The teacher didn't reply.
+Instead, he stared towards the window with a pale face.
+@page
+@【至】
+"Sensei? What's wrong? Sensei!"
+@page
+@【教師】
+"Hyaaaah!? Wh-what are you doing, Takamichi!? Don't startle me!"
+@page
+@【至】
+"No, I wasn't trying to startle you. Sensei, what was up with that Molotov cocktail..."
+@page
+@【教師】
+"O-oh, yes. I need to go to the staff room to report it at once."
+@page
+@【至】
+"Sigh... right, and about Matsuri..."
+@page
+@【教師】
+"I'll examine it later! I really need to--"
+@page
+@【至】
+"What's going on...?"
+@page
+@fi s=m112 pos=c
+@v s=20819
+@【祀利】
+"Itaru, I'm back with your drink!"
+@page
+@【至】
+"Yeah, thanks. Sorry 'bout that."
+@page
+@fi s=m111 pos=c
+@v s=20820
+@【祀利】
+"No problem. So was something burning in here?"
+@page
+@【至】
+"Yeah, some stuff happened..."
+@page
+;【背景】青空
+@fi id=m
+@bi s=bg810
+While talking about what happened, I drink my juice.
+@page
+About the Molotov cocktail, the bento, and about other stuff.
+@page
+She looks at me with a carefree smile. Maybe she's recovered from before.
+@page
+@【至】
+(... That's a relief. I wonder who threw that Molotov cocktail, though?)
+@page
+Then, I remembered.
+A very vague memory.
+For some reason though, I'm remembering it very clearly.
+@page
+The teacher was looking out the window when the firebomb was thrown.
+Then, he got very upset for some reason.
+@page
+@【至】
+(... Could that be related somehow?)
+@page
+That question vanished from my head in the languid morning.
+@page
+@bgm fade=out
+@mwoff
+;→230500
+@jump storage="230500.scn"

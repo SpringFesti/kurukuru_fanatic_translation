@@ -1,0 +1,173 @@
+﻿;021004
+*021004|１０月２８日午後１１時４２分
+;【備考】ファヌル視点
+;【ワイプ】視点変更
+;【背景】主人公居間・灯りなし
+@mwoff
+@bi s=blank trans=crossfade all=true time=500
+;@wait time=200
+@bi s=bg04b trans=ランダム time=500
+@bgm s=bgm12
+@fi s=f756 pos=c
+@mwon
+@v s=40491
+@【ファヌル】
+"It's him. Itaru Takamichi."
+@page
+I don't sleep at night.
+To be more exact, I don't get sleepy.
+@page
+As a being that can only be explained in human words as an angel,
+I do not need to sleep depending on my physical fatigue.
+@page
+So at night, I am here.
+Even if someone comes, there's no problem.
+It's extremely easy to make an excuse.
+@page
+@fi s=f212 pos=c
+@v s=40492
+@【ファヌル】
+"... Tch, I wonder..."
+@page
+I sit in a chair, muttering those kinds of things.
+@page
+My sitting has no significance either.
+I have no need for rest, because I cannot become fatigued.
+For an angel, to say "I'm tired" means that you're bored.
+@page
+@fi s=f556 pos=c
+@v s=40493
+@【ファヌル】
+"... Who am I talking to, anyway?"
+@page
+Is this what looking for the meaning of life is like?
+@page
+No. That's nonsense.
+Even if it was, there would still be no meaning.
+@page
+@v s=40494
+@【ファヌル】
+"... What kind of an idiot is Itaru to think that being with me would be fun?"
+@page
+;@fi s=f111 pos=c
+The reason for his words was that he said he was indebted to me.
+In short, it was a gesture of good will.
+Even if he had hidden intentions, I can evaluate his words as such.
+@page
+But what should I do if I admit it?
+I couldn't influence Him in such a way.
+He wouldn't descend to assist in evaluating such a life.
+@page
+So is what he's doing a waste of time?
+@page
+@fi s=f55a pos=c
+@v s=40495
+@【ファヌル】
+"Yes... that's what a good deed is."
+@page
+Good deeds from those other than Him are simply acts of self-pleasure.
+The good deeds of believers are only arbitrary acts from those hoping for His caress.
+@page
+But Itaru is different. He's not a believer.
+Are his actions still arbitrary, then?
+Is it really just an act of self-pleasure?
+@page
+@fi s=f559 pos=c
+@v s=40496
+@【ファヌル】
+"... How stupid. There's no point in troubling myself with it."
+@page
+It's not logical to worry about it.
+If he narrows his focus to remedy his problem,
+there is no problem he cannot solve, and he will reach his goal.
+@page
+Then--
+@page
+@fi s=f656 pos=c
+@v s=40497
+@【ファヌル】
+"... Kuh."
+@page
+I tremble.
+An angel's being-- in other words, my soul trembles.
+@page
+Something affirms me, and something denies me.
+Perhaps, it is that.
+@page
+@fi s=f556 pos=c
+@v s=40498
+@【ファヌル】
+"My own thoughts, huh..."
+@page
+The way things ought to be, where I probably objectively confirm,
+and subjectively deny, and...
+@page
+@fi s=f559 pos=c
+@v s=40499
+@【ファヌル】
+"Subjectively... confirm..."
+@page
+@fi s=f556 pos=c
+I tremble again.
+@page
+Let's change the definition of the problem.
+@page
+Concerning Itaru Takamichi's arbitrary acts of self-pleasure.
+For now, their meaning is unknown.
+Then the resolution of his swaying fate is the primary task.
+@page
+How long will I still be with him?
+When will that time end?
+Of course, the answer comes immediately.
+@page
+Therefore.
+@page
+@v s=40497
+@【ファヌル】
+"... Kuh."
+@page
+I tremble again.
+Stronger than a while ago, and stronger again.
+@page
+I don't know what it means.
+Why is this happening?
+Why am I shaking?
+@page
+@fi s=f311 pos=c
+@v s=40500
+@【ファヌル】
+"... There is that time as well."
+@page
+Yes, I am not omnipotent as an angel.
+Perhaps this is His fancy.
+If that's so, then there's no need to worry about it.
+@page
+Angels simply follow His will.
+They have no other way to live.
+They have no other reason to exist.
+@page
+@fi s=f556 pos=c
+@v s=40501
+@【ファヌル】
+"... How boring."
+@page
+There's no point in thinking about if those
+are my real feelings or not.
+@page
+@fi s=f65a pos=c
+To sever the ideas in the darkness inside me, I shut my eyes.
+If I was a human, then I could sleep.
+I could stop these mysterious shakings.
+@page
+@v s=40502
+@【ファヌル】
+"But I am an angel...
+and I am nothing but an angel."
+@page
+Yes, that much is true, and that is the reality I cannot change.
+@page
+@fi id=f
+@mwoff
+@bgm fade=out
+;→430100
+@jump storage="430100.scn"

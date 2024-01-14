@@ -1,0 +1,179 @@
+﻿;370100
+*370100|姉⇔弟
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07d trans=波
+@mwon
+@【至】
+"What the hell is "next route" supposed to mean? There are a lot of things I'd like to bring up with that episode."
+@page
+@bgm s=bgm14
+The day after the fight--
+I was in Otogiri-san's room that day as well.
+@page
+As if yesterday's fear had never happened, I sit on the bed,
+propping my head on my hand, watching television.
+@page
+Compared to that spectacle, I'm waiting and sluggishly doing nothing.
+@page
+But my heart isn't.
+To be frank, my heart is racing.
+The reason for that is--
+@page
+@se s=se041
+@fi s=k223 pos=c
+@v s=30778
+@【かごめ】
+"Thanks for waiting. You can enter the bath now."
+@page
+@【至】
+"Ah, yeah... that's okay. I, uh... took a shower at my house."
+@page
+@fi s=k222a pos=c
+@v s=30779
+@【かごめ】
+"Then... shall we do it?"
+@page
+Yes, the reason I'm so excited is this.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+After that, Otogiri-san told me that she wanted to make love to me.
+@waitclk
+@mnon time=300
+@mset l=3 h=true time=300
+Apparently her parents weren't home yesterday or today, so we were alone.
+So, we put our plan into motion.
+@waitclk
+@mnon time=300
+@mset l=5 h=true time=300
+In short, she raped me, then made love to me--
+So, we hadn't really done it meaningfully.
+And my feelings that told me that I want to do so haven't changed.
+@waitclk
+@mnon time=300
+@mset l=3 h=true time=300
+But that's--
+@waitclk
+@mwon
+@fi s=k224a pos=c
+@v s=30780
+@【かごめ】
+"Yeah... I think we would make the ideal siblings.
+But I still want to be tied together as normal siblings, at least."
+@page
+I had completely denied her ideal sibling fantasy.
+So Otogiri-san's dream will never come true.
+@page
+@【至】
+"But..."
+@page
+@fi s=k221 pos=c
+@v s=30781
+@【かごめ】
+"I understand. At least in this world, you can't be awoken.
+You know that intuitively, don't you Itaru-kun?
+But because I'm still your onee-chan..."
+@page
+@【至】
+"I'll try my best.
+I can become a little brother that things of his onee-chan, can't I?"
+@page
+@【至】
+"But it would be strange if I was suddenly perfect, wouldn't it?
+That's usually a thing you approach gradually,
+and if you're careless, you'll never become one for your entire life."
+@page
+@fi s=k224 pos=c
+@v s=30782
+@【かごめ】
+"Yes. That is the feeling I get when I look at reality.
+And by those sensibilities, siblings having sex is abnormal,
+so I understand now why you may have lost interest."
+@page
+Otogiri-san smiles in self-mockery.
+My heart is charmed by that appearance.
+At the same time, the feelings of sadism in my heart are stirred up.
+@page
+@【至】
+"If so... should we stop?"
+@page
+I unintentionally tell her mean words.
+I'm sure the expression on my face must have become mean too.
+@page
+I ask that, but Otogiri-san shakes her head.
+@page
+@fi s=k121 pos=c
+@v s=30783
+@【かごめ】
+"I lied, so you wouldn't lose interest.
+It wouldn't be strange if we did it as... lovers."
+@page
+@【至】
+"Then..."
+@page
+@fi s=k221ad pos=c
+Otogiri-san hugs me, and her face draws close to mine.
+@page
+@【至】
+"I wouldn't mind if we did something like that as lovers."
+@page
+Something like this done as a game of pretend could be called a disappointment.
+However, because I told a lie, perhaps we're even now?
+@page
+@fi s=k224ad pos=c
+@v s=30784
+@【かごめ】
+"Yes. If we do it as lovers, rather than siblings, then it will be okay."
+@page
+@【至】
+"... I love you, onee-chan."
+@page
+I say that in a low, indulgent voice, and put my lips on hers.
+@page
+@fi s=k355ad pos=c
+@v s=30785
+@【かごめ】
+"Nn... fuah..."
+@page
+A soft, damp sensation.
+Even if we separate immediately, the effects linger for a long time.
+@page
+If I think about it, isn't this my first kiss?
+Skipping the other various strange ones.
+@page
+@fi s=k123d pos=c
+@v s=30786
+@【かごめ】
+"I'll take off my clothes. You too, Itaru-kun."
+@page
+While immersed in deep emotion, we keep advancing forward.
+Perhaps we're advancing towards a greater joy.
+@page
+@【至】
+"Ah, but before that--"
+@page
+I had forgotten only one thing.
+The important words that would connect half of me with half of her.
+The feelings that flow between lies.
+@page
+@【至】
+"... Otogiri-san, I love you, I really do."
+@page
+@fi s=k124 pos=c
+@v s=30787
+@【かごめ】
+"Me too. I love you too, Itaru-kun."
+@page
+Even if we deviated a bit, that's okay.
+At least I will be together with Otogiri-san for a long time.
+@page
+@fi id=k
+While thinking in such a way,
+we stand back to back and take off our clothes.
+@page
+@mwoff
+;→370101
+@bgm fade=stop
+@jump storage="370101.scn"

@@ -1,0 +1,163 @@
+﻿;240500
+*240500|非常事態！
+;【ワイプ】時間経過
+;【背景】公園・夜
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09n trans=clock
+@bgm s=bgm10
+@mwon
+Then, I realize that I'm in a bush in the park with Matsuri.
+@page
+If I look up, I see that it's become night.
+I hadn't noticed at all until now.
+@page
+@【至】
+"Hahh... hahh... why did it become like this...?"
+@page
+Now then, let's remember.
+@page
+First, Matsuri went on a shooting rampage.
+@page
+Naturally, the police came.
+@page
+Matsuri took me and ran away.
+(That the reverse didn't happen is pitiful.)
+@page
+Now we're lying low to avoid the police.
+@page
+Yep, that's about it.
+@page
+Well, it's no big deal.
+Just that my life as a student is now over.
+@page
+@【至】
+"... This is the worst thing ever."
+@page
+@fi s=m115 pos=c
+@v s=21183
+@【祀利】
+"Really? This is super awesome for me."
+@page
+@v s=21184
+@【祀利】
+"Doing all that shooting felt refreshing.
+Plus, now it's just the two of us. Kukukuku."
+@page
+@【至】
+"It's not awesome... it's not refreshing...
+And rather than being with you, I'd rather be alone."
+@page
+I'm sprawled out on the ground, panting from fatigue and despair.
+@page
+@fi s=m747 pos=c
+@v s=21185
+@【祀利】
+"Hmmm... then I should make it fun for you.
+I'll make you feel really great and refreshed."
+@page
+@【至】
+"...? Matsuri...?"
+@page
+;【背景】黒など
+@bi s=blank trans=crossfade all=true
+My consciousness is barely functioning because of fatigue.
+@page
+Even so, I feel Matsuri doing something.
+@page
+@v s=21186
+@【祀利】
+"Look... how's this?"
+@page
+I pull my vague thoughts back into order to answer Matsuri.
+@page
+;【ＣＧ】evh2020
+@mwoff
+@bi s=evh2020
+@wait time=300
+@mwon
+Now there's an impossible scene in front of me.
+@page
+@【至】
+"W-W-Wh-What the hell are you doing, Matsuri!?"
+@page
+Now is not the time or the place.
+@page
+@v s=21187
+@【祀利】
+"Oho, don't resist, Itaru. If you do... I'll shoot you."
+@page
+@v s=21188
+@【祀利】
+"I said I'd make you feel better.
+So just lie still."
+@page
+@v s=21189
+@【祀利】
+"Among the four of us, I'm the only one that
+hasn't had sex with you yet. It's not fair."
+@page
+@【至】
+"N-No, I don't think you can talk about fairness right now! Stop!"
+@page
+@v s=21190
+@【祀利】
+"Stop...? Why?"
+@page
+While pointing a gun at me, Matsuri rubs my dick
+with her foot.
+@page
+@v s=21191
+@【祀利】
+"Look, your dick's getting harder."
+@page
+@v s=21192
+@【祀利】
+"You want to do it, don't you? Don't hold back on me."
+@page
+@【至】
+"I'm not holding back! I really don't want to do it!"
+@page
+;【ＣＧ】evh2021
+@v s=21193
+@【祀利】
+"What... why!? Why!?"
+@page
+@【至】
+"Why..? How the hell could I, in a situation like this!?"
+@page
+@v s=21194
+@【祀利】
+"You did it with all the others, so why can't you do it with me!?"
+@page
+@【至】
+"Eh...?"
+@page
+@v s=21195
+@【祀利】
+"Shit... shit! Shit!
+I won't forgive this! I won't forgive you!"
+@page
+;【ＳＥ】弾丸装填音
+@se s=se154
+@v s=21196
+@【祀利】
+"If you're never going to do it with me...
+Then I'll kill Itaru, then myself. How's that?"
+@page
+@【至】
+"Matsuri... no, Parade, right?
+You... this..."
+@page
+@v s=21197
+@【祀利】
+"So choose, Itaru. Die painlessly, or have sex with me! Which one!?"
+@page
+Her foot movements become more intense.
+At the same time, she aims the muzzle at my forehead.
+@page
+;分岐
+@jump storage="240501.scn" cond="f.matsuri >= 7"
+@jump storage="240505.scn"

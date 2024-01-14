@@ -1,0 +1,77 @@
+﻿;330606
+*330606|クイズ！　次はおまえだ！
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+;【カットイン】書き文字「クイズ！　次はおまえだ！」
+;【ＳＥ】ウサミウサギ叫び声
+;@【ファヌル】
+;「クイズ！　次はおまえだ！」
+;【ＳＥ】ウサミウサギ平素
+@setOnce
+@mwoff
+@bgm fade=stop
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+@se fade=out
+@v s=16002
+@【ウサミ】
+"Quiz! You're Next!
+Is everyone accustomed now?
+I'm your host, Usami!"
+@page
+@fi s=f111 pos=lc
+@v s=40584
+@【ファヌル】
+"I'm omitting the self introduction, because I've said it before."
+@page
+@fi s=f112 pos=lc
+@v s=40585
+@【ファヌル】
+"Damn it... What is he doing?"
+@page
+@v s=16001
+@【ウサミ】
+"Seriously. Isn't his partner the one that slashed at him with a knife?"
+@page
+@fi s=f55a pos=lc
+@v s=40586
+@【ファヌル】
+"Emasculated with a singled handjob.
+It's going to be hard to save you."
+@page
+@fi s=f55b pos=lc
+@v s=40587
+@【ファヌル】
+"But that's the thing called a human being, isn't it?
+In that fellow's case, his brain feels particularly slow.
+His lower half is the same way."
+@page
+@act id=u t=hit
+@v s=16002
+@【ウサミ】
+"Now, let's put that awful way of putting it into a question!"
+@page
+@v s=16001
+@【ウサミ】
+"Honestly, do you think Itaru-san is being tricked?"
+@pages
+;選択肢
+;騙されている！　→330607
+;騙されていない！　→330608
+@selinit
+@selbtn cap="Tricked!" s="330607.scn"
+@selbtn cap="Not tricked!" s="330608.scn"
+@s

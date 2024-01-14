@@ -1,0 +1,235 @@
+﻿;350500
+*350500|１０月３１日午後７時２９分
+;【ワイプ】場面転換
+;【背景】自宅居間・点灯
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm12
+@fi s=w122 pos=c
+@mwon
+@【至】
+"... Thanks for the food."
+@page
+After that, even though I intended to return together,
+Wazuka-san returned before me.
+@page
+And until she called me in for dinner, she never said a word to me.
+Just by looking at her, I can tell that she's angry at me."
+@page
+@fi id=w
+So I waited until the meal was over.
+When the meal ends, Fanuel disappears.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+;@bgm s=bgm***
+@fi s=w121 pos=c
+@mwon
+Then, an hour passes.
+@page
+Then, as though she read the atmosphere... no, as though she read my mind,
+Fanuel left the room and went to take a bath.
+@page
+Wazuka-san and I are now alone.
+@page
+Normally, she'd start to clean the table,
+but I was still sitting in my seat.
+She looks at me.
+@page
+Wazuka-san is assuming things.
+What do I want to do?
+Then, what should I say to her?
+@page
+@【至】
+"... Here goes."
+@page
+I can't leave this like this.
+Readying myself, I bring up the subject.
+@page
+@【至】
+"Hey, uh... sorry about lunch.
+I tried to call you, but a friend invited me to eat with them."
+@page
+@fi s=w121 pos=c
+@v s=10740
+@【わずか】
+"Itaru-kun, you don't have to lie.
+That girl called out to you, didn't she?"
+@page
+@【至】
+"Ah... yeah, sorry..."
+@page
+My terrible excuse was penetrated easily.
+@page
+@fi s=w122 pos=c
+@v s=10741
+@【わずか】
+"It's okay. Since it's you, I'll forgive you no matter what you do.
+But... that girl. She's much too dangerous."
+@page
+@【至】
+"... What do you mean?"
+@page
+My spine shudders suddenly.
+Wazuka-san doesn't make jokes like this.
+So she's serious.
+@page
+@fi s=w422 pos=c
+@v s=10742
+@【わずか】
+"Just my intuition. But I'm convinced.
+I didn't want to tell you, but..."
+@page
+@v s=10743
+@【わずか】
+"That girl, she... to Matsuri--"
+@page
+Stop. I don't want to hear any more.
+@page
+But my wish was impossible to fulfill.
+@page
+@v s=10744
+@【わずか】
+"In the worst case scenario, she killed Matsuri."
+@page
+@qk
+@lfont
+@【至】
+"There's no way she could!"
+@page
+@fi s=w223 pos=c
+;@act id=w t=hit
+@v s=10745
+@【わずか】
+"!!! ... I-Itaru-kun?"
+@page
+I instinctively shout to deny her.
+@page
+@qk
+@【至】
+"What reason would Otogiri-san have to do that!?
+She's my onee-chan! And... 
+I love her the most! I believe in Otogiri-san!"
+@page
+Far from shouting, I scream those words.
+I can't be wrong, protecting the girl I love.
+@page
+But for some reason, my chest hurts.
+@page
+@fi s=w556 pos=c
+@v s=10746
+@【わずか】
+"... Itaru-kun."
+@page
+Moved by my cry, Wazuka-san comes closer to me.
+@page
+And then, she embraces me.
+@page
+;【立ち絵】わずか・大
+@fi s=w123d pos=c
+@v s=10747
+@【わずか】
+"Itaru-kun, you... You don't have an older sister.
+I'm not your older sister, and that girl isn't either."
+@page
+;【立ち絵】わずか・大
+;@fi s=w123d pos=c
+@v s=10748
+@【わずか】
+"But if that means that you love that girl,
+as far as I know, the relationship you have isn't boyfriend and girlfriend."
+@page
+@【至】
+"... What do you know, Wazuka-san?
+Are you saying you've seen everything or something?"
+@page
+;【立ち絵】わずか・大
+@fi s=w122d pos=c
+@v s=10749
+@【わずか】
+"Not everything, but I've seen it.
+Your feelings are bumping against each other, they aren't the same.
+Your feelings aren't reaching her."
+@page
+@【至】
+"That's... why..."
+@page
+;【立ち絵】わずか・大
+@fi s=w121d pos=c
+@v s=10750
+@【わずか】
+"I know that, because I love you, Itaru-kun.
+I can do anything, as long as it's for you.
+So... I understand how relationships are between two people."
+@page
+;【立ち絵】わずか・大
+@fi s=w123d pos=c
+@v s=10751
+@【わずか】
+"But your relationship with her is different.
+She isn't thinking of what you want, or trying to make things better for the both of you.
+She's just throwing her feelings at you."
+@page
+@【至】
+"That's..."
+@page
+;【立ち絵】わずか・大
+@fi s=w122d pos=c
+@v s=10752
+@【わずか】
+"Can you really say that I'm wrong?
+Do you really understand everything about her?"
+@page
+;@fi id=w
+I can't think of anything that contradicts her, so I nod.
+@page
+-- But in reality, I can't say that I understand anything at all.
+@page
+Today, her attitude changed suddenly.
+I didn't know why, and I didn't see any warning signs.
+And honestly, I don't know anything about Otogiri-san.
+@page
+Where is her house?
+What's her favorite food? Or her favorite subject? Or her favorite television show?
+@page
+I can't answer a single one of those questions.
+@wait time=700
+Maybe I was just pretending that I knew her.
+@page
+;【立ち絵】わずか・大
+@fi s=w123d pos=c
+@v s=10753
+@【わずか】
+"Itaru-kun..."
+@page
+Wazuka-san holds me tight.
+The feeling I'm getting from her hug strengthens.
+@page
+@fi id=w
+But I move away from her right after that...
+@page
+@fi s=w121 pos=c
+@v s=10754
+@【わずか】
+"Itaru-kun can do anything he wants to me.
+And I'll do anything you ask me to do.
+I'm sorry if I've said something strange."
+@page
+@fi id=w
+She says that, and leaves the room.
+@page
+@【至】
+"... What was that?
+I mean... what did that turn into?"
+@page
+I have no words that can answer that question.
+@page
+No one is here.
+Nobody knows that answer-- least of all myself.
+@page
+;→350501
+@jump storage="350501.scn"

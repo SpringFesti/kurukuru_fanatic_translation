@@ -1,0 +1,81 @@
+﻿;130501
+*130501|_勉強しないと
+@bgm fade=out
+;【ワイプ】視点変更
+;【背景】公園・夕暮れ
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg09e trans=ランダム
+@bgm s=bgm05
+@fi s=w211 pos=c
+@mwon
+@v s=10952
+@【わずか】
+"... I finally got... a poisoning manual."
+@page
+I sit on a vacant bench and take out the book I had bought.
+@page
+I don't want to rely on a book someone else wrote.
+However, I need all options available to me now.
+@page
+@fi s=w411 pos=c
+The harvest was better than I expected.
+It's not so bad to buy a book once in a while.
+@page
+While I also bought a cookbook to defeat that woman,
+I bought a book at the pharmacy.
+@page
+And this book, which I wanted the most...
+@page
+@fi s=w115 pos=c
+@v s=10953
+@【わずか】
+"All of the poisons... and all of the ways to use them...
+If I've got this...!"
+@page
+Everything I need is in this book.
+As long as nobody sees me while I read this,
+I can read up as much as I want.
+@page
+@v s=10954
+@【わずか】
+"Heh heh... so many..."
+@page
+An easy way to get them, the materials and chemicals,
+all of it written in much greater detail than I had expected.
+@page
+@fi s=w111 pos=c
+@v s=10955
+@【わずか】
+"...Hm?"
+@page
+As I lightly skipped through, I found something of concern.
+@page
+@【わずか】
+"......"
+@page
+@v s=10956
+@【わずか】
+"It's decided."
+@page
+I should consider a bit more before deciding,
+but this one might be the best in the book.
+@page
+@fi s=w547 pos=c
+@v s=10957
+@【わずか】
+"Wait for me, Itaru-kun."
+@page
+@fi s=w215 pos=c
+@v s=10958
+@【わずか】
+"I'll kill all of them... all of those nuisances..."
+@page
+@v s=10959
+@【わずか】
+"Heh heh, heh... ahahahaha!"
+@page
+@fi id=w
+;→130502
+@jump storage="130502.scn"

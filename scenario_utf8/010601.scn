@@ -1,0 +1,28 @@
+﻿;010601
+@mwoff
+*010601|My Fate, 3 Days Later
+;【背景】風呂場明かりあり
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=tile
+@smokepfx
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Ahhhーー... that's better."
+@page
+Why does the bath feel so relaxing? Is it because I'm alone?
+Maybe it's because I feel like I'm back in the womb, all warm and nice?
+@page
+@【至】
+"Well, whatever... but man, today was tiring..."
+@page
+So much stuff has happened today.
+With Wazuka-san, Otogiri-san, Matsuri and even Fanuel...
+@page
+@jump storage="010602.scn" cond="f._010503"
+@jump storage="010603.scn"
+;分岐
+;フラグ010503起立　→010602
+;上記以外　→010603

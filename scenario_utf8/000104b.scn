@@ -1,0 +1,119 @@
+﻿;000104b
+*000104b|_目覚めのとき
+;【背景】不可思議な空間
+@bi s=bg8180
+@fi s=f102a pos=c
+@v s=40286
+@【ファヌル】
+"... Now, our little play is over."
+@page
+Fanuel stands up calmly, and turns to me.
+@page
+I see her skin, covered in mucus and sweat,
+and she can't hide her blushing face.
+@page
+Because my amazingly unrestrained lust is the cause of it--
+And yet this corrupted Fanuel was beautiful.
+@page
+@fi s=f301 pos=c
+@v s=40287
+@【ファヌル】
+"... Itaru."
+@page
+@【至】
+"W, what?"
+@page
+@fi s=f539 pos=c
+@v s=40288
+@【ファヌル】
+"One more time."
+@page
+For a second, I don't understand what she means.
+Of course, I cannot understand her real meaning.
+だから、
+@page
+@【至】
+"Y, yeah."
+@page
+I finally answer her.
+@page
+@fi s=f737 pos=c
+@v s=40289
+@【ファヌル】
+"Please, this last time, please do it.
+Otherwise, I... I'll break."
+@page
+@【至】
+"You're an angel, aren't you? Aren't you not like a human?
+@page
+When I say that to her,
+Fanuel becomes a little displeased.
+@page
+It's not her expression, but the mood that tells me that.
+I don't know why, but I know that for certain.
+@page
+@fi s=f302 pos=c
+@v s=40290
+@【ファヌル】
+"Hmph... fine. But."
+@page
+@【至】
+"But what?"
+@page
+@fi s=f53b pos=c
+@v s=40291
+@【ファヌル】
+"Remember this later. I'm abandoning my role as watchdog."
+@page
+"Haha, God will get angry at you."
+@page
+@se s=se124 loop=true
+@starpfx
+As I say that, my body shines like normal.
+I'm coming back to life again.
+I'm returning to five days before now.
+@page
+@【至】
+"Well, see ya."
+@page
+@fi s=f53a pos=c
+No words come from Fanuel. 
+She only nods slightly.
+@page
+But that's alright.
+Just that is perfectly alright.
+@page
+With a faint greeting, she sees me off.
+For the first time, after how many tries, she sees me off.
+@page
+@【至】
+"... Can I remember this?"
+@page
+@se fade=out
+@stoppfx
+@mwoff
+@bi s=white all=true time=500
+;【ワイプ】テレビが消えるように
+;【演出】白
+;【ＳＥ】ブツン
+@wait time=700
+@mwon
+Everything around me is wrapped in light.
+@page
+The scene I wanted to remember--
+Everything vanishes amongst the light.
+@page
+And at that time...
+@page
+;【備考】エコー加工
+@v s=40292
+@【ファヌル】
+"Search for it, and it will be given."
+@page
+Good news from the good lord.
+@page
+@mwoff
+@bgm fade=out
+@jump storage="010100.scn"
+;ムービー再生
+;終了後→0010100

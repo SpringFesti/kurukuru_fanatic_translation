@@ -1,0 +1,648 @@
+﻿;260100
+*260100|４人で１人
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04b trans=clock
+@bgm s=bgm11
+@mwon
+@【至】
+"What is this...?"
+@page
+No, the reason doesn't matter.
+@page
+I can move freely. Matsuri is asleep. This is my chance.
+@page
+... Don't misunderstand. I still love Matsuri.
+@page
+But this situation is impossible.
+I can't manage this anymore.
+@page
+Let's go to the police and tell them our side of the story.
+@page
+If I surrender, Matsuri might follow me and surrender too.
+@page
+If I can do that, I'll succeed. Matsuri will come too,
+we'll compensate for the shooting rampage together, go to the doctor,
+and cure her of her multiple personality disorder.
+@page
+That's what I have to do.
+If I try to persuade her, I'll just be tied up again.
+@page
+@【至】
+"Matsuri... are you asleep...?"
+@page
+I can only hear her sleeping when I whisper.
+Alright, I'll be okay if I go now.
+@page
+I quietly stand up,
+and go to the door, to escape from the living room--
+@page
+@bi s=bg8140
+@se s=se071
+@flash
+@qk
+@wait time=1000
+@lfont
+@【至】
+"AAAAAGHHHH!?"
+@page
+@bi s=bg04b
+@bgm s=bgm16
+A severe pain attacks me.
+@page
+I don't understand what just happened in my head.
+@page
+But my body understands completely.
+My left hand unconsciously grasps my right hand.
+@page
+It presses against the blood dripping from my right hand.
+@page
+Then, something rolls between my fingers.
+@page
+"Wh-What the!?"
+@page
+I stare at the thing that fell on the floor.
+@page
+That thing... is my pinky finger.
+@page
+@qk time=1000
+@【至】
+"Uwaaaaaaah!?
+My finger! My fingeeeeeeeeeeer!?"
+@page
+I pick up the finger in a hurry, which has been cleanly cut off from
+the first joint.
+@page
+@v s=21392
+@【祀利】
+"Itaru... you tried to run away...?"
+@page
+At that time, I hear a whisper like a vindictive spirit.
+@page
+@fi s=m64a pos=c
+I turn around and see Matsuri standing there.
+@page
+@【至】
+"Ma, Matsuri...!"
+@page
+I try to run away, but my feet are entangled and I fall down.
+@page
+;【ＣＧ】evn2040
+@fi id=m
+@mwoff
+@bi s=evn2040
+@wait time=300
+@mwon
+@v s=21393
+@【祀利】
+"Aww... Mister Finger... were you cut off...?
+Kufufu... Itaru's blood... it's good... chupa..."
+@page
+Matsuri takes my hand and licks it lovingly.
+@page
+@【至】
+"Wh-What the... Matsuri... what did you do to me...?"
+@page
+;【ＣＧ】evn2041
+@mwoff
+@bi s=evn2041
+@wait time=300
+@mwon
+@v s=21394
+@【祀利】
+"Huh? I didn't do anything, really. But...
+I wrapped piano wire around your pinky finger...
+So if you ran away, then..."
+@page
+At that time, I noticed.
+Matsuri's pinky finger is also stained with blood.
+@page
+My pinky finger and her pinky finger were connected with piano wire.
+@page
+;【ＣＧ】evn2040
+@bi s=evn2040
+@v s=21395
+@【祀利】
+"Nn... chupu... picha... Look, Itaru...
+Itaru's blood is dripping down the wire...
+It's totally the red thread of destined love.. ufufufufufu."
+@page
+This is insane.
+@page
+For the first time, from the bottom of my heart,
+I believe that Matsuri is scary.
+@page
+@v s=21396
+@【祀利】
+"Hey, Itaru... just now... you were going to run away, weren't you...?
+You were going to run away and escape by yourself, right...?"
+@page
+@【至】
+"N-No! I wasn't going to run!
+I was going to go to the police for your sake!
+So..."
+@page
+;【ＣＧ】evn2042
+@mwoff
+@bi s=evn2042
+@wait time=300
+@mwon
+@v s=21397
+@【祀利】
+"Liar! You betrayed me!
+You tricked me, and you were going to save only yourself!"
+@page
+@【至】
+"No! No! That's not it at all!
+Really, it was for your sake..."
+@page
+@v s=21398
+@【祀利】
+"What was for my sake!? If you wanted to do something
+for me, then you should have stayed with me forever!
+That's such an obvious, transparent lieeee!"
+@page
+@v s=21399
+@【祀利】
+"Itaru betrayed me!"
+@page
+@v s=21400
+@【祀利】
+"You thought you were going to save yourself, and get me the death penalty!　That's why you were going to the police!"
+@page
+@v s=21401
+@【祀利】
+"That's right!? It is, isn't it!?
+Say that's right!"
+@page
+@【至】
+"Matsuri... no... no..."
+@page
+@v s=21402
+@【祀利】
+"Ohh, you're still gonna lie to me!?
+Even though you promised!? Even though we're engaged!?
+Even though you said you'd be with me foreverrrrrrrrrr!?"
+@page
+;【ＳＥ】銃乱射
+;【ＣＧ】evn2040
+@bi s=evn2040
+@v s=21403
+@【祀利】
+"... Fufufu... ahahahahah!
+I get it, I understand.
+There's no way that Itaru could betray me."
+@page
+@v s=21404
+@【祀利】
+"That's right... Itaru can't betray me...
+So... the Itaru that betrayed me... isn't the
+real Itaru."
+@page
+She aims her pistol at the middle of my forehead.
+@page
+@v s=21405
+@【祀利】
+"It's easy for a fake to lie to me... hihihihi!
+An Itaru imposter, huh... You can go and die..."
+@page
+The finger next to the trigger is full of power.
+@page
+I'm not going to protest any more.
+It wouldn't matter if I said anything.
+@page
+Slowly, I shut my eyes.
+@page
+So... I can't avoid my fated death, can I...
+@page
+There's no fear, for some reason.
+@page
+My sorrows are larger than my fears.
+@page
+Yeah, I see now. For quite a while,
+I haven't been able to see the Matsuri I love.
+@page
+The original Matsuri won't come out,
+and for some reason I can't understand,
+the Matsuri of now is a broken mish-mash of personalities.
+@page
+This is not the Matsuri I love.
+@page
+My Matsuri died long ago.
+So what did I work hard for up until now?
+@page
+The only thing I feel is sadness.
+@page
+@【至】
+"... It's alright. Do what you want."
+@page
+@v s=21406
+@【祀利】
+"Kuhihihihi! Good courage... NOW, DIE!"
+@page
+;【ＳＥ】銃声
+@se s=se109
+@bi s=blank trans=crossfade all=true
+.........
+@waitclk
+Huh? There's no pain.
+@page
+;<祀利>
+@lfont
+@qk time=1000
+@v s=21407
+@【祀利】
+"NO-------!"
+@page
+@bgm fade=out
+;【背景】自宅居間・灯りあり
+@bi s=bg04b
+@fi s=m74bb pos=c
+@bgm s=bgm12
+@【至】
+"Eh? Eh?"
+@page
+Huh? What happened?
+@page
+@v s=21408
+@【祀利】
+"Hahh... hahh... Itaru...u!"
+@page
+Matsuri seems to be in great pain for some reason.
+@page
+She surely shot me just now, didn't she?
+So why am I here?
+I am here. That's for certain.
+@page
+@fi s=m114b pos=c
+@v s=21409
+@【祀利】
+"Don't kill Itaru!
+Doesn't everyone love Itaru?
+Why would you do something so cruel!?"
+@page
+@fi s=m115b pos=c
+@v s=21410
+@【祀利】
+"S-S-Shut up! Itaru betrayed me!
+Killing him is only natural!"
+@page
+@fi s=m114 pos=c
+@v s=21411
+@【祀利】
+"Nuh-huh! The person that tried to run away from me isn't the real Itaru. Because he's an imposter, let's kill him!"
+@page
+@fi s=m74bb pos=c
+@v s=21412
+@【祀利】
+"What are you talking about! Shut up, the both of you!
+If Itaru died, he'd be mine forever!"
+@page
+@fi s=m115b pos=c
+@v s=21413
+@【祀利】
+"No! Itaru is mine! Only mine!"
+@page
+@fi s=m114 pos=c
+@v s=21414
+@【祀利】
+"What!? Itaru is mineee!"
+@page
+@fi s=m116b pos=c
+@v s=21415
+@【祀利】
+"Stop it, everyone! Don't fight!"
+@page
+@fi s=m115 pos=c
+@v s=21416
+@【祀利】
+"Shut up, Matsuri! This has nothing to do with you!
+You always lose consciousness when things get hard,
+and you force it all on the rest of us!"
+@page
+@fi s=m747 pos=c
+@v s=21417
+@【祀利】
+"Yes, that's right. Matsuri is unfair.
+We work so hard for you, and you don't remember at all!"
+@page
+@fi s=m74b pos=c
+@v s=21418
+@【祀利】
+"Yeah, you always monopolize the good things.
+But we can't let you have Itaru.
+Give Itaru to me!"
+@page
+@fi s=m114 pos=c
+@v s=21419
+@【祀利】
+"No, no! Itaru is mine!"
+@page
+@fi s=m115 pos=c
+@v s=21420
+@【祀利】
+"Don't fuck with me! He's mine. Only mine!"
+@page
+@fi s=m116b pos=c
+@v s=21421
+@【祀利】
+"Stop it already! I'll apologize if I did something bad!
+So stop fighting! Don't kill Itaru!"
+@page
+@fi s=m748b pos=c
+@v s=21422
+@【祀利】
+"... Matsuri finally understands.
+Until now, everyone's been working hard even though
+Matsuri never noticed."
+@page
+@fi s=m74ab pos=c
+@v s=21423
+@【祀利】
+"... I understand how all of you feel.
+We don't want to lose Itaru...
+That's all."
+@page
+@v s=21424
+@【祀利】
+"Matsuri feels the same. Because she felt that way, I was able to come out."
+@page
+@fi s=m74a pos=c
+@v s=21425
+@【祀利】
+"Hey, let's all work together. We aren't the same Matsuri."
+@page
+@v s=21426
+@【祀利】
+"Yeah... yeah, we thought that we wanted to kill him, so we could monopolize him. But that's not what we meant."
+@page
+@fi s=m212 pos=c
+@v s=21427
+@【祀利】
+"Because we're all Matsuri, Itaru is all ours.
+Each and every one of us. We should share him equally."
+@page
+@fi s=m748a pos=c
+@v s=21428
+@【祀利】
+"... Yeah, right. I get it, we all get it.
+I love you, everyone!"
+@page
+@【至】
+"Uhhh... Matsuri... umm...?"
+@page
+It seems like something's been settled inside of Matsuri.
+@page
+@fi s=m111a pos=c
+@v s=21429
+@【祀利】
+"... Itaru... it's been a while. I wanted to meet you."
+@page
+@【至】
+"That tone... Matsuri, right? The original Matsuri?"
+@page
+@fi s=m749 pos=c
+@v s=21430
+@【祀利】
+"Yep. Matsuri is Matsuri. Sorry, Itaru.
+Festa and Parade and Mardi-gras were troubling you."
+@page
+@fi s=m748 pos=c
+@v s=21431
+@【祀利】
+"But it's okay. Because everyone understands now."
+@page
+I don't quite get it, but it seems like "Matsuri" has persuaded the other personalities.
+@page
+So, that's why I'm alive right now.
+@page
+@【至】
+"Good... thank goodness..."
+@page
+The Matsuri I loved didn't disappear.
+@page
+Now that I know that, I can bring myself to live again.a
+@page
+@fi s=m649 pos=c
+@v s=21432
+@【祀利】
+"So... we're in a big jam, aren't we?
+I was shooting at the police for quite a while now, huh?"
+@page
+@【至】
+"T-That's right! Matsuri, this situation is really bad.
+If we don't turn ourselves into the police..."
+@page
+@fi s=m114 pos=c
+@v s=21433
+@【祀利】
+"We can't surrender!
+The police will bully Matsuri!
+Why don't we think of a way to run away instead?"
+@wait time=5000
+@fi s=m74b pos=c
+@page
+@【至】
+"Run away... Yeah, that works!
+Since Matsuri got better, if we can find a way to escape, then--"
+@page
+;【ＳＥ】銃声
+@se s=se109
+@qk
+@fi s=m111b pos=c
+@act id=m t=hit
+@【至】
+"Eh...?"
+@page
+@bgm s=bgm16
+With one gunshot, Matsuri's body shakes.
+@page
+@fi s=m64bb pos=c
+@act id=m t=swing2
+@v s=21434
+@【祀利】
+"H... Huh...? Why...?
+My body... w o n ' t m o v e..."
+@page
+@setOnce
+@act id=m t=stopswing
+@fi id=m
+@endOnce
+@se s=se066
+Then, she falls to the floor like a puppet with a cut string.
+@page
+@lfont
+@qk
+@【至】
+"MATSURIIIIIII!?"
+@page
+I pick up the fallen Matsuri as fast as I can.
+@page
+@fi s=m116bd pos=c
+I feel a slippery, warm feeling in the hands that are touching Matsuri.
+@page
+Blood.
+@page
+Matsuri's blood.
+@page
+That was a gunshot a while ago.
+Matsuri... she was shot...
+@page
+@【至】
+"Matsuri! Matsuri! Hold on!"
+@page
+@bgm fade=out
+@bgm s=bgm18
+@fi s=m112bd pos=c
+@v s=21435
+@【祀利】
+"Ah... ahaha... Sorry, Itaru...
+Somehow... I can't do it..."
+@page
+@fi s=m116bd pos=c
+@v s=21436
+@【祀利】
+"Even though... I got to meet Itaru again... No...
+I don't wanna die..."
+@page
+@【至】
+"Matsuri... Matsuriii!"
+@page
+@fi s=m112bd pos=c
+@v s=21437
+@【祀利】
+"Why... Why did it become like this...?"
+@page
+@fi s=m74bbd pos=c
+@v s=21438
+@【祀利】
+"Matsuri... just..."
+@page
+@v s=21439
+@【祀利】
+"Wanted..."
+@page
+@fi s=m748bd pos=c
+@v s=21440
+@【祀利】
+"To be together with Itaru..."
+@page
+@v s=21441
+@【祀利】
+"That's... all..."
+@page
+@fi id=m
+Matsuri shuts her eyes, whispering that.
+@page
+@【至】
+"Ma... tsu... ri..."
+@page
+Why?
+@page
+Why did this have to happen?
+@page
+If I knew this would happen...
+I would have done anything to stop it.
+@page
+I had the opportunity when Matsuri became strange
+in the unused classroom yesterday.
+@page
+Even if she wanted to kill Wazuka-san and Otogiri-san,
+I should have objected harder to Matsuri being confined.
+@page
+Even after that.
+@page
+Why did I think I could rely on the police after all this?
+@page
+If I had cooperated with Matsuri, and killed even one or
+two policemen, then it would have been fine.
+@page
+@【至】
+"I'm sorry... I'm sorry, Matsuri... I screwed up...
+I... I should have only looked at you, Matsuri..."
+@page
+If I knew this would happen...
+@page
+I should have known.
+@page
+Since I know the future, I should die and return here.
+@page
+Nonetheless, I couldn't do anything anyway.
+I don't even have the faintest idea.
+@page
+@【至】
+"Then, there would be no point in restarting..."
+@page
+@lfont
+@【至】
+"Matsuri... Matsuriiii!"
+@qk
+@page
+@bgm fade=out
+@bgm s=bgm11
+@fi s=f112 pos=c
+@v s=40559
+@【ファヌル】
+"Shut up with the screaming. Christ, you're loud."
+@page
+@【至】
+"Fanuel... you're here..."
+@page
+@fi s=f55b pos=c
+@v s=40560
+@【ファヌル】
+"Yep, I saw the whole thing.
+I guess you've changed your fate now.
+Quite a dramatic way to do it, too."
+@page
+Fanuel's expression doesn't change in the slightest,
+even when she's looking at Matsuri's dead body.
+@page
+She's not a human being, so there's no point in getting mad.
+Even if I know that, it's still unpleasant.
+@page
+@fi s=f411 pos=c
+@v s=40561
+@【ファヌル】
+"Anyway, it seems like you've been lucky this time.
+Rejoice. You escaped your fated demise."
+@page
+@【至】
+"My fated... demise..."
+@page
+That doesn't matter.
+@page
+My life and death is trivial compared to Matsuri's life.
+@page
+There is no world without Matsuri.
+@page
+@fi s=f559 pos=c
+@v s=40562
+@【ファヌル】
+"... Hm? What's wrong? Aren't you pleased?
+You don't have to die."
+@page
+@【至】
+"... Haha... hahaha....
+Fanuel, even though you're an angel, you made a mistake."
+@page
+I picked up the small box which fell onto its side.
+The box that Matsuri had hidden.
+@page
+I understand at a glance what it is.
+@page
+An electrode extending to an alarm clock.
+@page
+I set the timer for three minutes, and turn the switch on.
+@se s=se013
+@page
+@【至】
+"My fate isn't going to change.
+After all, I'm going to blow up right here."
+@page
+It was the switch of a time bomb.
+@page
+;→260101
+@jump storage="260101.scn"

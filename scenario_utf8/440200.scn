@@ -1,0 +1,141 @@
+﻿;440200
+*440200|クイズ！　次はおまえだ！？
+;【ワイプ】場面転換
+;【カットイン】クイズ！　次はおまえだ！
+;【カットイン】クイズ番組舞台
+;【ＳＥ】シロ叫び声
+@setOnce
+@bgm fade=stop
+@mwoff
+@se s=se100
+@cut s=cut2290 slide=t time=500
+@fi s=k214 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@lfont
+@v s=16002
+@【ウサミ】
+"Quiz! You're Next!"
+@act id=u t=hit
+@page
+@se fade=out
+@v s=16001
+@【ウサミ】
+"Continuing on, this is Quiz! You're Next!
+Your host is the familar Usamiii!"
+@page
+@fi s=k34a pos=lc
+@v s=30900
+@【かごめ】
+"Hey now, where's my younger brother? Where is he?
+You didn't eat him, did ya?"
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"NNNNNo, of course not!
+Rather than that... do you really want to eat him?"
+@page
+@fi s=k349a pos=lc
+@qk time=1000
+@lfont
+@v s=30901
+@【かごめ】
+"Of course!"
+@page
+@fi s=k445a pos=lc
+@v s=30902
+@【かごめ】
+"Aahh... the fat, mixed nicely with the meat, that taste...
+Rich, but not too rich, with the crisp texture dancing
+on the tongue..."
+@page
+@fi s=k449a pos=lc
+@qk time=1000
+@lfont
+@v s=30903
+@【かごめ】
+"The exact taste of a younger brother!"
+@page
+@fi s=k34a pos=lc
+@act id=k t=neckswing
+@v s=30904
+@【かごめ】
+"I'll absolutely capture him! Then... eat him!
+This time I'll eat all of him!"
+@page
+@v s=16001
+@【ウサミ】
+"But how are you going to capture him?
+Do you have a way?"
+@page
+@act id=k t=stopswing
+@fi s=k345 pos=lc
+@v s=30905
+@【かごめ】
+"By relying on others, of course!
+If either of those bitches find him, I'll steal him!
+That's just common sense!"
+@page
+@v s=16001
+@【ウサミ】
+"Of course.
+Those two are probably thinking the same thing."
+@page
+@fi s=k348 pos=lc
+@v s=30906
+@【かごめ】
+"Ah... if that's so, then..."
+@page
+@v s=16001
+@【ウサミ】
+"Then you should find him properly, right?"
+@page
+@v s=16002
+@【ウサミ】
+"Ah, I had a good thought!
+I should make it a quiz question.♪"
+@page
+@fi s=k212 pos=lc
+@v s=30907
+@【かごめ】
+"Oh... pass. I'm feeling uneasy for some reason.
+I'll return to my search for my younger brotheeeer."
+@page
+@fi id=k
+@v s=16004
+@【ウサミ】
+"Ah!? Y-You can't!?
+Even though I managed to not be alone!!"
+@page
+@v s=16001
+@【ウサミ】
+"Awwww, how did it get like this?
+I hate this... I hate this..."
+@page
+@qk time=1000
+@lfont
+@v s=16003e
+@【ウサミ】
+"But I'll do it somehow!"
+@page
+@fi id=u
+@mnon size=70 italic=true time=300
+@mset l=5 h=true
+@se s=se091
+What will really happen next time!?
+@qk time=800
+@waitclk
+@mnoff
+@bgm fade=out
+@jump storage="440201.scn"
+;【ＳＥ】ドン！
+;【カットイン】ホントにどうなる次回！？
+;→440201

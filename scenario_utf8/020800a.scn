@@ -1,0 +1,197 @@
+﻿;020800a
+*020800a|_気だるい午後に
+;【背景】教室・昼間
+But you'd think my drowsiness would go away with that, wouldn't you?
+@page
+Sorry, but no. Even though he's a teacher, he's still human.
+He can't win against the vicious monster known as sleep.
+@page
+;【演出】暗転
+@bi s=blank trans=crossfade all=true
+Looking at Matsuri's sleeping face, I begin to row my boat into the world of dreams.
+At the steer, I drowse, asleep at the wheel.
+@page
+But somehow, it appears that I was misunderstanding.
+@page
+@mwoff
+@bi s=bg8200
+@bgm s=bgm12
+@mnon vertical=true
+@mset l=1
+@filmpfx
+;【イベントＣＧ】ブランコ
+;【備考】以下、ボリューム小さく、エコー、ＳＥとして使用
+@mset l=1
+@v s=50005
+The ship's arrival point was the world of nightmares.
+@waitclk
+@mset l=3
+When I first saw "it", I thought I was jealous.
+
+I thought it was something like playing on the swing.
+@waitclk
+@mset l=4
+@v s=50006
+"Mommy... mommy, let me do it to!
+Lemme put the rope around my neck too!"
+If I had done that, I wouldn't be dreaming right now.
+At that time, I would have died.
+@waitclk
+@mset l=1
+But why is it that I'm still alive?
+@waitclk
+@mset l=3
+Of course, because I didn't do the swing with the neck-rope.
+This was because the person I asked to help me was already dead.
+@waitclk
+@mset l=1
+@v s=50007
+"Mommy... mommy... hey... I'm hungry..."
+@waitclk
+@mset l=3
+Whenever I said something like that,
+
+Mom would raise her hand, to hit me.
+@waitclk
+@mset l=3
+Nobody stopped her.
+It was just the two of us, living there.
+I didn't know who my father was.
+@waitclk
+@mset l=3
+My father back then, was my mother's brother--
+
+My uncle, in other words.
+@waitclk
+@mset l=4
+I only learned this five years ago.
+It wasn't a big deal.
+It was because I viewed my family register when I went to school.
+@waitclk
+@mset l=4
+"I'm sorry... I'm so sorry!"
+I didn't hate what happened, back then.
+However, because my dreams didn't change,
+I suppose there was still some ill feelings left.
+@waitclk
+@mset l=3
+Perhaps it was because I was looking at it from far away, or I had resigned myself to it--
+At the scene where my mother swung back and forth,
+these were the only sounds my father could play back.
+@waitclk
+@mset l=3
+"Please, please forgive her...
+I know she abused you...
+I know she abused you for all that time... but...!"
+@waitclk
+@mset l=3
+;【ＳＥ】子供の笑い声
+;@v s=50005
+Still, he wanted me to forgive her.
+
+I couldn't say anything to my father while he continued to prostrate himself.
+@waitclk
+@mset l=4
+It wasn't because I wanted to object.
+It wasn't because I was angry, either.
+However, I didn't understand.
+I didn't understand my mother.
+@waitclk
+@mset l=1
+;【備考】どっか流用
+;@【子供の頃の至】
+;「いたいよぉ…いたいよぉ」
+@v s=50001
+Why did my mother put me through those pains that caused me to cry?
+@waitclk
+@mset l=3
+"... That woman didn't know how to love.
+
+Still, she desperately tried to love, so..."
+@waitclk
+@mset l=1
+So she abused me?
+@waitclk
+@mset l=3
+"... Yeah, it's a contradiction.
+That's why she died like this.
+She... this was the punishment she gave herself."
+@waitclk
+@mset l=3
+So did she like to give pain or recieve it?
+
+That contradiction jumbled it all up.
+@waitclk
+@mset l=3
+Please, tell me.
+Mother.
+And--
+@waitclk
+@mset l=5
+@v s=50008
+"Mommy... it's okay... it doesn't hurt anymore, so..."
+New words appeared in my dreams.
+I don't understand their meaning.
+I don't know what I was thinking about.
+@waitclk
+@mset l=3
+;【備考】話者なし、ボリューム小さく
+@v s=20446 v=20
+;「……至…至、起きて……起きてってばぁ！」
+Someone calls me in my dream.
+
+A voice I've heard somewhere. A nostalgic voice.
+@waitclk
+@mset l=1
+That voice... is probably...
+@waitclk
+@stoppfx
+@bi s=white trans=crossfade all=true
+@mnon
+@mset l=3 h=true
+;【演出】ホワイトアウト
+Mommy
+@waitclk
+@mwoff
+@bi s=bg12d trans=波 time=200
+@bgm s=bgm09
+@se s=se087
+@fi s=m214 pos=c
+@mwon
+;【背景】教室
+;【ＳＥ】クラスのざわめき
+@v s=20447
+@【祀利】
+"No! It's Matsuri!"
+@page
+@【至】
+"... Eh? M-Matsuri?"
+@page
+@se fade=out
+She nods and points towards the front of the room.
+There is the teacher, whose face is red in anger.
+@page
+@fi s=m114 pos=c
+@v s=20448
+@【祀利】
+"After I took all the effort to wake you up... you dummy!"
+@page
+@【至】
+"S-Sorry..."
+@page
+The scene I saw in my dreams disappears into the fog of memories in the confusion.
+@page
+Then--
+@page
+@qk time=800
+@lfont
+@【先生】
+"Stand in the corridor!"
+@page
+With that single phrase, he completely disappeared.
+@page
+@fi id=m
+@mwoff
+@bgm fade=stop
+@jump storage="020900.scn"
+;→020900

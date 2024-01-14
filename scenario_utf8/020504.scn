@@ -1,0 +1,85 @@
+﻿;020504
+*020504|_祀利、来襲
+;【備考】かごめ視点
+;【ワイプ】視点変更
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ランダム
+@bgm s=bgm15
+@fi s=k347 pos=c
+@mwon
+@v s=30083
+@【かごめ】
+"... The fuck is with that chibi bitch?"
+@page
+You serious!? Who the fuck would get fooled by that stupid shit!?
+For fuck's sake, those crocodile tears.
+This insult is the kind of shit only a shit-tier company would put out.
+@page
+I should rip out one of the teacher's eyeballs and shove
+the other one up his ass.
+@page
+@fi s=k34a pos=c
+@v s=30084
+@【かごめ】
+"And... nggghh, onee-chan is sad.
+How could you have gotten fooled?
+Or do you like those loli characters or something?"
+@page
+"DFC is justice", right?
+Bullshit. Everyone loves huge tits.
+@page
+A younger brother sleeping between his onee-chan's breasts is great.
+Sucking on her nipples would be even better.
+If you do those things, you are based.
+@page
+Anyway, let's do something about that shitty brat.
+If I don't, my plan will go all out of whack.
+It'll be really hard to control the situation.
+@page
+@fi s=k212 pos=c
+@v s=30085
+@【かごめ】
+"... But what should I do?"
+@page
+Once I know that, I'll be fine. I'm not worried about that.
+@page
+... Ahh, the more I think about it, the more my head hurts.
+I'm one of those right-brained sensitive types, not
+the left-brain logical ones.
+@page
+Without even thinking about how I feel,
+that chibi bitch is fawning all over my younger brother!
+@page
+@fi s=k34a pos=c
+@act id=k t=neckswing
+@v s=30086
+@【かごめ】
+"... Nnnnggghhhhhh!
+Even though he's mine...
+even though he's only mine!"
+@page
+@act id=k t=stopswing
+@bi s=bg8140 time=100
+@fi s=k347 pos=c time=100
+@v s=30087
+@【かごめ】
+"I. Should. Put. A. Curse. On. You!"
+@wait time=3900
+@se s=se071
+@qk time=700
+@flash time=700
+@page
+I will absolutely kill you.
+I'll beat the shit out of you until you die
+for interfering with the love between an older sister and a younger brother!
+@page
+But how should I do it?
+It'd be nice if it would get on the news or some video website or something...
+@page
+@fi id=k
+@mwoff
+;→020600
+@bgm fade=stop
+@jump storage="020600.scn"

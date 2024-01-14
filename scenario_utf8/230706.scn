@@ -1,0 +1,259 @@
+﻿;230706
+*230706|_祀利のお願い
+;【背景】浴室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=tile
+@bgm s=bgm04
+@smokeFXon
+@fi s=m639a pos=c
+@mwon
+@v s=20952
+@【祀利】
+"Hahh... I can't do any more...
+I've got to rest for a while..."
+@page
+@【至】
+"Rest... are you going to change personalities?
+Hey, Matsuri... Festa!"
+@page
+@fi s=m73b pos=c
+@v s=20953
+@【祀利】
+"...Ah, ow... my butt tingles.
+Festa did too much..."
+@page
+@【至】
+"Er, uhm... which one are you?"
+@page
+@fi s=m101 pos=c
+@v s=20954
+@【祀利】
+"I'm Mardi-gras. Remember my name next time, Itaru."
+@page
+@fi s=m63b pos=c
+@v s=20955
+@【祀利】
+"Ohh, Festa is really too dirty. My body is really tired... hahh..."
+@page
+@【至】
+"S-Sorry. Anyway, let's wash you up in the bathtub again."
+@page
+@fi s=m101 pos=c
+@v s=20956
+@【祀利】
+"Yeah!"
+@page
+@stoppfx
+;【ワイプ】時間経過
+;【背景】浴室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=clock
+@smokeFXon
+@bgm s=bgm03
+@fi s=m102d pos=c
+@mwon
+@【至】
+"Isn't the hot water relaxing?"
+@page
+@fi s=m101d pos=c
+@v s=20957
+@【祀利】
+"Yeah, it's really warm."
+@page
+@fi s=m63bd pos=c
+@v s=20958
+@【祀利】
+"But, this is weird.
+I wonder why Festa came out a while ago."
+@page
+@【至】
+"Huh? Why?"
+@page
+@fi s=m101d pos=c
+@v s=20959
+@【祀利】
+"Well well, when I was washing your body earlier,
+shouldn't I have changed to Matsuri?"
+@page
+@【至】
+"Ahh, I guess so."
+@page
+@v s=20960
+@【祀利】
+"I was thinking that Itaru and Matsuri could do naughty things
+while we were playing, so I changed."
+@page
+@fi s=m63bd pos=c
+@v s=20961
+@【祀利】
+"But Festa came out in the middle of us changing.
+It's kinda weird."
+@page
+@【至】
+"Weird... I don't get it that well,
+but are there rules to the changes?"
+@page
+@fi s=m202d pos=c
+@v s=20962
+@【祀利】
+"Of course!　When we want to do fun and happy things,
+we transfer over to Matsuri as much as we can. That's our promise."
+@page
+@【至】
+"Huh..."
+@page
+@fi s=m63bd pos=c
+@v s=20963
+@【祀利】
+"So it's weird. Festa pushed Matsuri aside and
+has sex with Itaru. It's cheating."
+@page
+@【至】
+"That's... I guess so."
+@page
+@fi s=m104d pos=c
+@v s=20964
+@【祀利】
+"I don't get it! We're gonna 「interrogate」 her later!"
+@page
+Mardi-gras seems mad.
+@page
+But she's cute when she's mad.
+I smile wryly.
+@page
+@fi s=m101 pos=c
+@v s=20965
+@【祀利】
+"Hahh, I'm really warm.
+Let's get out soon, Itaru."
+@page
+With water splashing around her, Matsuri stands up.
+@page
+@【至】
+"Hey, wait up, it's only been 2 minutes since you got in.
+We need to clean you properly."
+@page
+@fi s=m103d pos=c
+I grip her shoulder and pull her back into the bathtub.
+@page
+@fi s=m63bd pos=c
+@v s=20966
+@【祀利】
+"Ehh, but I'm already clean. I can just
+take my normal shower, so this is enough!"
+@page
+@【至】
+"Nope. You've got to count to one hundred.
+If we don't warm you up, you'll catch cold."
+@page
+@fi s=m104d pos=c
+@v s=20967
+@【祀利】
+"A, A hundred!?
+I'm not going to count that high!
+I'm getting out! I am!"
+@page
+@【至】
+"Don't be so selfish. Come on, let's count together."
+@page
+@fi s=m63bd pos=c
+@v s=20968
+@【祀利】
+"Ohh... oh, I know. Itaru, how about
+I make your dick feel good again. Then
+will you let me out?"
+@wait time=600
+@fi s=m638d pos=c
+@page
+@【至】
+"No. I don't make deals like that."
+@page
+@fi s=m639d pos=c
+@v s=20969
+@【祀利】
+"Ohh, but come on...
+If I play with it, it'll bet big again, won't it?"
+@page
+@【至】
+"Even if it does, the answer is still no!"
+@page
+@fi s=m106d pos=c
+@v s=20970
+@【祀利】
+"Waaaaahhh! Itaru, you meany!"
+@page
+@【至】
+"I'm not a meanie. Besides, it's for you, Matsuri... no, Mardi-gras."
+@page
+@【至】
+"Come on, let's count.
+Onnne, twooo, threee, fourrr..."
+@page
+;【演出】５６はゆっくり７８９は早口
+@fi s=m63bd pos=c
+@v s=20971
+@【祀利】
+"Ohhh... Cinco... seis... sete! Oito! Nove!"
+@page
+@【至】
+"Hey, no fast counting...!"
+@page
+@stoppfx
+;【ワイプ】場面転換
+;【背景】自宅居間・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm13
+@mwon
+@【至】
+"Ahhh, what a good bath."
+@page
+@fi s=m64b pos=c
+@v s=20972
+@【祀利】
+"Fuehhh... I never thought I'd leave..."
+@page
+@【至】
+"Hahaha, good job, Mardi-gras. You were great."
+@page
+I pat Mardi-gras head down with a towel, rumpling and stroking it.
+@page
+@fi s=m649 pos=c
+@v s=20973
+@【祀利】
+"I... Itaru... ahn..."
+@page
+@【至】
+"How many times did you say I was a meanie before? It was all for you."
+@page
+@fi s=m111a pos=c
+@v s=20974
+@【祀利】
+"Itaru, you weirdo. I thought you were a meanie, but now you're really nice..."
+@page
+@【至】
+"Well, I don't want to be seen as a meanie."
+@page
+@fi s=m649a pos=c
+@v s=20975
+@【祀利】
+"Hmm... somehow, I understand Festa's feelings..."
+@page
+@【至】
+"Eh? What do you mean?"
+@page
+@fi s=m648a pos=c
+@v s=20976
+@【祀利】
+"No, it's nothing! Come on Itaru, let's play!"
+@page
+;→230707
+@jump storage="230707.scn"

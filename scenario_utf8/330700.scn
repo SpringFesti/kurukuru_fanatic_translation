@@ -1,0 +1,174 @@
+﻿;330700
+*330700|残り、２日
+;【演出】暗転
+;【ワイプ】場面転換
+;【背景】風呂場明かりあり
+@bi s=bg830
+@wait time=2000
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=tile
+@bgm s=bgm08
+@se s=se040
+@fi s=f101 pos=c
+@smokeFXon
+@mwon
+@v s=40600
+@【ファヌル】
+"You're in the way."
+@page
+I was leisurely absorbed in a bath, 
+washing away the sweat of the day, 
+when Fanuel appears in the bathroom again like that.
+@page
+@【至】
+"Give it a break.
+There's a word called privacy in this world, you know."
+@page
+@fi s=f301 pos=c
+@v s=40601
+@【ファヌル】
+"I refuse."
+@page
+@【至】
+"No, you can't refuse it because you can't OK it in the first place."
+@page
+;@fi s=f101 pos=c
+@v s=40602
+@【ファヌル】
+"Why are you surprised at my nudeness now?
+You've done something much further than this."
+@page
+@【至】
+"Further? W-What are you talking about?"
+@page
+@fi s=f53b pos=c
+@v s=40603
+@【ファヌル】
+"You've had a woman who you've known
+for three days tug on your dick in that
+corridor, so don't say that my nudeness
+shakes you."
+@page
+@【至】
+"Eh...?"
+@page
+@fi s=f101 pos=c
+@v s=40604
+@【ファヌル】
+"You seem to have tendencies towards being a light masochist.
+Or maybe you just like incest or something?"
+@page
+Damn it! I forgot this person was in my phone all this time!
+@page
+@qk time=1000
+@【至】
+"N-No, umahyouseewellIadfjlghfh;df!!"
+@page
+@fi s=f401 pos=c
+@v s=40605
+@【ファヌル】
+"Calm down, the way you get surprised is getting a little old."
+@page
+@【至】
+"D-Don't say something like that!
+　At least show me the kindness of not asking about that kind of stuff, you kinky angel!"
+@page
+@fi s=f301 pos=c
+@v s=40606
+@【ファヌル】
+"What are you saying?
+An angel's duties are strict, aren't they?
+So you can't fault me if I monitor you, for instance."
+@page
+Then help me when I'm in trouble!
+And although I yelled when you appeared,
+don't take that to mean that it's because you're naked.
+@page
+@【至】
+"Ahh... well, whatever.
+Yeah, just, whatever."
+@page
+I've gone berserk in a different meaning.
+Somehow, I was too embarrassed, and my mind was broken.
+@page
+@fi s=f539 pos=c
+@v s=40607
+@【ファヌル】
+"It doesn't matter anyway."
+@page
+Whoah, she really said that.
+@page
+;@fi s=f536 pos=c
+@v s=40608
+@【ファヌル】
+"You have two days left, do you understand that?"
+@page
+@【至】
+"Yeah... You're talking about a way to avoid my death, right?"
+@page
+@fi s=f301 pos=c
+@v s=40609
+@【ファヌル】
+"Do you have one, yet?"
+@page
+@【至】
+"... Completely.
+But it involves unknown people, so there's a possibility I could fail."
+@page
+@fi s=f53a pos=c
+@v s=40610
+@【ファヌル】
+"Fumu. As an example, who?"
+@page
+@【至】
+"Otogiri-san is different.
+I don't think she'll try to suddenly murder me again."
+@page
+Rather, she hasn't found a reason to kill me.
+As far as I know, she also doesn't have a dual personality that is a murderous, homicidal fiend.
+@page
+@fi s=f539 pos=c
+@v s=40611
+@【ファヌル】
+"...Alright then."
+@page
+@【至】
+"Wait. What do you mean by that?"
+@page
+Does she know something?
+@page
+@fi s=f101 pos=c
+@v s=40612
+@【ファヌル】
+"Nothing.
+It's due to my subjectivity.
+That's not correct information, but I have no duty to tell you."
+@page
+@se s=se040
+@fi id=f
+Fanuel disappears with those words.
+@page
+@【至】
+"What the hell... I can't understand that!"
+@page
+A disgusting way to speak, just like always!
+But I do appreciate one thing.
+@page
+I was in high spirits because of Otogiri-san,
+but all the same, I have 2 days left anyway.
+@page
+I don't know if I can find the criminal, but
+let's try to be more cautious from tomorrow on.
+@page
+@【至】
+"... Even so... what the hell should I do..."
+@page
+I look up at the ceiling sadly, soaking in the bathtub.
+Of course... I can't find an answer...
+@page
+@stoppfx
+@mwoff
+;→330800
+@bgm fade=stop
+@jump storage="330800.scn"

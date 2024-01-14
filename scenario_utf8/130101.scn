@@ -1,0 +1,506 @@
+﻿;130101
+*130101|_１０月２９日午前７時３０分
+;【備考】主人公視点
+;【ワイプ】視点変更
+;【演出】暗転
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=blank
+@wait time=1000
+@bgm s=bgm02
+@mwon
+Morning. A sweet smell tickles my nose, waking me up.
+@page
+Wazuka-san's smell...
+@page
+I smelled it right before going to sleep last night, so I know exactly
+what that smell is, right away.
+@page
+I thought it was a really nice smell, yesterday.
+I only stink of sweat. It's so unfair.
+@page
+;【備考】ボイス流用
+;【備考】わずかの台詞
+"Itaru-kun..."
+@page
+I hear my name.
+Huh, did Wazuka-san get up already?
+@page
+What a strange thing to think. I'm quite cool-headed this morning.
+So, I decide to greet Wazuka-san.
+@page
+@【至】
+"G'monnrnring."
+@page
+...Hm?
+@page
+What the heck did I just say?
+@page
+That's weird. I can't move my lips very well.
+It's almost like they're being pinned down...
+@page
+;【演出】ホワイトアウト
+;【立ち絵】わずか立ち絵　大　キスしてるようなもの　目閉じ
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=波
+@bgm s=bgm14
+@fi s=w12cad pos=c
+@mwon
+@qk
+@lfont
+@【至】
+"!!!???"
+@page
+I open my eyes, and they're immediately filled with Wazuka-san's face.
+She's really, really close to me.
+@page
+Then, when I think about that feeling on my lips...
+She must've just kissed me.
+@page
+Is this CPR?
+Did I drown in the bathroom yesterday??
+@page
+How the hell is this possible!?
+No goddamned waaay!
+@page
+@【至】
+"Nn!"
+@page
+@fi s=w129ad pos=c
+@v s=10827
+@【わずか】
+"Eh?"
+@page
+@fi s=w123ad pos=c
+@v s=10828
+@【わずか】
+"O-Ohh..."
+@page
+@【至】
+"H-Huh?
+Did... did you just kiss me?"
+@page
+@fi s=w658bd pos=c
+@v s=10829
+@【わずか】
+"Aahhh, aahaaahhhhh..."
+@page
+@【至】
+"Wait, I don't understand.
+What's wrong, Wazuka-san?"
+@page
+@bgm fade=stop
+@bi s=bg850 time=100
+@fi s=w129ad pos=c time=100
+@qk time=1000
+@v s=10830
+@【わずか】
+"AAAAAAAAAAAAAAAAAAAAAHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHH!!!"
+@page
+@bgm s=bgm09
+@bi s=bg01m time=100
+;壁に頭をうちつける演出]
+@se s=se118
+@cut s=cut2100
+@qk time=700
+@flash time=700
+@v s=10831
+@【わずか】
+"GAH!　UGH!　AGH!　GAAAAHHH!!!"
+@page
+@cut
+@【至】
+"Wh- This again!?"
+@page
+Here begins the grand head-butt tournament this morning!
+Who will be today's winner!?
+@page
+Who the fuck cares!
+@page
+As usual, she bats her head against the wall with no restraint.
+Even people that want to kill themselves wouldn't do this.
+Wait, no, I need to stop her!
+@page
+@【至】
+"Wait! Don't do that! You're going to die!"
+@page
+I panic and hold her from behind.
+@page
+@fi s=w12aa pos=c
+@qk
+@v s=10832
+@【わずか】
+"Let go! I must die!
+I have to kill myself!"
+@page
+@【至】
+"Why!? Why do you suddenly need to kill yourself!?"
+@page
+@fi s=w22aa pos=c
+@v s=10833
+@【わずか】
+"I annoyed you! The only thing I can do is die!"
+@page
+@fi s=w12aa pos=c
+@v s=10830
+@【わずか】
+"AAAAAAAAAAAAAAAAAAAAAHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHH!!!"
+@page
+@fi id=w
+@se s=se118
+@cut s=cut2100
+@qk time=700
+@flash time=700
+No, you really don't have to die!
+Then she shakes me off and starts
+beating her head against a wall again.
+@page
+@cut
+@【至】
+"Goddamn it, stop that!"
+@page
+@v s=10834
+@fi s=w123d pos=c
+@【わずか】
+"Kyah!"
+@wait time=100
+@fi s=w123 pos=c
+@page
+;@bgm fade=out
+I pick up Wazuka-san and throw her back onto the bed,
+if only to get some distance between her and the wall.
+That should stop the head-butt tournament for now.
+@page
+@【至】
+"Just calm down. I don't know what you did,
+but you don't need to die for it, okay?"
+@page
+@fi s=w12aa pos=c
+@v s=10835
+@【わずか】
+"But I kissed you!
+I kissed you and annoyed you!
+I have to die!"
+@page
+@【至】
+"Of course you don't!
+Why would you have to die because you kissed me?"
+@page
+@fi s=w22aa pos=c
+@v s=10836
+@【わずか】
+"But you hated it, didn't you!?
+It felt disgusting, didn't it!?
+So I have to die, don't I!?"
+@page
+@【至】
+"Don't you-- no. Rather, I'm kinda happy."
+@page
+@fi s=w123a pos=c
+@v s=10837
+@【わずか】
+"...Happy? You're... happy?"
+@page
+@【至】
+"Yeah. I don't know why you kissed me,
+but if you wanted to do that, then I don't mind."
+@page
+@【至】
+"And if you do kiss me, it makes me feel good."
+@page
+@fi s=w558a pos=c
+@v s=10838
+@【わずか】
+"... You aren't lying?"
+@page
+@【至】
+"Course not. That's the truth."
+@page
+@fi s=w123a pos=c
+@v s=10839
+@【わずか】
+"Really really?"
+@page
+@【至】
+"Really really really.
+Wait, haven't we done this joke before?"
+@page
+@fi s=w558a pos=c
+@v s=10840
+@【わずか】
+"But... really really really really?"
+@page
+@【至】
+"Yes. Really.
+Don't you believe me?"
+@page
+@fi s=w122a pos=c
+@v s=10841
+@【わずか】
+"Of course! I'll always believe you!
+But... but... ohhh..."
+@page
+I'm worried that she still doesn't believe me.
+As she moans, I try desperately to get my head together.
+@page
+;【立ち絵】祀利立ち絵無し
+@v s=21584
+@【祀利】
+"Nn... Itaruuu..."
+@page
+Ergh..."
+@page
+I hear my name, and turn around timidly.
+@page
+If Matsuri gets up now, we're assuredly going to get
+another gun vs knife battle in the morning again.
+@page
+That's what I thought, but she's still asleep.
+Her eyes are still shut and she's still off in dreamland.
+@page
+The battle's been avoided, for now.
+But Matsuri will wake up in time.
+I've got stop this, fast.
+@page
+I don't think she's going to believe in my words,
+so let's show my beliefs with actions this time.
+@page
+@【至】
+"Wazuka-san!"
+@page
+@fi s=w129d pos=c
+I take Wazuka-san's face in my hands and hold it there.
+@page
+@【至】
+"Is a kiss okay?"
+@page
+@fi s=w129ad pos=c
+@v s=10842
+@【わずか】
+"Huh? Eh--"
+@wait time=200
+@fi s=w12cad pos=c
+@bgm fade=out
+@page
+@bgm s=bgm14
+I kiss her before I hear her answer.
+@page
+I knew well the softness of her lips with the touch of my own
+My heartbeat and my feelings-- I transmit it all through those lips.
+@page
+;【立ち絵】頬ブラシのあるもの
+@fi s=w121ad pos=c
+@【わずか】
+"......"
+@page
+I don't know what just happened.
+Wazuka-san is simply stunned.
+@page
+@【至】
+"Did you hate that?"
+@page
+@fi s=w129d pos=c
+@act id=w t=neckswing
+@v s=10843
+@【わずか】
+"NNNNNNNNN!
+OOOOO, OOOf course notttt!!!"
+@page
+Woah...
+She's shaking badly, and her voice is shaking too.
+@page
+@v s=10844
+@【わずか】
+"Itaru-kun jus-just k-k-k-k...!
+He-He, heee k-i-i-i-i-!!!"
+@page
+@v s=10845
+@【わずか】
+"K-k-k-k-k-k-!!!"
+@page
+@bgm fade=stop
+@fi id=w
+@se s=se118
+@cut s-cut2100
+@qk time=1000
+@flash time=1000
+@lfont
+@v s=10846
+@【わずか】
+"KYASHAAA!!"
+@page
+@cut
+@bgm s=bgm09
+She runs past me and slams her head into the wall even harder.
+Welp, that's all I could do.
+@page
+@se s=se118
+@fi s=w225a pos=c
+@qk
+@flash
+@wait time=300
+@se s=se118
+@qk
+@flash
+@v s=10847
+@【わずか】
+"Ahaha!　Haha! It hurts, it hurts, it hurts!
+@wait time=200
+@se s=se118
+@qk
+@flash
+This isn't a dream! He really just did thaaaat!"
+@wait time=200
+@se s=se118
+@qk
+@flash
+@page
+@se fade=stop
+@cut
+;【ＳＥ】ヘッドバッド
+@fi s=w124a pos=c
+@v s=10848
+@【わずか】
+"Ow, oww! This isn't a dream! He just, to me...!
+Ehe, ehehehehe..."
+@page
+@fi s=w121b pos=c
+@v s=10849
+@【わずか】
+"...oh."
+@page
+@fi s=w123a pos=c
+@v s=10850
+@【わずか】
+"Yes... yes he did..."
+@page
+Suddenly stopping her head-butting rampage,
+the tension falls at a worrisome pace.
+@page
+@fi s=w558b pos=c
+@v s=10851
+@【わずか】
+"He just kissed me to be nice... what was I thinking..."
+@page
+Of course.
+Why would she let herself be happy, after all?
+@page
+@【至】
+"Maybe you'd feel better if you didn't slam your head into the wall?
+Besides, I didn't mind doing that at all."
+@page
+@fi s=w223 pos=c
+@v s=10852
+@【わずか】
+"Then why"
+@page
+Mn? That "why" is...
+@page
+Why did I kiss her?
+Did I do it to stop her from beating her head against the wall?
+@page
+No, that's not it at all.
+@page
+@【至】
+"I did it for you."
+@page
+That's the best thing I can say to her for now.
+@page
+@fi s=w121 pos=c
+@v s=10853
+@【わずか】
+"Why?"
+@page
+But her reply doesn't change. "Why" again.
+I can't dodge the question, I guess.
+Let's see... how can I trick her...
+@page
+@【至】
+"Oh... Wazuka-san, it's already 7 o'clock."
+@page
+@fi s=w129 pos=c
+@v s=10854
+@【わずか】
+"Eh?!"
+@page
+Long past 7, it's already past 7:30.
+@page
+We should have eaten breakfast a long time ago.
+@page
+@fi s=w123 pos=c
+@v s=10855
+@【わずか】
+"It-It's already that late!? I-I'm sorry!
+I'll go make breakfast right away!"
+@page
+@fi id=w
+;【立ち絵】わずか立ち絵消去
+;【ＳＥ】ドアを閉める音
+She leaves the room in a panic.
+Looks like I managed to trick her... right?
+@page
+@fi s=m74b pos=c
+@v s=21585
+@【祀利】
+"Yaawwn～... it's already morning～～?"
+@page
+As soon as Wazuka-san closes the door,
+Matsuri wakes up.
+@page
+I'm relieved. We skipped this morning's fight.
+That's one time less they fought today.
+@page
+@【至】
+"Goood morning, Matsuri. Did you sleep well?"
+@page
+@fi s=m111 pos=c
+@v s=21586
+@【祀利】
+"Yeah. How about you?
+Did Wazuka do anything?"
+@page
+@【至】
+"Nope, nothing. This is Japan, after all."
+@page
+Actually we did.
+Course, I wouldn't tell her that.
+@page
+@fi s=m74b pos=c
+@v s=21587
+@【祀利】
+"Reaaaally～?"
+@page
+@【至】
+"Really. Why would you think that?"
+@page
+;@fi s=m111 pos=c
+@v s=21588
+@【祀利】
+"But you're blushing, aren't you?
+Isn't that strange?"
+@page
+Wait, seriously!?
+@page
+@【至】
+"Oh, well, I just woke up. My face needs blood, so that's why it's red."
+@page
+That's it?
+That's what I came up with? Dear god.
+@page
+@【至】
+"I-I'm gonna go wash my face. Get up quick, Matsuri."
+@page
+@fi id=m
+Matsuri yells behind me in protest.
+@page
+But my embarrassment shoves all of her words
+out of my head.
+@page
+;→130200
+@jump storage="130200.scn"

@@ -1,0 +1,40 @@
+﻿;020501
+*020501|_祀利、来襲
+;【好感度】祀利+1
+@eval exp="f.matsuri++"
+Well, she's already here, so there's nothing I can do about it.
+If I let her go now, it'd be really dangerous.
+@page
+Well, she wouldn't be the one in danger.
+If I let her go now, she'd paint the town red,
+so the town would be the one in danger.
+@page
+@【至】
+"Sigh... alright. Do whatever you want."
+@page
+@fi s=m212 pos=c
+@v s=20251
+@【祀利】
+"Thanks, Itaru! Love yooou!"
+@page
+@fi s=m647d pos=c
+@v s=20252
+@【祀利】
+"Now that that's out of the way, how about your reward?
+It'll be richer and sweeter than the last one♪"
+@page
+@【至】
+"I'm fine! Just let go of me, stop hugging me!"
+@page
+@fi s=m112 pos=c
+@v s=20253
+@【祀利】
+"Daww, you're still being shy. How cute♪"
+@page
+I'm fine, I don't really need your "reward".
+I wanted to say that, but only a tired sigh leaked out of my mouth.
+@page
+@fi id=m
+;→020503
+;@bgm fade=stop
+@jump storage="020503.scn"

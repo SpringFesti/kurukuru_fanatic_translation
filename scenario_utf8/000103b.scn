@@ -1,0 +1,95 @@
+﻿;000103b
+*000103b|_目覚めのとき
+;【背景】不可思議な空間
+@bgm s=bgm08
+@bi s=bg8180
+@【至】
+"... So, are you satisfied now?"
+@page
+@fi s=f636a pos=c
+@v s=40219
+@【ファヌル】
+"... Eh? That's... I wasn't trying to--!"
+@page
+@【至】
+"Oh, sorry! That's not it, I wasn't doubting you or anything!
+I mean, since that kind of stuff happened, I thought that--"
+@page
+@fi s=f301 pos=c
+@v s=40220
+@【ファヌル】
+"Yes, that is correct. Those were crocodile tears."
+@page
+My shoulders fall by themselves.
+She got me. I thought that might happen,
+but I really believed her there.
+@page
+@【至】
+"Hey, are you really an angel? Angels don't lie, you know."
+@page
+@fi s=f302 pos=c
+@v s=40221
+@【ファヌル】
+"Huh? What are you talking about?
+Even angels can lie, you know."
+@page
+@qk
+@lfont
+@【至】
+"Are you serious!?"
+@page
+@fi s=f201 pos=c
+@v s=40222
+@【ファヌル】
+"Google it. Ignorance is shamelessness. So stop being ignorant."
+@page
+@【至】
+"Alright, whatever. I'll do it when I come back to life.
+So just bring me back already!"
+@page
+Fanuel points at me as if to say she already has.
+@page
+@se s=se124 loop=true
+@starpfx
+Before I knew it, my hands and feet are overcome with light.
+Suddenly my range of vision become large,
+and the light around me shines even brighter.
+@page
+@fi s=f53a pos=c
+@v s=40223
+@【ファヌル】
+"Alright, let's see what you do this time."
+@page
+@【至】
+"What the hell? How many times have I come back?"
+@page
+@fi s=f53b pos=c
+@v s=40224
+@【ファヌル】
+"I'll tell you after you come back to life. Well,
+you'll probably forget about that question anyway."
+@page
+@stoppfx
+@se fade=out
+@mwoff
+@bi s=white all=true time=500
+;【ワイプ】テレビが消えるように
+;【演出】白
+;【ＳＥ】ブツン
+@wait time=700
+@mwon
+Then, everything is wrapped in light.
+@page
+Inside me, I notice that I remember this scene.
+@page
+Seriously, how many times have I come back to life now?
+How many times has somebody murdered me?
+@page
+All is light.
+I disappear into that all consuming light that fills my eyes...
+@page
+@mwoff
+@bgm fade=out
+@jump storage="010100.scn"
+;ムービー再生
+;終了後→0010100

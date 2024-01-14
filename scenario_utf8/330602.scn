@@ -1,0 +1,44 @@
+﻿;330602
+*330602|_ほんの少しの帰り道
+I do want to go home with her, just a bit.
+But there's a reason I can't.
+@page
+"Sorry, I want to say OK, but that'd be a little hard."
+A simple declining text.
+However, it was delayed a little to send with an apology.
+@page
+Of course, the reason I declined was that.
+Wazuka-san and Matsuri are here.
+@page
+Especially Wazuka-san.
+If the two of them meet, Otogiri-san will become meat sauce.
+Or maybe she'll turn her into paste.
+@page
+With Matsuri around too, the danger would never leave.
+@page
+Then maybe the four of us will work?
+@page
+That wouldn't work either.
+I'd be dead before I reached the entrance.
+@page
+While thinking about nonsense like what I could do,
+another text from Otogiri-san arrives.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30343
+;@【かごめ】
+"Is it about those people that always go home with you?
+Can you think of an excuse to tell them?"
+@waitclk
+@mwon
+@【至】
+"... Her womanly perception is great."
+@page
+There's no meaning in hiding it if I've been found out.
+@page
+"Exactly. So, sorry."
+Is my reply.
+@page
+;→330603
+@jump storage="330603.scn"

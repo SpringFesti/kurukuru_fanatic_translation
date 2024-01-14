@@ -1,0 +1,328 @@
+﻿;240300
+*240300|ずっと一緒にいたい
+;【ワイプ】時間経過
+;【ＳＥ】チャイム
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se011
+@bi s=bg12d trans=clock
+@mwon
+@【至】
+"Standing up! Taking care! Bowing!"
+@bgm s=bgm09
+@page
+When the bell that signals the end of class sounds,
+I stand up and say the end-of-class formalities without permission.
+@page
+At the same time, I shove Matsuri off my knee
+and shove my dick back in my pants with god-like speed.
+@page
+"Alright, see ya later!"
+@page
+Then I dash out of the classroom.
+@page
+;【ワイプ】場面転換
+;【背景】廊下
+;@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+;@bgm s=bgm03
+@mwon
+@【至】
+"Phew... made it just in time."
+@page
+Finishing my "business" in the bathroom, I come out clean and refreshed.
+@page
+It's good that I made it in time.
+@page
+@fi s=m115 pos=c
+@v s=21051
+@【祀利】
+"Kukuku... seems you did it without lacking shame, I see."
+@page
+With that tone, it's gotta be Parade."
+@page
+@【至】
+"Well, that's one thing I've absolutely got to protect.
+... Everyone probably thought my commands were weird earlier."
+@page
+@v s=21052
+@【祀利】
+"Oh, are you embarassed? Then I'll annihilate whoever saw you in that state."
+@wait time=3000
+@se s=se131
+@fi s=m315 pos=c
+@page
+@【至】
+"No, stop! Don't pull out your guns in a school."
+@page
+I just endured that ecstacy for a whole hour, didn't I?"
+@page
+@fi s=m647 pos=c
+@v s=21053
+@【祀利】
+"Hey Itaru... it's the break time you've been waiting for.
+Where you do you want to put that huge, pounding thing?"
+@page
+It happened again. Her personality changed during the middle of a conversation.
+@page
+@fi s=m114 pos=c
+@v s=21054
+@【祀利】
+"No! Festa just did something nice with Itaru, right!? It's my turn!"
+@page
+Her personalities are fighting.
+It's honestly painful to watch.
+@page
+I love Matsuri.
+So I want the three people inside Matsuri to get along.
+@page
+However... regretably, I am not a doctor at all.
+@page
+The personalities are really messed up, and when they say the word "kill" I get really, truly tired.
+@page
+;【ワイプ】時間経過
+;【背景】廊下
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se011
+@bi s=bg10d trans=clock
+@bgm s=bgm02
+@mwon
+After the 3PM P.E. class, I'm walking around with a
+basket with a ball in it, holding it with both hands.
+@page
+I'm on cleaning duty.
+I have to take this to the unused classroom we're using as a storage space.
+@page
+However, I could relax during P.E.
+While exercising, I seperated from Matsuri.
+@page
+As expected, she didn't say that she wanted to exercise with me.
+She sat in the corner all class.
+@page
+... Err, she also cheered for me a whole bunch.
+It was a little embarassing.
+@page
+@fi s=m111 pos=c
+@v s=21055
+@【祀利】
+"Hey Itaru, isn't that heavy? Lemme help."
+@page
+@【至】
+"You're... Mardi-gras, right? I can do this much by myself."
+@page
+@fi s=m112 pos=c
+@v s=21056
+@【祀利】
+"Don't be modest. I want to help Itaru."
+@page
+Mardi-gras takes my left hand off the basket and lifts.
+@page
+@fi s=m113 pos=c
+@qk time=1000
+@v s=21057
+@【祀利】
+"Haaauuu!? T-This is heavy..."
+@page
+@【至】
+"W-Whoah, are you alright?"
+@page
+@fi s=m64b pos=c
+@act id=m t=swing
+@v s=21058
+@【祀利】
+"D-Don't worry... Eu estou bem!"
+@page
+@【至】
+"Don't overwork yourself, alright? If it's too hard,
+I can take it again, okay?"
+@page
+Mardi-gras shakes her head no at my words,
+and walks besides me unsteadily.
+@page
+Looking at her makes me nervous.
+@page
+But more than that, I'm glad for her goodwill.
+@page
+@【至】
+"It's just a little more to the classroom. You can do it, Mardi-gras."
+@page
+@act id=m t=stopswing
+@fi s=m112 pos=c
+Mardi-gras smiles and nods.
+@act id=m t=bow
+@page
+;【ワイプ】場面転換
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@fi s=m64b pos=c
+@mwon
+@v s=21059
+@【祀利】
+"W-We're finally here. Itaru, where do you want this?"
+@page
+@【至】
+"It doesn't really matter... how about over there?"
+@page
+@fi s=m111 pos=c
+@v s=21060
+@【祀利】
+"Then are we done cleaning up now?"
+@page
+@【至】
+"Yep. Let's get back to the classroom."
+@page
+@fi s=m113 pos=c
+@v s=21061
+@【祀利】
+"Ah, wait!"
+@page
+@fi id=m
+Mardi-gras runs up to me in a panic.
+@page
+Then-- her fingers reach down to my crotch in the usual way.
+@bgm fade=out
+@page
+@bgm s=bgm14
+@fi s=m649d pos=c
+@v s=21062
+@【祀利】
+"How about it... Itaru...?"
+@page
+She means "that", doesn't she?
+@page
+When Festa was touching me during class, I had her wait.
+She might not be able to take it much longer.
+@page
+@【至】
+"Please Festa, not yet. The next class is starting soon."
+@page
+@fi s=m74bd pos=c
+@v s=21063
+@【祀利】
+"What are you talking about? I'm Mardi-gras! Don't mistake me for Festa!"
+@page
+@【至】
+"R-Really? You didn't switch places?"
+@page
+@fi s=m114d pos=c
+@v s=21064
+@【祀利】
+"Festa isn't the only one that can do lewd things!"
+@page
+@fi s=m74bd pos=c
+@v s=21065
+@【祀利】
+"Yeah... Festa is so unfair. It's always her that makes you feel good."
+@page
+W-What's wrong, Mardi-gras? Are you jealous of Festa?
+@page
+@fi s=m114d pos=c
+@v s=21066
+@【祀利】
+"So far the only ones that have had sex with Itaru are
+Matsuri and Festa. I wanna do it too!"
+@page
+@【至】
+"E-Even if you say that, class is..."
+@page
+@fi s=m114d pos=c
+@v s=21067
+@【祀利】
+"I don't care! Now! Right now! Have sex with me!"
+@page
+@fi s=m64bd pos=c
+@v s=21068
+@【祀利】
+"Itaru, am I no good? Can you only do it with Festa and Matsuri? If so, then..."
+@page
+@fi s=m314d pos=c
+@se s=se131
+She takes her guns out from under her coat.
+@page
+@v s=21069
+@【祀利】
+"If Itaru doesn't have sex with me, then I'll... I'll...!"
+@page
+@【至】
+"Wait, I got it! I got it, okay!
+Put away the gun! We'll have sex! Now! Okay!? Okay...?"
+@page
+@fi s=m313d pos=c
+@v s=21070
+@【祀利】
+"Really? You really will?"
+@page
+@【至】
+"Yeah. But there's no time. We'll have to do it fast."
+@page
+@fi s=m212d pos=c
+@v s=21071
+@【祀利】
+"That's fine. Come on, let's do it!"
+@page
+@se s=se154
+Mardi-gras throws off her clothes along with her guns.
+@wait time=800
+@fi s=m101d pos=c
+@page
+@fi s=m102d pos=c
+@v s=21072
+@【祀利】
+"Nfufu... I'm naked...
+It's like I'm a baby somehow..."
+@page
+Although Matsuri says this, she's an adult when it comes to her privates.
+She's already dripping wet down there."
+@page
+@fi s=m639d pos=c
+@v s=21073
+@【祀利】
+"Quickly, put it in...
+When you put your dick in my pussy, it'll feel really good, right?"
+@page
+@fi s=m638d pos=c
+@v s=21074
+@【祀利】
+"How is it... I'm really excited...
+my heart is pounding..."
+@page
+My dick is ready.
+@page
+If I touch Mardi-gra's body while thinking of this and that,
+I'll react immediately.
+@page
+@【至】
+"So... is it alright?"
+@page
+Then I try to put my dick into Mardi-gras. She leads it with her hand.
+@page
+@fi s=m63bd pos=c
+@v s=21075
+@【祀利】
+"Wait... I have to ask you something..."
+@page
+@fi s=m639d pos=c
+@v s=21076
+@【祀利】
+When your dick enters my pussy, I want to look at it... okay?"
+@page
+@【至】
+"Right... alright then, umm..."
+@page
+I lift up her lower body, then turn it around.
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→240301
+@jump storage="240301.scn"

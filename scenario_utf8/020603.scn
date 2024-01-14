@@ -1,0 +1,28 @@
+﻿;020603
+*020603|_クイズ！　次はおまえだ！
+@fi s=f55a pos=lc
+@v s=40373
+@【ファヌル】
+"Pass on... huh?
+Hm... yeah, I guess."
+@page
+@v s=16001
+@【ウサミ】
+"What's that mean? I don't get it--"
+@page
+@fi s=f559 pos=lc
+@v s=40374
+@【ファヌル】
+"Don't worry about it. It was a test of your vocabulary."
+@page
+@v s=16001
+@【ウサミ】
+"So how did they do?"
+@page
+@fi s=f211 pos=lc
+@v s=40375
+@【ファヌル】
+"Eh, it was alright. I'd give it half a checkmark."
+@page
+;→020605
+@jump storage="020605.scn"

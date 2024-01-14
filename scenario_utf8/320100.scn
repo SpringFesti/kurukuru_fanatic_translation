@@ -1,0 +1,417 @@
+﻿;320100
+*320100|_１０月２８日午後４時２２分
+;【フラグ】フラグ320100起立
+@eval exp="f._320100++"
+@mwoff
+@se fade=stop buf=1
+@se s=se129
+@bi s=bg10e trans=scroll time=300
+@wait time=300
+@se s=se129
+@bi s=bg11e trans=slide time=300
+@wait time=300
+@se s=se129
+@bi s=bg10e trans=swap time=300
+@wait time=300
+@se s=se129
+@bi s=bg10e trans=turn time=300
+@wait time=300
+@se s=se129
+@bi s=bg08e trans=crossfade time=300
+@wait time=300
+@se fade=out
+@se s=se078 loop=true
+@setOnce
+@fi s=w114 pos=lc opacity=160
+@fi s=m112 pos=rc opacity=160
+@endOnce
+@mwon
+@v s=10422
+@【わずか】
+"Itaru-kun, today's dinner is going to be salisbury steak too, okay?♪"
+@page
+@v s=20483
+@【祀利】
+"Itaru, let's go take a bath, okay?♪"
+@page
+@【至】
+"Whatever, just stop!　Please, stop!
+My bags! Where are my bags!!?"
+@page
+@se fade=stop
+@stoppfx
+@qk time=1000
+When I say that, the two of them finally stop.
+@page
+@setOnce
+@fi s=w111 pos=lc
+@fi s=m111 pos=rc
+@endOnce
+@fi s=w211 pos=lc
+@v s=10424
+@【わずか】
+"I dono't have them."
+@page
+@fi s=m64b pos=rc
+@v s=20485
+@【祀利】
+"Same here."
+@page
+@【至】
+"And I sure don't have them."
+@page
+Both of my hands were being held by those two.
+I can't have picked up my bags.
+@page
+@【至】
+"They must still be in the classroom.
+Looks like I have to go get them.
+Wait here, both of you."
+@page
+@setOnce
+@fi s=w112 pos=lc
+@fi s=m114 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=10425
+;@【わずか】
+"I'll go with you."
+;@v s=20486
+;@【祀利】
+;「一緒に行く」
+@page
+@【至】
+"I'll be right back, so just wait a little, okay?"
+@page
+@setOnce
+@fi s=w548 pos=lc
+@fi s=m64b pos=rc
+@endOnce
+@lfont
+;【備考】ユニゾン
+@v s=10426
+;@【わずか】
+"No."
+;@v s=20487
+;@【祀利】
+;「ダメ」
+@page
+Just like I thought.
+Then I'll have to use harem protagonist tactics.
+@page
+@【至】
+"(Whispering) If you wait here obediantly, I'll love you."
+@page
+@setOnce
+@fi s=w114a pos=lc
+@fi s=m112a pos=rc
+@endOnce
+@lfont
+;【備考】ユニゾン
+@v s=10427
+;@【わずか】
+"Okay!♪"
+;@v s=20488
+;@【祀利】
+;「わかった」
+@page
+I see, then I guess we're all good here.
+It should be okay... from now on.
+@page
+@【至】
+"See ya, be good as you go home, both of you!"
+@page
+@bi s=current all=true trans=crossfade
+Speaking a wish I can't possibly expect to come true,
+I start running to school before a disaster occurs.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se037
+@bi s=bg12e trans=ひし形(左から右へ)
+;@bgm s=bgm09
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Let's see, my bag is..."
+@page
+There's no need to say that, because I don't need to search.
+I look at my desk, and my bag is right on top of it.
+@page
+@【至】
+"I should be more careful tomorrow.
+Anyway, let's hurry home."
+@page
+@se s=se037
+@bi s=bg10e
+@【至】
+"Alright, let's get a move on, me!
+I must get back before the sun sets on the lives of my friends!"
+@page
+To be exact, the lives of my childhood friend
+and my self-proclaimed fiance.
+@page
+Is it possible to save both of them?
+Is there any way to get the both of them to make friends?
+@page
+Thinking about last night and pushing reality away,
+I begin to run towards the entrance.
+@page
+@lineFXon
+@se s=se078 loop=true
+@qk time=800
+@【至】
+"Turn at this corner-- and at this corner...
+Wait, wait a second--!"
+@page
+An unpleasant feeling runs down my spine.
+Yesterday morning. When I ran at full speed around this corner, did something happen?
+@page
+@se s=se139
+Warning. When I run, I am a complete idiot with no ability to learn from my mistakes.
+@page
+@qk
+@lfont
+@【至】
+"As if I could say that!"
+@page
+@lineFXoff
+@qk time=800
+I suddenly apply the brakes!
+@page
+@qk
+@fi s=k348bd pos=c
+@lfont
+@v s=30114
+@【かごめ】
+"Kyahh!?"
+@page
+Just as expected!
+As Otogiri-san turns the corner in front of me, I stop my legs as fast as I can.
+@page
+@【至】
+"... Am I safe?"
+@page
+@bgm s=bgm07
+@fi s=k448a pos=c
+@v s=30115
+@【かごめ】
+"YY-Yes! To-Today, we did not collide!"
+@page
+@【至】
+"Yeah, my intuition has gotten surprisingly reliable recently..."
+@page
+@fi s=k114a pos=c
+Embarrassed, we both laugh with each other.
+Indeed, it is an incredibly Japanese thing to do.
+@page
+@【至】
+"Oh... which reminds me, sorry about today.
+@page
+@fi s=k111a pos=c
+@v s=30116
+@【かごめ】
+"Eh? A-A, about what?"
+@page
+@【至】
+"About Matsuri.
+When she came to school, she pushed you out of the way, didn't she?"
+@page
+The scream I heard when I was going to sleep was definitely Otogiri-san's voice.
+@page
+Considering the spectacle I saw after that, there's no
+way that anybody but Matsuri could have pushed Otogiri-san over.
+@page
+@【至】
+"I'll make her apologize too tomorrow.
+But for now, all I can do is apologize myself."
+@page
+;【立ち絵】ゆらすと楽しいか？
+@fi s=k448a pos=c
+@act id=k t=neckswing
+@v s=30117
+@【かごめ】
+"NN-No! Ohh, that much,
+it-it, it's not that, uhm, ahh..."
+@page
+@【至】
+"No, I do have to apologize to you.
+For now, I seem to be her guardian, and Wazuka-san's
+been giving you some trouble too, so...
+@page
+I bow deeply.
+@page
+I say that Wazuka-san's been giving her trouble,
+but really she tried to kill her.
+I should apologize sincerely.
+@page
+@act id=k t=stopswing
+@fi s=k113a pos=c
+@v s=30118
+@【かごめ】
+"Ah, oh... ah, uh, ummmmmmmm..."
+@page
+For some reason, Otogiri-san's face is turning beet red at my apology.
+@page
+@sfont
+@v s=30119
+@fi s=k213a pos=c
+@【かごめ】
+"I-It's nothing... um, I'm sorry."
+@page
+Why did she apologize?
+And why am I so troubled by that reaction?
+@page
+@fi s=k448a pos=c
+@act id=k t=neckswing
+@v s=30120
+@【かごめ】
+"I-I'm fine, m-m, my head,
+it's big and hard and it'll explode any time now!"
+@page
+@act id=k t=stopswing
+@fi s=k213a pos=c
+@v s=30121
+@【かごめ】
+"So if a crack gets in something that dense,
+I'm sure that something's gonna go pew pew and overflow from it!"
+@page
+@【至】
+"Uhh... you've got a weird look on your face..."
+@page
+@qk time=800
+@lfont
+@fi s=k112b pos=c
+@v s=30122
+@【かごめ】
+"Huh!?"
+@page
+@fi s=k448a pos=c
+@act id=k t=neckswing
+@v s=30123
+@【かごめ】
+"A-A, Anyway, I'm okay! I-I-I'm perfectly okay and great!"
+@page
+@【至】
+"Really? There's blood coming from your forehead, you know."
+@page
+Did her wound open?
+A lot of brand-new blood is coming from her head right now.
+@page
+She's probably going to let it, as she is right now.
+I feel around in my pocket and take out a handkerchief.
+@page
+@【至】
+"Calm down."
+@page
+@act id=k t=stopswing
+@fi s=k348ad pos=c
+@v s=30124
+@【かごめ】
+"Ah..."
+@page
+There's no need to say anything.
+I'm only wiping her forehead with my handkerchief.
+@page
+But this situation is a very rare one.
+@page
+There's a girl's face right next to mine.
+And I hadn't even talked to this girl before yesterday.
+@page
+My heart is throbbing nervously.
+Although I started all of this, I'm feeling a bit tense.
+@page
+@fi s=k448a pos=c
+@【至】
+"T-There we go, you should be okay now, right?
+D-Does your wound still hurt?"
+@page
+@fi s=k113a pos=c
+@v s=30125
+@【かごめ】
+"Ah... no, I'm fine. Because I'm an older sister..."
+@page
+@【至】
+"Older sister? What do you mean?"
+@page
+@fi s=k448a pos=c
+@act id=k t=neckswing
+@v s=30126
+@【かごめ】
+"O-O-Older sisters are invincible!
+With their super ultra biophysical bodies,
+they can heal any kind of wound overnight!"
+@page
+@【至】
+"What?"
+@page
+Super bio-what now?
+@page
+@v s=30127
+@【かごめ】
+"Even the highest-level human attack
+is reduced to nothing by her magical barrier!"
+@page
+@【至】
+"......"
+@page
+I don't know if this is her version of a joke,
+but is she concerned with how anxious I looked?
+No, this is still a little too absurd for that.
+@page
+@act id=k t=stopswing
+@fi s=k445a pos=c
+@act id=k t=neckswing
+@v s=30128
+@【かごめ】
+"This, this kind of wound would be laughed off
+by the man who was stabbed on the hill of Golgotha!"
+@page
+@【至】
+"Uhh... what?"
+@page
+@fi s=k448b pos=c
+@v s=30129
+"Huh!? O-O-Oh, crap!
+I'm not supposed to be that honest in front of a normalfag!"
+@page
+@fi s=k212b pos=c
+@v s=30130
+@【かごめ】
+"J-Just now was w-wrong!
+T-Tha, that was just a, um... a joke!"
+@page
+@【至】
+"R-Really?"
+@page
+Is that really all it was?
+To be honest, I didn't understand a word that came out of her mouth.
+I don't know what country she got any of that from, but for now
+it looks like she's done.
+@page
+@fi s=k213b pos=c
+@v s=30131
+@【かごめ】
+"A, anyway, thank you very much!
+P, p-please excuse me!
+@page
+@fi id=k
+@se s=se078
+@【至】
+"... Well, it looks like her injuries are okay."
+@page
+Like a typhoon, she leaves as fast as she came.
+Now, the biggest question is how I'm going
+to calm down the two raging storms waiting for me at home.
+@page
+@【至】
+"Yeah, I've got to make it so they don't clash."
+@page
+While praying that I can stop them even a little bit,
+I begin to run towards the entrance hall.
+@page
+@mwoff
+@bgm fade=stop
+@jump storage="020903.scn"
+;→020901

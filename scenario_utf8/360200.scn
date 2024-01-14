@@ -1,0 +1,122 @@
+﻿;360200
+*360200|_運命の日
+;【ワイプ】場面転換
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+Reasons for concern keep popping up freely.
+@page
+Morning's homeroom begins.
+At that time, Otogiri-san was not there.
+@page
+And she didn't come, even at the end of the first class.
+Even though I emailed her in concern, I didn't get an answer.
+@page
+@【至】
+"Did she come down with something...?"
+@page
+I mutter that, but I'm not satisfied by that.
+@page
+I can only use my intuition.
+But all it gives me is a strange, bad feeling.
+@page
+@【至】
+(... Is it because my fate changed?
+Or... am I thinking too much?)
+@page
+Either way, I'm worried.
+In any case, I send Otogiri-san another text.
+@page
+But there's no answer, as I expected.
+Uneasiness swells in my chest once more.
+@page
+I'm not sure I can concentrate on class in such a condition.
+@page
+Although I'm called out when I take out my cell-phone,
+I'm still absent-minded, even when asked questions...
+@page
+;【ワイプ】時間経過
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@se s=se011
+;@bgm s=bgm11
+;@fi s=fi**** pos=****
+@mwon
+The class is repeated four times, and now it's lunchtime.
+@page
+I don't remember anything inbetween.
+It's not that I forgot, it's just that I was typing texts to Otogiri-san.
+@page
+@【至】
+"... But a reply still hasn't come... Not a single one..."
+@page
+In the end, she still didn't show up for the entire morning.
+Her seat remained vacant.
+@page
+What should I do?
+Is she still angry about yesterday?
+@page
+Anxiety fills my heart as I think, and I feel depressed too.
+@page
+However, my body is different.
+@page
+@se s=se082
+@【至】
+"... I'm hungry. It's time for lunch."
+@page
+Patting my empty stomach, I face the rooftop, but I stop.
+@page
+@【至】
+"Ah... I haven't decided what I want for today's lunch."
+@page
+Needless to say, I could go with Wazuka-san.
+@page
+But she didn't say that she'd be waiting like usual.
+@page
+However, even if she didn't promise,
+for us, waiting on the roof is what we always do.
+@page
+@【至】
+"... For now, I'll contact her."
+@page
+"What are you doing for lunch? Wanna do the usual?"
+I send her that.
+@page
+Five minutes pass. Then another five.
+@page
+@【至】
+"Her too, huh..."
+@page
+No reply.
+I'll call her for the time being.
+@page
+One, two... three rings.
+Then I'm connected to the answering machine.
+@page
+@【至】
+"Did she have something to take care of, I wonder?
+Or maybe she just didn't notice or something...?"
+@page
+Either way, I need to decide on the action I'm going to take.
+@page
+I resume my action plan.
+In other words, I head to the roof.
+@page
+If they won't come to me, I'll go to them.
+And if they're not waiting there... then I just won't eat lunch.
+@page
+It's not a big problem.
+I leave the classroom and begin to walk towards the roof.
+@page
+@mwoff
+;→360201
+@bgm fade=stop
+@jump storage="360201.scn"

@@ -1,0 +1,41 @@
+﻿;020702
+*020702|_１０月２８日午後１２時４２分
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+;@bi s=current all=true trans=crossfade
+Let's eat Wazuka-san's, like we did before.
+@page
+The damage will be huge, I'm aware.
+However, this must be a test of love, like yesterday.
+@page
+And so--
+@page
+@【至】
+"Alright, let's eat Wazuka-san's.
+I don't know what the ration would do to me."
+@fi s=m64b pos=rc
+@page
+@fi s=w547a pos=lc
+@v s=10368
+@【わずか】
+"I really wanted you to eat it today. I think I did a really good job."
+@page
+Wazuka-san smiles, embarassed.
+Alright, operation successful.
+@page
+@fi s=m114 pos=rc
+@v s=20303
+@【祀利】
+"Itaru, no! This girl's food has poison in it!"
+@page
+@【至】
+"That's just your wild fantasy. I'll eat yours too, okay?"
+@page
+@fi s=m214 pos=rc
+@v s=20304
+@【祀利】
+"Then eat fast!
+Fastfastfastfastfast--!!!"
+@page
+;→020704
+@jump storage="020704.scn"

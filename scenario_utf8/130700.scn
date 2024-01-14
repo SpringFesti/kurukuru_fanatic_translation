@@ -1,0 +1,185 @@
+﻿;130700
+*130700|気持ちの意味
+;【ワイプ】時間経過
+;【背景】浴室
+;【ＳＥ】シャワーの音
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=clock
+@smokepfx slot=0
+@bgm s=bgm03
+@se s=se058 v=50
+@mwon
+I go right to the bathroom after dinner.
+I take a cold shower, taking the heat right out of my body.
+@page
+The cool water streams down my back,
+and I get gradually more comfortable.
+@page
+@【至】
+"Cold..."
+@page
+For a little bit, the water gets warm.
+So when it goes back to being cold, it feels super cold.
+@page
+This isn't something you do in autumn.
+So, I raise the temperature quickly, to get hot water.
+@page
+Wait, what am I doing? I'm alone. Jeez, I'm stupid.
+@page
+@【至】
+"Sigh. Time to wash myself."
+@page
+;【ＳＥ】戸が開く音
+@se s=se040
+@wait time=200
+@fi s=m202 pos=c time=50
+@v s=21610
+@bgm s=bgm09
+@lineFXon slot=1
+@lfont
+@【祀利】
+"LEMME DO IT!"
+@page
+@【至】
+"Goddamn it, I knew it!"
+@page
+Once again, Matsuri intrudes.
+Since she came in yesterday,
+I didn't think she'd come in today.
+@page
+@stoppfx slot=1
+@fi s=m738 pos=c
+@v s=21611
+@【祀利】
+"Lemme wash you and make you all pretty today too."
+@page
+@【至】
+"I'm fine. Please leave."
+@page
+;フェスタ
+@fi s=m737 pos=c
+@v s=21612
+@【祀利】
+"You want me to leave? Don't you want to feel as good as yesterday?"
+@page
+O-Oh... I kinda do...
+@page
+I'm sad I couldn't immediately give her an answer.
+Damn it, I won't lose to my own libido!
+@page
+@【至】
+"No no no. Just go."
+@page
+@setOnce
+@fi id=m
+@fi s=w102 pos=c
+@endOnce
+@v s=10967
+@【わずか】
+"Yes... just go."
+@page
+Now Wazuka-san's here!
+@page
+Wait, we did this whole thing yesterday.
+This should NOT be a daily routine.
+@page
+@fi s=w103 pos=c
+@v s=10968
+@【わずか】
+"Itaru... kun... let me... wash... your back..."
+@page
+@【至】
+"No, um, Wazuka-san?"
+@page
+@act id=w t=swing
+@v s=10969
+@【わずか】
+"Oh... ah, huh...?"
+@page
+@【至】
+"...Hm?"
+@page
+@act id=w t=stopswing
+@fi s=w538 pos=c
+@act id=w t=swing
+@v s=10970
+@【わずか】
+"I-I'm sor-sorry, I'll wash you..."
+@page
+@【至】
+"...What are you doing?"
+@page
+She's stumbling around the bathroom like a drunkard.
+@page
+@se s=se065
+@qk
+@flash
+@v s=10971
+@【わずか】
+"Ngh!? Ow... ah!"
+@wait time=500
+@se s=se065
+@qk
+@flash
+@page
+@【至】
+"Wh- what are you doing?! Are you okay?!"
+@page
+@v s=10972
+@fi s=w103 move=c
+@【わずか】
+"I-I'm fine... wah!"
+@wait time=1000
+@act id=w t=hit
+@fi id=w
+@page
+;【立ち絵】わずか立ち絵消去
+;【ＳＥ】倒れる音
+@qk
+@se s=se066
+@qk time=1000
+@flash time=1000
+@cut s=cut2100
+@lfont
+@v s=10973
+@【わずか】
+"Kyah!"
+@page
+@cut
+@【至】
+"A-A-Are you alright!? Did you hit your head just now!?"
+@page
+She trips over her own feet and hits the floor at last.
+She doesn't seem to be moving at all...
+@page
+@【至】
+"Wazuka-san? Wazuka-san!?"
+@page
+@fi s=m73a pos=c
+@v s=21613
+@【祀利】
+"She fainted."
+@page
+@fi s=m737 pos=c
+@v s=21614
+@【祀利】
+"Now the nuisance is gone.
+Itaru, how about you and I do some... good things...?"
+@page
+@【至】
+"There isn't time for that!"
+@page
+@fi s=m103 pos=c
+@v s=21615
+@【祀利】
+"Kyaah!?"
+@page
+I reject Matsuri and jump over her,
+kneeling down over Wazuka-san.
+@page
+@stoppfx slot=0
+;→130701
+@jump storage="130701.scn"

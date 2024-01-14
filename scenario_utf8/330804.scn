@@ -1,0 +1,94 @@
+﻿;330804
+*330804|二人の思惑
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【背景】自宅居間・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ランダム
+@bgm s=bgm12
+@setOnce
+@fi s=w122 pos=lc
+@fi s=m74b pos=rc
+@endOnce
+@mwon
+@v s=10724
+@【わずか】
+"...What... what's with her?"
+@page
+@v s=21473
+@【祀利】
+"... Ohh..."
+@page
+Itaru-kun is in his room.
+He'll surely text her again."
+@page
+If Itaru-kun wants to, then that's fine.
+But...
+@page
+@fi s=w422 pos=lc
+@v s=10725
+@【わずか】
+"Itaru-kun is being tricked..."
+@page
+That girl is a threat.
+I think that she's completely hoodwinked Itaru-kun.
+@page
+;パレード
+@fi s=m115 pos=rc
+@v s=21474
+@【祀利】
+"So let's go wipe her off the face of the earth. Ain't that the right thing to do?"
+@page
+Yes. However...
+@page
+@fi s=w123 pos=lc
+@v s=10726
+@【わずか】
+"But... what if Itaru-kun has really come to love her?"
+@page
+Itaru-kun will grieve, and hate me.
+That cannot be allowed.
+Itaru-kun absolutely cannot be troubled.
+@page
+But, if we leave it like this...
+@page
+;パレード
+@fi s=m11c pos=rc
+@v s=21475
+@【祀利】
+"Tch, just shuddap.
+Slap your ass down in that chair, I'll go do something."
+@page
+@fi id=m
+Matsuri's footsteps echo around the room as she leaves.
+@page
+@fi s=w121 pos=c
+@v s=10727
+@【わずか】
+"I... what should I do?"
+@page
+Should I kill her, or prevent him from seeing her again?
+I must decide on one of them.
+But...
+@page
+@fi s=w123 pos=c
+@v s=10728
+@【わずか】
+"But... I can't hate Itaru-kun.
+I believe in Itaru-kun.
+That is all. Because Itaru-kun is all of me..."
+@page
+That is the danger.
+... Even if Itaru-kun doesn't expect it--
+If he becomes unhappy, that would be the number one bad thing.
+@page
+@fi s=w322 pos=c
+So-- then after all, I should...
+@page
+@fi id=w
+@mwoff
+;→340100
+@bgm fade=stop
+@jump storage="340100.scn"

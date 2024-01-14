@@ -1,0 +1,79 @@
+﻿;020601
+*020601|クイズ！　次はおまえだ！
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+@setOnce
+@mwoff
+@bgm fade=stop
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@lfont
+@v s=40142
+@【ファヌル】
+"Quiz! You're next!"
+@page
+@se fade=out
+@v s=16001
+@【ウサミ】
+"Quiz! You're next! And here to be your lucky emcee
+again is Usami!"
+@page
+@fi s=f115 pos=lc
+@v s=40366
+@【ファヌル】
+"And again, I'm Fanuel.
+I guess this program's going to keep going."
+@page
+;【ＳＥ】ウサミ平素
+@v s=16001
+@【ウサミ】
+"Yup. I thought this was going to be a one-shot thing, but nope."
+@page
+@fi s=f114 pos=lc
+@v s=40367
+@【ファヌル】
+"This is the will of God. All things flow within him."
+@page
+@v s=16001
+@【ウサミ】
+"Even Itaru-san?"
+@page
+@fi s=f211 pos=lc
+@v s=40368
+@【ファヌル】
+"Whaddaya mean?"
+@page
+@v s=16001
+@【ウサミ】
+"Is he gonna be okay? He's raising death flags all over the place."
+@page
+@fi s=f214 pos=lc
+@v s=40369
+@【ファヌル】
+"Hmm, I wonder.
+Let's ask our audience that."
+@page
+@v s=16002
+@【ウサミ】
+"So that's our question!
+What do you think will happen to him?"
+;@page
+;選択肢
+;至は死んでしまう　→020602
+;至はお亡くなりなってしまう　→020603
+;至はお逝きになってしまう　→020604
+@pages
+@selinit
+@selbtn cap="He'll die" s="020602.scn"
+@selbtn cap="He will pass on" s="020603.scn"
+@selbtn cap="He'll continue on in the next life" s="020604.scn"
+@s

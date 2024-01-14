@@ -1,0 +1,53 @@
+﻿;140301
+*140301|_味？  それとも気持ち？
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+@【至】
+"Well, Otogiri-san's might be better tasting,
+but I like your cooking, Wazuka-san."
+@page
+@v s=11090
+@【わずか】
+"Liar. Who could like horrible cooking like mine?"
+@page
+@【至】
+"But since you know all my favorite foods,
+and all the spices and things that I like on them,
+I still like yours better."
+@page
+@fi s=w213 pos=c
+@v s=11091
+@【わずか】
+"... Really?"
+@page
+@【至】
+"Yeah. I like your food better."
+@page
+@fi s=w547 pos=c
+@v s=11092
+@【わずか】
+"Itaru-kun...!" 
+@page
+@fi s=w548 pos=c
+@v s=11093
+@【わずか】
+"Ah, but..."
+@page
+@【至】
+"Hm?'
+@page
+@v s=11094
+@【わずか】
+"That doesn't change the fact that
+she's beaten me at cooking..."
+@page
+@【至】
+"Even so, your's is still my favorite."
+@page
+@v s=11095
+@【わずか】
+"Sure, but... if you keep eating her cooking,
+you'll come to like her's better than mine.
+@page
+@jump storage="140303.scn"
+;→140303

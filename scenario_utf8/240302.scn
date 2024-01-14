@@ -1,0 +1,520 @@
+﻿;240302
+*240302|_ずっと一緒にいたい
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@mwon
+@【至】
+"Phew... Mardi-gras, do you feel fine now?
+If so, then let's get to class soon..."
+@page
+@bgm fade=stop
+;【ＳＥ】キーンコーンカーンコーン
+@se s=se011
+-- Wait, what?　 Why did the bell just ring?
+The fourth period class should have started a long time ago...
+@page
+@se fade=out
+@bgm s=bgm09
+I look at my watch, and I'm shocked.
+That bell means that the fourth period class just ended!
+@page
+So that means it's lunch time now, huh?
+@page
+...Hm? Lunch time?
+That means Wazuka-san's waiting on the roof, right!?
+@page
+@【至】
+"This is bad, Mardi-gras! Put your clothes on, we need to get to the roof!"
+@page
+@fi s=m639 pos=c
+@v s=21107
+@【祀利】
+"Nao, Itaru. Put your dick inside ME this time..."
+@page
+@fi s=m638 pos=c
+@v s=21108
+@【祀利】
+"You did Mardi-gras a little while ago, didn't you? I'll be a lot more intense than that girl. Please?♪"
+@page
+This tone is probably Festa.
+Although I certainly want to make love to her...
+@page
+@【至】
+"Sorry, but there's no time.
+If we don't get to the roof soon, Wazuka-san will be suspicious."
+@page
+@fi s=m63b pos=c
+@v s=21109
+@【祀利】
+"Leave her be. It'll be alright if we make love. So come on... why don't we do it all afternoon?"
+@page
+@fi s=m10d pos=c
+@v s=21110
+@【祀利】
+"For a long, long time... why don't we have sex for a long time?
+I'll make you feel so, so good."
+@page
+Festa leans against me and fiddles with my soft thingy.
+@page
+@【至】
+"Not now. Do you not understand what will happen, Festa?"
+@page
+@fi s=m104 pos=c
+@v s=21111
+@【祀利】
+"Nao! I don't want you to have anything to do with her!"
+@page
+@fi s=m73b pos=c
+@v s=21112
+@【祀利】
+"Competition is really fierce inside of Matsuri right now!
+I can't have anything to do with that woman! I'll kill her! The next time I see her, I'll kill her!"
+@page
+@【至】
+"No! This is not the seedy underworld of South America! This is a peaceful school in Japan!"
+@page
+@【至】
+"No, even if you hate her, you can't kill her!
+Please, get used to a peaceful life here!"
+@page
+@fi s=m104 pos=c
+@v s=21113
+@【祀利】
+"Nao! Nao! Nao! Nao!
+Itaru, why are you so stubborn about this?"
+@page
+@fi s=m106 pos=c
+@v s=21114
+@【祀利】
+"I really hate this meany Itaru! Waaaahhhh!"
+@act id=m t=neckswing
+@page
+@act id=m t=stopswing
+@fi id=m
+@【至】
+"Hey, don't rage around like that! Calm down!"
+@page
+I desperately try to surpress the raging Matsuri.
+@page
+But in her naked rampage,
+she scratches my back, and bites the hands that are holding her.
+@page
+@【至】
+"Matsuri! Please, understand!"
+@page
+@fi s=m104 pos=c
+@v s=21115
+@【祀利】
+"I don't wannaaaaa! Itaru, you dummy! Dummy! Dummy!"
+@page
+Blood seems from where Matsuri scratched me.
+There are toothmarks clearly visible from where she bit me.
+@page
+@bgm fade=stop
+;【ＳＥ】教室ドア開閉音
+@se s=se037
+@fi s=m103 pos=c
+Then, behind me, the door suddenly opens.
+@page
+@setOnce
+@fi id=m
+@fi s=w113 pos=lc
+@fi s=k211 pos=rc
+@endOnce
+@bgm s=bgm15
+@v s=10646
+@【わずか】
+"Itaru-kun..."
+@page
+@【至】
+"Wazuka-san... and Otogiri-san..."
+@page
+@fi s=k211 pos=rc
+@v s=30225
+@【かごめ】
+"...Yes, just like I had said. Takamichi-kun didn't return to fourth period class, because..."
+@page
+@fi s=w111 pos=lc
+@v s=10647
+@【わずか】
+"Yes... and no matter how much we waited, he wouldn't come to the roof."
+@page
+I stare at them motionlessly, and I suddenly notice something.
+Isn't it REALLY BAD for us to be seen like this?
+@page
+Because Matsuri and I are completely naked.
+@page
+@fi s=w315 pos=lc
+@v s=10648
+@【わずか】
+"Heh... heheh... hehahahahahaha!!"
+@page
+@fi s=k44a pos=rc
+@v s=30226
+@【かごめ】
+"I...I...I will not... I will not forgive youuuuuu!"
+@bgm fade=out
+@page
+;【備考】ユニゾン
+@bgm s=bgm16
+@lineFXon
+@setOnce
+@fi s=w315d pos=lc
+@fi s=k64ad pos=rc
+@endOnce
+@qk time=1000
+@lfont
+@v s=10649
+;@【わずか】
+"KILL!"
+;@v s=30227
+;@【かごめ】
+;「殺すぅぅぅぅぅっ！！」
+@page
+A wild Wazuka-san and Otogiri-san appear!
+@page
+@bi s=current all=true trans=crossfade
+@stoppfx
+@wait time=300
+@fi s=w315 pos=c
+@v s=10650
+@【わずか】
+"Take thiiissss!"
+@page
+@se s=se067
+@flash
+Wazuka-san's knife attack!
+@page
+@fi id=w time=100
+@se s=se121
+@qk
+@fi s=m305 pos=c slide=r time=700
+@v s=21116
+@【祀利】
+"Hah! You think I'll let you?"
+@page
+@se s=se121
+@qk
+@fi s=m305 move=lc time=100
+@wait time=100
+@se s=se121
+@qk
+@fi s=m305 move=rc time=100
+@wait time=100
+@se s=se121
+@qk
+@fi s=m305 move=c time=100
+But Matsuri dodges!
+@page
+@setOnce
+@fi id=m
+@fi s=k34a pos=c
+@endOnce
+@v s=30228
+@【かごめ】
+"This bitch! If she didn't have a gunnnnnn!"
+@page
+@se s=se137
+Otogiri-san uses Lock On!
+@page
+Otogiri-san aims at Matsuri's gun!
+@se s=se092
+@page
+@se s=se129
+@act id=k t=bow
+Otogiri-san uses Soccer Ball Kick!
+@page
+@setOnce
+@fi id=k
+@fi s=m104 pos=c
+@endOnce
+@se s=se065
+@act id=m t=hit
+@qk
+Matsuri's gun was kicked away!
+@page
+@fi s=m106 pos=c
+@v s=21117
+@【祀利】
+"Waaah, my gun is...! You meanie!"
+@page
+Matsuri uses Cry!
+@page
+@fi id=m
+@setOnce
+@fi s=w315 pos=lc
+@fi s=k349 pos=rc
+@endOnce
+But it wasn't very effective!
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=w315 pos=c
+@endOnce
+@v s=10651
+@【わずか】
+"Heheheh... you can't do anything unarmed, can you!?"
+@page
+@lineFXon
+@fi s=w315d pos=c
+Wazuka-san uses Body Slam!
+@page
+@stoppfx
+@fi id=w
+@fi s=m103b pos=c
+@act id=m t=hit
+@se s=se066
+@qk time=700
+@flash time=700
+Matsuri is paralyzed! She can't move!
+@page
+@fi s=m104 pos=c
+@v s=21118
+@【祀利】
+"Hey, you're way too heavy! Move, you chubby slut!"
+@page
+@se s=se118
+@qk time=700
+@flash time=700
+Matsuri uses Struggle!
+@page
+@fi s=m103b pos=c
+Matsuri is paralyzed! She can't move!
+@page
+@fi s=m206 pos=c
+Matsuri uses Bind!
+@page
+@fi id=m
+@fi s=k349 pos=c
+@v s=30229
+@【かごめ】
+"Hehahahahah! What a great sight! 
+And after that, we..."
+@page
+「Use Item」
+@page
+@act id=k t=bow
+@fi s=k349 pos=c
+Otogiri-san uses Handcuffs.
+@page
+Matsuri's arms are binded.
+@page
+@fi id=k
+@【至】
+"Where the hell did you get something like that!?"
+@page
+@setOnce
+@fi s=w115 pos=lc
+@fi s=k349 pos=rc
+@endOnce
+That happened in just five seconds.
+It really did happen in only an instant.
+@page
+@setOnce
+@fi id=w
+@fi id=k
+@fi s=m10cd pos=c
+@endOnce
+@v s=21119
+@【祀利】
+"Shit! Lemme go, let me go!
+Motherfuckerrrrs!　Whores!
+I'll kill ya! I'll fuckin' kill ya!"
+@page
+@setOnce
+@fi id=m
+@fi s=w315 pos=lc
+@fi s=k34a pos=rc
+@endOnce
+@v s=10652
+@【わずか】
+"Heheh... now, let's kill her.
+The person who thought we were bitches...!"
+@page
+Wazuka-san is licking the blade of her knife happily.
+@page
+@fi s=k449 pos=rc
+@v s=30230
+@【かごめ】
+"Oh no, not yet... she has to suffer more first.
+Hanging... that seems a lot more painful, huh?"
+@page
+Otogiri-san, with an electrical cord in her hand, has a smile of supremacy.
+@page
+The two of them slowly approach Matsuri.
+@page
+Each grasps a lethal weapon in their hands.
+Each has a delighted smile on their face.
+@page
+@【至】
+"Wait, wait! Stop, both of you!"
+@setOnce
+@fi s=w311 pos=lc
+@fi s=k211 pos=rc
+@endOnce
+@page
+@fi s=w111 pos=lc
+@v s=10653
+@【わずか】
+"Why should we stop? This woman tempted and hurt you. Dying is only natural for her."
+@page
+@fi s=k114 pos=rc
+@v s=30231
+@【かごめ】
+"Yes... Takamichi-kun must become my little brother.
+This woman is a harmful pest. So, we're going to exterminate her like the insect she is."
+@page
+@【至】
+"Please! Just this once!
+Please don't kill her!
+I love Matsuri!"
+@page
+@fi s=w111 pos=lc
+@v s=10654
+@【わずか】
+"This is just a bit of hesitation. Don't worry.
+You will forget her, three days after we kill her."
+@page
+What am I, a cat they have to reason with?
+@page
+@fi s=k345 pos=rc
+@v s=30232
+@【かごめ】
+"Takamichi-kun doesn't love her.
+Love is only for your older sister.
+It's that kind of setting."
+@page
+What kind of setting?
+@page
+@fi s=k114 pos=rc
+@v s=30233
+@【かごめ】
+"So, you didn't love her.
+You just wanted to have sex with her. Right?"
+@page
+@【至】
+"T-That's not--"
+@page
+@fi s=k445 pos=rc
+@v s=30234
+@【かごめ】
+"Don't worry, your older sister will teach you gently. You have nothing to worry about."
+@page
+It's useless. They won't listen to me at all.
+@page
+@【至】
+"A-Anyway, calm down!
+It would be weird if you killed her, right?
+This is a school, isn't it!?"
+@page
+Yeah, let's change the issue.
+@page
+@【至】
+"There would be a really big commotion if you killed here, wouldn't there?
+You wouldn't be able to be with me anymore, would you?"
+@page
+@fi s=w113 pos=lc
+@v s=10655
+@【わずか】
+"... Certainly, if I killed her and was caught by the police,
+I would no longer be able to be with Itaru-kun."
+@page
+Thank you. Thank you for reaching a reasonable conclusion.
+@page
+@fi s=k112 pos=rc
+@v s=30235
+@【かごめ】
+"True. It would be bad if Takamichi-kun became the younger brother of a criminal."
+@page
+I don't know about the younger brother stuff, but thank you for remembering common sense.
+@page
+@【至】
+"So, then... will you stop?"
+@page
+@fi s=w111 pos=lc
+@v s=10656
+@【わずか】
+"Yes. We have no choice."
+@page
+@fi s=k114 pos=rc
+@v s=30236
+@【かごめ】
+"If we capture her here, she can't do terrible things to Takamichi-kun anymore."
+@page
+@fi s=k349 pos=rc
+@v s=30237
+@【かごめ】
+"... So we'll just kill her later."
+@page
+@fi s=w112 pos=lc
+@v s=10657
+@【わずか】
+"Please be quiet until then."
+@page
+I had not solved the fundamental problem.
+@page
+However, I avoided the problem at hand anyway.
+@page
+While I play for time, let's try to think of a way to persuade them somehow.
+@page
+@setOnce
+@fi id=w
+@fi id=k
+@fi s=m104d pos=c
+@endOnce
+@v s=21120
+@【祀利】
+"Ehh...? So, you're gonna trap me in here? No, don't do that!"
+@page
+@setOnce
+@fi id=m
+@fi s=w412 pos=lc
+@fi s=k347 pos=rc
+@endOnce
+@v s=10658
+@【わずか】
+"Hmph, what a selfish bitch. Be grateful that I'm not going to kill you where you stand.
+@page
+@setOnce
+@fi id=w
+@fi id=k
+@fi s=m104d pos=c
+@endOnce
+@v s=21121
+@【祀利】
+"Hmph!　I don't care about you!
+... Hey Itaru, can you take this off, pretty please?"
+@page
+Matsuri, looking up at me with handcuffs on her hands... it's a very painful sight.
+@page
+But at the same time, I recall how outrageous Matsuri was being a little while ago.
+@page
+I wonder if I should release her, or not.
+@page
+@fi s=m10dd pos=c
+@v s=21122
+@【祀利】
+"Hey... come on, Itaru...
+If you let me go, I'll let you fistfuck me, or do anything you want to me..."
+@page
+@fi s=m637d pos=c
+@v s=21123
+@【祀利】
+"After I kill these two, of course...
+Itaru, you'll release me, won't you?"
+@page
+Again. Her personalities switch, and her mental illness shows its ugly head.
+@page
+Honestly, I think it's creepy.
+But it's true that she looks pitiful...
+@wait time=700
+What should I do?
+;選択肢
+@pages
+@selinit
+@selbtn cap="可哀相だからやめる" s="240303.scn"
+@selbtn cap="祀利のためにも閉じ込める" s="240304.scn"
+@s

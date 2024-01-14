@@ -1,0 +1,68 @@
+﻿;330600
+*330600|ほんの少しの帰り道
+;【ワイプ】視点変更＆時間経過
+;【ＳＥ】チャイム
+;【背景】教室・夕
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12e trans=ランダム
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@se s=se011
+@【至】
+"Sigh... I'm tired."
+@page
+The bell marking the end of classes rings.
+After this, all that's left is homeroom.
+The teacher should come soon, too.
+@page
+As soon as I saw him, as if a thread were cut,
+my face flopped to the desk suddenly.
+The cause, naturally, is natural mental fatigue.
+@page
+Matsuri went on a rampage during the afternoon classes.
+The eyes that stared at me felt like they were hurting me.
+@page
+Sleeptalking and a handgun.
+I think I can sympathize,
+but the class's evaluation of me is rattling.
+@page
+@【至】
+"... Didn't I die five days ago? Socially, I mean."
+@page
+Even if I survive, isn't my school life hopeless?
+My classmates will shun me, and then...
+@page
+No, that's just my imagination.
+That's all. Yeah.
+@page
+@sqk
+@wait time=200
+-- Huh?
+My pocket shook for a moment.
+A text... from who?
+@page
+The sender is Otogiri-san.
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=30340
+;@【かごめ】
+"After this, would you like to go home with me?
+Well, even if you say you will, it'll just be to the entrance."
+@waitclk
+@mwon
+This text is totally her, down to the way of speaking.
+... Eh, well, I'm still not used to the formal way of speaking.
+@page
+That said, going together...
+@pages
+;選択肢
+;もちろんだ！　→330601
+;ちょっと無理　→330602
+@selinit
+@selbtn cap="Of course!" s="330601.scn"
+@selbtn cap="A little too much" s="330602.scn"
+@s

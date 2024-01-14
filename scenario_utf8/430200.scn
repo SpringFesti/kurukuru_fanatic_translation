@@ -1,0 +1,493 @@
+﻿;430200
+*430200|何回死んだっけ？
+;【備考】ボリューム小さく、かつエコー加工
+@wait time=2000
+@mwon
+@v s=40640
+@【？？？】
+"... I'm sorry. I don't have any arguments."
+@page
+@mwoff
+@bi s=bg8170
+@bgm s=bgm10
+@filmpfx
+@mnon vertical=true
+@mset l=3
+Those are the first words--
+That's certainly true.
+I'm awakened by them.
+@waitclk
+@mset l=3
+But that's all.
+I can't move my hands or feet... No, I can't even move a finger.
+I can't even open my eyes.
+@waitclk
+@mset l=3
+What happened to me...
+
+My awakening consciousness thinks that.
+@waitclk
+@mset l=1
+My answer came immediately.
+@waitclk
+@mset l=3
+That's right... I died.
+Aside from the reason and circumstances,
+Wazuka-san and the others killed me.
+@waitclk
+@mset l=3
+Is this it after all?
+
+My hard work after reviving all these times is going to waste.
+@waitclk
+@mset l=1
+... No, wait. There's something strange here, isn't there?
+@waitclk
+@mset l=3
+I've asked Fanuel what happens when someone dies before.
+Her answer, of course, was:
+@waitclk
+@mset l=1
+@v s=40140
+;@【ファヌル】
+"You stop existing."
+@waitclk
+@mset l=3
+If that's the case, I should have disappeared.
+
+Thus, I shouldn't be able to think.
+@waitclk
+@mset l=3
+Then, why--?
+Think.
+Then I'll figure out what happened.
+@waitclk
+@mset l=3
+I listen to the world around me.
+I'm blind, so I can only listen to sound.
+There perhaps, a hint--
+@waitclk
+@mwon
+@v s=40641
+@【ファヌル】
+"... Yes. As per your command. As well as my punishment."
+@page
+@mnon vertical=true
+@mset l=1
+I hear Fanuel close to me, and I get my hint.
+@waitclk
+@mset l=3
+Who else is there?
+Fanuel's words tell me that she's not talking to herself.
+If that's the case, at least one other person should be here.
+@waitclk
+@mset l=1
+............
+@waitclk
+@mset l=3
+Strange. Something's off.
+I can't hear that person's words.
+Actually, I don't feel any signs that they're there at all.
+@waitclk
+@mset l=3
+They seem to be nearby, but somehow far away.
+Like a dense, thick solid in the middle of a crowd.
+It almost feels like a merging of the entire world.
+@waitclk
+@mset l=3
+　――――――――!
+I catch my breath unconsciously.
+Because I realize the conclusion that I've come to.
+@waitclk
+@mset l=3
+If there is only one person that could
+be in this world, then it would be that.
+The being that lives in everything.
+@waitclk
+@mwon
+@v s=40642
+@【ファヌル】
+"... Yes, as per your command.
+Itaru Takamichi's death is because of
+my carelessness in my monitoring."
+@page
+@mnon vertical=true
+@mset l=3
+No. Wait.
+That's wrong.
+She can't prevent my death if she's only watching it.
+@waitclk
+@mwon
+@v s=40643
+@【ファヌル】
+"... Yes, I tried to inform him myself.
+But due to my carelessness...
+Yes, he seemed to notice... still..."
+@page
+@mnon vertical=true
+@mset l=3
+I think about it for a minute and immediately realize what she means.
+That-- my cell phone.
+Back then, Fanuel was trying to tell me about the risk.
+@waitclk
+@mset l=3
+If that's the case, then it's my fault.
+
+She didn't do anything. It's not her fault.
+@waitclk
+@mwon
+@v s=40644
+@【ファヌル】
+"...I understand.
+The punishment for failure is equal: annihilation.
+The extinction of my very existence."
+@page
+@mnon vertical=true
+@mset l=3
+No, wait!
+Fanuel, this isn't right!
+I'm at fault, right? Tell Him!
+@waitclk
+@mwon
+@v s=40645
+@【ファヌル】
+"... Yes. You may proceed at any time.
+We angels are born by Your will,
+and when you desire it, we disappear... such is our fate."
+@page
+@mnon vertical=true size=60
+@mset l=1
+@qk time=1000
+NO!
+@waitclk
+@mnon vertical=true size=40
+@mset l=2
+What's with that fate!?
+Is it really that important!?
+@waitclk
+@mnon vertical=true size=25
+@mset l=3
+Hell no! It's can't be!
+We don't live in accordance with our fate,
+we live because we want to live!
+@waitclk
+@mwon
+@v s=40646
+@【ファヌル】
+"My name is Fanuel.... This name I now return to you."
+@page
+@mnon vertical=true
+@mset l=3
+Fuck that! Live! Don't return it!
+Is this really alright!?
+Are you really gonna get preached at like a human!?
+@waitclk
+@mset l=4
+If you're an angel, object!
+Talk back like always!
+With a scornful smile and your sarcastic tone--
+Come on! Do it! Fanuel, say it now!
+@waitclk
+@mwon
+@v s=40647
+@【ファヌル】
+"... I have no further words."
+@page
+@mnon vertical=true
+@mset l=3
+Is that right!? Why!?
+If you won't say it, then I will!
+No matter who I'm saying it to, I will!
+@waitclk
+@mset l=3
+I don't care if my body won't move.
+I don't care if I'm alive or dead.
+I don't care if I even have a mouth.
+@waitclk
+@mset l=3
+I have to say it.
+If "You" have some words first,
+then I'll prove them.
+@waitclk
+@mset l=5
+If I can make everything with words,
+then I'll put everything into words.
+The anger in my mind.
+All of the anger inside me.
+All of it, all of it, all of it!
+@waitclk
+@setOnce
+@stoppfx
+@mnoff
+;@bi s=white time=100
+@endOnce
+@wait time=300
+;@bi s=white trans=crossfade all=true time=100
+;@wait time=200
+@bi s=bg8180 trans=円形(中から外へ) time=500
+;【演出】ホワイトアウト
+;【背景】不可思議な空間
+@mwon
+@qk time=1000
+@lfont
+@flash time=1000
+@【至】
+"Hey you! Don't be so self important!"
+@qk time=1000
+@page
+@fi s=f115 pos=c
+@v s=40648
+@【ファヌル】
+"... Itaru... why are you here?"
+@page
+I'm back in that mysterious space.
+@page
+@fi s=f557 pos=c
+@v s=40649
+@【ファヌル】
+"You should have disappeared... Father, what is this?"
+@page
+@【至】
+"-- Hey, you!
+I don't know if you're a god or not,
+but cancel Fanuel's annihilation!"
+@page
+@fi s=f313 pos=c
+@v s=40650
+@【ファヌル】
+"You can't! God doesn't change his decisions!"
+@page
+@qk time=700
+@lfont
+@【至】
+"Shut up!"
+@wait time=300
+@fi s=f115 pos=c
+@page
+@【至】
+"Rather, tell him!
+It was my fault, wasn't it!? Why didn't you tell him that!?"
+@page
+@【至】
+"Hey God, what kind of omnipotent are you, anyway!?
+You should have known that it was my fault, shouldn't you!?"
+@page
+@【至】
+"Cancel Fanuel's punishment!"
+Now! Do it now!"
+@page
+@fi s=f213 pos=c
+@v s=40651
+@【ファヌル】
+"Itaru, you're being rude! Apologize!"
+@page
+@【至】
+"No way! Fanuel, you're being an idiot too.
+What the hell kind of commands are those!?
+Don't give uuuuuuuppp!"
+@page
+At that time-- "A voice" rang out.
+A human voice was created, and shook the atmosphere.
+It shook the entire world.
+@wait time=300
+@fi s=f115 pos=c
+@page
+@【至】
+"T-That's... God?"
+@page
+Fanuel nods deeply at my words.
+... Shit, I'm really scared now.
+@page
+Then, "the voice" sounds again.
+Just like when I was feeling for signs,
+it was nearby, but far at the same time.
+@page
+But I understood complete.
+There was...
+@wait time=5000
+... Eh? A laugh?
+@page
+@fi s=f115 pos=c
+@v s=40652
+@【ファヌル】
+"That's the first time I've heard...
+But Father, what's wrong?"
+@page
+There is no answer to her question.
+However, other words existed.
+@page
+@fi s=f111 pos=c
+@v s=40653
+@【ファヌル】
+"... Eh? This is my chance?
+　If I "become corrupted" in one day of human time, you'll rescind my annihilation?"
+@page
+@【至】
+"Oh, so he can talk♪."
+@page
+@【至】
+"-- No, wait a minute!
+I'm the one at fault here!
+Fanuel doesn't have anything to do with this!"
+@page
+But "the voice" tells me.
+It was still her fault that she couldn't prevent it.
+And she has one more thing she must atone for.
+@page
+@fi s=f557 pos=c
+@v s=40654
+@【ファヌル】
+"Itaru's revival, huh?
+But his body is no longer..."
+@page
+@【至】
+"What, was I cremated?"
+@page
+@fi s=f55a pos=c
+@v s=40655
+@【ファヌル】
+"For the most part.
+After the nibbling-in-a-circle funeral...
+Ah, there was the lettuce wrapping funeral too.
+@page
+@【至】
+"What's with that? It's like I'm grilled meat or something."
+@page
+@fi s=f559 pos=c
+@v s=40656
+@【ファヌル】
+"It's not 'like' you were, you were."
+@page
+@bi s=bg8140 trans=crossfade all=true time=500
+I was afraid to imagine what happened afterward.
+@page
+Do you know what a cannibal is?
+It must have been like a Viking ritual or something.
+Like where you take in the strength of the person inside you or something.
+@page
+Speaking frankly, it seems like I had been eaten.
+As for who ate me, it was Wazuka-san and the others of course.
+@page
+@setOnce
+@bi s=bg8180 time=700
+@fi s=f559 pos=c
+@endOnce
+@v s=40657
+@【ファヌル】
+"Even if he's dead, if he's inside me, then
+we'll be together forever. Or something like that."
+@page
+By the way, it apparently took two meals for them to eat me.
+The menu was rotisserie grilled meat.
+@page
+Y'know, I'm a little interested...
+Who ate THAT part of me?
+@page
+@fi s=f55a pos=c
+@v s=40658
+@【ファヌル】
+"It was divided into three equal parts. From the rod right down to the balls.
+@page
+@【至】
+"... I really was loved."
+@page
+Well, I suppose I might have been in their warped, insane minds.
+@page
+Anyway, if not for the power of God, it seems
+I won't be able to be revived.
+@page
+@【至】
+"So there's only one solution, is there?"
+@page
+@fi s=f111 pos=c
+@v s=40659
+@【ファヌル】
+"Ignore me. Worry about yourself."
+@page
+@【至】
+"I guess."
+@page
+"Fanuel leans her head a little, and I tell her.
+@page
+@【至】
+"I myself want to do it.
+So it's fine.
+Anyway... well, it seems like I'm in your care in various ways."
+@page
+I still haven't done anything to Fanuel yet.
+If I have to repay my debt, now's the time.
+@page
+@【至】
+"So in short, I have to spend a day with you?
+Sounds easy."
+@page
+"The voice" asks if I accept.
+I nod of course, and the world trembles.
+@page
+@fi s=f312 pos=c
+@v s=40660
+@【ファヌル】
+"That's uncalled for..."
+@page
+@【至】
+"Who was just saying I should worry about myself?
+I just want to live again."
+@page
+An amazed sigh is her reply.
+@page
+@fi s=f557 pos=c
+@v s=40661
+@【ファヌル】
+"Fine. Then... I'll be in your care."
+@page
+@【至】
+"What?"
+@page
+@fi s=f111 pos=c
+@v s=40662
+@【ファヌル】
+"You'll understand soon.
+... Then Father... please do so."
+@page
+@se s=se045
+@bi s=white all=true
+;【演出】ホワイトアウト
+The world shakes once more.
+Everything is wrapped in light.
+@page
+Just like at the revival.
+But with more force this time.
+@page
+@v s=40663
+@【ファヌル】
+"Kuh... ughh! Haah... uwaaaaaah!"
+@page
+It's the first time I've heard her in pain.
+I extend my hand, searching for her body.
+@page
+But I can't find her anywhere.
+Or perhaps she's already in the other world.
+@page
+@【至】
+"Fanuel! Are you okay!? Answer me!"
+@page
+But no words come.
+My scream melts into the light, and the only thing there is--
+@page
+@bi s=blank time=500
+@filmpfx
+@mnon vertical=true time=500
+@mset l=3 time=500
+;【演出】暗転
+Anyway, I revive.
+
+Although I don't know how many times it's been, I come back to the world.
+@waitclk
+@mset l=1
+But this time is entirely different.
+@waitclk
+@stoppfx
+@mnoff
+@bgm fade=out
+@jump storage="440100.scn"
+;→440100

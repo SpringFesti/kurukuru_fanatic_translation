@@ -1,0 +1,84 @@
+﻿;320203
+*320203|_メール、する
+;【背景】かごめ自室
+@setOnce
+@bi s=bg07d
+@bgm s=bgm07
+@fi s=k338a pos=c
+@v s=30166
+@endOnce
+@【かごめ】
+"-- Wait, crap!　I need to text him back!"
+@page
+If I don't text him back, he'll get sleepy.
+I hit the keys fast and transmit my reply.
+My phone's pretty beat up with my vaginal secretions, but I don't care.
+@page
+@fi s=k435a pos=c
+@v s=30167
+@【かごめ】
+"But... if it's my younger brother, he's probably noticed.
+I can expect anything, if it's my younger brother."
+@page
+Then if my younger brother guessed right, he'd fall silent.
+But he'd look at me, and then there would be a huge explosion!
+Then he'd push down his onee-chan and fuck her.
+@page
+@fi s=k102a pos=c
+@v s=30168
+@【かごめ】
+"Sorry Itaru-kun.
+If it becomes like this, it'll be a nuisance."
+@page
+What about the other ones?
+Should I really bump them off and bury them?
+@page
+Or should I "control myself", 
+and after my "self-control" gets blown to bits,
+throw away my "self-control"?
+@page
+;【ＳＥ】携帯電話着信音
+@setOnce
+@se s=se032
+@fi s=k204 pos=c
+@endOnce
+@v s=30169
+@【かごめ】
+"Ah, it came. What is it?
+Then I'm going to bed too. Good night.
+... Yeah, simple really is good."
+@page
+I don't think he's used to texting.
+He really did try hard for his onee-chan.
+@page
+@fi s=k335a pos=c
+@v s=30170
+@【かごめ】
+"The ideal younger brother... he really is the best!
+My younger brother must be like that!"
+@page
+Where most women cry at simplicity, an onee-chan loves it.
+Though sometimes they are sadistic, they are always gentle.
+That is for our ideal younger brother.
+@page
+@fi s=k338 pos=c
+@v s=30171
+@【かごめ】
+"And to do so, yes, I must.
+After all, we don't need those bitches."
+@page
+;【背景】かごめ自室・灯りなし
+@se s=se019
+@bi s=bg07b
+@fi s=k339a pos=c
+@endOnce
+@v s=30172
+@【かごめ】
+"Good night, Itaru-kun.
+Sleep, while your onee-chan figures out what to do..."
+@page
+@fi id=k
+@mwoff
+@bgm fade=stop
+@jump storage="330100.scn"
+;→330100

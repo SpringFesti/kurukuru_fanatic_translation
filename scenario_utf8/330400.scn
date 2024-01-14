@@ -1,0 +1,200 @@
+﻿;330400
+*330400|_答えと姉と
+;【ワイプ】時間経過
+;【背景】教室・昼
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ランダム
+@se s=se011
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Nn... ahh... is it over?"
+@page
+@se fade=out
+After falling on my face, I lost my memories of about half the class.
+I seem to have fallen completely asleep, somehow.
+@page
+@fi s=m112 pos=c
+@v s=21456
+@【祀利】
+"Good morning, Itaru. You're drooling, aren't you? Want me to drink it?"
+@page
+@【至】
+"No... just give me a break."
+@page
+@fi s=m114 pos=c
+@v s=21457
+@【祀利】
+"Baah, we've already got the kind of relationship where I can drink your spit directly."
+@page
+Yep, there went the class's evalution of me again.
+It feels like my stocks are plummeting day after day.
+@page
+@fi id=m
+I endure it without arguing, and turn towards Otogiri-san again.
+@page
+Or should I say, I turn towards where she was. She isn't here any more.
+@page
+@【至】
+(Maybe she's trying to find out about that thing from earlier. If she is, then here should be...)
+@page
+@【至】
+"My throat dried out while I slept. I guess I gotta go buy something again."
+@page
+@fi s=m111 pos=c
+@v s=21458
+@【祀利】
+"Want me to answer for you again?"
+@page
+@【至】
+"Oh, you really got it this time Matsuri.
+Yeah, if you could do it again, please."
+@page
+@fi s=m112 pos=c
+@act id=m t=bow
+@v s=21459
+@【祀利】
+"Yep. A Japanese wife should work for her husband's sake, shouldn't she? So I'll try my best!♪"
+@page
+@fi id=m
+I remember that Matsuri is my fiancee when she gives that cheerful reply.
+Then I notice that I had completely forgotten that.
+@page
+I wonder why I did that?
+I guess there have been too many strong events like that recently.
+@page
+;【ワイプ】場面転換
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... I wonder where Otogiri-san wandered off to?"
+@page
+The fundamental problem hasn't been solved.
+@page
+As far as I know, she assimilated into her desk during class.
+And it seems that she became the wind during the break.
+@page
+@【至】
+"She's like a ninja, seriously.
+I probably wouldn't be able to hear her, even if she was around..."
+@page
+I saw her before on the roof. So maybe she went there again...
+@page
+@【至】
+"... Huh? What... what the?"
+@page
+Something is moving at the corner of the corridor.
+@page
+A hand.
+Fluttering and waving, as if to wave me over.
+If I look carefully, it seems to be Otogiri-san's hand.
+@page
+@【至】
+"Ah, alright then. Hey Otogiri-san!"
+@page
+@bgm fade=stop
+@mwoff
+@se s=se129 buf=1
+@lineFXon
+@se s=se078 loop=true buf=0
+@fi s=k446a pos=c time=100
+@act id=k t=neckswing
+@wait time=100
+@act id=k t=stopswing
+@fi s=k546a pos=c time=100
+@act id=k t=neckswing
+@wait time=100
+@act id=k t=stopswing
+@fi s=k346ad pos=c time=100
+@act id=k t=neckswing
+@se fade=out buf=0
+@stoppfx
+@mwon
+@lfont
+@v s=30272
+@【かごめ】
+"I'm sowwwyyyyyyy!"
+@qk time=1000
+@page
+@bgm s=bgm09
+@【至】
+"N-No, uh, Otogiri-san...?"
+@page
+;【演出】クエイク×３
+@v s=30273
+@【かごめ】
+"Sorry, sowwy, Sowwowwowwwyyy!"
+@page
+@【至】
+"W-Wait a second, calm down! Is this about what happened in class a little while ago!?"
+@page
+@v s=30274
+@【かごめ】
+"Y-Yeaaahh! I'm super super sorrryyyyy!"
+@page
+@【至】
+"No, I'm the one at fault here!
+If you hadn't tried to tell me the answer,
+he would have been even more angry, right?"
+@page
+@v s=30275
+@【かごめ】
+"B-But I, I, I ga-gave you the w-wrong answer!"
+@page
+@【至】
+"But I couldn't answer at all.
+It was going to end up like that in the end no matter what."
+@page
+@act id=k t=stopswing
+@fi s=k348ad pos=c
+@v s=30276
+@【かごめ】
+"R-Really...?"
+@page
+@【至】
+"Yep, really. You saved me back there."
+@page
+With those words that completely lack lies, I smile.
+It was hard not to laugh with my smile, but I did my best.
+@page
+@fi s=k345ad pos=c
+@v s=30278
+@【かごめ】
+"U, Uhe... uhehehehe."
+@page
+Good. It seems I've got a smile out of her.
+@page
+@【至】
+(... If any of the guys in my class saw this, they would misunderstand completely...)
+@page
+@fi s=k111ad pos=c
+@v s=30279
+@【かごめ】
+"Uh, umm..."
+@page
+@【至】
+"Y-Yeah. What's up?"
+@page
+@fi s=k112ad pos=c
+@v s=30280
+@【かごめ】
+"U, um... so,
+w-w-w-w... will you forgive me?"
+;選択肢
+;もちろんだ！　→330401
+;ンなわけあるか！　→330402
+@pages
+@selinit
+@selbtn cap="Of course!" s="330401.scn"
+@selbtn cap="No way!" s="330402.scn"
+@s

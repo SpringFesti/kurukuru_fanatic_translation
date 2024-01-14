@@ -1,0 +1,172 @@
+﻿;120203
+*120203|_気まずい二人
+@fi s=w112 pos=c
+@v s=10322
+@【わずか】
+"...I was bad, back then.
+Because of me, you... you couldn't!!"
+@page
+Wazuka-san bites her lip.
+It looks like she's going to tear it right off.
+@page
+Oh crap, she's going to start the head-smashing thing again.
+@page
+@【至】
+"Calm down. You may have forgotten to lock the door,
+but I was the one who went in without knocking."
+@page
+@【至】
+"I was the one who peeked in on you... you know?"
+@page
+@fi s=w111 pos=c
+@v s=10323
+@【わずか】
+"So?"
+@page
+...Yeah, that's what I thought she would say.
+@page
+@fi s=w113 pos=c
+@v s=10324
+@【わずか】
+"Oh... I understand. I was disgusting. I see now... yes."
+@page
+@【至】
+"Ah... no, that's not it."
+@page
+But once again, Wazuka-san doesn't listen to me.
+@page
+@fi s=w548 pos=c
+@v s=10325
+@【わずか】
+"What did you hate?　The smell?　The sound?　Or the quantity?
+Maybe you just hated the pee itself?"
+@page
+@【至】
+"Wa-wait a second, just calm down Wazuka-san!
+That really isn't it..."
+@page
+@lfont
+@fi s=w11a pos=c
+@act id=w t=neckswing
+@v s=10326
+@qk time=1000
+@【わずか】
+"AAAAAAAHHHH!!!"
+@page
+@fi s=w112a pos=c
+@v s=10327
+@【わずか】
+"Say it! Say it! I'll make it better!
+I'll make whatever you want better!"
+@page
+@fi s=w11aa pos=c
+@v s=10328
+@【わずか】
+"I'll get rid of the smell! I won't make a sound! I'll reduce the quantity!
+And if you say so, I won't pee anymore!"
+@page
+@【至】
+"That's impossible! It wasn't disgusting! On, on the other hand... I was
+kind of excited."
+@page
+@fi s=w548 pos=c
+@v s=10329
+@【わずか】
+"...Excited?"
+@page
+@【至】
+"Yes, excited... I was kind of a huge pervert..."
+@page
+@fi s=w113a pos=c
+@v s=10330
+@【わずか】
+"Really? It wasn't disgusting? Not dirty?
+...You won't hate me?"
+@page
+@【至】
+"Of course. It wasn't disgusting, and I can't
+hate you, Wazuka-san."
+@page
+@fi s=w547 pos=c
+@v s=10331
+@【わずか】
+"...Okay."
+@page
+Finally listening to me, Wazuka-san pats her chest,
+feeling relief from the bottom of her heart.
+@page
+Her sad face from a while ago reverses itself into a happy smile.
+@page
+@fi s=w114 pos=c
+@v s=10332
+@【わずか】
+"Then... Itaru-kun."
+@page
+;【演出】わずか立ち絵　アップ
+@fi s=w114ad pos=c
+@v s=10333
+@【わずか】
+"Next time I have to pee, I'll tell you.
+If it makes you excited, I'll let you see."
+@page
+Just as expected of Wazuka-san.
+@page
+Although an objection comes to mind, she grasps my hands and I
+lose the ability to speak.
+@page
+@fi s=w113ad pos=c
+@v s=10334
+@【わずか】
+"Okay? Itaru-kun?"
+@page
+She comes close enough for a kiss, and calls my name gently,
+so I immediately become embarrassed.
+@page
+Although I'm used to her telling me her feelings straight to my face,
+I'm embarrassed and my hands start to sweat.
+@page
+@【至】
+"Wazuka-san..."
+@page
+@fi s=w114ad pos=c
+@v s=10335
+@【わずか】
+"Yeees?"
+@page
+@【至】
+"...What time is it?"
+@page
+@fi s=w119d pos=c
+@v s=10336
+@【わずか】
+"Ah!"
+@page
+@fi s=w548ad pos=c
+@v s=10337
+@【わずか】
+"10 minutes past homeroom!
+Sorry... I talked too much!"
+@page
+@【至】
+"Yes, stop there! I mean... don't apologize.
+... I can't hate you... okay?"
+@page
+@fi s=w114ad pos=c
+@v s=10338
+@【わずか】
+"Thank you... Itaru-kun, that makes me really happy."
+@page
+@【至】
+"Thanks! Let's run, Wazuka-san!"
+@page
+@fi id=w
+@se s=se078 loop=true
+Thinking the same thing, we both start running simultaneously.
+@page
+I can't stop thinking about that. Why was I so embarrassed?
+@page
+@se fade=stop
+@mwoff
+;→020400
+@bgm fade=out
+@jump storage="020400.scn"

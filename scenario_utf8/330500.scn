@@ -1,0 +1,320 @@
+﻿;330500
+*330500|わずかの危惧
+;【ワイプ】場面転換および視点変更
+;【背景】屋上・昼
+;祀利
+@bi s=bg810
+@se s=se011
+@wait time=2000
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=ランダム
+@bgm s=bgm03
+@mwon
+Then it became lunch time.
+@page
+Before, lunch break was an hour of rest and relaxation.
+Now, it is training, testing my perseverance and love.
+@page
+Of course, it's the same today too.
+@page
+@setOnce
+@fi s=m112 pos=rc
+@fi s=w114 pos=lc
+@endOnce
+@v s=21460
+@【祀利】
+"Itaru, guess what today's lunch is!
+It's a ration that tastes even better than yesterday's!"
+@page
+@v s=10706
+@【わずか】
+"I made a hamburger steak just for you today!"
+@page
+Can't these two make anything else?
+Particularly Wazuka-san?
+Your abilities have degenerated, obviously.
+@page
+I alternate between the two lunches that they gave me, and think.
+@page
+The hamburger steak is undercooked as ever.
+The military ration isn't moldy, but it's dusty.
+@page
+Still, my body hasn't fallen yet. It's super durable.
+@page
+@setOnce
+@fi s=m648 pos=rc
+@fi s=w111 pos=lc
+@endOnce
+@v s=21461
+@【祀利】
+"Hey Itaru, which one was better? It was mine, right? Right?"
+@page
+@【至】
+"Hm..."
+@page
+I don't feel like answering that question, for some reason.
+@page
+There's something that's been swimming in my eyes
+for a while now, something resembling sleepiness.
+@page
+I know what the cause of that is.
+However--
+@page
+It's the first time this has happened.
+Even if I know why, and even if this is reality, a dream is still a dream.
+@page
+In other words, Otogiri-san's first--
+Due to me being so conscious of what happened, I can't change my feelings.
+@page
+@fi s=m64b pos=rc
+@v s=21462
+@【祀利】
+"Nmmm, Itaru's so borrinnngg.
+He's been dopey for a while now!"
+@page
+@【至】
+"... Mn, sorry."
+@page
+I think lunch break is going to end like this.
+And so, I keep on thinking.
+@page
+@setOnce
+@fi id=m
+@fi s=w111d pos=c
+@endOnce
+@【至】
+"Uwah! W-What's wrong, Wazuka-san!"
+@page
+She suddenly puts her face close to mine, like she's smelling something.
+@page
+@fi s=w112d pos=c
+@v s=10707
+@【わずか】
+"... Itaru-kun, did you masturbate?"
+@page
+@bgm s=bgm09
+@qk time=1000
+@lfont
+@【至】
+"Buhh!?"
+@page
+@setOnce
+@fi id=w
+@fi s=m113a pos=c
+@endOnce
+@v s=21463
+@【祀利】
+"Eeeeehh!? Itaru, when did you do that!?"
+@page
+@【至】
+"No wait, why are you accusing me of that!?
+What are the grounds, evidence, motive and alibi?!"
+@page
+@setOnce
+@fi id=m
+@fi s=w111d pos=c
+@endOnce
+@v s=10708
+@【わずか】
+"I smell sperm. I smell it sometimes if I go into your room at night."
+@page
+... Hey, wait a second.
+Why was Wazuka-san's nose familiar with that scent?
+@page
+She caught me in the middle of masturbating?!
+Suddenly I want to die, really badly!
+@page
+@fi s=w112d pos=c
+@v s=10709
+@【わずか】
+"So, did you?"
+@page
+Is it alright if I escape from this?
+@page
+However, reality would not allow such indulgences.
+If I ran away, Otogiri-san would be more likely to be targeted.
+@page
+@【至】
+"N-Now hey, come on! It's a man's daily work, you know?
+If he doesn't make it a part of his daily life, he'll get sick, you know?"
+@page
+I am in a catastrophic amount of mental pain right now.
+Please, just say that you'll let me off with that!
+@page
+@fi s=w111d pos=c
+@v s=10710
+@【わずか】
+"But you didn't smell like that this morning.
+Did you do it at school?"
+@page
+-- Yeah, that's the problem.
+@page
+I've got to find an answer that'll prevent me from becoming the
+kind of super hardcore masturbation master that can do it
+even in a school.
+@page
+Answer: Impossible.
+@page
+@【至】
+"I haven't been able to be alone at home recently, you know?
+So I went away by myself here at school, and, uh..."
+@page
+@fi s=w113d pos=c
+@v s=10711
+@【わずか】
+"... I'm sorry, Itaru-kun. Because I couldn't get things in order, I troubled you."
+@page
+@fi s=w113 move=lc
+@fi s=m647 pos=rc
+@v s=21464
+@【祀利】
+"Ara? Why didn't you offer to help him? Oh, but I guess you couldn't do that, now could you?"
+@page
+@【至】
+"Ah, before you say anything, don't fight in school.
+You'll make a mess for me if you do. Remember that."
+@page
+@fi s=w111 pos=lc
+@v s=10712
+@【わずか】
+"... Understood.
+If you say so, then I will return.
+-- By the way, Itaru-kun."
+@page
+@【至】
+"Hm, what is it, Wazuka-san?"
+@page
+@fi s=w111 pos=lc
+@v s=10713
+@【わずか】
+"What did you use?"
+@page
+@qk
+@【至】
+"D-Don't ask me something like that, damn it!"
+@page
+My heart has already been torn to rags!
+If someone heard that, I'll just jump off the roof now!
+Why postpone it for two days when I can make it zero!?
+@page
+@【至】
+"... Are you asking me that seriously?"
+@page
+@fi s=w113 pos=lc
+@v s=10714
+@【わずか】
+"Yes. I am worried about you."
+@page
+@【至】
+"... Uhh, well, what we're talking about here isn't connected to it, so...?"
+@page
+Well, it'll go as it always does.
+@page
+@fi s=w412 pos=lc
+@v s=10715
+@【わずか】
+"Itaru-kun. The porno behind the VCR is okay.
+If you want to use my nude body or underwear, that's of course okay.
+But you can't use this person or glasses."
+@page
+@【至】
+"By glasses... you mean Otogiri-san?"
+@page
+@fi s=w112 pos=lc
+@v s=10716
+@【わずか】
+"I don't care about her name. Anyway, there you are."
+@page
+Wazuka-san, your advice is too late.
+@wait time=500
+-- is something I would never say.
+@page
+@【至】
+"As expected, I heard nothing about one of my classmates.
+It feels a little weird that you're concerned with it, but 
+if I get caught, it's all over."
+@page
+@fi s=w111 pos=lc
+@v s=10717
+@【わずか】
+"Yes, that's fine. Masturbate all you like."
+@page
+@setOnce
+@fi id=w
+;【演出】文字倍角
+@fi s=m214d pos=c
+@endOnce
+@qk
+@lfont
+@v s=21465
+@【祀利】
+"Not okaaaaaayyy!"
+@page
+@fi s=m647d pos=c
+@v s=21466
+@【祀利】
+"Hey, Itaru, use me to jerk off instead.
+Or better yet, why don't I handle it for you?"
+@page
+Oh, it's this type of fight again.
+As usual, Wazuka-san's line will be...
+@page
+@setOnce
+@fi s=m647 move=rc
+@fi s=w312 pos=lc
+@endOnce
+@bgm fade=stop
+@bgm s=bgm16
+@v s=10718
+@【わずか】
+"Die--!?"
+@fi s=w312 pos=lc
+@page
+Then, both of their movements stop.
+@page
+The eyes and weapons that are always mutually aimed at each other,
+are now turned in a different direction.
+@page
+;パレード
+@se s=se131
+@fi s=m31c pos=rc
+@v s=21467
+@【祀利】
+"Huh!? Where is she!?"
+@page
+@【至】
+"H-Hey, what's wrong?"
+@page
+@v s=21468
+@【祀利】
+"Fucker! Someone's watching us! I've a mind to kill her too!"
+@page
+@【至】
+"No way... Wazuka-san, you felt it too?"
+@page
+@fi s=w312 pos=lc
+@v s=10719
+@【わずか】
+"Yes. I felt danger."
+@page
+@【至】
+"...And it's not just your imagination?
+I didn't feel anything."
+@page
+@fi s=m315 pos=rc
+@v s=21469
+@【祀利】
+"Nah, I definitely felt it. Itaru, keep an eye out.
+Well, even if there is something, I'll defend you with everything I've got."
+@page
+@v s=10720
+@fi s=w312 pos=lc
+@【わずか】
+"......"
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+;→330501
+@bgm fade=stop
+@jump storage="330501.scn"

@@ -1,0 +1,79 @@
+﻿;010502
+*010502|_The Party Begins
+;【好感度】祀利+1
+@eval exp="f.matsuri++"
+@【至】
+(... This feels good, I guess.)
+@page
+I've never been kissed like this, not even once.
+@page
+This girl is a foreigner, right?
+She's got blonde hair and blue eyes, and she's kind of cute.
+@page
+@bi s=evn2010
+@v s=20038
+@【祀利】
+"Itaruu... nn, chuu, more... I want you, mnn, to kiss me..."
+@page
+@【至】
+"Eh?　M, me!?　How could I do that!?"
+@page
+@v s=20039
+@【祀利】
+"Just like, this... mnn... just like I'm doing to, chuu, you..."
+@page
+Er, no, that's a bad idea, right?!
+She keeps calling herself my fiance, but this is the first time we've met.
+@page
+But, she asked for it.
+I didn't force her to do this, and if we're really fiances then it's totally legal!
+@page
+@bi s=evn2011
+@v s=20040
+@【祀利】
+"Hey, Itaru... do you... like me?"
+@page
+;【ＳＥ】爆発音
+@se s=se098
+@qk time=700
+@flash time=700
+@lfont
+@【至】
+"I love you!!"
+@page
+Okay, okayokayokay! I'm doing it!　Kissing is simple!
+Just mix your tongue around with hers!
+@page
+@【至】
+"Th, then if I... just..."
+@page
+@setOnce
+@bi s=bg03d
+@fi s=m115d pos=c
+@endOnce
+@v s=20041
+@【祀利】
+"You some kind of idiot?"
+@page
+@【至】
+"―― Huh? What did you――"
+@page
+@fi s=m11cd pos=c
+@v s=20042
+@【祀利】
+"You can't do that. No fuckin' way."
+@page
+@se s=se131
+@fi s=m315 pos=c
+She lifts her childish body off of me, and points two guns in my face.
+@page
+@【至】
+"Wait, what the hell!? Didn't you just ask me to do that!?"
+@page
+@fi s=m515 pos=c
+@v s=20043
+@【祀利】
+"Que pena."
+@page
+@jump storage="010503.scn"
+;→010503

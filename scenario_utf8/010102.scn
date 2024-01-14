@@ -1,0 +1,203 @@
+﻿;010102
+*010102|_October 27th, 7:37 AM
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+@【至】
+"O, okay! I'll tell you! But it's something dumb, okay?"
+@page
+@fi s=w111d pos=c
+@v s=10029
+@【わずか】
+"Even if it is, that's okay."
+@page
+As she says that, she hugs me tight again.
+@page
+@fi s=w114d pos=c
+@v s=10030
+@【わずか】
+"Every part of you is important, after all."
+@page
+From her strong arms, to her slender hands, to her thin fingers, 
+she grasps me firmly.
+@page
+@fi s=w113d pos=c
+@v s=10031
+@【わずか】
+"Itaru-kun... Itaru-kun... All of me. Every part of me is yours. I live for you."
+@page
+She hugs me so hard that it hurts a little. However, her soft breasts negate it.
+I'm stuck inside her cleavage, which rubs against me.
+@page
+@fi s=w115ad pos=c
+@v s=10032
+@【わずか】
+"Itaru-kun... more... more... Say something. If you tell me to, 
+I'll keep on living."
+@page
+Wazuka-san continues to embrace me.
+It's as if she's trying to take me into herself.
+@page
+And then.
+@page
+@fi id=w
+@qk time=700
+@flash time=700
+@lfont
+@【至】
+"O, owwww!"
+@page
+@fi s=w11bd pos=c
+@v s=10033
+@【わずか】
+"What's wrong!　Who was it?!　What did they do!? Where!?　Which one!?　
+I'll kill them!"
+@page
+@【至】
+"Nothing's wrong... Wazuka-san, do you have something sharp on you?"
+@page
+@fi s=w111d pos=c
+@v s=10034
+@【わずか】
+"Just a kitchen knife. Oh, it looks like my breasts don't contain it."
+@page
+Hm? I feel like I heard something disturbing. 
+But I'll look the other way for now～.
+@page
+Anyway, something hit my cheeks a while ago.
+It was hard, and it felt a little sharp.
+@page
+@fi s=w113d pos=c
+@v s=10035
+@【わずか】
+"Oh... perhaps... it was my bra..."
+@page
+@【至】
+"Your bra? Isn't that supposed to be soft?"
+@page
+@fi s=w548ad pos=c
+@v s=10036
+@【わずか】
+"It's supposed to be... but my chest... is big.
+The bra has to be shaped this way so they don't sag..."
+@page
+@fi s=w11bd pos=c
+@qk time=500
+@lfont
+@v s=10037
+@【わずか】
+"FUCK!"
+@page
+@fi id=w
+Her hands trembling, they move to her chest――
+She grasps her bra.
+@page
+@fi s=w21b pos=c
+@qk time=700
+@v s=10038
+@【わずか】
+"FUCK! FUCK! FUCK! If it wasn't for these!　These fucking things!"
+@page
+@【至】
+"C, Calm down!　I was just a little surprised!"
+@page
+@fi s=w11b pos=c
+@v s=10039
+@【わずか】
+"No! This can't be excused! Even though I'm yours! I... I!"
+@page
+@fi s=w41a pos=c
+@act id=w t=neckswing
+@qk time=800
+@flash time=800
+@lfont
+@v s=10040
+@【わずか】
+"It's all my fault!!!"
+@page
+@setOnce
+@act id=w t=stopswing
+@fi id=w
+@bi s=bg850 time=100
+@endOnce
+;【背景】イメージ　縦効果
+@qk time=700
+@v s=10041
+@【わずか】
+"AAAAAHHHH!!!"
+@page
+@bi s=bg01m time=100
+;【背景】主人公自室/朝
+@se s=se118
+@cut s=cut2100
+@qk time=700
+@flash time=700
+@lfont
+@v s=10022
+@【わずか】
+"Agah!!"
+@page
+@cut
+Wazuka-san starts to smash her head on the wall.
+Judging by the sounds, her speed, and her shouts, she's doing it without holding back. I can't figure out what would make her do that.
+@page
+@bi s=bg8140 trans=crossfade all=true time=500
+;【カットイン】血ノリ　……血ノリイメージの背景の黒を消去だけでいい
+;【ＳＥ】激突音
+@se s=se118
+@qk time=700
+@flash time=700
+@v s=10023
+@【わずか】
+"Eeekk!　Agghh!　Uuggghh!!"
+@se s=se118
+@wait time=800
+@se s=se118
+@qk time=700
+@flash time=700
+@page
+@bi s=bg01m time=100
+;【カットイン】消去
+@【至】
+"Stop it!　That looks like it hurt!　Doesn't it hurt!?"
+@page
+;【立ち絵】わずか
+;【備考】冷淡に
+@fi s=w548 pos=c
+@v s=10024
+@【わずか】
+"... That's fine. If I die from these injuries, it's fine."
+@page
+@【至】
+"... Whuh?"
+@page
+@fi s=w11b pos=c
+@qk
+@v s=10025
+@【わずか】
+"I'll die! I need to die! It's pointless to live anymore!"
+@page
+@setOnce
+@fi id=w
+@cut s=cut2100
+@endOnce
+;【カットイン】血ノリ
+@se s=se118
+@qk time=700
+@flash time=700
+@lfont
+@v s=10026
+@【わずか】
+"Nnngahh!"
+@page
+@cut
+@【至】
+"Don't die! What are you even talking about!?"
+@page
+@fi s=w41a pos=c
+@v s=10042
+@【わずか】
+"I hurt you, didn't I?! I hurt you!　I can't do that!
+I... I... IT'S ALL MY FAAAAULTTTT!!!"
+@page
+@jump storage="010103.scn"
+;→010103

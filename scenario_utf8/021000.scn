@@ -1,0 +1,211 @@
+﻿;021000
+*021000|ウサミとササミの倫理無用♪
+;【ワイプ】場面転換
+;【カットイン】人形劇舞台
+;@mwoff
+;【ＳＥ】ウサミ＋ササミ叫び
+;【カットイン】ウサミササミＳＨＯＷ！
+;@qk time=1000
+;@waitclk
+;【カットイン】ウサミササミショー消去
+;@mwon
+;@mwoff
+@se s=se020
+@cut s=cut2300 trans=z2n_rotin time=1200
+@qk time=500
+@flash time=500
+@setOnce
+@fi s=s111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@bgm s=bgm09
+@mwon
+@v s=16002
+"It's Usami and Sasami's...
+@wait time=800
+@se s=se151
+@lfont
+@v s=16006
+Useless Ethics!♪
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Missus! It's terrible, Missus!
+Your husband's making a stew in the bathroom!
+@page
+@se fade=stop
+@act id=s t=swing
+@v s=16006
+@【ササミ】
+"That means it'll taste like the bathroom, too.
+I'd much rather have mom's home cooking instead.
+Guess that leaves more for the rest of the family."
+@page
+@act id=s t=stopswing
+@v s=16002
+@【ウサミ】
+"And that's the start of our social satire
+puppet show, Usami and Sasami's Useless Ethics!"
+@page
+@v s=16005
+@【ササミ】
+"Yep, that means it's time for the kids to stand in the corner.
+Well, maybe just the politician's kids."
+@page
+@v s=16001
+@【ウサミ】
+"There have been a lot of kids publically appearing these days, huh?
+Do you think it's because of THAT kind of hobby?"
+@page
+@act id=s t=swing
+@v s=16006
+"Hmm. Maybe I should open a pillow shop in front of
+the hotel?"
+@page
+@act id=s t=stopswing
+@v s=16005
+@【ササミ】
+"Besides that, this corner is right next to 
+Chien's main headquarters, isn't it? You get a 
+lot of stories concerning yanderes here."
+@page
+@v s=16002
+@【ウサミ】
+"Maybe we should tell a story to commemorate our first show.♪"
+@page
+@bgm s=bgm13
+@mnon
+@mset l=3 h=true
+From a friend I have at my job--
+@waitclk
+@mset l=3 h=true
+One morning after we had slept together, 
+my girlfriend was staring at me.
+@waitclk
+@mset l=3 h=true
+Friend A　"What's wrong?"
+@waitclk
+@mnon size=50
+@mset l=3 h=true
+Girlfriend　　"Hey... are you the real A?"
+@waitclk
+@mnon
+@mset l=3 h=true
+Friend A "Lolololol. What are you talking about? Lololololol."
+@waitclk
+@mnon
+@mset l=3 h=true
+Girlfriend "You might be a scary alien. I would have to kill you if you were."
+@waitclk
+@mnon
+@mset l=3 h=true
+Friend A "Nope, lolololol. I'm the real deal, lololololol."
+@waitclk
+@mnon
+@mset l=6 h=true
+Girlfriend　　"What if you were replaced while we slept...
+　　　　　Oh, don't worry, it's alright.
+　　　　　If you are the real thing, I'll kill myself too.
+@waitclk
+@mnon
+@mset l=3 h=true
+Friend A "Don't worry, it's alright, I am the real thing."
+@waitclk
+@mnon
+@mset l=3 h=true
+Girlfriend. "Really?"
+@waitclk
+@mnon
+@mset l=3 h=true
+Friend A "Yep."
+@waitclk
+@mnon
+@mset l=3 h=true
+On his way out of the house later, he went by the kitchen and noticed something...
+His biggest kitchen knife was gone.
+@waitclk
+@bgm fade=out
+@mwon
+@【ウサミ】
+"......"
+@page
+@v s=16005
+@【ササミ】
+"...Where's the music?"
+@page
+@v s=16001
+@【ウサミ】
+"...That's not the problem."
+@page
+@bgm s=bgm09
+@v s=16005
+@【ササミ】
+"Well hey, it's real life. Don't expect a punch line.
+Making the wrong choice in life is much worse than in a game."
+@page
+@v s=16001
+@【ウサミ】
+"Speaking of that, how's Itaru doing?"
+@page
+@v s=16005
+@【ササミ】
+"I wonder..."
+@page
+@v s=16001
+@【ウサミ】
+"Which means...?"
+@page
+@v s=16005
+@【ササミ】
+"That's my answer."
+@page
+@v s=16005
+@【ササミ】
+"Do you really think the people playing the game can
+influence whether or not this guy lives or dies?"
+@page
+@v s=16001
+@【ウサミ】
+"Well, uh..."
+@page
+@act id=s t=swing
+@v s=16006
+@【ササミ】
+"Oh, don't get worked up.
+Doesn't matter to us, does it?"
+@page
+@act id=u t=swing
+@v s=16002
+@【ウサミ】
+"Hey, you're right!
+There's nooo point in worrying about it!♪"
+@page
+@v s=16005
+@【ササミ】
+"Inscrutiable are the ways of heaven. Goodbyes are a part of life, after all."
+@page
+@v s=16001
+@【ウサミ】
+"Ooh, that's a good ending.
+So for now..."
+@page
+@v s=16006e
+;【ＳＥ】ウサミ＋ササミ叫び
+@lfont
+"GOODBYE!♪"
+@page
+@act id=s t=stopswing
+@act id=u t=stopswing
+;【カットイン】消去
+;【演出】暗転
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+;分岐
+;フラグ010503起立　→021000b
+;それ以外→　021000a
+@jump storage="021000b.scn" cond="f._010503"
+@jump storage="021000a.scn"

@@ -1,0 +1,58 @@
+﻿;330607
+*330607|_クイズ！　次はおまえだ！
+@v s=40588
+@fi s=f112 pos=lc
+@【ファヌル】
+「ＫＹ」
+@page
+@v s=16001
+@【ウサミ】
+"What does that mean?"
+@page
+@fi s=f111 pos=lc
+@v s=40589
+@【ファヌル】
+"It's a Japanese phrase, short for kuuki wo yome.
+That means, 'Read the atmosphere.'"
+@page
+@v s=16001
+@【ウサミ】
+"Okay, so in other words, what does that mean?"
+@page
+@fi s=f112 pos=lc
+@v s=40590
+@【ファヌル】
+"The answer is correct.
+But just answering with how things appear to be is the worst."
+@page
+@fi s=f55b pos=lc
+@v s=40591
+@【ファヌル】
+"What should I do, to calm myself, an indispensible side character, down?
+I think you should know without me having to tell you. How about a promise?"
+@page
+@fi s=f559 pos=lc
+@v s=40592
+@【ファヌル】
+"I'll burn your house down tomorrow as punishment.
+That should put you with Sodom and Gomorrah in terms of might."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"That's going a bit far for a miss, isn't it!?"
+@page
+@fi s=f112 pos=lc
+@v s=40593
+@【ファヌル】
+"Boring things are not crimes.
+You should start looking for home insurance now."
+@page
+;【演出】暗転
+;→330700
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="330700.scn"

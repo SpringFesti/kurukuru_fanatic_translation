@@ -1,0 +1,594 @@
+﻿;020600
+*020600|_祀利、来襲
+;【備考】主人公視点
+;【ワイプ】視点変更
+;【背景】教室・昼
+;【ＳＥ】チャイム
+;【ワイプ】場所移動
+;【イベントＣＧ】膝の上の祀利
+@bi s=blank time=200
+@mnon size=50
+@mset l=4 h=true
+@se s=se091
+@qk time=1000
+Now, the true suffering begins!
+@page
+@mwoff
+@bi s=evn2020
+@bgm s=bgm09
+@wait time=300
+;@fi s=fi**** pos=****
+@mwon
+@v s=20268
+@【祀利】
+"Hey, Itaru, gimme a ki-ss."
+@page
+The following two hours were pure torture.
+@page
+I'm not the best student in the world.
+I might talk a little to other people sometimes,
+but I don't blatantly ignore the teacher.
+@page
+However, this is not those times.
+@page
+I mean, I'm not trying to ignore him.
+It's just that Matsuri keeps talking to me.
+@page
+@v s=20269
+@【祀利】
+"Hey Itaru, what are you writing now?"
+@page
+This? This is okay. It's just embarassing.
+Then she starts saying things like--
+@page
+;【イベントＣＧ】差分　つまらない
+@mwoff
+@bi s=evn2021
+@wait time=300
+@mwon
+@v s=20270
+@【祀利】
+"This is boooring. Want me to shoot your teacher?"
+@page
+I feel her handgun brush against my stomach,
+and I start to feel more dead than alive.
+@page
+So then I start trying to appease her somehow,
+like trying to pat her head and things like that.
+Then she says--
+@page
+;【イベントＣＧ】差分　媚びた笑み
+@mwoff
+@bi s=evn2022
+@wait time=300
+@mwon
+@v s=20271
+@【祀利】
+"... Hey Itaru... Wanna do it?"
+@page
+The guy next to me does a spit-take.
+Well, that's only natural. What else
+could she be talking about starting?
+@page
+Of course, I'm a sensible person, so I don't even touch that
+with a ten-foot pole. I just pat her head without a word.
+@page
+;【イベントＣＧ】差分　寝顔
+@mwoff
+@bi s=evn2023
+@wait time=300
+@mwon
+@v s=20272
+@【祀利】
+"Mmnn... nn... zzz... zzz... zzz..."
+@page
+This happened ten seconds later.
+It would happen to anyone who was that bored.
+@page
+There's any number of ways this could develop.
+It'd be best if she just slept without making a sound.
+It would be awful if she started grinding her teeth.
+@page
+That's what I thought the worst was, until today.
+Of course, the reality was much, much more awful.
+@page
+@v s=20273
+@【祀利】
+"Mnn... hah... not there... Itaru, no...
+There is... it's... mnn, it hurts..."
+@page
+My class is crying. The men in my class are crying.
+Bending towards me, they try to listen in on what's going on,
+like soldiers before their commander. Well then, salute me!
+@page
+@v s=20274
+@【祀利】
+"Mnn, ugh... so hard... aahh, oh... aah!
+Your... ohhh, it's so big... and... hottt!"
+@page
+They stare at me with horrible eyes.
+Their gazes threaten to catch me on fire.
+@page
+But I can't shout out "You're wrong!".
+After all, it's just sleep-talk. Pure falsehood. Just a mere fantasy.
+@page
+Well, shouting "No, I'm innocent, I swear!" wouldn't really solve anything, now would it?
+@page
+And so, enduring Matsuri's lewd sleep-talk,
+I stare desperately at my pencil, trying 
+as hard as I can not to get an erection.
+@page
+@bgm fade=out
+;【ワイプ】時間経過
+;【背景】教室昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm03
+@se s=se011
+@fi s=m111 pos=c
+@mwon
+Then, the second period ends. Now it's break time.
+@page
+@se fade=out
+@v s=20275
+@【祀利】
+"Itaru, do you have anything to drink?"
+@page
+@【至】
+"There's a vending machine, I guess?"
+@page
+@fi s=m114 pos=c
+@v s=20276
+@【祀利】
+"Wow, how luxurious! Does it really work?"
+@page
+@【至】
+"Well yeah. If it wasn't working, someone would come fix it, wouldn't they?"
+@page
+She shakes her head at me, at a loss for words.
+I had forgotten the story she told this morning.
+She has a much different standard of "luxurious".
+@page
+@fi s=m111 pos=c
+@v s=20277
+@【祀利】
+"We didn't have vending machines.
+Even if I did find one, it was broken to pieces and
+the contents were stolen long ago."
+@page
+@fi s=m112 pos=c
+@v s=20278
+@【祀利】
+"You couldn't even drink the water right away...
+Japan is heaven."
+@page
+She smiles at me, but I can't smile back at her.
+I almost want to hug her for all the awfulness she's been through.
+@page
+More than anything else, she's been a very good girl.
+Is there anything I can do to make her have a better life?
+@page
+@【至】
+"... I suppose we have some time.
+Matsuri, let's go to the vending machine."
+@page
+@fi s=m113 pos=c
+@v s=20279
+@【祀利】
+"Huh? Why?"
+@page
+@【至】
+"I'll buy you something.
+Didn't you want something to drink?"
+@page
+@fi s=m111a pos=c
+@v s=20280
+@【祀利】
+"Okay!"
+@page
+@fi s=m212 pos=c
+@v s=20281
+@【祀利】
+"Obrigada!　I love you very very very much Itaru!"
+@page
+Why do I feel bad as a man for some reason?
+Shouldn't I feel good to have a laughing girl in front of me?
+@page
+@fi id=m
+I can't stop myself from blushing.
+I tell Matsuri to come with me, and walk out of the classroom.
+@page
+Then, another event occurs.
+@page
+@fi s=w114 pos=c
+@v s=10339
+@【わずか】
+"Ah, Itaru-kun, good.
+　Did you get my text?　I didn't... get... a... reply."
+@bgm fade=out
+@page
+@bgm s=bgm15
+@fi s=w111 pos=c
+Her voice remains the same, but the words stop coming out.
+Then, her eyes turn to--
+@page
+@fi s=w411 pos=c
+@v s=10340
+@【わずか】
+"Why are you here?"
+@page
+@【至】
+"Who, who could you possibly be talking about?"
+@page
+;@fi s=w112 pos=c
+@v s=10341
+@【わずか】
+"HER."
+@page
+She approaches Matsuri, who's right behind me.
+@page
+@fi s=w112 pos=c
+@v s=10342
+@【わずか】
+"Die."
+@page
+Wazuka-san's small hand reaches for Matsuri's head.
+I remember what happened to Otogiri-san on the roof yesterday.
+@page
+Then--
+@page
+@fi id=w
+@mwoff
+@bgm fade=stop
+@se s=se118
+@cut s=cut2100
+@qk time=800
+@flash time=800
+@wait time=1500
+@cut
+@fi s=w112 pos=c
+@bgm s=bgm16
+@mwon
+;【カットイン】書き文字～ドガン！
+;【ＳＥ】打撃音
+With that noise, the entire classroom turns to us.
+WIthout any hesitation, Wazuka-san--
+@page
+;@fi s=w115 pos=c
+@v s=10342
+@【わずか】
+"Die."
+@page
+@fi id=w
+@bi s=bg8140 time=500
+@se s=se118
+@qk time=700
+@flash time=700
+Saying the same thing, she smashes Matsuri's head into the wall.
+@page
+@bi s=bg12d
+Matsuri goes limp, and her arms dangle at her sides.
+For some reason, something strange is picking at my brain.
+@page
+@fi s=m74ab pos=c
+@v s=20282
+@【祀利】
+"Ugh... ohh... it really hurts...
+It really... really hurts."
+@page
+@setOnce
+@fi s=m74ab move=rc
+@fi s=w112 pos=lc
+@endOnce
+@v s=10343
+@【わずか】
+"Oh, you'll stop feeling it soon."
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@endOnce
+@bi s=bg8140 time=500
+@se s=se118
+@qk time=700
+@flash time=700
+Then, Wazuka-san moves her arms again.
+Over and over, four times in a row,
+she smashes Matsuri's head against the wall.
+@page
+@bi s=bg12d
+Meanwhile, Matsuri doesn't resist.
+She doesn't pull out her gun.
+@page
+That-- that's why I feel strange.
+@page
+@fi s=w111 pos=c
+@v s=10344
+@【わずか】
+"So you're just going to give up and die?"
+@page
+@setOnce
+@fi id=w
+@fi s=m647 pos=c
+@endOnce
+@v s=20283
+@【祀利】
+"He... wanted it... this way... so I can't."
+@page
+Those words hit me.
+@page
+Someone stands up and says "Stop."
+Those words spread among them until everyone is saying it.
+@page
+@se s=se088 loop=true
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+@page
+@mnon time=100
+@mset l=7 h=true time=100
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+@waitclk
+@mset l=12 h=true time=100
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+"Stop!""Stop!""Stop!""Stop!""Stop!"
+@waitclk
+@mnon size=150 time=100
+@mset l=6 h=true time=100
+@se s=se089
+@qk time=1000
+STOP!
+@waitclk
+@se fade=out
+@setOnce
+@fi id=m
+@fi s=w111 pos=c
+@endOnce
+@mwon
+@v s=10345
+@【わずか】
+"So?"
+@page
+Wazuka-san's arm moves again.
+@page
+But that dull sound doesn't come again.
+She can't do it anymore.
+Because--
+@page
+@fi s=w112 pos=c
+@v s=10346
+@【わずか】
+"Itaru-kun... let go."
+@page
+I grabbed her arm, the one that was holding Matsuri's head.
+She won't stop doing that unless I do this.
+@page
+@【至】
+"Just stop already. Matsuri's here because of me."
+@page
+@fi s=w111 pos=c
+@v s=10347
+@【わずか】
+"No. I haven't killed her yet."
+@page
+@【至】
+"Even if it's just for now, stop...
+Everyone's looking at us."
+@page
+Wazuka-san looks around, and her mouth
+opens briefly to give me a retort.
+@page
+However, she stops.
+She probably doesn't care about the other people,
+but because she noticed how I felt.
+@page
+@fi s=w113b pos=c
+@v s=10348
+@【わずか】
+"Itaru-kun... are you mad?"
+@page
+If it was possible, I'd like to be finished here.
+However, there are times when convincing Wazuka-san is difficult.
+This is one of those times.
+@page
+@【至】
+"Yes."
+@page
+Just by saying that, Wazuka-san lets go of Matsuri's head.
+@page
+@fi s=w113b pos=c
+@v s=10349
+@【わずか】
+"... I'm... sorry..."
+@page
+@【至】
+"Okay... it's okay..."
+@page
+@fi s=w546b pos=c
+@v s=10350
+@【わずか】
+"It's not... it's not okay...
+I did it for you... but I was just being a nuisance.
+I made you mad..."
+@page
+@fi s=w646b pos=c
+@v s=10351
+@【わずか】
+"I'm sorry... I'm really really sorry...
+You don't have to forgive me...
+But... but... just let me stay with you... please, just that!"
+@page
+@fi id=w
+She bows her head, apologizing more and more.
+@page
+Now it's my turn to panic.
+Everyone's eyes are drilling into my skull again.
+@page
+@fi s=m647 pos=c
+@v s=20284
+@【祀利】
+"You think he's going to forgive you just for apologizing?
+That's way too much courtesy for a worm like you."
+@page
+@fi s=m647 move=rc
+@fi s=w112 pos=lc
+@v s=10352
+@【わずか】
+"Ergh..."
+@page
+Wazuka-san starts to reach into her pocket.
+However, before she can finish, the bell
+for third period cuts her off.
+;【ＳＥ】チャイム
+@se s=se011
+@page
+;@bi s=current all=true trans=crossfade
+@【至】
+"Wazuka-san."
+@page
+I'd like to continue speaking with her, but that'll have to wait.
+@page
+@fi s=w213a pos=lc
+@v s=10353
+@【わずか】
+"Okay... um... Itaru-kun?"
+@page
+@【至】
+"Lunch on the roof, right?
+You want me to bring you a milk tea again?"
+@page
+@fi s=w114a pos=lc
+@v s=10354
+@【わずか】
+"Ah... yes!　You're the best...
+You really are the best... Itaru-kun."
+@page
+@setOnce
+@fi s=w111 move=lc
+@fi s=m74b pos=rc
+@endOnce
+@v s=20285
+@【祀利】
+"Hey Itaru, aren't you being too nice?
+Look at my head, I must have some huge lumps up there."
+@page
+@【至】
+"I'll bring you to the nurse later.
+You were the one who provoked her, weren't you?"
+@page
+@fi s=m111 pos=rc
+@v s=20286
+@【祀利】
+"Oh? Did I?"
+@page
+;@fi s=w112 pos=lc
+;【立ち絵】わずか悔しげ
+@【わずか】
+"..."
+@page
+@fi s=m647 pos=rc
+@v s=20287
+@【祀利】
+"What's with the face? Get out of here, will ya?"
+@page
+@fi s=w112 pos=lc
+@v s=10355
+@【わずか】
+"What was that?"
+@page
+@fi s=w312 pos=lc
+In a moment, Wazuka-san's face distorts,
+and in a moment she has a knife in her hand.
+@page
+At the sight of me, her hand stops.
+Biting her lips, she holds her anger back.
+@page
+@fi s=m111 pos=rc
+@v s=20288
+@【祀利】
+"Wanna stab me? I won't resist.
+Or, can you not do it after all?"
+@page
+@fi s=m647 pos=rc
+@v s=20289
+@【祀利】
+"Coward... you don't love him at all, do you?"
+@page
+@qk
+@fi s=w312 pos=lc
+@lfont
+@v s=10356
+@【わずか】
+"What!?"
+@page
+@【先生】
+"W-What the hell are you doing!?"
+@page
+I look behind Wazuka-san and see the teacher standing there.
+@page
+"W-What are you two doing!?
+And you, w-what's that in your hand!?"
+@page
+@fi s=w311 pos=lc
+@v s=10357
+@【わずか】
+"A knife. Is that unusual?"
+@page
+That's it.
+I can't let this escalate anymore.
+@page
+@【至】
+"Wazuka-san... It's class time."
+@page
+I need to stop her with those words.
+She'll probably understand me better if she thinks I'm in trouble.
+@page
+@fi s=w113 pos=lc
+@v s=10358
+@【わずか】
+"... Sorry. Itaru-kun, I'll be waiting on the roof."
+@page
+I nod in relief, and a thin smile appears on Wazuka-san's face.
+@page
+@fi id=w
+Glaring hard at Matsuri, she finally turns around and leaves.
+@page
+@【至】
+"Sigh... what the hell was that?"
+@page
+@fi s=m111 move=c
+@v s=20290
+@【祀利】
+"It's her fault, you know. If she wasn't here, none of that would have happened."
+@page
+@fi id=m
+Everyone in the class thinks the same way.
+@page
+Wazuka-san smashed her head against the wall, 
+and brandished a knife against her. They probably 
+all think she's a cold-blooded, merciless fiend.
+@page
+@【至】
+"... No, you're wrong."
+@page
+As I said before, Matsuri's in the wrong here too.
+Before Wazuka-san grabbed her head, I could see Matsuri trying to do something.
+@page
+Anyway, I'll have to have a talk with Wazuka-san.
+It's gotta be today, I'm thinking.
+I've got to make sure of what she's thinking, if she's thinking at all.
+@page
+It'd be nice if the good events continued. No more of these horrible ones.
+@page
+@mwoff
+;→020601
+@bgm fade=stop
+@jump storage="020601.scn"

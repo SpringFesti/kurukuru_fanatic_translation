@@ -1,0 +1,67 @@
+﻿;330201
+*330201|_かごめとの約束
+;【備考】わずか視点
+;【ワイプ】視点切り替え
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=ランダム
+@bgm s=bgm15
+;@fi s=fi**** pos=****
+@mwon
+Itaru-kun and that other woman went back to the classroom.
+When they passed out of sight, I came out from the shadows of the roof.
+@page
+@fi s=w112 pos=c
+@v s=10703
+@【わずか】
+"That woman hasn't learned her lesson at all."
+@page
+Even though she hurt Itaru-kun.
+I should have killed her back then.
+But since Itaru-kun said I couldn't, there was nothing I could do.
+@page
+@fi s=w113 pos=c
+@v s=10704
+@【わずか】
+"Itaru-kun, you're being lied to."
+@page
+Her eyes are strange when they look at Itaru-kun.
+She has a strange smell, as well.
+It feels like she's trying to stick to him like a leech.
+@page
+Neither of them are thinking of Itaru-kun's happiness.
+She is trying to trick him, and use him for herself.
+@page
+@fi s=w112 pos=c
+My teeth creak and scrape each other.
+I seem to have been grinding them together for a while now.
+@page
+From the day before yesterday, it has been unpleasant.
+She is decieving him far too much.
+@page
+@v s=10705
+@【わずか】
+"I have to save him."
+@page
+From both of them.
+I will kill them both for Itaru-kun.
+@page
+@fi s=w548 pos=c
+However, let's think about it properly.
+I must not trouble Itaru-kun.
+I have to be there for dinner time.
+@page
+I have to clean up properly too.
+I have to think about this carefully.
+@page
+@fi s=w112 pos=c
+Yes-- because I live for Itaru-kun's sake.
+I will do anything for that person.
+@page
+@fi id=w
+@mwoff
+;→330300
+@bgm fade=stop
+@jump storage="330300.scn"

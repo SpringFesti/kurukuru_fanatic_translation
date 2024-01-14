@@ -1,0 +1,45 @@
+﻿;010707
+*010707|_Quiz! You're Next!
+;【ＳＥ】シロ平素
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Hawawawa, how absurd! But that surely must be his fate!"
+@page
+@fi s=f211 pos=lc
+@v s=40160
+@【ファヌル】
+"This quiz show was completely unplanned. Just pull us off the air now."
+@page
+;【ＳＥ】シロ平素
+@act id=u t=swing
+@v s=16002
+@【ウサミ】
+"Then it's time to go! Until the day we meet again――"
+@page
+@fi s=f55b pos=lc
+@v s=40161
+@【ファヌル】
+"Struggle for your life as best you can."
+@page
+@setOnce
+@act id=u t=stopswing
+@cut
+@bi s=current all=true trans=crossfade
+@bgm fade=stop
+@endOnce
+@mwoff
+;【指示】以下、各体験版用
+;@bi s=blank trans=crossfade all=true
+;@wait time=200
+;【指示】Web体験版
+;@jump storage="999999.scn"
+;@bi s=sam0002 trans=波
+;@bgm s=bgm06
+;@fi s=fi**** pos=****
+;@waitclk
+;ここにタイトルへ
+;@jump storage="scriptend.ks"
+@jump storage="020100.scn"
+;【演出】暗転
+;→020100

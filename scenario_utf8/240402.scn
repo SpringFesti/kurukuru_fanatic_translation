@@ -1,0 +1,119 @@
+﻿;240402
+*240402|_奇妙なメール
+;【備考】祀利視点
+;【ワイプ】視点変更
+;【背景】廊下・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm15
+@fi s=m112 pos=c
+@mwon
+;@v s=21150
+;@【祀利】
+@v s=21151
+@【祀利】
+"Ufufufufu.
+Just you wait, Wazuka, Kagome.
+I'll come kill you at once."
+@page
+How many times have I murmured those words?
+Still, I don't get tired of saying them.
+On the contrary, I want to say them again.
+@page
+However, Itaru's position is more of a problem than they are.
+@page
+I know where he is, because of the microphone I hid on him.
+@page
+I moved to the place where I saw him immediately.
+@page
+@fi s=m74b pos=c
+... I've had a headache for a little while now.
+@page
+@fi s=m74a pos=c
+Matsuri is important. I love Itaru. I want to kill those women.
+@page
+Those women are important. I love Matsuri. I want to kill Itaru.
+@page
+@fi s=m74b pos=c
+... Huh? Is something wrong?
+I don't get it... Well, whatever."
+@page
+@fi s=m648 pos=c
+@v s=21151
+@【祀利】
+"Ufufufufu.
+Just you wait, Wazuka, Kagome.
+I'll come kill you at once."
+@page
+It's still fun to say that.
+It takes the edge off my headache.
+@page
+Maybe, if I kill those women,
+even more pain will go away.
+@page
+... There's no doubt.
+If I don't kill those people, I, ME, and MYSELF will never find happiness.
+@page
+So I'll kill them. I'm not bad.
+@page
+@fi s=m74a pos=c
+Aaaahhh... my head hurts.
+@page
+@v s=21152
+@【祀利】
+"Why're you gettin' in my way?
+Itaru is mine."
+@page
+Inside my body, hate and love are filling me up.
+@page
+But whose feelings are those?
+Festa? Parade? Mardi-gras?
+@page
+@fi s=m114 pos=c
+No! Itaru is Festa's!
+I won't let Mardi-gras have him!
+I hate Parade!
+@page
+@fi s=m116 pos=c
+My head hurts. Hurts. Hurts. Hurts.
+@page
+@v s=21153
+@【祀利】
+"Itaru is, Itaru is, Itaru is, mine, mine, mine.
+I won't let anyone else have him!"
+@page
+@fi s=m74a pos=c
+Nobody. Not Wazuka, or Kagome.
+@page
+@fi s=m114 pos=c
+@v s=21154
+@【祀利】
+"Matsuri, Festa, Parade and Mardi-gras won't let you have him!"
+@page
+So I'll kill them.
+Itaru doesn't need women that aren't ME, MYSELF or I.
+@page
+@fi s=m64a pos=c
+@act id=m t=swing
+@v s=21155
+@【祀利】
+"Kill Wazuka... Kill Kagome...
+Blow off their heads... I'll kill them dead..."
+@page
+@act id=m t=stopswing
+@fi s=m648 pos=c
+Aaahhh, yes. But before that."
+@page
+@se s=se131
+@fi s=m51d pos=c
+@v s=21156
+@【祀利】
+"First... Matsuri... must die."
+@page
+@fi id=m
+@mwoff
+;→240403
+@jump storage="240403.scn"

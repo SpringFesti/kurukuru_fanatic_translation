@@ -1,0 +1,77 @@
+﻿;320200
+*320200|メール、する
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01b trans=tile
+@bgm s=bgm04
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Sigh..."
+@page
+Lots of stuff happened today too.
+Like that, slowly... it became like this.
+@page
+@bi s=evn1010
+@v s=10612
+@【わずか】
+"... Here? Okay... I'll take it off..."
+@page
+@v s=20670
+@【祀利】
+"I-In a place like this, no... don't put it in..."
+@page
+Isn't this the same as yesterday?
+Dreaming of a strong man or something like that.
+Or dreaming of a sadistic me.
+@page
+Well, Wazuka-san's acceptied the situation a little too fast.
+@page
+@【至】
+"But, since her dream isn't reflecting reality at all,
+I'm not happy about it at all."
+@page
+Rather, I'm anxious about their love.
+@page
+Until yesterday, I was a little more optimistic.
+I was able to control Wazuka-san.
+Even if the two of us became three, I could do it somehow.
+@page
+But instead of addition, it became multiplication.
+When it became three of us, it went from being a dynamite situation to a nuclear weapons-grade situation.
+@page
+@【至】
+"When I die, I wonder if it's because I get involved in one of their fights."
+@page
+... I mutter, and my spine chills.
+That's a huge possibility.
+@page
+@【至】
+"... But I'll make sure I'm not helpless when that time comes."
+@page
+Should I avoid the two of them?
+@page
+Regrettably, that would probably be absolutely impossible.
+@page
+Wazuka-san and Matsuri will haunt me no matter where I go.
+To be precise, they'll haunt me until I'm dead.
+@page
+@【至】
+"... Then if I could make them into friends...
+No, that's also impossible."
+@page
+I understood the answer to that question last night.
+@page
+If I think of myself as Jerusalem,
+these two are religions A and B fighting over me.
+@page
+@【至】
+"Then if a certain religion C could come into the equation...
+But that's just rashness. I've got to take care of myself.
+@page
+My line of thought becomes rough.
+I should go to sleep soon.
+@page
+@jump storage="320200a.scn" cond="f._010701"
+@jump storage="320200b.scn"

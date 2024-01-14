@@ -1,0 +1,379 @@
+﻿;150400
+*150400|一か八か
+;【ワイプ】時間経過
+;【背景】自宅居間
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+@bgm s=bgm11
+@mwon
+A little time passes after Matsuri
+and Otogiri-san make me cum,
+and dinner is finished.
+@page
+The dishes are set,
+but nobody has touched them.
+Matsuri must do her taste testing first.
+@page
+@fi s=m11d pos=c
+@v s=21721
+@【祀利】
+"If I taste even a little bit...
+I'll blow him away."
+@page
+@setOnce
+@fi s=w111 move=lc
+@fi s=m11d pos=rc
+@endOnce
+@v s=11218
+@【わずか】
+"I know. So eat it."
+@page
+@fi s=m74a pos=rc
+She grabs the food, throws it in her mouth,
+and chews it, deliberately checking for poison.
+@page
+I wonder if this is the first time she's
+checked so thoroughly?
+@page
+Over and over, she chews with a serious face.
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=k111 pos=c
+@endOnce
+@v s=31035
+@【かごめ】
+"How is it?"
+@page
+@setOnce
+@fi s=k111 move=rc
+@fi s=m111 pos=lc
+@endOnce
+@v s=21722
+@【祀利】
+"... Seems okay. This is fine to eat."
+@page
+@fi s=k114 pos=rc
+@v s=31036
+@【かごめ】
+"Okay... then let's eat."
+@page
+Hearing Matsuri's okay,
+Otogiri-san reaches for the food.
+@page
+@bi s=current all=true trans=crossfade
+Honestly, I thought Wazuka would try to poison
+them... but it appears not.
+@page
+@【至】
+"Let's eat."
+@page
+A bit late for those two, but we finally reach
+for our food as well.
+@page
+@【至】
+"Oh. This is good, Wazuka-san."
+@page
+@fi s=w547 pos=c
+@v s=11219
+@【わずか】
+"... Thanks."
+@page
+@setOnce
+@fi s=w547 move=lc
+@fi s=m74b pos=rc
+@endOnce
+@v s=21723
+@【祀利】
+"Reaaaally? Better than Kagome's?"
+@page
+;【立ち絵】わずか立ち絵　怒ってるようなもの
+@fi s=w111 pos=lc
+@【わずか】
+"........."
+@page
+@setOnce
+@fi id=m
+@fi s=k113 pos=rc
+@endOnce
+@v s=31037
+@【かごめ】
+"Err.. well... it's shit.
+Maybe I should have made dinner."
+@page
+;【立ち絵】わずか立ち絵　怒ってるようなもの。上の立ち絵とは違うもので
+@fi s=w112 pos=lc
+@【わずか】
+"......"
+@page
+Woah, she looks mad...
+@page
+Even though she already admitted that she
+wasn't as good at cooking as Otogiri-san,
+can she endure being told that?
+@page
+@fi s=k114 pos=rc
+@v s=31038
+@【かごめ】
+"Takamichi-kun, you ate this every day, didn't you?
+I'll make your food from now on, okay?"
+@page
+@【至】
+"Huh? No... Wazuka-san's cooking is fine."
+@page
+@v s=31039
+@【かごめ】
+"Oh, of course not. I'll prepare all your meals from now on."
+@page
+@fi s=w111 pos=lc
+@v s=11220
+@【わずか】
+"No, you won't."
+@page
+@v s=31040
+@【かごめ】
+"Eh?"
+@page
+@v s=11221
+@【わずか】
+"You won't get that opportunity ever again."
+@page
+@fi s=k212 pos=rc
+@v s=31041
+@【かごめ】
+"... Huh?"
+@page
+;【ＳＥ】パリーン　皿を落とした音
+@se s=se061
+@fi s=k213 pos=rc
+@v s=31042
+@【かごめ】
+"W.. What...?"
+@page
+@【至】
+"... Otogiri-san?"
+@page
+@fi s=k212 pos=rc
+@v s=31043
+@【かごめ】
+"Huh...? Why...? My... body..."
+@page
+;【ＳＥ】ガシャーン！　皿とか色々が割れる音
+;【立ち絵】かごめ立ち絵消去
+@fi id=k
+@se s=se061 buf=1
+@se s=se066 buf=2
+@wait time=500
+@bgm s=bgm16
+@v s=21724
+@【祀利】
+"Kagome!?"
+@page
+Like a machine with a dead battery,
+Otogiri-san stiffens up and falls to the floor.
+@page
+She collapses, and she won't get up...
+It's as if she's dead.
+@page
+@fi s=w112 pos=lc
+@v s=11222
+@【わずか】
+"... Hmph."
+@page
+She looks at Otogiri-san with a cold contempt.
+@page
+@fi s=m515 pos=rc
+@v s=21725
+@【祀利】
+"Wazuka!"
+@page
+Matsuri screams at the person ridiculing Otogiri-san.
+In a moment, her pistols are in her hand and pointed at Wazuka-san.
+@page
+@v s=21726
+@【祀利】
+"The fuck did you do!? Answer me!"
+@page
+Eyes like a mad dog. Words like a man.
+Aware of the danger, Parade had taken over.
+@page
+@v s=11223
+@【わずか】
+"Hmph. You should be falling down too."
+@page
+@v s=21727
+@【祀利】
+"Don't fuck with me!
+Asshole, you poisoned this meal!?"
+@page
+@v s=11224
+@【わずか】
+"But you said there wasn't any poison, didn't you?"
+@page
+@v s=21728
+@【祀利】
+"Ugh... then what!? Answer me!"
+@page
+@se s=se131
+She turns the muzzle at me.
+@page
+@v s=21729
+@【祀利】
+"Tell me, why don't you? If you don't...
+then I think you understand the consequences."
+@page
+@【わずか】
+"........."
+@page
+@v s=21730
+@【祀利】
+"... Alright, alright.
+I'll shoot him, just as you want!"
+@page
+@【至】
+"--!?"
+@page
+;【ＳＥ】銃を落とした音
+@fi s=m74bb pos=rc
+@se s=se154
+@v s=21731
+@【祀利】
+"Kuh, this, is..."
+@page
+Parade dropped the gun that was supposed to shoot me.
+@page
+Kneeling on the floor, she looks up at Wazuka-san with hatred.
+@page
+@fi s=w113 pos=lc
+@v s=11225
+@【わずか】
+"... Phew."
+@page
+Looking at Parade on her knees, Wazuka-san pats her shoulder.
+@page
+@v s=21732
+@【祀利】
+"No way... suxamethonium... chloride..."
+@page
+Sucking Methane Cleaner?
+@page
+@fi s=w111 pos=lc
+@v s=11226
+@【わずか】
+"Although the success rate was 55%...
+it was worth trying it on myself."
+@page
+@v s=21733
+@【祀利】
+"Ergh..."
+@page
+@fi id=m
+@se s=se066
+@fi s=w111 pos=c
+With a defeated groan,
+Parade falls to the floor as well.
+@page
+;【立ち絵】祀利立ち絵消去
+;【ＳＥ】倒れる音
+.........
+@page
+@【至】
+"... What just happened?"
+@page
+I don't know what happened. But suddenly
+Matsuri and Otogiri-san are on the ground,
+unconscious.
+@page
+@bgm s=bgm05
+@fi s=w114 pos=c
+@v s=11227
+@【わずか】
+"It's over."
+@page
+Wazuka-san smiles gently.
+@page
+But again, I have no idea what's going on.
+@page
+@【至】
+"What just happened?
+And what's this, err, Sucking Methane Cleaner? stuff?"
+@page
+@fi s=w411 pos=c
+@v s=11228
+@【わずか】
+"It's a muscle relaxant. Known as succinylcholine,
+it acts on the nerves and cells and weakens the movements
+of muscles."
+@page
+@【至】
+"...??"
+@page
+@v s=11229
+@【わずか】
+"It's a drug."
+@page
+I see.
+Thanks for the simple example.
+@page
+@fi s=w111 pos=c
+@v s=11230
+@【わずか】
+"But they'll die if the amount is too much."
+@page
+... Eh?"
+@page
+Then, Matsuri and Otogiri-san will...?
+@page
+;【演出】何かめまいのような演出ほしいです。
+@【至】
+"W-What have you... Wa..."
+@page
+... Huh?"
+@page
+;【ＳＥ】倒れる音
+@fi id=w
+@qk
+@se s=se066
+@【至】
+"Ergh... ah..."
+@page
+My legs no longer support me, and I fall to the floor.
+I can turn, and I can't talk.
+@page
+;【立ち絵】わずか立ち絵　無表情
+@fi s=w111 pos=c
+@【わずか】
+"......"
+@page
+I see... she put that in all the food...
+And I ate it... so just like them...
+@page
+@【至】
+"Wa... Wa..."
+@page
+Wazuka-san...
+@page
+Am... am I going to die?
+@page
+;【立ち絵】わずか立ち絵　笑顔
+@fi s=w114 pos=c
+@【わずか】
+"......"
+@page
+@【至】
+"......"
+@page
+;【演出】暗転
+@bi s=blank trans=crossfade all=true
+My eyelids shut.
+@page
+I can't hear anything, and I'm completely numb.
+I begin to fade out...
+@page
+With no time to fear death, I lose consciousness.
+@page
+;→150500
+@jump storage="150500.scn"

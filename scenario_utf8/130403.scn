@@ -1,0 +1,254 @@
+﻿;130403
+*130403|_２つのお弁当
+I now know the feeling of a frog staring at a snake.
+@page
+I'll die if I move, even a little. I'll die if I don't move.
+This is a complete disaster.
+@page
+... Well, for Otogiri-san.
+@page
+@【至】
+"Isn't it normal? It's just a mail from a classmate."
+@page
+I give her a bland, noncommital answer, so she doesn't
+go immediately kill Otogiri-san.
+@page
+@fi s=w412 pos=c
+@v s=10933
+@【わずか】
+"Normal?"
+@page
+What? Why is she glaring at me?
+I feel like I want to get on my knees and beg forgiveness.
+@page
+@【至】
+"Yep. Completely normal.
+You should email other people some time."
+@page
+@fi s=w211 pos=c
+@v s=10934
+@【わずか】
+"No."
+@page
+@【至】
+"Of course."
+@page
+Wazuka-san would never communicate with anyone except me.
+@page
+@【至】
+"Well, that's that.
+Come on, let's have some lunch."
+@page
+@fi s=w548 pos=c
+@v s=10935
+@【わずか】
+"... Yeah."
+@page
+It's a little hard to swallow for her,
+but she can't judge me for texting other people.
+@page
+Of course, that's just my guess.
+@page
+I said before that this was normal.
+I'm sure that she'll trust me on that,
+but she really doesn't want to just leave it.
+@page
+Maybe with this trick, I can breathe easy.
+I just want to eat lunch in peace.
+@page
+I pass out the drinks I bought for them and take out my lunch.
+At last we meet, lunch.
+@page
+@fi s=w211 pos=c
+@v s=10936
+@【わずか】
+"Itaru-kun, what's that?"
+@page
+@【至】
+"Huh? It's a lunch box, isn't it?"
+@page
+@v s=10937
+@【わずか】
+"I know that. But why are there two of them?"
+@page
+Oh crap, I forgot--!
+I totally forgot!
+Otogiri-san gave me a lunch box this morning!
+@page
+@【至】
+(... Oh shit, I just got us away from Otogiri-san!
+StupidstupidstupidstupidstupidIamsostupid!)
+@page
+@fi s=w112 pos=c
+@v s=10938
+@【わずか】
+"Why do you have that? Why?"
+@page
+@【至】
+"... Because Otogiri-san gave it to me this morning."
+@page
+I admit it. I'm too tired of hiding it.
+@page
+@fi s=w111 pos=c
+@v s=10939
+@【わずか】
+"Give me it. I'll throw it away."
+@page
+@【至】
+"Of course I can't. It's a present, isn't it?"
+@page
+@fi s=w212 pos=c
+@v s=10940
+@【わずか】
+"Even so, give it to me. I can't trust her cooking.
+You'll die if you eat it."
+@page
+@【至】
+"Don't worry, I'll be fine. She made me this
+to apologize for the trouble she gave me earlier."
+@page
+@fi s=w411 pos=c
+@v s=10941
+@【わずか】
+"What an annoyance. Why did she make you a box lunch?"
+@page
+@【至】
+"Well if she gave me a watermelon and a cake, that'd be worse, wouldn't it?
+Box lunches are what students are supposed to have."
+@page
+I'll try to joke around with her, calm her down.
+If it's just for today, I'll take Otogiri-san's box lunch gratefully.
+@page
+@【至】
+"Ooh!"
+@page
+I open Otogiri-san's lunch box.
+@page
+Right out of the gate, Otogiri-san is the winner for today.
+Will I be able to eat something actually decent for lunch?
+@page
+@fi s=w548 pos=c
+@v s=10942
+@【わずか】
+"Ohh..."
+@page
+She looks inside the lunch box and scowls.
+@page
+It looks like Otogiri-san's been cooking for a long time.
+She knows that difference just from looking.
+@page
+@setOnce
+@fi s=w548 move=lc
+@fi s=m212 pos=rc
+@endOnce
+@v s=21597
+@【祀利】
+"Itaru, lemme taste for poison.♪"
+@page
+@【至】
+"Alrighty."
+@page
+Matsuri immediately grabs the entire egg and throws it in her mouth.
+Rather than testing for poison, does she just want to eat it all?
+@page
+@fi s=m648 pos=rc
+@v s=21598
+@【祀利】
+"Mmmmm! It's really gooood!"
+@page
+In just one bite, she immediately gives her verdict.
+@page
+@v s=10943
+@【わずか】
+"...... Me too."
+@page
+Defeated, Wazuka-san grabs some vegetables from 
+the corner and pops them in her mouth. So how's it taste?
+@page
+@fi s=w111 pos=lc
+@【わずか】
+"........."
+@page
+@fi s=w548 pos=lc
+@v s=10944
+@【わずか】
+"Ergh...!"
+@page
+She clenches her teeth in recognition.
+With no contest, it's Otogiri-san's win.
+@page
+@【至】
+"Okay, my turn."
+@page
+I take the little hamburger steak and bite into it.
+It's actually cooked, a big plus.
+Heck, it even tastes good... quite unexpected...
+@page
+@【至】
+"... This is great."
+@page
+@fi s=w212 pos=lc
+@v s=10945
+@【わずか】
+"Nnngggggggghhh!"
+@page
+Woah. She's going to catch fire.
+@page
+@fi s=w548 pos=lc
+@v s=10946
+@【わずか】
+"I, I have to throw this away... b-but it tastes good...
+More than me... he's... but it's..."
+@page
+@fi s=w111 pos=lc
+@v s=10947
+@【わずか】
+"Yes... so I should... no...
+Actually... quickly... I should..."
+@page
+@fi s=w112 pos=lc
+@v s=10948
+@【わずか】
+"...kill."
+@page
+@【至】
+"Why does it always come to that!?"
+@page
+@fi s=w211 pos=lc
+@v s=10949
+@【わずか】
+"Don't worry, I'll be quick, I won't keep you waiting."
+@page
+@【至】
+"No, keep me waiting! No, wait, don't do it at all!"
+@page
+;【背景】青空
+@setOnce
+@bi s=current all=true trans=crossfade
+@bi s=bg810
+@endOnce
+Most of lunchtime was spent trying to convince Wazuka-san.
+@page
+It's just a lunch box.
+Why would someone kill over it?
+@page
+Well, above anything else, I'm a man.
+I got a lunch box from a girl,
+so I'm quite happy right now.
+@page
+So I'll persuade. I'll persuade her.
+By the way, I didn't want Head-butt Fun Time
+to begin again, so I had to choose my words carefully.
+@page
+Even so...
+@page
+@v s=10950
+@【わずか】
+"Understood. I'll kill her."
+@page
+@se s=se011
+No matter how many times I tried,
+that's what came out at the end of the period.
+@page
+;→130500
+@jump storage="130500.scn"

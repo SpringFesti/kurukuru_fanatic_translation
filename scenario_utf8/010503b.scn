@@ -1,0 +1,141 @@
+﻿;010503b
+*010503b|_The Party Begins
+@fi s=f314 pos=c
+@v s=40102
+@【ファヌル】
+"What're you two up to? Stretching after dinner?"
+@page
+@setOnce
+@fi s=f314 move=r
+@fi s=w121 pos=l
+@fi s=m111 pos=c
+@endOnce
+@v s=10194
+@【わずか】
+"No, just something trivial."
+@page
+@v s=20068
+@【祀利】
+"Exactly. We're just playing around."
+@page
+@fi s=f411 pos=r
+@v s=40103
+@【ファヌル】
+"That's fine, but aren't you two hungry? My stomach's growling!"
+@page
+@fi s=w124 pos=l
+@v s=10195
+@【わずか】
+"Ara ara, aren't you a hungry little piggy. Let's go eat."
+@page
+@fi s=f114 pos=r
+@v s=40104
+@【ファヌル】
+"Yaaaaay♪　Are you eating too, Matsuri-chan?"
+@page
+@fi s=m64b pos=c
+@v s=20069
+@【祀利】
+"Eat HER cooking? When she could poison me with all kinds of things?"
+@page
+@fi s=w121 pos=l
+@v s=10196
+@【わずか】
+"You don't get any food."
+@page
+@fi s=m114 pos=c
+@v s=20070
+@【祀利】
+"Myeeeh! Let's go, Fanuel."
+@page
+;@fi s=f111 pos=r
+@v s=40105
+@【ファヌル】
+"Okey-dokey♪"
+@page
+@setOnce
+@fi id=f
+@fi id=m
+@fi s=w121 move=c
+@endOnce
+Then, the two of them calmly ran off into the house like they lived here.
+@page
+@【至】
+"... What?"
+@page
+Who was that girl? It seems like everyone knows her except for me.
+@page
+@【至】
+"Wazuka-san, who was that?"
+@bgm fade=out
+@page
+@bgm s=bgm05
+@fi s=w122 pos=c
+@v s=10197
+@【わずか】
+"Never mind that, show me your hand."
+@page
+Wazuka-san grasps my hand and puts it to her face.
+@page
+@fi s=w223ad pos=c
+@v s=10198
+@【わずか】
+"Mmn... it looks so scraped up... it must hurt."
+@page
+Then―― I felt a soft, yet slimy touch on my wound. 
+It's Wazuka-san's tongue.
+@page
+;@fi s=w124ad pos=c
+@v s=10199
+@【わずか】
+"Mnn... haah... liiick... fuah... nnn... slurp..."
+@page
+@【至】
+"Stop that!　Isn't that dirty?!"
+@page
+@fi s=w224ad pos=c
+@v s=10200
+@【わずか】
+"It's not... dirty... it's yoooou...."
+@page
+Each time Wazuka-san licks my wound, a little blood, dirt and pain disappear.
+@page
+@fi s=w223ad pos=c
+@v s=10201
+@【わずか】
+"Mnn, chuu, lick... lickk, nn..."
+@page
+She licks the wound dozens of times, and it starts to it feels like it isn't there at all anymore.
+@page
+The wound wasn't deep to begin with.
+However, the saliva now embedding itself into my palm is helping to close my wound.
+@page
+@fi s=w121 pos=c
+@v s=10202
+@【わずか】
+"There you go, Itaru-kun. I'll have some dinner ready for you soon."
+@page
+@fi id=w
+Turning away from me, she disappears into the living room.
+@page
+Now that I'm alone, what should I do? Should I follow her? 
+Should I look for Matsuri and that girl?
+@page
+I think a little, and choose my answer.
+@page
+@【至】
+"... I seriously don't get this at all."
+@page
+Sighing, I start to make my way to the bathroom.
+There, I can have a little alone time and gather my thoughts.
+@page
+@【至】
+"... But... man, this is just too much."
+@page
+Too many impossible things have happened to me recently.
+My brain's going to explode.
+@page
+@bgm fade=out
+@jump storage="010600.scn"
+;【ワイプ】場面転換
+;→010600

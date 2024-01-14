@@ -1,0 +1,126 @@
+﻿;021002
+*021002|_祀利の秘密
+;【備考】主人公視点
+;【ワイプ】時間経過
+;【背景】夜空
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg830 trans=clock
+;@mwon
+@wait time=1500
+;【ワイプ】場所移動
+;【背景】自宅居間・明かりあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ひし形(左から右へ)
+@bgm s=bgm02
+@mwon
+@lfont
+@v s=10203
+;@【わずか】
+"Thanks for the food."
+;@【わずか】
+;「いただきます」
+;@【祀利】
+;「いただきまーす」
+;@【ファヌル】
+;「いただきまーす」
+@page
+;【イベントＣＧ】食事する一同
+@bi s=evn0010
+This is totally a sitcom.
+I'm calling it now.
+Those three, who were arguing all day,
+are now calmly sitting together and eating.
+@page
+No bloodshed, no knives, and even no guns.
+A very calm, peaceful, everyday scene.
+@page
+@【至】
+(... Yep, this is the life.
+Let's stay like this forever.)
+@page
+@sfont
+@v s=40453
+@【ファヌル】
+"Heh, nope."
+@page
+@【至】
+"Hm? Did you just say something?"
+@page
+I hadn't been expecting an answer.
+That's pretty much what I expected anyway.
+@page
+But jeez, don't read my mind while we're eating.
+Well, at least skip over some of my more embarassing thoughts.
+@page
+@v s=40454
+@【ファヌル】
+"Wazuka-saaan, more pleaaase!♪"
+@page
+No answer. Just like I expected.
+@page
+I just hope that the day ends with this.
+My one and only hope is that.
+@page
+@【至】
+"Wazuka-san, I'd like some more too."
+@page
+@v s=20528
+@【祀利】
+"Me too!♪"
+@page
+@v s=10470
+@【わずか】
+"Just wait a moment, I'll be back soon."
+@page
+She takes our bowls and heads towards the kitchen.
+@page
+This is good, these are good signs.
+Signs that the two of them might start to get along.
+@page
+With a victory pose in my head, I look at Fanuel-chan and smile.
+@page
+;【演出】暗転
+;@bi s=blank trans=crossfade all=true
+;@fi s=f65b pos=c
+@v s=40455
+@【ファヌル】
+"Nope, no way in hell.♪"
+@page
+...Yeah, I know.
+@page
+;【ワイプ】時間経過
+;【背景】主人公自宅居間・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+;@bgm s=bgm03
+@fi s=f111 pos=c
+@mwon
+@v s=40456
+@【ファヌル】
+"Matsuri-chan, let's do something."
+@page
+@setOnce
+@fi s=f111 move=rc
+@fi s=m111 pos=lc
+@endOnce
+@v s=20529
+@【祀利】
+"Okay, what do you want to do?"
+@page
+@fi s=f314 pos=rc
+@v s=40457
+@【ファヌル】
+"Let's try hypnosis! Just like on the TV."
+@page
+;分岐
+;フラグ****起立　→021002a
+;上記以外　→021002c
+@jump storage="021002a.scn" cond="f._010503"
+@jump storage="021002c.scn"

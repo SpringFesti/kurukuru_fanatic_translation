@@ -1,0 +1,190 @@
+﻿;120300
+*120300|かごめの異変
+;【背景】学園廊下
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Phew, that was a bit crowded."
+@page
+Though I only went to the lunchroom to get a drink for lunch,
+there were still a ton of people there, even though it's just noon.
+@page
+Wazuka-san makes lunch for me everyday, so I don't have to enter that warzone.
+In that respect, I guess I can't complain about the taste that much.
+@page
+@【至】
+"... Wonder if we're going to have hamburg steak again today?"
+@page
+I can't complain... but can't I hope for something like fried chicken?
+@page
+I'm sure nobody could screw up fried chicken.
+@page
+Wait a sec, I'm keeping Wazuka-san and the others waiting.
+I should hurry it up.
+@page
+... They've probably started killing each other, haven't they?
+@page
+@lineFXon
+@se s=se078 loop=true
+Suddenly, I feel a bit uneasy. I can't say I'm not afraid,
+but before I knew it I was speeding up and running down the hallway.
+@page
+--no, wait! This corner's the one where--
+@page
+@mwoff
+@se s=se099
+@fi s=k211 pos=c time=200
+@qk
+@wait time=300
+@se s=se099
+@fi s=k112b pos=c time=200
+@qk
+@wait time=300
+@se s=se099
+@fi s=k348bd pos=c time=200
+@act id=k t=neckswing
+@wait time=600
+@mwon
+@lfont
+@qk time=600
+@【至】
+"NNNNNOOOOOOOOOOOO!!!"
+@page
+@bgm fade=stop
+@mwoff
+@se fade=stop
+@setOnce
+@fi id=k
+@stoppfx
+@endOnce
+@se s=se118
+@cut s=cut2100
+@qk time=1000
+@flash time=1000
+@mwon
+@lfont
+@v s=30088
+@【かごめ】
+"Waaaaghh!?"
+@page
+@cut
+@bgm s=bgm07
+As I wonder if I'm going to run into her... I run into Otogiri-san
+at that familiar corner.
+@page
+The water bottle I had in my hand dances through the air,
+and I begin to fall down from my momentum...
+@page
+@fi s=k348ad pos=c
+;@bi s=evn3010 time=200
+;【ＳＥ】胸を触る音
+@se s=se080
+@qk time=800
+@flash time=800
+@lfont
+@v s=30089
+@【かごめ】
+"Eeeeiiikk!?"
+@page
+G-Goddamn it, this again!?
+@page
+Fortunately, I've only got her chest this time.
+@page
+Well, I say fortunately because that's all this time,
+but I can't say this is even fortunate in the first place.
+@page
+@fi id=k
+@qk time=800
+@lfont
+@【至】
+"S, Sorry!!!"
+@page
+At once, I spring back and kneel on the ground.
+At the same time, I make sure there's distance between
+us so that nothing else happens again.
+@page
+@fi s=k112a pos=c
+@v s=30090
+@【かごめ】
+"Eh... ah, aaaahhh, t-t, tthhaaa..."
+@page
+@【至】
+"A-Are you alright? No pains anywhere?"
+@page
+@fi s=k213a pos=c
+@v s=30091
+@【かごめ】
+"N-N-N-No, I-I, I'm, perfectly alright..."
+@page
+Staring into space, Otogiri-san brushes her tustled hair.
+@page
+@【至】
+"... Hey, wait a sec."
+@page
+I can see blood in the hair she's brushing.
+@page
+@【至】
+"There's blood on your hand...
+So you were injured just now, weren't you?"
+@page
+@fi s=k112b pos=c
+@v s=30092
+@【かごめ】
+"Eh.... aaaaahhhhhh!!!"
+@wait time=300
+@qk
+@fi s=k348b pos=c
+@act id=k t=neckswing
+@page
+;@fi s=k212b pos=c
+@v s=30093
+@【かごめ】
+"I-I-I-I, I do-don't see any, any blood..."
+@page
+@【至】
+"You say that, but isn't there blood in your hand?"
+@page
+;@fi s=k114b pos=c
+@v s=30094
+@【かごめ】
+"N-N-Nope! Not a bit, nothing I can see!"
+@page
+@fi s=k446b pos=c
+@v s=30095
+@【かごめ】
+"Nothing at aaaaaalllllllllll!!!"
+@wait time=300
+@fi id=k trans=out slide=l
+@page
+;【演出】かごめ立ち絵消去
+Otogiri-san runs away, screaming her head off.
+@page
+She might not have wanted me to worry about her... but that's not the feeling I get.
+I kinda feel like she's scared of something.
+@page
+@【至】
+"... What the heck was that?"
+@page
+I'm kind of curious, but my spidey-sense tells me not to get involved.
+@page
+I'm already too busy with Matsuri and Wazuka-san to have time for her anyway.
+@page
+@【至】
+"Frankly, they may have already killed each other by now."
+@page
+If I find a sea of blood when I get there, what should I do?
+Should I just turn around and run away?
+@page
+@【至】
+"... Maybe I should just stop thinking about it and go."
+@page
+I pick up the fallen water bottle and leg it to the roof.
+@page
+;→020701
+@bgm fade=stop
+@jump storage="020701.scn"

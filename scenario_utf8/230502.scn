@@ -1,0 +1,13 @@
+﻿;230502
+*230502|_クイズ！　次はおまえだ！
+;【好感度】祀利+1
+;【ＳＥ】正解
+@eval exp="f.matsuri++"
+@se s=se094
+@fi s=f55a pos=lc
+@v s=40508
+@【ファヌル】
+"Good answer. Unfortunately, the true answer is both."
+@page
+;→230504
+@jump storage="230504.scn"

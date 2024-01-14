@@ -1,0 +1,73 @@
+﻿;360303
+*360303|クイズ！　次はおまえだ！
+;【ワイプ】場面転換
+;【背景】クイズ番組セット
+;【カットイン】書き文字「クイズ！　次はおまえだ！」
+;【ＳＥ】ウサミウサギ叫び声
+;【ＳＥ】ウサミウサギ平素
+@setOnce
+@mwoff
+@bgm fade=stop
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm09
+@wait time=2000
+@se s=se151
+@mwon
+@v s=40142
+@【ファヌル】
+"Quiz! You're next!"
+@page
+@se fade=out
+@fi s=f112 pos=lc
+@v s=40629
+@【ファヌル】
+"The following is abridged.
+Today's episode is the final episode of this route."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"Wa, wait a minute!
+This is the final episode, so let's do this properly!"
+@page
+@fi s=f112 pos=lc
+@v s=40630
+@【ファヌル】
+"This is the final episode, so what meaning is there in buttering up the audience?
+While I'm at it, what's the point of drawing all this shit out?
+Therefore, let's end it now."
+@page
+@fi id=f
+@v s=16004
+@【ウサミ】
+"Eh, ah, please wait just a moment!"
+@page
+;【備考】歩行系のＳＥでも入れた方がいいでしょうか。
+@v s=16001
+@【ウサミ】
+"... She really up and left."
+@page
+@v s=16002
+@【ウサミ】
+"Umm, congratulations.
+... Um, it's good to have a final episode,
+but the problem hasn't really been solved at all, has it?"
+@page
+@act id=u t=hit
+@v s=16003
+@【ウサミ】
+"But because it's the final episode, it's parting time already.
+I want to see you on a different route, okaaaay!"
+@page
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="370100.scn"

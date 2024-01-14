@@ -1,0 +1,372 @@
+﻿;220201
+*220201|_偶然と計画と
+;【背景】教室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=ひし形(左から右へ)
+@bgm s=bgm11
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Haa... haaa... will here be alright?"
+@page
+After looking around for a while, I find an unused classroom.
+Fortunately, the door isn't locked.
+@page
+I spread the shirt of my uniform on a desk, and lay Matsuri down on it.
+@page
+A bed in the nurse's office would be better.
+Is this really good enough?
+@page
+@v s=20338
+@【祀利】
+"Mn... ohh... Itaru...?"
+@page
+@【至】
+"I'm here. Are you feeling okay?"
+@page
+Matsuri nods, and starts to get up.
+However, her expression soon changes to one of anguish.
+@page
+@fi s=m116bd pos=c
+@v s=20339
+@【祀利】
+"Ow... it hurtsss! My body, haahhh! Haahh!
+No... I'm dying... I'm dying...!"
+@page
+@【至】
+"Matsuri, stay strong!"
+@page
+;@fi s=m116d pos=c
+@v s=20340
+@【祀利】
+"Please Itaru... don't leave me... stay with me..."
+@page
+@【至】
+"Got it, I'm right here. I'm not going anywhere."
+@page
+@fi s=m64bbd pos=c
+@v s=20341
+@【祀利】
+"Really? You'll stay with me?"
+@page
+@【至】
+"Yeah, of course. I couldn't leave you here like this."
+@page
+@fi s=m112bd pos=c
+@v s=20342
+@【祀利】
+"Okay... then... I won't worry..."
+@page
+@fi s=m11ebd pos=c
+Matsuri slowly closes her eyes."
+@page
+It's almost like this is a scene where the heroine dies.
+I only think that for a moment, but my heart starts to pound.
+@page
+Of course though, I know that's just my own unnecessary worrying.
+@page
+@fi s=m64bd pos=c
+@v s=20343
+@【祀利】
+"... Huh?"
+@page
+Suddenly Matsuri opens her eyes up wide.
+@page
+@fi s=m113d pos=c
+@v s=20344
+@【祀利】
+"... Huh? What's wrong?
+Why was Matsuri sleeping here?"
+@page
+@【至】
+Don't worry, Matsuri. You fell down the stairs. Don't you remember?"
+@page
+Matsuri thinks a little.
+@page
+Are her memories all jumbled up?
+No, that can't be it. She knew what was going on just moments ago.
+@page
+Then, why...?
+Matsuri smiles at my worrying expression.
+@page
+@fi s=m64bd pos=c
+@v s=20345
+@【祀利】
+"Sorry, I get it now. I fell... and now I'm here."
+@page
+@【至】
+"Yeah, you said you didn't want to go to the nurse's office.
+Are you really okay though?"
+@page
+@fi s=m112d pos=c
+@v s=20346
+@【祀利】
+"Yeah, I'm okay. The pain went away somewhere.
+Maybe it's because you were holding my hand, Itaru?"
+@page
+@【至】
+"Really? You seemed like you were in a lot of pain, before."
+@page
+@fi s=m111d pos=c
+@v s=20347
+@【祀利】
+"Yep, I'm fine now. Look, I can even move my hand...
+@wait time=4400
+@fi s=m64bd pos=c
+Wait, looks like it still hurts a little."
+;@wait time=500
+@page
+@【至】
+"Hey, don't overdo it. Rest a little more."
+@page
+@fi s=m112d pos=c
+@v s=20348
+@【祀利】
+"Obrigada!
+... Itaru really is a kind person.
+You're so different than Papa's friends."
+@page
+@【至】
+"Did they shout, and beat you?"
+@page
+@fi s=m114d pos=c
+@v s=20349
+@【祀利】
+"Yeah. Then the guns would come out,
+they'd start yelling about people being annoying,
+and then there would be corpses... they were the worst."
+@page
+@【至】
+"Wait. Waitwaitwait.
+What exactly did your papa's friends do for work...?"
+@page
+@fi s=m111d pos=c
+@v s=20350
+@【祀利】
+"Hmm... they were speaking Japanese, so... Yakuza?"
+@page
+@【至】
+"Ah, I see. That would explain the gunfire and corpses, then. I gotcha."
+@page
+@【至】
+"... Wait, no! That's horrible!
+Your dad needs to choose his friends better!"
+@page
+@fi s=m112d pos=c
+@v s=20351
+@【祀利】
+"It's okay. Papa choose correctly. He didn't want shark bait for friends, after all."
+@page
+@【至】
+"No, that's not what I meant. Who was your dad, anyway?"
+@page
+@fi s=m111d pos=c
+@v s=20352
+@【祀利】
+"The boss."
+@page
+@fi s=m64ad pos=c
+@v s=20353
+@【祀利】
+"It was hard for Matsuri to be the boss's kid.
+Abductions, chases, it always felt like I was going to be killed."
+@page
+@【至】
+"Oh... yeah, I heard this morning.
+A word where you're on the thin edge of death...
+I can't say I know that world well..."
+@page
+@fi s=m64bd pos=c
+@v s=20354
+@【祀利】
+"Well, before I knew it, I knew how to survive.
+Holding that gun... and becoming stained with blood."
+@page
+@fi s=m648d pos=c
+@v s=20355
+@【祀利】
+"Oh, but don't worry, I haven't been raped.
+　Matsuri is still a virgin.
+I made sure that Itaru would get my first time."
+@page
+It feels like that was a very dangerous remark,
+but that's not important right now.
+@page
+Tears begin to form in my eyes as I imagine
+how Matsuri's daily life must have been.
+@page
+We played together, and even promised to marry each other, but there's
+so much that I didn't know about her..."
+@page
+@【至】
+"It must've been tough, Matsuri..."
+@page
+I hold her tight, and pat her head.
+@page
+@【至】
+"But this is a different country now, Japan.
+Relax. Nobody's going to attack you here... will they?"
+@page
+@fi s=m64bd pos=c
+@v s=20356
+@【祀利】
+"Thanks... but what if we do get attacked?"
+@page
+An easy answer. I hug her even more, and tell her.
+@page
+@【至】
+"I'll protect you. No matter what's in my way, I will."
+@wait time=300
+@fi s=m649ad pos=c
+@page
+Then, I gently pat her head again.
+@page
+@bgm fade=stop
+@bgm s=bgm14
+@fi s=m648ad pos=c
+@v s=20357
+@【祀利】
+"Aha, I'm happy... Itaru is patting my head..."
+@page
+Matsuri leans against my chest.
+I can feel her hands on my back.
+@page
+She's just like an infant.
+Just like a girl leaning against her father, asking nothing,
+but thanking me all the same.
+@page
+@fi s=m112ad pos=c
+@v s=20358
+@【祀利】
+"Itaru, I like... I love you."
+@page
+;@fi s=m64bad pos=c
+@v s=20359
+@【祀利】
+"... I worked really hard.
+So I could hug you... with this pure body...
+I worked really, really hard."
+@page
+Matsuri puts a hand around my neck and draws me closer.
+@page
+I can't resist, and soon I'm hovering over Matsuri.
+@page
+Matsuri's innocent face is very near to me.
+@page
+@fi s=m111ad pos=c
+@v s=20360
+@【祀利】
+"I want you to hold me too...
+Is that okay... I want you to have me."
+@page
+How should I answer her?
+Does she know what she's asking?
+@page
+@fi s=m64bad pos=c
+@v s=20361
+@【祀利】
+"Itaru... do you hate me?"
+@page
+I can't answer her probing questions immediately.
+No, rather than that, I'm at a loss for words.
+@page
+@fi s=m649ad pos=c
+@v s=20362
+@【祀利】
+"I like you, Itaru. I love you.
+For a long time, I've loved you so much.
+So...... is it okay?"
+@page
+Even still, I don't respond.
+@page
+But somewhere deep inside me, I--
+@page
+@fi s=m64bad pos=c
+@v s=20363
+@【祀利】
+"Please... I want you to have my first time.
+If it's you... it's okay. Nobody else can have it."
+@page
+The sigh that leaks from her lips is sad and indulgent.
+@page
+;俺は次第に変な気分になり始めていた。
+;@page
+I told Matsuri that I would marry her when we were kids.
+@page
+Matsuri, who grew up in such a harsh environment after we seperated.
+@page
+Matsuri, who defended her virginity just for me.
+@page
+And now, the Matsuri who wants me to have her now.
+@page
+Is there really a man who could refuse her now?
+@page
+I wouldn't dare. Such a person doesn't deserve to be called a man.
+@page
+I gently embrace her, and she reciprocates.
+@page
+;@fi id=m
+Then, I look at her face, and realize the distance between us.
+@page
+That distance was zero.
+@page
+@fi s=m11ead pos=c
+@v s=20364
+@【祀利】
+"Mn... hfau... mmnn... Itaru...?"
+@page
+Our lips seperate, and Matsuri looks up at me mysteriously.
+@page
+@fi s=m111ad pos=c
+@v s=20365
+@【祀利】
+"You... you kissed me?
+Itaru kissed me... nfufu, I'm happy!"
+@page
+@【至】
+"Yeah. And it's going to get even better from here."
+@page
+@fi s=m649ad pos=c
+@v s=20366
+@【祀利】
+"Better... Itaru, you wanna do perverted things with me?"
+@page
+Perverted things... Matsuri did ask me earlier.
+@page
+@【至】
+"Well... It's kind of embarrassing, when you ask like that."
+@page
+@fi s=m112ad pos=c
+@v s=20367
+@【祀利】
+"Obrigada! Yes! Yes! I'm so happy! 
+Itaru finally wants to do perverted things with me!"
+@page
+;@fi s=m649ad pos=c
+@v s=20368
+@【祀利】
+"Do it! Do it, do it!
+Stick your hard dick in me, with all your might!
+Fill me with pleasure!"
+@page
+@【至】
+"O-Okay..."
+@page
+@fi s=m64bad pos=c
+@v s=20369
+@【祀利】
+"Oh, b-but... I'm a little afraid...
+It feels like I'm gonna fall..."
+@page
+Well, she is on top of a desk."
+@page
+I lift Matsuri off the desk, and put her onto the floor.
+@page
+Then, I open up Matsuri's legs.
+@page
+@fi id=m
+;→220202
+@bgm fade=stop
+@jump storage="220202.scn"

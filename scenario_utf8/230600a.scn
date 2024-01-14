@@ -1,0 +1,277 @@
+﻿;230600a
+*230600a|_倍返し
+;【備考】祀利視点
+;【ワイプ】視点変更+場面転換
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=100
+@bi s=bg10e trans=ランダム time=500
+@bgm s=bgm11
+@fi s=m112 pos=c
+@mwon
+I want to praise myself for the smile I'm giving Itaru.
+@page
+As soon as I put on my shoes, I tensed.
+There were sharp things hidden in the soles.
+@page
+This feeling... it's probably thumbtacks.
+Aww, I let down my guard.
+I hadn't noticed before I put them on.
+@page
+@【至】
+"Matsuri, what's wrong?"
+@page
+Itaru anxiously calls out to me.
+He must have noticed that Matsuri was acting strange.
+He really is gentle. As expected of my fiancee.♪
+@page
+But for now, I'll need to lie to him.
+@page
+In reality, I want to cry and tell Itaru to solve all my problems.
+I want him to kiss the pain in my feet goodbye, and carry
+me home like a princess.
+@page
+But I can't right now.
+I can't say it.
+I can't get back at whoever put these tacks in my shoes.
+@page
+@【至】
+"Are you feeling alright?"
+... Are you still worried about today's bento?"
+@page
+Yeeesss, I really really am worried about thaaaat!♪
+I want to say that, and for him to take care of me.
+@page
+But just the opposite, I shake my head and smile.
+@page
+@fi s=m64a pos=c
+Then, I investigate my surroundings.
+The criminal is sure to be watching somewhere.
+They're laughing scornfully at Matsuri.
+@page
+Matsuri looks around carefully, trying not to be noticed by Itaru.
+@page
+@setOnce
+@fi id=m
+@fi s=w112 pos=c
+@endOnce
+Wazuka is staring at Matsuri.
+It's a gaze that says she wants to kill me.
+@page
+But that's normal for her.
+@page
+If Wazuka was the culprit, she would have smiled when
+she saw Matsuri step on those thumbtacks...
+@page
+@fi id=w
+... Yes. Right now, the only person watching Matsuri
+right now from the corner of the shoe cabient was that Kagome girl.
+@page
+@fi s=k349 pos=c
+Kagome was staring at Matsuri, who wasn't moving even though
+she was wearing shoes, and grinning creepily.
+@page
+@setOnce
+@fi id=k
+@fi s=m74b pos=c
+@endOnce
+So what should Matsuri do?
+If Matsuri can take revenge on her without Itaru noticing...
+@page
+@fi s=m74a pos=c
+... H-huh? It's happening again. My consciousness is...
+@page
+@wait time=500
+@fi s=m115 pos=c
+-- Sorry 'bout this, Matsuri.
+You aren't enough for this.
+Leave the rough stuff up to me, Parade.
+@page
+The culprit is her. No doubt about it.
+She's the one who put thumbtacks in my shoes.
+And she's probably the one who wrecked Matsuri's lunch box.
+@page
+Then this should be cake. I'll blow her brains out, and it's a happy ending for everyone.
+@page
+Now then, it's your turn, partner.
+I reach into my pocket, and...
+@page
+@fi s=m114 pos=c
+Wait, Parade! You can't do this!
+@page
+@fi s=m747 pos=c
+That's right, Parade. We can only endure for now.
+@page
+@fi s=m11c pos=c
+What's up with all ya!? Why're ya stopping me!?
+You're gonna let her get away with hurting Matsuri!?
+@page
+@fi s=m747 pos=c
+Even if you go wild right now, you won't necessarily kill her.
+She might get away.
+@page
+@fi s=m113 pos=c
+Yeah, and plus, you don't have any evidence that she did it right now.
+Won't Itaru get all mad?
+@page
+@fi s=m647 pos=c
+We can't kill her without damaging Itaru...
+So do you think doing so would be best for Matsuri?
+You must endure for now.
+@page
+@fi s=m11c pos=c
+Then what!? We really are just gonna let it go!?
+@page
+@fi s=m647 pos=c
+Of course not. There are much better things we can do. For example...
+@page
+@fi s=m115 pos=c
+... Hn. I see. That's a pretty good idea.
+Alright. I'll let it go.
+@page
+@fi s=m648 pos=c
+Then we're all agreed! Leave it to me.
+We'll be having some fun soon...
+@page
+@fi s=m115 pos=c
+Yeah. Good luck.
+@page
+@【至】
+"... Huh? Matsuri, are you sure you're doing okay?"
+@page
+@fi s=m74b pos=c
+Itaru looks like he's noticed.
+I'm always like that when I consult with "everyone".
+Reflections on reflections.
+@page
+@fi s=m112 pos=c
+@v s=20829
+@【祀利】
+"Nothing at all! Itaru, gimme your hand!♪"
+@page
+I run towards Itaru.
+@page
+With every step, the thumbtacks dig into my feet. It hurts terribly.
+But that's okay. I don't mind it at all.
+@page
+@bgm fade=out
+Because now, a very pleasant thing is about to begin...
+@page
+;【ワイプ】場面転換
+@fi id=m
+@bi s=bg820
+@bgm s=bgm03
+We leave the school and begin to walk leisurely towards Itaru's house.
+@page
+Along the way, Wazuka quietly watches me.
+@page
+But I ignore her.
+I don't have time to play with her right now.
+@page
+Instead of looking at her, let's look at Itaru for now.
+My heart warms, killing two birds with one stone.♪
+@page
+After turning about three corners, we come to the halfway point
+between the school and Itaru's house.
+@page
+It should be a good time soon.
+Alright everyone, let's start the operation!
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08e trans=tile
+@fi s=m113 pos=c
+@mwon
+@v s=20830
+@【祀利】
+"Ahh! Sorry, I forgot something in the classroom."
+@page
+@【至】
+"Don't worry about it. Do you need to go back?"
+@page
+@fi s=m112 pos=c
+@v s=20831
+@【祀利】
+"Ah... I-I'll be okay. I can go by myself! Go on ahead!"
+@page
+@【至】
+"Are you sure? What are you going to do if you get lost?"
+@page
+@fi s=m112 pos=c
+@v s=20832
+@【祀利】
+"I'll be fine. See ya later!"
+@page
+@fi id=m
+Now alone, I begin to run back towards the school.
+@page
+Of course, it was a lie when I said that I left something at the school.
+I'm really going back to get back at Kagome.
+@page
+Heehee, I'll leave it up to you, Marti-gra--
+Parade laughs merrily inside my head.
+@page
+I've just got to endure a little more.
+As if to answer that, I quicken my pace.
+@page
+But I've got to endure just a little more.
+@page
+I want to take revenge on her--
+I want to kill Kagome, who did awful things to Matsuri.
+I'm dying to kill her!
+@bgm fade=out
+@page
+;【ワイプ】場面転換
+;【背景】廊下・夕方
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=tile
+@bgm s=bgm10
+@fi s=m64b pos=c
+@mwon
+@v s=20833
+@【祀利】
+"Huh? She isn't here.
+Where could she have gone?"
+@page
+Though I looked through the school for a while, I couldn't find Kagome.
+@page
+Her shoes were still in her locker.
+She must be somewhere in the school somewhere, but I can't find her.
+@page
+Where is she hiding?
+However, I don't have any more time to look for her.
+I've got to get back to Itaru.
+@page
+@fi s=m74b pos=c
+@v s=20834
+@【祀利】
+"Aww, I wanted to murder her directly.
+I wanted to shoot a lot of bullets."
+@page
+@fi s=m74a pos=c
+I've got to follow my schedule.
+Parade, it's up to you.
+@page
+@fi s=m115 pos=c
+@v s=20835
+@【祀利】
+"Kukuku... leave it to me.
+I'll make her into soup!"
+@page
+There are various ways to kill a person.
+Dozens, no, hundreds of ways.
+@page
+Which shall I use this time?
+Which kind of death is suitable for this glasses wearing monkey?
+@page
+I think for a while.
+And the method that I hit on is--
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→230601
+@jump storage="230601.scn"

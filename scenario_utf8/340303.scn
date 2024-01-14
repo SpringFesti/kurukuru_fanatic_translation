@@ -1,0 +1,29 @@
+﻿;340303
+*340303|_かごめとの約束
+@fi s=k211a pos=c
+@v s=30399
+@【かごめ】
+"After..."
+@page
+;【演出】かごめ立ち絵大
+@fi s=k214ad pos=c
+Otogiri-san comes straight to my side.
+As she comes within inches of me, my heartbeat quickens.
+@page
+@【至】
+"O, Otogiri-san?"
+@page
+@fi s=k345ad pos=c
+@v s=30400
+@【かごめ】
+"I'll apologize one more time.
+Onee-chan will give you another amazing thing today."
+@page
+Her hand loosely caresses my crotch,
+and my body shakes from my stomach to my ears.
+@page
+@fi id=k
+@mwoff
+;→340400
+@bgm fade=stop
+@jump storage="340400.scn"

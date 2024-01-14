@@ -1,0 +1,410 @@
+﻿;260102
+*260102|_４人で１人
+;【備考】主人公視点
+;【備考】前ラベルでエンディング処理ならワイプ不要？
+;【備考】とりあえずスタッフロールは考えずに視点変更のワイプを入れておきます。
+;【ＣＧ】evn2050
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evn2050 trans=tile
+@bgm s=bgm06
+@mwon
+@v s=21442
+@【祀利】
+"Nfufufu-♪　I can finally meet Papa after so long. I'm looking forward to it-."
+@page
+... 20 days later. Matsuri is in the airport with me.
+@page
+Boarding has already finished. Matsuri's daddy prepared fake passports.
+@page
+Matsuri and I are going to leave Japan.
+Since we caused an event like that, there's no helping it.
+@page
+However, I don't have any regrets.
+I'm with Matsuri, so I'm sure we can do anything together.
+@page
+Yeah, compared with the tension I felt then,
+most things won't bother me--
+@bgm fade=out
+@page
+;【ワイプ】場面転換
+;【背景】自宅居間・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04b trans=円形(外から中へ)
+@bgm s=bgm11
+@fi s=f559 pos=c
+@mwon
+@se s=se013
+I set the timer for three minutes, and turn the switch on.
+@page
+@【至】
+"My fate isn't going to change.
+After all, I'm going to blow up right here."
+@page
+It was the switch of a time bomb.
+@page
+@fi s=f65b pos=c
+@v s=40563
+@【ファヌル】
+"... Heh, so this is your decision.
+It's interesting. Very interesting."
+@page
+@【至】
+"Yeah, I'm a pretty interesting guy.
+If you get that, disappear.
+Please let me die quietly at the end."
+@page
+@fi s=f65a pos=c
+@v s=40564
+@【ファヌル】
+"Alright, well, I guess I should let you do what you want to. See ya."
+@page
+@fi s=f55b pos=c
+@v s=40565
+@【ファヌル】
+"... But you really are an interesting guy.
+A forced double-suicide with the woman you valued so much as a traveling companion, huh?"
+@page
+@【至】
+"... Wait. Wait, wait.
+Fanuel, what did you just say?"
+@page
+@fi s=f312 pos=c
+@v s=40566
+@【ファヌル】
+"Huuuh? Didn't you want to die quietly or something?
+Just let me disappear so you can die without a care."
+@page
+@【至】
+"Please, just wait one moment!"
+@page
+I bow to her, prostrating myself to her.
+@page
+@【至】
+"Could you explain what you just said a moment ago?"
+@page
+@fi s=f559 pos=c
+@v s=40567
+@【ファヌル】
+"What I said... right? About you being an interesting person?"
+@page
+@【至】
+"No, after that."
+@page
+@fi s=f111 pos=c
+@v s=40568
+@【ファヌル】
+"The woman you valued?"
+@page
+@【至】
+"Right after that."
+@page
+@fi s=f412 pos=c
+@v s=40569
+@【ファヌル】
+"The forced double-suicide with your traveling companion?"
+@page
+@【至】
+"Yeah! Why is it a "double-suicide"? This is just a normal suicide.
+I'm dying by myself."
+@page
+@【至】
+"For it to be a double suicide, you need two people that are both alive."
+@page
+@fi s=f55a pos=c
+@v s=40570
+@【ファヌル】
+"That's right. Japanese has its nuances at times. What a nice language."
+@page
+@【至】
+"I'm the only living human being here.
+You're an angel, so you don't count, right?"
+@page
+@fi s=f759 pos=c
+@v s=40571
+@【ファヌル】
+"Well, duh. ... So you've noticed, I take it?"
+@page
+@【至】
+"Then... then that means..."
+@page
+@fi s=f211 pos=c
+@v s=40572
+@【ファヌル】
+"Yep, that's right. Matsuri is still alive.
+She can live, if she gets treatment right away."
+@page
+@bgm s=bgm09
+@qk time=1000
+@lfont
+@【至】
+"SAY THAT FIRST!"
+@page
+I pick up the time bomb in a hurry.
+@page
+@fi s=f55a pos=c
+@v s=40573
+@【ファヌル】
+"Ah, before you say anything, an amateur like you can't defuse a bomb like that. If you try to forcibly stop it, the bomb goes BOMB!"
+@page
+@【至】
+"Why do you know something like that!?"
+@page
+@fi s=f559 pos=c
+@v s=40574
+@【ファヌル】
+"I'm an angel. Or what, should I not have told you?"
+@page
+@【至】
+"Thank you for telling me."
+@page
+I bow deeply.
+@page
+@【至】
+"I can't disarm the bomb... so... please help me escape!"
+@page
+I intended to escape the house with Matsuri.
+@page
+@fi s=f65a pos=c
+@v s=40575
+@【ファヌル】
+"The explosion is in 50 seconds. We probably won't be in time.
+Or wait, won't it be bad if you go outside?
+@page
+That's true. There's a crowd of police outside.
+@page
+@qk time=1000
+@【至】
+"Guaaah! Oh, whatever!"
+@page
+I was too hasty. Revelling in the tragic scene, I committed the worst mistake of my soon-to-be-over life.
+@page
+This would be the worst drama to watch ever.
+@page
+@fi s=f55b pos=c
+@v s=40576
+@【ファヌル】
+"... Fufufu, so, you want me to help you?
+I can easily get you out of this by
+teleporting you safely away."
+@page
+@【至】
+"Fanuel-sama! I beg of you, please do so!"
+@page
+@qk
+I rub my head on the floor, genuflecting intensely.
+@page
+@fi s=f311 pos=c
+@v s=40577
+@【ファヌル】
+"However, there is a condition."
+@page
+@fi s=f559 pos=c
+@v s=40578
+@【ファヌル】
+"Tell me why you switched that bomb on.
+If it's an interesting answer, I'll help you."
+@page
+@【至】
+"Why... You're asking why...?"
+@page
+Simply put, it's because I thought that Matsuri died. That's all.
+@page
+But Fanuel probably won't accept that answer.
+@page
+@fi s=f111 pos=c
+@v s=40579
+@【ファヌル】
+"You got 30 seconds."
+@page
+In the first place, it's because I fell in love with Matsuri.
+@page
+She threatened me with a gun, raped me, plunged me into her butt and looked at me with horrible eyes.
+@page
+That's not proper love from any perspective.
+@page
+@fi s=f759 pos=c
+@v s=40580
+@【ファヌル】
+"20 seconds."
+@page
+Still, I love Matsuri.
+It's hopeless.
+If Matsuri died, I have no desire to live.
+@page
+That's not proper at all. But... but..."
+@page
+@fi s=f212 pos=c
+@v s=40581
+@【ファヌル】
+"10 seconds. What, you aren't going to answer after all?"
+@page
+@【至】
+"Wait. I'll answer you.
+Why I pressed the switch, huh?
+That's probably because..."
+@page
+@【至】
+"I'm insane too."
+@page
+@fi s=f55b pos=c
+@v s=40582
+@【ファヌル】
+"... Heh, you barely pass."
+@page
+@fi s=f211 pos=c
+@v s=40583
+@【ファヌル】
+"Alright, let's go.
+@wait time=2500
+@fi s=f41d pos=c
+To the teleport in your heaaaaaaart!"
+@se s=se124 loop=true
+@starpfx
+@page
+@qk
+@lfont
+@【至】
+"BAD JOKE!"
+@page
+@se fade=stop
+;【演出】爆発演出
+;【ＳＥ】爆発音
+;【ワイプ】場面転換
+@mwoff
+@stoppfx
+@flash
+@bi s=white all=true time=700
+@se s=se129
+@qk time=1000
+@bgm fade=out
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg810 trans=円形(中から外へ)
+@bgm s=bgm20
+@mwon
+... So that's the story.
+@page
+I never saw Fanuel again.
+@page
+She may have completed her duty,
+so she returned to her original world.
+@page
+The proof is that Matsuri forgot about Fanuel.
+@page
+All memories of her vanished.
+@page
+I'm indebted to her until the last.
+I'd like to say goodbye to her, someday.
+@page
+... I've been thinking about her a bit,
+since we've settled down in the area and all.
+@page
+@mnon time=300
+@mset l=4 h=true
+The place where Fanuel teleported us to
+was the park of the neighboring town.
+@waitclk
+@mnon time=300
+@mset l=4 h=true
+At once, while I carried Matsuri,
+I called her father and asked for help.
+@waitclk
+@mnon time=300
+@mset l=4 h=true
+He introduced us to a doctor that could treat Matsuri,
+and had an acquaintance shelter us.
+@waitclk
+@mnon time=300
+@mset l=4 h=true
+Fortunately, her injury wasn't serious, and she's back to her normal self.
+@waitclk
+@mnon time=300
+@mset l=3 h=true
+... Well, she's still got that multiple personality problem.
+@waitclk
+@mnon time=300
+@mset l=4 h=true
+For several hours all day long, Matsuri's other personalities sometimes show up.
+@waitclk
+@mnon time=300
+@mset l=4 h=true
+But they're fairly regular now, unlike before when they would act violently and shoot at people.
+@waitclk
+@mnon time=300
+@mset l=4 h=true
+So today, counting on Matsuri's father, we start our journey towards South America.
+@waitclk
+@mnoff
+@bi s=evn2050
+@mwon
+@【至】
+"... Escaping from our crimes to a foreign country?
+We're splendid criminals, alright."
+@page
+@v s=21443
+@【祀利】
+"Nn? What? Did you say something, Itaru?"
+@page
+@【至】
+"... No, not a thing."
+@page
+Well, whatever.
+@page
+When I look at Matsuri's smile, things like that seem trivial.
+@page
+@【至】
+"So Matsuri, how are the other three inside of you?
+Are they all doing alright in there?"
+@page
+I try to communicate to a place I don't understand very well.
+@page
+@v s=21444
+@【祀利】
+"Of course. I promised everyone, after all. I'll share Itaru with everyone equally."
+@page
+@v s=21445
+@【祀利】
+"Everybody loves Itaru!"
+@page
+@【至】
+"... Alright, then that's good."
+@page
+I'm glad. I'm relieved, from the bottom of my heart.
+@page
+Matsuri, Parade, Festa and Mardi-gras.
+@page
+I don't care who. All of them are Matsuri, and all of them are alive.
+@page
+In a new land, let's all be happy together, the five of us--
+@bgm fade=out
+@page
+@bgm s=bgm15
+;【ＣＧ】evn2051
+@mwoff
+@bi s=evn2051
+@wait time=300
+@mwon
+@v s=21446
+@【祀利】
+"... Giggle... ahaha... then,
+What does Parade want...?"
+@page
+@v s=21447
+@【祀利】
+"What part of Itaru do you want?
+His right hand...? His eyeball...? His lips...?"
+@page
+@v s=21448e
+@【祀利】
+"Or maybe... his dick?"
+@page
+@mwoff
+@bgm fade=out
+@eval exp="sf._matsu=1"
+@jump storage="scriptend.ks"
+;→タイトル画面

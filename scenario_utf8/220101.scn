@@ -1,0 +1,197 @@
+﻿;220101
+*220101|_絶対に大丈夫！
+@【至】
+"No way! No! Way!
+@page
+I can't let her, no matter how I think about it.
+I'm not that kind of person.
+@page
+@v s=20114
+@【祀利】
+"Ehh? Why? You don't have to hold back."
+@page
+@【至】
+"I'm not holding back, I really don't want to, from the bottom of my heart!
+Please don't deprive a man of his dignity!"
+@page
+@v s=20115
+@【祀利】
+"It's not scary, and it won't hurt, right?
+It'll feel really good, won't it?
+Even so... you still don't want to?"
+@page
+@【至】
+"No."
+@page
+@v s=20116
+@【祀利】
+"Whyyy? I'm sure it feel super amazingly good."
+@page
+@【至】
+"You could be a pro, a work of art, or a god for all I care! No still means no!
+No matter what!"
+@page
+@v s=20117
+@【祀利】
+"Sigh... if you don't want to, then I shouldn't."
+@page
+Did she finally understand. I'm completely relieved.
+@page
+@bi s=evh2011
+@v s=20118
+@【祀利】
+"But I'm still going to anyway.
+Don't move, okay? Otherwise bad things will happen."
+@page
+@【至】
+"I. Said. No!!!"
+@page
+@【至】
+"I-I can scream even if I can't move!
+If you do any more, I'll yell!"
+@page
+I feel like I've reached the mentality of a woman
+just before being raped.
+@page
+@bi s=evh2010
+@v s=20119
+@【祀利】
+"Even if you do, there's no point.
+I locked Wazuka in the bathroom."
+@page
+@【至】
+"E-Even if Wazuka-san can't help me, Fanuel can!
+"Fanuel! Help me! Heeey!"
+@page
+@v s=20120
+@【祀利】
+"Is it really that bad?
+I'm trying so hard to make you feel good..."
+@page
+@【至】
+"Thanks! Thank you so very much!
+But please, those feelings are enough!
+Rather, I only want to get those feelings!"
+@page
+@v s=20121
+@【祀利】
+"Alright, fine.
+If you were late, I'd regret it."
+@page
+@bi s=bg01m
+@se s=se041
+@qk
+Matsuri says that and stands up from the bed.
+She throws me the clothes she had taken off,
+and pouts as she leaves the room.
+@page
+@【至】
+"Phew... gimme a break.
+I was in a really big pinch there."
+@page
+@【至】
+"... Hey, wait. Heeey!
+Matsuri! Take these things off!"
+@page
+.........
+@wait time=1000
+... Huh? No reaction?
+@page
+@【至】
+"Matsuriii? Matsuri-saaan? Matsuri-samaaa?"
+@page
+No matter what I call out, there's no signs of Matsuri coming back.
+@page
+Being tied up and left here, it looks like
+some kind of S&M fetish play.
+I feel awful.
+@page
+@【至】
+"Heeey... somebody...
+Before I get some weird fetish,
+somebody save meeeeee...."
+@page
+@fi s=f112 pos=c
+@v s=40332
+@【ファヌル】
+"Don't say something so awful in the morning."
+@page
+@【至】
+"Oh, you're here! Please, help me!"
+@page
+I only get a sigh in response.
+She must've been amazed or just tired.
+Even so, she took off the shackles and chains.
+@page
+@【至】
+"Sigh... thanks, you really saved me.
+But that Matsuri... she's really outrageous."
+@page
+@v s=10232
+@【わずか】
+"Itaru-kun, are you alright?!"
+@page
+;【立ち絵】わずか私服
+@setOnce
+@fi s=f111 move=rc
+@fi s=w121 pos=lc
+@endOnce
+Panting, Wazuka-san runs into the room.
+@page
+@fi s=w122 pos=lc
+@v s=10233
+@【わずか】
+"Where is she!? Where did she run to!?"
+@page
+@【至】
+"Didn't you see her?
+... Eh, whatever. I'm fine now."
+@page
+@fi s=w321 pos=lc
+@v s=10234
+@【わずか】
+"No, you aren't. So... I've got to kill her."
+@page
+@【至】
+"No, it's fine. Rather than that, breakfast would be nice.
+I might be late if I don't get some soon."
+@page
+@se s=se027
+My cell-phone alarm goes off with awesome timing.
+Luckily, these two can read the situation quite well.
+@page
+@fi s=f656 @pos=rc
+@v s=40333
+@【ファヌル】
+"Heyhey, I'm reaaaally hungry.
+Go make some food, quick."
+@page
+@fi s=w121 pos=lc
+@v s=10235
+@【わずか】
+"Oh... it is a bit late, isn't it.
+This is our only chance."
+@page
+@fi id=w
+Wazuka-san goes off to make breakfast immediately.
+@page
+@【至】
+"... Are we okay?"
+@page
+I really don't want the table to become a sacrificial altar this early in the morning.
+@page
+@fi s=f211
+@v s=40334
+@【ファヌル】
+"Well, only God would know that."
+@page
+Come on, Fanuel.
+Now's not the time for jokes.
+@page
+But I'm sure that what she said was true.
+@page
+@fi id=f
+;→020200
+@mwoff
+@bgm fade=stop
+@jump storage="020200.scn"

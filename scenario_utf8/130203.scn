@@ -1,0 +1,155 @@
+﻿;130203
+*130203|_新たな悩み
+@fi s=w214 pos=c
+@v s=10871
+@【わずか】
+"Don't worry about me."
+@page
+She says that with a smile.
+@page
+@fi s=w547 pos=c
+@v s=10872
+@【わずか】
+"As long as you want me, I'll stand by you.
+That won't change if you fall in love with someone."
+@page
+@v s=10873
+@【わずか】
+"So don't worry about me. Just worry about yourself."
+@page
+@【至】
+"Wazuka-san..."
+@page
+@fi s=w411 pos=c
+@v s=10874
+@【わずか】
+"But I don't want to shackle you.
+So if I become an obstacle, tell me. I'll disappear."
+@page
+@【至】
+"... There's no way you could be an obstacle to me, Wazuka-san."
+@page
+@fi s=w114a pos=c
+@v s=10875
+@【わずか】
+"... Thank you."
+@page
+@【至】
+"That's my line."
+@page
+I reconfirm my strong desires.
+@page
+I'm glad, too glad, and I'm simply impressed.
+I'm happy. I really am happy.
+@page
+Somehow, my heart is filled with those empty feelings.
+@page
+@se s=se109
+@qk
+@flash
+@wait time=500
+@fi s=w112 pos=c
+Ergh.
+@page
+@fi id=w
+@fi s=m114 pos=c
+@v s=21589
+@【祀利】
+"Heyyy-! Itaru--!"
+@page
+@fi s=m514 pos=c
+;【ＳＥ】銃声
+;【ＳＥ】銃声　この２発を同時に鳴らすのはＮＧ。
+@se s=se109
+@qk
+@flash
+@wait time=500
+@se s=se109
+@qk
+@flash
+@v s=21590
+@【祀利】
+"Why'd you leave me behind-!? Meanie-!"
+@page
+@【至】
+"S-Sorry! Look, I'm sorry, so don't shoot me--!"
+@page
+@setOnce
+@fi id=m
+@fi s=w111 pos=c
+@endOnce
+@v s=10876
+@【わずか】
+"You don't have to apologize.
+She's only a brute."
+@page
+;【話者】以降パレード
+@setOnce
+@fi id=w
+@fi s=m51c pos=c
+@endOnce
+@v s=21591
+@【祀利】
+"So this is your work!? Don't fuck with me!
+I'll blow a fuckin' hole in your face today!"
+@page
+;【立ち絵】わずか、包丁を持つ
+@setOnce
+@fi s=w311 pos=lc
+@fi s=m51c move=rc
+@endOnce
+@v s=10877
+@【わずか】
+"Heh."
+@page
+Ahhh! It's starting again!
+@page
+@【至】
+"No, not this again! I'm just going to go ahead!"
+@page
+;【立ち絵】全立ち絵消去
+;【演出】走っているエフェクト
+;【演出】同時に
+@setOnce
+@lineFXon
+@bi s=current all=true trans=crossfade
+@se s=se078
+@fi s=w119 pos=lc
+@fi s=m113 pos=rc
+@endOnce
+;@bi s=bg8100
+@v s=10878
+;@【わずか】
+;「あっ」
+;@v s=21592
+;@【祀利】
+"Ahh!"
+@page
+@bi s=current all=true trans=crossfade time=100
+@stoppfx
+He who fights and runs away, may live to fight another day.
+That is to say, they might stop if I go ahead of them.
+@page
+@v s=10879
+@【わずか】
+"Wait, Itaru-kun!"
+@page
+@v s=21593
+@【祀利】
+"Itaru, waaait!"
+@page
+I hear those two behind me.
+As expected, they're after me.
+Hopefully this'll prevent that pandemonium.
+@page
+So basically the usual.
+@page
+But it's different than usual, for some reason.
+@page
+Perhaps because of the kiss, or that empty feeling from before,
+but no matter how much I think of it, I can't understand it...
+@page
+@bgm fade=out
+@mwoff
+;→130300
+@jump storage="130300.scn"

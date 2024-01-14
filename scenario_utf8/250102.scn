@@ -1,0 +1,64 @@
+﻿;250102
+*250102|_祀利達を見て
+;【ワイプ】時間経過
+;【背景】自宅居間・夜
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04b trans=clock
+@bgm s=bgm15
+@mwon
+@【至】
+"... Nn... huh...? What time is it...?"
+@page
+My surroundings are dark.
+When I look at my watch, it looks like it's 9:00 PM. Night time.
+@page
+I was certainly having sex with Parade earlier this afternoon,
+but then my memory stops...
+@page
+@【至】
+"I slept for a long time.
+Though much of it was lack of sleep...
+Am I a bigshot or something?
+@page
+Outside the window, that red light turns like normal.
+@page
+@【至】
+"So persistent... well, because you're working so hard,
+I guess I can overlook it... or can I?"
+@page
+@【至】
+"Now that I think about it, it's strangely quiet...
+Where is she?"
+@page
+I look around the room, and see Matsuri-- or is it
+the Matsuris now, sleeping on the couch.
+@page
+@v s=21391
+@【祀利】
+"Zzz... zzz... zzz..."
+@page
+Leaning on the wall, she snores cutely.
+@page
+@【至】
+"That's right... she hadn't slept at all yesterday."
+@page
+Her sleeping face is cute.
+It's unbelieveable that the person that has that face could
+have had sex, fired a gun, or called someone a pervert yesterday.
+@page
+Somehow, she seems like a regular kid...
+@page
+Unconsciously, I scratch my head.
+@page
+@【至】
+"Hm...? Huh? I can move my hand."
+@page
+I notice at last. My body can move.
+The handcuffs, the shackles, the chains.
+All have been removed.
+@page
+;→250103
+@jump storage="250103.scn"

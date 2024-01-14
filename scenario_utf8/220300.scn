@@ -1,0 +1,459 @@
+﻿;220300
+*220300|_祀利の秘密
+@setOnce
+@fi s=f214 move=rc
+@fi s=w121 pos=lc
+@endOnce
+@v s=10572
+@【わずか】
+"... However, it seems like her memory is confused when
+she changes personalities."
+@page
+@【至】
+"Looks like it. With what just happened, and what's been happening up until now... it all makes sense."
+@page
+Even the, er... thing... that happened today, that I can't mention here.
+@page
+The Matsuri who fell down the stairs.
+The Matsuri who rested in the classroom.
+Then, the Matsuri who fought in her hometown.
+@page
+@【至】
+"... We can probably tell which one it is from her tone."
+@page
+@setOnce
+@fi id=f
+@fi s=w121 pos=lc
+@fi s=m64b pos=rc
+@endOnce
+@v s=20637
+@【祀利】
+"What do you mean? Itaru, I don't get this at alllll."
+@page
+@fi s=w122 pos=lc
+@v s=10573
+@【わずか】
+"It's okay if you don't get it. You're going to die soon, anyway."
+@bgm fade=stop
+@bgm s=bgm16
+@page
+@fi s=m64a pos=rc
+@v s=20638
+@【祀利】
+"Ohhh... what's that? You think you can do it?"
+@page
+@fi s=w321 pos=lc
+@v s=10574
+@【わずか】
+"Of course."
+@page
+She pulls out the knife.
+Under the light, it shines in many different colors.
+@page
+@【至】
+"Stop! Didn't you just say you'd forgive her!?"
+@page
+@fi s=m112 pos=rc
+@v s=20639
+@【祀利】
+"Itaru, don't worry.
+Matsuri will be okay."
+@page
+@se s=se131
+@fi s=m315 pos=rc
+@v s=20640
+@【祀利】
+"Because now I'm here. Noww, how many seconds will this take?"
+@page
+The guns held by Matsuri shine slightly differently.
+Both, though, are aimed at the head and the heart.
+@page
+@fi s=w322 pos=lc
+@v s=10575
+@【わずか】
+"It's no big deal with you can't hit me.
+Before you can... I'll kill you!"
+@page
+;@fi s=w322 pos=lc
+;@fi s=m315 pos=rc
+The air between the two of them shimmers.
+Little by little, the distance between the two of them narrows.
+@page
+@fi s=m315 pos=rc
+@v s=20641
+@【祀利】
+"Heh heh... I'm shivering.
+This is it! This is how a person should kill another!"
+@page
+@fi s=w321 pos=lc
+@v s=10576
+@【わずか】
+"Enjoy it while you can."
+@page
+At the time, Matsuri didn't understand what Wazuka-san was doing.
+@page
+She wasn't getting closer to Matsuri.
+She was looking at someone else.
+That person was--
+@page
+@setOnce
+@fi id=m
+@fi id=w
+@endOnce
+@fi s=w124 pos=lc slide=r
+@v s=10577
+@【わずか】
+"Fanuel-chan."
+@page
+@fi s=f114 pos=rc
+@v s=40473
+@【ファヌル】
+"Awah, whaaat?"
+@page
+She calls out to Fanuel, not even looking at Matsuri.
+@page
+@fi s=w121 pos=lc
+@v s=10578
+@【わずか】
+"Move your finger towards Matsuri, round and round, until I say okay."
+@page
+@fi s=f111 pos=rc
+@v s=40474
+@【ファヌル】
+"Like before?"
+@page
+@fi s=w124 pos=lc
+@v s=10579
+@【わずか】
+"Yep, like before... hypnotize her."
+@page
+@fi s=f65b pos=rc
+@sfont
+@v s=40475
+@【ファヌル】
+"Heh, just like I thought."
+@page
+@fi s=w123 pos=lc
+@v s=10580
+@【わずか】
+"--Huh? Did you just..."
+@page
+@fi s=f114 pos=rc
+@v s=40476
+@【ファヌル】
+"Ooookey-dokey, here we goooo!"
+Right there, nanananananana!"
+@cut s=cut2310 trans=rotin
+@cutrot
+@page
+Fanuel's finger moves round and round, just like a little while ago.
+@page
+It's a strange sort of atmosphere.
+However, that's only for a little bit.
+Then, Matsuri's body starts to shake.
+@page
+@cut trans=out
+@bi s=current all=true trans=crossfade
+@fi s=m31cb pos=c
+@act id=m t=swing
+@v s=20642
+@【祀利】
+"W-What the fuck is that!?
+Fucker... stop your goddamned finger!"
+@page
+Matsuri pointed her gun at Fanuel.
+However, it immediately dropped to her side.
+@page
+@act id=m t=stopswing
+@fi s=m11cb pos=c
+@act id=m t=swing
+@v s=20643
+@【祀利】
+"Damn it... damn it! I can't do anything!
+The fuck is this!? Is this that hypnotism shit!?"
+@page
+I think this is probably the power of an angel.
+It's peeping into your mind, and probably your soul.
+@page
+Fanuel laughs, indicating that as the correct answer.
+@page
+However, Fanuel isn't taking sides. She won't stop her finger, though.
+She's just doing what she finds most interesting.
+@page
+@setOnce
+@act id=m t=stopswing
+@fi id=m
+@fi s=w124 pos=lc
+@fi s=f214 pos=rc
+@endOnce
+@v s=40477
+@【ファヌル】
+"There we areeee, nanananana.♪
+How's that? Isn't hypnotizm aaawesome?♪"
+@page
+@fi s=w124 pos=lc
+@v s=10581
+@【わずか】
+"Yeah, it really is awesome.
+I'll give you some cookies with milk later."
+@page
+@fi s=w321 pos=lc
+@v s=10582
+@【わずか】
+"Before that, though... let's kill her."
+@setOnce
+@page
+She raises her knife, and walks towards her destination.
+Her destination is, of course, Matsuri.
+@page
+@setOnce
+@fi id=w
+@fi id=f
+@fi s=m11cb pos=c
+@endOnce
+@act id=m t=swing
+@v s=20644
+@【祀利】
+"Shit... move! Move, damn it!
+If it wasn't for this fucking hypnotizm...
+that fuckerrrrr!"
+@page
+Her roar, mixed with curses, fills the room.
+Wazuka-san smiles as she walks forward--
+and stops in front of Matsuri.
+@page
+@act id=m t=stopswing
+@setOnce
+@fi s=m11cb move=rc
+@fi s=w325 pos=lc
+@endOnce
+@v s=10583
+@【わずか】
+"Goodbye."
+@page
+@bi s=current all=true trans=crossfade time=100
+@bi s=bg850 time=100
+@se s=se067
+Then, the blade of a dull color is flung upwards.
+Flying forward, it's brought down on Matsuri--
+@page
+@bi s=blank time=100
+@qk time=1000
+;@lfont
+@v s=20645
+@【祀利】
+"WAAAAHHHHHH!"
+@page
+@bi s=bg04d time=100
+@qk
+@flash
+@lfont
+@【至】
+"STOP!"
+@page
+;@bi s=current all=true trans=crossfade
+My hand grips Wazuka-san's wrist, stopping the hand with the knife.
+@page
+Then, I start to twist.
+I'll apologize to her later...
+Thinking that, I restrain her arm.
+@page
+@fi s=w122d pos=c
+@qk
+@v s=10584
+@【わずか】
+"Let me go! I need to kill her!"
+@page
+@【至】
+"Hell no! Don't kill her! I won't let you kill her!
+I've said that so many damned times!"
+@page
+@fi s=w123d pos=c
+@v s=10585
+@【わずか】
+"Itaru-kun... but... this is for you...!"
+@page
+An emaciated expression appears on Wazuka-san's face.
+For now, Matsuri hasn't been harmed.
+Now--
+@page
+@fi id=w
+@fi s=f211 pos=c
+@【至】
+"Hey Fanuel, stop that.
+This is our problem.
+You're just supposed to be--"
+@page
+"A watcher?"
+Fanuel laughs faintly at the question I ask in my mind.
+@page
+@fi s=f559 pos=c
+@v s=40478
+@【ファヌル】
+"Alright, I got you. Weeeell, looks like playtime is over."
+@page
+@v s=20646
+@【祀利】
+"No... this is the real thing!"
+@page
+@fi id=f
+Before I can look to see who said that, a gust of wind blows past my side.
+@page
+It was Matsuri.
+Before I even knew what was going on,
+she ran outside, right out the front door.
+@page
+@【至】
+"H-Hey, Matsuri! What's wrong!?
+Come back! Wazuka-san won't do anything to you!"
+@page
+No reply.
+@page
+Maybe I should go out and look for her--
+I face the door, thinking that.
+@page
+;【ＳＥ】銃声
+@se s=se109 v=50
+@fi s=w129 pos=c
+@qk
+@lfont
+@v s=10586
+@【わずか】
+"Kyah!?
+@page
+I look back, and see a bullet hole where Wazuka-san was standing.
+@page
+@se s=se109 v=50
+Once again, a gunshot echoes out.
+A glittering remains of a bullet shine on the floor, obviously directed at Wazuka-san.
+@page
+@fi s=w122 pos=c
+@v s=10587
+@【わずか】
+"Damn it! She's sniping from outside...!"
+@page
+;【備考】外から怒鳴る感じで
+@v s=20647 v=50
+@【祀利】
+"Bastard! You fucking cheater!"
+@page
+@se s=se110 v=50
+;【ＳＥ】銃声
+One after another, bullets rain upon her.
+@page
+@v s=20648
+@【祀利】
+"Bitch!　I'll blow your brains out, fucker!
+I'll kill you and have a pig rape your corpse!"
+@page
+@setOnce
+@fi s=w122 move=lc
+@fi s=f311 pos=rc
+@endOnce
+@v s=40479
+@【ファヌル】
+"Sigh, so this really did end up happening.
+Wazuka-san, what'cha gonna do?"
+@page
+@fi s=w322 pos=lc
+@v s=10588
+@【わずか】
+"I have to kill her. Wait just a minute."
+@page
+@fi id=w
+Clenching her knife, she starts to head outside to face the bullets.
+@page
+@【至】
+"Stop! Don't you know you're just going to make it worse!?
+Wait here Wazuka-san, I'll go stop her."
+@page
+@fi s=w322 pos=lc
+@v s=10589
+@【わずか】
+"No. I'm going to go kill her."
+@page
+@【至】
+"So stop already!"
+@page
+@【至】
+"We're the original cause of all this.
+If we hadn't done that hypnotism thing, this wouldn't have happened, right?"
+@page
+@fi s=w558 pos=lc
+@v s=10590
+@【わずか】
+"That's true... but..."
+@page
+@【至】
+"We'll talk later. I have to stop Matsuri now."
+@page
+@fi s=f414 pos=rc
+@v s=40480
+@【ファヌル】
+"Well, it might be too late now."
+@page
+@【至】
+"What?"
+@page
+@fi s=f311 pos=rc
+@v s=40481
+@【ファヌル】
+"It suddenly quieted down, didn't it?
+This might be her strategy."
+@page
+Well, the sound of gunfire from a little while ago have stopped.
+@page
+What kind of strategy could it be?
+Are we suddenly going to get assaulted or something?
+@page
+Well-- I was half right.
+@page
+;【ＳＥ】銃声　ボリューム小さく
+@se s=se109 v=50
+Immediately after I hear another gunshot, I hear a crash in the entranceway.
+@page
+What could it-- before I finished thinking that, the answer became clear.
+@page
+@se s=se019
+@bi s=bg04b time=100
+@【至】
+"Woah!? A power outage?"
+@page
+@fi s=w322 pos=lc
+@v s=10591
+@【わずか】
+"She probably broke the switchboard. She's coming."
+@page
+Wazuka-san grasps her knife with a tense look.
+@page
+All noises have disappeared from the living room.
+Only us, breathing in the dark.
+@page
+To deny my own fear, to push it back, I shout questions at Matsuri--
+who may already be in the house.
+@page
+@【至】
+"Matsuriii!　Come outtt!　Don't do anything!
+We apologized a little while ago! So please forgive us!"
+@page
+No answer, though.
+The room around us has become sticky with silence.
+Matsuri must be lurking somewhere in that--
+@page
+;@fi s=w322 pos=lc
+@v s=10592
+@【わずか】
+"... If you're going to shoot, shoot.
+The heart or the head, either place is fine.
+However... I'll kill you. Without fail... I'll kill you."
+@page
+The silence weakens slightly.
+A dense murderous intent mixes with it.
+@page
+The silence still stuck to us.
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+;→220302
+@bgm fade=stop
+@jump storage="220302.scn"

@@ -1,0 +1,61 @@
+﻿;320201
+*320201|_メール、する。
+;【ワイプ】視点変更
+;【背景】かごめ自室・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07d trans=ランダム
+@bgm s=bgm15
+@fi s=k355a pos=c
+@mwon
+@v s=30133
+@【かごめ】
+"Hahh... yeah, this is really nice...
+You've got a high score, Takamichi-kun, too high of a score..."
+@page
+Our replies become less and less awkward, and he's more like a younger brother again.
+We aren't very decorative with our words, and there aren't many compliments floating around.
+@page
+@fi s=k123a pos=c
+@v s=30134
+@【かごめ】
+"But I want him to compliment me a little.
+Your older sister just wants a little, okay?"
+@page
+If he can, his score will go through the roof.
+I just want to be selfish and tell him my desires a little.
+@page
+He's a lion at home and a mouse outside.
+He's at a rebellious age, but I'll permit it a little.
+-- But if he keeps going, I'll punish him.
+@page
+;【ＳＥ】携帯電話着信音
+@setOnce
+@se s=se032
+@fi s=k455a pos=c
+@endOnce
+@v s=30135
+@【かごめ】
+"Nhhhhh... ha...hh.
+But this time... was a little fast, huh?"
+@page
+I'm very excited right now.
+With just that, my present conditions would be a success.
+@page
+But it's not just my heart that's excited.
+My heart and my body are closely linked.
+When a mail comes, I feel hot. I can't do anything about it.
+@page
+Then, I decided what I would do with this hotness.
+@page
+@fi s=k124a pos=c
+@v s=30136
+@【かごめ】
+"Fufu... please your older sister more.
+Fully... until the end..."
+@page
+@fi id=k
+@bgm fade=stop
+@jump storage="320202.scn"
+;→320202

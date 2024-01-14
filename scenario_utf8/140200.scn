@@ -1,0 +1,249 @@
+﻿;140200
+*140200|姉だから！
+;【ワイプ】時間経過
+;【背景】教室・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@se s=se011
+@wait time=2000
+@bgm s=bgm03
+@fi s=k214 pos=c
+@mwon
+@v s=30937
+@【かごめ】
+"Good morning, Takamichi-kun."
+@page
+Just like yesterday, Otogiri-san greets
+me as soon as she enters the classroom.
+@page
+@【至】
+"Morning, Otogiri-san."
+@page
+@fi s=k114 pos=c
+@v s=30938
+@【かごめ】
+"I made you one today too, okay?"
+@page
+Cutting about two parts of the conversation out,
+Otogiri-san cuts to the chase and hangs me a lunch box.
+She's really racing today, isn't she?"
+@page
+@fi s=k112 pos=c
+@se s=se064
+@qk time=600
+@v s=30939
+@【かごめ】
+"Ahh..."
+@page
+The lunch box is slapped out of my hand.
+@page
+Otogiri-san can't even react.
+The lunch box tragically falls to the floor.
+;【ＳＥ】弁当が落ちる音
+@page
+@fi s=k112 move=rc
+@fi s=m112 pos=lc
+@v s=21634
+@【祀利】
+"So what's with the bad joke?"
+@page
+Over the past two days I've become overly familiar
+with her way of trampling on Otogiri-san's goodwill.
+@page
+@fi s=k347 pos=rc
+@v s=30940
+@【かごめ】
+"Th...is... tiny bitch...mnn..."
+@page
+@【至】
+"S-Sorry! It fell on the floor, but it's still okay to eat!
+Please forgive her, okay?"
+@page
+@v s=30941
+@【かごめ】
+"Ha... phew..."
+@page
+@fi s=k214 pos=rc
+@v s=30942
+@【かごめ】
+"Oh no, you can't eat that. You'd get a sick stomach."
+@page
+@【至】
+"But if you made it, then I really shouldn't be wasting it, so--"
+@page
+@fi s=k114 pos=rc
+@v s=30943
+@【かごめ】
+"It's okay. There's more where that came from."
+@page
+Rustling around in her bag, she takes out a second lunch box.
+@page
+@fi s=m747 pos=lc
+@se s=se064
+@qk time=600
+@v s=21635
+@【祀利】
+"Hah!"
+@page
+;【ＳＥ】弁当が落ちる音
+And Matsuri slaps it down, just like before.
+@page
+@fi s=k111 pos=rc
+@【かごめ】
+"......"
+@page
+@fi s=k114 pos=rc
+@v s=30944
+@【かごめ】
+"Here's another."
+@page
+@fi s=m111 pos=lc
+@se s=se064
+@qk time=600
+@v s=21636
+@【祀利】
+"Nah."
+;【ＳＥ】弁当が落ちる音
+@page
+@v s=30945
+@【かごめ】
+"Another..."
+@page
+;【ＳＥ】弁当をはたく音
+@se s=se064
+@qk time=600
+@v s=21636
+@【祀利】
+"Nope."
+;【ＳＥ】弁当が落ちる音
+@page
+@v s=30946
+@【かごめ】
+"Here you go-"
+@page
+@se s=se064
+@qk time=600
+@v s=21637
+@【祀利】
+"Down you go-"
+;【ＳＥ】弁当が落ちる音
+@page
+@【かごめ】
+"........."
+@page
+She must be really angry right now, but she's
+hiding it as she goes into her bag again--
+@page
+-- Wait, there's still more!?
+@page
+@fi s=m64b pos=lc
+@v s=21638
+@【祀利】
+"Sigh... alright, fine."
+@page
+Yielding to Otogiri-san's Unlimited Lunchbox Works,
+Matsuri shrugs her shoulders and gives up.
+@page
+And so, Otogiri-san gives me a lunch box--
+the sixth one finally passes into my hands.
+@page
+@【至】
+"Please don't slap them out of my hands any more."
+@page
+@fi s=m74b pos=lc
+@v s=21639
+@【祀利】
+"I really can't, at this point.
+What is that, a Bag of Holding?"
+@page
+It certainly does look like it holds anything.
+@page
+@fi s=m111 pos=lc
+@v s=21640
+@【祀利】
+"Well, hmm...
+That lunch box was pretty good..."
+@page
+I see. Is that her real reason?
+@page
+@fi s=m112 pos=lc
+@v s=21641
+@【祀利】
+"So even if I hate you, I won't hate your cooking."
+@page
+What?
+@page
+@【至】
+"But yeah, it was delicious.
+You're really good at cooking, Otogiri-san."
+@page
+@fi s=k214 pos=rc
+@v s=30947
+@【かごめ】
+"Oh, I'm not that great.
+It's natural for an older sister to be able to do this much."
+@page
+I'm confused for a second about what older sisters have to
+do with this, but then I realize it's her obsession again. Got it.
+@page
+@【至】
+"Err, yeah... you really did make me lunch again, didn't you?"
+@page
+@fi s=k114 pos=rc
+@v s=30948
+@【かごめ】
+"Yep. It's only natural for an older sister to make them every day, right?"
+@page
+@【至】
+"Huh? Isn't that hard for you?"
+@page
+@fi s=k214 pos=rc
+@v s=30949
+@【かごめ】
+"Yesterday's lunch box was a thank-you.
+Today's were made as an older sister."
+@page
+@【至】
+"No, I get the older sister thing, but
+you didn't have to do this."
+@page
+@fi s=k211 pos=rc
+@v s=30950
+@【かごめ】
+"Come on, don't turn down the goodwill of an older sister."
+@page
+Infinite loop. Got it.
+@page
+@【至】
+"Matsuri～."
+@page
+I send out a request for assistance to Matsuri, expecting reinforcements."
+@page
+@fi s=m112 pos=lc
+@v s=21642
+@【祀利】
+"Mmn～～♪.　Delicious～～."
+@page
+The reinforcements were eating.
+@page
+Before I knew it, Matsuri was eating the lunch boxes
+from before off the floor.
+@page
+... Ah, I see. Festa had left in the middle of breakfast,
+so she must be hungry right now.
+@page
+@fi s=m748 pos=lc
+@v s=21643
+@【祀利】
+"Aww, I can't hate this cooking after all～♪."
+@page
+That sure is a nice smile when she's talking about hatred.
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+@jump storage="140201.scn"
+;→140201

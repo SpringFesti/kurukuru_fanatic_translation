@@ -1,0 +1,106 @@
+﻿;240101
+*240101|_１０月３０日午前８時２０分
+;【備考】わずか視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】学校廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm05
+@fi s=w112 pos=c
+@mwon
+I bite my lip, watching Itaru-kun go down the corridor.
+@page
+So annoying... I wonder how I can remove that conceited brat from the picture.
+@page
+Those guns... if she didn't have those, I would be able to kill her easily.
+@page
+;@fi s=w211 pos=c
+I am not afraid of guns.
+I am not afraid of death.
+@page
+@fi s=w113 pos=c
+But... I can't leave Itaru-kun by himself.
+@page
+If I die, it will just be Itaru-kun and that girl...
+@wait time=700
+When I think that, I have to be careful.
+@page
+So what on earth could I...
+It's hard to do something about those guns alone.
+However, if I had a friend nearby...
+@page
+@v s=30220
+@【？？？】
+;@【かごめ】
+"...Kagemiya-senpai?"
+@page
+@fi s=w111 pos=c
+@v s=10643
+@【わずか】
+"Eh...?"
+@page
+@setOnce
+@fi s=w111 move=lc
+@fi s=k211 pos=rc
+@endOnce
+I recognize the girl standing behind me.
+@page
+@fi s=w412 pos=lc
+@v s=10644
+@【わずか】
+"What business do you have with me? Did you come here to die?"
+@page
+@fi s=k349 pos=rc
+@v s=30221
+@【かごめ】
+"...Kufufu... you'll be the dead one. All the girls
+in Takamichi-kun's way will die. That's fate."
+@page
+@fi s=k114 pos=rc
+@v s=30222
+@【かごめ】
+"However... that's not what I'm here about."
+@page
+@fi s=k111 pos=rc
+@v s=30223
+@【かごめ】
+"You and I... we both want to kill that fucking foreigner bitch, don't we?"
+@page
+@fi s=w111 pos=lc
+Ah, I see what she's talking about now.
+@page
+@fi s=k114 pos=rc
+@v s=30224
+@【かごめ】
+"So come on... let's team up, Kagemiya-senpai."
+@page
+So this is why she came. I don't refuse her.
+This could be rather convenient.
+@page
+We've got to do something about Matsuri. That's the first priority.
+@page
+As long as I can do away with her, I'm sure I can handle this one.
+@page
+I'm sure this girl is thinking the same thing. So there's no need for words.
+@page
+@fi s=w415 pos=lc
+@v s=10645
+@【わずか】
+"Fufufu... An interesting proposal."
+@page
+Yes, truly interesting.
+Now things are going just the way I want them to.
+@page
+I'll kill Matsuri, then her.
+@page
+Everyone bothering Itaru-kun should just die.
+@wait time=700
+And I'll kill them.
+@page
+;→240102
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+@jump storage="240102.scn"

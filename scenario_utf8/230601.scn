@@ -1,0 +1,208 @@
+﻿;230601
+*230601|_倍返し
+;【備考】主人公視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】住宅街路上・夕方
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08e trans=ランダム
+@bgm s=bgm03
+@fi s=m115 pos=c
+@mwon
+@v s=20836
+@【祀利】
+"He-eey, Itaru!"
+@page
+Matsuri returned from the school about fifteen minutes later.
+@page
+@fi s=m11c pos=c
+@v s=20837
+@【祀利】
+"You're still sticking around here? I thought I told you to go home."
+@page
+@【至】
+"I didn't know if you'd catch up, so I walked slowly."
+@page
+@fi s=m115 pos=c
+@v s=20838
+@【祀利】
+"Hmph, what a weird thing to think. Well, even if you did
+that, I'm not happy about it."
+@page
+@【至】
+"... Wait, that tone... Are you Parade?!"
+@page
+@fi s=m11c pos=c
+@v s=20839
+@【祀利】
+"Yeah, that's my name. What do you want?"
+@page
+@【至】
+"When did you come out?
+You didn't act violent or fly into a rage, did you?"
+@page
+@fi s=m115 pos=c
+@v s=20840
+@【祀利】
+"Not really. I didn't shoot my gun or fly into a rage."
+@page
+Note my very specific wording there.
+@page
+@【至】
+"Then why did you come out?"
+@page
+@fi s=m11c pos=c
+@v s=20841
+@【祀利】
+"W-Why... that's irritating. Do I need a reason to come out?"
+@page
+@【至】
+"No, I suppose not. I was just worried for a second..."
+@page
+@v s=20842
+@【祀利】
+"O-Oh... well, nothing happened. I j-just... let's go home.
+@page
+@【至】
+"Go home? Did your personality change again?"
+@page
+@fi s=m11ca pos=c
+@v s=20843
+@【祀利】
+"No, I just... I, um... I just wanted to home with you, that's all!"
+@page
+@【至】
+"Huh?"
+@page
+;@fi s=m115a pos=c
+@v s=20844
+@【祀利】
+"Ah..."
+@page
+@【至】
+"Oh, go home with me? Parade? For you to say that, that's gotta be--"
+@page
+@fi s=m11ca pos=c
+@v s=20845
+@【祀利】
+"Ahh, just shut up already, shut up!
+Fine! I know that you hate me!"
+@page
+@【至】
+"Wha!? Calm down! I didn't say that at all!"
+@page
+@setOnce
+@fi s=m11ca move=rc
+@fi s=w111 pos=lc
+@endOnce
+@v s=10628
+@【わずか】
+"I've been saying that all along, though."
+@page
+@v s=20846
+@【祀利】
+"Ohh, fine! Matsuri will take my place! Because you like her better!"
+@page
+@fi s=m74a pos=rc
+@【至】
+"W-Why is she so rowdy... hey, Parade?"
+@page
+@fi s=m113 pos=rc
+@v s=20847
+@【祀利】
+"Huh? Itaru? Why are you staring at Matsuri's face? Do you want to kiss or something?"
+@page
+@【至】
+"Ah, no... that's not... not really..."
+@page
+@fi s=w311 pos=lc
+@v s=10629
+@【わずか】
+"Please do so if you can. While you're kissing, she can't aim her gun, can she?"
+@page
+@【至】
+"... Speaking of that, because big sis back there is acting scary, let's leave it there for now.
+@page
+I wonder what Parade's attitude from before was about.
+@page
+@fi s=w111 pos=lc
+@【至】
+"Still, Matsuri went through some great troubles today. That bento was ruined, wasn't it."
+@page
+@fi s=m748 pos=rc
+@v s=20848
+@【祀利】
+"Ah... yeah. But it's okay. I did it... properly."
+@page
+I couldn't hear what Matsuri said at the end there.
+@page
+@fi s=m111 pos=rc
+@v s=20849
+@【祀利】
+"Matsuri is completely fine. The culprit must surely be a pitiable person. So you can't blame them too much.
+@page
+Even when she's being bullied, Matsuri sympathizes with the bully.
+@page
+With her strength and bravery, I realize that I'm becoming more and more attracted to Matsuri.
+@page
+@fi s=m212 pos=rc
+@v s=20850
+@【祀利】
+"Come on, let's go home."
+Matsuri grasps my hand with her own small hand.
+I squeeze her hand tightly.
+@page
+;【ＳＥ】爆発音遠くから聞こえる感じ
+@se s=se097 v=70
+@qk time=200
+@wait time=500
+@【至】
+"W-What was that sound just now!?"
+@page
+@fi s=w411 pos=lc
+@v s=10630
+@【わずか】
+"It came from the school."
+@page
+@【至】
+"That was a really big sound. Almost like an explosion."
+@page
+@fi s=m111 pos=rc
+@v s=20851
+@【祀利】
+"Oh, that was probably a gas explosion. Those happen when you forget to close gas valves. It's pretty common."
+@page
+@【至】
+"No, that's not common at all. That's a pretty major accident!"
+@page
+@fi s=m113 pos=rc
+@v s=20852
+@【祀利】
+"Huh, really? Those were pretty common in Matsuri's country."
+@page
+@【至】
+"Even so, it's pretty worrisome. Should we go back?"
+@page
+@fi s=m64b pos=rc
+@v s=20853
+@【祀利】
+"No, I don't wanna. I wanna go home and play with Itaru!"
+@page
+@【至】
+"B-but..."
+@page
+@fi s=m114 pos=rc
+@v s=20854
+@【祀利】
+"No, don't wanna! I wanna go home!"
+@page
+She pulls tightly on my hand while I hesitate.
+I was worried about the school, but I decided to return home willingly.
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+;→230602
+@jump storage="230602.scn"

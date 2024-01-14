@@ -1,0 +1,399 @@
+﻿;150300
+*150300|許さない……
+;【ワイプ】時間経過
+;【背景】教室
+;【ＳＥ】チャイム音
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=clock
+@bgm s=bgm11
+@mwon
+@se s=se011
+After all, I could only waste time until school ended.
+@page
+@se fade=out
+I thought about it for the longest time, but
+I couldn't figure out even one piece of the solution.
+@page
+No matter what I tried in my head, I was faced with those photographs.
+It's too difficult a problem to challenge on my own.
+@page
+... Perhaps, if Wazuka-san and I thought together...
+@page
+If Matsuri and Otogiri-san cooperated,
+perhaps if Wazuka-san and I tried the same thing,
+we could come up with an answer.
+@page
+... But no, I can't.
+I can't tell her anything.
+@page
+@【至】
+"Oh, I've got to text her."
+@page
+Sorry, I can't go back with you today.
+I send her only that short message.
+@page
+If I went home with her and told her about my troubles,
+we might reach a solution together.
+@page
+... However, there's a possibility that
+she could be put in danger if I did.
+@page
+So I'll endure it for now.
+Fortunately, I'm used to enduring it.
+@page
+@【至】
+"... Is this thanks to my mom's...?"
+@page
+Considering it, I begin to walk.
+@page
+;【ワイプ】場所移動
+;【背景】自宅玄関
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03d trans=ひし形(左から右へ)
+@bgm s=bgm15
+@setOnce
+@fi s=m111 pos=lc
+@fi s=k349 pos=rc
+@endOnce
+@mwon
+;@v s=21693
+;@【祀利】
+;「おかえり」
+@v s=31014
+@【かごめ】
+"Welcome back."
+@page
+Those two were already in the house when I returned.
+@page
+@fi s=m112 pos=lc
+@v s=21694
+@【祀利】
+"We were waiting. Let's go."
+@page
+@【至】
+"Oh, yeah..."
+@page
+;【ワイプ】場所移動
+;【背景】自室居間
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=ひし形(左から右へ)
+@mwon
+Although I should feel better from being in
+my own house, I can't calm down.
+@page
+Fear and cold sweat drip down my back.
+@page
+@【至】
+"... so, what are you going to do to me?"
+@page
+@setOnce
+@fi s=m111 pos=lc
+@fi s=k114 pos=rc
+@endOnce
+@v s=31015
+@【かごめ】
+"Fun things. Like yesterday..."
+@page
+@fi s=k211 pos=rc
+@v s=31016
+@【かごめ】
+"Don't worry. I won't use 'that' immediately."
+@page
+@fi s=k114 pos=rc
+@v s=31017
+@【かごめ】
+"Using 'that' takes up my strength, right?
+If I were to use it at the start, I'd get tired right away...
+So let's leave it for last, okay?"
+@page
+@【至】
+"Uhh... I'd rather you not use it at all!
+I know it might make you happy, but...
+it only hurts me!"
+@page
+Courageously, I shout that at her.
+@page
+However, there is no reaction from either of them.
+Rather, they just laugh, mockingly.
+@page
+@fi s=k214 pos=rc
+@v s=31018
+@【かごめ】
+"... Well then. We should start soon."
+@page
+@fi s=m112 pos=lc
+@v s=21695
+@【祀利】
+"Yeah."
+@page
+@setOnce
+@fi id=m
+@fi s=k345d pos=c
+@endOnce
+@v s=31019
+@【かごめ】
+"Then, right here.
+Takamichi-kuuun, let's get out your diiick."
+@page
+@fi id=k
+The compromising Otogiri-san disappears as she
+kneels down in front of me.
+@page
+Checking my trousers in a practiced way,
+she pulls out my dick.
+@page
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=evh3045
+@wait time=300
+@mwon
+@v s=31020
+@【かごめ】
+"Oh ho, you're already so big."
+@page
+Taking out my dick from the zipper,
+I've already got an erection.
+@page
+@v s=31021
+@【かごめ】
+"You keep saying no, no, I don't want it, but
+your dick wants it after all."
+@page
+;【ＳＥ】ドダダダダ　慌てて走る音
+@se s=se077
+@wait time=500
+@v s=31022
+@【かごめ】
+"Hm...? Too bad. I wanted to do a little more."
+@page
+;【背景】自宅居間
+@setOnce
+@bi s=bg04d
+@fi s=w112 pos=c
+@endOnce
+@qk
+@lfont
+@v s=11208
+@【わずか】
+"Itaru-kun!!"
+@page
+@fi s=w119 pos=c
+@v s=11209
+@【わずか】
+"Ngh...!!"
+@page
+@setOnce
+@fi s=w119 move=lc
+@fi s=m111 pos=rc
+@endOnce
+@v s=21696
+@【祀利】
+"Welcome back, Wazuka～."
+@page
+@fi s=w213 pos=lc
+@v s=11210
+@【わずか】
+"Ah... aaahhh..."
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=k214 pos=c
+@endOnce
+@v s=31023
+@【かごめ】
+"Are you surprised? That Takamichi-kun
+and I are like this?"
+@page
+@【至】
+"Kuh, ah...!"
+@page
+She grips my dick, almost like she's brandishing it.
+A moan leaks out of me, because of the sudden stimulation.
+@page
+;【備考】ボイス流用
+@setOnce
+@fi id=k
+@fi s=w648 pos=c
+@endOnce
+@v s=11210
+@【わずか】
+"Ah... aahh..."
+@page
+;【立ち絵】わずか立ち絵　包丁所持
+@fi s=w31b pos=c
+@qk time=1000
+@lfont
+@v s=11211
+@【わずか】
+"AAAAAAAAGHHHHH!!!"
+@page
+@setOnce
+@fi s=w31b move=lc
+@fi s=m412 pos=rc
+@endOnce
+@se s=se131
+@v s=21697
+@【祀利】
+"Fufu♪."
+@page
+@fi s=w319 pos=lc
+@v s=11212
+@【わずか】
+"--!?"
+@page
+Although she's ready to throw herself at Otogiri-san at any moment,
+Matsuri's gun stops her in her tracks.
+@page
+@fi s=m41d pos=rc
+@v s=21698
+@【祀利】
+"Do anything strange, and I'll blow a hole in Itaru. Got it?"
+@page
+@fi s=w312 pos=lc
+@v s=11213
+@【わずか】
+"Grrrrr!"
+@page
+If it was pointed at Wazuka-san, she'd ignore it.
+Even if she's shot, she won't die immediately.
+@page
+However, Matsuri is pointing it at me.
+That stops Wazuka-san.
+@page
+@fi s=m41d pos=rc
+@v s=21699
+@【祀利】
+"First is a finger. I'll blow just one off...
+I wonder, what should I shoot after that?
+The ear? The eyes?
+@page
+She points at the parts of my body
+that she recites.
+The cold, metallic sheen reflects Matsuri's cold heart.
+@page
+@fi s=w311 pos=lc
+@v s=11214
+@【わずか】
+"...Why?"
+@page
+@fi s=m413 pos=rc
+@v s=21700
+@【祀利】
+"Huh?"
+@page
+@fi s=w313 pos=lc
+@v s=11215
+@【わずか】
+"Why are you doing this? You like Itaru-kun, don't you?
+How could you do this to him?"
+@page
+@fi s=m414 pos=rc
+@v s=21701
+@【祀利】
+"It's because Matsuri likes him that I'm not shooting him.
+If you move, I'll have to."
+@page
+@fi s=m412 pos=rc
+@v s=21702
+@【祀利】
+"Besides, even if there's parts of him missing,
+I love Itaru-kun. As long as he's alive, Itaru is Itaru."
+@page
+@fi s=w312 pos=lc
+@【わずか】
+"......"
+@page
+Damn it. The environment that Matsuri
+grew up in was too different from our own.
+@page
+I don't think there's a man alive who could
+persuade Matsuri. No, not a single one in 
+the world.
+@page
+@fi s=m41d pos=rc
+@v s=21703
+@【祀利】
+"By the way, Wazuka. Why do you still have that knife?"
+@page
+;【立ち絵】わずか立ち絵　包丁無し
+@fi s=w112 pos=lc
+@【わずか】
+"......"
+@page
+@fi s=m412 pos=rc
+@v s=21704
+@【祀利】
+"Yeah, there we go♪."
+@page
+@【わずか】
+"......"
+@page
+@fi s=m411 pos=rc
+@v s=21705
+@【祀利】
+"Oh, almost there. Drop the knife."
+@page
+@fi s=m412 pos=rc
+@v s=21706
+@【祀利】
+"Go to the kitchen and make me a sandwich.
+Matsuri is hungry."
+@page
+@fi s=w119 pos=lc
+@v s=11216
+@【わずか】
+"... Huh?"
+@page
+I kind of want to sigh in amazement too,
+at such a ridiculous order.
+@page
+@fi s=m41d pos=rc
+@v s=21707
+@【祀利】
+"Do it."
+@page
+However, Matsuri rules this place now.
+Wazuka-san can do nothing but nod
+at Matsuri's order.
+@page
+@fi s=w112 pos=lc
+@v s=11217
+@【わずか】
+"... I understand."
+@page
+;【立ち絵】わずか立ち絵消去
+@fi id=w
+Grinding her teeth, she disappears
+into the kitchen.
+@page
+Yes, that's good.
+@page
+Even if she's mad as all hell,
+she shouldn't provoke Matsuri as she is.
+@page
+If she's cooking, she's fine.
+It's better than the other horrible things
+Matsuri can probably think of.
+@page
+@fi s=m648 move=c
+@v s=21708
+@【祀利】
+"Now then. Let's enjoy some food
+right here, why don't we?"
+@page
+However, the order she gives me won't
+be so easy, I think.
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→150301
+@jump storage="150301.scn"

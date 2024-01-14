@@ -1,0 +1,51 @@
+﻿;240304
+*240304|_ずっと一緒にいたい
+So, I really need to leave her alone for a while.
+@page
+@【至】
+"Sorry... that's going a little too far."
+@page
+@fi s=m10cd pos=c
+@v s=21125
+@【祀利】
+"What?! Are you really joining those fuckers!?"
+@page
+@【至】
+"No! Of course not, but...
+You need to cool down for a while.
+You, Wazuka, Otogiri, everyone."
+@page
+It wouldn't be difficult to release Matsuri right now.
+@page
+At worst, if I appeal to Wazuka about our future, I could probably manage it.
+@page
+However, the problem comes after that.
+@page
+It's certain that Matsuri would take revenge on those two.
+@page
+It's best as it is now.
+I can think of something in the meantime.
+@page
+@fi s=m104d pos=c
+@v s=21126
+@【祀利】
+"No, wait! Itaru! Itaruuuuu!"
+@page
+@【至】
+"... Sorry, but you need to deal with it for a little while.
+This is probably really bad... but it's just a little while, okay?"
+@page
+@fi s=m63bd pos=c
+@v s=21127
+@【祀利】
+"That's awful... you meanie."
+@page
+@【至】
+"Matsuri... I'll come for you as soon as I can. As soon as afternoon classes are done, I'll come for you."
+@page
+@【至】
+"So please, wait quietly until then."
+@page
+@fi id=m
+;→240305
+@jump storage="240305.scn"

@@ -1,0 +1,50 @@
+﻿;130601
+*130601|_料理の出来は？
+@【至】
+"Don't overdo it, okay?"
+@page
+@fi s=w221 pos=c
+I really appreciate that she's studying cooking.
+@page
+Even if she stopped now, she's already
+at the level where I don't have to 
+worry about food poisoning.
+@page
+...But rather than telling her to try her best, I don't want her to overwork herself.
+So, I told her that based on that reasoning.
+@page
+@【至】
+"You already do all the housework and cooking by yourself,
+so doing any more would be troubling to you, wouldn't it..."
+@page
+@【至】
+"Right now, I'm really happy.
+So please, don't overwork yourself."
+@page
+They certainly aren't the words you give someone who's aiming for the top,
+but Wazuka-san would go as far as she could naturally...
+@page
+@fi s=w224 pos=c
+@v s=10963
+@【わずか】
+"Itaru-kun... thank you."
+@page
+She gives me a smile, like she sympathised with me.
+@page
+@fi s=w557 pos=c
+@v s=10964
+@【わずか】
+"But you don't have to worry.
+I like doing the housework."
+@page
+@fi s=w557a pos=c
+@v s=10965
+@【わずか】
+"I'll do anything I can for you...
+and I have a lot of fun... so I'm happy... okay?"
+@page
+Although she knew what I was talking about,
+she didn't agree with me.
+@page
+;→130603
+@jump storage="130603.scn"

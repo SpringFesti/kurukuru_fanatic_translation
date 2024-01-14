@@ -1,0 +1,65 @@
+﻿;130402
+*130402|_２つのお弁当
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+@【至】
+"It's from Otogiri-san."
+@page
+I applaud myself about my honest answer.
+@page
+@fi s=w112 pos=c
+@【わずか】
+"......"
+@page
+Aaand that applause changes to boos as soon as her
+face warps in displeasure.
+@page
+But I have nothing to fear. I haven't hid anything
+about Otogiri-san from Wazuka-san.
+@page
+@fi s=w111 pos=c
+@v s=10929
+@【わずか】
+"Show me."
+@page
+@【至】
+"Sure."
+@page
+A prompt answer.
+I'm kinda scared, after all.
+@page
+Well, this is probably better than what would
+happen if I lied to her and got found out.
+@page
+@v s=10930
+@fi s=w111 pos=c
+@【わずか】
+"Eat up and grow big...
+so we can leave..."
+@page
+@fi s=w211 pos=c
+She reads the mail I got.
+Little by little, her expression gets more and more dark.
+It's kinda fun to watch.
+@page
+@fi s=w112 pos=c
+@【わずか】
+"......"
+@page
+When she starts seething in anger, I stop enjoying it.
+She might seriously crush my cell phone.
+@page
+@fi s=w411 pos=c
+@v s=10931
+@【わずか】
+"Itaru-kun."
+@page
+@【至】
+"Y-Yes?"
+@page
+@v s=10932
+@【わずか】
+"What is this?"
+@page
+;→130403
+@jump storage="130403.scn"

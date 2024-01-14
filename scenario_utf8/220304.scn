@@ -1,0 +1,90 @@
+﻿;220304
+*220304|_祀利の秘密
+;感情の表現がいまいちで、読み手に伝わらない気がします。祭りに対してのこともいまいち表現不足かと。
+;07/12　後日に修正……
+;【ワイプ】時間経過
+;【イベントＣＧ】三人で寝る
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evn1010 trans=clock
+@bgm s=bgm04
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... Well, I got out of that one way or another."
+@page
+After an hour, I speak those words.
+@page
+Maybe it's because of the sex earlier today,
+but I'm horribly tired. I can't do anything else.
+@page
+Still, today was worse than yesterday, that's for sure.
+@page
+I took a girl's virginity, who turned out to be the
+daughter of a mafia boss and also who has multiple
+personality disorder.
+@page
+Thinking calmly, this is some serious shit.
+@page
+What should I do from now on?
+I should think about how to deal with Matsuri.
+@page
+Honestly, Matsuri creeps me out a little bit.
+@page
+She can change personalities on a whim, pull out guns,
+start shooting people...
+@page
+She's probably among the top five list of types of people
+I would not want to get involved with.
+@page
+@【至】
+"... But, whatever. She isn't really a bad person."
+@page
+I don't think her personality is a problem.
+It was her environment, really.
+@page
+Moreover... there were those feelings that rose
+up in me when had sex.
+@page
+Was the affection because of the sex?
+Or did I have sex because of the affection?
+The difference isn't obvious.
+@page
+However, I'm sure of one thing.
+I didn't have sex with Matsuri on a whim.
+@page
+@bi s=bg830
+... I really do have to think seriously
+about Matsuri now, don't I?
+@page
+My actual feelings aren't strong yet.
+Though they're there, I'm sure of that.
+@page
+@【至】
+"... I... do I like Matsuri...?"
+@page
+It's a dumb thing to say, that's for sure.
+However, because I was able to say it so easily,
+it might not be far from the truth.
+@page
+So, what should I do now?
+@page
+Mediating between Matsuri and Wazuka-san might be difficult.
+Those two are always at odds.
+@page
+@【至】
+"...But let's try to have a good relationship with everyone."
+@page
+Matsuri, Wazuka-san, and I.
+Is it impossible to live while laughing peacefully together?
+@page
+@bi s=blank trans=crossfade all=true
+I think I know the answer. It was clear before I even asked.
+@page
+However, I fell into the world of sleep, as an escape...
+@page
+@mwoff
+;→230100
+@bgm fade=stop
+@jump storage="230100.scn"

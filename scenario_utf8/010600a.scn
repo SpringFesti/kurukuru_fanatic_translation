@@ -1,0 +1,356 @@
+﻿;010600a
+@mwoff
+*010600a|キミの名は？
+;【背景】主人公自宅居間・明かりあり　
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@lfont
+;【備考】ユニゾン
+@v s=10203
+;@【わずか】
+"Let's eat!"
+;@v s=20071
+;@【祀利】
+;「いただきます」
+;@v s=40106
+;@【ファヌル】
+;「いただきます」
+@page
+@mwoff
+@bi s=evn0010
+@wait time=300
+@mwon
+;【イベントＣＧ】全員そろって食事
+Dinner started, and it's been 15 minutes since then.
+@page
+Similar to "before", there is no violence. There haven't been
+any bullets, and no blades have danced.
+@page
+Wazuka-san eats her food indifferently,
+Matsuri cackles and smiles,
+and Fanuel digs in with great relish.
+@page
+@【至】
+(... There's no reason that everything would change entirely.
+But somehow, things are getting somewhat troublesome...)
+@page
+Matsuri, who doesn't know about my speculations, 
+just like my memories of "before", sniffs her hamburger steak.
+@page
+@v s=20072
+@【祀利】
+"Sniff sniff... no abnormal smells.
+So then--"
+@page
+@【至】
+"It's fine. There's nothing wrong with it."
+@page
+@v s=20073
+@【祀利】
+"I can't believe you.
+Do you want to try taste testing, Itaru?"
+@page
+@【至】
+"It's fine. I already ate from it a long time ago."
+@page
+Since this is the fourth time, I've become accustomed to this taste.
+@wait time=1000
+... Sorry, I lied. I haven't. This really sucks.
+@page
+@v s=20074
+@【祀利】
+"Hey, what did you say this food was?"
+@page
+@v s=10205
+@【わずか】
+"Hamburg steak. If you don't like it, don't eat it."
+@page
+@v s=20075
+@【祀利】
+"No way, I'll be happy to eat it."
+@page
+Saying that, Matsuri bites off a chunk of it.
+I grimace, just as expected.
+@page
+She's my comrade.
+Bit then Fanuel says--
+@page
+@v s=40107
+@【ファヌル】
+"This is great!♪　Wazuka-san's hamburg steak is the best!♪"
+@page
+@v s=10204
+@【わずか】
+"Thank you, Fanuel-chan. Eat up."
+@page
+This is identical to "before". I smile bitterly without knowing.
+@page
+Is that hamburg steak actually delicious for you?
+@page
+No, of course it's bad.
+But when I see the way that Fanuel is eating,
+I start to think... that it's actually delicious.
+@page
+@v s=40108
+@【ファヌル】
+"Wazuka-san, more please!"
+@page
+@v s=10206
+@【わずか】
+"Have some more hamburg steak with your rice. It's good."
+@page
+@v s=40109
+@【ファヌル】
+"Nn, nah, I'll just go with the rice, thanks."
+@page
+@v s=10207
+@【わずか】
+"It's really goood. Eat it all up."
+@page
+Then, just like before, Wazuka-san doesn't listen to her at all.
+@page
+@bi s=bg04d
+@【至】
+(...Although I'd like to say Fanuel is the same as normal, I'm getting the feeling that this is a delicate situation.
+Would it be bad if she started to change herself?)
+@page
+@fi s=f112 pos=c
+While I think this, Fanuel glares at me.
+@page
+I can't read her mind, so I don't know what she's thinking.
+@page
+But it's not because I don't know how to read the atmosphere.
+I can see her expression, so I think I can tell.
+@page
+@【至】
+(... Yeah yeah, I gotcha. Don't do anything weird.)
+@page
+As if saying that she won't, she nods.
+Then, just like "before"--
+@page
+@fi s=f111 pos=c
+@v s=40110
+@【ファヌル】
+"Hey, big bro."
+@page
+I'm about to reply, but I stop myself.
+@page
+That's right, I'm not supposed to answer her yet.
+@page
+@v s=40110
+@【ファヌル】
+"Hey, big bro."
+@page
+@【至】
+"......"
+@page
+@fi s=f113d pos=c
+@qk time=800
+@flash time=800
+@lfont
+@v s=40111
+@【ファヌル】
+"BIG BRO!!"
+@page
+@【至】
+"Yeah, what? Don't yell, you'll disturb the neighbors."
+@page
+@fi s=f311 pos=c
+@v s=40112
+@【ファヌル】
+"You didn't answer me when I called for you."
+@page
+@【至】
+"Sorry, I didn't hear you."
+@page
+Well, I mean, the truth is that I did hear her.
+... Wait, isn't this just like "before" too?
+@page
+@fi s=f11e pos=c
+@v s=40114
+@【ファヌル】
+"You meanie! You big dummy!"
+@page
+Aha, looks like I had the correct answer.
+I remember Fanuel saying this.
+Then, right afterwards, Wazuka-san will say:
+@page
+@setOnce
+@fi s=f11e move=r
+@fi s=w122 pos=l
+@fi s=m64b pos=c
+@endOnce
+@v s=10209
+@【わずか】
+"Itaru-kun, don't be mean.
+Apologize to Fanuel-chan."
+@page
+@v s=20077
+@【祀利】
+"Have you changed, Itaru?
+You were kinder when we were children."
+@page
+@【至】
+"N, no, I haven't changed.
+Wait a sec, how would--"
+@page
+@fi s=f313 pos=r
+-- I stop myself from continuing as fast as I can.
+Fanuel is staring hard at me.
+@page
+@【至】
+(... Are the words I'm about to say pointless?
+If they are, then this should...)
+@page
+@【至】
+"Actually, uh... who are you, anyway?"
+@page
+Was that it?
+@page
+When I pose that question in my mind...
+@wait time=1000
+@fi s=f114 pos=r
+Fanuel smiles. Looks like that was the correct answer.
+@page
+@fi s=m214 pos=c
+@v s=20078
+@【祀利】
+"I'm Matsuri Carnaval, of course.
+We played a lot together as kids, didn't we?"
+@page
+While saying that, Matsuri takes a photo out of her pocket and shows it to me.
+@page
+Certainly, in that picture is a young me and a young girl,
+which is probably a young Matsuri.
+@page
+@fi s=w121 pos=l
+@v s=10210
+@【わずか】
+"Is that a forgery?"
+@page
+@fi s=f111 pos=r
+@v s=40115
+@【ファヌル】
+"I don't think so. Big bro, don't you remember?"
+@page
+I struggle with my words.
+To be sure, my memories of my childhood are vague.
+As for why, well, my personal circumstances and family were pretty normal.
+@page
+@v s=10211
+@【わずか】
+"Well, don't worry about it.
+She's a liar anyway."
+@page
+@fi s=m114a pos=c
+@v s=20079
+@【祀利】
+"I'm not lying! This is me in this photo, and I'm Itaru's fiance!"
+@page
+In the end, though, this is only being supported by you.
+@page
+Still, Matsuri isn't a bad person.
+When I think about her desire to be with me,
+at least concerning me, she's a good person.
+@page
+And if that's so, then I should say the same thing as "before".
+@page
+@【至】
+"Do you have somewhere that you're staying right now?"
+@page
+@fi s=m64ba pos=c
+@v s=20081
+@【祀利】
+"... Um, no."
+@page
+@【至】
+"Then you'll stay here. We have a vacant room."
+@fi s=m113a pos=c
+@page
+@fi s=w122 pos=l
+@v s=10213
+@【わずか】
+"Itaru-kun!"
+@page
+@【至】
+"Don't worry, it'll be alright.
+I'll take responsibility for this."
+@fi s=m749a pos=c
+@page
+@fi s=w558 pos=l
+@v s=10214
+@【わずか】
+"Do you really want this, Itaru-kun?"
+@page
+@【至】
+"Yeah."
+@page
+Wazuka-san hears those words, and sighs deeply.
+@page
+@fi s=w121 pos=l
+@v s=10215
+@【わずか】
+"...Alright, fine. I still don't believe her though."
+@page
+@fi s=m114a pos=c
+@v s=20082
+@【祀利】
+"Myeeeeeh! I don't care!"
+@page
+@fi s=w122 pos=l
+;【立ち絵】わずか包丁
+@v s=10216
+@【わずか】
+"Don't get carried away."
+@page
+@se s=se131
+@fi s=m314 pos=c
+;【立ち絵】祀利拳銃
+@v s=20083
+@【祀利】
+"You shouldn't either."
+@page
+@【至】
+"Stop it, you two. I'm tired of that."
+@page
+No, but really. Since this is the fourth
+time now, I've had my fill of this situation.
+@page
+@fi s=f212 pos=r
+@v s=40116
+@【ファヌル】
+"Besides, the rice is getting cold."
+Wazuka-san, can I have more?"
+@page
+@fi s=w557 pos=l
+@v s=10217
+@【わずか】
+"O-oh, sorry. Let me get you some more."
+@page
+@bi s=current all=true trans=crossfade
+Wazuka-san says that and runs off to the kitchen.
+@page
+I thought this time and time again, but Fanuel
+really is good at changing the subject.
+@page
+@fi s=f111 posc
+@v s=40117
+@【ファヌル】
+"Thanks. I was tired of that too."
+@page
+@【至】
+"Ha ha... we've agreed on that up until now, haven't we?"
+@page
+@fi s=f214 pos=c
+She grins when she hears me say that.
+@page
+@mwoff
+@fi id=f
+@bgm fade=out
+@jump storage="010601.scn"
+;【ワイプ】時間経過
+;→010601

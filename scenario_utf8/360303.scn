@@ -1,0 +1,159 @@
+﻿;360303
+*360303|_理想の姉→弟
+But I chose not to escape.
+@page
+@bgm fade=stop
+@qk
+@【至】
+"Otogiri-san, are you okay?!"
+@page
+@bgm s=bgm14
+When I run up to the writhing Otogiri-san,
+I pick her body up in my arms.
+@page
+@fi s=k336d pos=c
+@v s=30764
+@【かごめ】
+"It hurts... it hurts, Itaru-kun."
+@page
+@【至】
+"Hold on! There's no blood, but you're injured!"
+@page
+I carefully extract the tools that are stuck in her body.
+@page
+None of them pierced too deep, which is good.
+They only made scratches.
+@page
+;@fi s=k336d pos=c
+@v s=30765
+@【かごめ】
+"Ah... oh, gh... it hurts. I must've broken my skull..."
+@page
+@【至】
+"Wait...
+@wait time=1000
+No, you're fine. You've got a big lump, but it's not serious."
+@page
+@fi s=k338d pos=c
+@v s=30766
+@【かごめ】
+"R-really...?"
+@page
+@【至】
+"If you're concerned, why don't you calm down?"
+@page
+@fi s=k102d pos=c
+@v s=30767
+@【かごめ】
+"... Won't you try and escape in the meantime?"
+@page
+@【至】
+"... Ah, no, it's okay."
+@page
+Worrying about Otogiri-san had caused
+all my thoughts about escaping to vanish before I knew it.
+@page
+@【至】
+"I'm not going to do something like run away, okay?
+You were hurt, so I think you calmed down, so it's
+not necessary for me to run anymore."
+@page
+@fi s=k103d pos=c
+@v s=30768
+@【かごめ】
+"But you said that you hated onee-chan..."
+@page
+@【至】
+"... I said that I hated the you of a little while ago.
+But that's not the case right now."
+@page
+@【至】
+"How do I say this... I don't hate the usual you...
+Rather... I guess you could say that I love you."
+@page
+Yes, I need to remove this misunderstanding.
+@page
+The love that I have for Otogiri-san is not
+the love that a little brother has for his older sister.
+@page
+@【至】
+"I can't become your ideal little brother, and I'm not going to wake up."
+@page
+@fi s=k338d pos=c
+@v s=30769
+@【かごめ】
+"Why...? How?
+I found you, didn't I?
+We've met tens of hundreds of thousands of times, just like a miracle, right?"
+@page
+@fi s=k339d pos=c
+@v s=30770
+@【かごめ】
+"You just haven't woken up yet. So... after all, the ceremony--"
+@page
+@【至】
+"It's impossible... no matter what you do, I will never wake up."
+@page
+@fi s=k338d pos=c
+@v s=30771
+@【かごめ】
+"That can't be true. I'm the perfect onee-chan, so..."
+@page
+@【至】
+"That premise is the strange thing.
+First of all, you are not the perfect older sister."
+@page
+@fi s=k33ad pos=c
+@v s=30772
+@【かごめ】
+"Wha..!?"
+@page
+@fi s=k337d pos=c
+@v s=30773
+@【かごめ】
+"What are you talking about!? What about me isn't perfect!?
+I've already awoken completely!
+I'm the very same onee-chan I was back then!"
+@page
+@【至】
+"That right there is wrong.
+While I haven't been awakened, so how could you become perfect?"
+@page
+@fi s=k338d pos=c
+@v s=30774
+@【かごめ】
+"-- nh!"
+@page
+@【至】
+"So, because I haven't awakened,
+it's impossible that Otogiri-san has awakened completely.
+So, I won't awaken either."
+@page
+@fi s=k338d pos=c
+@v s=30775
+@【かごめ】
+"What, the hell... that's a blatant fallacy."
+@page
+@【至】
+"No, it's not. It's a word game to get you to understand me."
+@page
+I'll take part in her wild delusion.
+On top of that, I'll deny half of it.
+@page
+I think this is the best way for us to get along.
+And that-- that's not a mistake.
+@page
+@fi s=k335ad pos=c
+@v s=30776
+@【かごめ】
+"... Oh, you bullshitter you. You're nothing like a little brother.
+But... that really is a little brother smile."
+@page
+Lured by my smiling face, I see an unpoisoned smile,
+the kind I haven't seen for the past few days.
+@page
+@fi id=k
+@mwoff
+;→360304
+@bgm fade=stop
+@jump storage="360304.scn"

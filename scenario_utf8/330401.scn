@@ -1,0 +1,21 @@
+﻿;330401
+*330401|_答えと姉と
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+@【至】
+"Of course. I didn't have a reason to get mad in the first place."
+@page
+@fi s=k114ad pos=c
+@v s=30281
+@【かごめ】
+"T-Thank you very much!"
+@page
+;【演出】文字半角
+@fi s=k113ad pos=c
+@sfont
+@v s=30282
+@【かごめ】
+"-- Plus one ideal little brother point."
+@page
+;→330403
+@jump storage="330403.scn"

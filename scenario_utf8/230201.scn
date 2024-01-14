@@ -1,0 +1,82 @@
+﻿;230201
+*230201|_宣戦布告
+;【ワイプ】視点切り替え
+;【備考】祀利視点
+;@mwoff
+;@bi s=blank trans=crossfade all=true
+;@wait time=200
+;@bi s=bg12d trans=ランダム
+;@setOnce
+@fi s=m64b pos=lc
+;@fi s=k113 pos=rc
+;@endOnce
+;@mwon
+@v s=20733
+@【祀利】
+"Aww, Itaru left.
+... Hey, do you got a second?"
+@page
+@v s=30177
+@【かごめ】
+"Y-Yeah... what is it?"
+@page
+@fi s=m649 pos=lc
+@v s=20734
+@【祀利】
+"So, so..."
+@page
+@bgm s=bgm10
+@fi s=m115 pos=lc
+@v s=20735
+@【祀利】
+"Were you the one that did that thing a while ago?"
+@page
+@fi s=k214b pos=rc
+@v s=30178
+@【かごめ】
+"Ah... ahahaha... what on earth could you be talking about?
+Matsuri-chan, you aren't making any sense."
+@page
+@v s=20736
+@【祀利】
+"Heh heh heh... you know, in my country, "you aren't making any sense" means--"
+@page
+@v s=20737
+@【祀利】
+"I'm sorry for dropping the flower pot. Please shoot me to death or boil me alive."
+@page
+@fi s=k113b pos=rc
+@act id=k t=hit
+@v s=30179
+@【かごめ】
+"Hii!? W-What are you talking about? Th-that's a lie, isn't it?
+T-Those words ca-can't possibly mean that."
+@page
+@fi s=m647 pos=lc
+@v s=20738
+@【祀利】
+"Of course it doesn't mean that.
+... Heh heh, why are you shaking?"
+@page
+@fi s=k112b pos=rc
+@v s=30180
+@【かごめ】
+"I-I'm n-not shak-shaking at all, r-really..."
+@page
+@v s=20739
+@【祀利】
+"Is that right? Well, that's good.
+By the way, you should watch your back from now on."
+@page
+@fi s=m115 pos=lc
+@v s=20740
+@【祀利】
+"It's a dangerous world. You never know what could happen.
+Yeah... right now, for instance."
+@page
+@v s=30181
+@【かごめ】
+"Ah... ahhiii...!?"
+@page
+;→230202
+@jump storage="230202.scn"

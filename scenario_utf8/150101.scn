@@ -1,0 +1,50 @@
+﻿;150101
+*150101|_運命の日
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【ＳＥ】ドアが閉まる音
+@mwoff
+@bi s=blank trans=crossfade all=true time=100
+@wait time=200
+@bi s=bg01m trans=ランダム time=300
+@fi s=w223 pos=c
+@mwon
+@v s=11206
+@【わずか】
+"... Liar."
+@page
+@fi s=w558 pos=c
+That was Matsuri, just now.
+Since I know Itaru-kun, I know when he's lying.
+@page
+Although I don't know why, Itaru-kun was troubled by that talk.
+Even I know that much.
+@page
+@fi s=w122 pos=c
+@v s=11207
+@【わずか】
+"I can't forgive her..."
+@page
+I will never forgive those two.
+More than that, I cannot forgive myself.
+@page
+I was kind.
+@page
+Even if he hated me, even if he told me to stop,
+I should have killed those two.
+@page
+@fi s=w123 pos=c
+However, I didn't.
+Because I didn't want Itaru-kun to hate me...
+@page
+@fi s=w122 pos=c
+However, I can't say that any longer.
+@page
+@fi s=w322 pos=c
+So, I cannot wait any longer.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+;→150200
+@jump storage="150200.scn"

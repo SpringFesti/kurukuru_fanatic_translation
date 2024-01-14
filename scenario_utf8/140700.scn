@@ -1,0 +1,116 @@
+﻿;140700
+*140700|お別れだ
+;【ワイプ】時間経過
+;【背景】不可思議な空間
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=300
+@bi s=bg8180 trans=clock
+@bgm s=bgm08
+@mwon
+@【至】
+"...Mn? Huh? This is...?
+I was sleeping in my room, wasn't I...?"
+@page
+@fi s=f559 pos=c
+@v s=41068
+@【ファヌル】
+"How carefree you are. Did you forget what day it is tomorrow?"
+@page
+@【至】
+"Tomorrow?"
+@page
+@fi s=f55a pos=c
+@v s=41069
+@【ファヌル】
+"How many days has it been since I've revived you?"
+@page
+@【至】
+"Oh..."
+@page
+Tomorrow will be my fifth day since I've been revived.
+... In other words, I die tomorrow.
+@page
+@【至】
+"Will... will I die again?"
+@page
+@fi s=f311 pos=c
+@v s=41070
+@【ファヌル】
+"Who knows. Let's see what your choices have led to."
+@page
+@【至】
+"Oh, come on. What should I do?"
+@page
+@fi s=f559 pos=c
+@v s=41071
+@【ファヌル】
+"Didn't I bring you back to life to figure that out?"
+@page
+@【至】
+"Well, yeah, but..."
+@page
+@fi s=f55b pos=c
+@v s=41072
+@【ファヌル】
+"Die."
+@page
+@【至】
+"Don't say something so sinister!"
+@page
+@fi s=f55a pos=c
+@v s=41073
+@【ファヌル】
+"Then struggle against your certain fate."
+@page
+@【至】
+"Then let me go back to sleep.
+I can't struggle if I'm dead tired."
+@page
+@fi s=f55b pos=c
+@v s=41074
+@【ファヌル】
+"Heh, fine. Go back to suckling on Wazuka's
+tits like a newborn."
+@page
+I'll do it without being told!
+I almost said that, but I managed to stay quiet.
+@page
+@fi id=f
+@bi s=white trans=crossfade
+;【演出】ホワイトアウト
+Everything goes white.
+@page
+As everything is wrapped in light,
+I return from this space to the real world.
+@page
+@fi s=f311 pos=c
+@v s=41075
+@【ファヌル】
+"Itaru."
+@page
+@【至】
+"Yeah?"
+@page
+@v s=41076
+@【ファヌル】
+"This is farewell.
+When you wake up, you will have forgotten me."
+@page
+@【至】
+"... Huh?"
+@page
+@fi id=f
+;【立ち絵】ファヌル立ち絵消去
+@v s=41077
+@【ファヌル】
+"See ya."
+@page
+@【至】
+"W-Wait--"
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+;【演出】ホワイトアウト
+;→150100
+@jump storage="150100.scn"

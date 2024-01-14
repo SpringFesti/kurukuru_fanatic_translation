@@ -1,0 +1,84 @@
+﻿;330405
+*330405|_答えと姉と
+;【ワイプ】場面転換
+;【背景】廊下・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=clock
+@se s=se011
+@bgm s=bgm07
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Geh!? Did the next class just start!?"
+@page
+The bell rings just after we finish cleaning up.
+@page
+While I wipe away the mucus stuck to both of our bodies,
+I couldn't say a word, mostly because I was embarrassed.
+@page
+Honestly, I'm a little thankful for that bell.
+@page
+;【ＳＥ】走る
+@fi s=k112 posc
+@v s=30328
+@【かごめ】
+"Takamichi-kun, quick! We'll be late!"
+@page
+;【ＳＥ】走る
+@【至】
+"Yeah, got it!"
+@page
+It'll be up to the next teacher whether we're on time now.
+I can't tell if we're going to be early, or late, or whatever else.
+@page
+Let's go slow today!
+@page
+;【ワイプ】場面転換
+;【背景】教室・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+;@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【先生】
+"Oh, you bunch are just barely in time, be careful next time!"
+@page
+Alright, just in time.
+It seemed that he was slow today.
+Even if the teacher scolds me, it doesn't matter as long as I'm safe.
+@page
+@【至】
+"Ahh... I'm tired."
+@page
+I sit down in my chair wearily.
+Matsuri's gaze is painful, but I don't care.
+On the other hand, I just ran with all my might, so my chest hurts, and that's why I don't care.
+@page
+My heart continues to pound for a few minutes.
+@page
+@【至】
+(That wasn't really a great distance, though...
+So it really was because of that...)
+@page
+I look towards Otogiri-san for a brief moment.
+@page
+She's put a textbook up, so I can't see her face.
+@page
+At that time, my chest throbbed.
+@page
+I remember what we did a little while ago.
+Then I imagine what her expression must be, hidden by that notebook.
+@page
+@【至】
+(Somehow, I'm... becoming strange...)
+@page
+When I start to think about it, Matsuri tightly pinches my thigh.
+@page
+@mwoff
+;→330406
+@bgm fade=stop
+@jump storage="330406.scn"

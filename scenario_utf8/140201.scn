@@ -1,0 +1,139 @@
+﻿;140201
+*140201|クイズ！　次はおまえだ！
+@setOnce
+@mwoff
+@bgm fade=stop
+@cut s=cut2290 slide=t time=500
+@fi s=f111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@se s=se006
+@qk time=500
+@flash time=500
+@bgm s=bgm10
+@wait time=2000
+@se s=se151
+@mwon
+@v s=40142
+@【ファヌル】
+"Quiz! You're Next!"
+@page
+@se fade=out
+@v s=16002
+@【ウサミ】
+"The familiar variety show inside your brain,
+Quiz! You're Next!
+I'm your host, Usami-!"
+@page
+@v s=41032
+@【ファヌル】
+"And I'm Fanuel, reconsidering the need for this program."
+@page
+@qk
+@v s=16004
+@【ウサミ】
+"Wh- no, stop!
+Once this is over, that's it, isn't it?"
+@page
+@fi s=f55a pos=lc
+@v s=41033
+@【ファヌル】
+"Once it ends, it can begin once more, so it's fine.
+It's best to be satisfied now, because it'll disappear
+sooner or later."
+@page
+@v s=16001
+@【ウサミ】
+"Those are some nice words... but not really what I meant."
+@page
+@v s=41034
+@【ファヌル】
+"Why don't you do your job as a host for once?"
+@page
+@v s=16001
+@【ウサミ】
+"But I was..."
+@page
+@v s=16001
+@【ウサミ】
+"Oh, right. Haven't there been a lot of people
+asking about that person's story recently?"
+@page
+@fi s=f559 pos=lc
+@v s=41035
+@【ファヌル】
+"You're going to waste our valuable time with chitter-chatter?
+Rather than getting rid of this program, maybe we just need to fire you instead."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"N-N-No, you don't!
+I meant Kagome, from just a little while ago.
+Don't you think we should listen to her story too?"
+@page
+@fi s=f55a pos=lc
+@v s=41036
+@【ファヌル】
+"Hmph. Do you think we should listen to one
+who doesn't even listen to Him?"
+@page
+@v s=16001
+@【ウサミ】
+"But no human can hear God's voice, right?
+@page
+@fi s=f311 pos=lc
+@v s=41037
+@【ファヌル】
+"You're a stuffed animal, aren't you?"
+@page
+@v s=16001
+@【ウサミ】
+"That's true... the humans can't hear me either, can they?"
+@page
+@fi s=f55a pos=lc
+@v s=41038
+@【ファヌル】
+"They cannot, and they will not hear you.
+That is the unique idiosyncrasy of humanity."
+@page
+@v s=16001
+@【ウサミ】
+"I see... being human is hard, huh..."
+@page
+@fi s=f311 pos=lc
+@v s=41039
+@【ファヌル】
+"Not so. It's a fairly simple reason."
+@page
+@v s=16001
+@【ウサミ】
+"What reason?"
+@page
+@fi s=f312 pos=lc
+@v s=41040
+@【ファヌル】
+"Are we really going to end this with small talk?
+Get to the quiz."
+@page
+@v s=16001
+@【ウサミ】
+"We do need to do that, but..."
+@page
+@fi s=f55a pos=lc
+@v s=41041
+@【ファヌル】
+"I needed a question five seconds ago."
+@page
+@act id=u t=hit
+@v s=16004
+@【ウサミ】
+"W-Wha!? Um, err..."
+@pages
+@selinit
+@selbtn cap="I don't understand" s="140202.scn"
+@selbtn cap="I don't need to hear it" s="140203.scn"
+@s
+;選択肢
+;そんなこと、わからない　→140202
+;聞く必要がないから　→140203

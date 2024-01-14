@@ -1,0 +1,58 @@
+﻿;140401
+*140401|_忍び寄る影
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【背景】廊下
+;【ＳＥ】携帯のバイブ音
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm05
+@fi s=w547 pos=c
+@mwon
+@sqk
+@v s=11128
+@【わずか】
+"Ah!"
+@page
+I take out my buzzing cell phone, and see that I have a mail.
+Of course, Itaru-kun is the sender.
+@page
+@fi s=w113 pos=c
+@v s=11129
+@【わずか】
+"... I see."
+@page
+I was happy, but when I saw the short sentence,
+'Got something to do, be back later', I was a little
+disappointed.
+@page
+I wanted to go with him today...
+@page
+However, I don't want to selfishly annoy him.
+I'm lonely, but I'll wait for him.
+I will go home alone.
+@page
+@fi s=w111 pos=c
+I reply, and head back to the entrance.
+@page
+@fi s=w547 pos=c
+Oh, I can stop by the supermarket on the way back.
+When Itaru-kun comes back home, I'll greet him
+with a delicious meal.
+@page
+@fi s=w547a pos=c
+@v s=11130
+@【わずか】
+"Hmm... what should I make for dinner?"
+@page
+I'm a little embarrassed today to say 
+the words that I always say.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+@jump storage="140500.scn"
+;→140500

@@ -1,0 +1,502 @@
+﻿;430102
+*430102|１０月２９日１２時４８分
+;【ワイプ】時間経過
+;【背景】屋上
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg13d trans=clock
+@bgm s=bgm03
+@se s=se011
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"Ahh... it's like the blink of an eye.
+@page
+@se fade=out
+The present time is 12:48. The middle of lunch.
+@page
+Though I remember how the start of class went,
+my memories between then and now go mysteriously foggy.
+@page
+@fi s=m64b pos=c
+@v s=21529
+@【祀利】
+"Itaru, you sure do sleep a lot. Won't the teacher get mad?"
+@page
+It seems like I slept soundly the whole time, but I don't
+remember any of that.
+@page
+Am I really that tired?
+@page
+In fact, I am.
+The event rush of the last several days is something that I can't
+get used to, no matter how many times I go through it.
+@page
+@【至】
+"Eh, I'll manage somehow.
+I've already experienced it several times, anyway."
+@page
+@setOnce
+@fi s=m111 move=rc
+@fi s=w111 pos=lc
+@endOnce
+@v s=10761
+@【わずか】
+"What do you mean?"
+@page
+@【至】
+"Oh, nothing. Let's have some lunch."
+@page
+@setOnce
+@fi s=m112 pos=rc
+@fi s=w114 pos=lc
+@endOnce
+@lfont
+;【備考】ユニゾンで
+@v s=10762
+;@【わずか】
+"Here you go!♪"
+;@v s=21530
+;@【祀利】
+;「はいこれ」
+@page
+The two of them hand me packages.
+A bento and military rations, just like yesterday.
+@page
+@fi s=w111 pos=lc
+@v s=10763
+@【わずか】
+"It's hamburg steak today too.
+I tried to give it my all for Itaru-kun today too."
+@page
+I lift the lid with a click.
+I almost let a sigh out, but I stop myself.
+@page
+@【至】
+(... This again?)
+@page
+Setting aside my memories for the moment,
+the impact of the contents of the bento is strong.
+@page
+@fi s=w114 pos=lc
+@v s=10764
+@【わずか】
+"You love meat, right? Eat up!"
+@page
+There's only a half-baked hamburg steak in the bento.
+There were side dishes and rice yesterday, but it
+appears that they've disappeared once and for all.
+@page
+@【至】
+(Then Matsuri's should be like that too.)
+@page
+@v s=21531
+@【祀利】
+"Itaru, this is a highly nutritious ration.
+There's more for later, so eat up!♪"
+@page
+Ripping apart the packaging, I find the contents
+identical to yesterday.
+@page
+The taste of this is also strict
+And wait, aren't there more bullet holes?
+Now there are bloodstains.
+@page
+@【至】
+(... Please give a normal meal.
+Or is this God's way of telling me to die?)
+@page
+Anyway, let's eat.
+Before I start debating which to eat,
+let's eat both of them.
+@page
+Then-- my cell phone faintly rumbles.
+After a short vibration, it stops.
+This isn't a text. It's--
+@page
+@bi s=current all=true trans=crossfade
+@fi s=k445a pos=c
+@v s=30877
+@【かごめ】
+"Taka, Takamichi-kun! D-Do you want to eat lunch with me!?"
+@page
+The answer that came to mind was erased by that voice.
+@page
+All three of us center our gazes on that point.
+That point is, of course, Otogiri-san.
+@page
+@【至】
+"... This is the worst."
+@page
+I guess you could say "the cast is complete"?
+This is bad, no matter how I think about it.
+@page
+And now...
+　　　　On this scene of bloodshed...　
+　　　　　　　　　　　　　　The curtain rises!
+@page
+@setOnce
+@fi s=k445a move=r
+@fi s=m115 pos=c
+@fi s=w112 pos=l
+@endOnce
+@bgm s=bgm15
+@v s=10765
+"Itaru-kun, close your eyes."
+@page
+@v s=21532
+@【祀利】
+"This'll just take a minute."
+@page
+@fi s=k212 pos=r
+@v s=30878
+@【かごめ】
+"W-What!? Are you going to get in my way!?"
+@page
+@fi s=w311 pos=l
+@v s=10766
+@【わずか】
+"Nah. Just gonna kill you."
+@page
+Saying that, Wazuka-san grasps her knife in her hand,
+@page
+@se s=se131
+@fi s=m315 pos=c
+@v s=21533
+@【祀利】
+"Let's blow some brains out."
+@page
+And Matsuri readies her guns.
+@page
+@act id=k t=neckswing 
+@v s=30879
+@【かごめ】
+"N, no! This is just a bento!
+I-I just wanted to eat together!"
+@page
+@v s=10767
+@【わずか】
+"You are unfit."
+@page
+@v s=21534
+@【祀利】
+"Try again in your next life."
+@page
+@act id=k t=stopswing
+@fi s=k446 pos=r
+@act id=k t=neckswing 
+@v s=30880
+@【かごめ】
+"T-t... that's! That's mean... mean!
+I-I-I'm... I'm just...!
+Taka, Takamichi-kun i-is, is, m-my...!"
+@page
+@setOnce
+@fi id=m
+@fi id=w
+@act id=k t=stopswing
+@fi s=k347d pos=c
+@lineFXon
+@bgm s=bgm16
+@endOnce
+@v s=30881
+@【かごめ】
+"MAH LIDDLE BRUTHER!"
+@page
+@stoppfx
+Otogiri-san holds a knife in her hands.
+If I'm not mistaken, it's a tone knife.
+@page
+@fi s=k34ad pos=c
+@v s=30882
+@【かごめ】
+"Don't fuck around... don't fuck with me!
+Who wants a Sazae-san-style haircut!?"
+@page
+@【至】
+"Don't say that! No, nobody say that!"
+@page
+But since Otogiri-san's gone berserk, it doesn't matter what I say.
+The other two girls are similar.
+@page
+@setOnce
+@fi s=k34a move=rc
+@fi s=m515 pos=lc
+@endOnce
+@se s=se109
+@qk
+@flash
+;【ＳＥ】銃声
+@v s=21535
+@【祀利】
+"Die!"
+@page
+First, a gunshot.
+It's only natural. No-one can move quicker than a bullet.
+@page
+@fi s=k347 pos=rc
+@act id=k t=hit
+@lfont
+@v s=30883
+@【かごめ】
+"Gyyaaaaahhhh!"
+@wait time=300
+@qk
+@fi id=k trans=out slide=r time=500
+@page
+Otogiri-san kicks the floor.
+She tries to avoid the bullet.
+@page
+Her attempt was successful.
+As if she could see the bullet,
+she moved, dodged, and then--
+@page
+@fi s=k647 pos=rc trans=inblink time=700 slide=c
+@qk time=800
+@lfont
+@v s=30884
+@【かごめ】
+"Ngyaaaahhhh!"
+@qk time=800
+@page
+She turns the tone knife in her hand towards Matsuri.
+With the point raised high, she tries to cut the
+brow, the throat and the chest in one swipe.
+@page
+@fi s=m31c pos=lc
+@v s=21536
+@【祀利】
+"Tch!"
+@page
+@mwoff
+@qk time=600
+@flash time=600
+@se s=se069
+@wait time=1500
+@fi s=m315 pos=lc
+@mwon
+@v s=21537
+@【祀利】
+"Not bad."
+@page
+Matsuri takes the downswing of the tone knife
+with the barrel of one of her guns.
+@page
+The two steel parts squeak against another.
+As they both aim for each other's hands,
+the steel flashes as it grinds together.
+@page
+@se s=se067
+@flash time=700
+@se s=se069
+@qk
+@flash
+But Matsuri stops the blow.
+@page
+@setOnce
+@fi s=k647 move=r
+@fi s=m515 move=c
+@fi s=w311 pos=l
+@endOnce
+@v s=21538
+@【祀利】
+"Of course. Your stab timing is perfect."
+@page
+@fi s=w312 pos=l
+@v s=10768
+@【わずか】
+"Instead of praising me, die."
+@page
+@act id=k t=neckswing 
+@v s=30885
+@【かごめ】
+"Youuu! Both of youuuuu!
+Yoou, youuuu, bastaaaaaards!"
+@page
+@act id=k t=stopswing
+@setOnce
+@fi s=k64a pos=r
+@fi s=m515 pos=c
+@fi s=w311 pos=l
+@endOnce
+@lfont
+;【備考】ユニゾン
+@v s=10769
+;@【わずか】
+"I'll kill you."
+;@v s=21539
+;@【祀利】
+;「殺す」
+;@v s=30886
+;@【かごめ】
+;「殺す」
+@page
+The steel in their hands is turned towards each other.
+@page
+There is a clear intent to kill.
+There are no hesitations in their movements.
+@page
+@【至】
+"Stop it! Everyone, just stop it already!"
+@page
+@lineFXon
+@se s=se078 loop=true buf=0
+;【演出】走る/エフェクト
+I begin to run.
+Somewhere in my mind, someone tells me not to do it.
+I ignore them.
+@page
+I'm not a man with a large sense of justice.
+I don't want to be a hypocrite either.
+@page
+But-- ah, it's this again.
+Just like when I saved Wazuka-san,
+my body moves before I'm aware of it.
+@page
+@se s=se027 buf=1
+My cell phone vibrates a little.
+This time it doesn't stop.
+It trembles greatly, as if to tell me something.
+@page
+What's coming? A call? A text?
+Or is it--
+@page
+@【至】
+"... Right, Fanuel!"
+@page
+@mwoff
+@se fade=stop buf=0
+@bgm fade=stop
+@stoppfx
+@setOnce
+@bi s=current all=true trans=crossfade
+@bi s=bg8140 time=100
+@se s=se071 buf=0
+@se s=se109 buf=1
+@endOnce
+@qk time=1000
+@flash time=1000
+;【イベントＣＧ】血のり
+;【ＳＥ】銃声
+;【ＳＥ】刺突音
+@wait time=1500
+@mwon
+@【至】
+"... What?"
+@page
+@bi s=bg13d time=100
+@se s=se066
+@qk time=600
+;【ＳＥ】倒れる
+;【背景】屋上
+@bgm s=bgm10
+@setOnce
+@fi s=k448b pos=r
+@fi s=m113b pos=c
+@fi s=w119 pos=l
+@endOnce
+@lfont
+@v s=10770
+@【わずか】
+"Itaru-kun!"
+@page
+@fi s=m116a pos=c
+@v s=21540
+@【祀利】
+"No... Itaru... Itaru, hang in there!"
+@page
+@fi s=k346a pos=r
+@v s=30887
+@【かごめ】
+"No... I... I didn't...
+Reset! Please let me reset!"
+@page
+That's impossible...
+What pierces my heart is the hard concrete of the rooftop.
+@page
+Although I had flopped to the ground facefirst, it didn't hurt.
+My bullet and stab wounds don't hurt either.
+@page
+Am I somehow awesome?
+Am I going to keep reviving and become a Super Saiyan or something?
+@page
+@fi s=w11aa pos=l
+@v s=10771
+@【わずか】
+"Stand up... Itaru-kun, hold on!"
+@page
+Yeah. I have to stand up.
+So let's get up and--
+@page
+... Huh? My body won't move.
+My hands and feet are too heavy. They won't move.
+I'm cold. Even though it's fall, it feels like winter.
+@page
+;@fi s=m74aa pos=c
+@v s=21541
+@【祀利】
+"With this much blood... Itaru will... Itaru!"
+@page
+Die-- right?
+I'll die again, won't I?
+Will I come back again?
+@page
+My cell phone trembles in my pocket.
+I barely hear Fanuel's voice.
+What is she saying? They're too loud. I can't hear.
+@page
+Wazuka-san, Matsuri, Otogiri-san.
+Be quiet for a second.
+I want to hear what Fanuel is saying.
+@page
+@bgm fade=out
+@se s=se022 v=20 loop=true buf=0
+;【演出】ＢＧＭ停止
+... There, that's good.
+But is it good that the noises surrounding me have stopped?
+@page
+@filmpfx
+@mnon
+@mset l=3 h=true
+;【備考】以下、電話こしの声に加工
+@v s=40637
+"... Itaru... Itaru, can you hear me?"
+@waitclk
+@mset l=5 h=true
+Yeah, perfectly.
+So, will we be having the usual ceremony?
+We're not going to do it here, are we?
+@waitclk
+@mset l=3 h=true
+@v s=40638
+"We won't. Rather... we can't. Not anymore."
+@waitclk
+@mset l=3 h=true
+"What do you mean?"
+@waitclk
+@mset l=3 h=true
+@v s=40639
+"Your fate changed. This is the end.
+You can't come back anymore."
+@waitclk
+@mset l=5 h=true
+Wait, what?! What's with that!?
+That's not what you said!
+Don't I die on the fifth day!?
+@waitclk
+@mset l=5 h=true
+Do something! Ask God!
+What's gonna happen now!?
+@wait time=800
+Call the person in charge
+@wait time=200
+@stoppfx
+@mnoff
+@se fade=stop
+@bi s=blank trans=crossfade all=true time=100
+@wait time=2000
+@jump storage="430200.scn"
+;【演出】暗転
+;→430200

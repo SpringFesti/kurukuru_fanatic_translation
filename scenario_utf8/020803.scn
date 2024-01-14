@@ -1,0 +1,156 @@
+﻿;020803
+*020803|_気だるい午後に
+;【備考】主人公視点
+;【ワイプ】視点変更
+@mwoff
+@bi s=blank time=100
+@bi s=bg12d trans=ランダム
+@bgm s=bgm16
+@setOnce
+@fi s=m415 pos=lc
+@fi s=k647 pos=rc
+@endOnce
+@mwon
+@【至】
+"Stop it, you two! Please, stop it!!"
+@page
+I don't actually think I can stop them.
+However, it's better than doing nothing at all.
+@page
+I sandwich myself between the two of them.
+To be honest, I can't move.
+I can't even move my foot, not at all.
+@page
+I hadn't realized before that it wouldn't be difficult
+for either of them to castrate me.
+@page
+@【至】
+"Just stop it for today, okay!? Put down your weapons!"
+@page
+But I don't think I can stop them.
+I just wanted the usual development to unfold.
+@page
+Then--
+@page
+@setOnce
+@fi s=m313 pos=lc
+@fi s=k648 pos=rc
+@endOnce
+@qk
+@lfont
+;【備考】ユニゾン
+;@v s=30109
+;@【かごめ】
+;「――っ！？」
+@v s=20466
+;@【祀利】
+"-- ngh!?"
+@page
+They're in sync, almost like looking into a mirror.
+Matsuri and Otogiri-san shake and blanch as they look at the entrance.
+Even their expressions are the same.
+@page
+@【至】
+"W-What's wrong?"
+@page
+They don't answer.
+They stare, looking harshly at something.
+They stare at something I cannot see.
+@page
+@fi s=m515 pos=lc
+@v s=20467
+@【祀利】
+"...So, she's here, huh?"
+@page
+@fi s=k645 pos=rc
+@v s=30110
+@【かごめ】
+"Yep."
+@page
+@v s=20468
+@【祀利】
+"Which way is she facing?"
+@page
+@v s=30111
+@【かごめ】
+"Probably our way. She's probably going to kill us."
+@page
+@v s=20469
+@【祀利】
+"Yep. She... she's finally come."
+@page
+My questions keep piling up.
+But I couldn't ask those questions, for some reason.
+@page
+@se s=se011
+;【ＳＥ】チャイム
+Then, I hear the bell.
+That sound heralds the end of the Great War.
+@page
+@fi s=m115 pos=lc
+@v s=20470
+@【祀利】
+"Tch, way to kill all the fun... I'll overlook this for now."
+@page
+@fi s=k211 pos=rc
+@v s=30112
+@【かごめ】
+"Alright."
+@page
+There's no longer any murderous intent between the two of them.
+For now, anyway.
+@page
+However, they still hold murderous intent for the person standing
+at the entrance.
+@page
+@【至】
+"...Why is Wazuka-san here?"
+@page
+Whether they understood my words or not, they make the same movement
+again, just like a mirror.
+Then--
+@page
+@setOnce
+@fi s=m115 pos=lc
+@fi s=k349 pos=rc
+@endOnce
+;【備考】ユニゾン
+@v s=20471
+;@【祀利】
+"Heehee."
+;@v s=30113
+;@【かごめ】
+;「ひひっ」
+@page
+They look at me, and laugh coldly.
+@bgm fade=out
+@page
+@bi s=bg810 trans=crossfade all=true
+@bgm s=bgm10
+;【背景】青空
+That event was the end.
+Perhaps it's fortunate that it ended there.
+@page
+Neither Otogiri-san nor Matsuri did anything else that afternoon.
+They just looked at each other... just like a cold war.
+@page
+@【至】
+(... However, Wazuka-san is the problem here.
+If it really was her, what did she come here to do?)
+@page
+Did she come to ask how Matsuri was?
+Maybe she had business with me?
+@page
+There's no way to find out anymore.
+If I did know, perhaps another event would occur...
+no, it would happen for sure.
+@page
+@【至】
+"...Now what?"
+@page
+Happily sleeping on my knee, Matsuri mutters.
+@page
+@mwoff
+@bgm fade=stop
+@jump storage="020900.scn"
+;→020900

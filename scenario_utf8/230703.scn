@@ -1,0 +1,74 @@
+﻿;230703
+*230703|_祀利のお願い
+;【好感度】祀利+1
+@eval exp="f.matsuri++"
+@【至】
+"Alright... this is a good opportunity. Let's try an adult kiss."
+@page
+@fi s=m113d pos=c
+@v s=20876
+@【祀利】
+"Fueh...? An adult kiss?"
+@page
+Instead of answering her, I covered her lips with my own.
+@page
+@fi s=m11ed pos=c
+@v s=20877
+@【祀利】
+"Mn... muh.. hau... h!?"
+@page
+I insert my tongue into her mouth and explore it thoroughly.
+@page
+Matsuri was probably surprised at the movements of my tongue.
+She stiffens and clings to me tightly.
+@page
+@fi s=m11ead pos=c
+@v s=20878
+@【祀利】
+"Fumuh.. mnn... hamuh... fuh...!"
+@page
+After caressing the slimy insides of her mouth for a while,
+Matsuri loses her strength before long.
+@page
+@v s=20879
+@【祀利】
+"Amuh... nnu... nmu...h..."
+@page
+I raise Matsuri's tongue above my own, and lick it.
+@page
+@v s=20880
+@【祀利】
+"Fuuuunh... nnnuuuhh!"
+@page
+@v s=20881
+@【祀利】
+"Umn... chu... u... nnn..."
+@page
+Matsuri answers that as well, twisting my own tongue around her's.
+@page
+Our saliva mixes together, making a squishy sound.
+@page
+@fi s=m749ad pos=c
+@v s=20882
+@【祀利】
+"Puah... ahaahn... what was that... my heart is beating..."
+@page
+@v s=20883
+@【祀利】
+"So that was... an adult kiss..."
+@page
+@【至】
+"No... uh, sorry. I might have gone too far there..."
+@page
+@fi s=m112ad pos=c
+@v s=20884
+@【祀利】
+"Eh, not at all. It surprised me at first... but I was happy."
+@page
+@fi s=m111ad pos=c
+@v s=20885
+@【祀利】
+"So, why don't we do something even better than a kiss?"
+@page
+;→230704
+@jump storage="230704.scn"

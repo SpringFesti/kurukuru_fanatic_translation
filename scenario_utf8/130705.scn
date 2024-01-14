@@ -1,0 +1,189 @@
+﻿;130705
+*130705|_気持ちの意味
+;【備考】わずか視点
+;【ワイプ】視点変更
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=evn1021 trans=ランダム
+@bgm s=bgm04
+@mwon
+@v s=11069
+@【わずか】
+"Itaru-kun... are you asleep?"
+@page
+I ask him that, but as usual,
+I can only hear his sleeping breath.
+@page
+Yes, he is already asleep.
+@page
+Of course. I had called out to him before.
+Really, this was a confirmation of what I already knew.
+@page
+I quietly touch Itaru-kun's cheek.
+@page
+It is warm. With just that touch, warm feelings
+overflow inside my chest.
+@page
+I want to be like this forever.
+@page
+For now, I cannot.
+I'll likely be able to from now on.
+Maybe, maybe not.
+@page
+But it is for his sake.
+So for now, I cannot.
+@page
+But when this ends, after-- I wonder, when?
+@page
+@bi s=evn1020 
+@v s=11070
+@【わずか】
+"Good night, Itaru-kun."
+@page
+@bi s=bg01b
+@fi s=w121 pos=c
+I lift myself from the bed, quietly,
+as not to wake him.
+@page
+The smell of our actions just a little while ago still fills the room.
+@page
+My own smell mixes with his.
+@page
+It feels good.
+Just like this, I feel good.
+@page
+@fi s=w558a pos=c
+Once again, I become hot.
+Honey overflows from the privates that he licked,
+and the insides of me twitch.
+@page
+I want Itaru-kun.
+@page
+But I cannot have him if others exist.
+I cannot.
+Other people are useless.
+@page
+So now, my answer has been decided.
+@page
+@fi s=w123a pos=c
+I like Itaru-kun.
+I love him.
+I cannot think of a world without him.
+@page
+No... because Itaru-kun exists, the world exists as well.
+@bgm fade=out
+@page
+@bgm s=bgm15
+@fi s=w125 pos=c
+How stupid am I?
+Itaru-kun is my savior.
+He saved my life.
+@page
+Itaru-kun is a god.
+For me, and for this world,
+he is the most important thing.
+@page
+That person, he asked me.
+He told me that he likes me.
+@page
+He is different from a human, as a god.
+So, he cannot lie.
+@page
+No, even if a god could lie, Itaru-kun is different.
+As a God of a higher order, he cannot lie.
+Because he is not a human, he cannot lie.
+@page
+@fi s=w558a pos=c
+I saw God's sleeping face.
+I am at ease.
+But now when I am standing up, that is not so.
+@page
+I am worried.
+I am lost.
+@page
+I want him to think well of me--
+I recall his words from before.
+@page
+Why would he ask that? What were his reasons?
+@page
+@fi s=w223a pos=c
+@v s=11071
+@【わずか】
+"...What do you mean? Is there something you can't tell me?"
+@page
+Still, that is fine.
+@page
+Itaru-kun is gentle.
+Itaru-kun is pitiable.
+@page
+I noticed it, for sure.
+I, a believer in the God named Itaru-kun,
+noticed his troubles a long time ago.
+@page
+@fi s=w122 pos=c
+@v s=11072
+@【わずか】
+"... Yes... because of them...
+Because of the strange things they do...!"
+@page
+They take advantage of Itaru-kun's kindness--
+They leech off of his goodwill--
+Itaru-kun has put up with it for so long, but...
+@page
+@fi s=w121 pos=c
+@v s=11073
+@【わずか】
+"...Kill."
+@page
+It'll be okay, Itaru-kun.
+I will kill those nuisances.
+At once, I will murder them.
+@page
+I cannot sacrifice them to him, because they are so dirty,
+but still I should be able to erase his worries.
+@page
+Because I will kill them.
+@page
+Glasses girl will be easy.
+I can think of a way to kill her immediately if need be.
+@page
+@fi s=w122 pos=c
+But the problem is Matsuri.
+Unfortunately, she is a genuine murderer.
+She can handle a gun, and she has the senses of a predator.
+@page
+If that's so, I can't do it.
+Unless, of course, I begin my preparations now.
+@page
+I look at God's sleeping face once again.
+Then, I breathe deeply of the smell of the energy... no, the saintly liquid that God gave to me.
+@page
+@fi s=w125 pos=c
+@v s=11074
+@【わずか】
+"Fu, fufu... fufufu... fufu..."
+@page
+@fi s=w657a pos=c
+@qk time=1000
+@v s=11075
+@【わずか】
+"Pffttmhmhmhmhm!"
+@page
+Please wait for me, God.
+I will rid you of those meddlesome obstructions.
+I will kill all of them.
+@page
+When I have made it fine, I will ask it again.
+Only then, will I hear your answer.
+@wait time=500
+Will you listen to me?
+@page
+I quietly open the door and walk to my room.
+@page
+@fi id=w
+@mwoff
+@bgm fade=out
+;→140100
+@jump storage="140100.scn"

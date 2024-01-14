@@ -1,0 +1,54 @@
+﻿;330101
+*330101|_１０月２９日午前７時１２分
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+@【至】
+"Well, I guess it's not completely impossible..."
+@page
+"Alright, I understand. I might be a little late though, sorry."
+@page
+@【至】
+"... Alright, that's a good reply. Though I should have said that I'm definitely going to be late."
+@page
+I'm sure as a Japanese person, she'll understand.
+@wait time=500
+... Right?
+@page
+Then, while feeling a little uneasy, I send the message.
+@page
+;【ＳＥ】携帯電話着信音
+@se s=se027
+@【至】
+"Already!? Nononono, that's way too fast, isn't it?"
+@page
+It's almost like she had the reply all ready to go.
+While being surprised, I open up the text.
+@page
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30255
+;@【かごめ】
+"Thank you. I will be waiting."
+@waitclk
+@mwon
+@【至】
+"... I see. It's just her saying that she understands. She's really quick with her texts."
+@page
+If that was all it was, then I would be happy.
+I'm even getting a little happy when I interpret it that way.
+@page
+;【備考】声のみ、立ち絵なし。
+@v s=10700
+@【わずか】
+"Itaru-kuuun, breakfast is readyyy!"
+@page
+@【至】
+"-- Oh crap, I gotta gooo!"
+@page
+I hear Wazuka-san calling out to me, regain my focus,
+and start to change my clothes in a hurry.
+@page
+@mwoff
+;→330200
+@bgm fade=stop
+@jump storage="330200.scn"

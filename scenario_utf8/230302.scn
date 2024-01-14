@@ -1,0 +1,107 @@
+﻿;230302
+*230302|_トイレの中で……
+;【演出】暗転
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bgm s=bgm06
+@mwon
+@【至】
+"Phew..."
+@page
+With a sigh, I stand there in the darkness.
+@page
+I have the feeling she isn't going to be
+able to move for a while either.
+@page
+@fi s=m749a pos=c
+@v s=20806
+@【祀利】
+"Ahahhnn... Itaru, you were so much
+better than I thought you would be...
+I can't do it without you anymore..."
+@page
+@【至】
+"I-Is that right? I'm honored."
+@page
+@fi s=m648 pos=c
+@v s=20807
+@【祀利】
+"Nfufu... then, Itaru, let's do it again."
+@page
+@fi s=m64a pos=c
+@【至】
+"Eh? Festa...?"
+@page
+As usual, all expression drops from Matsuri's face,
+and then--
+@page
+@fi s=m64b pos=c
+@v s=20808
+@【祀利】
+"...Huh? What? What did you do to Matsuri?"
+@page
+@fi s=m113 pos=c
+@v s=20809
+@【祀利】
+"--Ah! It feels really warm inside of Matsuri."
+@page
+@v s=20810
+@【祀利】
+"And we're in the restroom now...
+Itaru, did you have sex with me in here?"
+@page
+@【至】
+"Ahh... well... yeah."
+@page
+@fi s=m114 pos=c
+@v s=20811
+@【祀利】
+"Doing it while Matsuri is asleep... you pervert!"
+@page
+Matsuri's the pervert for asking me to have sex with her.
+@page
+@fi s=m111 pos=c
+@v s=20812
+@【祀利】
+"But that's okay. We can do it whenever we want, because we're fiancees."
+@page
+;【ＳＥ】ドアを激しく蹴る音
+@se s=se044
+@qk
+@flash
+Then, the door to the stall we're in makes a loud
+noise and shakes terribly.
+@page
+@【至】
+"Ahhh! W-What's going on!? Who's out there!?"
+@page
+@se s=se078 v=30
+It's not an earthquake.
+Somebody probably punched or kicked the door.
+Then they ran outside-- I can hear the footsteps.
+@page
+@se fade=out
+@【至】
+"... Who the hell was that? Hope it wasn't a teacher..."
+@page
+@fi s=m111 pos=c
+@v s=20813
+@【祀利】
+"Don't worry about it. We still have time, so let's do it a little more."
+@wait time=3000
+@fi s=m212d pos=c
+@page
+Matsuri hugs me and nestles her cheeks against my chest.
+@page
+... Okay. If somebody asks me I'll worry but for now,
+I won't think about it.
+@page
+I put my hands around Matsuri and hold her close.
+@page
+@fi id=m
+@bgm fade=out
+@mwoff
+;→230303
+@jump storage="230303.scn"

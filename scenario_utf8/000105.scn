@@ -1,0 +1,75 @@
+﻿;000105
+*000105|_Time of Awakening
+@bgm s=bgm08
+@bi s=bg8180 time=800
+;【背景】不可思議な空間
+@fi s=f101 pos=c
+@v s=40096
+@【ファヌル】
+"What do you think I just said?　The ritual's over. Leave."
+@page
+@【至】
+"What?! I didn't feel anything!"
+@page
+@fi s=f302 pos=c
+@v s=40097
+@【ファヌル】
+"You can "feel" being human? Don't make a fool out of an angel."
+@page
+She shuts her mouth, and the luster she had until a while ago vanishes.
+@page
+Am I at fault for being tricked by her, or is she at fault for tricking me?
+Am I going to be cursed by God once more?
+@page
+@se s=se124 loop=true
+@starpfx
+;@loopflash
+@【至】
+"... Wait, what's this!? What's this light all over me!?"
+@page
+I notice that my hands and feet are drenched in light.
+The light expands, and becomes stronger.
+@page
+@fi s=f301 pos=c
+@v s=40098
+@【ファヌル】
+"I just said. The ritual is complete. You have been revived. 
+You'll go back to five days before you were killed."
+@page
+@【至】
+"Wait! I need to prepare myself!
+Is there anything I need to know or remember!?"
+@page
+@fi s=f53a pos=c
+@v s=40099
+@【ファヌル】
+"Nope. God's skill is perfect."
+@page
+@【至】
+"That has nothing to do with it! Explain it to me better!!!"
+@page
+@fi s=f53b pos=c
+@v s=40100
+@【ファヌル】
+"What it's like to be human? I can't really explain that."
+@page
+@stoppfx
+;@stopflash
+@se fade=out
+@mwoff
+@bi s=white all=true time=500
+;【ワイプ】テレビが消えるように
+;【演出】白
+;【ＳＥ】ブツン
+@wait time=700
+@mwon
+Then, I became wrapped in light.
+@page
+What did Fanuel say? Frankly, what the hell is going on?
+@page
+All is light. I disappear into the light, as it fills my vision ――
+@page
+@mwoff
+@bgm fade=out
+@jump storage="010100.scn"
+;終了後→0010100

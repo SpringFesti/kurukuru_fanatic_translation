@@ -1,0 +1,522 @@
+﻿;240600
+*240600|籠城戦
+;【ワイプ】時間経過
+;【背景】自宅居間・灯りあり
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+@bgm s=bgm02
+@mwon
+@【至】
+"Sigh... I can't even settle down in my own home."
+@page
+I sit down in the living room, sipping some tea.
+@page
+Yes, this. This is what I want.
+@page
+I don't need knives, guns, bombs or sex.
+I just want an ordinary life.
+@page
+Yeah. I must've been imagining what happened today.
+There couldn't have been a shooting rampage in a place so familiar to me.
+@page
+Something like that can only happen on television.
+@page
+So, I turn on the television.
+@page
+@se s=se013
+@【アナウンサー】
+"A shooting rampage broke out earlier today on the campus of this school.
+The criminal is still at large..."
+@page
+I recognize the school they're showing on television.
+@page
+Yeah, look. This is just a television story.
+Ahahahahahaha.
+@page
+@【至】
+"... This is reality, isn't it? Damn it..."
+@page
+I turn off the television, at my wits end.
+@page
+@fi s=m113 pos=c trans=in slide=r time=3000
+@v s=21243
+@【祀利】
+"One, two, one, two..."
+@page
+Matsuri is carrying a large pack.
+@page
+@【至】
+"What are you up to, Matsuri?"
+@page
+@fi id=m trans=out slide=l time=3000
+@v s=21244
+@【祀利】
+"One, two, one, two..."
+@page
+Did she hear me?
+@page
+@【至】
+"Heyyy, Matsuri!"
+@page
+;【ワイプ】場所移動
+;【背景】主人公自室・夜
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01n trans=ひし形(左から右へ)
+@fi s=m111 pos=c
+@mwon
+@【至】
+"Matsuri, I asked what you were doing. What's with the bag?"
+@page
+@fi s=m648 pos=c
+@v s=21245
+@【祀利】
+"This? Just some preparations. We have to prepare.
+Ufufufufu."
+@page
+@【至】
+"Preparations, what are you--"
+@page
+I start to ask her what she means, when I see a light in the window.
+@page
+@bgm fade=out
+@wait time=200
+@bgm s=bgm15
+That's not a normal light. That's a red light.
+@page
+A rhythmically rotating red light.
+In other words... a rotary light.
+@page
+@【至】
+"An a-a-ambulance?
+Is there a sick person somewhere near here?"
+@page
+@【至】
+"Or is that a fire truck? It would be terrible if there was a fire..."
+@page
+@fi s=m113 pos=c
+@v s=21246
+@【祀利】
+"Itaru, don't escape from reality.
+It's the light of a police car, of course."
+@page
+@【至】
+"No! That's not the only thing it could be!
+I'm sure there's some sort of biohazard in the area!"
+@page
+@se s=se115 v=70
+@【警官】
+"Ehh, to all criminals in the vicinity,
+you're completely surrounded,
+so throw away your weapons and come quietlyyy!"
+@page
+@se fade=out
+My fleeting hope was smashed to pieces.
+@page
+@fi s=m64a pos=c
+@v s=21247
+@【祀利】
+"Que surpresa. They're faster than I thought. It's a little troubling."
+@page
+@fi s=m111 pos=c
+@v s=21248
+@【祀利】
+"Anyway, let's finish up our preparations."
+@page
+@fi id=m
+Inside of the box that Matsuri was carrying,
+I see a metal that shines black...
+and I can faintly smell gunpowder.
+@page
+I don't know a lot about weapons,
+but there's probably a really bad one in here.
+@page
+@【至】
+"Are you going to use this?
+Against the police? Seriously?"
+@page
+;【ＳＥ】携帯音声着信音
+@se s=se027
+@【至】
+"My phone? Who would call at a time like this...
+Oh, it's Wazuka-san."
+@page
+@se fade=stop
+@【至】
+"H-Hello? Wazuka-san?"
+@page
+@v s=10678
+@【わずか】
+"Ah, Itaru-kun? Are you okay? Are you injured?"
+@page
+@【至】
+"N-No, I'm fine. But I'm in serious trouble.
+There are a lot of police in front of the house..."
+@page
+@v s=10679
+@【わずか】
+"Yes, I know. That's because I called them."
+@page
+@【至】
+"Eh? But, why would you..."
+@page
+After I mutter that, I realize that it's only natural.
+@page
+Right now, Matsuri is a brutal criminal that shot off her guns everywhere.
+@page
+Informing the police of her whereabouts is your civic duty.
+@page
+@v s=10680
+@【わずか】
+"Itaru-kun, come out quickly. You don't need to be with a woman like that."
+@page
+@v s=10681
+@【わずか】
+"I've told the police everything.
+You aren't at fault here.
+So, you won't be arrested."
+@page
+@【至】
+"S-So nothing will happen to me...
+But, what about Matsuri...?"
+@page
+@v s=10682
+@【わずか】
+"She will be executed. Just like a heinous criminal should be."
+@page
+@【至】
+"Hell no! There's no way!"
+@page
+@v s=10683
+@【わずか】
+"Itaru-kun, calm down. There's nothing left for you with her."
+@page
+@v s=10684
+@【わずか】
+"Starting something like that, there's no way she'd get away with it."
+@page
+@【至】
+"That's true, but... capital punishment is too much.
+She didn't kill anybody, after all."
+@page
+@v s=10685
+@【わずか】
+"In the eyes of the law, maybe. But she will still be executed.
+By me."
+@page
+@【至】
+"No, no, no."
+@page
+@v s=10686
+@【わずか】
+"So...? Come on out."
+@page
+@v s=10687
+@【わずか】
+"If that woman gets in your way, find
+some kind of chance and get away. Then,
+if you kill her--"
+@page
+;【ＳＥ】銃声
+@se s=se109
+@qk
+@flash
+The cell phone in my hand explodes into tiny pieces.
+Matsuri shot it.
+@page
+@fi s=m311 pos=c
+@v s=21249
+@【祀利】
+Don't listen to whatever that woman just said, Itaru."
+@page
+@【至】
+"Matsuri..."
+@page
+I can't desert Matsuri. That's only natural.
+@page
+But, if I keep going along with her, will I be alright?
+@page
+@se s=se115 v=70
+@【警官】
+"Ehh, to all criminals in the vicinity,
+you're completely surrounded--"
+@page
+@se fade=out
+@【至】
+"But, I really think we should surrender to the police.
+Anything else is really hopeless.
+The police are coming soon, so..."
+@page
+@fi s=m112 pos=c
+@v s=21250
+@【祀利】
+"That's not true. It'll a-ll be okay.♪"
+@page
+@se s=se019
+@bi s=bg01b
+As she says this, Matsuri turns out the lights.
+@page
+@fi id=m
+Then, she leans out from the window and the police become noisy.
+@page
+@se s=se115 v=70
+@【警官】
+"You! The one in the window!
+Throw away your weapons and surrender quietly!
+Are you listening!?"
+@bgm fade=out
+@page
+@mwoff
+@se fade=out
+@bi s=blank trans=crossfade all=true time=500
+@bi s=evn2031 time=500
+@bgm s=bgm16
+@wait time=300
+@mwon
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21251
+@【祀利】
+"Yeah, I'm listening! You limp dicks!"
+@page
+;【ＳＥ】拳銃の銃声/乱射
+@【警官】
+"Uwaaaaah! She's shooting at us!"
+@page
+Matsuri fires, aiming for the policemen outside.
+@page
+@mwoff
+@bi s=evn2030
+@wait time=300
+@mwon
+@v s=21252
+@【祀利】
+"Kyaahahahahahaha!
+Panic, panic! Hilaaarious!"
+@page
+@bi s=evn2031
+@se s=se110
+@qk
+@flash
+@v s=21253
+@【祀利】
+"Diediediediediediediediedie you piece of shit insects!"
+@page
+@【至】
+"Uwah..."
+@page
+It's over.
+@page
+This was the moment when my life ended in various ways.
+Just like the cell phone in my hand, shattered into pieces...
+@page
+Wait, my phone!?
+@page
+@【至】
+"W-W-What're you doing!
+This phone was really expensive!"
+@page
+I grasp the splinters of the plastic in my hand.
+@page
+@【至】
+"No, wait, the phone doesn't matter right now."
+@page
+I'm really, really upset right now.
+@page
+@bi s=evn2030
+@se s=se110
+@qk
+@flash
+@v s=21254
+@【祀利】
+"Ahaha! Run, run! You're pretty quick, just like cockroaches!"
+@page
+@【至】
+"...Hm? Wait a second.
+Fanuel was inside this phone..."
+@page
+Fanuel should have been inside.
+But Matsuri blew her away.
+@page
+@【至】
+"Wawawawa!
+Fanuel! Fanuel!?"
+@page
+I call out to the broken phone.
+@page
+M-Maybe Fanuel died..."
+@page
+@se fade=out
+@bi s=bg01b
+@fi s=f111 pos=c
+@v s=40548
+@【ファヌル】
+"Welcome back, Itaru? You need something?"
+@page
+@【至】
+"Ugyaaaaaah!?"
+@page
+@fi s=f312 pos=c
+@v s=40549
+@【ファヌル】
+"Why are you so surprised? It's just me.
+Oh yeah, welcome back Matsuri-chan."
+@page
+@setOnce
+@fi id=f
+@fi s=m312 pos=c
+@endOnce
+@v s=21255
+@【祀利】
+"Fueh? Ah, I'm back Fa-chan.
+I'm a bit busy right now, so we'll talk later."
+@page
+;【ＳＥ】銃乱射
+@se s=se110
+@setOnce
+@fi id=m
+@fi s=f114 pos=c
+@endOnce
+@v s=40550
+@【ファヌル】
+"Okay, gotcha. Good luck."
+@page
+@【至】
+"W-Why are you talking like this is normal!?
+Weren't you inside my cell phone!?"
+@page
+My mouth opens and shouts start to come forth like yarn from a ball.
+If Matsuri was listening, she'd probably think it was weird.
+@page
+@fi s=f759 pos=c
+@v s=40551
+@【ファヌル】
+"Itaru, don't worry about it.
+This person's soul is already about to break.
+This isn't the time to be talking."
+@page
+@【至】
+"A-About to break? What are you talking about?"
+@page
+@fi s=f55a pos=c
+@v s=40552
+@【ファヌル】
+"Well, strictly speaking it's a disease of the mind.
+Her mind is sick. It's at the terminal stage as well."
+@page
+;【ＳＥ】爆発音
+@se s=se097
+@【至】
+"S-So that's it after all..."
+@page
+@fi s=f55b pos=c
+@v s=40553
+@【ファヌル】
+"However, this is even better than I thought.
+Isn't it laughable how you got yourself into this?
+Even this angel is surprised. Ahahahahaha!"
+@page
+@【至】
+"This isn't something to laugh about! Help me!
+Wait a minute, weren't you in that cell phone that
+was just blown away!?"
+@page
+@fi s=f411 pos=c
+@v s=40554
+@【ファヌル】
+"Yeah, it was blown away quite splendidly.
+Or wait, were you asking how I got away?"
+@page
+;【ＳＥ】拳銃の銃声
+@【至】
+"Yeah, it was stupid to worry about you for even an instant."
+@page
+@setOnce
+@fi id=f
+@fi s=m64b pos=c
+@endOnce
+@v s=21256
+@【祀利】
+"Yeah, something about this isn't quite right.
+I hit them occasionally, but it's like they have bulletproof jackets.
+It'd be nice if they'd die already..."
+@page
+@setOnce
+@fi id=m
+@fi s=f111 pos=c
+@endOnce
+@【至】
+"Before that, do you understand this situation?
+I can't manage this anymore.
+I'm asking you, please, stop Matsuri."
+@page
+@fi s=f559 pos=c
+@v s=40555
+@【ファヌル】
+"Refused. This is a human problem, isn't it?
+So a human should solve it. Don't rely on Heaven."
+@page
+@【至】
+"S-Such cruelty..."
+@page
+@fi s=f659 pos=c
+@v s=40556
+@【ファヌル】
+"... Well, that's policy.
+I've rarely seen something so interesting.
+I want to see it play out."
+@page
+@【至】
+"Y-Y-Youuu..."
+@page
+What a whimsical person.
+@page
+@fi s=f65b pos=c
+@v s=40557
+@【ファヌル】
+"Well, I'm gonna disappear now.
+Please, struggle until the end for my amusement.
+O N I I C H A N."
+@page
+@【至】
+"S-Shut up! If you aren't going to help, then go ahead and disappear!"
+@page
+@fi s=f114 pos=c
+@v s=40558
+@【ファヌル】
+"Matsuri-chan, I'll be in my room over there.
+If you need anything, call for me."
+@page
+@fi id=f
+@fi s=m312 pos=c
+@v s=21257
+@【祀利】
+"Okay. Once I clean up these guys, Fanuel can come with us."
+@page
+;【ＳＥ】拳銃の銃声/乱射
+@【至】
+"Please don't clean them up."
+@page
+@fi s=m515 pos=c
+@v s=21258
+@【祀利】
+"Oraoraoraora!
+I'll exterminate these policemen! Kuhahahahah!"
+@page
+@fi id=m
+;【ＳＥ】爆発音
+@se s=se098
+@flash time=1000
+@qk time=1000
+@bi s=white
+It was going to be a sleepless night.
+@page
+@mwoff
+@bgm fade=out
+;→250100
+@jump storage="250100.scn"

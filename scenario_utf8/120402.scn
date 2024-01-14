@@ -1,0 +1,166 @@
+﻿;120402
+*120402|_浴室で――
+;【背景】浴室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg05d trans=tile
+@smokepfx
+@bgm s=bgm05
+@fi s=m101  pos=c
+@mwon
+@v s=20625
+@【祀利】
+"...So, who won?"
+@page
+Festa says that after washing off all the semen.
+@page
+@fi s=m102  pos=c
+@v s=20626
+@【祀利】
+"Who made you feel better?
+It must've been me, right?"
+@page
+@setOnce
+@fi s=m102 move=rc
+@fi s=w103 pos=lc
+@endOnce
+@v s=10550
+@【わずか】
+"Itaru-kun, I..."
+@page
+I understand Wazuka-san's thoughts well.
+@page
+No matter what I think, their techniques were different.
+She was taught her techniques by Festa.
+The outcome was evident.
+@page
+But--
+@page
+@【至】
+"Sorry, I have no idea.
+To be honest, that felt wayyy too good."
+@page
+That was my true answer.
+I don't remember what each of them were doing at the last moment.
+@page
+@fi s=m104 pos=rc
+@v s=20627
+@【祀利】
+"Cheater! Aren't you favoring her?"
+@page
+@【至】
+"No, really.
+That was the first time that ever happened to me,
+so... I was really excited."
+@page
+My dick is still erect,
+and something might still be dripping from it.
+@page
+@fi s=m63b pos=rc
+@v s=20628
+@【祀利】
+"Ohh, my technique is much better.
+Sigh... now I'm tired."
+@page
+@fi s=m637 pos=rc
+@v s=20629
+@【祀利】
+"Another me will appear soon...
+Yawn... I'm already sleeping."
+@page
+@fi id=m
+While fluttering her hands, Festa leaves the bathroom.
+@page
+I was afraid another bloodbath might begin,
+but luckily a miracle happened.
+@page
+@fi s=w103 pos=c
+@v s=10551
+@【わずか】
+"Itaru-kun..."
+@page
+@【至】
+"W-What's wrong? Do you want to get in the bath?
+I can leave then, if you--"
+@page
+@fi s=w538 pos=c
+@v s=10552
+@【わずか】
+"That's not it... I'm sorry.
+I...... I was useless."
+@page
+@【至】
+"No way! That felt really good!"
+@page
+@fi s=w103 pos=c
+@v s=10553
+@【わずか】
+"Really?"
+@page
+@【至】
+"Really.
+　But... didn't you hate that?
+Doing something like that... wasn't that too much?"
+@page
+@fi s=w537a pos=c
+@v s=10554
+@【わずか】
+"Oh, no.
+You felt good, didn't you?
+So, I..."
+@page
+She looks at me, and her eyes become wet.
+Crap. I don't know what to do here.
+Oh god, my dick's getting hard again.
+@page
+@fi s=w104a pos=c
+@v s=10555
+@【わずか】
+"If you want to do it again... that's okay.
+I'll get good at it.
+I'll do it more and more, and get better... is that okay?"
+@page
+@【至】
+"...It is? You want to do that again?"
+@page
+I'm a bit embarrassed, to speak the truth.
+Then, Wazuka-san nods again.
+@page
+So I get embarrassed again.
+I don't want her feelings to get hurt again, above all.
+@page
+So--
+@page
+@fi s=w103a pos=c
+@v s=10556
+@【わずか】
+"Itaru-kun..."
+@page
+;【演出】わずか立ち絵アップ
+@fi s=w104ad pos=c
+She relieves me with a smile, and gently hugs me.
+@page
+Her skin is soft, and warm.
+Hotter than usual.
+It feels better than usual.
+@page
+;@fi s=w104ad pos=c
+@v s=10557
+@【わずか】
+All of me is yours... so just ask.
+Anywhere, any time, I'll do it.
+I'll try my best... okay?"
+@page
+Whispering sweet temptations in my ear, I'm seized by 
+the temptation to do it again.
+@page
+But for now, it feels much better to be embraced by the 
+warm Wazuka-san.
+@page
+@fi id=w
+@stoppfx
+@mwoff
+;→120403
+@bgm fade=stop
+@jump storage="120403.scn"

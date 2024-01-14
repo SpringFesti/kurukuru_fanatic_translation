@@ -1,0 +1,261 @@
+﻿;240100
+*240100|１０月３０日午前８時２０分
+;【ワイプ】場面転換
+;【背景】玄関内部・灯りあり
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03d trans=clock
+@bgm s=bgm02
+@mwon
+@【至】
+"Alright, let's get going."
+@page
+@setOnce
+@fi s=w111 pos=lc
+@fi s=m112 pos=rc
+@endOnce
+I'm together with Wazuka-san and Matsuri, and my outfit's all ready to go.
+@page
+And by the way, Fanuel already hopped into my phone.
+@page
+@se s=se041
+@bi s=current all=true trans=crossfade
+@bi s=bg810
+@wait time=1000
+@v s=20985
+@【祀利】
+"Ahh, wait Itaru! Don't leave me behind!"
+@page
+I walk to school, thinking to myself.
+Matsuri's not far behind, running towards me.
+@page
+;【ワイプ】場面転換
+;【背景】住宅街路上・昼
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg08d trans=tile
+;@bgm s=bgm06
+@fi s=m412d pos=c
+@mwon
+@v s=20986
+@【祀利】
+"Hmmhmmhmmhmm~. Together with Itaru.♪"
+@page
+Matsuri cheerfully flings her arms from side to side like she's at an athletic meet.
+... Except she's got a gun in her hand.
+@page
+@setOnce
+@fi id=m
+@fi s=w112 pos=c
+@endOnce
+@v s=10640
+@【わずか】
+"Kuh...! That bitch...!"
+@page
+I'm really worried about Wazuka-san, who's walking behind us.
+@page
+That's because whenever Matsuri wheels her arm backwards,
+the muzzle of the gun always points towards Wazuka-san.
+@page
+@【至】
+"U-uh, hey, Matsuri... could you put that away soon?"
+@page
+@setOnce
+@fi id=w
+@fi s=m41dd pos=c
+@endOnce
+@v s=20987
+@【祀利】
+"I'm Festa now... so what was that, Itaru? Put what away?"
+@page
+@fi s=m647d pos=c
+@v s=20988
+@【祀利】
+"Are you sure you want to put away something as wonderful as this?"
+@page
+Matsuri's hand finds it's way to my crotch.
+@page
+@【至】
+"Hey! Festa, stop! We're on a public road, and Wazuka-san's right there!
+And I wasn't talking about that, I was talking about your gun!"
+@page
+@fi s=m413d pos=c
+@v s=20989
+@【祀利】
+"Huh? I'm Mardi-gras. Who are you talkin' to?"
+@page
+@【至】
+"O-Oh? S, sorry."
+@page
+I can't respond to her at all when she acts like that.
+@page
+@【至】
+"So Mardi-gras, do you think you could put away the gun now?"
+@page
+@fi s=m412d pos=c
+@v s=20990
+@【祀利】
+"This is just a toy! Ahahahaha!"
+@page
+@【至】
+"O-oh, it's just a toy, okay. It's just a
+toy, Wazuka-san, so you can calm--"
+@page
+@fi s=m41cd pos=c
+@v s=20991
+@【祀利】
+"... Yeah, this really is a toy. This gun is so small,
+I bet it can't even blow somebody's limbs off."
+@page
+@fi s=m415d pos=c
+@v s=20992
+@【祀利】
+"But if you hit a vital point with it, death is certain. Kukuku..."
+@page
+@【至】
+"Wha--! That's not something to be reassured about!
+Now is that thing a toy or not!?"
+@page
+;@fi s=m747d pos=c
+@v s=20993
+@【祀利】
+"Heh heh, Mardi-gras was the only one saying it was a toy."
+@page
+@【至】
+"This is Parade now, right? A-Are you gonna shoot me?
+No? Please, don't shoot me!"
+@page
+@fi s=m41cd pos=c
+@v s=20994
+@【祀利】
+"Yeah, I don't feel like it right now.
+... But I can't guarantee it. The gun
+might go off by itself, after all."
+@page
+Parade smiles deviously towards Wazuka-san.
+@page
+@【至】
+"Parade, this isn't funny..."
+@page
+@fi s=m413d pos=c
+@v s=20995
+@【祀利】
+"Eh!? Huh? What? Itaru, why do you look so mad?"
+@page
+@【至】
+"Ah, no... it's nothing. It's nothing,
+so please put away the gun. Please."
+@page
+@fi s=m414d pos=c
+@v s=20996
+@【祀利】
+"No! This is my toy! If I don't have this,
+that bitch over there will try to kill me!"
+@page
+From the spoiled tone, this must be Mardi-gras.
+@page
+@【至】
+"Of course she won't. Now be a good girl, and..."
+@page
+@fi s=m41cd pos=c
+@v s=20997
+@【祀利】
+"I'm Parade. Don't treat me like a child."
+@page
+... I'm tired. I'm really, really tired.
+@page
+@setOnce
+@fi id=m
+@fi s=w311 pos=c
+@endOnce
+@v s=10641
+@【わずか】
+"Itaru-kun, move. This is already too much.
+She's being troublesome, so I'll kill her now."
+@page
+@setOnce
+@fi s=w311 move=lc
+@fi s=m41d pos=rc
+@endOnce
+@v s=20998
+@【祀利】
+"Ara, looks like the pig bitch finally worked up the courage.
+I've thought you were troublesome for quite a while now."
+@page
+@【至】
+"Festa, you--"
+@page
+@v s=20999
+@【祀利】
+"So Itaru, have you made your decision yet?"
+@page
+;@fi s=m749 pos=rc
+@v s=21000
+@【祀利】
+"Shall I put a bullet in this woman? Or, would
+you rather put your magnum in me..."
+@page
+;@fi s=m748 pos=rc
+@v s=21001
+@【祀利】
+"Choose whichever you want more."
+@page
+@【至】
+"I choose neither. Now come on, we're gonna be late for school!"
+@page
+It seems like Matsuri's personalities are switching very quickly
+today, like a twisted game of musical chairs.
+@page
+It really is troublesome, although not in the way Wazuka-san meant.
+@page
+So what is this nasty feeling I'm getting...
+@page
+@bgm fade=out
+;【ワイプ】場面転換
+;【背景】学校廊下
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@bgm s=bgm03
+@fi s=w111 pos=c
+@mwon
+@v s=10642
+@【わずか】
+"I'll see you later."
+@page
+@【至】
+"Yeah, later."
+@page
+@fi id=w
+@wait time=500
+@fi s=m114 pos=c
+@v s=21002
+@【祀利】
+"Tchau, Wazuka!
+Tchau forever and ever and ever!"
+@page
+Somehow we safely arrived at the school.
+@page
+@【至】
+"Alright, we should go too, err... Mardi-gras?"
+@page
+@fi s=m11d pos=c
+@v s=21003
+@【祀利】
+"Festa. Now come on, let's go find somewhere we can be alone."
+@page
+@【至】
+"No. We have to go to class."
+@page
+@fi id=m
+I'm really tired. Honestly, I just want to get to class and take a break.
+@page
+I take the quickly changing Matsuri by the hand to the classroom.
+@page
+@mwoff
+@bgm fade=out
+;→240101
+@jump storage="240101.scn"

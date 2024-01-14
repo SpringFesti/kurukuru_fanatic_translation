@@ -1,0 +1,556 @@
+﻿;240403
+*240403|_奇妙なメール
+;【備考】主人公視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】廊下・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm16
+@mwon
+@【至】
+"Hahh... hahh... hahh... damn it..."
+@page
+No matter where I search, I can't find her.
+@page
+Damn it... where on earth is she?
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+@【至】
+"Is it from Matsuri? What is it this time!?"
+@page
+;【演出】メール
+@se fade=out
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21157
+"KILL ITARU"
+@waitclk
+@mwon
+That's all there is."
+@page
+;【ＳＥ】銃声
+@se s=se109 v=50
+@【至】
+"Huh!? W-What's that sound...?"
+@page
+I've heard that sound several times over the past several days.
+It's not a sound normally heard in a Japanese school.
+@page
+No way, no way, no way...!
+@page
+;【ＳＥ】銃声
+@se s=se109 v=50
+That sound continues.
+I hear screams mixed in as well.
+@page
+@【至】
+"That sound... where is it coming from!?"
+@page
+I run towards the source of that sound.
+@page
+;【ワイプ】場面転換
+;【背景】学校廊下
+;【ＳＥ】拳銃の銃声・乱射
+@mwoff
+@bi s=blank
+@wait time=200
+@bi s=bg10d trans=ひし形(左から右へ) time=500
+@fi s=m515 pos=c
+@gunspfx
+@se s=se110 loop=true
+@qk time=1000
+@flash time=1000
+@mwon
+@v s=21158
+@【祀利】
+"Die, all of you!!
+Kyahahahahahahahah!"
+@page
+@se fade=stop
+@stoppfx
+It was the worst sight possible.
+@page
+Matsuri walks down the corridor, shooting indiscriminately.
+@page
+;【ＳＥ】拳銃の銃声・乱射
+Glass cracks, bullet holes are carved into the walls,
+the students run this way and that, and screams ring through the halls.
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@se s=se110
+@qk time=1000
+@flash time=1000
+@fi s=m51c pos=c
+@v s=21159
+@【祀利】
+"Kill Wazuka! Kill Kagome!
+Kill everyone to protect Itaru!"
+@page
+;【ＳＥ】大勢の悲鳴などあれば
+@fi s=m515 pos=c
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21160
+@【祀利】
+"Ahahahahaha!　Run, run!
+Take this, and this, and this!"
+@wait time=300
+@se s=se089
+@page
+;【ＳＥ】拳銃の銃声乱射
+@【至】
+"Matsuri, stop! What the hell are you doing!?"
+@page
+@fi s=m311 pos=c
+@v s=21161
+@【祀利】
+"Ah, Itaru. What am I doing... isn't it obvious?
+I'm playing tag!"
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@fi s=m512 pos=c
+@v s=21162
+@【祀利】
+"Look, look!
+When I do this, everyone runs away!
+@wait time=2900
+@fi s=m515 pos=c
+So I need to chase after them!"
+@page
+@se s=se110
+@qk time=1000
+@flash time=1000
+@lfont
+@【至】
+"Hiiiiii!?"
+@page
+Bullets scrape by my feet one after another.
+@page
+I dodge to the left and the right to avoid them.
+A happy smile spreads through Matsuri's face as she watches.
+@page
+@se fade=stop
+@fi s=m515 pos=c
+@v s=21163
+@【祀利】
+"Ahahaha! Your expression is great!
+@wait time=2900
+@fi s=m51d pos=c
+Show me more of it!"
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@se s=se110
+@qk time=1000
+@flash time=1000
+@【至】
+"Wai-!? Stop!
+You'll hit me! You'll really hit me!
+Uwaaaaaaaaaaah!"
+@page
+Matsuri shoots at me several times.
+@page
+She's probably missing on purpose,
+but I'm still afraid.
+I move desperately to avoid the bullets.
+@page
+@fi s=m512 pos=c
+@v s=21164
+@【祀利】
+"Ufufu, it looks like you're dancing.
+Come on Itaru, dance more for me!"
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@se s=se110
+@qk time=1000
+@flash time=1000
+@【至】
+"This isn't funny! I'm really gonna dieeee!"
+@page
+@【教師Ａ】
+"H-Hey you! What do you think you're doing!?"
+@page
+@se fade=out
+A teacher finally hears the commotion and comes out.
+@page
+@fi s=m315 pos=c
+@v s=21165
+@【祀利】
+"Huuuhhh? You're noisy, old fart!
+@wait time=1800
+@fi s=m512 pos=c
+Go away.♪"
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@fi s=m512 pos=c
+@se s=se110
+@gunspfx
+@qk time=1000
+@lfont
+@【教師Ａ】
+"Ngyaaaaaahhh!?"
+@page
+The teacher gets hit with a storm of bullets,
+and hides himself behind a bit of wall.
+@stoppfx
+@se fade=out
+@page
+It's a commonplace reaction.
+And of course, students should follow their teacher's example.
+Let's learn how to do that too.
+@page
+While Matsuri aims at the teacher,
+I hide in her blind spot.
+@page
+@fi s=m313 pos=c
+@v s=21166
+@【祀利】
+"Hm? Huhhh? Where's Itaru?
+I won't hurt you, come on out..."
+@page
+D-Does that mean you'll kill me without making me suffer?
+@page
+@【至】
+"Matsuri!
+You were only going to go for Wazuka-san and Otogiri-san, right?
+Why are you involving people that aren't a part of this!?"
+@page
+I call to her from somewhere near.
+@page
+@fi s=m511 pos=c
+@v s=21167
+@【祀利】
+"Ehh, but these pig bitches
+@wait time=1700
+@fi s=m515 pos=c
+were all trying to screw you, Itaru.
+@wait time=1800
+@fi s=m51d pos=c
+I'd have to exterminate them all, right?"
+@page
+@【至】
+"Then why did you shoot at the teacher!? He's a guy, right?"
+@page
+@fi s=m51d pos=c
+@v s=21168
+@【祀利】
+"He was looking to screw you too, Itaru.
+@wait time=1700
+@fi s=m515 pos=c
+I know that much."
+@page
+That's impossible.
+@page
+... No, if I think about it, that teacher
+was always the one to pick fights with me. It was weird.
+@page
+No, there's no way, no chance.
+@page
+... No, I'm just being stupid.
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@fi s=m514 pos=c
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21169
+@【祀利】
+"This person wants to fuck you too!
+This bag too!　That blackboard!　That vase!
+And that calendar!"
+@page
+@fi s=m51c pos=c
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21170
+@【祀利】
+"Women are going for Itaru!
+Men are going for me!"
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@fi s=m514 pos=c
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21171
+@【祀利】
+"So if I don't kill everyone, I can't
+be happy with Itaru!"
+@page
+@fi s=m51c pos=c
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21172
+@【祀利】
+"Come out, Wazuka!　Show yourself, Kagome!"
+@page
+@fi s=m515 pos=c
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=21173
+@【祀利】
+"I'll shove this thing right up your cunt
+and blow a hole in your womb!"
+@page
+Ah, but of course.
+All things considered, I don't understand this at all.
+@page
+I'm completely freaked out. My brain isn't working at all.
+@page
+It looks like those two are still her primary target, though.
+@page
+@setOnce
+@fi id=m
+@fi s=w411 pos=lc
+@fi s=k211 pos=rc
+@endOnce
+@v s=10673
+@【わずか】
+"This bitch is being quite troublesome, isn't she?"
+@page
+@fi s=k112 pos=rc
+@v s=30251
+@【かごめ】
+"Yeah... this gunslinger bitch."
+@page
+@【至】
+"Wazuka-san! Otogiri-san!"
+@page
+@fi s=w111 pos=lc
+@v s=10674
+@【わずか】
+"Itaru-kun, do you get it now?
+This girl can't be allowed to live."
+@page
+@【至】
+"Th-That's a little much..."
+@page
+I mean, looking at this disaster,
+it's only natural that one would think that.
+@page
+This is completely indiscriminate terrorism.
+But if you look carefully, nobody has died yet.
+@page
+@setOnce
+@fi id=w
+@fi id=k
+@fi s=m31c pos=c
+@endOnce
+@v s=21174
+@【祀利】
+"Wazuka...? Kagome...?
+So that's where you wereeeeeee!?"
+@wait time=2500
+@qk time=1000
+@page
+I didn't know she could yell so loudly.
+@page
+Nonetheless, Matsuri's noticed that Wazuka-san and Otogiri-san are here now.
+@page
+@fi s=m515d pos=c
+@lineFXon
+@v s=21175
+@【祀利】
+"Don't moveee! I'll mince you to bitssssss!"
+@page
+@stoppfx
+@fi id=m
+@se s=se110
+@gunspfx
+@qk time=1000
+@flash time=1000
+Matsuri runs towards us while firing blindly.
+@page
+@stoppfx
+She's angry, but laughing at the same time.
+She's got a demonic expression.
+@page
+@【至】
+"W-Watch out! Run away, both of you!"
+@page
+@se s=se152
+@qk
+Bullets flit over my head, while I call
+after Wazuka-san and Otogiri-san, who have
+started to run away.
+@page
+@fi s=m51c pos=c
+@lfont
+@v s=21176
+@【祀利】
+"WAAAAIIITTTTTT!"
+@qk time=1000
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@fi id=m
+@se s=se110
+@qk time=1000
+@flash time=1000
+Matsuri runs besides me, screaming.
+@page
+Is she a demon or a witch?
+@page
+There are certainly fairy tales where a witch chases after
+the main characters, screaming like that.
+@page
+... Now's not the time for this.
+@page
+I have to stop Matsuri somehow.
+I start to chase after them.
+@page
+;【ワイプ】場面転換
+;【背景】廊下・昼
+;【ＳＥ】拳銃の銃声・乱射
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@mwon
+@se s=se110 v=50
+@qk
+@【至】
+"Hahh! Hahh! Where is she!?
+Matsuri is... over there!?"
+@page
+;【ＳＥ】爆弾爆発音
+@se s=se098 v=50
+@qk
+@【至】
+"No... wait! There!"
+@page
+I run after Matsuri, following the sounds of
+gunfire and explosions.
+@page
+The building is in an awful state.
+Rather than a gun crime, this is a war.
+@page
+I don't see any students or teachers, anywhere.
+Honestly, I don't blame them for running away.
+@page
+I want to run away as well.
+I don't want to be involved with this, of course.
+@page
+I turn the corner of the hall again, thinking that.
+@page
+@bi s=blank time=100
+@wait time=200
+@bi s=bg10d trans=ひし形(左から右へ) time=300
+@fi s=m312 pos=c
+@v s=21177
+@【祀利】
+"Why are you running awayyy?
+@wait time=1800
+@fi s=m515 pos=c
+Come on, play with me!"
+@page
+There! There she is!
+@page
+Shouting at the hiding girls, she fires her gun at random.
+@page
+;【ＳＥ】拳銃の銃声・乱射
+@se s=se110
+@qk time=1000
+@flash time=1000
+@fi s=m512 pos=c
+@v s=21178
+@【祀利】
+"I'll fill you full of lead, Wazuka! Aren't you glad?"
+@page
+@fi s=m51d pos=c
+@v s=21179
+@【祀利】
+"If you don't die after 10 shots, I'll reward you with 20 more!"
+@page
+Crap, she isn't going to stop this.
+@page
+But if she keeps going like this forever...
+@page
+@fi id=m
+@se s=se015 v=30 loop=true
+Haha, see! The ally of justice, the policeman!
+@page
+@se fade=out
+She's done a lot up to here.
+So it would be weird if this wasn't reported.
+@page
+Matsuri's going to get caught by the police if she keeps going.
+@page
+@【至】
+"Matsuri! Matsuri! The police! This is bad!"
+@page
+I yell to her.
+@page
+... No, wait. On the contrary, shouldn't I be really glad that the police are here?
+@page
+I can't manage Matsuri right now.
+I should leave this to the police.
+@page
+But for some reason, it feels like I'm abandoning Matsuri if I do that.
+@page
+I don't understand. What's the right thing to do here?
+@page
+@flash
+@se s=se098
+@qk time=1000
+@bi s=white time=500
+For a moment, my view becomes purely white. My eyes are dazzled.
+@page
+@【至】
+"What!? What happened!?"
+@page
+While trying to look around my blank vision,
+somebody takes my hand.
+@page
+The hand pulls me, inviting me to go somewhere.
+@page
+@v s=21180
+@【祀利】
+"Ahahahahah! I heard the Japanese police were shit,
+but you guys came pretty quick, didn't ya?"
+@page
+@【至】
+"This voice... Matsuri!? This is a police matter now!
+What are you going to do!"
+@page
+@v s=21181
+@【祀利】
+"Oh, don't worry. I'll kill all these obstructive people,
+then be happy with you. That's all."
+@page
+Matsuri pulls my hand and I run, my vision still gone.
+@page
+I don't know where I'm going. What's going to happen now?
+@page
+While almost falling over again and again,
+I run around the school, and--
+@page
+@v s=21182
+@【祀利】
+"Jump, Itaru?"
+@page
+@【至】
+"Wait, jump?
+@wait time=500
+@se s=se121
+@qk time=1000
+Wa, waaaaaaaaaaahhhh!?"
+@page
+@se s=se116
+I know, even if I can't see.
+My body dances in the air, as I fall.
+@page
+@mwoff
+@bgm fade=out
+@bi s=blank time=500
+@se s=se119 v=50
+@qk time=700
+@wait time=2000
+;→240500
+@jump storage="240500.scn"

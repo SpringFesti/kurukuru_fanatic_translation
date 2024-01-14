@@ -1,0 +1,411 @@
+﻿;021000b
+*021000b|天使という存在
+;【ワイプ】場面転換
+;【背景】主人公自室・夕方
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01e trans=tile
+@bgm s=bgm02
+@mwon
+@【至】
+"I guess this... isn't the end, is it?"
+@page
+If I'm not mistaken, there should still be one thing left.
+However, it's difficult to remember what that thing is.
+@page
+Even though I know there's something left to do,
+when I try to ask myself what that is,
+it feels like the answer is on the tip of my tongue, but I can't say it.
+@page
+@【至】
+"... Well, if there is something, I'm sure I'll know what it is soon."
+@page
+;【ＳＥ】携帯電話着信音
+;【備考】電話越しの声に加工
+@bgm s=bgm08
+@se s=se027 loop=true
+@v s=40411
+@【ファヌル】
+"-- You're pretty carefree. That could be fatal, you know."
+@page
+A ring came from my pocket.
+With it came a voice that I've gotten used to hearing.
+Of course, that's Fanuel's voice.
+@page
+@se fade=stop
+@v s=40412
+@【ファヌル】
+"Phew, this gets pretty tiring..."
+@page
+@fi s=f112 pos=c trans=inblink time=1000
+I can't explain how she does that, no matter how many times I see it.
+Even so, Fanuel slips out of my phone and stands in front of me.
+@page
+@【至】
+"Ugh."
+@page
+@fi s=f113 pos=c
+@v s=40413
+@【ファヌル】
+"Oh, that again. Just stop."
+@page
+@【至】
+"Even if you ask me to, that's just really disgusting."
+@page
+It's sort of like watching a slug slip around.
+It's not slimy, or wet, or slippery...
+There's no word I can find to describe what she does.
+@page
+@fi s=f312 pos=c
+@v s=40414
+@【ファヌル】
+"Well, whatever floats your boat... anyway, look, do the usual."
+@page
+@【至】
+"Huh? Oh, thanks. Sorry for the usual stuff."
+@page
+While saying this stuff about when we were in the school,
+I try to think about what she could have been doing, and why.
+@page
+Maybe she was sleeping in my cell phone?
+No, she was aware of where I was, so maybe
+she was guarding me?
+@page
+@fi s=f55a pos=c
+@v s=40415
+@【ファヌル】
+"Hmph, a proactive and positive interpretation. Truly a virtue of you humans."
+@page
+Oh, so she was reading my mind as I thought.
+Then this'll be quick.
+So what were you doing?
+@page
+@fi s=f55b pos=c
+@v s=40416
+@【ファヌル】
+"Only God knows.
+I was just making sure I was in a safe and reliable position."
+@page
+Ohh, so in other words you were planning to do nothing, is it?
+@page
+Fanuel doesn't answer.
+I understand what she means, because we've been together for so long.
+At times like these, her silence means "Yes".
+@page
+@【至】
+"But enough of that... how am I doing?"
+@page
+Of course, I'm referring to my fate.
+Since this is the fourth revival that I've had,
+I've noticed that things have been obviously changing.
+@page
+@fi s=f111 pos=c
+@v s=40417
+@【ファヌル】
+"It's just as you've seen. There have been errors at every point.
+But if I had to point out a single fatal thing..."
+@page
+@【至】
+"Sooo...?"
+@page
+@fi s=f412 pos=c
+@v s=40418
+@【ファヌル】
+"Nope. Nothing."
+@page
+@【至】
+"Aren't you an angel? Isn't it weird for you to not know?"
+@page
+@fi s=f111 pos=c
+@v s=40419
+@【ファヌル】
+"Destiny is like an ocean.
+If a single drop falls into it, it causes a faint ripple effect.
+However, you can't judge how that would effect the whole sea."
+@page
+@【至】
+"Those were well-chosen words. Just like a certain professor."
+@page
+I was certainly impressed for a moment.
+It was an easy-to-understand metaphor.
+@page
+@fi s=f113 pos=c
+@v s=40420
+@【ファヌル】
+"Oh, shut up. That was just a fragment of the truth, don't get giddy."
+@page
+@【至】
+"You liar. Well, I guess I was a little happy."
+@page
+@fi s=f65a pos=c
+@v s=40421
+@【ファヌル】
+"I'm not a liar. Angels don't have hearts."
+@page
+I've heard of something like that before.
+About feelings or something... yeah, that's right.
+Angels don't have feelings, or something like that?
+@page
+@fi s=f111 pos=c
+@act id=m t=bow
+Fanuel nods deeply at the question posed within my mind.
+@page
+@v s=40422
+@【ファヌル】
+"I don't need to answer a question you won't remember.
+Isn't that only natural?"
+@page
+@【至】
+"I mean, I guess you could say that...
+But are you happy?"
+@page
+@fi s=f211 pos=c
+@v s=40423
+@【ファヌル】
+"I don't understand what you're saying.
+In the first place, when it comes to me,
+is it really necessary to know the meaning of happiness?"
+@page
+@【至】
+"Well yeah, of course.　
+I mean, I guess your job is important, but you can't really call that living..."
+@page
+@【至】
+"I mean, your job isn't your life, you know?
+If I didn't know what I really enjoyed, I'd be in a real pinch."
+@page
+@fi s=f111 pos=c
+@v s=40424
+@【ファヌル】
+"Angels exist only for Him.
+They do not exist for their own sake."
+@page
+@【至】
+"But you're here, aren't you?
+All of the things that you've said up until now, they're your thoughts, right?"
+@page
+@fi s=f55b pos=c
+@v s=40425
+@【ファヌル】
+"Cogito ergo sum, hm?
+You're not trying to retaliate with something like that, are you?"
+@page
+Cogito ergo sum--
+The meaning of those words, "I think, therefore I am", 
+was something that we learned in history class.
+@page
+But while we've gone over ethics and
+philosophy, we haven't studied anything like angels at all.
+Above all, I can't think about such difficult things at my level.
+@page
+@【至】
+"Anyway, you can have fun for a little while now.
+Or are you not allowed to do that either?"
+@page
+@fi s=f759 pos=c
+@v s=40426
+@【ファヌル】
+"What about you?"
+@page
+@【至】
+"What about me?"
+@page
+@v s=40427
+@【ファヌル】
+"Is this life fun?
+From the bottom of your heart, do you really enjoy it?"
+@page
+When she asks this, I mutter a little "Hm..." as I ponder.
+@page
+I was born into this world.
+Until I die, I think I should do
+more fun things than unpleasant things.
+@page
+@【至】
+"... Well, rather than having fun, I should avoid unfun things, right?"
+@page
+@fi s=f111 pos=c
+@v s=40428
+@【ファヌル】
+"That's not a real answer."
+@page
+I knew that.
+But I can't say that I could raise both my hands and shout "Banzai!" either.
+@page
+@【至】
+"... Well, I guess I'm fine with it.
+Being with everyone... it's troubling, sure, but it's lots of fun."
+@page
+@v s=40429
+@【ファヌル】
+"Will that feeling continue even if you keep reviving?"
+@page
+Her reply was also vague.
+Because of my memories of the times I've come back,
+the whole picture is concrete, but each of the fragments
+are hard to recall.
+@page
+@【至】
+"... I don't know, I guess. I don't have enough of a sense of reality right now."
+@page
+It's like the memory of having seen a movie.
+Not seeing as the subjective self, but seeing from the objective point of view,
+I feel like I've only experienced part of the story.
+@page
+@fi s=f314 pos=c
+@v s=40430
+@【ファヌル】
+"That is how angels think."
+@page
+@【至】
+"... Huh?"
+@page
+@fi s=f55a pos=c
+@v s=40431
+@【ファヌル】
+"That is how we as angels think about our time in the living world.
+We cannot think subjectively, but only objectively.
+We're not a part of the cast of the story."
+@page
+@v s=40432
+@【ファヌル】
+"If I were to use your metaphor about movies... yes, we are stagehands.
+We stand by with our orders, we move, and then we disappear.
+@page
+@【至】
+"Isn't that just boring?
+You can't be happy that way, can you?"
+@page
+@fi s=f559 pos=c
+@v s=40433
+@【ファヌル】
+"Even so, that is what an angel is.
+If you only look at this side... yes, it is boring.
+Human lives are so much more fun."
+@page
+Her words probably come from an objective point of view.
+They aren't the subjectiv feelings of Fanuel,
+but her grasp of the point of view of the third parties known as angels.
+@page
+In that viewpoint, there are no disturbances in her words. 
+But she's just spinning plain facts.
+-- Yes. There is no heart in them.
+@page
+@【至】
+"Hey, can you stop being an angel?"
+@page
+@fi s=f656 pos=c
+That weren't the words I intended to say.
+So, faintly, Fanuel made a puzzled expression.
+@page
+@fi s=f559 pos=c
+@v s=40434
+@【ファヌル】
+"I've never thought about it.
+I've never thought about if I could do it, either."
+@page
+@fi s=f111 pos=c
+@v s=40435
+@【ファヌル】
+"I suppose it's the same for you as well.
+Can you stop being a human being?"
+@page
+@【至】
+"It's extremely easy. In other words--"
+@page
+I forsake my humanity, Jojo!!!　→ You become a vampire.
+Yes... I think I can see something...　→ You become a bodhisattva.
+Please permit me to die before you.　→ You become Buddha.
+@page
+@fi s=f113 pos=c
+@v s=40436
+@【ファヌル】
+"Stop fucking around! Only the last one is different."
+@page
+@【至】
+"But really, it's easy to stop being human, see?
+Wasn't there a man who became an angel?"
+@page
+I think something like that was written in a
+walkthrough for a video game I once played.
+@page
+@fi s=f659 pos=c
+@v s=40437
+@【ファヌル】
+"Ah yes, that man. Don't worry about him. He was an exception."
+@page
+@fi s=f55a pos=c
+@v s=40438
+@【ファヌル】
+"Well, I suppose it's the privilege of incompleteness.
+It's an ideal reason to kill time."
+@page
+@【至】
+"If that's the case, then become human."
+@page
+@fi s=f211 pos=c
+@v s=40439
+@【ファヌル】
+"I refuse. When I look at all of you, you're just
+too funny, and too pitiful at the same time."
+@page
+@【至】
+"But it'll let you kill time like the rest of us, right?"
+@page
+@fi s=f559 pos=c
+@v s=40440
+@【ファヌル】
+"Then what would I do?
+Discuss life?
+Or should I search for the meaning of being born?"
+@page
+@【至】
+"Well hey, you could do anything you wanted.
+You could even..."
+@page
+@v s=40441
+@【ファヌル】
+"What?"
+@page
+@【至】
+"If you wanted to search for something, I'd go with you.
+I'm indebted to you for all this, after all."
+@page
+@fi s=f556 pos=c
+@v s=40442
+@【ファヌル】
+".....mn ....."
+@page
+@【至】
+"What's wrong?"
+@page
+@fi id=f
+The conversation ended there.
+Fanuel said nothing, and instead left the room.
+She didn't even turn around. She didn't even glance at me.
+@page
+@【至】
+"Did I make her mad?"
+@page
+I thought aobut those last words.
+I was saying them in good will. My tone was innocent as well... right?
+@page
+@【至】
+"Did she think I was trying to make fun of her?
+Did she misunderstand?"
+@page
+What else could there be?
+@page
+What about those words made her attitude change so suddenly?
+Or did she happen to get orders from God?
+@page
+Anyway-- there's really only one thing I can say at this point.
+@page
+@【至】
+"... I really don't understand angels at all."
+@page
+@bgm fade=out
+;→021001
+@jump storage="021001.scn"

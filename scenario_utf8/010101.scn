@@ -1,0 +1,134 @@
+﻿;010101
+*010101|_October 27th, 7:37 AM
+@【至】
+"No, wait, wait a minute! It's nothing!　It's really nothing!"
+@page
+This is dangerous. Seriously, this is dangerous in so many ways.
+If she's hugging me this close, she'll definitely notice!
+@page
+I don't want to part from her, but there's nothing I can do about it.
+I try to squirm and escape, but her arms...
+To be more precise, I'm trying to escape from her cleavage.
+@page
+;【背景】主人公自室/朝
+;【立ち絵】わずか/悲しげ
+;【備考】悲しげに
+@fi s=w113 pos=c
+@v s=10018
+@【わずか】
+"... Oh... why?"
+@page
+@fi s=w213 pos=c
+@v s=10019
+@【わずか】
+"Itaru-kun... why are you squirming?　Am I unpleasant?
+Is something wrong with me?　Am I not being helpful?"
+@page
+@【至】
+"That's not it!　It's really nothing. Uh... it's just... that."
+@page
+@fi s=w111b pos=c
+@v s=10020
+@【わずか】
+"... I see... so, it's that..."
+@page
+@act id=w t=swing2
+@wait time=800
+She turns around and walks away, swaying.
+@fi id=w trans=out slide=l time=2500
+;【立ち絵】わずか消去
+@page
+Is she mad?　Is she leaving my room?
+@page
+Turns out both of my guesses were wrong.
+Nobody could have predicted what she would do next.
+@page
+;【背景】イメージ　縦効果
+@bi s=bg850 time=500
+@qk time=700
+@lfont
+@v s=10021
+@【わずか】
+"AAAAAHHHH!!!"
+@page
+@bi s=bg01m time=100
+;【背景】主人公自室/朝
+@se s=se118
+@cut s=cut2100
+@qk time=700
+@flash time=700
+@lfont
+@v s=10022
+@【わずか】
+"Agah!!"
+@page
+@cut
+Wazuka-san starts to smash her head on the wall.
+Judging by the sounds, her speed, and her shouts, she's doing it without holding back. I can't figure out what would make her do that.
+@page
+@bi s=bg8140 trans=crossfade all=true time=500
+;【カットイン】血ノリ　……血ノリイメージの背景の黒を消去だけでいい
+;【ＳＥ】激突音
+@se s=se118
+@qk time=700
+@flash time=700
+@v s=10023
+@【わずか】
+"Eeekk!　Agghh!　Uuggghh!!"
+@se s=se118
+@wait time=800
+@se s=se118
+@qk time=700
+@flash time=700
+@page
+@bi s=bg01m time=100
+;【カットイン】消去
+@【至】
+"Stop it!　That looks like it hurt!　Doesn't it hurt!?"
+@page
+;【立ち絵】わずか
+;【備考】冷淡に
+@fi s=w548 pos=c
+@v s=10024
+@【わずか】
+"... That's fine. If I die from these injuries, it's fine."
+@page
+@【至】
+"... Whuh?"
+@page
+@fi s=w11b pos=c
+@qk
+@v s=10025
+@【わずか】
+"I'll die! I need to die! It's pointless to live anymore!"
+@page
+@setOnce
+@fi id=w
+@cut s=cut2100
+@endOnce
+;【カットイン】血ノリ
+@se s=se118
+@qk time=700
+@flash time=700
+@lfont
+@v s=10026
+@【わずか】
+"Nnngahh!"
+@page
+@cut
+@【至】
+"Don't die! What are you even talking about!?"
+@page
+@fi s=w21b pos=c
+@v s=10027
+@【わずか】
+"I couldn't be useful to Itaru-kun! Me? How could I? 
+Everything I do is for you!"
+@page
+@fi s=w413 pos=c
+@v s=10028
+@【わずか】
+"Even so... even so... even sooo!!!"
+@page
+@jump storage="010103.scn"
+;→010103

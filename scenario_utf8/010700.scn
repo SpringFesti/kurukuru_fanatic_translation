@@ -1,0 +1,193 @@
+﻿;010700
+*010700|The Countdown Begins
+@setOnce
+@fi id=f
+@stoppfx
+@bi s=bg830
+@endOnce
+Well, that's what I thought.
+@page
+Everyone's afraid of death. Once you're born, for better or worse, you'll eventually end up dead.
+@page
+But even that was denied for me now.
+The thing I didn't want denied, no matter what,
+was completely wiped away.
+@page
+So now what should I do? Cry, scream and shake, and then die again?
+@page
+I want to scream "Please, forgive me!" at someone.
+But remembering how I felt just after I was killed would get in the way of that.
+@page
+What should I do? What's going to happen now?
+@page
+@bi s=blank trans=crossfade all=true
+;暗転
+@【至】
+"Well, I guess this is how it's going to be."
+@bgm fade=out
+@page
+@mwoff
+@bgm s=bgm04
+@bi s=evn1010
+@wait time=300
+@mwon
+;【イベントＣＧ】三人で眠る主人公
+If I tried to explain the endless and confusing turmoil that ended up in this, we'd be here forever.
+@page
+Even though I wanted a break, it just keeps happening.
+Can I call it a night soon?
+@page
+So, in short:
+@page
+@bgm s=bgm09
+@bzoom s=bg04d time=250
+;【背景】居間明かりあり
+@setOnce
+@fi s=w122 pos=lc
+@fi s=m111 pos=rc
+@endOnce
+@v s=10218
+@【わずか】
+"We're sleeping together. You promised this morning."
+@page
+@fi s=m112 pos=rc
+@v s=20084
+@【祀利】
+"Me too! I'm your fiance, so sleeping together is completely normal!"
+@page
+@fi s=w322 pos=lc
+@v s=10219
+@【わずか】
+"Go die. I'll kill you."
+@page
+@se s=se131
+@fi s=m515 pos=rc
+@v s=20085
+@【祀利】
+"Fucker."
+@page
+@setOnce
+@fi id=w
+@fi id=m
+@se s=se091
+@lineFXon
+@fi s=f415 pos=c
+@qk time=1000
+@flash time=1000
+@endOnce
+@v s=40141
+@【ファヌル】
+"Takamichi-senpai, do something invicible and undefeatable, nya!"
+@page
+@fi id=f
+@setOnce
+@mwoff
+@pfxOption backvisible=false
+@bi s=blank
+@endOnce trans=crossfade
+@stoppfx
+@wait time=200
+@bi s=evn1010 trans=円形(中から外へ)
+@mwon
+;【イベントＣＧ】三人で眠る主人公
+There you go. Did you get all that?
+@page
+@【至】
+"... If you do, could you do something about this?"
+@page
+Anyway, to make sure these two didn't fight, I satisfied both requests.
+@page
+I can't even turn or move, and I have no choice but to accept this unbeatable situation.
+@page
+@【至】
+"... Sleeping with flowers in both hands... heh."
+;@bgm fade=out
+@page
+;体験版のみ
+By the way, that's not even the craziest thing.
+Matsuri's wound is almost done healing.
+@page
+She said: 
+@page
+@setOnce
+@bi s=bg04d time=250
+@fi s=m112 pos=c
+@endOnce
+@v s=20092
+@【祀利】
+"It did go through, but between the bones. Besides, I'm a really fast healer♪."
+@page
+There you go.
+@page
+I don't know how, but when I look at Matsuri's hand, 
+all I see is a bit of swelling.
+@page
+@setOnce
+@fi id=m
+@bi s=bg01b
+@endOnce
+@【至】
+"... She belongs in the Guiness Book of World Records."
+@bgm fade=out
+@page
+@bgm s=bgm04
+@bi s=evn1010
+@v s=10220
+@【わずか】
+"... Nn... Itaru-kun..."
+@page
+@【至】
+"Sorry, was I too loud?"
+@page
+@v s=10221
+@【わずか】
+"... Love... I love you..."
+@page
+@【至】
+"Are you talking in your sleep?"
+@page
+@qk time=1000
+―― Hey, wait! What did you just say, Wazuka-san!?
+@page
+What did she mean? Am I dreaming right now? 
+And if I am, what does THAT mean?
+@page
+@v s=20086
+@【祀利】
+"Itaruuu... no... it hurts..."
+@page
+That's what I hear next. I guess I'm a very manly person in her dream.
+@page
+@【至】
+"... But in reality, I'm a really big coward. 
+I'm sleeping with these two, but this is how it turned out."
+@page
+I had promised Wazuka-san, and Matsuri wouldn't quiet down until she 
+got her way.
+@page
+But the real reason I let them sleep with me was so I could watch over them.
+@page
+@【至】
+"They'd probably start trying to kill each other right off the bat.
+Although really, I don't know if I could stop them..."
+@page
+Maybe the reason I died was because I got caught up in one of their skirmishes... Well, it could be that or any number of things.
+@page
+Tomorrow, I have 4 days left――
+If I can't find out why I died, I'll die for real this time.
+@page
+@【至】
+"... But can I really do it?"
+@page
+What if it was a sudden accident?
+If a complete stranger attacked me, what would I do?
+@page
+I sleep in a heavenly situation, between these two girls.
+Even so, I feel like I'm being thrown into a deep darkness.
+The only thing I can feel is uncertainty.
+@page
+@jump storage="010701.scn" cond="f.kagome >= 2"
+@jump storage="010702.scn"
+;分岐
+;かごめ好感度2以上　→010701
+;それ以外　→010702

@@ -1,0 +1,140 @@
+﻿;020802
+*020802|_気だるい午後に
+;【備考】わずか視点
+;【ワイプ】視点変更
+;【背景】学園廊下・昼
+@mwoff
+@bi s=blank time=100
+;@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm10
+@fi s=w112 pos=c
+@mwon
+@v s=10407
+@【わずか】
+"...Them."
+@page
+There they are. Right tere.
+Matsuri, and the girl from yesterday.
+And there is Itaru-kun. Why? Why does he pay attention to those two?
+@page
+@fi s=w115 pos=c
+@v s=10408
+@【わずか】
+"Oh, it looks like they're having so much fun...
+Talking to Itaru-kun so much...!!"
+@page
+@se s=se081
+Itaru-kun does not look like he is having fun.
+Taking care of them, they're getting all high and mighty-- they can't.
+Can'tCan'tCan'tCan'tCan'tCan't
+@page
+@se s=se081 loop=true
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+@page
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+@page
+;以降、モノローグ
+@mwoff
+@mnon time=100
+@mset l=12 h=true time=100
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+@waitclk
+@mnon time=100
+@mset l=12 h=true time=100
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+CAN'TCAN'TCAN'TCAN'TCAN'TCAN'T
+@waitclk
+@se s=se081 v=200
+@mnon size=100 time=100
+@mset l=3 h=true time=100
+@qk time=1000
+CAN'T!!!
+@waitclk
+@mwon
+@fi s=w315 pos=c
+@v s=10409
+@【わずか】
+"Die."
+@page
+I hate knives. But knives love me.
+They seem to like the warmth in my hands.
+They are glad that I always carry them.
+@page
+@fi s=w311 pos=c
+@v s=10410
+@【わずか】
+"But I hate knives. But knives love me."
+@page
+Perhaps I am the only one who is glad for such an unfortunate relationship.
+Or perhaps it is a common relationship to have.
+@page
+;@fi s=w315 pos=c
+@v s=10411
+@【わずか】
+"...Which one should I pick?
+@page
+When I bury my blade in their flesh, it feels good.
+When blood splashes as I pull it out, it is beautiful.
+If I can-- I want to see it.
+@page
+@v s=10412
+@【わずか】
+"Which one is talking to Itaru-kun?
+Which one is getting along with Itaru-kun?"
+@page
+I take out my knife, and turn it in my hand.
+@page
+@fi s=w315 pos=c
+@v s=10413
+@【わずか】
+"Which- one- should- I- pick?
+Let's see what- God- says."
+@page
+@act id=w t=swing
+A rhythmic tone leaks from my mouth.
+My knife wavers in excitement.
+So do I.
+@page
+WobbleWobbleWobbleWobbleWobble
+WobbleWobbleWobbleWobbleWobble
+WobbleWobbleWobbleWobbleWobble
+@page
+Then--
+@page
+@act id=w t=stopswing
+@v s=10414
+@【わずか】
+"I've... decided."
+@page
+My knife stops.
+@page
+@fi id=w
+@bgm fade=stop
+@jump storage="020803.scn"
+;→020803

@@ -1,0 +1,48 @@
+﻿;340401
+*340401|_かごめとの約束
+;【好感度】かごめ+1
+@eval exp="f.kagome++"
+@【至】
+"Wow... but isn't it hard to balance that with schoolwork?"
+@page
+@fi s=k214 pos=c
+@v s=30406
+@【かごめ】
+"Of course not, I love the work that I do.
+Besides, I just sleep all the time at school."
+@page
+@【至】
+"Even so, it seems really hard to balance the two,
+so make sure not to burn out, okay?"
+@page
+Somehow, I feel like my life is filled up with just school.
+There have been times when I've wanted a part time job,
+but I've given up trying to make more room in my mind or my body.
+@page
+Comparing her to myself, I think she's amazing.
+That's why I'm worrying.
+@page
+-- However.
+It seems this topic was somewhat unexpected for Otogiri-san.
+@page
+@fi s=k348 pos=c
+First she was shocked, then she looked puzzled,
+@page
+@fi s=k114a pos=c
+@v s=30407
+@【かごめ】
+"Y-Yes! Thank you, Takamichi-kun!"
+@page
+And finally she thanked me with a look of delight.
+@page
+;【演出】文字半角
+@fi s=k445a pos=c
+@sfont
+@v s=30408
+@【かごめ】
+"... +1 point."
+@page
+And followed that up by whispering, which I'm already getting used to.
+@page
+;→340403
+@jump storage="340403.scn"

@@ -1,0 +1,20 @@
+﻿;130602
+*130602|_料理の出来は？
+;【好感度】わずか+1
+@eval exp="f.wazuka++"
+@【至】
+"I'm rooting for you. Good luck, Wazuka-san."
+@page
+@fi s=w557a pos=c
+@v s=10966
+@【わずか】
+"Thanks. I'll try my best for you, Itaru-kun."
+@page
+She smiles at my encouragement.
+@page
+@fi s=w121 pos=c
+But once again, a serious expression came to her as
+she studied the taste of her own cooking.
+@page
+;→130603
+@jump storage="130603.scn"

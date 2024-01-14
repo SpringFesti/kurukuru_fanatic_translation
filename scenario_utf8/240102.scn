@@ -1,0 +1,183 @@
+﻿;240102
+*240102|ウサミとササミの倫理無用♪
+;【ワイプ】場面転換
+;【カットイン】人形劇舞台
+;【ＳＥ】ウサミ＋ササミ叫び
+;【カットイン】ウサミササミＳＨＯＷ！
+;【カットイン】ウサミササミショー消去
+@se s=se020
+@cut s=cut2300 trans=z2n_rotin time=1200
+@qk time=500
+@flash time=500
+@setOnce
+@fi s=s111 pos=lc
+@fi s=u111 pos=rc
+@endOnce
+@bgm s=bgm09
+@mwon
+@v s=16002
+"Usami and Sasami's...
+@wait time=800
+@se s=se151
+@lfont
+@v s=16006
+Useless Ethics!♪"
+@page
+@se fade=out
+@v s=16002
+@【ウサミ】
+"The social satire puppet show, this is Usami and Sasami's Useless Ethics!♪
+The curtain has risen!"
+@page
+@act id=u t=neckswing
+@v s=16004
+@【ウサミ】
+"This is some disturbing stuff, though.
+I wonder what will happen now~."
+@page
+@act id=u t=stopswing
+@v s=16006
+@【ササミ】
+"Oh, stop your bitching about it."
+@page
+@v s=16005
+@【ササミ】
+"Their psycho sides have come out. There's no way to stop the three of them anymore."
+@page
+@v s=16006
+@【ササミ】
+"Which will come next: Sex, or blood?
+Either way, we'll be challenging the lowest common denominator of black humor!
+Make sure to watch carefully."
+@page
+@v s=16005
+@【ササミ】
+"But now, we'll go to the corner of secret experiences. This time..."
+@page
+@bgm fade=out
+@mnon
+@mset l=3 h=true
+An experience about an older woman--
+@bgm s=bgm13
+@waitclk
+@mset l=3 h=true
+I had been dating a woman five years my senior for a year now.
+We'd been living with a friend in his apartment.
+@waitclk
+@mset l=3 h=true
+After summer vacation had begun, we drove to the woman's house.
+@waitclk
+@mset l=3 h=true
+After spending a little while there, it became obvious
+that my friend was getting in the way too much...
+@waitclk
+@mset l=3 h=true
+I was about to be stabbed while I did the laundry.
+@waitclk
+@mset l=3 h=true
+I had actually confessed to the woman we were living with,
+but she turned me down.
+@waitclk
+@mset l=3 h=true
+I guess it was just too much for me to be living in my own house
+(through cohabitation) anymore.
+@waitclk
+@mset l=7 h=true
+But because I had done martial arts for a while,
+there was a big difference in physical power.
+So even though she attacked me day and night...
+I could repel her whenever she did.
+@waitclk
+@mset l=5 h=true
+The woman I was dating at the time was a yandere as well...
+So when I went back home for a supplementary lecture,
+I got really sick emails every five minutes.
+@waitclk
+@mset l=5 h=true
+So instead of the lectures, I did an essay on a certain highway.
+I got back after four and a half hours.
+@waitclk
+@mset l=7 h=true
+And the huge disaster when I opened the door to my room...
+I stopped the bleeding, disinfected her, and brought her home,
+(As an experiment after the short essay.)
+I ended the experiment in a flash, went back across the country in 4 hours,
+and opened the door of my room to find a woman with other men...
+@waitclk
+@mset l=5 h=true
+I was back home when I noticed.
+It was 4 AM.
+There weren't any scratches on my car, so it was probably safe to drive.
+@waitclk
+@mset l=3 h=true
+Now I never trust women.
+@waitclk
+@bgm fade=out
+@mwon
+@【ウサミ】
+"......"
+@page
+@【ササミ】
+"......"
+@page
+@v s=16001
+@【ウサミ】
+"... What the hell was that?"
+@page
+@v s=16005
+@【ササミ】
+"Er... yeah..."
+@page
+@v s=16005
+@【ササミ】
+"... My condolences."
+@page
+@v s=16001
+@【ウサミ】
+"After something like that, you could certainly speak
+from experience, couldn't you?"
+@page
+@v s=16004
+@【ウサミ】
+"A-Anyway!
+Stop the three of them!
+There must be some way!"
+@page
+@v s=16005
+@【ササミ】
+"Then you do it."
+@page
+@v s=16001
+@【ウサミ】
+"Huh?"
+@page
+@v s=16007
+@【ササミ】
+"You keep screaming about stopping them,
+so come on, step up!"
+@page
+@act id=u t=neckswing
+@v s=16003
+@【ウサミ】
+"Gyah! No! I'll be ripped apart with a knife!
+A .45 caliber will blow out my organs!"
+@page
+@v s=16005
+@【ササミ】
+"Yep. Aren't your internal organs cotton though?"
+@page
+@act id=u t=stopswing
+@v s=16004
+@【ウサミ】
+"But I'll still die! Cotton is the internal organs of a stuffed rabbit, after all.♪"
+@page
+@v s=16005
+@【ササミ】
+"I-I see... I'll keep that in mind..."
+@page
+@cut
+@mwoff
+@bi s=current all=true trans=crossfade
+@bi s=blank trans=crossfade all=true
+@bgm fade=out
+@jump storage="240200.scn"

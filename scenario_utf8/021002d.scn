@@ -1,0 +1,78 @@
+﻿;021002d
+*021002d|_祀利の秘密
+When I hear those words, I feel relieved.
+@page
+@【至】
+(... Nothing's changed, right?
+This is the exact same as "Before", isn't it?)
+@page
+Although, if that really is the case,
+I won't know until that incident occurs.
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=f114 pos=c
+@endOnce
+@v s=40470
+@【ファヌル】
+"Nfufufu, that's good, big bro.♪"
+@page
+Of course, she means that things have changed from "before".
+@page
+@【至】
+"Right. Who knows what'll happen after this?"
+@page
+@setOnce
+@fi id=f
+@fi s=w121 pos=lc
+@fi s=m111 pos=rc
+@endOnce
+@v s=10487
+@【わずか】
+"... If she's done any harm, then it should be okay to kill her."
+@page
+@v s=20567
+@【祀利】
+"Who?"
+@page
+When I look at Matsuri, I see "the real Matsuri" there.
+@page
+@fi s=m64b pos=rc
+@v s=20568
+@【祀利】
+"Anyway, what is everyone doing?
+Are we done playing hypnotism?"
+@page
+@【至】
+"You really don't remember, do you?"
+@page
+When Matsuri's scattered personalities united,
+we became intimate shortly afterward.
+@page
+Until then, this--
+If I really think about it, she's been unfortunate for a long time.
+@page
+@【至】
+"... Now, what should I do this time?"
+@page
+@setOnce
+@bi s=current all=true trans=crossfade
+@fi s=f111 pos=c
+@endOnce
+When I mutter that, Fanuel looks at me.
+Then, she says the same words that she always does.
+@page
+@fi s=f314 pos=c
+@v s=40471
+@【ファヌル】
+"Do what you want, right?"
+@page
+Yeah, that's the only thing I can do--
+Fanuel gives a light smile to the words
+that I only say in my mind.
+@page
+@fi id=f
+@mwoff
+@bgm fade=out
+;→021003
+@jump storage="021003.scn"

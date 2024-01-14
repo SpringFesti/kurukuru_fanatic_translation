@@ -1,0 +1,265 @@
+﻿;230202
+*230202|_宣戦布告
+;【備考】主人公視点
+;【ワイプ】視点切り替え
+;@bgm s=bgm03
+;@mwon
+@【至】
+"Sorry about that. Thanks for waiting, Matsuri, Otogiri-san."
+@page
+@setOnce
+@fi s=m112 pos=lc
+@fi s=k113b pos=rc
+@endOnce
+@【至】
+"... Huh? What's wrong, Otogiri-san? You seem more pale than before."
+@page
+@fi s=k212b pos=rc
+@v s=30182
+@【かごめ】
+"Eh? R-Really? I-It must be your imagination."
+@page
+@【至】
+"Are you sure? If you aren't feeling well, you can go rest in the nurse's office, you know."
+@page
+@fi s=k113b pos=rc
+@v s=30183
+@【かごめ】
+"R-Really, I'm really okay. Nothing's wrong.
+O-Oh, uhm, I should be getting back to my seat..."
+@page
+@fi id=k
+With an unsteady gait, Otogiri-san walks away.
+@page
+@fi s=m212 move=c
+@v s=20741
+@【祀利】
+"Hey, that was a joke a little while ago, you know?
+You shouldn't think about it. Really."
+@page
+@fi id=m
+Matsuri says that to Otogiri-san's back, and at the
+same time she suddenly staggers.
+@page
+Did she trip on something?
+@page
+@fi s=k113b pos=c
+@v s=30184
+@【かごめ】
+"Ah... ahhiii... okaaay... I understand.
+I understand... eek... very, very well..."
+@page
+@fi id=k
+Otogiri-san replies to Matsuri, and sits back down at her seat.
+@page
+Still, that timing just now was way too precise.
+@page
+Matsuri's words completely surprised her.
+However, they didn't sound like surprising words.
+@page
+@【至】
+"... So Matsuri, what's the joke you're talking about?"
+@page
+@fi s=m111 pos=c
+@v s=20742
+@【祀利】
+"Hmm? It's not a big deal.
+Just something about playing together for a while."
+@page
+@v s=20743
+@【祀利】
+"She invited me to her house, so I invited her to my country. That was the joke."
+@page
+I guess it really is no big deal. A pretty common joke, too.
+@page
+... If that's so, then why was Otogiri-san so pale?
+@page
+@【至】
+"Was that really what you were talking about?"
+@page
+@fi s=m112 pos=c
+Matsuri doesn't answer. She only smiles pleasantly.
+@page
+;【ワイプ】時間経過
+;【背景】廊下・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=clock
+@bgm s=bgm03
+@mwon
+@【至】
+"Phew... I'm finally back. I thought I was going to be late for the next class."
+@page
+After finishing up my one hour long music class, I return to the classroom.
+@page
+The music room is a long way away from my normal classroom.
+@page
+In addition, because the teacher doesn't care about the bell,
+if you don't leave as soon as it rings, you probably won't make it
+to the next class.
+@page
+@【至】
+"... I can't believe I managed it.
+Getting to the classroom after the first lesson is hard enough as is..."
+@page
+@bi s=bg12d
+I enter the classroom, muttering to myself.
+@wait time=800
+And then.
+@page
+@bgm fade=stop
+;【背景】教室・昼
+@v s=30185
+;【備考】話者表記いらないかもと思ったので一旦消した状態にしておきます。
+;@【かごめ】
+@qk
+@lfont
+@【？？？】
+"HYAAAAAHH!?"
+@page
+@bgm s=bgm11
+A girl's scream rang through the classroom as soon as I came inside.
+@page
+@【至】
+"That voice... Otogiri-san!? What's wrong!?"
+@page
+@fi s=k446 pos=c
+@v s=30186
+@【かごめ】
+"Ahh... hii... eek..."
+@page
+I run over to Otogiri-san's desk in a hurry.
+@page
+@【至】
+"What the... what is this...!?"
+@page
+I look down at Otogiri-san's desk and see it
+covered in horrible graffiti.
+@page
+"Die" "Disgusting" "Loose"
+"Fujoshi" "Ugly" "Slut"
+@page
+There are so many words that I can't even read them all.
+@page
+@fi s=k346 pos=c
+@v s=30187
+@【かごめ】
+"Oh... ohhh...."
+@page
+Close to tears, Otogiri-san pulls out a handkerchief and begins to wipe off the desk.
+@page
+It isn't coming off at all. It might have been written with permanent marker.
+@page
+@【至】
+"Otogiri-san... it'll be alright. Don't take it too hard, okay?"
+@page
+@fi s=k113 pos=c
+@v s=30188
+@【かごめ】
+"T-thanks Takamichi-kun...
+I'm alright... I should be okay..."
+@page
+Courageously, Otogiri-san sits down and takes out her textbook for the next class.
+@page
+@fi s=k348 pos=c
+@qk
+@lfont
+@v s=30189
+@【かごめ】
+"Whaa!?"
+@page
+As soon as Otogiri-san opens her textbook, my breath is taken away.
+They even scribbled on her textbook.
+@page
+@【至】
+"T-That's..."
+@page
+I borrow her textbook and flip through the pages.
+@page
+Almost all the pages are ruined.
+@page
+If Squidward saw how much ink was wasted on these pages, he'd have a heart attack.
+@page
+I say heart attack, but I don't even know if squids have hearts.
+@page
+... Wait... isn't Spongebob a kid's show...? Kid...?
+@page
+I feel like I almost just realized something.
+@page
+... Nope. I don't have it. Oh well.
+@page
+@【至】
+"Who the heck could've done this? Do you have any ideas, Otogiri-san?"
+@page
+@fi s=k113b pos=c
+@v s=30190
+@【かごめ】
+"Eh...? I-I, uhm..."
+@page
+@【至】
+"Is anyone bullying you? Tell me, and I'll go kick their ass."
+@page
+@v s=30191
+@【かごめ】
+"N-No, that's not it...
+I'm sorry. I... have no idea..."
+@page
+@【至】
+"I see..."
+@page
+@setOnce
+@fi id=k
+@fi s=m113 pos=c
+@endOnce
+@v s=20744
+"Itaru, what are you doing? The next class is about to start."
+@page
+I look up at the teacher's podium and see the Japanese History teacher glaring at me.
+@page
+@【至】
+"Ah, crap... Otogiri-san, if anything happens, tell me, okay?"
+@page
+@setOnce
+@fi id=m
+@fi s=k113 pos=c
+@endOnce
+@v s=30192
+@【かごめ】
+"Okay... thank you... Takamichi-kun."
+@page
+@fi id=k
+I sit back down as fast as I can.
+@page
+@fi s=m212 pos=c
+@v s=20745
+@【祀利】
+"Yaaay, time to sit on Itaru's lap again!"
+@page
+@fi id=m
+Matsuri joyfully sits down.
+@page
+I'm a bit happy that I'm getting used to this, but I'm also a bit sad that I have to get used to it in the first place.
+@page
+... Wait. Matsuri didn't come to my last class with me.
+What was she doing for the last hour?
+@page
+Something aches dully in the back of my mind.
+@page
+However, I'm missing something crucial to ascertain the truth.
+@page
+@【至】
+"... I'm a little worried."
+@page
+Graffiti on her desk and textbook.
+What was written there.
+@wait time=1000
+... Then, what could it be?
+@page
+I try to think about it, and time passes...
+@page
+@bgm fade=out
+@mwoff
+;→230300
+@jump storage="230300.scn"

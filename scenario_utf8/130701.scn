@@ -1,0 +1,388 @@
+﻿;130701
+*130701|_気持ちの意味
+;【ワイプ】場所移動
+;【背景】主人公自室
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01n trans=ひし形(左から右へ)
+@bgm s=bgm04
+@mwon
+I carried Wazuka-san over to my room,
+then promptly remembered I was soaked. So, I changed as fast as I could.
+@page
+First though, I lay her on the bed before I start changing.
+@page
+I dried off really fast with the towel,
+so my hair and my back are still wet,
+but I don't care right now.
+@page
+I can't put clothes on Wazuka-san as she is now.
+Even so, she'll probably catch a cold if I don't dry her off.
+@page
+@【至】
+"Wazuka-san, I'm going to lift you up."
+@page
+I raised her up a few inches on my bed, and began to wipe her down.
+@page
+To tell the truth, it'd be best if Matsuri did this since she's a girl,
+but because I don't know where she is right now,
+I've got to do it.
+@page
+I try my best not to look at her while I wipe her down.
+@page
+@【至】
+"... Huh? What are these...?"
+@bgm fade=out
+@page
+;【イベントＣＧ】evn1040
+@mwoff
+@bi s=evn1040
+@bgm s=bgm12
+@wait time=300
+@mwon
+At first, I thought those were just dirt.
+@page
+But I was wrong.
+@page
+Perhaps because of the temperature of the bathroom,
+scars had appeared all over her body.
+... Perhaps these were the remains of scars she had gotten in her childhood.
+@page
+@【至】
+"... I see."
+@page
+Before I knew it, I was touching her side.
+@page
+There were scars there.
+Those old wounds that she had gotten.
+@page
+Without clothes, they became obvious--
+those scars she had gotten from relentless abuse.
+@page
+Those pitiful marks carved into Wazuka-san's skin
+spoke of the ghastliness of those times.
+@page
+@【至】
+"Sorry. I'll cover them up."
+@page
+I'm sure she doesn't want me to see them.
+Yet I have... and my heart aches.
+@page
+Since I'm done wiping her down,
+I try my best to conceal those wounds.
+@page
+;【背景】主人公自室
+@bgm fade=out
+@bi s=bg01n
+@bgm s=bgm04
+@v s=10974
+@【わずか】
+"Nn, ohhh..."
+@page
+After I finished putting clothes on her,
+Wazuka-san began to wake up.
+@page
+@fi s=w123 pos=c
+@v s=10975
+@【わずか】
+"... Wha... where..."
+@page
+@【至】
+"This is my room."
+@page
+@v s=10976
+@【わずか】
+"Itaru-kun..."
+@page
+@fi s=w223 pos=c
+@v s=10977
+@【わずか】
+"Oh... I... fell down..."
+@page
+@【至】
+"That's fine, you can sleep here if you need to."
+@page
+She doesn't seem like she can move so well,
+so I offer my bed to Wazuka-san.
+@page
+@fi s=w123 pos=c
+@v s=10978
+@【わずか】
+"... I'm sorry."
+@page
+@【至】
+"Don't worry about it.
+More than that though, are you alright?"
+@page
+I thought she had a cold, but she didn't seem hot.
+Rather, she seemed a little cold, and it seemed like
+her body was paralyzed as well.
+@page
+This was the first time I had seen such symptoms,
+so I didn't know what to do.
+@page
+When people fall down on television,
+it's a sign that they're very, very sick.
+@page
+Maybe Wazuka-san is in a very dangerous condition...
+@page
+@【至】
+"Does anything hurt? Do you want me to call an ambulance?"
+@page
+@fi s=w558 pos=c
+@v s=10979
+@【わずか】
+"D-Don't do that..."
+@page
+She slowly shakes her head.
+She's probably worried that she's being a nuisance to me.
+@page
+@fi s=w223 pos=c
+@v s=10980
+@【わずか】
+"I'll recover... in a little bit..."
+@page
+@【至】
+"........."
+@page
+@fi s=w123 pos=c
+@v s=10981
+@【わずか】
+"Itaru-kun, please..."
+@page
+Tsk. I can't refuse a plea like that.
+@page
+@【至】
+"...Fine.
+Even so, tell me if anything starts to hurt, okay?"
+@page
+@fi s=w557 pos=c
+@v s=10982
+@【わずか】
+"...Okay."
+@page
+At last, Wazuka-san smiles.
+A gentle, relaxing smile.
+@page
+@fi s=w223 pos=c
+@v s=10983
+@【わずか】
+"I'm sorry... I'm being a burden..."
+@page
+@【至】
+"It's fine. Let me take care of you for once, alright?"
+@page
+@【至】
+"Which reminds me, do you need anything?
+I'll go out and get it if you do."
+@page
+@fi s=w121 pos=c
+@v s=10984
+@【わずか】
+"No, I'm alright."
+@page
+She shakes her head weakly again.
+@page
+@fi s=w122 pos=c
+@【わずか】
+"........."
+@page
+@【至】
+"Huh?"
+@page
+As she shook her head, her body twitched for a moment.
+@page
+@【至】
+"... What? Do you need something after all?"
+@page
+@fi s=w558 pos=c
+@【わずか】
+"........."
+@page
+She has an embarrassed expression.
+Maybe she can't decide, or maybe she just doesn't want to ask.
+@page
+@【至】
+"Anything is fine, don't worry.
+If I can do anything for you, I will."
+@page
+@fi s=w123 pos=c
+@v s=10985
+@【わずか】
+"But..."
+@page
+@【至】
+"It's no problem. It makes me happy to do something for the person I like."
+@page
+@fi s=w121 pos=c
+@【わずか】
+"........."
+@page
+@fi s=w223 pos=c
+@v s=10986
+@【わずか】
+"...Li...ke?"
+@page
+@【至】
+"Yeah. I like you, and you're the most important person in the world to me."
+@page
+I don't know the meaning of what I'm saying.
+But if she asks me something like that, with her expression like that,
+that's the only reply I can give.
+@page
+@fi s=w658a pos=c
+@v s=10987
+@【わずか】
+"Ahh... oh... ohhh..."
+@page
+@fi s=w558 pos=c
+@v s=10988
+@【わずか】
+"Re... really?
+You really, really, really... me, you..."
+@page
+@【至】
+"I said it before. You're just missing that one word in there."
+@page
+@fi s=w123a pos=c
+@v s=10989
+@【わずか】
+"Eh... ohh..."
+@page
+@【至】
+"What did you say?
+Did you need something?"
+@page
+@【わずか】
+"........."
+@page
+@fi s=w121a pos=c
+@v s=10990
+@【わずか】
+"...Th-Then, from before..."
+@page
+From before.
+There's only one thing I can think of in that case.
+@page
+I know immediately what she means when she says "from before".
+I was expecting this, so I bend over to kiss Wazuka-san.
+@page
+@fi s=w12cad pos=c
+@v s=10991
+@【わずか】
+"Mn..."
+@page
+Just as before, a kiss from me to her.
+However, this feeling is completely different from the one before.
+@page
+@【至】
+"... Was that good?"
+@page
+@fi s=w557ad pos=c
+@v s=10992
+@【わずか】
+"... Yeah."
+@page
+She nods, and shows me a calm smile.
+@page
+@【至】
+"Do you want anything else?
+I'll listen, no matter what it is."
+@page
+Wazuka-san laughs. That means she's getting better.
+@page
+@fi s=w123ad pos=c
+@v s=10993
+@【わずか】
+"Be with me."
+@page
+@【至】
+"Okay. But where?"
+@page
+@fi s=w557ad pos=c
+@v s=10994
+@【わずか】
+"... Sleep here with me.
+Just a little is fine... please, sleep here with me."
+@page
+@bi s=bg01b
+I nod, and turn off the lights,
+and lie down next to her.
+@page
+@fi id=w
+@bgm fade=out
+@mwoff
+@bi s=evn1020
+@bgm s=bgm14
+@wait time=300
+@mwon
+I reassure her by patting her head.
+@page
+@【至】
+"I'll lie like this until you fall asleep."
+@page
+@v s=10995
+@【わずか】
+"...K."
+@page
+;【イベントＣＧ】evn1022
+@mwoff
+@bi s=evn1022
+@wait time=300
+@mwon
+@v s=10996
+@【わずか】
+"Itaru-kun..."
+@page
+@【至】
+"Hm?"
+@page
+@【わずか】
+"......"
+@page
+@v s=10997
+@【わずか】
+"........."
+@page
+I hear her breathing, just a little bit.
+@page
+She might have tried to say something to me,
+but fell asleep before she could.
+@page
+@【至】
+"Good night, Wazuka-san."
+@page
+I kiss her sleeping cheek.
+@page
+It seems natural to kiss her like that.
+I've gone kinda crazy.
+@page
+Although I'm not the kind of person who would take advantage of her,
+it would be deplorable not to give her just a little kiss.
+@page
+A little while ago, I said that I liked Wazuka-san.
+@page
+I certainly do. She's a very important person.
+But, in what sense do I mean that?
+@page
+I don't know the answer.
+Or rather, it seems like I'm pretending not to understand.
+@page
+... I wonder what Wazuka-san thinks.
+@page
+With how it's been going with the kisses,
+and with what happened yesterday...
+@page
+Is it because I saved her life?
+Am I trying to take responsibility for saving her life?
+@page
+@【至】
+"Is that it, Wazuka-san?"
+@page
+She's sleeping, so even if I ask,
+I get quiet snores instead.
+@page
+;→130702
+@jump storage="130702.scn"

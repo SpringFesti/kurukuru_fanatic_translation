@@ -1,0 +1,170 @@
+﻿;240200
+*240200|私の番！
+;【備考】祀利視点
+;【ワイプ】視点切り替え+場面転換
+;【背景】学園廊下・昼
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ランダム
+@bgm s=bgm15
+@fi s=m74a pos=c
+@mwon
+This is strange. This is really, really strange.
+@page
+I feel like I've been dreaming for a long time.
+My mind is hazy, and my consciousness flits in and out.
+@page
+Well, Matsuri is a forgetful person.
+If you asked her what she had been doing up until now, she probably couldn't remember.
+@page
+But... today is different.
+Somehow, it feels like someone that isn't Matsuri is moving Matsuri's body.
+@page
+... Huh? Who is Matsuri? Err... umm... I don't really know.
+@page
+Who are you? Who am I?
+I am... I'm... I...
+@page
+Matsuri is...
+@page
+@fi s=m115 pos=c
+@v s=21004
+@【祀利】
+"... So you're finally asleep."
+@page
+@【至】
+"Huh? Matsuri, did you say something?"
+@page
+@fi s=m11c pos=c
+@v s=21005
+@【祀利】
+"No, nothing. Don't mind me."
+@page
+As obediently as possible, I clasp Itaru's hand.
+@page
+@fi s=m115 pos=c
+Now it's my turn. And I'll never hand him over.
+@page
+@fi s=m11c pos=c
+@v s=21006
+@【祀利】
+"Hey Itaru, that lady's a real pain.
+You secretly think that too, don'tcha?"
+@page
+"No way, Wazuka-san is just like family to me.
+She's a very important person."
+@page
+@fi s=m11ca pos=c
+@v s=21007
+@【祀利】
+"You lair, she always follows us around and gets in our way.
+A-A-And you and I are fiancees, so--"
+@page
+@fi s=m74a pos=c
+--Shit!? One of the others is...!
+@page
+Why are you getting in my way!?
+Hell no, I'm not going back in!
+Itaru and I haven't--
+@page
+@fi s=m747 pos=c
+And you won't, ever. Itaru is mine. 
+@page
+I love Itaru's cock.
+I want him to put it inside me soon... very soon.
+@page
+@【至】
+"Hey Matsuri, I'm a little worried about Wazuka-san.
+When we tell her about our relationship... it'll probably
+by just like earlier, huh?"
+@page
+@fi s=m647d pos=c
+@v s=21008
+@【祀利】
+"So you're saying you can't do something like
+that so easily?"
+@page
+@【至】
+"Uwah!? You're Festa now!?"
+@page
+@【至】
+"Wait! Don't touch my crotch!
+Wahwahwah, get off my zipper!
+Don't pull it out--!"
+@page
+@v s=21009
+@【祀利】
+"Fufufu... it's always splendid, each time I see it.
+... wait, ara? Arara?"
+@wait time=3000
+@fi s=m74ad pos=c
+@page
+W-Who is this!? Ohh... just a little more...
+and his dick would have been inside me...
+@page
+@fi s=m74bd pos=c
+Nooo! It's my turn now!
+I want to do naughty things with Itaru now!
+@page
+@fi s=m112d pos=c
+@v s=21010
+@【祀利】
+"Aha!♪　Itaru, you're so big.
+Why are you so hard when you're in a place like this?"
+@page
+@qk
+@【至】
+"SSSSSS- I told you to stop!"
+@page
+@fi s=m113d pos=c
+Ah, he put it away before I could reach it.
+@page
+@【至】
+"Phew... damn it, someone could have seen that, you know!?"
+@page
+@fi s=m74b pos=c
+@v s=21011
+@【祀利】
+"Buu, boring. Itaru, play with me more."
+@page
+@【至】
+"I told you, after class is over."
+@page
+@fi s=m111 pos=c
+I know that inside me, Matsuri is desperately trying to get out.
+@page
+Sorry Matsuri, deal with it for a while longer.
+I want to play with Itaru.
+@page
+@【至】
+"Tch... alright, look. Behave yourself in the classroom, alright?"
+@page
+@fi s=m112 pos=c
+@v s=21012
+@【祀利】
+"Okaaay, sorryyy."
+@page
+I apologize obediently. But I'm sure I won't be behaving at all.
+@page
+... I will do my best to defend Itaru. As much as I can.
+@page
+But I don't know what the other two will do.
+@page
+@fi s=m111 pos=c
+Even now... Festa and Parade want to come out and play with Itaru.
+@page
+I will never let them take my place. I will play with Itaru.
+@page
+@fi s=m74b pos=c
+But... ohh... again...
+@page
+@fi s=m74a pos=c
+So... whose turn is it this time...?
+@page
+@fi id=m
+@mwoff
+@bgm fade=out
+;→240201
+@jump storage="240201.scn"

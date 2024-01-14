@@ -1,0 +1,60 @@
+﻿;120200
+*120200|気まずい二人
+;@mwoff
+;@bi s=blank trans=crossfade all=true
+;@wait time=200
+;@bi s=bg08d trans=clock
+;@bgm s=bgm02
+@fi s=w111 pos=c
+;@mwon
+Thus, we started walking to school.
+@page
+We hadn't talked since our conversation
+about Matsuri.
+@page
+Frankly, I was thinking about what happened this morning.
+@page
+;【イベントＣＧ】ＮＣＧ1030
+;【演出】ＣＧをモノクロ処理
+@fi id=w
+;@mwoff
+@bi s=evn1030m time=100
+;@wait time=300
+;@bgm s=bgm05
+;@mwon
+@【至】
+(...I saw that. Why isn't Wazuka-san embarassed?"
+@page
+From what I saw earlier, there were no signs she was embarrassed
+at all. She had even opened her legs so I could do my business.
+@page
+@【至】
+(...I wonder what that means?)
+@page
+Was Wazuka-san panicking too?
+Was she excited somehow?
+Or maybe she has no sense of shame?
+@page
+In fact, I wonder what she's thinking right now.
+I wonder if she's alright.
+@page
+She might have been so embarassed that she wanted to die.
+However, she was acting like she always does.
+@page
+;【背景】住宅街路上・昼
+@bi s=bg08d time=500
+@fi s=w111 pos=c
+@【わずか】
+"........."
+@page
+Naturally, I can't read her thoughts from her emotionless face.
+@page
+Even if I can't, should I apologize again anyway?
+;選択肢
+;わずかさんに謝ろう　→120201
+;も少し悩んでみる　→120202
+@pages
+@selinit
+@selbtn cap="Apologize" s="120201.scn"
+@selbtn cap="See if she's worried" s="120202.scn"
+@s

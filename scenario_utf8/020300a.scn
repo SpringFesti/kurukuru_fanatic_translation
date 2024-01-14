@@ -1,0 +1,129 @@
+﻿;020300a
+*020300a|いっしょに行きたい！
+@【至】
+"Well, even if I know what will happen, it's still annoying."
+@page
+@fi s=f111 poc=c
+@v s=40344
+@【ファヌル】
+"But you can't relax. Your fate has changed."
+@page
+@bgm fade=stop
+@bgm s=bgm08
+Looking back towards the door at that voice,
+Fanuel is standing there.
+@page
+@【至】
+"H-Hey."
+@page
+Because of yesterday, I'm still embarassed to meet face-to-face.
+@page
+Although she should understand my feelings and my condition,
+her attitude doesn't change.
+@page
+@fi s=f211 pos=c
+@v s=40345
+@【ファヌル】
+"Your face is red. Why?"
+@page
+Even if she asks, I can't reply.
+Even if I want to answer, I still don't understand my own feelings.
+@page
+@fi s=f212 pos=c
+@v s=40346
+@【ファヌル】
+"Humans are an immature existence.
+To not be able to understand yourselves... how pathetic."
+@page
+@【至】
+"I'm not an angel, alright?
+Anyway, you're going into my phone now, right?"
+@page
+@fi s=f211 pos=c
+@v s=40347
+@【ファヌル】
+"Yep, it's the quickest way."
+@page
+@fi id=f trans=out
+Saying that, Fanuel touched my phone on my desk
+and disappeared.
+@page
+@【至】
+"Heeey, how is it in theeere?"
+@page
+@fi s=f111d pos=c opacity=120
+;【備考】以下、『　』セリフは全て電話越しの声に加工
+@v s=40348
+@【ファヌル】
+"Nothing special. It's how it's always been."
+@page
+The digital voice without deep emotions sounds from the speakers.
+@page
+@v s=40349
+@【ファヌル】
+"Anyway, hurry up. Wazuka's waiting by the entrance."
+@page
+@【至】
+"Got it, I'll--"
+@page
+@v s=10302
+@【わずか】
+"-- Itaru-kun, we gotta gooo!"
+@page
+@【至】
+"There it is. Business as usual, then."
+@page
+@fi s=f559d pos=c opacity=120
+@v s=40350
+@【ファヌル】
+"I don't know what the others know. Don't do strange stuff, okay?"
+@page
+@【至】
+"Got it. I guess you're just my monitor again, aren't you?"
+@page
+Even so, it gives me some relief.
+I feel like I can avoid checkmate now.
+Fanuel, I'm glad to be working with you this time as well.
+@page
+@fi s=f111d pos=c opacity=120
+@v s=40351
+@【ファヌル】
+"... Hmph. You're unusually polite."
+@page
+@【至】
+"I'm supposed to be a childish existence, right?
+I've changed from "before"."
+@page
+Yeah, everything has changed.
+@page
+What's the reason for that? When did it start?
+Was it the ceremony? Or was it really because I called her name?
+What do you think, Fanuel?
+@page
+@fi s=f559d pos=c opacity=120
+@v s=40352
+@【ファヌル】
+"I dunno. If there is only one answer, it is 'that'."
+@page
+Asking what it is, I lean my neck towards the phone and
+the speaker tells me thus:
+@page
+@fi s=f55ad pos=c opacity=120
+@v s=40353
+@【ファヌル】
+"In the name of God.
+God knows all."
+@page
+Yes, that must be it.
+It explains my revival, and my continual revival.
+@page
+@【至】
+"... So, I wonder what events will happen now."
+@page
+Yes. Only God knows, right?
+@page
+@fi id=f
+@mwoff
+;→020300c
+@bgm fade=out
+@jump storage="020300c.scn"

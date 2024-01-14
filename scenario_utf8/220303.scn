@@ -1,0 +1,339 @@
+﻿;220303
+*220303|_祀利の秘密
+;【備考】主人公視点
+;【背景】居間・夜・消灯
+;【ＳＥ】銃声
+@mwoff
+@bi s=blank
+@bi s=bg04b trans=ランダム time=200
+;@fi s=fi**** pos=****
+@se s=se109
+@qk time=700
+@flash time=700
+@wait time=1500
+@mwon
+A shot rings out.
+That sticky silence is lifted, and two murderous intents remain.
+@page
+@bgm s=bgm16
+@【至】
+"Matsuri, just stop this.
+She apologized already, didn't she?"
+@page
+A hair's breadth.
+At the same time she pulled the trigger, I grasped the handgun.
+@page
+@fi s=m315 pos=c
+@v s=20657
+@【祀利】
+"I don't get it. When did you notice me?"
+@page
+@【至】
+"A little while ago."
+@page
+I didn't notice by myself, though.
+Fanuel showed me.
+@page
+Her voice in my head told me that Matsuri had come into the living room.
+@page
+;【備考】エコー
+@v s=40486
+@【ファヌル】
+"There is a risk that the flow of fate might change."
+@page
+The goodwill of the watcher, in other words.
+@page
+@【至】
+"Please, stop this.
+If you go any further... I'll make you leave."
+@page
+;@fi s=m311 pos=c
+@v s=20658
+@【祀利】
+"Are you serious?"
+@page
+I understand the power of the gun I'm holding in my hand.
+The instantaneous explosion.
+@page
+However, I can't withdraw here.
+I've got to stop the two of them.
+@page
+@【至】
+"Wazuka-san, you stop too. Put away the knife."
+@page
+@setOnce
+@fi s=m315 move=rc
+@fi s=w32b pos=lc
+@endOnce
+@v s=10604
+@【わずか】
+"Then she'll kill you, Itaru!
+YOu can't trust her!"
+@page
+@fi s=m515 pos=rc
+@v s=20659
+@【祀利】
+"Ridiculous. You're the one I want dead.
+Itaru is Matsuri's fiancee, isn't he?"
+@page
+@【至】
+"If you think that, then why haven't you stopped?"
+@page
+@fi s=m315 pos=rc
+@v s=20660
+@【祀利】
+"They're two different things.
+I'm just going to kill her. She's unrelated to you."
+@page
+@【至】
+"She is related to me. She's like my family.
+You're my fiancee, aren't you? Why would you kill your own family?"
+@page
+@fi s=w123 pos=lc
+@v s=10605
+@【わずか】
+"Itaru-kun..."
+@page
+@fi s=w322 pos=lc
+@v s=10606
+@【わずか】
+"Then I'll deal with her..."
+@page
+She tries to get closer to Matsuri with her knife.
+However, I hold her back with my own hand.
+@page
+@【至】
+"If Matsuri's my fiancee, then she's important to me.
+Wazuka-san, would you kill someone important to me?"
+@page
+@fi s=w558 pos=lc
+She tries to mouth back words to answer me.
+However, nothing comes out.
+She lowers her head, and her knife.
+@page
+@【至】
+"Killing each other is strictly prohibited.
+End of line. Case closed."
+@page
+@fi s=m115 pos=rc
+@v s=20661
+@【祀利】
+"Hell no. There's still one thing."
+@page
+@【至】
+"What?"
+@page
+;@fi s=m111 pos=c
+@v s=20662
+@【祀利】
+"You said that she apologized a little while ago?
+So what do you intend to do?"
+@page
+@【至】
+"Ah... t-that's..."
+@page
+@fi s=m11c pos=rc
+@v s=20663
+@【祀利】
+"You gonna give me some vague shit?
+She surprise attacked me. Invaded my privacy.
+I was hurt, you know?"
+@page
+@fi s=w122 pos=lc
+@v s=10607
+@【わずか】
+"Don't lie."
+@page
+@se s=se131
+@fi s=m31c pos=rc
+@v s=20664
+@【祀利】
+"I ain't lying! You want your head blown off!?"
+@page
+@【至】
+"Then stop all this!"
+@page
+@【至】
+"Fine. Then... what do you want to do?
+If I can do it, I'll do it for you."
+@page
+@fi s=m115 pos=rc
+@v s=20665
+@【祀利】
+"Really!? Anything I want!?"
+@page
+I get the feeling I just fucked up.
+@page
+@【至】
+"Well, I can't do anything too unreasonable.
+A massage might be out of the question, for example."
+@page
+;@fi s=m112 pos=rc
+@v s=20666
+@【祀利】
+"I gotcha. Well then, I've got to get ready."
+@page
+@【至】
+"What do you mean? What do you want me to do."
+@page
+@fi s=m111 pos=rc
+@v s=20667
+@【祀利】
+"Matsuri's all sleeeepyyy.
+Itaruuu, come sleep with meee."
+@page
+Matsuri's changed. Judging from her tone, this
+must be the normal Matsuri.
+@page
+@fi s=m64b pos=rc
+@v s=20668
+@【祀利】
+"I'm really tired... and my hand hurts...
+It's just like I did some target practice."
+@page
+Sleeping might be the best thing right now.
+Any more than this, I can't accept.
+@page
+@【至】
+"Then I guess we should go upstairs?
+We'll get to bed after we brush our teeth."
+@page
+@fi s=m111 pos=rc
+@v s=20669
+@【祀利】
+"Okay. Itaru, good night.
+Wazuka, go die."
+@page
+@fi id=m
+Saying that, Matsuri leaves the living room.
+@page
+@fi s=w121 move=c
+@v s=10608
+@【わずか】
+"Itaru-kun... why?"
+@page
+I understand the meaning in her words.
+@page
+My reply troubles me.
+I can only think of commonplace words.
+@page
+However, to express myself, I--
+@page
+@【至】
+"She's really a good kid. However, because she's
+been through a lot of pain, she's become distorted."
+@page
+I remember Matsuri's story in the daytime.
+@page
+Being the daughter of a mafia boss, she's seen a lot
+of the darkness of humanity in her past.
+@page
+For someone put into that kind of world at an
+early age, there's no wonder she became twisted.
+Developing multiple personalities is almost normal at that point.
+@page
+@fi s=w558 pos=c
+@v s=10609
+@【わずか】
+"That's all...?"
+@page
+@【至】
+"W-What do you mean? I-Is there anything else?"
+@page
+Of course there is.
+@page
+I recall what happened earlier today.
+I remember how I was absorbed into Matsuri, all of it.
+@page
+@fi s=w123 pos=c
+@v s=10610
+@【わずか】
+"Itaru-kun..."
+@page
+Of course, I know that there are many other things I could say.
+@page
+But I don't want her to hear them right now.
+I don't have enough energy to even try.
+@page
+So, I ignore the implications behind her words, and--
+@page
+@【至】
+"Wazuka-san, what're you going to do? Sleep?"
+@page
+Her reply is a sigh.
+@page
+@fi s=w123 pos=c
+@v s=10611
+@【わずか】
+"Yeah... I've just got to clear up the things from dinner.
+... May I sleep with you tonight as well?"
+@page
+@【至】
+"Of course. Then, I'll see you up there."
+@page
+@fi id=w
+;@bgm fade=stop
+;@bgm s=bgm04
+@bi s=bg02b
+;【背景】廊下
+I leave the living room. There's no light in the corridor.
+@page
+@【至】
+"I have to fix that tomorrow."
+@page
+@fi s=f111 pos=c
+@v s=40487
+@【ファヌル】
+"You should mend your relationships first."
+@page
+I turn around, and see Fanuel standing there.
+@page
+@fi s=f114 pos=c
+@v s=40488
+@【ファヌル】
+"Way to knock the ladies out. Is the decisive factor of the game the person whose virginity you take?"
+@page
+@【至】
+"D-Don't tease me! B-Besides, that's..."
+@page
+@fi s=f55b pos=c
+@v s=40489
+@【ファヌル】
+"It is related."
+@page
+@fi s=f111 pos=c
+@v s=40490
+@【ファヌル】
+"Well, I don't really care.
+Find why you were killed, and fast."
+@page
+@fi id=f
+Fanuel says that, and disappears into the living room.
+@page
+@【至】
+"I have a hard time understanding her."
+@page
+I begin to walk into my room with a sigh.
+@page
+Matsuri is asleep there.
+I think that, remembering what we did earlier...
+@page
+@【至】
+"... Gotta use the toilet."
+@page
+Though I am sad, this is the saga of a man.
+@page
+If I could solve this all in one shot... If I could...  what would I do?
+@page
+@【至】
+"... I have to do something, don't I?"
+@page
+If problems could be solved in one go, the world would be
+a much easier and nicer place, I think.
+@page
+I walk towards the restroom, thinking about such stupid things.
+@page
+@mwoff
+;→220304
+@bgm fade=stop
+@jump storage="220304.scn"

@@ -1,0 +1,471 @@
+﻿;240401
+*240401|_奇妙なメール
+;【ワイプ】時間経過
+;【背景】教室・昼
+;【ＳＥ】キーンコーンカーンコーン
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@se s=se011
+@bi s=bg12d trans=clock
+@fi s=k448a pos=c
+@mwon
+@【至】
+"Otogiri-san, wait up!"
+@page
+@se fade=out
+Right after class ends, I take Otogiri-san out to the corridor.
+@page
+;【ワイプ】場面転換
+;【背景】廊下
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=tile
+@setOnce
+@fi s=w111 pos=lc
+@fi s=k211 pos=rc
+@endOnce
+@mwon
+I also call out Wazuka-san, and start to talk with the two of them.
+@page
+@【至】
+"That's enough, right? Let's go let Matsuri out."
+@page
+@fi s=w112 pos=lc
+@v s=10664
+@【わずか】
+"No. There's still an hour left."
+@page
+@fi s=k212 pos=rc
+@v s=30241
+@【かごめ】
+"Yes... we can't do that. It still isn't enough yet."
+@page
+@【至】
+"But it is, I'm telling you. I'm sure Matsuri's cracked by now. Look, she's been sending me these weird texts for a while now--"
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+The moment I open my phone to show them the texts, another one arrives.
+@page
+@se fade=stop
+@mnon time=300
+@mset l=4 h=true time=300
+Sender: Matsuri
+Subject: Obrigada!
+@waitclk
+@mwon
+And the contents read...
+@page
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21135
+"That's my Itaru! I can ask you anything!"
+@waitclk
+@mwon
+@fi s=w411 pos=lc
+@v s=10665
+@【わずか】
+"... What is she talking about? Itaru, did you do anything to her?"
+@page
+@【至】
+"No, I haven't... it's been like this for a while now.
+Even though I haven't sent her a text back--"
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+Another text. And it's from Matsuri.
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21136
+"Just like Itaru said, I came prepared!"
+@waitclk
+@mwon
+@fi s=k212 pos=rc
+@v s=30242
+@【かごめ】
+"Prepared...? What the hell did she prepare for? Takamichi-kun?"
+@page
+@【至】
+"No, really, I don't know what she's..."
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+... Another one.
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21137
+"I got LOTS of weapons. I got your approval, after all.
+There's a warm welcome waiting for them."
+@waitclk
+@mwon
+@setOnce
+@fi s=w112 pos=lc
+@fi s=k348 pos=rc
+@endOnce
+@【至】
+"No, don't! I did NOT give you permission!
+Revenge is absolutely not okay!"
+@page
+I desperately make excuses, sure that I've been misunderstood.
+@page
+@fi s=k113 pos=rc
+@v s=30243
+@【かごめ】
+"She said that she brought weapons, didn't she? Where, then..."
+@page
+@fi s=w411 pos=lc
+@v s=10666
+@【わずか】
+"There couldn't be weapons in the phys. ed storage...
+@wait time=3000
+@fi s=w412 pos=lc
+No way, she escaped!?"
+@page
+@【至】
+"Huh...? There's no way that she could have!
+She was locked up pretty damned well!"
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+While I mull over it, another text arrives.
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21138
+"See ya."
+@waitclk
+@mwon
+@setOnce
+@fi s=w112 pos=lc
+@fi s=k348 pos=rc
+@endOnce
+That was almost certainly a confirmation.
+@page
+@fi s=k347 pos=rc
+@v s=30244
+@【かごめ】
+"Let's go!!"
+@page
+;【ワイプ】場面転換
+;【背景】教室
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12d trans=tile
+@bgm s=bgm16
+@setOnce
+@fi s=w112 pos=lc
+@fi s=k348 pos=rc
+@endOnce
+@mwon
+As predicted, Matsuri wasn't in the storage classroom.
+@page
+The door was open. The chain had been pulled apart by pure force.
+@page
+She probably got injured then, in that case.
+There seems to be a bit of Matsuri's blood on the inside of the door.
+@page
+@fi s=k113 pos=rc
+@v s=30245
+@【かごめ】
+"... Is this the kind of animal strength you see from firemen?"
+@page
+I think there's a limit to even that.
+@page
+There are broken handcuffs on the floor as well.
+On the other hands, Matsuri's clothes, which had
+been thrown off, are nowhere to be seen.
+@page
+Matsuri really did escape.
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+... I am now frightened of this sound.
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21139
+"You feeling alright? Wazuka? Kagome?"
+@waitclk
+@mwon
+@setOnce
+@fi s=w111 pos=lc
+@fi s=k112 pos=rc
+@endOnce
+@【至】
+"What the...? She sent a text to me, but it
+has Wazuka-san and Otogiri-san's names in it?"
+@page
+@fi s=w412 pos=lc
+@v s=10667
+@【わずか】
+"Perhaps... she knows that we're with Itaru?"
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+Oh, damn it, not another one!"
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21140
+"Exatamente! And that means, 'Exactly'."
+@waitclk
+@mwon
+@setOnce
+@fi s=w119 pos=lc
+@fi s=k448 pos=rc
+@endOnce
+@v s=10668
+@【わずか】
+"W- How did she time that so well!?"
+@page
+@v s=30246
+@【かごめ】
+"She's listening to our conversation!?"
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+Immediately.
+@page
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21141
+"YYYep."
+@waitclk
+@mwon
+@fi s=k34a pos=rc
+@v s=30247
+@【かごめ】
+"Ugh...! Where!? Where are you!?
+Come out of your hiding spot!
+I'll kill you!"
+@page
+;【ＳＥ】メール着信音
+;【演出】メール
+@se s=se027
+@wait time=1000
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21142
+"You're annoying, you ape with glasses. I'll be sewing up
+your upper and lower mouths to shut you up."
+@waitclk
+@mwon
+@fi s=k448 pos=rc
+@qk
+@v s=30248
+@【かごめ】
+"Hee!"
+@page
+@fi s=w312 pos=lc
+@v s=10669
+@【わずか】
+"She said that she had prepared weapons.
+We can't be caught off guard."
+@page
+Before I knew it, Wazuka-san had a knife in her hands.
+@page
+;【ＳＥ】メール着信音
+;【演出】メール
+@se s=se027
+@wait time=1000
+@se fade=stop
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21143
+"You've got a bad habit of stealing, Wazuka.
+I'm gonna cut off your hands and feet and make you into a daruma doll.♪"
+@waitclk
+@mwon
+@fi s=w312 pos=lc
+@v s=10670
+@【わずか】
+"S-See if you can..."
+@page
+She can see us. She can hear us.
+@page
+Matsuri is watching over us right now.
+@page
+@fi s=k113 pos=rc
+@v s=30249
+@【かごめ】
+"Where is she? Where is she watching from...?"
+@page
+@fi s=w311 pos=lc
+@v s=10671
+@【わずか】
+"... Let's split up and look for her.
+It's more efficient, and there's a chance
+of being sniped if we cluster up."
+@page
+@fi s=k111 pos=rc
+@v s=30250
+@【かごめ】
+"Got it. Of course, when we find her..."
+@page
+@fi s=w312 pos=lc
+@v s=10672
+@【わずか】
+"... Yes. Before we're killed, we'll kill her!"
+@page
+@fi id=w trans=out slide=l
+@fi id=k trans=out slide=r
+@【至】
+"Th-That's...! Wait!"
+@page
+The two of them jump out of the classroom, not listening to me.
+@page
+What should I do? Matsuri is dangerous right now.
+@page
+No, maybe Wazuka-san and Otogiri-san are the more dangerous ones right now.
+@page
+I don't care who I stop, but if I don't stop the fighting--!
+@page
+;【背景】廊下
+;【ＳＥ】キーンコーンカーンコーン
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10d trans=ひし形(左から右へ)
+@se s=se011
+@mwon
+The bell that signals the next class rings.
+@page
+However, I don't care about that right now.
+I've got to find Matsuri.
+@page
+@【女教師】
+"Ara, what are you doing?
+Hasn't class already begun?"
+@page
+@【至】
+"Sorry, but there's an emergency right now!"
+@page
+@【女教師】
+"Ah, w-wait!"
+@page
+I run around the teacher, apologizing.
+@page
+@se s=se027
+Then, I get another text.
+@page
+No way, again--
+@wait time=700
+Just as I expected, it's from Matsuri.
+@page
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21144
+"That woman just now was ogling Itaru. I'll kill her."
+@waitclk
+@mwon
+Shit, shit!
+Matsuri's completely lost sight of herself.
+@page
+I continue running with my cell phone in my hand.
+@page
+Then there's movement in the classroom, and I happen to meet some girls.
+@page
+@【至】
+"Sorry, but have you seen a girl that isn't in uniform!?
+She's about this tall, and..."
+@page
+The answer was no. As soon as I'm about to bow and leave--
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+@qk
+@lfont
+Ngh!?
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=21145
+"What did you say to that girl? I'm gonna kill her too.♪"
+@waitclk
+@mwon
+Crap! Whenever I talk to a woman, Matsuri says she's going to kill them!"
+@page
+I can't talk to any girls right now. I don't want anyone to come to harm.
+@page
+I seperate from the people I was talking to, and I begin to run.
+@page
+;【ＳＥ】メール着信音
+@se s=se027
+@【至】
+"W-W-What is it this time!?"
+@page
+@se fade=stop
+;【演出】メール
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21146
+"That third girl from before, the short one.
+She was staring at your crotch. I'll kill her."
+@waitclk
+@mwon
+;【ＳＥ】メール着信音
+@se s=se027
+More texts come to my phone.
+@page
+;【演出】メール
+@se fade=stop
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21147
+"The fourth girl was licking her lips like she wanted to kiss you.
+I'll be sure to kill her too.♪"
+@waitclk
+@mwon
+;【演出】メール
+@se s=se027
+@wait time=500
+@se fade=stop
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21148
+"The fifth one touched your hand. On purpose. I'll kill her too.♪"
+@waitclk
+@mwon
+;【演出】メール
+@se s=se027
+@wait time=500
+@se fade=stop
+@mnon time=300
+@mset l=4 h=true time=300
+@v s=21149
+"The sixth one, she moved her eyes away from you shyly.
+She fell in love with you. I'll kill her."
+@waitclk
+@mwon
+Killing and killing...
+No matter what I do, something bad is going to happen.
+@page
+I don't know how fast I'm running right now.
+@page
+I have to find Matsuri, now.
+And I have to do it without meeting any girls--
+@page
+@mwoff
+@bgm fade=out
+;→240402
+@jump storage="240402.scn"

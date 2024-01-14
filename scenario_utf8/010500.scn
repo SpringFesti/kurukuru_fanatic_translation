@@ -1,0 +1,550 @@
+﻿;010500
+@mwoff
+*010500|The Party Begins
+;【背景】主人公自宅・居間
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=tile
+@bgm s=bgm02
+@fi s=w121 pos=c
+@mwon
+@v s=10166
+@【わずか】
+"Did she do anything to you since then?"
+@page
+Wazuka-san asks me that when we get home that night.
+@page
+@【至】
+"Nah, she didn't do anything."
+@page
+She looks at me with a doubtful expression after I answer her.
+@page
+@fi s=w122 pos=c
+@v s=10167
+@【わずか】
+"Really?"
+@page
+@【至】
+"Really."
+@page
+@v s=10168
+@【わずか】
+"Really really?"
+@page
+@【至】
+"Really really really really."
+@page
+@fi s=w121 pos=c
+@v s=10169
+@【わずか】
+"No, you're supposed to say it three times."
+@page
+@【至】
+"Oh yeahー wait, no. Really, nothing happened."
+@page
+She was hiding something in her textbook during class.
+Once class ended, she quickly disappeared.
+@page
+It's not that she didn't do anything, she didn't even have the chance.
+@page
+@fi s=w122 pos=c
+@v s=10170
+@【わずか】
+"Then it's fine... but tell me if she tries to attack you.
+I'll kill her immediately."
+@page
+I nod at her, but I have no intention of telling her anything.
+@page
+Even if she doesn't plan on making the school her hunting ground,
+I don't want her to change classes to murderer.
+@page
+Even if that thing on the roof happens again, 
+as long as I'm there to talk to her, everything should be okay... 
+I really want to believe that.
+@page
+But what do I do if that doesn't work? If that kind of thing happens again...
+@page
+@【至】
+"... Ah well. I guess I'll just have to think about it."
+@page
+@fi s=w121 pos=c
+@v s=10171
+@【わずか】
+"Thinking about how to clean up the corpse?"
+@page
+What? No――
+@wait time=700
+... I really shouldn't reply. It'll never end otherwise.
+@page
+@【至】
+"Uhh, anyway, what's for dinner today?"
+@page
+@fi s=w124 pos=c
+@v s=10172
+@【わずか】
+"Hamburger steaks. Your favorite～♪"
+@page
+Uh, no, they're really not.
+@wait time=800
+... Saying that would be a horrible mistake.
+@page
+Even if that's the truth, I can't say that.
+There are certain things you have to say to keep a family together.
+@page
+@【至】
+"Yes indeed, Wazuka-san! I can't wait for dinner tonight!"
+@page
+I pray from the bottom of my heart that it isn't raw meat again...
+@page
+@fi s=w121 pos=c
+@v s=10173
+@【わずか】
+"I started cooking it a minute or two before we started talking... 
+So it should be okay to start eating soon!"
+@page
+@【至】
+"Huh? It hasn't even been 5 minutes."
+@page
+@v s=10174
+@【わずか】
+"It's okay. I turned the heat way up."
+@page
+It's only burnt on the outside. The inside is still underdone.
+You have to cook it on low heat for 15 minutes.
+@page
+Today I asked a girl in my class about cooking, and she told me that.
+Why did I ask? I don't want to die.
+@page
+However, the knowledge by itself is useless. If I put it to good use...
+@wait time=800
+Well, today is already a lost cause.
+@page
+@fi s=w124 pos=c
+@v s=10175
+@【わずか】
+"Itaru-kun, it's all the way done. Eat up, okay?"
+@page
+She says that with a smile. But I can't smile back.
+@page
+The key to victory seems to be my stomach medicine.
+As for later, well, I'll be spending my night on the toilet.
+For now, I should prepare myself for the worst.
+@page
+@【至】
+"Well, ah, thanks a bunch."
+@page
+@fi s=w121 pos=c
+@v s=10176
+@【わずか】
+"Wait a second. I'll bring it in now."
+@page
+;【ＳＥ】チャイム
+@se s=se012
+Then, the doorbell rings.
+@page
+@【至】
+"Who's that?　Is it a salesman or something?"
+@page
+@v s=10176
+@【わずか】
+"Wait a second. I'll bring it in now."
+@page
+@【至】
+"Not yet. It looks like we have a visitor."
+@page
+@fi s=w558 pos=c
+@v s=10177
+@【わずか】
+"Visitors don't come at dinner time. Come on, let's go eat."
+@page
+Even so, I still need to answer the door, especially now that my dad isn't here.
+I have an obligation to tell him about any visitors.
+@page
+@【至】
+"I'll go get it. Wazuka-san, get the table ready, please."
+@page
+@fi s=w122 pos=c
+@v s=10178
+@【わずか】
+"Okay... do you need the knife?"
+@page
+It'd be stupid to ask why I'd need it. I answer no, 
+and head to the entranceway.
+@page
+@setOnce
+@fi id=w
+@bi s=bg03d
+@endOnce
+;【背景】自宅玄関・灯りあり
+@【至】
+"... But really, who could it be?"
+@page
+I look through the peep hole as a precaution.
+@page
+@bi s=blank time=500
+;【背景】暗転
+... Huh? I can't see anything.
+@page
+@【至】
+"Is the peephole dirty? I guess I haven't cleaned it recently."
+@page
+;【背景】自宅玄関・灯りあり
+@bi s=bg03d
+Maybe it's too dark out to see? Thinking things like that, I unlock the door.
+@page
+@bgm s=bgm16
+@se s=se044
+@bi s=bg8150 time=100
+@qk time=1000
+@flash time=1000
+With the door unlocked, someone shoves it open from the outside.
+@page
+@se s=se066
+@qk
+I fall on my ass, unable to even scream.
+@page
+When I try to stand up, something slams into my shoulder and stops all my movement.
+@page
+@【至】
+"―― Wha!?　Wh, what the hell!?"
+@page
+@setOnce
+@bi s=bg03d
+@fi s=m415d pos=c
+@endOnce
+;【大立ち絵】銃をつきつける祀利
+I look at my shoulder, and see the heel of a leather shoe.
+@page
+Beyond that, I see the shiny muzzle of a black pistol in the hand of a 
+young girl.
+@page
+;【備考】人格はパレード
+@fi s=m41dd pos=c
+@v s=20001
+@【？？？】
+"Boa noite. This the Takamichi household?"
+@page
+@【至】
+"Uh, y- yeah... who are you?"
+@page
+Before I can finish, the heel of her shoe digs painfully into my shoulder.
+@page
+;@fi s=m411d pos=c
+@v s=20002
+@【？？？】
+"I ask the questions around here. Where am I right now?"
+@page
+@【至】
+"This is the Takamichi household."
+@page
+I say that, and I try to organize my thoughts.
+@page
+@【至】
+(... Why does this girl have a gun? Does this have something to do with Dad's work? Who the hell is this girl!?)
+@page
+She can't be Japanese. She's got blonde hair and blue eyes, and she said something that, judging from the pronunciation, wasn't English.
+@page
+@v s=20003
+@【？？？】
+"What?　Did you get an idea? Do you think you're smart or something?"
+@page
+@【至】
+"I haven't said anything like that! Get that away from me!"
+@page
+@fi s=m412d pos=c
+@v s=20004
+@【？？？】
+"Incrivel!　You're pretty cool. But you don't threaten me."
+@page
+@mwoff
+@fi s=m415d pos=c
+@se s=se109
+;【ＳＥ】銃声
+;【カットイン】銃フラッシュ
+@qk time=500
+@flash time=500
+@mwon
+@【至】
+"... You, you shot... you actually shot at me..."
+@page
+Stupefied words leak from my mouth. I couldn't say anything else.
+The one gunshot took away even my ability to scream.
+@page
+@fi s=m415d pos=c
+@v s=20005
+@【？？？】
+"If you move, I'll shoot you. If you try to move, prepare to get shot.
+That's common sense."
+@page
+I didn't want to ask where that's common sense.
+I could try asking her to stop stepping on me, 
+but I also don't want to get shot.
+@page
+@fi s=m64bd pos=c
+@v s=20006
+@【？？？】
+"So... wait, what? What's that? Something's in my mind――"
+@page
+@fi s=m41cd pos=c
+@v s=20007
+@【？？？】
+"―― Huh?　Wait the fuck up!　Right now, I'm――"
+@page
+@fi s=m64ad pos=c
+@qk time=500
+@v s=20008
+@【？？？】
+"... Ugh..."
+@page
+@fi s=m647d pos=c
+@v s=20009
+@【？？？】
+"... Nn... hmhm... what a hopeless girl. How could she forget?"
+@page
+@fi s=m411d pos=c
+@v s=20010
+@【？？？】
+"Photos, photos... photos of Itaru..."
+@page
+@【至】
+"Um... That's me. I'm right here."
+@page
+She digs her heel into my shoulder again.
+@page
+@fi s=m647d pos=c
+@v s=20011
+@【？？？】
+"... What did I say a while ago? I ask the questions. You just give me answers."
+@page
+@【至】
+"... Fine."
+@page
+@fi s=m41dd pos=c
+@v s=20012
+@【？？？】
+"Yes, good answer!♪　So, about this photo...
+Wait, hmhmhm, I don't have it in my hand anymore.
+@page
+She laughs, but her eyes aren't laughing.
+The muzzle of the gun doesn't budge an inch.
+She's targeting me, aligning the sights with my forehead.
+@page
+@fi s=m411d pos=c
+@v s=20013
+@【？？？】
+"Sooo... Itaru is... here! Right here. So, where is Itaru?　Is he home?"
+@page
+@【至】
+"That's me. I'm Itaru."
+@page
+@fi s=m64bd pos=c
+@v s=20014
+@【？？？】
+"You're not lying?
+@page
+@se s=se154
+@fi s=m41dd pos=c
+;【ＳＥ】拳銃を構える
+Gachink―― that's the sound of a gun cock.
+It's an ordinary sound effect to hear in a movie, but not in real life.
+@page
+She points the gun at the middle of my forehead, and it burns.
+Yeah, just like it's about to split open.
+@page
+@【至】
+"I'm not lying! My name is Takamichi Itaru!"
+@page
+@fi s=m412d pos=c
+@v s=20015
+@【？？？】
+"Hmmm, maybe. If you're lying, I'll make you eat a thousand bullets.
+Then I'll cut your fingers off."
+@page
+The girl's eyes bounce between me and the picture.
+Me and the picture, over and over.
+@page
+@fi s=m41dd pos=c
+@v s=20016
+@【？？？】
+"Itaru?"
+@page
+@【至】
+"That's me."
+@page
+@v s=20017
+@【？？？】
+"You lying?"
+@page
+@【至】
+"While at gunpoint?"
+@page
+@fi s=m41dd pos=c
+@v s=20018
+@【？？？】
+"True... then it must be!"
+@page
+@fi s=m412d pos=c
+@v s=20019
+@【？？？】
+"I found him... it's Itaru. It really is Itaru, everyone!
+Matsuri really, really found him!"
+@page
+Then, she――
+@page
+@fi s=m64ad pos=c
+@v s=20008
+@【？？？】
+"... Ugh..."
+@page
+Once again, a sigh leaks out of her like her soul is escaping.
+Melting into the air, her expression disappears.
+@page
+All remnants of her voice fade away, and her expression changes again.
+@bgm fade=out
+@page
+@bgm s=bgm06
+@fi s=m113d pos=c
+@v s=20020
+@【？？？】
+"Ah... Itaru?　Is it really you, Itaru?"
+@page
+@【至】
+"D, didn't I just say that?"
+@page
+@fi s=m112ad pos=c
+@v s=20021
+@【？？？】
+"Sorry... I'm sorry, but um... ehehehehe, I don't know what to say... 
+I really don't."
+@page
+@【至】
+"That's my line. Who are you? What are you!?"
+@page
+@fi s=m111ad pos=c
+@v s=20022
+@【祀利】
+"I'm Matsuri... my name is Matsuri. I remember you, Itaru.
+I remembered after all this time.
+@page
+;【背景】玄関内部・灯りあり
+@fi id=m
+Matsuri―― the girl introduces herself, and parts from me.
+@page
+The insane, unpleasant girl who put the gun to my head seems to have faded away, along with the tension.
+@page
+@fi s=m111a pos=c
+@v s=20023
+@【祀利】
+"Itaru... I wanted to meet you. I really, really did!"
+@page
+;【立ち絵】祀利/大
+@fi s=m111ad pos=c
+The girl approaches me, and my body instinctively freezes.
+@page
+This time she isn't pointing a gun at me.
+Instead, she touches me with a small, thin fingertip.
+@page
+@fi s=m112ad pos=c
+@v s=20024
+@【祀利】
+"Itaru... you're warm... and alive... you really are alive."
+@page
+She touches my cheek, forehead and neck――
+First with her fingertip, then with her palm.
+@page
+@fi s=m113ad pos=c
+@v s=20025
+@【祀利】
+"You're Itaru?　You're really Itaru? You're okay?
+These are your arms? Your legs? And both of your eyes?"
+@page
+@【至】
+"Of, of course!　Why wouldn't they be?!"
+@page
+@fi s=m64bd pos=c
+@v s=20026
+@【祀利】
+"But... this... isn't where Matsuri was before."
+@page
+@fi s=m64ad pos=c
+@v s=20027
+@【祀利】
+"There was... there was a lot of pain. So many painful things..."
+@page
+@fi s=m112ad pos=c
+@v s=20028
+@【祀利】
+"But, I did my best. I worked hard. I lived. I tried my very best.
+I killed a lot of people, and I survived!"
+@page
+―― Huh? What did she just say?
+There was a suspicious word between "tried my best" and "survived".
+I feel like I've heard that word a lot today.
+@page
+@【至】
+"I'm sorry, what did you just say?"
+@page
+@fi s=m649ad pos=c
+@v s=20029
+@【祀利】
+"Don't worry about it. So... can I have my reward?"
+@page
+@fi id=m
+@mwoff
+@bi s=evn2010
+@wait time=300
+@mwon
+@v s=20030
+@【祀利】
+"Mmn..."
+@page
+@qk time=1000
+@flash time=1000
+@lfont
+How did this happen!?
+@page
+God! Please tell me! Why does this shit keep happening to me today!?
+@page
+@v s=20031
+@【祀利】
+"Nn...hah, chuu..."
+@page
+@mwoff
+@bi s=evn2011
+@wait time=300
+@mwon
+@v s=20032
+@【祀利】
+"Haah... delicious... Itaru's lingua... are so hot... nn... chuu, delicious... nnn..."
+@page
+Wait!? Don't put your tongue in! This is my first kiss!
+@page
+I try to scream objections, but my lips and tongue are sealed, so I can't.
+@page
+This is... ooh... my brain's gone numb. Do I have a lack of oxygen from the kiss?
+Or am I just drunk on the atmosphere?
+@page
+@v s=20033
+@【祀利】
+"Please... Itaru, give me more...nn, chuu, I tried my best, nchuu, and, nn,
+I'm your fiance, right?　So... hah, more..."
+@page
+@qk time=800
+@flash time=800
+@lfont
+No you aren't!
+@page
+Who's my fiance!?　When did I promise that!? Who the hell are you!?　
+I have no fucking idea!
+@page
+@【至】
+(It's really annoying when someone gets all caught up in themselves like this...
+So now, I have to――!)
+@pages
+@selinit
+@selbtn cap="Get away!" s="010501.scn"
+@selbtn cap="Just stay here." s="010502.scn"
+@s
+;選択肢
+;体を離す！　　　→010501
+;そのままでいる　→010502

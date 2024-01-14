@@ -1,0 +1,94 @@
+﻿;020301
+*020301|_いっしょに行きたい！
+;【好感度】祀利+1
+@eval exp="f.matsuri++"
+Then, I remembered that if we left now, Matsuri would be home alone until 
+we came back.
+@page
+That's a disaster waiting to happen.
+@page
+Someone might break into the house.
+@page
+I have no idea what Matsuri would do if that happened.
+@page
+@【至】
+(...I may not have a home when I come back, let alone anything in it...
+what a terrible joke.)
+@page
+In that regard, I can trust her.
+Matsuri finds nothing too unreasonable to do.
+@page
+@【至】
+"Alright, let's go."
+@page
+@fi s=m212 pos=rc
+@v s=20226
+@【祀利】
+"Yaaay! I love you, Itaru!"
+@page
+Matsuri comes and gives me a big hug.
+@page
+@fi id=w
+@fi s=m647d pos=c
+@v s=20227
+@【祀利】
+"Sooo, you want a present, Itaru? A kiss?
+Or do you want to do something that feels even better?"
+@page
+@fi id=m
+@fi s=w312 pos=lc
+@v s=10307
+@【わずか】
+"Don't get carried away. Let go of him. Otherwise...!"
+@page
+@【至】
+"Just stop, the both of you.
+Matsuri, stop hugging me. Wazuka-san,
+put away your knife. No objections."
+@page
+@fi s=m111 pos=rc
+@v s=20228
+@【祀利】
+"Whyyy?"
+@page
+@【至】
+"We're going to be late.
+In fact, we're probably late already, crap!"
+@page
+@fi s=m114 pos=rc
+@v s=20229
+@【祀利】
+"Mnn, fine.
+So come on, let's go to school!"
+@page
+@fi s=w112 pos=lc
+@v s=10308
+@【わずか】
+"No. Stay home."
+@page
+@fi s=m214 pos=rc
+@v s=20230
+@【祀利】
+"Whyyy? Itaru said it's okay!"
+@page
+@fi s=w111 pos=lc
+@v s=10309
+@【わずか】
+"But the school won't allow you inside.
+There are people at the gates right now.
+They absolutely won't let you in."
+@page
+She's got a point.
+They've probably got guards and teachers at the gates to
+crack down on tardy students.
+@page
+"Sorryyy, Matsuri, but you might have to stay home."
+@page
+@fi s=m114 pos=rc
+@v s=20231
+@【祀利】
+"Nooo! I won't accept that!
+I'm! Going! With! You!"
+@page
+;→020303
+@jump storage="020303.scn"

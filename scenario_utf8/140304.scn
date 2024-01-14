@@ -1,0 +1,214 @@
+﻿;140304
+*140304|味？それとも気持ち？
+;【備考】かごめ視点
+;【ワイプ】視点変更
+;【背景】屋上か階段踊り場のどちらか。合った方を。
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg11d trans=ランダム
+@bgm s=bgm16
+@fi s=k347 pos=c
+@mwon
+Stop it... stop it!
+@page
+@act id=k t=neckswing
+@qk time=1000
+@lfont
+STOP ITTTTTT!!!
+@page
+My thoughts holler themselves hoarse as
+those filthy lips meet my younger brother's...
+@page
+@act id=k t=stopswing
+@fi s=k34a pos=c
+@act id=k t=neckswing
+@qk time=1000
+@lfont
+AAAAAAHHHHH!!!
+@page
+Why are you kissing that woman?
+Your older sister will kiss you, if you want to kiss...
+@page
+Nonetheless, my younger brother, with our similar blood,
+kisses that bitch, even when their souls aren't connected...
+@page
+@act id=k t=stopswing
+@fi s=k347 pos=c
+@v s=30951
+@【かごめ】
+"I won't forgive you..."
+@page
+That face, that hair, those tits, I'll stab and kill them all!
+I'll slash her belly open and rip out her organs,
+and spread pics of them all over the net!
+@page
+That woman, who doesn't even share his blood,
+will regret laying hands on my destined younger brother...
+@page
+@se s=se131
+@fi s=k347 move=rc
+@fi s=m511 pos=lc
+@v s=21648
+@【祀利】
+"Yep, that's all."
+@page
+@fi s=k448 pos=rc
+@v s=30952
+"Eh?"
+@page
+@v s=21649
+@【祀利】
+"Don't move. If you do... I'll shoot you."
+@page
+This brat...
+When did she get here? I didn't notice her at all...
+@page
+@fi s=m64b pos=lc
+@v s=21650
+@【祀利】
+"Sigh... I thought this was suspicious...
+and this is what was going on after all."
+@page
+@fi s=m647 pos=lc
+@v s=21651
+@【祀利】
+"So, Kagome. What do you think of that?"
+@page
+@fi s=k211 pos=rc
+@v s=30953
+@【かごめ】
+"Huh? That...?"
+@page
+@v s=21652
+@【祀利】
+"Of them."
+@page
+@v s=21653
+@【祀利】
+"Isn't it humiliating? It is, isn't it?
+Even though you went through such trouble to make
+that lunch box."
+@page
+@fi s=k447 pos=rc
+@【かごめ】
+"........."
+@page
+Yes. After I went through so much to make it for my younger brother,
+that woman doesn't just tear up our brother and sister relationship,
+but screws up all my plans as well.
+@page
+@v s=21654
+@【祀利】
+"It's humiliating. Disgusting.
+And Matsuri feels the same way."
+@page
+@fi s=k111 pos=rc
+@v s=30954
+@【かごめ】
+"So? What're you trying to say?"
+@page
+@v s=21655
+@【祀利】
+"Want to team up with Matsuri?"
+@page
+@fi s=k212 pos=rc
+@v s=30955
+@【かごめ】
+"Why?"
+@page
+@fi s=m647 pos=lc
+@v s=21656
+@【祀利】
+"It's easier to kill her that way, isn't it?"
+@page
+@fi s=k113 pos=rc
+@v s=30956
+@【かごめ】
+"... And if I refuse?"
+@page
+@fi s=m41d pos=lc
+@v s=21657
+@【祀利】
+"I'll give you another hole between the legs."
+@page
+@fi s=k34a pos=rc
+@act id=k t=hit
+@v s=30957
+@【かごめ】
+"--gh!?"
+@page
+Since when--!?
+She's already got a gun pointed at my feet.
+@page
+@fi s=m412 pos=lc
+@v s=21658
+@【祀利】
+"So what'cha gonna do～?　Team up with Matsuri?
+Or will I blow a hole in you?"
+@page
+This brat... I've got no choice in the matter,
+and I can't negotiate with her!
+@page
+@fi s=k111 pos=rc
+... However, this might not be a bad thing.
+@page
+If the two of us cooperate,
+my killing potential will go up,
+because we've got guns.
+@page
+And when I said "various" a little while ago,
+it'll be sure to include things like that, and that...
+@page
+@fi s=k349a pos=rc
+@v s=30958
+@【かごめ】
+"Heh, uhahahahahah..."
+@page
+@fi s=m413 pos=lc
+@v s=21659
+@【祀利】
+"...Did you break?"
+@page
+@fi s=k113 pos=rc
+Whoops, can't go delusional now!
+@page
+@fi s=m411 pos=lc
+@v s=21660
+@【祀利】
+"...So? You gonna help me or not?"
+@page
+@fi s=k211 pos=rc
+@v s=30959
+"I will."
+@page
+I'll take out the trash and get my younger brother back.
+If such favorable conditions appear in front of me,
+I'll surely take advantage of them.
+@page
+@fi s=m111 pos=lc
+@v s=21661
+@【祀利】
+"Then it's decided."
+@page
+@fi s=k214 pos=rc
+@v s=30960
+@【かごめ】
+"Yes. Good to be working with you."
+@page
+I shake hands, a symbol of our joint struggle.
+@page
+Of course, I don't plan to join her completely.
+I'll keep a tone knife on me, so I can kill her at any time.
+@page
+@fi s=m112 pos=lc
+@v s=21662
+@【祀利】
+"Well then, first we should decide on a strategy.
+A strategy to destroy Wazuka, that darned bad guy!"
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+@bgm fade=out
+@jump storage="140400.scn"
+;→140400

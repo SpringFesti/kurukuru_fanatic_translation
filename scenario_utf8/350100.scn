@@ -1,0 +1,67 @@
+﻿;350100
+*350100|１０月３１日午前７時４２分
+;【ワイプ】場面転換
+;【背景】自宅居間・灯りあり
+@bi s=white trans=crossfade all=true
+@wait time=200
+@bi s=bg810
+@se s=se001 loop=true
+@wait time=2000
+@se fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=clock
+@bgm s=bgm03
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"... I wonder what happened to her?"
+@page
+It's finally the fifth day--
+The day of destiny has come at last.
+@page
+While I'm worried about that, I'm more worried
+about something else.
+@page
+@【至】
+"Matsuri... she still hasn't responded to my text or call."
+@page
+Even though the night has passed, she still hasn't responded.
+We haven't heard from her for almost a day now.
+@page
+@【至】
+"... Did she really get mad and go home?"
+@page
+I mutter in vain.
+@page
+@setOnce
+@fi s=w122 pos=lc
+@fi s=f111 pos=rc
+@endOnce
+Fanuel doesn't care about anything right now.
+As for Wazuka-san, she's had a grim expression for a while now.
+@page
+@bi s=current all=true trans=crossfade
+-- No way, but did Wazuka-san do something?
+@page
+I thoguth that, but I could deny it immediately.
+@page
+Wazuka-san wouldn't have that expression if she did do something.
+If she could eliminate the obstacle in her way, she'd be ecstatic right now.
+@page
+Therefore, there must be another reason.
+@page
+-- And even if I know that,
+I can't ask anyone about this mystery.
+@page
+I don't understand Matsuri.
+Fanuel won't tell me anything.
+@page
+In the end, the morning passes without us talking about anything in particular.
+@page
+@bi s=current all=true trans=crossfade
+@mwoff
+;→350200
+@bgm fade=stop
+@jump storage="350200.scn"

@@ -1,0 +1,193 @@
+﻿;010701
+*010701|かごめからのメール
+;【フラグ】010701起立
+;【背景】自室夜・消灯
+;【ＳＥ】携帯電話着信音
+@eval exp="f._010701++"
+@【至】
+"...What could it be?"
+@page
+@bi s=bg01b time=500
+@se s=se027
+I murmur to myself,and hear a tinny digital sound.
+@page
+@【至】
+"...Huh? Oh... I have a mail."
+@page
+Who would mail me at this hour?
+A friend? Maybe my father?
+@page
+In any case, I need to put my phone on silent.
+If either of those two wake up, bad things
+will happen.
+@page
+Carefully seperating myself from those two,
+I pick up my phone on top of my desk.
+@page
+@【至】
+"Let's see... Kaeri Chikatsuki? Whozat?"
+@page
+I've never heard of that name.
+Is that even a person's name?
+@page
+Seems the subject is "Sorry about today."
+It might be spam, or it might not...
+I should handle this delicately.
+@page
+@【至】
+"Maybe I should just look at it.
+I can just delete it if it's weird."
+@page
+I press the open button.
+@wait time=1000
+I'm a little surprised.
+Otogiri-san sent this.
+@page
+;【備考】本編では話者なし
+;【演出】モノローグ処理～横書き
+@mnon
+@mset l=6 h=true
+@v s=30052
+"I'm sorry about today. Really, really sorry. :)
+I wanted to apologize, so I sent this. :)
+Are you asleep? Did I wake you up? :)
+I'm sorry if I did. Really, really sorry. :)
+Good luck, and I'll see you again tomorrow. :)
+@page
+;【演出】モノローグ終了
+@mwon
+@【至】
+"What the hell?"
+@page
+There are smilies attached to every line.
+I feel like I want to laugh,
+but instead I smily wryly.
+@page
+But I can't laugh at her.
+She's seriously apologized to me.
+@page
+@【至】
+"I guess I was partially at fault too.
+That whole touching thing was baaaad.
+@page
+My hands still remember that feeling.
+I also remember what I saw back then.
+@page
+@【至】
+"...Yeah, I was really an idiot."
+@page
+I write her that as a reply, and send it along.
+Then, I put my phone on silent mode.
+@page
+@【至】
+"Now, time for bed.
+Otherwise, I..."
+@page
+@bi s=evn3014 time=500
+;【イベントＣＧ】かごめとのぶつかったとき～モノクロ
+I close my eyes--
+and that scene replays in my mind.
+@page
+Crap.
+Ohhh crap.
+I'm between Wazuka-san and Matsuri, so this is really bad!
+@page
+@bi s=blank trans=crossfade all=true
+I must stop thinking.
+I allow the darkness in my vision
+to fill my head, and paint it black.
+@page
+Maybe it worked or I was just tired,
+but that makes drowsiness attack me immediately.
+@page
+;【背景】主人公自室・夜・灯りなし
+@bi s=bg01b time=500
+@se s=se027
+@flash time=300
+@wait time=200
+@flash time=300
+@wait time=200
+@flash time=300
+I hear a soft sound. Light twinkles in the corner of the darkness.
+I open my eyes and see my phone blinking,
+signalling an incoming mail.
+@page
+@【至】
+"Crappp...Otogiri-san... reply tomorrow..."
+@page
+;【演出】暗転
+@bi s=blank trans=crossfade all=true 
+I close my eyes... and realize something.
+@page
+@bgm fade=out
+When did I give her my number?
+When we crashed into each other? On the roof?
+Before I get my answer, I--
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg07b trans=ランダム
+@bgm s=bgm07
+@fi s=k355 pos=c
+@mwon
+;【ワイプ】視点変更
+;【背景】かごめ自室・灯りあり
+@v s=30053
+@【かごめ】
+"...He must be sleeping.
+Yes... Takamichi-kun fell asleep again."
+@page
+I had sent 5 mails to his phone.
+Only the first got a reply.
+But I had gotten a reply.
+@page
+@fi s=k224a pos=c
+@v s=30054
+@【かごめ】
+"...I apologized. Me. I'm not bad.
+Hehe, I'm not bad at all. Nope. Not me."
+@page
+There were only 2 lines of text, but they filled my mind.
+There's no pleasure outside of that I make up myself, but that's even better.
+@page
+To tell the truth, I wanted one more line.
+For example, I wanted to apologize in person.
+For example, I wanted to sincerely apologize.
+@page
+@fi s=k455a pos=c
+@v s=30055
+@【かごめ】
+"Then... Big sis is sorry."
+@page
+Yes, that's the best line.
+I want to say it.
+No, I want to say it to him.
+@page
+At that time, we bashed into each other.
+At that time, I was not wearing underwear.
+At that time, he touched me.
+@page
+Chance + Chance + Chance = A Miracle.
+Miracles don't happen in the real world.
+@page
+But that's only natural.
+It couldn't just be chance.
+And miracles don't exist.
+@page
+@fi s=k459a pos=c
+@v s=30056
+@【かごめ】
+"Yes... finally."
+That boy is the ideal little brother."
+@page
+Otherwise, I would not have met him.
+The conclusive evidence proves that possibility.
+@page
+Yes, we must have been siblings before
+we were born in this world.
+@page
+@fi id=k
+@bgm fade=stop
+@jump storage="010703.scn"
+;→010703

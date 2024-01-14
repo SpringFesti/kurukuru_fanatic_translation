@@ -1,0 +1,61 @@
+﻿;020503
+*020503|_祀利、来襲
+;【背景】青空
+;@bgm s=bgm03
+@bi s=bg810
+So that's how it's going to be, huh?
+@page
+@se s=se011
+The bell makes a small chime.
+It's the start of the second period,
+so of course the teacher comes in.
+@page
+@bi s=bg12d
+"Takamichi-kun, who is that girl?"
+When the teacher asks me that, the whole class stares
+at me again.
+@page
+I have no excuses to give him.
+When I try to explain the situation to him,
+Matsuri starts crying again.
+@page
+;【背景】教室昼
+@fi s=m116
+@v s=20266
+@【祀利】
+"I'm scared... without Itaru-kun.
+I... don't know anyone in Japan.
+I'm all alone... ohh... it's so scary..."
+@page
+Spouting more embarassing crocodile tears,
+she puts on a spectacular act.
+@page
+Even if I know the truth, I can't say it obviously.
+There's nothing I can do here, so I just don't say anything.
+@page
+In any case, here's what ended up happening--
+@page
+"I will take responsibility. Prepare a seat for Carnaval-san."
+@page
+Sensei, you look unnaturally pleased.
+Are you a lolicon or something?
+@page
+Well, I guess this matter is settled for now.
+It's supremely annoying for me, but I guess this the best possible outcome for Matsuri.
+@page
+@fi s=m112d pos=c
+@v s=20267
+@【祀利】
+"Now I can be with you♪"
+@page
+Matsuri hugs me, and turns her face to me
+to ask for a kiss.
+@page
+@fi id=m
+@mwoff
+;分岐
+;かごめ好感度特定値以上あるいはフラグ010701起立　→020504
+;それ以外　→020600
+@bgm fade=stop
+@jump storage="020504.scn" cond="f._010701"
+@jump storage="020600.scn"

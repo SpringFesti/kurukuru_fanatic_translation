@@ -1,0 +1,282 @@
+﻿;330403
+*330403|_答えと姉と
+@【至】
+"Huh? What was that just now--"
+@page
+@fi s=k112ad pos=c
+@v s=30289
+@【かごめ】
+"Ah, n, no, i-it was nothing!
+I-If I don't get going soon..."
+@page
+@【至】
+"Oh, I'll--"
+@page
+@fi id=k
+@lineFXon
+@se s=se078 loop=true
+And so, Otogiri-san and I began to run towards the classroom.
+@page
+That was a bad idea.
+@page
+In front = Otogiri-san.
+Behind = Me.
+Which of us runs faster?
+@page
+The answer is of course, me.
+So, this happened--
+@page
+@stoppfx
+@se s=se118
+@qk time=700
+@flash time=700
+@lfont
+@v s=30001
+@【かごめ】
+"Kyah!?"
+@page
+;【ＳＥ】倒れる
+;【演出】クエイク
+;【イベントＣＧ】evn3012
+@setOnce
+@se s=se066
+@qk
+@endOnce
+@mwoff
+@bi s=evn3012
+@wait time=300
+@mwon
+@v s=30292
+@【かごめ】
+"Ah... ohh...."
+@page
+Of course this would happen..."
+@page
+@【至】
+"Oww... Are you alright, Otogiri... sa...n..."
+@page
+My words stop on their own.
+There's some kind of remarkable fate that binds us together, isn't there?
+@page
+The same posture.
+And the same positions as well.
+My hand was touching Otogiri-san's crotch again.
+@page
+@v s=30293
+@【かごめ】
+"Ah... ah... it happened again.
+So, this really must be... a miracle."
+@page
+@【至】
+"Ahh... Uh, my bad. Sorry."
+@page
+I give her an apology, unable to hear what she's muttering about.
+@page
+;【イベントＣＧ】evn3013
+@mwoff
+@bi s=evn3013
+@wait time=300
+@mwon
+@v s=30294
+@【かごめ】
+"N-No... I-I'm fine.
+I made sure to wear them today."
+@page
+@【至】
+"Wear them?"
+@page
+@v s=30295
+@【かごめ】
+"Yes... Unlike the other day, I'm wearing underwear today."
+@page
+I see.
+This feeling that is touching my fingertips is certainly cloth, unlike the other day.
+@page
+@【至】
+"That makes me feel much better... no, wait a second!"
+@page
+;【背景】廊下・昼
+How we look right now is dangerous.
+I get off of Otogiri-san in a huff, and help her up to her feet.
+@page
+@bi s=bg10d
+@fi s=k214a pos=c
+@v s=30296
+@【かごめ】
+"Upsy-daisy... thanks."
+@page
+@【至】
+"O-Oh, you're welcome."
+@page
+This is awkward after all.
+It's not a complete surprise like the day before yesterday,
+yet for some reason I'm still embarrassed.
+@page
+@【至】
+(... What should I say?
+Apologize for touching her underwear?　Tell her that she did well to wear underwear?
+Or... maybe I could tell her that black is a good color for underwear?)
+@page
+No, none of those are right.
+@wait time=500
+... Or maybe they're all the correct answer?
+@page
+What should I dooo!? God, tell me the correct answer!
+@page
+While I am at a loss,
+@page
+@fi s=k112 pos=c
+@v s=30297
+@【かごめ】
+"They didn't make you happy after all, did they Takamichi-kun?"
+@page
+Somehow a crazy question gets thrown towards me.
+@page
+@【至】
+"Nonono, that's not the problem!
+It's usually bad if someone sees those, isn't it!?
+At least I'm embarrassed about it!"
+@page
+@【至】
+"It would be nice if you would get angrier about it.
+I mean, it's common sense."
+@page
+Although it's not the first time I've put my finger in such a dangerous place, I suppose.
+Oh, but look at me, rattling on about my own self-tsukkomi.
+@page
+But I'll say it.
+One huge smack to the face should be good.
+@page
+@bgm fade=out
+However, Otogiri-san is shaking her head ardently.
+@page
+@bgm s=bgm13
+@fi s=k214a pos=c
+@v s=30298
+@【かごめ】
+"If it's Takamichi-kun, then there's no problem."
+@page
+And then another ridiculous remark comes out of her mouth.
+@page
+@【至】
+"Well, calm down for a moment, Otogiri-san.
+Generally, you should hate being touched.
+I'd be pretty mad if a guy I didn't know touched me."
+@page
+@fi s=k113a pos=c
+@v s=30299
+@【かごめ】
+"... Then what if it was someone you knew?"
+@page
+@【至】
+"W-Well, that... would depend on the person."
+@page
+Regrettably, that is my answer.
+Otogiri-san's tone has changed, hasn't it?
+This is reality, isn't it?
+@page
+@fi s=k111a pos=c
+@v s=30300
+@【かごめ】
+"... What if it was me?
+I'd say you and I know each other, wouldn't you?"
+@page
+@【至】
+"Eh, oh... ah..."
+@page
+So that's how she responds, huh?
+No, wait, what should I say back to her?
+The intent of this question... could it be?"
+@page
+@fi s=k114a pos=c
+@v s=30301
+@【かごめ】
+"For me, if it was you... I think I'd be okay with it."
+@page
+-- So it was that!
+Err, no, what am I supposed to say in a conversation like this?
+@page
+@【至】
+"A, alright... then, why don't I try touching?"
+@page
+I don't even know what I'm saying.
+My surprise and my expectations of all this turning out to be a huge mess mixed together,
+and now I have no idea what I'm doing.
+@page
+@fi s=k113a pos=c
+@v s=30302
+@【かごめ】
+"Yes... then touch me, okay?"
+@page
+I wonder if Otogiri-san in the same state of mind?
+Or is it--?
+@page
+Her hand touches my crotch.
+Naturally, I'm still in a neutral state.
+@page
+@fi s=k212ad pos=c
+@v s=30303
+@【かごめ】
+"It's unexpectedly soft... and it's small, huh?"
+@page
+@【至】
+"I-It's not small! I'm gonna get huge now!
+I'm going to just about double it!"
+@page
+There's nothing I can do about getting excited.
+Is there a man out there who could stay quiet about being called small?
+Absolutely not!
+@page
+@fi s=k214ad pos=c
+@v s=30304
+@【かごめ】
+"Oh, it really is getting there.
+I get it, so it's going to get bigger now."
+@page
+@【至】
+"Err, yeah, but...
+As far as being touched goes, uh, we're still in school."
+@page
+Otogiri-san's hands work slowly.
+Crap, I've started to get an erection.
+@page
+My eyes wander for a bit, and I want to think that they do this
+because I am a person with common sense, and not a timid person.
+@page
+Err, no, a person with common sense wouldn't have let her touch me at all.
+@page
+@fi s=k214ad pos=c
+@v s=30305
+@【かごめ】
+"Nn, it got bigger...
+Did I feel good when I touched you?"
+@page
+@【至】
+"Well, yeah."
+@page
+@v s=30306
+@【かごめ】
+"Hehe, okay... my hand feels good, huh?"
+@page
+When she says that, I get embarrassed.
+@page
+My face gets red when I realize that my dick is completely erect.
+@page
+@fi s=k345ad pos=c
+@v s=30307
+@【かごめ】
+"Uwah, it looks tight... hey, Takamichi-kun?
+If I said that I wanted to look at it directly... would you get mad?"
+@page
+;【立ち絵】かごめ立ち絵消去
+@fi id=k
+I can't get mad.
+I was going to say that.
+@page
+But she unzipped my pants before I could.
+Then Otogiri-san squats down before my dick and unpeels it.
+@page
+@mwoff
+;→330404
+@bgm fade=stop
+@jump storage="330404.scn"

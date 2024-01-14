@@ -1,0 +1,369 @@
+﻿;010503a1
+*010503a1|_名前は、ファヌル
+;【フラグ】010503起立
+@eval exp="f._010503++"
+@【至】
+"... Fanuel, right? You're Fanuel, aren't you?"
+@page
+@setOnce
+@fi s=f111 move=r
+@fi s=w121 pos=l
+@fi s=m111 pos=c
+@endOnce
+@v s=10222
+@【わずか】
+"Itaru-kun, what's wrong?
+No matter how you look at it, that's Fanuel-chan."
+@page
+@v s=20087
+@【祀利】
+"She's your family, right? Isn't she?"
+@page
+I react with an astonished face to Matsuri
+and Wazuka-san, who say that, with a "What?"
+@page
+However,
+@page
+@fi s=f559 pos=r
+@v s=40293
+@【ファヌル】
+"... Why?"
+@page
+Only Fanuel gives me a suspicious look.
+@page
+This is a very mysterious situation.
+@page
+Fanuel, who I remember dimly, looks confused,
+and Wazuka-san, who should not have met her yet, greets her with the
+same smile you give an old friend.
+@page
+@v s=10223
+@【わずか】
+"What's wrong, you two? Didn't you see each other this morning?"
+@page
+No, we didn't.
+We headed right for school after getting up this morning.
+Don't you remember that, Wazuka-san?
+@page
+@fi s=m64b pos=c
+@v s=20088
+@【祀利】
+"We played together a long time ago, too.
+Itaru's mom was there, remember?"
+@page
+No, we didn't.
+Matsuri, that didn't happen.
+@page
+When you came to play, I was brought inside the house.
+My mom didn't let me go outside.
+@page
+Therefore, I don't know these people. 
+My memories of knowing them are false.
+@page
+I try to say that, and I stop.
+If these memories are false, how can I explain that?
+What's the cause? What's the reason?
+@page
+@sfont
+@【至】
+"... I'm the only one that doesn't understand after all."
+@page
+@fi s=w558 pos=l
+@v s=10224
+@【わずか】
+"What do you mean?"
+@page
+@【至】
+"Nothing. Anyway, shouldn't we go eat?
+You're hungry too, aren't you Fanuel?"
+@page
+@fi s=f114 pos=r
+@v s=40294
+@【ファヌル】
+"Y, yeah! I'm super hungry--!"
+@page
+;【備考】以下、010503bより流用。台本作成後までコメントアウト
+@fi s=w124 pos=l
+@v s=10195
+@【わずか】
+"Ara ara, you glutton.
+Shall we go eat?"
+@page
+@fi s=f114 pos=r
+@v s=40104
+@【ファヌル】
+"Yeah, totally!♪　Let's go, Matsuri-chan!"
+@page
+@fi s=m64b pos=c
+@v s=20069
+@【祀利】
+"I have to eat her food?
+Won't there be poison in it?"
+@page
+@fi s=w121 pos=l
+@v s=10196
+@【わずか】
+"You won't get any."
+@page
+@fi s=m114 pos=c
+@v s=20070
+@【祀利】
+"Nyeeeh. Fanuel-chan, let's go."
+@page
+;@fi s=f111 pos=r
+@v s=40105
+@【ファヌル】
+"Yeah!♪"
+@page
+@setOnce
+@fi id=f
+@fi id=m
+@fi s=w121 move=c
+@endOnce
+Those two run inside the house.
+@page
+Yeah, I remember this scene too.
+@page
+From the time I said Fanuel's name,
+the memories of "before"-- the last four times I've revived, came back to me.
+@page
+I don't have words to express how I feel right now.
+Pining, uneasiness, my excited heart,
+and for some reason, a depressed feeling.
+@page
+@v s=10225
+@【わずか】
+"What's wrong? Are you really that hungry?"
+@page
+@【至】
+"Of course. I should eat soon then, huh?"
+@page
+Hiding my confused heart, I try to lie in that exaggerated way.
+@page
+I don't know if I deceived her,
+or perhaps I was the one that was deceived,
+but she says:
+@page
+@fi s=w223 pos=c
+@v s=10226
+@【わずか】
+"Sorry, I'll go prepare it now."
+@page
+@fi id=w
+Saying that, she trots into the living room.
+@page
+I've been left there, alone.
+And just like with my memories of "before", I am alone.
+@page
+@【至】
+"... No, that's not exactly it."
+@page
+The wound on my palm from when I was stuck in that turmoil with Matsuri--
+Dirt and blood are still stuck there.
+@page
+"Before", Wazuka-san had tasted it.
+But now, she hadn't.
+@page
+The thing I felt when I called out Fanuel's name
+was definitely true.
+@page
+@【至】
+"... Something has definitely changed, finally...
+Isn't that right?"
+@page
+A response doesn't come to my monologue.
+I can't answer back, because I don't know.
+@page
+However, there is an exception.
+@page
+@v s=40295
+@【ファヌル】
+"Little by little, the deviations have started.
+Your destiny has been shaken, I suppose you could say."
+@page
+@fi s=f111 pos=c
+Fanuel stands besides me, having come to me at some point.
+@page
+She had disappeared with Matsuri, so how was she here now--
+It would be meaningless. to ask something like that.
+@page
+@【至】
+"Just as expected of an angel."
+@page
+@fi s=f311 pos=c
+@v s=40296
+@【ファヌル】
+"But of course. I'm not omnipotent, though."
+@page
+@fi s=f559 pos=c
+@v s=40297
+@【ファヌル】
+"Your current state is impossible to understand.
+I can't understand why you didn't lose your memories
+of before."
+@page
+@fi s=f55a pos=c
+@v s=40298
+@【ファヌル】
+"... Perhaps there was a mistake in the revival,
+or perhaps all the souls that had piled up in the
+repeating rituals evolved... hm."
+@page
+@【至】
+"Can't you ask God?"
+@page
+When in doubt, that's the first thing to do.
+If he's omnipotent, then there's nothing he can't know.
+@page
+@fi s=f311 pos=c
+@v s=40299
+@【ファヌル】
+"It's too bad, but that's impossible.
+His communications and his orders are a one-way street."
+@page
+When I'm about to say that's inconvenient, Fanuel
+acknowledges me with a shrug of her shoulders.
+@page
+@v s=40300
+@【ファヌル】
+"Even so, you are in the process of changing.
+Your final fate is still a mystery."
+@page
+@【至】
+"Anyway, that sort of thing is just as usual.
+Well, I'll do something, I suppose."
+@page
+@fi s=f559 pos=c
+@v s=40301
+@【ファヌル】
+"You could attach to someone again. That's the quickest and easiest way."
+@page
+That's certainly so.
+In my memories of before, I had gotten through everything like that.
+@page
+@v s=40302
+@【ファヌル】
+"So who will it be this time? Wazuka? Matsuri? Or maybe Kagome?"
+@page
+@【至】
+"Can't I go with you?"
+@page
+I said that, and regretted it.
+I said that, and hoped.
+I said that, and wondered why I did.
+@page
+@fi s=f212 pos=c
+@v s=40303
+@【ファヌル】
+"Me... huh?"
+@page
+Fanuel looks at me. I look away.
+@page
+It isn't so that she can't read my mind.
+I just don't want to be looked at right now.
+@page
+Especially at the time of the ceremony--
+I don't want to remember the feelings I felt at that time.
+@page
+Desperately confining them in the depths of my heart,
+I try to think of something else.
+@page
+However-- resistance was futile.
+@page
+@fi s=f311 pos=c
+@v s=40304
+@【ファヌル】
+"You're a weird guy."
+@page
+I don't understand the real meaning of her words.
+Even if I understand them somewhere in my heart,
+I wanted to pretend that I didn't know.
+@page
+So I won't ask her what she means.
+I keep averting my eyes from her.
+@page
+@fi s=f55b pos=c
+@v s=40305
+@【ファヌル】
+"Ah."
+@page
+Just after I hear her voice, I feel it immediately.
+@page
+;【立ち絵】ファヌル/大
+@fi s=f111d pos=c
+@【至】
+"Y, you..."
+@page
+Fanuel is right before me.
+During the ceremony, she looked at my face.
+@page
+;@fi s=f112d pos=c
+@v s=40306
+@【ファヌル】
+"I am an angel. I cannot understand human hearts.
+However, I understand emotions, and I understand that response."
+@page
+@【至】
+"H, huh? Whaddaya mean?"
+@page
+@fi s=f55bd pos=c
+@v s=40307
+@【ファヌル】
+"If it's like this, I should gratefully accept, huh?"
+@page
+@fi id=f
+Her face approaches again.
+Before I can avoid it, our faces touch.
+Our lips certainly touch.
+@page
+@fi s=f114d pos=c
+@v s=40308
+@【ファヌル】
+"Fufu... should I have put my tongue in?"
+@page
+Fanuel gives me her usual scornful laugh,
+after we kiss for a moment.
+@page
+Shut up, stupid! I want to shout.
+Do it better! I want to ask.
+Let's fuck! Even if I died, I couldn't say that.
+@page
+So I, with a face so red that I want to die,
+can't do anything but hang my head in shame--
+@page
+@fi s=f55bd pos=c
+@v s=40309
+@【ファヌル】
+"Sigh... what are you really thinking about?"
+@page
+@fi s=f111d pos=c
+;【備考】遠くから響くものに
+@v s=10227 v=50
+@【わずか】
+"-- Itaru-kuuun, Fanuel-chaaan, food!"
+@page
+I'm saved. A sigh of relief comes out.
+@page
+@【至】
+"S, shall we?"
+@page
+Fanuel nods, and I look towards the living room.
+@page
+@fi s=f55bd pos=c
+@v s=40310
+@【ファヌル】
+"You're still a far cry from having a complete soul."
+@page
+I can't tell her that's completely obvious.
+I can only hope that my blush will wear off before I reach the living room.
+@page
+@【至】
+"... Is it impossible because I don't have a complete soul?"
+@page
+Fanuel's expression once again contorts into a scornful jeer when she hears that.
+@page
+@fi id=f
+@bgm fade=out
+@mwoff
+@jump storage="010600a.scn"
+;→010600

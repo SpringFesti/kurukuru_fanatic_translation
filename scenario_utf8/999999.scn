@@ -1,0 +1,75 @@
+﻿;くるくるファナティック 体験版告知　
+*999999|_告知
+@mwoff
+@bgm s=bgm06
+@bi s=sam0003 time=500
+@v s=37016
+;@【かごめ】
+;「さーて、来週のくるファナさんはー！？」
+@waitclk
+;@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg04d trans=円形(中から外へ)
+;@bgm s=bgm***
+;@fi s=fi**** pos=****
+@mwon
+@fi s=w111 pos=c
+@v s=17016
+@【わずか】
+「わずかです。
+　人肉の美味しさを覚えつつある今日この頃、
+　皆さんいかがお過ごしですか？」
+@page
+@fi s=w315 pos=c
+@act id=w t=swing2
+@v s=17017
+@【わずか】
+「祀利とかごめの痛さ加減に辟易してますが、
+　それでも包丁があれば血が見れます」
+@page
+@act id=w t=stopswing
+@bi s=white all=true
+@fi s=m211 pos=r
+@v s=27016
+@【祀利】
+「さてさて、気になる次回は……」
+@page
+@mnon
+@mset l=7 h=true
+@fi s=m512 pos=r
+@se s=se110
+@qk time=1000
+@flash time=1000
+@v s=27017
+至、Мに目覚める。
+至、俺達に明日はない。
+至、あなたの知らない世界。
+至、君の名は――
+@waitclk
+@fi id=m
+@bi s=bg04d
+@fi s=k445 pos=c
+@mwon
+@v s=37017
+@【かごめ】
+「それじゃせーの、ジャンケン、ヘンなグー！
+　ひひひひひっ、また来週♪」
+@wait time=3000
+@fi s=k349a pos=c
+@act id=k t=neckswing
+@page
+@act id=k t=stopswing
+@fi id=k
+@fi s=f211 pos=c
+@v s=47016
+@【ファヌル】
+「じゃなくて本編でだ。ちゃんと買えよ。
+　でないと呪うぞ？」
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=sam0002 trans=波
+@waitclk
+@jump storage="scriptend.ks"

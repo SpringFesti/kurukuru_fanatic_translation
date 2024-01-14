@@ -1,0 +1,121 @@
+﻿;230600
+*230600|１０月２９日午後４時７分
+;【ワイプ】場面切り替え
+;【背景】教室・夕方
+;【ＳＥ】チャイム
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg12e trans=ひし形(左から右へ)
+@bgm s=bgm03
+@mwon
+Homeroom ends and conversations begin around the classroom.
+@page
+@【至】
+"Well, we should go home now, huh?"
+@page
+@fi s=m112 pos=c
+@v s=20825
+@【祀利】
+"Sim. Let's go home quick, so we can play!"
+@page
+Matsuri's innocent tone makes me wonder what
+she means by "play".
+@page
+Please don't let it mean "murder"...
+@page
+No, even if it's unpleasant, I'll do it, but...
+I am a man, after all.
+@page
+But if we're talking about doing anything at my house,
+it'll automatically become a playground of carnage.
+@page
+A playground of life and death.
+@page
+;【背景】廊下　夕方
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=ひし形(左から右へ)
+@bgm s=bgm04
+@fi s=w547 pos=c
+@mwon
+@v s=10625
+@【わずか】
+"Itaru-kun, let's go home together."
+@page
+Wazuka-san was standing at the entrance.
+Apparently she was waiting for us there.
+@page
+@setOnce
+@fi s=w547 move=lc
+@fi s=m11d pos=rc
+@endOnce
+@v s=20826
+@【祀利】
+"Huhhh? Oh, it's that ugly middle-aged woman.
+Matsuri hasn't seen that level of ugliness before.
+Well, I guess if you're still alive you shouldn't be ashamed, right?"
+@page
+@fi s=w111 pos=lc
+@v s=10626
+@【わずか】
+"Nobody wants to look at you, little girl, and he won't notice when you're gone."
+@page
+@fi s=w112 pos=lc
+@v s=10627
+@【わずか】
+"If you don't want to grow up, why don't you just die?
+As is, you're just a waste of natural resources."
+@page
+... My stomach hurts.
+@page
+@setOnce
+@fi s=w111 pos=lc
+@fi s=m111 pos=rc
+@endOnce
+@【至】
+"Alright, alright, let's just go home, you two.
+There's no point standing here talking, is there?"
+@page
+@bi s=current all=true trans=crossfade
+My first priority is to avoid pandemonium.
+@page
+If I walk, the two of them will walk.
+They won't worry about each other. Just about me.
+@page
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg10e trans=ひし形(左から右へ)
+@mwon
+Then we came to the doors-- I say that, but we're
+really at the shoe lockers besides the doors.
+@page
+@【至】
+"Hmm... my shoe are... oh, here we go."
+@page
+Once I change my shoes, I'm in leaving-school-mode.
+@page
+However, the real trouble is here. Will we have a public
+performance, or go home nice and quiet?
+@page
+While thinking that, I try to leave.
+@page
+@【至】
+"...Huh? What's wrong, Matsuri?"
+@page
+She was still near the locker.
+@page
+She's become somewhat stiff, just staring at the locker.
+@page
+@【至】
+"Matsuri, what's up?"
+@page
+@fi s=m112 pos=c
+@v s=20827
+@【祀利】
+"Eh? Oh, no, it's nothing. Nothing at all."
+@page
+;→230600a
+@jump storage="230600a.scn"

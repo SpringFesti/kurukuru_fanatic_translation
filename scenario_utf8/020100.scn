@@ -1,0 +1,7 @@
+﻿;020100
+*020100|_How did you save here!?
+@jump storage="220100.scn" cond="f.matsuri >= 2"
+@jump storage="020101.scn"
+;分岐
+;祀利好感度特定値以上　→220100
+;それ以外　→020101

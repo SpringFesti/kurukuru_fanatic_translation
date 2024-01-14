@@ -1,0 +1,380 @@
+﻿;020101
+*020101|１０月２８日７時１２分
+@mwoff
+@se s=se001 loop=true
+@bi s=bg810
+;【背景】青空
+;【ＳＥ】鳥の鳴き声
+@wait time=2000
+@se fade=stop
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg01m trans=tile
+@bgm s=bgm02
+;@fi s=fi**** pos=****
+@mwon
+@【至】
+"...Nn...what time is it?"
+@page
+I know it's morning, because sunshine is peeking through the
+curtains.
+@page
+I don't have a clock in this room.
+I pick up my cell phone and try to get up.
+@page
+However, I can't.
+My body-- my hands to be more precise, are heavy.
+@page
+@【至】
+"What the heck... oh, no wait, that happened, didn't it."
+@page
+@mwoff
+@bi s=evn1011
+@wait time=300
+@mwon
+;【イベントＣＧ】三人で眠る主人公　朝差分
+I had forgotten what happened last night.
+Matsuri and Wazuka-san had gone to sleep with me.
+@page
+Even those these two cause so much trouble when they're
+awake, they look like angels when they sleep.
+@page
+@【至】
+"...Even though they'd fight, or even kill each other,
+I have a harem, don't I..."
+@page
+;【イベントＣＧ】目覚めるわずか
+@mwoff
+@bi s=evn1012
+@wait time=300
+@mwon
+@v s=10247
+@【わずか】
+"Nope."
+@page
+@【至】
+"Whoah!? You were awake!?"
+@page
+@v s=10248
+@【わずか】
+"No, I just woke up.
+I usually start breakfast around now."
+@page
+I don't know what time it is.
+I've got to respect a person who can get up this early,
+rain or shine.
+@page
+@【至】
+"Sorry about that. Do you want me to go get breakfast at
+the convenience store today?"
+@page
+@v s=10249
+@【わずか】
+"It's okay, I like making breakfast for you.
+...Or am I being a nuisance?"
+@page
+@【至】
+"Oh, no way. It's just... this could be a bit difficult."
+@page
+Saying that, I look at Matsuri.
+As I do, I faintly see wrinkles appear on Wazuka-san's
+forehead.
+@page
+@v s=10250
+@【わずか】
+"I'm sorry... but please, be patient.
+I need to protect you, Itaru-kun."
+@page
+@【至】
+"Don't exaggerate, please...
+I must've been difficult to sleep with, seeing as how
+it was so cramped, and smelly..."
+@page
+@mwoff
+@bi s=evn1013
+@wait time=300
+@mwon
+@v s=10251
+@【わずか】
+"Of course not.
+Sleeping with Itaru-kun... made me really happy."
+@page
+Wazuka-san breaths in exaggeratedly.
+@page
+@v s=10252
+@【わずか】
+"I love the smell of Itaru-kun. It... calms me.
+It's a really, really good smell."
+@page
+@【至】
+"Of, of course not. It's just sweat..."
+@page
+@mwoff
+@bi s=evn1014
+@wait time=300
+@mwon
+@v s=20169
+@【祀利】
+"No, really. Matsuri likes it too!"
+@page
+I get embarrassed at her words--
+I'd like to say this happens all the time.
+@page
+Unfortunately, this is the completely 
+opposite of normal for these two.
+@page
+Soon, a riot will break out. How can I possibly avoid it?
+@wait time=3000
+If there was something I could do,
+I should have done it a long time ago.
+@page
+@v s=20170
+@【祀利】
+"Bom dia!　Itaru, give me a good morning kissー♪"
+@page
+@v s=10253
+@【わずか】
+"Don't get carried away. I'll stab you."
+@page
+@v s=20171
+@【祀利】
+"I'll shoot you back."
+@page
+Their hands move underneath the blankets.
+I don't need to think about it to know what the 
+hard things in their hands are.
+@page
+@【至】
+"It's a brand, sunshiney new morning!
+Stop trying to kill each other!"
+@page
+@v s=20172
+@【祀利】
+"Oh, don't worry, I'll just shoot over you."
+@page
+@se s=se131
+I hear a GACHINK underneath the blankets--
+Please tell me that's not the cock of a gun.
+@page
+@v s=10254
+@【わずか】
+"I'll slice your wrists, cut your throat and leave your heart for last."
+@page
+Something sharp rustles the blankets.
+@page
+By the way, fun fact.
+You can tell if someone's good with a blade by how they slice.
+If they slice down, they're bad. If they slice sideways, they're good.
+@page
+@【至】
+"Hey Wazuka-san, quick question. What exactly are you 
+going to do with that blade?"
+@page
+@v s=10255
+@【わずか】
+"I'll stab her. I'll stick this straight between her bones."
+@page
+In other words, she's serious.
+Wait, is she really going to kill her right now?!
+@page
+@【至】
+"Calm down, you two! Wash your face and eat breakfast first!"
+@page
+;【備考】ユニゾン
+@v s=10256
+;@【わずか】
+"Right after I kill her."
+;@v s=20173
+;@【祀利】
+;「コイツを殺したら」
+@page
+I hear clinking underneath the futon. 
+Wazuka-san stops Matsuri from shooting her with her knife,
+and Matsuri stops Wazuka-san from stabbing her with her gun.
+@page
+;【イベントＣＧ】わずか胸元アップ
+;【ＳＥ】ふりかぶる
+@bzoom s=evn1015 time=200
+@qk time=800
+@v s=10257
+@lfont
+;@se s=se117
+@【わずか】
+"You---!"
+@page
+Wazuka-san tries to stab her three more times.
+@page
+@qk time=800
+@lfont
+@【至】
+"Ngh!?"
+@page
+@bi s=evn1016 trans=scroll time=500
+@qk time=800
+@lfont
+@v s=20174
+@【祀利】
+"Die!"
+@page
+Matsuri stops-- and pulls her hand out from underneath the blankets to shoot.
+@page
+@qk time=800
+@lfont
+@【至】
+"Whoah!?"
+@page
+Crap. I can't move because of these two, so I'm sandwiched in.
+@page
+I'll say it again.
+If this is how it's going to be from now on, I must really be in a harem
+show.
+@page
+Whenever Wazuka-san moves, I make a guess--
+Well, actually I already know because I looked in her laundry basket--
+She must be an F-cup.
+@page
+Whenever Matsuri moves, I make a guess--
+She's the kind that's popular nowadays--
+She must be an A-cup.
+@page
+Their squishiness is going to crush me.
+They're trying to seduce me, they are.
+I have to order them to stop now.
+@page
+;【イベントＣＧ】わずか胸元
+@bi s=evn1015 time=100
+@qk time=700
+@【至】
+"But ohhh god, I can't!
+I'll die! Ohhh! The blade!
+Eeeeekk! Don't point the gun at me!!!"
+@page
+;【イベントＣＧ】祀利胸元
+@bi s=evn1016 time=100
+@qk time=700
+;@page
+@v s=20175
+@【祀利】
+"Don't worry, it'll kill her even if it goes through you.
+@page
+;【イベントＣＧ】わずか胸元
+@bi s=evn1015 time=100
+@v s=10258
+@【わずか】
+"Just wait a little longer, Itaru-kun.
+Close your eyes, and I'll stab her."
+@page
+@【至】
+"Don't stab her!
+Please, stop! If you don't, I'll--"
+@page
+@mwoff
+;【背景】主人公自室・朝
+;【ＳＥ】腹が鳴る
+;【カットイン】ぐ～……
+@setOnce
+@bi s=bg01m
+@cut s=cut2140
+@endOnce
+@se s=se082
+@wait time=2000
+;【カットイン】消去
+@cut
+@mwon
+@fi s=m111d pos=c
+@v s=20176
+@【祀利】
+"What, you'll get hungrier?"
+@page
+@【至】
+"Uh, n-no, that's not what I meant...
+Maybe my stomach was trying to talk instead of my mouth..."
+@page
+@fi id=m
+@fi s=w121d pos=c
+@v s=10259
+@【わずか】
+"Just wait one second."
+@page
+Wazuka-san hops out of bed, takes my cell-phone, and
+is shocked by something.
+@page
+@fi s=w422b pos=c
+@v s=10260
+@【わずか】
+"No way... it can't be this late!"
+@page
+@fi s=w123 pos=c
+@v s=10261
+@【わずか】
+"I'm so sorry Itaru-kun! I'll go start breakfast now!"
+@page
+@fi id=w
+Wazuka-san runs out of the room in a hurry.
+@page
+She's left Matsuri and I behind.
+I thought she might not do this today, but she did.
+I guess the struggle's over for now.
+@page
+@fi s=m112 pos=c
+@v s=20177
+@【祀利】
+"Ehehehe, now it's just us..."
+@page
+@fi s=m747 pos=c
+@v s=20178
+@【祀利】
+"Hey Itaru... now we can do whatever we want.
+We can kiss... or even do more..."
+@page
+@【至】
+"We can do anything we want?"
+@page
+@fi s=m747a pos=c
+@v s=20179
+@【祀利】
+"Of course. I want us to do lots of things.
+I love you, after all."
+@page
+If that's okay, then there is one thing.
+Out of the millions of things I could do, I only want to do one.
+@page
+;【立ち絵】祀利大
+@fi s=m11dd pos=c
+@v s=20180
+@【祀利】
+"Then Itaru, hold me... let's do it for a long, long time.
+Look, I'm already--"
+@page
+@【至】
+"Sorry, but I'll really be late for school.
+I gotta go wash my face."
+@page
+@fi id=m
+I manage to get out of Matsuri's vicious hug and run out
+of the room.
+@page
+;【背景】廊下灯りあり
+;【備考】壁越しの声に加工
+@bi s=bg02d
+@v s=20181 v=50
+@【祀利】
+"You idiot! Coward!
+Nobody watching wants you to do that at all!"
+@page
+I don't know what she means, 
+but I really do need to get ready for school.
+@page
+@【至】
+"...huh? I smell some really good miso soup.
+That must be breakfast today, huh?"
+@page
+This is all I'm getting until noon, so I have to get ready fast so I can eat it--
+@page
+Thinking that, I run into the bathroom as fast as I can.
+@page
+@mwoff
+;【ワイプ】時間経過
+;→020200
+@bgm fade=stop
+@jump storage="020200.scn"

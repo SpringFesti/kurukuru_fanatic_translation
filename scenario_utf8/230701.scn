@@ -1,0 +1,88 @@
+﻿;230701
+*230701|_祀利のお願い
+;【備考】主人公視点
+;【ワイプ】場面転換
+;【背景】主人公自宅玄関
+@bgm fade=out
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg03d trans=tile
+@bgm s=bgm03
+@mwon
+@setOnce
+@fi s=w111 pos=lc
+@fi s=f111 pos=rc
+@endOnce
+@v s=10636
+@【わずか】
+"We'll be heading out for a little bit. We'll be back soon."
+@page
+@【至】
+"Sorry, Fanuel can be a little selfish at times. But anyway, see you later."
+@page
+@fi s=w114 pos=lc
+@v s=10637
+@【わずか】
+"No, it's okay. Fanuel is family, after all. Alright, let's go."
+@page
+@fi s=f114 pos=rc
+@v s=40525
+@【ファヌル】
+"Thanks Wazuka-san. See ya big bro!"
+@page
+@bi s=current all=true trans=crossfade
+@se s=se042
+Then, Fanuel and Wazuka-san left.
+@page
+Apparently, Fanuel wanted to eat curry with garam masala in
+it instead of the normal commercial stuff.
+@page
+So the two of them went grocery shopping together.
+@page
+@fi s=m212 pos=c
+@v s=20870
+@【祀利】
+"See ya, take as much time as you like!"
+@page
+... Wait, what the hell is garam masala?
+Eh, I suppose it doesn't matter.
+@page
+@bgm fade=out
+When the front door closes, Matsuri and I are the only ones left in the house.
+@page
+@bgm s=bgm13
+@fi s=m649 pos=c
+@v s=20871
+@【祀利】
+"Nfufu, Itaru, it's finally just the two of us."
+@page
+"Ah, yeah..."
+@page
+Immediately, Matsuri snuggles up against me.
+@page
+@fi s=m648ad pos=c
+@v s=20872
+"Ehehe... now there's nobody here to get in our way."
+@page
+With her arms around my back, she nestles her cheeks against my face.
+@page
+I put my arms around Matsuri as well.
+@page
+@fi s=m649ad pos=c
+@v s=20873
+@【祀利】
+"Hey, Itaru... let's kiss..."
+@page
+She stares into my eyes and puckers her lips.
+@page
+Her pleading gesture reminds me of a child. It's not sexy at all.
+@page
+However, I don't know a man alive who wouldn't want to kiss the one
+he loved if he was asked like this.
+@pages
+@selinit
+@selbtn cap="I guess so..." s="230702.scn"
+@selbtn cap="Adult kiss!" s="230703.scn"
+@s
+;選択肢

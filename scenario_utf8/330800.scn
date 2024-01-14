@@ -1,0 +1,118 @@
+﻿;330800
+*330800|お姉ちゃん、だもん
+;【ワイプ】時間経過。
+;【背景】夜空
+@mwoff
+@bi s=blank trans=crossfade all=true
+@wait time=200
+@bi s=bg830 trans=clock
+@bgm s=bgm04
+;@fi s=fi**** pos=****
+@mwon
+After I get out of the bathtub, everything goes as normal.
+Arbitrary stuff happens, and we have dinner together.
+@page
+The relationship between Matsuri and Wazuka-san is as bad as ever.
+But somehow, it feels quiet today.
+It feels like a spearis facing me, just a little bit...
+@page
+However, there weren't any big troubles, so it's all good.
+After dinner until bed time, there's a small amount of spare time.
+@page
+;【背景】自室夜・点灯
+@bi s=bg01n
+@【至】
+"... Wow, it's quiet.
+If those two don't come here, it'll be reaaaaaaally quiet."
+@page
+I don't know it that means,
+but Wazuka-san and Matsuri haven't come after me.
+@page
+Thought they should already be here, there's no sign
+that the two of them are coming.
+@page
+@【至】
+"A truce... is this an unpleasant Cold War?
+The two of them, fighting in front of the door right now, and..."
+@page
+Let's give up thinking about that.
+Let's continue the normal, everyday events.
+I don't want to have any more stress.
+@page
+@【至】
+"If those two aren't here, then everything's good."
+@page
+With my phone in my hand, I send a text to Otogiri-san.
+@page
+The topic is nothing, as usual.
+It's just about school, now.
+@page
+@【至】
+"The teacher is totally going to call on me tomorrow in math.
+Should I play hooky or what?"
+@page
+I think it's rational to call in order of attendance number.
+But I don't want any pressure like the day before it.
+@page
+@se s=se032
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30359
+;@【かごめ】
+"If you do, then I'll play hooky too.
+Anyway, we should go to sleep."
+@waitclk
+@mwon
+@【至】
+"Is that alright?
+What are we gonna do while playing hooky then?"
+@page
+@se s=se032
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30360
+;@【かごめ】
+"Well, how about doing what we did in lunch break today?"
+@waitclk
+@mwon
+;【演出】クエイク
+@qk
+@lfont
+@【至】
+"Buhah!!"
+@page
+Then a ridiculous pitch comes out of nowhere.
+It's a pitched ball, and it slams straight into my skull.
+@page
+@【至】
+"... How do I reply to this?"
+@page
+I can't think of something to send back.
+Should I deny her, or just go along with it?
+Or maybe I should look for more information?
+@page
+Somehow, another text came while I was troubled.
+@page
+@se s=se032
+@mnon time=300
+@mset l=3 h=true time=300
+@v s=30361
+;@【かごめ】
+"Do you want to do it again?"
+@waitclk
+@mwon
+... And now comes Otogiri-san's straight pitch.
+@page
+But... I'd be lying if I said that I didn't want to.
+I want to, to be frank.
+@page
+@【至】
+"But... bah, I've already decided."
+;選択肢
+;お願いできる？　→330801
+;そんなことない！　→330802
+@pages
+@selinit
+@selbtn cap="If we can, please?" s="330801.scn"
+@selbtn cap="There's no way!" s="330802.scn"
+@s
