@@ -19,15 +19,18 @@
 ;//最初の画面では6行なのでl=6とします。
 ;//msetはwaitclkで画面をクリアするごとに必要です。
 @mset l=3 h=true
-The world is filled with colorful surprises.
+;//The world is filled with colorful surprises.
+这个世界充满着丰富的惊喜
 @waitclk
 @mset l=6 h=true
-For example, take the marble underneath my feet――
-I am amazed at its beauty, even as it's covered in blood.
-Shining under the light on the white marble, 
-silver, orange and the red of settled blood
-mix together, in a chaotic mix――
-Just like a kaleidoscope, the colors spin round and round.
+;//For example, take the marble underneath my feet――
+;//I am amazed at its beauty, even as it's covered in blood.
+;//Shining under the light on the white marble, 
+;//silver, orange and the red of settled blood
+;//mix together, in a chaotic mix――
+;//Just like a kaleidoscope, the colors spin round and round.
+比如说，就拿我脚底下的大理石举个例子吧
+虽然它被血液沾染了，但是我还是惊叹于它的美丽
 ;//クリックを待ちます。
 ;//クリック待ちのグリフは必要でしょうか？
 @waitclk
