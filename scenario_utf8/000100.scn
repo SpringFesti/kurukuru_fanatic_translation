@@ -31,6 +31,10 @@
 ;//Just like a kaleidoscope, the colors spin round and round.
 比如说，就拿我脚底下的大理石举个例子吧
 虽然它被血液沾染了，但是我还是惊叹于它的美丽
+银色，橙色还有血红
+在大理石上闪耀着
+混在了一起，在一片混沌之中
+色彩旋转着，好像在一个万花筒之中
 ;//クリックを待ちます。
 ;//クリック待ちのグリフは必要でしょうか？
 @waitclk
@@ -38,33 +42,46 @@
 @se s=se071 buf=1
 @qk
 ;@wait time=800
-Sploosh―― drip, drip, drip.
+;//Sploosh―― drip, drip, drip.
+刺啦, 滴滴答
 ;@se s=se052 buf=1
 @waitclk
 @mset l=5 h=true
-A terrible, strange sound joins the chaotic mix.　
-Even though I hate it, I want to endure it.
-More blood comes out. The white marble becomes crimson once more.
-Blood drips from my body again and again―― yes.
+;//A terrible, strange sound joins the chaotic mix.　
+;//Even though I hate it, I want to endure it.
+;//More blood comes out. The white marble becomes crimson once more.
+;//Blood drips from my body again and again―― yes.
+一个奇怪而吓人的声音混进了这片混合物中
+尽管我讨厌这个声音，我还是不得不忍受它
+更多的血液流了出来。使白色的大理石更加深红了
+我想这血液应该是从我的身体里流出来的
 @waitclk
 @mset l=4 h=true
 @se s=se071 buf=1
 @qk time=700
 @flash time=700
-It hurts.
-Who would want to stab someone like me? Why?
+;//It hurts.
+;//Who would want to stab someone like me? Why?
+好疼
+究竟是谁想要用刀刺一个像我一样的人？
 @waitclk
 @mset l=4 h=true
-A sharp pain comes from the middle of my back.
-In the center of that disastrous pain, a knife sprouts from my body
-like a flower, using my shirt as a flower bed and my flesh as its seed.
+;//A sharp pain comes from the middle of my back.
+;//In the center of that disastrous pain, a knife sprouts from my body
+;//like a flower, using my shirt as a flower bed and my flesh as its seed.
+一阵剧痛从我背中间传来
+在这片疼痛中，一把刀从我的身体里拔了出来
+像是一朵花，用我的衣服作为土壤，以我的血肉作为种子
 @waitclk
 @mset l=4 h=true
-My shirt is stained red.
-The knife, covered in blood, shines with a tinge of chrome light.
+;//My shirt is stained red.
+;//The knife, covered in blood, shines with a tinge of chrome light.
+我的衬衫被染红了
+那把刀，被血液覆盖着，闪着金属的光泽
 @waitclk
 @mset l=4 h=true
-Yes... it really is beautiful.
+;//Yes... it really is beautiful.
+它...很美丽嘛
 @waitclk
 @bi s=blank trans=crossfade all=true time=100
 @se s=se071 buf=1
