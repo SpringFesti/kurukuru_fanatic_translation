@@ -1,0 +1,1 @@
+a translation for kurukuru fanatic from English to Chinese
