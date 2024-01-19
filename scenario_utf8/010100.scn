@@ -8,36 +8,47 @@
 ;【演出】以下の音声、フェードインで
 @v s=10001
 @【？？？】
-"... Itaru-kun... Itaru-kun..."
+;//"... Itaru-kun... Itaru-kun..."
+"...至...至"
 @page
 ;@se s=stop
 I hear a voice.
 @page
-A familiar voice. A voice I've always heard.
-However, I can't remember who owns that voice.
+;//A familiar voice. A voice I've always heard.
+;//However, I can't remember who owns that voice.
+我听到了熟悉的声音，似乎是我感到稀松平常的声音
+但是，我想不起来是谁的声音了
 @page
 @v s=10002
 @【？？？】
-"... Are you okay?　Itaru-kun... Itaru-kun..."
+;//"... Are you okay?　Itaru-kun... Itaru-kun..."
+"...你还好吗？至君...至君"
 @page
-I wonder why the voice sounds so anxious? Who am I to this person?
+;//I wonder why the voice sounds so anxious? Who am I to this person?
+为什么这个声音听起来这么焦急呢？我是她的什么人呢？
 @page
 @【至】
-"... It's not my family... But... it kind of feels like it..."
+;//"... It's not my family... But... it kind of feels like it..."
+"好像不是我的家人...但是...我和她的关系好像很好的样子..."
 @page
 @v s=10003
 @【？？？】
-"Itaru-kun!?　What's wrong!?　Are you okay!?"
+;//"Itaru-kun!?　What's wrong!?　Are you okay!?"
+"至君？！出什么问题了吗？你还好吗？"
 @page
-A name was called. → So, that must be my name.
-This person knows my name. → Who is this person?
+;//A name was called. → So, that must be my name.
+;//This person knows my name. → Who is this person?
+有一个名字一直在被呼唤。→所以这是我的名字吧
+有人知道我的名字。→那么她是谁呢？
 @page
 @【至】
-"... I feel like I can remember... but I can't... Seriously, who is this...?"
+;//"... I feel like I can remember... but I can't... Seriously, who is this...?"
+"我就要想起来了...但是还差一点...她是谁来着？"
 @page
 @v s=10004
 @【？？？】
-"Oh no... open your eyes! Itaru-kun, open your eyes!"
+;//"Oh no... open your eyes! Itaru-kun, open your eyes!"
+"快睁眼!至，快睁眼！"
 @page
 @mwoff
 @se fade=stop
@@ -55,10 +66,12 @@ This person knows my name. → Who is this person?
 @mwon
 @lfont
 @【至】
-"Nguh!?"
+;//"Nguh!?"
+"嗷!?"
 @page
 @cut
-An intense impact explodes in my stomach, and my eyes snap open.
+;//An intense impact explodes in my stomach, and my eyes snap open.
+我感到有人在重击我的肚子，然后我的眼睛马上睁开了
 @page
 That one blow completely paralyzes my lungs and throat.
 The wind is knocked out of me, so I can't call out in protest.
