@@ -1,14 +1,20 @@
 ﻿;010101
 *010101|_October 27th, 7:37 AM
 @【至】
-"No, wait, wait a minute! It's nothing!　It's really nothing!"
+;//"No, wait, wait a minute! It's nothing!　It's really nothing!"
+"等等，不要，等一下！我没事！我真的没事！"
 @page
-This is dangerous. Seriously, this is dangerous in so many ways.
-If she's hugging me this close, she'll definitely notice!
+;//This is dangerous. Seriously, this is dangerous in so many ways.
+;//If she's hugging me this close, she'll definitely notice!
+这其实很危险。我没开玩笑，这真的很危险
+如果她抱紧了我，她就会感觉到那个东西了！
 @page
-I don't want to part from her, but there's nothing I can do about it.
-I try to squirm and escape, but her arms...
-To be more precise, I'm trying to escape from her cleavage.
+;//I don't want to part from her, but there's nothing I can do about it.
+;//I try to squirm and escape, but her arms...
+;//To be more precise, I'm trying to escape from her cleavage.
+我不是想要赶她走，但是我目前真的没有别的办法了
+我尝试逃走，但是她的胳膊...
+简而言之，我现在正在挣脱她的束缚
 @page
 ;【背景】主人公自室/朝
 ;【立ち絵】わずか/悲しげ
@@ -21,27 +27,35 @@ To be more precise, I'm trying to escape from her cleavage.
 @fi s=w213 pos=c
 @v s=10019
 @【わずか】
-"Itaru-kun... why are you squirming?　Am I unpleasant?
-Is something wrong with me?　Am I not being helpful?"
+;//"Itaru-kun... why are you squirming?　Am I unpleasant?
+;//Is something wrong with me?　Am I not being helpful?"
+"至君... 为什么你要这样？我让你感到不高兴了吗？
+我做了什么错事吗？还是我只是起不到什么帮助？"
 @page
 @【至】
-"That's not it!　It's really nothing. Uh... it's just... that."
+;//"That's not it!　It's really nothing. Uh... it's just... that."
+"不是的！我没事！啊，就是那个东西..."
 @page
 @fi s=w111b pos=c
 @v s=10020
 @【わずか】
-"... I see... so, it's that..."
+;//"... I see... so, it's that..."
+"...我看看...应该是那个了..."
 @page
 @act id=w t=swing2
 @wait time=800
-She turns around and walks away, swaying.
+;//She turns around and walks away, swaying.
+她摇晃着转身离开了
 @fi id=w trans=out slide=l time=2500
 ;【立ち絵】わずか消去
 @page
-Is she mad?　Is she leaving my room?
+;//Is she mad?　Is she leaving my room?
+她生气了吗？还是她只是想要离开？
 @page
-Turns out both of my guesses were wrong.
-Nobody could have predicted what she would do next.
+;//Turns out both of my guesses were wrong.
+;//Nobody could have predicted what she would do next.
+结果我的两个猜想都是错误的
+我根本想不到她下一步居然做了这个
 @page
 ;【背景】イメージ　縦効果
 @bi s=bg850 time=500
@@ -49,7 +63,8 @@ Nobody could have predicted what she would do next.
 @lfont
 @v s=10021
 @【わずか】
-"AAAAAHHHH!!!"
+;//"AAAAAHHHH!!!"
+"啊啊啊啊啊啊！！！"
 @page
 @bi s=bg01m time=100
 ;【背景】主人公自室/朝
@@ -60,11 +75,14 @@ Nobody could have predicted what she would do next.
 @lfont
 @v s=10022
 @【わずか】
-"Agah!!"
+;//"Agah!!"
+"啊嘿!!"
 @page
 @cut
-Wazuka-san starts to smash her head on the wall.
-Judging by the sounds, her speed, and her shouts, she's doing it without holding back. I can't figure out what would make her do that.
+;//Wazuka-san starts to smash her head on the wall.
+;//Judging by the sounds, her speed, and her shouts, she's doing it without holding back. I can't figure out what would make her do that.
+僅直接以头撞墙
+从声音，速度还有叫声判断，她是真的毫不犹豫地做了。但是我想不明白为什么
 @page
 @bi s=bg8140 trans=crossfade all=true time=500
 ;【カットイン】血ノリ　……血ノリイメージの背景の黒を消去だけでいい
@@ -74,7 +92,8 @@ Judging by the sounds, her speed, and her shouts, she's doing it without holding
 @flash time=700
 @v s=10023
 @【わずか】
-"Eeekk!　Agghh!　Uuggghh!!"
+;//"Eeekk!　Agghh!　Uuggghh!!"
+"诶!!啊！！嗷!!"
 @se s=se118
 @wait time=800
 @se s=se118
@@ -84,23 +103,27 @@ Judging by the sounds, her speed, and her shouts, she's doing it without holding
 @bi s=bg01m time=100
 ;【カットイン】消去
 @【至】
-"Stop it!　That looks like it hurt!　Doesn't it hurt!?"
+;//"Stop it!　That looks like it hurt!　Doesn't it hurt!?"
+"停停停！ 这很疼地吧！你没受伤吗？"
 @page
 ;【立ち絵】わずか
 ;【備考】冷淡に
 @fi s=w548 pos=c
 @v s=10024
 @【わずか】
-"... That's fine. If I die from these injuries, it's fine."
+;//"... That's fine. If I die from these injuries, it's fine."
+"...这样很好。如果我就这么死了，那就太好了。"
 @page
 @【至】
-"... Whuh?"
+;//"... Whuh?"
+"...啊？"
 @page
 @fi s=w11b pos=c
 @qk
 @v s=10025
 @【わずか】
-"I'll die! I need to die! It's pointless to live anymore!"
+;//"I'll die! I need to die! It's pointless to live anymore!"
+"我要死！我必须死！我的存在是没有意义的！"
 @page
 @setOnce
 @fi id=w
@@ -113,22 +136,27 @@ Judging by the sounds, her speed, and her shouts, she's doing it without holding
 @lfont
 @v s=10026
 @【わずか】
-"Nnngahh!"
+;//"Nnngahh!"
+"呐啊!"
 @page
 @cut
 @【至】
-"Don't die! What are you even talking about!?"
+;//"Don't die! What are you even talking about!?"
+"不要死！你在说什么！？"
 @page
 @fi s=w21b pos=c
 @v s=10027
 @【わずか】
-"I couldn't be useful to Itaru-kun! Me? How could I? 
-Everything I do is for you!"
+;//"I couldn't be useful to Itaru-kun! Me? How could I? 
+;//Everything I do is for you!"
+"我对至有什么用？我？我能做什么？
+我做的任何事情都是为了你的！"
 @page
 @fi s=w413 pos=c
 @v s=10028
 @【わずか】
-"Even so... even so... even sooo!!!"
+;//"Even so... even so... even sooo!!!"
+"就算是死...就算是...就算是死!!!!"
 @page
 @jump storage="010103.scn"
 ;→010103
